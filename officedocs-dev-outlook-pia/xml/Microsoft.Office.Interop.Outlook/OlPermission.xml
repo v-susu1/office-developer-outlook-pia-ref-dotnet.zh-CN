@@ -1,0 +1,88 @@
+<Type Name="OlPermission" FullName="Microsoft.Office.Interop.Outlook.OlPermission">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1d98a1d5c038eb2ecd006bae2e2262997bfc6843" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633359" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlPermission" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlPermission extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlPermission" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlPermission" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlPermission" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指示对某个项目的权限限制。</summary>
+    <remarks>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Permission" />和<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Permission" />属性来指定收件人将对项目拥有的权限。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olDoNotForward">
+      <MemberSignature Language="C#" Value="olDoNotForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlPermission olDoNotForward = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />
+      <MemberSignature Language="VB.NET" Value="olDoNotForward" />
+      <MemberSignature Language="C++ CLI" Value="olDoNotForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlPermission</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>不能转发项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olPermissionTemplate">
+      <MemberSignature Language="C#" Value="olPermissionTemplate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlPermission olPermissionTemplate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />
+      <MemberSignature Language="VB.NET" Value="olPermissionTemplate" />
+      <MemberSignature Language="C++ CLI" Value="olPermissionTemplate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlPermission</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Outlook 将使用信息权限管理 (IRM) 模板来确定该项目的访问和使用权限。  请参阅<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.PermissionService" />和<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionService" />属性。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olUnrestricted">
+      <MemberSignature Language="C#" Value="olUnrestricted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlPermission olUnrestricted = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />
+      <MemberSignature Language="VB.NET" Value="olUnrestricted" />
+      <MemberSignature Language="C++ CLI" Value="olUnrestricted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlPermission</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>项目没有权限限制。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

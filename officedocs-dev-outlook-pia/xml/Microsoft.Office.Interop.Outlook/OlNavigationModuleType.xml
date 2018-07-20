@@ -1,0 +1,240 @@
+<Type Name="OlNavigationModuleType" FullName="Microsoft.Office.Interop.Outlook.OlNavigationModuleType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="962cc61e0ae4176aabb9c2a50b45f802b6477e8c" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633403" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlNavigationModuleType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlNavigationModuleType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlNavigationModuleType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlNavigationModuleType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>标识导航模块类型的<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象。</summary>
+    <remarks>
+      <para>此枚举由<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" />属性的下列对象来标识导航模块的类型：</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <b>CalendarModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>ContactsModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>JournalModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>MailModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>模块</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>NotesModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>TasksModule</b>
+          </para>
+        </item>
+      </list>
+      <para>枚举还由<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />来标识要检索该方法的<b>NavigationModule</b>的导航模块类型的集合。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olModuleCalendar">
+      <MemberSignature Language="C#" Value="olModuleCalendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleCalendar = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleCalendar" />
+      <MemberSignature Language="VB.NET" Value="olModuleCalendar" />
+      <MemberSignature Language="C++ CLI" Value="olModuleCalendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>标识<see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" />对象，表示日历导航模块。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleContacts">
+      <MemberSignature Language="C#" Value="olModuleContacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleContacts = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleContacts" />
+      <MemberSignature Language="VB.NET" Value="olModuleContacts" />
+      <MemberSignature Language="C++ CLI" Value="olModuleContacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>标识<see cref="T:Microsoft.Office.Interop.Outlook.ContactsModule" />对象，表示联系人导航模块。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleFolderList">
+      <MemberSignature Language="C#" Value="olModuleFolderList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleFolderList = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleFolderList" />
+      <MemberSignature Language="VB.NET" Value="olModuleFolderList" />
+      <MemberSignature Language="C++ CLI" Value="olModuleFolderList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>标识表示文件夹列表导航模块的<b>NavigationModule</b>对象。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleJournal">
+      <MemberSignature Language="C#" Value="olModuleJournal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleJournal = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleJournal" />
+      <MemberSignature Language="VB.NET" Value="olModuleJournal" />
+      <MemberSignature Language="C++ CLI" Value="olModuleJournal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>标识<see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />对象，表示日记导航模块。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleMail">
+      <MemberSignature Language="C#" Value="olModuleMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleMail = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleMail" />
+      <MemberSignature Language="VB.NET" Value="olModuleMail" />
+      <MemberSignature Language="C++ CLI" Value="olModuleMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>标识<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象，表示邮件导航模块。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleNotes">
+      <MemberSignature Language="C#" Value="olModuleNotes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleNotes = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleNotes" />
+      <MemberSignature Language="VB.NET" Value="olModuleNotes" />
+      <MemberSignature Language="C++ CLI" Value="olModuleNotes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>标识<see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" />对象，表示便笺导航模块。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleShortcuts">
+      <MemberSignature Language="C#" Value="olModuleShortcuts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleShortcuts = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleShortcuts" />
+      <MemberSignature Language="VB.NET" Value="olModuleShortcuts" />
+      <MemberSignature Language="C++ CLI" Value="olModuleShortcuts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>标识一个代表快捷方式导航模块的<b>NavigationModule</b>对象。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleSolutions">
+      <MemberSignature Language="C#" Value="olModuleSolutions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleSolutions = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleSolutions" />
+      <MemberSignature Language="VB.NET" Value="olModuleSolutions" />
+      <MemberSignature Language="C++ CLI" Value="olModuleSolutions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>A<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />对象，表示解决方案导航模块。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleTasks">
+      <MemberSignature Language="C#" Value="olModuleTasks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleTasks = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleTasks" />
+      <MemberSignature Language="VB.NET" Value="olModuleTasks" />
+      <MemberSignature Language="C++ CLI" Value="olModuleTasks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>标识<see cref="T:Microsoft.Office.Interop.Outlook.TasksModule" />对象，表示任务导航模块。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

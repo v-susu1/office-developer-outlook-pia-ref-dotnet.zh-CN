@@ -1,0 +1,66 @@
+<Type Name="OlFormatCurrency" FullName="Microsoft.Office.Interop.Outlook.OlFormatCurrency">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="df1755aa911feb859099e1af42ce6de992b0068f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633390" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlFormatCurrency" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlFormatCurrency extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlFormatCurrency" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlFormatCurrency" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>表示用于显示货币类型的 Outlook 项目属性的格式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olFormatCurrencyDecimal">
+      <MemberSignature Language="C#" Value="olFormatCurrencyDecimal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlFormatCurrency olFormatCurrencyDecimal = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlFormatCurrency.olFormatCurrencyDecimal" />
+      <MemberSignature Language="VB.NET" Value="olFormatCurrencyDecimal" />
+      <MemberSignature Language="C++ CLI" Value="olFormatCurrencyDecimal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFormatCurrency</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>显示货币值的小数位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olFormatCurrencyNonDecimal">
+      <MemberSignature Language="C#" Value="olFormatCurrencyNonDecimal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlFormatCurrency olFormatCurrencyNonDecimal = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlFormatCurrency.olFormatCurrencyNonDecimal" />
+      <MemberSignature Language="VB.NET" Value="olFormatCurrencyNonDecimal" />
+      <MemberSignature Language="C++ CLI" Value="olFormatCurrencyNonDecimal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFormatCurrency</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>不显示货币值的小数位，将货币值四舍五入到最接近的整数。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

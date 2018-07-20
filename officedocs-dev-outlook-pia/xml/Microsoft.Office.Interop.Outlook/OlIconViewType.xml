@@ -1,0 +1,88 @@
+<Type Name="OlIconViewType" FullName="Microsoft.Office.Interop.Outlook.OlIconViewType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2f7075486f9a9bbd3d12bc6f2b5da560eb9b2855" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633363" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlIconViewType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlIconViewType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlIconViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlIconViewType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlIconViewType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指示时使用的视图模式<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象。</summary>
+    <remarks>
+      <para>对于<b>olIconViewLarge</b><b>olIconViewSmall</b>以及的实际位置和<b>IconView</b>对象中显示的图标的方向由<see cref="T:Microsoft.Office.Interop.Outlook.OlIconViewPlacement" />常量中指定<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconPlacement" /><b>IconView</b>对象的属性。<b>OlIconViewList</b>处于选中状态时，将忽略<b>IconPlacement</b>属性值。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olIconViewLarge">
+      <MemberSignature Language="C#" Value="olIconViewLarge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlIconViewType olIconViewLarge = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlIconViewType.olIconViewLarge" />
+      <MemberSignature Language="VB.NET" Value="olIconViewLarge" />
+      <MemberSignature Language="C++ CLI" Value="olIconViewLarge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlIconViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>以大图标显示 Outlook 项目，在图标下方带有对 Outlook 项目的说明。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olIconViewList">
+      <MemberSignature Language="C#" Value="olIconViewList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlIconViewType olIconViewList = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlIconViewType.olIconViewList" />
+      <MemberSignature Language="VB.NET" Value="olIconViewList" />
+      <MemberSignature Language="C++ CLI" Value="olIconViewList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlIconViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>以小图标的列表显示 Outlook 项目，在图标的旁边带有对 Outlook 项目的说明。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olIconViewSmall">
+      <MemberSignature Language="C#" Value="olIconViewSmall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlIconViewType olIconViewSmall = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlIconViewType.olIconViewSmall" />
+      <MemberSignature Language="VB.NET" Value="olIconViewSmall" />
+      <MemberSignature Language="C++ CLI" Value="olIconViewSmall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlIconViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>以小图标的集合显示 Outlook 项目，在图标的旁边带有对 Outlook 项目的说明。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

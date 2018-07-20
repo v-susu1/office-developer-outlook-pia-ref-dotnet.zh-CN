@@ -1,0 +1,45 @@
+<Type Name="Folder" FullName="Microsoft.Office.Interop.Outlook.Folder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d6c625d85c01ec31ae74570f0ecc93846b7a7fb1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633337" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Folder : Microsoft.Office.Interop.Outlook.MAPIFolder, Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Folder implements class Microsoft.Office.Interop.Outlook.MAPIFolder, class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Folder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Folder&#xA;Implements MAPIFolder, MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Folder : Microsoft::Office::Interop::Outlook::MAPIFolder, Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.MAPIFolder</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.FolderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063006-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表 Outlook 文件夹。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此接口来访问<b>文件夹</b>的 COM 对象的所有方法、 属性和事件成员。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />。</para>
+      <para>
+        <b>Folder</b>对象可以包含其他<b>Folder</b>对象，以及 Outlook 项目。使用的<b>Folders</b>属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象或其他<b>Folder</b>对象，返回的一组文件夹<b>命名空间</b>中或文件夹下。您可以通过从顶级文件夹中，启动导航嵌套的文件夹说收件箱，并使用的组合<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" />属性，返回层次结构中的一组文件夹下一个<b>Folder</b>对象，该属性和<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" />属性 (<b>这</b>中 C#)，它返回中的文件夹<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合。</para>存在
+      <para>是 outlook 的一组支持默认功能 Outlook 数据存储中的文件夹。使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />、 指定<paramref name="index" />，它是在常量之一<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />枚举返回 Outlook <b>NameSpace</b>对象中的一个默认的 Outlook 文件夹。</para><para>时通常很好的做法放置提供相同功能同一文件夹中的项目，文件夹可以包含不同类型的项。例如，默认情况下，日历文件夹可以包含<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />和<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />对象和文件夹可以包含的联系人<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />和<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象。一般情况下，枚举文件夹中的项目时，不假定文件夹; 中的项目的类型访问适用于项目的属性之前检查项目的消息类。</para>使用
+      <para><see cref="M:Microsoft.Office.Interop.Outlook._Folders.Add(System.String,System.Object)" />方法将文件夹添加到<b>Folders</b>对象。<b>Add</b>方法具有可以用于指定可以在该文件夹中存储的项目键入可选参数。默认情况下，在另一个文件夹中创建的文件夹继承父文件夹的类型。</para><para>注意的特定类型的项保存时，它们直接保存到相应的默认文件夹。例如，当<see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" />方法应用于收件箱文件夹中<b>MeetingItem</b> 、 约会返回将保存到默认日历文件夹。</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>
