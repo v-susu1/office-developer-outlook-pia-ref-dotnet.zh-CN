@@ -1,0 +1,49 @@
+<Type Name="ViewField" FullName="Microsoft.Office.Interop.Outlook.ViewField">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="84fc8af049b7b0856da6d28fd712eb4b21599cd8" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633023" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ViewField : Microsoft.Office.Interop.Outlook._ViewField" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ViewField implements class Microsoft.Office.Interop.Outlook._ViewField" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ViewField" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ViewField&#xA;Implements _ViewField" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ViewField : Microsoft::Office::Interop::Outlook::_ViewField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._ViewField</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ViewFieldClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630A0-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表用于在视图中显示信息的视图字段。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ViewField" />。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />集合将 Outlook 项目属性添加到以下对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象：</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
+          </para>
+        </item>
+      </list>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ColumnFormat" />属性访问<see cref="T:Microsoft.Office.Interop.Outlook.ColumnFormat" />对象，表示与视图字段关联的显示属性。使用<see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />属性获取视图的 XML 定义中所引用的视图字段的名称。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

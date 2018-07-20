@@ -1,0 +1,492 @@
+<Type Name="_Table" FullName="Microsoft.Office.Interop.Outlook._Table">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f3622358929b16ec4cf2cb1b6f8e806f59c4d317" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632282" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Table" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Table" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Table" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Table" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Table" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Columns">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Columns Columns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Columns Columns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Columns" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Columns As Columns" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Columns ^ Columns { Microsoft::Office::Interop::Outlook::Columns ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64403)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64403)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Columns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合对象，它定义的列包含<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Columns</b>集合对象是<b>Table</b>对象的默认成员。 </para>
+          <para>
+            <b>表</b>中的行对应，父级中的项目时<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />或<see cref="T:Microsoft.Office.Interop.Outlook.Search" /><b>表</b>，<b>表</b>中的<b>列</b>的对象对应于这些项目的属性。定义的所有文件夹，具体取决于<b>Table</b>对象的父文件夹的默认列。例如，收件箱的默认属性是： <b>EntryID</b>、 <b>Subject</b>、 <b>CreationTime</b>、 <b>LastModificationTime</b>和<b>MessageClass</b>。默认属性为<b>表</b>的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87925">Table 对象中显示的默认属性</a></para>
+          <para>添加<see cref="T:Microsoft.Office.Interop.Outlook.Column" />到<b>表</b>中的<b>Columns</b>集合的对象使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />。若要删除默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />。调整<b>表</b>的列的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkID=87935">向 Table 对象添加列</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndOfTable">
+      <MemberSignature Language="C#" Value="public bool EndOfTable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EndOfTable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndOfTable As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EndOfTable { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64287)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64287)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示当前行是否位于中的最后一行之后<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>当您打开<b>表</b>使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />， <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />， <b>EndOfTable</b>的值取决于的<b>表</b>中的行数。如果不有任何行，则<b>EndOfTable</b>将返回 True。如果行，则<b>EndOfTable</b>返回<b>False</b> ，直至将光标移动超出表中的最后一行。 </para>
+          <para>
+            <b>表</b>有两个虚拟<b>Null</b>行，一个第一行之前，另一个<b>表</b>中的最后一行之后。每次调用<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />将当前行移动到<b>表</b>中的下一行并返回<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象，表示当前行。  </para>
+          <para>
+            <b>EndOfTable</b>属性返回<b>True</b> ，如果当前行是最后一行和<b>False</b>后，如果当前行或最后一行之前。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNextRow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Row FindNextRow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Row FindNextRow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.FindNextRow" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindNextRow () As Row" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Row ^ FindNextRow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Row</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>找到的下一行中<see cref="T:Microsoft.Office.Interop.Outlook.Table" />的满足在前面指定的条件<see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />。</summary>
+        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象，表示<b>表</b>满足上述<b>FindRow</b>调用中的筛选器条件的下一行。 如果<b>FindNextRow</b>找不到另一个行符合<b>FindRow</b>中指定的条件，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。 此外将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<b>FindRow</b>不<b>FindNextRow</b>之前调用。</returns>
+        <remarks>
+          <para>
+            <b>FindNextRow</b>查找基于由上述<b>FindRow</b>或<b>FindNextRow</b>返回的行的下一行。不依赖的当前行 (如当前行可能具有已重新定位以来前面<b>FindRow</b>或<b>FindNextRow</b>，例如，通过<see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />)。</para>如果<b>FindNextRow</b>查找行
+          <para>，它将为该行的当前行。如果找不到另一个行，它将不重新定位当前行。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindRow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Row FindRow (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Row FindRow([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindRow (Filter As String) As Row" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Row ^ FindRow(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Row</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">指定 <b>表</b> 中的行必须满足的条件。</param>
+        <summary>查找中的第一行<see cref="T:Microsoft.Office.Interop.Outlook.Table" />符合中指定的条件<paramref name="Filter" />。</summary>
+        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象，表示<b>表</b>符合筛选条件中的第一行。 如果找不到这样的行，或<b>表</b>不包含任何行，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</returns>
+        <remarks>
+          <para>
+            <b>FindRow</b>始终从从<b>表</b>中的第一行开始。 </para>
+          <para>
+            <b>FindRow</b>如果中的属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）<paramref name="Filter" />指定命名空间中不存在。属性被视为 MAPI 属性集 PS_PUBLIC_STRINGS 中的命名的属性。<b>FindRow</b>在这种情况下不会返回错误。</para>如果
+          <para><b>FindRow</b>返回错误<paramref name="Filter" />是空字符串或无效的限制。<b>FindRow</b>没有找到任何行的情况下，将不当前行定位到其之前调用<b>FindRow</b>。</para>用于内容索引的搜索<b>表</b>、 使用
+          <para><see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />方法。<b>FindRow</b>将返回错误，如果<paramref name="Filter" />包含内容索引的关键字。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetArray">
+      <MemberSignature Language="C#" Value="public object GetArray (int MaxRows);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetArray([in]int32 MaxRows) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.GetArray(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetArray (MaxRows As Integer) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetArray(int MaxRows);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64463)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MaxRows" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="MaxRows">指定要返回 <b>表</b> 中的行的最大数目。</param>
+        <summary>获取一个二维数组，包含一组行和列的值从<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</summary>
+        <returns>一个<b>Object</b>值，是二维数组表示<b>表</b>中的一组行和列的值。 该数组是从零开始;数组中的第 i 和第 j 列行的数组索引 (i，j) 索引。 数组中的列相对应的 <b>表</b> 中的列和行数组中的对应于 <b>表</b> 中的行。 返回的数组中的行数是较小的值<paramref name="MaxRows" />和<b>表</b>中的行的实际数目。</returns>
+        <remarks>
+          <para>
+            <b>GetArray</b>方法提供要按将全部或部分 （基于当前行）<b>表</b>中的数据复制到数组和到数组索引<b>表</b>中获取值的从概念上讲简单方式。</para>
+          <para>
+            <b>GetArray</b>始终启动<b>表</b>的当前行。它返回的数组<paramref name="MaxRows" />如果至少有的行号<paramref name="MaxRows" />当前位置开始<b>表</b>中的行数。如果<paramref name="MaxRows" />不大于在<b>表</b>中，总行数少于和<paramref name="MaxRows" />数元素在当前行处开始<b>表</b>，它将返回一个数组，包含仅的剩余行中<b>表</b>。如果调用<b>GetArray</b>并没有剩余的行，然后<b>GetArray</b>返回空数组包含零个元素。</para>
+          <para>
+            <b>表</b>中并返回之前，请获取合适的行后, <b>GetArray</b>始终将重新定位当前行到下一行在<b>表</b>中，如果存在下一行。GetArray(n) 运行如同<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />是调用 n 次。</para>
+          <para>列中的值映射到列在<b>表</b>中，并因此由用于列的属性名称的格式。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNextRow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Row GetNextRow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Row GetNextRow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNextRow () As Row" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Row ^ GetNextRow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(87)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Row</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将当前行移动到的下一行中<see cref="T:Microsoft.Office.Interop.Outlook.Table" />和获取<b>表</b>中的行。</summary>
+        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象，表示<b>表</b>中的下一个有效行，如果有其他行可用。 如果不没有可用的任何其他行 (其中<see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" />是<b>True</b>)， <b>GetNextRow</b>将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRowCount">
+      <MemberSignature Language="C#" Value="public int GetRowCount ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetRowCount() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.GetRowCount" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRowCount () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetRowCount();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>获取中的行数<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</summary>
+        <returns>代表表中行数的<b>整数</b>(C# 中<b>int</b> ) 值。</returns>
+        <remarks>
+          <para>
+            <b>GetRowCount</b>大型表上将导致性能造成负面影响。 由于 MAPI 限制 （例如，对于大型表，同时操作在<b>表</b>上的内存约束）， <b>GetRowCount</b>可能不能确定<b>表</b>中的行数或它可能仅返回近似行计数。在这些情况下， <b>GetRowCount</b>将返回错误。您应使用<b>GetRowCount</b>相应的错误的检测来确定是否呼叫将返回错误。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToStart">
+      <MemberSignature Language="C#" Value="public void MoveToStart ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MoveToStart() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MoveToStart ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveToStart();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64286)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>移动的当前行<see cref="T:Microsoft.Office.Interop.Outlook.Table" /><b>表</b>的第一行之前。</summary>
+        <remarks>
+          <para>
+            <b>MoveToStart</b>等效于重置<b>表</b>。如果您调用<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />呼叫<b>MoveToStart</b>后，您将返回表示<b>表格</b>中的第一行的行。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回父<b>对象</b>的<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restrict">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Table Restrict (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Table Restrict([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Restrict (Filter As String) As Table" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Table ^ Restrict(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Table</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">
+          <b>Table</b>对象中指定的行的条件。</param>
+        <summary>将筛选应用于中的行<see cref="T:Microsoft.Office.Interop.Outlook.Table" />，并获取新的<b>Table</b>对象。</summary>
+        <returns>
+          <b>Table</b>对象，通过应用返回<paramref name="Filter" />于父<b>Table</b>对象中的行。</returns>
+        <remarks>
+          <para>您只能使用<b>Table.Restrict</b>将另一个筛选器应用于<b>表格</b>中，如果<b>表</b>的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。如果父对象是<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象， <b>Restrict</b>方法将返回错误。</para>
+          <para>筛选器应用于 Table 对象中的行，因为该属性等同于应用筛选器的逻辑 AND 的<paramref name="Filter" />和应用到相同的<b>Table</b>对象的所有上述筛选器。</para>
+          <para>
+            <paramref name="Filter" />是表示为父<b>Table</b>中的行的项目的指定属性的查询。查询使用 Microsoft Jet 语法或 DAV 搜索和定位 (DASL) 语法。例如，以下 Jet 筛选器和 DASL 筛选器指定项目的同一个条件时<b>LastModificationTime</b>早于 2005 年 6 月 12 日的下午 3:30:</para>
+          <para>条件 ="[LastModificationTime] &lt; '"&amp;格式 $("6/12 /2005 下午 3:30"，"常规日期") &amp; "'"</para>
+          <para>条件 ="@SQL =" &amp; chr （34) &amp; "DAV:getlastmodified" &amp; chr （34) &amp; " &lt; '"&amp;格式 $("2005 年 6 月 12 日下午 3:30"，"常规日期") &amp; "'"</para>
+          <para>为<b>Table</b>对象中，指定筛选器的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
+          <para>如果<paramref name="Filter" />包含自定义属性，这些属性中的<b>Table</b>对象的父文件夹中必须存在顺序为正常工作的限制的。 <b>表</b>筛选器，包括二进制属性、 计算的属性和 HTML 或 RTF 正文内容中不支持某些属性。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table 对象或 Table 筛选器中不受支持属性</a></para>
+          <para>如果<paramref name="Filter" />是空字符串， <b>Restrict</b>返回与父<b>Table</b>对象相同的<b>Table</b>对象。 </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sort">
+      <MemberSignature Language="C#" Value="public void Sort (string SortProperty, object Descending);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Sort([in]string SortProperty, [in]object Descending) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Sort (SortProperty As String, Optional Descending As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SortProperty" Type="System.String" />
+        <Parameter Name="Descending" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SortProperty">指定要使用的 <b>表</b> 的行进行排序的属性。</param>
+        <param name="Descending">是否对 <b>表</b> 按降序进行排序。</param>
+        <summary>对行进行排序<see cref="T:Microsoft.Office.Interop.Outlook.Table" />属性中指定<paramref name="SortProperty" />并重置当前行<b>表</b>中的第一行之前。</summary>
+        <remarks>
+          <para>
+            <paramref name="SortProperty" />可以是任何显式内置属性或自定义属性，但二进制和多值属性除外。必须按其显式字符串名称; 引用属性它不能通过命名空间引用。进一步指定排序属性的信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87936">排序文件夹中的项目</a></para>
+          <para>表进行排序等效于调用<see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />方法。光标将定位到的表的开头。 </para>
+          <para>如果<b>先调用 Table.Sort</b>然后<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />称为，筛选新<b>表</b>中的项目将按相同<paramref name="SortProperty" />和<paramref name="SortOrder" />。</para>
+          <para>
+            <b>Table.Sort</b>仅支持按单列进行排序。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

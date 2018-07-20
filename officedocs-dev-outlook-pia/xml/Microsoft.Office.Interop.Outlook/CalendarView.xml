@@ -1,0 +1,44 @@
+<Type Name="CalendarView" FullName="Microsoft.Office.Interop.Outlook.CalendarView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="12ed0a14ddc65370b41ab256c1e4929bc224c9a8" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633083" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CalendarView : Microsoft.Office.Interop.Outlook._CalendarView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalendarView implements class Microsoft.Office.Interop.Outlook._CalendarView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.CalendarView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CalendarView&#xA;Implements _CalendarView" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CalendarView : Microsoft::Office::Interop::Outlook::_CalendarView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._CalendarView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.CalendarViewClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063099-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表以日历格式显示 Outlook 项目的视图。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._CalendarView" />。</para>
+      <para>派生的<b>CalendarView</b>对象<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象，可以创建允许在日历中多个不同的模式之一显示 Outlook 项目的可自定义视图。</para>
+      <para>Outlook 提供了几个内置<b>CalendarView</b>对象和您还可以创建自定义的<b>CalendarView</b>对象。使用<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合添加到新<b>CalendarView</b><see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。使用<see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.Standard" />属性可以确定是否内置或自定义现有的<b>CalendarView</b>对象。</para>
+      <para>
+        <b>CalendarView</b>对象支持多种不同的视图模式，具体取决于所需的布局和显示 Outlook 项目的时间段。使用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" />属性设置的视图模式，<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" />属性指定包含的开始日期，Outlook 项目属性和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" />属性指定包含要的 Outlook 项目的结束日期的 Outlook 项目属性显示。</para>如果将<b>CalendarViewMode</b>属性设置为<b>olCalendarViewMonth</b>之外的任意值
+      <para>，您可以使用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekFont" />和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeFont" />属性来配置用于在视图中显示一天、 日期和时间标签的字体。使用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeScale" />配置用于视图中显示 Outlook 项目的时间刻度。如果您将<b>CalendarViewMode</b>设置为<b>olCalendarViewMultiDay</b>，则可以使用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DaysInMultiDayMode" />属性可以确定要在视图中显示的天数。</para>如果设置为<b>olCalendarViewMonth</b><b>CalendarViewMode</b><para>，您可以使用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthFont" />属性可以配置用于显示月份和日期标签的字体和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthShowEndTime" />以指示是否在中显示的结束时间视图。</para><para>您还可以配置 Outlook 项目中的<b>CalendarView</b>对象的显示方式。使用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.BoldSubjects" />属性，以指示是否以粗体显示 Outlook 项目的主题和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.BoldDatesWithItems" />属性，以指示是否以粗体显示中日期选择区包含 Outlook 项目的日期。使用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.Filter" />属性确定要在视图中显示 Outlook 项目。</para><para>每个<b>CalendarView</b>对象的定义存储在可扩展标记语言 (XML) 格式。使用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.XML" />属性用于在 CalendarView 对象的 XML 定义。</para>使用
+      <para><see cref="M:Microsoft.Office.Interop.Outlook._CalendarView.Apply" />方法，应用于当前视图的<b>CalendarView</b>对象的任何更改。使用<see cref="M:Microsoft.Office.Interop.Outlook._CalendarView.Save" />方法以持续对<b>CalendarView</b>对象所做的任何更改。使用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.LockUserChanges" />属性以允许或阻止到视图的用户界面的更改。</para><para>可以更改内置<b>CalendarView</b>对象，但不是能删除它们。使用<see cref="M:Microsoft.Office.Interop.Outlook._CalendarView.Delete" />方法，以删除自定义的<b>CalendarView</b>对象。使用<see cref="M:Microsoft.Office.Interop.Outlook._CalendarView.Reset" />方法的内置的<b>CalendarView</b>对象的属性重置为其默认值。</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

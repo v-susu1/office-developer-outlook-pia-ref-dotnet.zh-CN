@@ -1,0 +1,370 @@
+<Type Name="OlkOptionButtonEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ed91f8b596ded0ca865aea4e084e9c92c7cde5c4" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632478" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface OlkOptionButtonEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkOptionButtonEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OlkOptionButtonEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OlkOptionButtonEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents), typeof(Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_AfterUpdateEventHandler AfterUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_AfterUpdateEventHandler AfterUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.AfterUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event AfterUpdate As OlkOptionButtonEvents_AfterUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_AfterUpdateEventHandler ^ AfterUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_AfterUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当控件中的数据已通过用户界面更改后发生。</summary>
+        <remarks>
+          <para>
+            <b>BeforeUpdate</b>和<b>AfterUpdate</b>会发生任何控件中的数据保存到项目的时间。 典型的此控件，如下所示，涉及<b>AfterUpdate</b>事件序列：</para>
+          <list type="number">
+            <item>
+              <description>用户将焦点放在控件上</description>
+            </item>
+            <item>
+              <description>
+                <b>BeforeUpdate</b>
+              </description>
+            </item>
+            <item>
+              <description>控件数据被更新</description>
+            </item>
+            <item>
+              <description>
+                <b>AfterUpdate</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>Exit</b>： 用户将焦点从控件上</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_BeforeUpdateEventHandler BeforeUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_BeforeUpdateEventHandler BeforeUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.BeforeUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeUpdate As OlkOptionButtonEvents_BeforeUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_BeforeUpdateEventHandler ^ BeforeUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_BeforeUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当控件中的数据通过用户界面更改并且即将保存到项目时发生。</summary>
+        <remarks>
+          <para>取消此属性将还原为属性的当前值的控件，并将焦点返回到该控件。</para>
+          <para>
+            <b>BeforeUpdate</b>
+            <b>AfterUpdate</b>会导致出现和的随时控件中的数据保存到项目。 典型的此控件，如下所示，涉及<b>BeforeUpdate</b>事件序列：</para>
+          <list type="number">
+            <item>
+              <description>用户将焦点放在控件上</description>
+            </item>
+            <item>
+              <description>
+                <b>BeforeUpdate</b>
+              </description>
+            </item>
+            <item>
+              <description>控件数据被更新</description>
+            </item>
+            <item>
+              <description>
+                <b>AfterUpdate</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>Exit</b>： 用户将焦点从控件上</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_ChangeEventHandler Change;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_ChangeEventHandler Change" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.Change" />
+      <MemberSignature Language="VB.NET" Value="Event Change As OlkOptionButtonEvents_ChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_ChangeEventHandler ^ Change;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>发生此事件时<see cref="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.Value" />属性更改。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.Click" />
+      <MemberSignature Language="VB.NET" Value="Event Click As OlkOptionButtonEvents_ClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_ClickEventHandler ^ Click;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户在控件内单击时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_DoubleClickEventHandler DoubleClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_DoubleClickEventHandler DoubleClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.DoubleClick" />
+      <MemberSignature Language="VB.NET" Value="Event DoubleClick As OlkOptionButtonEvents_DoubleClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_DoubleClickEventHandler ^ DoubleClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_DoubleClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户在控件内双击时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_EnterEventHandler Enter;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_EnterEventHandler Enter" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.Enter" />
+      <MemberSignature Language="VB.NET" Value="Event Enter As OlkOptionButtonEvents_EnterEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_EnterEventHandler ^ Enter;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_EnterEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当控件获得焦点时前, 一个控件的 <b>Exit</b> 事件之后立即发生。</summary>
+        <remarks>
+          <para>这是托管代码控件公开的或 Microsoft Visual Basic 6 中的<b>GotFocus</b>事件类似。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_ExitEventHandler Exit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_ExitEventHandler Exit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.Exit" />
+      <MemberSignature Language="VB.NET" Value="Event Exit As OlkOptionButtonEvents_ExitEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_ExitEventHandler ^ Exit;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_ExitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在焦点从此控件移到同一窗体上的另一个控件上后立即发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_KeyDownEventHandler KeyDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_KeyDownEventHandler KeyDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.KeyDown" />
+      <MemberSignature Language="VB.NET" Value="Event KeyDown As OlkOptionButtonEvents_KeyDownEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_KeyDownEventHandler ^ KeyDown;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户按下某个键时发生。</summary>
+        <remarks>
+          <para>
+            <b>KeyDown</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_KeyPressEventHandler KeyPress;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_KeyPressEventHandler KeyPress" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.KeyPress" />
+      <MemberSignature Language="VB.NET" Value="Event KeyPress As OlkOptionButtonEvents_KeyPressEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_KeyPressEventHandler ^ KeyPress;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户按某个 ANSI 键时发生。</summary>
+        <remarks>
+          <para>生成可键入字符，当用户按其 ANSI 键。用户运行窗体在窗体上按下某个 ANSI 键或上的某个控件具有焦点时，将发生<b>KeyPress</b>事件。之前或之后释放该键，可能发生此事件。</para>
+          <para>
+            <b>KeyPress</b>事件以下情况下不会发生：</para>
+          <list type="bullet">
+            <item>
+              <para>按选项卡上</para>
+            </item>
+            <item>
+              <para>按输入</para>
+            </item>
+            <item>
+              <para>按箭头键</para>
+            </item>
+            <item>
+              <para>当键击导致焦点从一个控件移到另一个。</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_KeyUpEventHandler KeyUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_KeyUpEventHandler KeyUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.KeyUp" />
+      <MemberSignature Language="VB.NET" Value="Event KeyUp As OlkOptionButtonEvents_KeyUpEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_KeyUpEventHandler ^ KeyUp;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户释放某个键时发生。</summary>
+        <remarks>
+          <para>在<b>KeyUp</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Event MouseDown As OlkOptionButtonEvents_MouseDownEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_MouseDownEventHandler ^ MouseDown;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户在控件上按下鼠标按钮时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Event MouseMove As OlkOptionButtonEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_MouseMoveEventHandler ^ MouseMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在控件上出现鼠标移动后发生。</summary>
+        <remarks>
+          <para>按 ALT 键可触发<b>MouseMove</b>事件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Event MouseUp As OlkOptionButtonEvents_MouseUpEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkOptionButtonEvents_MouseUpEventHandler ^ MouseUp;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户在控件上释放已经按下的鼠标按钮后发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

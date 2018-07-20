@@ -1,0 +1,47 @@
+<Type Name="Row" FullName="Microsoft.Office.Interop.Outlook.Row">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bb36e7173df26003269e3dca6af6c3a6f59b4663" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632455" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Row : Microsoft.Office.Interop.Outlook._Row" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Row implements class Microsoft.Office.Interop.Outlook._Row" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Row" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Row&#xA;Implements _Row" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Row : Microsoft::Office::Interop::Outlook::_Row" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Row</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RowClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表中的数据行的<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Row" />。</para>
+      <para>
+        <b>表</b>组成的行和列。它表示中的数据的只读动态行集<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />或<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象。您可以将<b>表</b>的每一行视为文件夹，并作为项目的属性的每个列中的项目。默认情况下<b>表</b>包含的文件夹中的项目的属性的子集。这使得<b>表</b>支持快速枚举和筛选文件夹中的项目的内存中轻型行集。</para>
+      <para>如果<b>Table</b>对象获取从<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />，您可以进一步指定筛选器 (在<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />) 以获取更多受限<b>表</b>中的行集。</para>
+      <para>可以使用表方法： <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindNextRow" />， <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />获取<b>表</b>中的特定行。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Row.GetValues" />获取<b>表</b>中的行的列值相对应的值的数组。</para>
+      <para>使用帮助程序函数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />的特定行的列值进行类型转换。上<b>表</b>中的属性值表示方式的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a></para>
+      <para>虽然反映的基础文件夹添加和删除但<b>表</b>中的行，<b>表</b>不添加、 更改和删除的行中不支持任何事件。如果您需要<b>表格</b>行中的可写对象，从<b>表</b>中的默认 EntryID 列获取该行的条目 ID，然后使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象获取整个项目，例如<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /><see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />，支持的读写操作。上<b>表</b>中的默认列的详细信息，请参阅表中显示的默认属性。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

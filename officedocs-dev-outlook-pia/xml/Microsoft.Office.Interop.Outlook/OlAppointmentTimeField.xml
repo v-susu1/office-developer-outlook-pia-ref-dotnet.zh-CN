@@ -1,0 +1,90 @@
+<Type Name="OlAppointmentTimeField" FullName="Microsoft.Office.Interop.Outlook.OlAppointmentTimeField">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9049e51daed25baf58cf3f4780361b93f8f95a99" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632554" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlAppointmentTimeField" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlAppointmentTimeField extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlAppointmentTimeField" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlAppointmentTimeField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("BA5537F4-8941-4E26-871E-0D53D647B9FC")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>在约会中指定控件绑定到的时间字段。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olAppointmentTimeFieldEnd">
+      <MemberSignature Language="C#" Value="olAppointmentTimeFieldEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAppointmentTimeField olAppointmentTimeFieldEnd = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField.olAppointmentTimeFieldEnd" />
+      <MemberSignature Language="VB.NET" Value="olAppointmentTimeFieldEnd" />
+      <MemberSignature Language="C++ CLI" Value="olAppointmentTimeFieldEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAppointmentTimeField</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>控件绑定到约会的结束时间。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olAppointmentTimeFieldNone">
+      <MemberSignature Language="C#" Value="olAppointmentTimeFieldNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAppointmentTimeField olAppointmentTimeFieldNone = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField.olAppointmentTimeFieldNone" />
+      <MemberSignature Language="VB.NET" Value="olAppointmentTimeFieldNone" />
+      <MemberSignature Language="C++ CLI" Value="olAppointmentTimeFieldNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAppointmentTimeField</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>控件未绑定。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olAppointmentTimeFieldStart">
+      <MemberSignature Language="C#" Value="olAppointmentTimeFieldStart" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAppointmentTimeField olAppointmentTimeFieldStart = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField.olAppointmentTimeFieldStart" />
+      <MemberSignature Language="VB.NET" Value="olAppointmentTimeFieldStart" />
+      <MemberSignature Language="C++ CLI" Value="olAppointmentTimeFieldStart" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAppointmentTimeField</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>控件绑定到约会的开始时间。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

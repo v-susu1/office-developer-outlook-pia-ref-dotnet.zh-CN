@@ -1,0 +1,87 @@
+<Type Name="RuleCondition" FullName="Microsoft.Office.Interop.Outlook.RuleCondition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c8dcd68641587fe09b73c2039f1d0b10882d45a6" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632541" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface RuleCondition : Microsoft.Office.Interop.Outlook._RuleCondition" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleCondition implements class Microsoft.Office.Interop.Outlook._RuleCondition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleCondition" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RuleCondition&#xA;Implements _RuleCondition" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RuleCondition : Microsoft::Office::Interop::Outlook::_RuleCondition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._RuleCondition</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RuleConditionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D9-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <b>RuleCondition</b> 对象代表在规则执行前必须满足的条件，或者在规则执行前不得满足的例外条件。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._RuleCondition" />。</para>
+      <para>
+        <b>RuleCondition</b>是支持的编程方式创建规则的规则条件的基类。派生自<b>RuleCondition</b>的类包括：</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />
+          </para>
+        </item>
+      </list>
+      <para>规则对象模型提供与规则和通知向导中的部分奇偶校验Outlook 用户界面。它支持的最常用的规则操作和条件。尽管它不支持创建规则与每个规则操作或规则条件，该向导支持，您可以仍枚举和启用这些规则操作和中现有规则的条件。</para>
+      <para>规则条件的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">如何： 创建特定电子邮件移动到文件夹规则</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,652 @@
+<Type Name="ItemEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fd919c2e15484df8a6620c4aef0387453e2d0b25" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632083" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.ItemEvents_10), typeof(Microsoft.Office.Interop.Outlook.ItemEvents_10_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterWrite">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_AfterWriteEventHandler AfterWrite;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_AfterWriteEventHandler AfterWrite" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.AfterWrite" />
+      <MemberSignature Language="VB.NET" Value="Event AfterWrite As ItemEvents_10_AfterWriteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_AfterWriteEventHandler ^ AfterWrite;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AfterWriteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在 Microsoft Outlook 保存项目之后发生。</summary>
+        <remarks>
+          <para>
+            <b>AfterWrite</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" />事件。不可取消此事件。若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
+          <para>
+            <b>AfterWrite</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>iexchextmessageevents:: Onwritecomplete</b>。</para>
+          <para>可以在<b>AfterWrite</b>事件中访问仅项目对象的下列成员：</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <b>类</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>MessageClass</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>MAPIOBJECT</b>
+              </para>
+            </item>
+          </list>
+          <para>
+            <b>MAPIOBJECT</b>属性是 Outlook 对象模型中的隐藏的属性。此属性提供访问基础的 MAPI IMessage 对象，并可以调用仅通过 IUnknown 接口。该属性是供用支持<b>IUnknown</b>如 C 或 c + + 语言编写的程序。<b>MAPIOBJECT</b>不能通过的 IDispatch 接口。如 Visual Basic for Applications (VBA)、 Visual C# 和 Visual Basic 开发语言支持的<b>IDispatch</b>接口和不为<b>IUnknown</b>，并因此，他们无法访问<b>MAPIOBJECT</b>。如果在此事件访问其他属性或方法的父项，Outlook 将引发错误。</para>
+          <para>从中此事件的<b>MAPIOBJECT</b>属性获取的对象必须包含所有由 Outlook 保持所做的更改。实施者可以保留对由<b>MAPIOBJECT</b>，基础<b>IMessage</b>对象的<b>IMessage</b>对象上调用的 SaveChanges 方法和 Outlook 将还原这些更改。</para>
+          <para>实施必须释放从事件完成之前的事件中的<b>MAPIOBJECT</b>属性获取的对象。尝试使用该对象的事件的上下文之外不受支持和不可预测的行为将导致。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentAddEventHandler AttachmentAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentAddEventHandler AttachmentAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.AttachmentAdd" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentAdd As ItemEvents_10_AttachmentAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_AttachmentAddEventHandler ^ AttachmentAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>向父对象的实例中添加附件时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentRead">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentReadEventHandler AttachmentRead;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentReadEventHandler AttachmentRead" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.AttachmentRead" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentRead As ItemEvents_10_AttachmentReadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_AttachmentReadEventHandler ^ AttachmentRead;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentReadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当打开父对象实例中的附件进行阅读时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentRemoveEventHandler AttachmentRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentRemoveEventHandler AttachmentRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.AttachmentRemove" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentRemove As ItemEvents_10_AttachmentRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_AttachmentRemoveEventHandler ^ AttachmentRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>从父对象的实例中删除附件时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler BeforeAttachmentAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler BeforeAttachmentAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentAdd" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentAdd As ItemEvents_10_BeforeAttachmentAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentAddEventHandler ^ BeforeAttachmentAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>附件添加到父对象的实例前发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentPreview">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentPreviewEventHandler BeforeAttachmentPreview;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentPreviewEventHandler BeforeAttachmentPreview" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentPreview" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentPreview As ItemEvents_10_BeforeAttachmentPreviewEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentPreviewEventHandler ^ BeforeAttachmentPreview;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentPreviewEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>预览与父对象的实例相关的附件前发生。</summary>
+        <remarks>
+          <para>从活动浏览器的阅读窗格中的附件区或从活动检查器预览的附件之前发生此事件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentRead">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler BeforeAttachmentRead;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler BeforeAttachmentRead" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentRead" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentRead As ItemEvents_10_BeforeAttachmentReadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentReadEventHandler ^ BeforeAttachmentRead;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>从文件系统、 附件流读取与父对象的实例关联的附件前发生此事件或<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentSave">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler BeforeAttachmentSave;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler BeforeAttachmentSave" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentSave" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentSave As ItemEvents_10_BeforeAttachmentSaveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentSaveEventHandler ^ BeforeAttachmentSave;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在保存附件前发生。</summary>
+        <remarks>
+          <para>附件保存到的消息存储时，此事件对应于。<b>BeforeAttachmentSave</b>事件发生之前保存项目时保存附件。如果用户编辑附件，然后保存这些更改， <b>BeforeAttachmentSave</b>事件不会发生次;而是它会发生项目自身更高版本保存时。它还不会发生时使用<b>SaveAsFile</b>方法的硬盘上保存附件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAttachmentWriteToTempFile">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler BeforeAttachmentWriteToTempFile;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler BeforeAttachmentWriteToTempFile" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAttachmentWriteToTempFile" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAttachmentWriteToTempFile As ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler ^ BeforeAttachmentWriteToTempFile;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>将与父对象的实例相关的附件写到临时文件前发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeAutoSave">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAutoSaveEventHandler BeforeAutoSave;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAutoSaveEventHandler BeforeAutoSave" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeAutoSave" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeAutoSave As ItemEvents_10_BeforeAutoSaveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeAutoSaveEventHandler ^ BeforeAutoSave;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAutoSaveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Outlook 自动保存项目前发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeCheckNames">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeCheckNamesEventHandler BeforeCheckNames;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeCheckNamesEventHandler BeforeCheckNames" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeCheckNames" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeCheckNames As ItemEvents_10_BeforeCheckNamesEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeCheckNamesEventHandler ^ BeforeCheckNames;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeCheckNamesEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在 Microsoft Outlook 开始解析项目（父对象的一个实例）的收件人集合中的名称前发生。</summary>
+        <remarks>
+          <para>在以下情况下不会触发事件：</para>
+          <list type="bullet">
+            <item>
+              <para>自定义窗体日记条目，然后解析联系人字段中的联系人。</para>
+            </item>
+            <item>
+              <para>您自定义联系人窗体，然后解析联系人字段中的联系人。</para>
+            </item>
+            <item>
+              <para>您自定义任何类型的窗体，Outlook 自动解析背景中的名称。</para>
+            </item>
+            <item>
+              <para>以编程方式创建和解析收件人。</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDelete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeDeleteEventHandler BeforeDelete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeDeleteEventHandler BeforeDelete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeDelete" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDelete As ItemEvents_10_BeforeDeleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeDeleteEventHandler ^ BeforeDelete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeDeleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在删除项目（父对象的一个实例）前发生。</summary>
+        <remarks>
+          <para>中顺序时触发该事件的电子邮件、 通讯组列表、 日记条目、 任务、 联系人，或通过某项操作删除后，必须打开一个检查器。</para>
+          <para>事件每发生一次删除项目。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeRead">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeReadEventHandler BeforeRead;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeReadEventHandler BeforeRead" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeRead As ItemEvents_10_BeforeReadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_BeforeReadEventHandler ^ BeforeRead;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeReadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在 Microsoft Outlook 开始读取项目属性之前发生。</summary>
+        <remarks>
+          <para>
+            <b>BeforeRead</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />事件。与其他事件<b>之前</b>前缀，此事件不是可取消。若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
+          <para>
+            <b>BeforeRead</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>iexchextmessageevents:: Onread</b>。</para>
+          <para>可以在<b>BeforeRead</b>事件中访问仅项目对象的下列成员：</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <b>类</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>MessageClass</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>MAPIOBJECT</b>
+              </para>
+            </item>
+          </list>
+          <para>
+            <b>MAPIOBJECT</b>属性是 Outlook 对象模型中的隐藏的属性。此属性提供访问基础的 MAPI IMessage 对象，并可以调用仅通过 IUnknown 接口。该属性是供用支持<b>IUnknown</b>如 C 或 c + + 语言编写的程序。<b>MAPIOBJECT</b>不能通过的 IDispatch 接口。如 Visual Basic for Applications (VBA)、 Visual C# 和 Visual Basic 开发语言支持的<b>IDispatch</b>接口和不为<b>IUnknown</b>，并因此，他们无法访问<b>MAPIOBJECT</b>。如果在此事件访问其他属性或方法的父项，Outlook 将引发错误。</para>
+          <para>如果实施者访问的基础<b>IMessage</b>对象，该对象，Outlook 更改属性将呈现这就反映了对<b>IMessage</b>对象的更改该项目。实施者没有<b>IMessage</b>对象以使更改反映到 Outlook 中调用 SaveChanges。</para>
+          <para>实施必须释放从事件完成之前的事件中的<b>MAPIOBJECT</b>属性获取的对象。尝试使用该对象的事件的上下文之外不受支持和不可预测的行为将导致。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_CloseEventHandler Close;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_CloseEventHandler Close" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Close" />
+      <MemberSignature Language="VB.NET" Value="Event Close As ItemEvents_10_CloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_CloseEventHandler ^ Close;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>与项目（父对象的一个实例）相关的检查器关闭时发生。</summary>
+        <remarks>
+          <para>如果使用<b>Close</b>方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomAction">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomActionEventHandler CustomAction;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomActionEventHandler CustomAction" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.CustomAction" />
+      <MemberSignature Language="VB.NET" Value="Event CustomAction As ItemEvents_10_CustomActionEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_CustomActionEventHandler ^ CustomAction;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomActionEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当项目（父对象的一个实例）的自定义动作执行时发生。</summary>
+        <remarks>
+          <para>
+            <b>Action</b>对象和由自定义动作产生的新建的项目传递给事件中。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomPropertyChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomPropertyChangeEventHandler CustomPropertyChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomPropertyChangeEventHandler CustomPropertyChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.CustomPropertyChange" />
+      <MemberSignature Language="VB.NET" Value="Event CustomPropertyChange As ItemEvents_10_CustomPropertyChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_CustomPropertyChangeEventHandler ^ CustomPropertyChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomPropertyChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当项目（父对象的一个实例）的自定义属性更改时发生。</summary>
+        <remarks>
+          <para>属性名传递给过程，以便您可以确定哪个自定义属性被更改。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler Forward;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler Forward" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Forward" />
+      <MemberSignature Language="VB.NET" Value="Event Forward As ItemEvents_10_ForwardEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ForwardEventHandler ^ Forward;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户为项目（父对象的一个实例）选择转发动作时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_OpenEventHandler Open;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_OpenEventHandler Open" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" />
+      <MemberSignature Language="VB.NET" Value="Event Open As ItemEvents_10_OpenEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_OpenEventHandler ^ Open;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_OpenEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>要在打开父对象的实例时发生<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</summary>
+        <remarks>
+          <para>发生此事件时，已初始化的<b>Inspector</b>对象，但尚未显示。<b>Open</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />每当用户选择项目在视图中支持单元格内编辑以及在检查器中打开项目时，发生此事件中<b>读取</b>该事件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_PropertyChangeEventHandler PropertyChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_PropertyChangeEventHandler PropertyChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.PropertyChange" />
+      <MemberSignature Language="VB.NET" Value="Event PropertyChange As ItemEvents_10_PropertyChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_PropertyChangeEventHandler ^ PropertyChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_PropertyChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当父对象的实例的显式内置属性更改时发生。</summary>
+        <remarks>
+          <para>属性名传递给事件，以便您可以确定哪个属性被更改。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadEventHandler Read;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadEventHandler Read" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />
+      <MemberSignature Language="VB.NET" Value="Event Read As ItemEvents_10_ReadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ReadEventHandler ^ Read;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户打开父对象的实例进行编辑时发生。</summary>
+        <remarks>
+          <para>
+            <b>Read</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" />中<b>读取</b>该事件发生每当用户支持单元格内编辑项目中打开的时以及在视图中选择项目<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadComplete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadCompleteEventHandler ReadComplete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadCompleteEventHandler ReadComplete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.ReadComplete" />
+      <MemberSignature Language="VB.NET" Value="Event ReadComplete As ItemEvents_10_ReadCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ReadCompleteEventHandler ^ ReadComplete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Outlook 完成读取项目的属性后，发生此事件。</summary>
+        <remarks>
+          <para>
+            <b>ReadComplete</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" />事件之前<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />项事件。</para>
+          <para>以确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
+          <para>
+            <b>ReadComplete</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>IExchExtMessageEvents::OnReadComplete</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler Reply;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler Reply" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Reply" />
+      <MemberSignature Language="VB.NET" Value="Event Reply As ItemEvents_10_ReplyEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ReplyEventHandler ^ Reply;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户为项目（父对象的一个实例）选择答复动作时发生。</summary>
+        <remarks>
+          <para>将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyAll">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyAllEventHandler ReplyAll;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyAllEventHandler ReplyAll" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.ReplyAll" />
+      <MemberSignature Language="VB.NET" Value="Event ReplyAll As ItemEvents_10_ReplyAllEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_ReplyAllEventHandler ^ ReplyAll;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyAllEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户为项目（父对象的一个实例）选择全部答复动作时发生。</summary>
+        <remarks>
+          <para>将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_SendEventHandler Send;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_SendEventHandler Send" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Send" />
+      <MemberSignature Language="VB.NET" Value="Event Send As ItemEvents_10_SendEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_SendEventHandler ^ Send;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_SendEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户为项目（父对象的一个实例）选择发送动作时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unload">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_UnloadEventHandler Unload;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_UnloadEventHandler Unload" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />
+      <MemberSignature Language="VB.NET" Value="Event Unload As ItemEvents_10_UnloadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_UnloadEventHandler ^ Unload;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_UnloadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在从内存中卸载（通过编程方式或用户操作）Outlook 项目之前发生。</summary>
+        <remarks>
+          <para>对 Outlook 项目， <b>Close</b>事件发生，但之前 Outlook 项目是从允许外接程序释放任何与对象相关的资源的内存中卸载后，将发生此事件。 尽管从内存中卸载 Outlook 项目之前发生的事件，但不能取消此事件。</para>
+          <para>
+            <b>注意</b>： 此事件只是一个通知事件，以便外接程序可以取消引用对象。 如果在<b>Unload</b>事件中调用任何属性或方法，用于此对象将发生错误。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Write">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemEvents_10_WriteEventHandler Write;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemEvents_10_WriteEventHandler Write" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" />
+      <MemberSignature Language="VB.NET" Value="Event Write As ItemEvents_10_WriteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemEvents_10_WriteEventHandler ^ Write;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_WriteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当父对象的实例，保存隐式或显式 （例如，在关闭项目的检查器时提示响应） 时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

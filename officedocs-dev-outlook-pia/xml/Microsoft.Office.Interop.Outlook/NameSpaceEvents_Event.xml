@@ -1,0 +1,79 @@
+<Type Name="NameSpaceEvents_Event" FullName="Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0f045237185550e081b3a4867c8df470879b59be" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632882" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NameSpaceEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NameSpaceEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NameSpaceEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NameSpaceEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.NameSpaceEvents), typeof(Microsoft.Office.Interop.Outlook.NameSpaceEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutoDiscoverComplete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.NameSpaceEvents_AutoDiscoverCompleteEventHandler AutoDiscoverComplete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.NameSpaceEvents_AutoDiscoverCompleteEventHandler AutoDiscoverComplete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event.AutoDiscoverComplete" />
+      <MemberSignature Language="VB.NET" Value="Event AutoDiscoverComplete As NameSpaceEvents_AutoDiscoverCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::NameSpaceEvents_AutoDiscoverCompleteEventHandler ^ AutoDiscoverComplete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpaceEvents_AutoDiscoverCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>该事件发生后完成 Outlook 访问 Exchange 服务器的自动发现服务具有中提供的相关的信息<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" />。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptionsPagesAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.NameSpaceEvents_OptionsPagesAddEventHandler OptionsPagesAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.NameSpaceEvents_OptionsPagesAddEventHandler OptionsPagesAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event.OptionsPagesAdd" />
+      <MemberSignature Language="VB.NET" Value="Event OptionsPagesAdd As NameSpaceEvents_OptionsPagesAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::NameSpaceEvents_OptionsPagesAddEventHandler ^ OptionsPagesAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpaceEvents_OptionsPagesAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>每当打开文件夹的属性对话框时发生。</summary>
+        <remarks>
+          <para>您可以通过右键单击该文件夹并选择属性打开属性对话框中的文件夹。</para>
+          <para>程序处理此事件中添加自定义属性页面。属性页将添加到指定的文件夹的属性对话框。标识的<b>PropertyPages</b>集合对象时，将触发事件，<paramref name="Pages" />包含在事件处理程序调用之前已添加的属性页。若要添加到集合的属性页，请使用<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /><b>PropertyPages</b>集合之前退出事件处理程序方法。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

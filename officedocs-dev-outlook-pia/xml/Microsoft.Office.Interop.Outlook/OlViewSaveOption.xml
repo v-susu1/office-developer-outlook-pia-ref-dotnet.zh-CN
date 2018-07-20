@@ -1,0 +1,88 @@
+<Type Name="OlViewSaveOption" FullName="Microsoft.Office.Interop.Outlook.OlViewSaveOption">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="79d8d6e858dfab8fe90ca7a23af72935bbbfe06d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631405" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlViewSaveOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlViewSaveOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlViewSaveOption" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlViewSaveOption" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定可以在其中使用视图的文件夹和附加到视图的读取权限。</summary>
+    <remarks>
+      <para>使用<b>Copy</b>方法和<b>SaveOption</b>属性的<b>View</b>对象。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olViewSaveOptionAllFoldersOfType">
+      <MemberSignature Language="C#" Value="olViewSaveOptionAllFoldersOfType" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption olViewSaveOptionAllFoldersOfType = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlViewSaveOption.olViewSaveOptionAllFoldersOfType" />
+      <MemberSignature Language="VB.NET" Value="olViewSaveOptionAllFoldersOfType" />
+      <MemberSignature Language="C++ CLI" Value="olViewSaveOptionAllFoldersOfType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>指示视图在同一类型的所有文件夹中可用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olViewSaveOptionThisFolderEveryone">
+      <MemberSignature Language="C#" Value="olViewSaveOptionThisFolderEveryone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption olViewSaveOptionThisFolderEveryone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlViewSaveOption.olViewSaveOptionThisFolderEveryone" />
+      <MemberSignature Language="VB.NET" Value="olViewSaveOptionThisFolderEveryone" />
+      <MemberSignature Language="C++ CLI" Value="olViewSaveOptionThisFolderEveryone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>指示视图仅在当前文件夹中可用，并且可供所有用户使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olViewSaveOptionThisFolderOnlyMe">
+      <MemberSignature Language="C#" Value="olViewSaveOptionThisFolderOnlyMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption olViewSaveOptionThisFolderOnlyMe = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlViewSaveOption.olViewSaveOptionThisFolderOnlyMe" />
+      <MemberSignature Language="VB.NET" Value="olViewSaveOptionThisFolderOnlyMe" />
+      <MemberSignature Language="C++ CLI" Value="olViewSaveOptionThisFolderOnlyMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>指示视图仅在当前文件夹中可用，并且只可供当前 Outlook 用户使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

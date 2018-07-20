@@ -1,0 +1,43 @@
+<Type Name="NavigationPane" FullName="Microsoft.Office.Interop.Outlook.NavigationPane">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d3c5a11a93d132b99135088c4f284cf16e2dd2c5" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633129" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NavigationPane : Microsoft.Office.Interop.Outlook._NavigationPane, Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationPane implements class Microsoft.Office.Interop.Outlook._NavigationPane, class Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationPane" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationPane&#xA;Implements _NavigationPane, NavigationPaneEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationPane : Microsoft::Office::Interop::Outlook::_NavigationPane, Microsoft::Office::Interop::Outlook::NavigationPaneEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NavigationPane</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NavigationPaneClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E6-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表导航窗格中显示活动<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NavigationPane" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event" />。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.NavigationPane" />检索<b>NavigationPane</b>对象，如果存在资源管理器的<b>Explorer</b>对象的属性。注意某些<b>Explorer</b>对象可能没有导航 Pane.Use<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" />属性可返回或设置导航窗格中的显示模式。</para>使用
+      <para><see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" />属性返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />对象，表示包含在导航窗格中的导航模块的集合。使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.DisplayedModuleCount" />返回数目<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />当前显示的导航窗格中的对象和<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.CurrentModule" />属性可返回或设置当前选中的<b>NavigationModule</b>对象。</para><para>使用<see cref="E:Microsoft.Office.Interop.Outlook.NavigationPaneEvents_12_Event.ModuleSwitch" />事件来检测选中的<b>NavigationModule</b>对象在导航窗格中发生更改时。</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

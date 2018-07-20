@@ -1,0 +1,3183 @@
+<Type Name="_AppointmentItem" FullName="Microsoft.Office.Interop.Outlook._AppointmentItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e1a98d4cad5fc9572e588f667c7713563d8c671c" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632299" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _AppointmentItem" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AppointmentItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AppointmentItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _AppointmentItem" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _AppointmentItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063033-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Actions Actions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Actions Actions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Actions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Actions As Actions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Actions ^ Actions { Microsoft::Office::Interop::Outlook::Actions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63511)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63511)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />代表项目的所有可用操作的集合。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllDayEvent">
+      <MemberSignature Language="C#" Value="public bool AllDayEvent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllDayEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.AllDayEvent" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllDayEvent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllDayEvent { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33301)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33301)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33301)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>如果约会是全天事件 (不是指定的时间)，则返回 <b>True</b> 。读/写。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Attachments Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Attachments Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As Attachments" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Attachments ^ Attachments { Microsoft::Office::Interop::Outlook::Attachments ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63509)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />对象，表示为指定的项的所有附件。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoResolvedWinner">
+      <MemberSignature Language="C#" Value="public bool AutoResolvedWinner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoResolvedWinner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.AutoResolvedWinner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoResolvedWinner As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoResolvedWinner { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64186)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64186)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定项目是否自动冲突解决获胜。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果值为<b>False</b>不一定表示该项目是自动冲突解决落选。该项目可能冲突另一项。</para>如果项目具有
+          <para><see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />的其<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Conflicts" />属性大于零，如果其<b>AutoResolvedWinner</b>属性为<b>True</b>，则自动冲突解决获胜。另一方面，如果项目有冲突，并具有其<b>AutoResolvedWinner</b>属性为<b>False</b>，则自动冲突解决中的落选。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BillingInformation">
+      <MemberSignature Language="C#" Value="public string BillingInformation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BillingInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.BillingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Property BillingInformation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BillingInformation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目相关联的帐单信息。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>它是自由格式文本字段。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public string Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Body { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的纯文本正文。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusyStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlBusyStatus BusyStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlBusyStatus BusyStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.BusyStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property BusyStatus As OlBusyStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlBusyStatus BusyStatus { Microsoft::Office::Interop::Outlook::OlBusyStatus get(); void set(Microsoft::Office::Interop::Outlook::OlBusyStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33285)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33285)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33285)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlBusyStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />约会用户忙碌状态。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public string Categories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Property Categories As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Categories { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(36865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(36865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(36865)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给 Outlook 项目的类别。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>类别</b>的已分配给某个 Outlook 项目的类别名称分隔的字符串。此属性使用在值名称 sList，位于 Windows 注册表中的 HKEY_CURRENT_USER\Control Panel\International 下指定为多个类别值的分隔符的字符。若要将类别名称的字符串转换为类别名称的数组，使用 Microsoft Visual Basic 函数<b>拆分</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearRecurrencePattern">
+      <MemberSignature Language="C#" Value="public void ClearRecurrencePattern ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearRecurrencePattern() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.ClearRecurrencePattern" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearRecurrencePattern ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearRecurrencePattern();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61605)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>删除约会（或任务）的定期设置，恢复为一次性状态。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]valuetype Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (SaveMode As OlInspectorClose)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close(Microsoft::Office::Interop::Outlook::OlInspectorClose SaveMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61475)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SaveMode" Type="Microsoft.Office.Interop.Outlook.OlInspectorClose" />
+      </Parameters>
+      <Docs>
+        <param name="SaveMode">关闭行为。如果在检查器中显示的项目尚未更改，则该参数无效。</param>
+        <summary>关闭 Outlook 项目并根据需要保存对它所做的更改。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public string Companies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Companies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Companies As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Companies { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目相关联的公司名称。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>它是自由格式文本字段。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceServerAllowExternal">
+      <MemberSignature Language="C#" Value="public bool ConferenceServerAllowExternal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ConferenceServerAllowExternal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConferenceServerAllowExternal" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConferenceServerAllowExternal As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ConferenceServerAllowExternal { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceServerPassword">
+      <MemberSignature Language="C#" Value="public string ConferenceServerPassword { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConferenceServerPassword" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConferenceServerPassword" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConferenceServerPassword As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConferenceServerPassword { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conflicts">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Conflicts Conflicts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Conflicts Conflicts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Conflicts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conflicts As Conflicts" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Conflicts ^ Conflicts { Microsoft::Office::Interop::Outlook::Conflicts ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64187)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64187)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />对象，表示正在发生冲突的任何 Outlook 项目对象的项目。  只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationID">
+      <MemberSignature Language="C#" Value="public string ConversationID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），用于唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象的<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象属于。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性与对话相关联的项目。这些项目和对话其<b>ConversationID</b>属性中具有相同的值。</para>
+          <para>此属性对应于 MAPI 属性<b>pidtagconversationid 对应</b>。</para>
+          <para>如果在 Microsoft Outlook 版本早于 Microsoft Outlook 2010 中创建的<b>AppointmentItem</b>对象，则或 Outlook 运行在联机模式下的 Microsoft Exchange Server 的版本早于 Microsoft Exchange Server 2010，针对此属性返回相同的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationTopic" />属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public string ConversationIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationIndex As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationIndex { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64192)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64192)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的对话线程的索引。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public string ConversationTopic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationTopic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationTopic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationTopic { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的会话线索的 Outlook 项目的主题。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public object Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Copy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>创建对象的另一个实例。</summary>
+        <returns>返回<see cref="T:System.Object" />，它是父约会项的副本。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyTo">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AppointmentItem CopyTo (Microsoft.Office.Interop.Outlook.MAPIFolder DestinationFolder, Microsoft.Office.Interop.Outlook.OlAppointmentCopyOptions CopyOptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AppointmentItem CopyTo([in]class Microsoft.Office.Interop.Outlook.MAPIFolder DestinationFolder, [in]valuetype Microsoft.Office.Interop.Outlook.OlAppointmentCopyOptions CopyOptions) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.CopyTo(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.OlAppointmentCopyOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CopyTo (DestinationFolder As MAPIFolder, CopyOptions As OlAppointmentCopyOptions) As AppointmentItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::AppointmentItem ^ CopyTo(Microsoft::Office::Interop::Outlook::MAPIFolder ^ DestinationFolder, Microsoft::Office::Interop::Outlook::OlAppointmentCopyOptions CopyOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64274)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AppointmentItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="DestinationFolder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+        <Parameter Name="CopyOptions" Type="Microsoft.Office.Interop.Outlook.OlAppointmentCopyOptions" />
+      </Parameters>
+      <Docs>
+        <param name="DestinationFolder">指定的 <b>AppointmentItem</b> 对象复制到其中的文件夹。</param>
+        <param name="CopyOptions">指定复制操作的用户体验。</param>
+        <summary>副本<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />指定的文件夹<paramref name="DestinationFolder" />参数，并返回复制操作在目标文件夹中创建一个对象，表示该项目。</summary>
+        <returns>返回<b>AppointmentItem</b>对象表示由于复制操作在目标文件夹中创建的对象。</returns>
+        <remarks>
+          <para>如果任何参数不指定的<paramref name="CopyOptions" />参数， <b>CopyTo</b>假设值为<b>olCreateAppointment</b>。</para>
+          <para>
+            <b>CopyTo</b>如果目标文件夹不是相应的文件夹类型的<b>AppointmentItem</b>对象，或者用户不具有在指定的目标文件夹中创建项目的必要权限，则返回错误。</para>
+          <para>REG_MULTI_SZ 值，DisableCrossAccountCopy，设置在 Windows 注册表中的 HKCU\Software\Microsoft\Office\14.0\Outlook 已禁用此方法的副作用。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="public DateTime CreationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreationTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12295)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12295)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<b>DateTime</b> ，该值指示 Outlook 项目的创建时间。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagCreationTime</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>从包含项目的文件夹中移除的项。</summary>
+        <remarks>
+          <para>
+            <b>Delete</b>方法删除集合中的单个项。若要删除中的所有项目<see cref="T:Microsoft.Office.Interop.Outlook.Items" />的文件夹的集合，您必须都删除开头的文件夹中的最后一项的每个项目。例如，在文件夹的 items 集合，AllItems，如果有 n 个项目的文件夹中，启动删除 AllItems.Item(n)，递减每次您删除 AllItems.Item(1) 之前的索引处的项。</para>
+          <b>删除</b>
+          <para>方法可将项目从包含文件夹移到已删除邮件文件夹。如果包含文件夹是已删除邮件文件夹， <b>Delete</b>方法中永久删除项目。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public void Display (object Modal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Display([in]object Modal) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Display(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Display (Optional Modal As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61606)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Modal" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Modal">
+          <b>真正</b> 要使窗口模式。默认值为 <b>False</b> 。 </param>
+        <summary>显示一个新<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象的项目。</summary>
+        <remarks>
+          <para>
+            <b>Display</b>方法支持为了向后兼容的浏览器和检查器窗口。若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</para>如果您尝试使用 Microsoft Outlook 对象模型中打开"不安全的"文件系统对象 （或"freedoc"文件） 
+          <para>，E_FAIL 返回代码中收到 C 或 c + + 编程语言。在 Outlook 2000 和更早版本，您无法使用<b>Display</b>方法打开"不安全的"文件系统对象。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DownloadState">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlDownloadState DownloadState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDownloadState DownloadState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.DownloadState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DownloadState As OlDownloadState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlDownloadState DownloadState { Microsoft::Office::Interop::Outlook::OlDownloadState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64077)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64077)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个常量，属于<see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" />指示下载状态的项目的枚举。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public int Duration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Duration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Duration { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33299)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33299)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33299)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置指示的持续时间 （以分钟为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public DateTime End { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime End" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime End { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33294)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33294)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33294)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置指示结束日期和时间的<b>DateTime</b><see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndInEndTimeZone">
+      <MemberSignature Language="C#" Value="public DateTime EndInEndTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndInEndTimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndInEndTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndInEndTimeZone As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndInEndTimeZone { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33383)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33383)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33383)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>日期时间</b>值，表示的结束日期和时间表示约会<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>这是在约会检查器用户界面中显示为结束时间值。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTimeZone">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.TimeZone EndTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.TimeZone EndTimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTimeZone As TimeZone" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::TimeZone ^ EndTimeZone { Microsoft::Office::Interop::Outlook::TimeZone ^ get(); void set(Microsoft::Office::Interop::Outlook::TimeZone ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64552)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64552)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64552)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.TimeZone</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" />对应于约会的结束时间的值。  为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>时区信息用于约会到正确的 UTC 时间时将约会保存，和映射到正确的本地时间的日历中显示的项时。 </para>
+          <para>更改<b>EndTimeZone</b>将影响的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />其总是用当地时区， <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>
+          <para>根据情况，更改<b>EndTimeZone</b> ，也可能不会导致 Outlook 重新计算并更新<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndInEndTimeZone" />。</para>
+          <para>作为示例，在约会检查器中，如果您的组织者的约会开始时间 1 下午 EST 和结束时间在东部时间 3 下午，更改约会具有 PST <b>EndTimeZone</b>将导致从 1 到 3 的下午 EST 持续的约会与<b>EndInEndTimeZone</b>下午 3 的剩余下午 PST。但是，如果您不是组织者，然后更改<b>EndTimeZone</b>从 pst EST 将使 Outlook 重新计算并更新<b>EndInEndTimeZone</b>，并且约会将最后一个从 1 下午 EST 到 12 下午太平洋标准时间。</para>
+          <para>另一个示例更改<b>EndTimeZone</b>导致发生之前以前设置约会结束时间约会开始的时间，将重新计算并更新<b>EndInEndTimeZone</b>案例 Outlook。例如，在下午 1 PST 和结束时间在太平洋标准时间下午 3 开始时间约会已更改为预计其<b>EndTimeZone</b>如果 Outlook 未不重新计算<b>EndInEndTimeZone</b>，约会必须在 3 下午 EST，这相当于 12 下午 PST 时，其会发生之前开始时间 1 下午 PST 的结束时间。实际上，但是，更改<b>EndTimeZone</b>将导致 Outlook 重新计算并更新到下午 6 （在<b>EndTimeZone</b> EST) <b>EndInEndTimeZone</b> 。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndUTC">
+      <MemberSignature Language="C#" Value="public DateTime EndUTC { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndUTC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndUTC" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndUTC As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndUTC { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33385)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33385)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33385)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置表示的结束日期和约会以协调世界时 (UTC) 标准时间的<b>DateTime</b>值。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>更改的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />属性或<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />属性将使 Outlook 重新计算<b>EndUTC</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntryID">
+      <MemberSignature Language="C#" Value="public string EntryID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EntryID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EntryID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntryID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EntryID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。  只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagEntryId</b>。</para>在存储中创建项时， 
+          <para>MAPI 存储提供程序分配的唯一 ID 字符串。因此， <b>EntryID</b>属性未设置为 Outlook 项目之前保存或发送。将项目移动到另一个存储区，例如，从收件箱到 Microsoft Exchange Server 公用文件夹，或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件时条目 ID 的更改。解决方案应不依赖<b>EntryID</b>属性来保持唯一性，除非项目将不会移动。<b>EntryID</b>属性返回一个 MAPI 长期条目 id。有关详细信息有关 long-和 short-term Entryid，搜索http://msdn.microsoft.com的<b>PidTagEntryId</b>。</para><para>Furthermore 时调用<b>AppointmentItem.Respond</b>方法与<b>olMeetingAccepted</b>或<b>olMeetingTentative</b>参数，, Outlook 将创建一个新的约会项来复制原始的约会项目.新项目将具有不同的条目 id。然后，outlook 将删除原始项目。您应不再使用的原始项目的条目 ID 但改为使用<b>AppointmentItem.EntryID</b>获得任何后续需求的新项的条目 ID。这是为了确保此约会项将被正确同步您的日历如果多个客户端计算机访问您的日历，但可能处于脱机状态偶尔使用缓存模式。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceUpdateToAllAttendees">
+      <MemberSignature Language="C#" Value="public bool ForceUpdateToAllAttendees { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ForceUpdateToAllAttendees" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ForceUpdateToAllAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForceUpdateToAllAttendees As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ForceUpdateToAllAttendees { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62778)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(62778)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(62778)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否更新为<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象应发送给所有与会者。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>通常，更新发送到与会者才更改的时间或约会项目的位置。此属性设置为<b>True</b>强制更新发送给所有与会者，即使没有时间或位置已发生更改。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormDescription">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.FormDescription FormDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.FormDescription FormDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.FormDescription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormDescription As FormDescription" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::FormDescription ^ FormDescription { Microsoft::Office::Interop::Outlook::FormDescription ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61589)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61589)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象，表示指定的 Outlook 项目的窗体说明。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardAsVcal">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MailItem ForwardAsVcal ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MailItem ForwardAsVcal() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.ForwardAsVcal" />
+      <MemberSignature Language="VB.NET" Value="Public Function ForwardAsVcal () As MailItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MailItem ^ ForwardAsVcal();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62791)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MailItem</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>转发<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />作为 vCal;虚拟日历项目。</summary>
+        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象，代表对其附加日历信息的新邮件项目。</returns>
+        <remarks>
+          <para>
+            <b>ForwardAsVcal</b>方法将返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />与附加 vCal 文件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConversation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Conversation GetConversation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Conversation GetConversation() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetConversation" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetConversation () As Conversation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Conversation ^ GetConversation();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64596)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Conversation</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象，它代表此项目所属的会话。</summary>
+        <returns>返回一个代表此项目所属的会话的<b>Conversation</b>对象。</returns>
+        <remarks>
+          <para>
+            <b>GetConversation</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有对话项目。没有对话存在以下方案中某项：</para>
+          <list type="bullet">
+            <item>
+              <para>尚未保存项目。由用户操作或自动保存可以以编程方式保存项目。</para>
+            </item>
+            <item>
+              <para>尚未对于可以发送 （例如邮件项目、 约会项目或联系人项目） 的项，发送项目。</para>
+            </item>
+            <item>
+              <para>对话已通过 Windows 注册表禁用。</para>
+            </item>
+            <item>
+              <para>存储不支持对话视图 （例如，Outlook 在早于 Microsoft Exchange Server 2010 的 Microsoft Exchange 版本针对经典的联机模式下运行）。使用<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，以确定是否在存储区支持会话视图。</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInspector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Inspector GetInspector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Inspector GetInspector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.GetInspector" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GetInspector As Inspector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Inspector ^ GetInspector { Microsoft::Office::Interop::Outlook::Inspector ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象，表示检查器初始化包含的指定的项。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性是可用于返回一个新的<b>Inspector</b>对象中显示的项目，而不是使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />方法和设置<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />属性。如果项目已存在一个<b>Inspector</b>对象，则<b>GetInspector</b>属性将返回而不是创建一个新的<b>Inspector</b>对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOrganizer">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AddressEntry GetOrganizer ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AddressEntry GetOrganizer() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetOrganizer" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetOrganizer () As AddressEntry" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::AddressEntry ^ GetOrganizer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64648)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，其中包含从通讯簿信息的组织者的<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。</summary>
+        <returns>返回一个代表<b>AppointmentItem</b>的组织者的<b>AddressEntry</b>对象。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRecurrencePattern">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RecurrencePattern GetRecurrencePattern ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.RecurrencePattern GetRecurrencePattern() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRecurrencePattern () As RecurrencePattern" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::RecurrencePattern ^ GetRecurrencePattern();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61604)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RecurrencePattern</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />代表约会的定期属性的对象。</summary>
+        <returns>
+          <b>RecurrencePattern</b> 对象，该对象表示约会的重复周期特性。</returns>
+        <remarks>
+          <para>如果没有现成的定期模式，则返回一个新的空<b>RecurrencePattern</b>对象。</para>
+          <para>使用定期约会项目时，您应释放以前的任何引用，获取新引用的定期约会项目之前您访问或修改项目，并只要您完成和已保存版本这些引用更改。这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。若要解除对 Visual Basic 中的，设置为<b>Nothing</b>的现有对象。C# 中明确释放该对象的内存。</para>
+          <para>注意，即使在释放您引用和尝试获取新的引用，如果仍没有活动的参考资料，由另一个加载项或 Outlook 中的，为上述对象，之一，则后您新参考仍指向对象的过期的副本.因此，很重要，只要您已完成的定期约会释放您的引用。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalAppointmentID">
+      <MemberSignature Language="C#" Value="public string GlobalAppointmentID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GlobalAppointmentID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.GlobalAppointmentID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalAppointmentID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GlobalAppointmentID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64509)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个代表的全局唯一标识符的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>AppointmentItem</b>对象的条目 ID 可能更改，如时将项目移动到不同的文件夹或其他存储的情况下。当用户在 Outlook 中，如导出并在此后数据执行某些功能，还可以更改条目 Id。</para>
+          <para>因此，每个 Outlook 约会项目分配全局对象 ID，全局唯一标识符不在这些情况下的过程中发生更改。全局对象 ID 是 Outlook 用来将会议更新和响应与日历上特定会议相关联的 MAPI 属性。跨项目的所有副本的全局对象 ID 是相同。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlImportance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlImportance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As OlImportance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlImportance Importance { Microsoft::Office::Interop::Outlook::OlImportance get(); void set(Microsoft::Office::Interop::Outlook::OlImportance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" />常量，指示 Outlook 项目的相对重要性级别。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagImportance</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetCodepage">
+      <MemberSignature Language="C#" Value="public int InternetCodepage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InternetCodepage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.InternetCodepage" />
+      <MemberSignature Language="VB.NET" Value="Public Property InternetCodepage As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int InternetCodepage { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(16350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(16350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> ) 值，确定了项目使用的 Internet 代码页。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Internet 代码页定义了项目使用的文本编码方案。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsConflict">
+      <MemberSignature Language="C#" Value="public bool IsConflict { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsConflict" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.IsConflict" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsConflict As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsConflict { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64164)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64164)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定本地计算机上的项是否不同服务器上的副本。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>有冲突项目的<para>取决于应用程序的状态。例如，当用户处于脱机状态，并尝试访问联机文件夹，则操作将失败。在此方案中，则<b>IsConflict</b>属性将返回<b>True</b>。</para><para>此属性不指示约会项目是否与另一个约会日历中存在时间冲突。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOnlineMeeting">
+      <MemberSignature Language="C#" Value="public bool IsOnlineMeeting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOnlineMeeting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.IsOnlineMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOnlineMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOnlineMeeting { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public bool IsRecurring { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurring" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRecurring As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurring { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33315)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33315)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 值，如果该约会是定期约会为<b>True</b> 。  只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>当<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />方法用于<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，该属性设置为<b>True</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ItemProperties ItemProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ItemProperties ItemProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ItemProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemProperties As ItemProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ItemProperties ^ ItemProperties { Microsoft::Office::Interop::Outlook::ItemProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64009)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64009)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />代表 Outlook 项目相关联的所有标准和用户定义属性的集合。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ItemProperties</b>集合是从零开始的集合，这意味着集合中的第一个对象，由索引值 0 引用。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModificationTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModificationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModificationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.LastModificationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModificationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModificationTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12296)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12296)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定的日期和时间的 Outlook 项目的上次修改<b>日期时间</b>。  只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagLastModificationTime</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Links">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Links Links { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Links Links" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Links" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Links As Links" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Links ^ Links { Microsoft::Office::Interop::Outlook::Links ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(62469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Links</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33288)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33288)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33288)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 代表约会的特定的办公室位置 （例如，构建 1 Room 1 或套件 123）。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagOfficeLocation</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPIOBJECT">
+      <MemberSignature Language="C#" Value="public object MAPIOBJECT { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MAPIOBJECT" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MAPIOBJECT" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MAPIOBJECT As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MAPIOBJECT { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkForDownload">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRemoteStatus MarkForDownload { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRemoteStatus MarkForDownload" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MarkForDownload" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkForDownload As OlRemoteStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRemoteStatus MarkForDownload { Microsoft::Office::Interop::Outlook::OlRemoteStatus get(); void set(Microsoft::Office::Interop::Outlook::OlRemoteStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34161)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34161)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34161)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />远程用户接收到后确定项目的状态的常量。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性为远程用户提供与小于弱数据传输功能提高了消息灵活性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlMeetingStatus MeetingStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMeetingStatus MeetingStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingStatus As OlMeetingStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlMeetingStatus MeetingStatus { Microsoft::Office::Interop::Outlook::OlMeetingStatus get(); void set(Microsoft::Office::Interop::Outlook::OlMeetingStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33303)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33303)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33303)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMeetingStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" />指定约会的会议状态的常量。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>使用此属性可以使<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />对象可用于约会。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingWorkspaceURL">
+      <MemberSignature Language="C#" Value="public string MeetingWorkspaceURL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MeetingWorkspaceURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingWorkspaceURL" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingWorkspaceURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MeetingWorkspaceURL { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个表示的约会项目链接到会议工作区 URL 的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>会议工作区是规划会议并跟踪其结果的共享的网站。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageClass">
+      <MemberSignature Language="C#" Value="public string MessageClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MessageClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MessageClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的邮件类。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagMessageClass</b>。<b>MessageClass</b>属性链接到窗体所基于的项目。选择项目时，Outlook 将使用的邮件类来定位窗体和公开其属性，如答复命令。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public string Mileage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mileage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mileage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mileage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示项目的里程。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>这是自由格式的字符串字段，并可用于存储里程为了报销相关联的项目 （例如 100 英里的约会、 联系人或任务记录） 的信息。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public object Move (Microsoft.Office.Interop.Outlook.MAPIFolder DestFldr);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Move([in]class Microsoft.Office.Interop.Outlook.MAPIFolder DestFldr) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (DestFldr As MAPIFolder) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Move(Microsoft::Office::Interop::Outlook::MAPIFolder ^ DestFldr);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61492)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="DestFldr" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+      </Parameters>
+      <Docs>
+        <param name="DestFldr">目标文件夹。</param>
+        <summary>将 Microsoft Outlook项目移至新文件夹中。</summary>
+        <returns>一个 <b>Object</b> 值，代表已移至指定文件夹中的项目。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetMeetingAutoStart">
+      <MemberSignature Language="C#" Value="public bool NetMeetingAutoStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NetMeetingAutoStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.NetMeetingAutoStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetMeetingAutoStart As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NetMeetingAutoStart { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetMeetingDocPathName">
+      <MemberSignature Language="C#" Value="public string NetMeetingDocPathName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NetMeetingDocPathName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.NetMeetingDocPathName" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetMeetingDocPathName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NetMeetingDocPathName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetMeetingOrganizerAlias">
+      <MemberSignature Language="C#" Value="public string NetMeetingOrganizerAlias { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NetMeetingOrganizerAlias" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.NetMeetingOrganizerAlias" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetMeetingOrganizerAlias As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NetMeetingOrganizerAlias { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetMeetingServer">
+      <MemberSignature Language="C#" Value="public string NetMeetingServer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NetMeetingServer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.NetMeetingServer" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetMeetingServer As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NetMeetingServer { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetMeetingType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlNetMeetingType NetMeetingType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlNetMeetingType NetMeetingType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.NetMeetingType" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetMeetingType As OlNetMeetingType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlNetMeetingType NetMeetingType { Microsoft::Office::Interop::Outlook::OlNetMeetingType get(); void set(Microsoft::Office::Interop::Outlook::OlNetMeetingType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNetMeetingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetShowURL">
+      <MemberSignature Language="C#" Value="public string NetShowURL { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NetShowURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.NetShowURL" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetShowURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NetShowURL { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoAging">
+      <MemberSignature Language="C#" Value="public bool NoAging { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NoAging" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.NoAging" />
+      <MemberSignature Language="VB.NET" Value="Public Property NoAging As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NoAging { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34062)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值不年龄<b>，则返回 True</b>的 Outlook 项目。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptionalAttendees">
+      <MemberSignature Language="C#" Value="public string OptionalAttendees { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OptionalAttendees" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.OptionalAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public Property OptionalAttendees As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OptionalAttendees { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3587)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3587)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3587)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 的约会的可选与会者的显示字符串。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagDisplayCc</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Organizer">
+      <MemberSignature Language="C#" Value="public string Organizer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Organizer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Organizer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Organizer As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Organizer { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(66)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(66)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的约会组织者的名称。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookInternalVersion">
+      <MemberSignature Language="C#" Value="public int OutlookInternalVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 OutlookInternalVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.OutlookInternalVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutlookInternalVersion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OutlookInternalVersion { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34130)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34130)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个表示为某个 Outlook 项目的 Outlook 应用程序的内部版本号的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookVersion">
+      <MemberSignature Language="C#" Value="public string OutlookVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OutlookVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.OutlookVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutlookVersion As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OutlookVersion { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34132)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34132)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的 Outlook 应用程序的主要和次要版本号。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintOut">
+      <MemberSignature Language="C#" Value="public void PrintOut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOut() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.PrintOut" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PrintOut ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PrintOut();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61491)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>打印 Outlook 项目使用所有默认设置。 <b>PrintOut</b> 方法是唯一可用于打印的 Outlook 方法。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Recipients Recipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Recipients Recipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Recipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Recipients As Recipients" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Recipients ^ Recipients { Microsoft::Office::Interop::Outlook::Recipients ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合，代表对 Outlook 项目的所有收件人。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>可以通过代表收件人的显示名称、 别名或完整 SMTP 电子邮件地址的字符串指定收件人。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecurrenceState">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRecurrenceState RecurrenceState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRecurrenceState RecurrenceState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecurrenceState As OlRecurrenceState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRecurrenceState RecurrenceState { Microsoft::Office::Interop::Outlook::OlRecurrenceState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62789)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(62789)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRecurrenceState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceState" />常量，指示指定的对象的定期属性。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderMinutesBeforeStart">
+      <MemberSignature Language="C#" Value="public int ReminderMinutesBeforeStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ReminderMinutesBeforeStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderMinutesBeforeStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderMinutesBeforeStart As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ReminderMinutesBeforeStart { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34049)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34049)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34049)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置指示的提醒应当发生之前的约会开始的分钟数的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderOverrideDefault">
+      <MemberSignature Language="C#" Value="public bool ReminderOverrideDefault { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReminderOverrideDefault" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderOverrideDefault" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderOverrideDefault As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReminderOverrideDefault { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34076)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34076)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34076)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果提醒重写项的默认提醒行为。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>必须设置<b>ReminderOverrideDefault</b>属性来验证<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderPlaySound">
+      <MemberSignature Language="C#" Value="public bool ReminderPlaySound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReminderPlaySound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderPlaySound As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReminderPlaySound { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34078)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34078)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34078)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒应播放声音，发生此项时为<b>True</b> 。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>必须设置<b>ReminderPlaySound</b>属性验证<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderSet">
+      <MemberSignature Language="C#" Value="public bool ReminderSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReminderSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReminderSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34051)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34051)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34051)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒已为此项设置为<b>True</b> 。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderSoundFile">
+      <MemberSignature Language="C#" Value="public string ReminderSoundFile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReminderSoundFile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderSoundFile As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ReminderSoundFile { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34079)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34079)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34079)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的提醒发生时要播放的声音文件的路径和文件名称。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性才有效如果<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderOverrideDefault" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />属性设置为<b>True</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyTime">
+      <MemberSignature Language="C#" Value="public DateTime ReplyTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReplyTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReplyTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReplyTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReplyTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33312)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33312)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33312)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置约会的答复时间的<b>DateTime</b> 。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredAttendees">
+      <MemberSignature Language="C#" Value="public string RequiredAttendees { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RequiredAttendees" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RequiredAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequiredAttendees As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RequiredAttendees { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3588)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3588)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3588)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回由分号分隔的<b>字符串</b>（C# 中的<b>字符串</b>） 的必需与会者的会议约会的名称。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性只包含必需与会者的显示名称。应使用设置与会者列表<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resources">
+      <MemberSignature Language="C#" Value="public string Resources { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Resources" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Resources" />
+      <MemberSignature Language="VB.NET" Value="Public Property Resources As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Resources { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3586)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3586)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3586)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个以分号分隔<b>字符串</b>（C# 中的<b>字符串</b>） 的会议资源名称。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性包含的显示名称。<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />用于修改资源收件人集合。资源添加为<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BCC" />的收件人添加到集合。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Respond">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MeetingItem Respond (Microsoft.Office.Interop.Outlook.OlMeetingResponse Response, object fNoUI, object fAdditionalTextDialog);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MeetingItem Respond([in]valuetype Microsoft.Office.Interop.Outlook.OlMeetingResponse Response, [in]object fNoUI, [in]object fAdditionalTextDialog) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Respond(Microsoft.Office.Interop.Outlook.OlMeetingResponse,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Respond (Response As OlMeetingResponse, Optional fNoUI As Object, Optional fAdditionalTextDialog As Object) As MeetingItem" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62722)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MeetingItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Response" Type="Microsoft.Office.Interop.Outlook.OlMeetingResponse" />
+        <Parameter Name="fNoUI" Type="System.Object" />
+        <Parameter Name="fAdditionalTextDialog" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Response">响应要求。</param>
+        <param name="fNoUI">
+          <b>真</b> 不显示对话框。自动发送响应。 <b>假</b> 以显示对话框的响应。 </param>
+        <param name="fAdditionalTextDialog">
+          <b>假</b> 不提示用户进行输入;响应显示在检查器中进行编辑。 <b>真</b> 要提示用户或者直接发送或带批注发送。此参数是 <b>fNoUI</b>为 <b>假</b> 的情况下才有效。 </param>
+        <summary>响应会议要求。</summary>
+        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />对象，表示对会议请求的响应。</returns>
+        <remarks>
+          <para>当调用带<b>olMeetingAccepted</b>或<b>olMeetingTentative</b>参数的<b>响应</b>方法时，Outlook 将创建一个新的约会项来复制原始的约会项目。新项目将具有不同的条目 id。然后，outlook 将删除原始项目。您应不再使用的原始项目的条目 ID，而应调用<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EntryID" />属性获取任何后续需要新项的条目 ID。这是为了确保此约会项将被正确同步您的日历如果多个客户端计算机访问您的日历，但可能处于脱机状态偶尔使用缓存模式。</para>
+          <para>下表介绍的父对象，根据<b>响应</b>方法的行为和<paramref name="fNoUI" />和<paramref name="fAdditionalTextDialog" />参数。</para>不带用户界面，则返回
+          <list type="table"><item><description>，则为 true，则返回 True</description><description>响应项目。若要发送响应，必须调用 Send 方法。 </description></item><item><description>True、 False</description><description>与 True、 True 结果相同。 </description></item><item><description>False、 True</description><description>提示用户进行发送，或在发送响应之前编辑。 </description></item><item><description>False、 False</description><description>新响应项目显示在用户界面中，但不显示任何提示。</description></item></list><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseRequested">
+      <MemberSignature Language="C#" Value="public bool ResponseRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ResponseRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ResponseRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ResponseRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，如果发件人希望对约会的会议请求的响应<b>，则返回 True</b> 。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlResponseStatus ResponseStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlResponseStatus ResponseStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ResponseStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResponseStatus As OlResponseStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlResponseStatus ResponseStatus { Microsoft::Office::Interop::Outlook::OlResponseStatus get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33304)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33304)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" />约会的当前用户的会议的总体状态的常量。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RTFBody">
+      <MemberSignature Language="C#" Value="public object RTFBody { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object RTFBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RTFBody" />
+      <MemberSignature Language="VB.NET" Value="Public Property RTFBody As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RTFBody { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64644)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64644)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64644)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个字节数组，表示富文本格式的 Microsoft Outlook 项目的正文。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>您可以使用 C# 或 Visual Basic 中的 system.text.encoding.asciiencoding.getstring （） 方法将字节数组转换为字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将 Microsoft Outlook项目保存到当前文件夹中，如果是新项目，则保存到该项目类型的 Outlook 默认文件夹中。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAs">
+      <MemberSignature Language="C#" Value="public void SaveAs (string Path, object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveAs([in]string Path, [in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.SaveAs(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveAs (Path As String, Optional Type As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Path">将项目保存到的路径。</param>
+        <param name="Type">要保存的文件类型。 可以是下列<b>OlSaveAsType</b>常量之一： <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>， <b>olICal</b>，或<b>olMSGUnicode</b>。</param>
+        <summary>将 Microsoft Outlook项目以指定文件类型的格式保存到指定的路径。如果没有指定文件类型，则使用 MSG 格式 (.msg)。</summary>
+        <remarks>
+          <para>此外请注意，即使<b>olDoc</b>是有效的<b>OlSaveAsType</b>常量、 无法保存文档格式，以 HTML 格式的邮件和<b>olDoc</b>常量适用于 Microsoft Word 设置为默认电子邮件编辑器时，才。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Saved">
+      <MemberSignature Language="C#" Value="public bool Saved { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Saved" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Saved" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Saved As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Saved { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61603)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61603)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果自上次保存以来尚未修改的 Outlook 项目。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="public void Send ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Send() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Send" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Send ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Send();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61557)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>发送约会。</summary>
+        <remarks>
+          <para>
+            <b>Send</b>方法发送使用默认的帐户指定会话项目。在会话中多个 Microsoft Exchange 帐户配置文件中的定义位置，添加到配置文件的第一个 Exchange 帐户是 Exchange 主帐户，并且是会话的默认帐户还。若要指定不同的帐户来发送项目，将设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.SendUsingAccount" />属性设为所需<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象，然后调用<b>Send</b>方法。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendUsingAccount">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Account SendUsingAccount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Account SendUsingAccount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.SendUsingAccount" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendUsingAccount As Account" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Account ^ SendUsingAccount { Microsoft::Office::Interop::Outlook::Account ^ get(); void set(Microsoft::Office::Interop::Outlook::Account ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64209)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64209)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64209)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象，表示所用的帐户<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />是发送。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>SendUsingAccount</b>属性可用于指定应该用于发送<b>AppointmentItem</b>的帐户时<see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" />调用方法。如果指定的<b>AppointmentItem</b>的帐户不再存在，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlSensitivity Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlSensitivity Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As OlSensitivity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlSensitivity Sensitivity { Microsoft::Office::Interop::Outlook::OlSensitivity get(); void set(Microsoft::Office::Interop::Outlook::OlSensitivity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个常量，以<see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" />指示 Outlook 项目的敏感度枚举。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagSensitivity</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowCategoriesDialog">
+      <MemberSignature Language="C#" Value="public void ShowCategoriesDialog ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowCategoriesDialog() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AppointmentItem.ShowCategoriesDialog" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowCategoriesDialog ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowCategoriesDialog();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64011)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>显示显示类别对话框，用户可从中选择与项目主题相对应的类别。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3592)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3592)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指示 Outlook 项目的大小 （以字节为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33293)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33293)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33293)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<b>DateTime</b> ，该值指示开始日期和时间的 Outlook 项目。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartInStartTimeZone">
+      <MemberSignature Language="C#" Value="public DateTime StartInStartTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartInStartTimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartInStartTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartInStartTimeZone As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartInStartTimeZone { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33382)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33382)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33382)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>日期时间</b>值，表示的开始日期和时间表示约会<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>这是在约会检查器用户界面中显示为开始时间的值。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTimeZone">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.TimeZone StartTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.TimeZone StartTimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTimeZone As TimeZone" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::TimeZone ^ StartTimeZone { Microsoft::Office::Interop::Outlook::TimeZone ^ get(); void set(Microsoft::Office::Interop::Outlook::TimeZone ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64551)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64551)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64551)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.TimeZone</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" />对应的约会的开始时间的时区的值。  为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>时区信息用于约会到正确的 UTC 时间时将约会保存，和映射到正确的本地时间的日历中显示的项时。 </para>
+          <para>更改<b>StartTimeZone</b>将影响的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />其总是用当地时区， <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>
+          <para>根据情况，更改<b>StartTimeZone</b> ，也可能不会导致 Outlook 重新计算并更新<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartInStartTimeZone" />。</para>
+          <para>作为示例，在约会检查器中，如果您的组织者的约会开始时间 1 下午太平洋标准时间和结束时间在 3 下午 PST 更改约会具有 EST <b>StartTimeZone</b>将导致从 1 下午 EST 到持续的约会 3 下午 PST，与<b>StartInStartTimeZone</b>下午 1 的剩余但是，如果您不是组织者，然后更改<b>StartTimeZone</b>从到 EST PST 将使 Outlook 重新计算并更新<b>StartInStartTimeZone</b>，并且约会将从 4 下午 EST 持续到太平洋标准时间下午 3。</para>
+          <para>另一个示例更改<b>StartTimeZone</b>导致发生之前以前设置约会结束时间约会开始的时间，将重新计算并更新<b>StartInStartTimeZone</b>案例 Outlook。例如，在东部时间 1 下午和结束时间在东部时间 3 下午约会开始时间具有其<b>StartTimeZone</b>更改为太平洋标准时间。如果 Outlook 未不重新计算<b>StartInStartTimeZone</b>，约会必须在 1 下午 PST，这相当于 4 下午 EST 时，其会发生之前的 3 下午预计的结束时间的开始时间实际上，但是，更改<b>StartTimeZone</b>将导致 Outlook 重新计算并更新到上午 10 （在<b>StartTimeZone</b> PST) <b>StartInStartTimeZone</b> 。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartUTC">
+      <MemberSignature Language="C#" Value="public DateTime StartUTC { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartUTC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartUTC" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartUTC As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartUTC { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33384)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33384)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33384)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个表示的开始日期和约会以通用协调时间 (UTC) 标准时间的<b>DateTime</b>值。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>更改的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />属性或<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />属性将使 Outlook 重新计算<b>StartUTC</b>的值。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的主题。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagSubject</b>。<b>Subject</b>属性是 Outlook 项目的默认属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnRead">
+      <MemberSignature Language="C#" Value="public bool UnRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UnRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.UnRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UnRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(61468)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果的 Outlook 项目尚未打开 （阅读） 为<b>True</b> 。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.UserProperties UserProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.UserProperties UserProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AppointmentItem.UserProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserProperties As UserProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::UserProperties ^ UserProperties { Microsoft::Office::Interop::Outlook::UserProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63510)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63510)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />代表 Outlook 项目的所有用户属性的集合。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,60 @@
+<Type Name="OlkTextBoxEvents_MouseUpEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseUpEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c047680202bfdb9db7d971a0d36d844dad063d6d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632020" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void OlkTextBoxEvents_MouseUpEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkTextBoxEvents_MouseUpEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseUpEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkTextBoxEvents_MouseUpEventHandler(Button As OlMouseButton, Shift As OlShiftState, X As Single, Y As Single)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OlkTextBoxEvents_MouseUpEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Button" Type="Microsoft.Office.Interop.Outlook.OlMouseButton" />
+    <Parameter Name="Shift" Type="Microsoft.Office.Interop.Outlook.OlShiftState" />
+    <Parameter Name="X" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_XPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+    <Parameter Name="Y" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_YPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Button">
+      <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" />常量，指定已按下鼠标的哪个按钮。</param>
+    <param name="Shift">中常量的按位或掩码<see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" />枚举，指定是否已按下了 SHIFT、 CTRL 或 ALT 键。</param>
+    <param name="X">标识鼠标指针在 X 轴上相对于窗体的位置。</param>
+    <param name="Y">标识鼠标指针在 Y 轴上相对于窗体的位置。</param>
+    <summary>这是针对相应对象中的事件的委派。在对事件实现回调方法后，使用此委派将回调方法连接到该事件。如果存在多个版本的事件接口，此委派将为指定版本的 Outlook 中的事件连接回调方法。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

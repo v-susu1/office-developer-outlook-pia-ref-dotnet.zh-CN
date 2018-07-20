@@ -1,0 +1,508 @@
+<Type Name="_PropertyAccessor" FullName="Microsoft.Office.Interop.Outlook._PropertyAccessor">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631594" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _PropertyAccessor" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._PropertyAccessor" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _PropertyAccessor" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _PropertyAccessor" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006302D-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._PropertyAccessor.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BinaryToString">
+      <MemberSignature Language="C#" Value="public string BinaryToString (object Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string BinaryToString([in]object Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BinaryToString (Value As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ BinaryToString(System::Object ^ Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64259)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Value">代表要转换的字节数组。</param>
+        <summary>将指定的字节数组转换<paramref name="Value" />为<b>字符串</b>（C# 中的<b>字符串</b>）。</summary>
+        <returns>一个十六进制<b>字符串</b>（C# 中的<b>字符串</b>），表示转换后的值。</returns>
+        <remarks>
+          <para>有关使用<b>PropertyAccessor</b>对象时类型转换的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._PropertyAccessor.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteProperties">
+      <MemberSignature Language="C#" Value="public object DeleteProperties (ref object SchemaNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object DeleteProperties([in]object&amp; SchemaNames) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.DeleteProperties(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteProperties (ByRef SchemaNames As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ DeleteProperties(System::Object ^ % SchemaNames);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64402)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaNames" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaNames">包含要删除的父对象的属性的名称的数组<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。 这些属性通过命名空间引用。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></param>
+        <summary>删除在数组中指定的属性<paramref name="SchemaNames" />。</summary>
+        <returns>如果操作成功，或者如果出错，则<b>Err</b>对象的数组为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）<b>对象</b>。 如果返回值是一个数组，该数组的大小是 SchemaNames数组相同。 数组中的 <b>错误</b> 值映射到删除 SchemaNames参数中的对应属性的错误结果。</returns>
+        <remarks>
+          <para>呼叫者必须有权删除属性。<b>DeleteProperties</b>方法仅删除存在的自定义属性。它不会删除任何 Outlook 内置属性或任何 MAPI 属性。它不会删除自定义属性的<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteProperty">
+      <MemberSignature Language="C#" Value="public void DeleteProperty (string SchemaName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteProperty([in]string SchemaName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.DeleteProperty(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteProperty (SchemaName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DeleteProperty(System::String ^ SchemaName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64401)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaName">要删除的父对象的属性的名称<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。 通过命名空间引用属性。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></param>
+        <summary>删除指定的属性<paramref name="SchemaName" />。</summary>
+        <remarks>
+          <para>呼叫者必须有权删除属性。<b>DeleteProperty</b>方法删除仅自定义属性;它不会删除任何 Outlook 内置属性或任何 MAPI 属性。它不会删除自定义属性的<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProperties">
+      <MemberSignature Language="C#" Value="public object GetProperties (object SchemaNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetProperties([in]object SchemaNames) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.GetProperties(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetProperties (SchemaNames As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetProperties(System::Object ^ SchemaNames);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64254)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaNames" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaNames">一个包含要返回其值的属性的名称的数组。 这些属性通过命名空间引用。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></param>
+        <summary>获取由一维数组指定的属性的值<paramref name="SchemaNames" />。</summary>
+        <returns>一个<b>对象</b>，表示的参数中指定的属性的值的数组<paramref name="SchemaNames" />。 在返回的数组的元素数目等于中的元素数<paramref name="SchemaNames" />数组。  如果在获取特定属性时发生错误，则将返回的数组中的对应位置中返回 <b>Err</b> 值。</returns>
+        <remarks>
+          <para>
+            <b>GetProperties</b>返回的数组可以包含不同类型，具体取决于请求的属性类型的元素。<b>GetProperties</b>返回的数组元素的类型将是基础属性的类型相同。某些原始属性类型，如<b>PT_OBJECT</b>不受支持，将引发错误。如果您需要的原始属性类型转换，例如，从<b>PT_BINARY</b>为字符串，或从<b>PT_SYSTIME</b>为本地时间，使用的帮助程序方法<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />和<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</para>
+          <para>有关使用<b>PropertyAccessor</b>对象获取属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProperty">
+      <MemberSignature Language="C#" Value="public object GetProperty (string SchemaName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetProperty([in]string SchemaName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.GetProperty(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetProperty (SchemaName As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetProperty(System::String ^ SchemaName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64251)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaName">将返回其值的属性的名称。 该属性通过命名空间引用。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></param>
+        <summary>返回一个<b>对象</b>，表示由指定的属性的值<paramref name="SchemaName" />。</summary>
+        <returns>一个<b>Object</b>值，该值代表指定请求属性的值<paramref name="SchemaName" />。</returns>
+        <remarks>
+          <para>返回值的类型将是基础属性的类型相同。某些原始属性类型，如<b>PT_OBJECT</b>不受支持，将引发错误。如果您需要的原始属性类型转换，例如，从<b>PT_BINARY</b>为字符串，或从<b>PT_SYSTIME</b>为本地时间，使用的帮助程序方法<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />和<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</para>
+          <para>有关使用<b>PropertyAccessor</b>对象获取属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalTimeToUTC">
+      <MemberSignature Language="C#" Value="public DateTime LocalTimeToUTC (DateTime Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime LocalTimeToUTC([in]valuetype System.DateTime Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.LocalTimeToUTC(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LocalTimeToUTC (Value As DateTime) As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DateTime LocalTimeToUTC(DateTime Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64257)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Value" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Value">要从本地时间转换为 UTC 的日期时间值。</param>
+        <summary>将指定的日期时间值转换为<paramref name="Value" />从本地时间格式为通用协调时间 (UTC) 格式。</summary>
+        <returns>DateTime 值，该值代表<paramref name="Value" />后从本地时间转换为 UTC。</returns>
+        <remarks>
+          <para>有关使用<b>PropertyAccessor</b>对象时类型转换的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._PropertyAccessor.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._PropertyAccessor.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。  只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />方法可以交替使用，以获取<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />当前会话的对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProperties">
+      <MemberSignature Language="C#" Value="public object SetProperties (object SchemaNames, object Values);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object SetProperties([in]object SchemaNames, [in]object Values) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetProperties (SchemaNames As Object, Values As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ SetProperties(System::Object ^ SchemaNames, System::Object ^ Values);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64255)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaNames" Type="System.Object" />
+        <Parameter Name="Values" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaNames">要设置其值的属性的名称的数组，参数指定的值。 这些属性通过命名空间引用。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></param>
+        <param name="Values">要为 SchemaNames 参数指定的属性设置的值的数组。</param>
+        <summary>将由数组的指定属性设置<paramref name="SchemaNames" />指定由数组的值<paramref name="Values" />。</summary>
+        <returns>如果操作成功为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）<b>对象</b>。 如果之前设置任何属性时出现错误，例如， SchemaNames数组中元素的个数不匹配，在 Values数组中，并将返回 <b>Err</b> 值。 如果属性设置没有错误，返回值是与正在 SchemaNames 数组相同此数组中的元素数<b>Err</b>对象的数组。 数组中的 <b>错误</b> 值被映射到在 SchemaNames参数中设置相应的属性的错误结果。</returns>
+        <remarks>
+          <para>如果属性不存在和<paramref name="SchemaNames" />元素包含一个有效的属性说明符，然后<b>SetProperties</b>会创建该属性，并将属性分配与指定的值<paramref name="Values" />。将传入的元素的类型属性的类型。 <paramref name="Values" />。如果属性存在，则<b>SetProperties</b>分配属性指定值<paramref name="Values" />。</para>
+          <para>，使用<b>PropertyAccessor</b>创建的自定义属性不支持自定义视图中的注释。如果您想要查看项目的自定义属性，通过使用创建该属性<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法。</para>
+          <para>如果对象的父<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持显式<b>保存</b>的操作，则属性应保存到具有<b>保存</b>的显式对象方法调用。如果对象不支持显式<b>保存</b>的操作，则属性保存到该对象调用<b>SetProperties</b>时。</para>
+          <para>小心，并确保正确处理所有异常。设置属性失败其中包含的条件：</para>
+          <list type="bullet">
+            <item>
+              <para>属性是只读的一些 Outlook 和 MAPI 属性是只读的。</para>
+            </item>
+            <item>
+              <para>找不到指定的命名空间所引用的属性。</para>
+            </item>
+            <item>
+              <para>属性指定格式无效，无法进行分析。</para>
+            </item>
+            <item>
+              <para>属性不存在且无法创建。</para>
+            </item>
+            <item>
+              <para>属性存在，但传递不正确的类型的值。</para>
+            </item>
+            <item>
+              <para>由于客户端脱机，无法打开属性。</para>
+            </item>
+            <item>
+              <para>创建属性使用的<b>Add</b>方法<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象。当第一次设置属性，必须使用<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象，而不是<b>SetProperties</b>或<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /><b>PropertyAccessor</b>对象的方法。</para>
+            </item>
+          </list>
+          <para>有关使用<b>PropertyAccessor</b>对象，设置属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProperty">
+      <MemberSignature Language="C#" Value="public void SetProperty (string SchemaName, object Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetProperty([in]string SchemaName, [in]object Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetProperty (SchemaName As String, Value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetProperty(System::String ^ SchemaName, System::Object ^ Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64252)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SchemaName" Type="System.String" />
+        <Parameter Name="Value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SchemaName">要设置其值属性的名称由指定<paramref name="Value" />。 通过命名空间引用属性。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></param>
+        <param name="Value">要设置为指定的属性的值<paramref name="SchemaName" />。</param>
+        <summary>将指定的属性设置<paramref name="SchemaName" />指定的值为<paramref name="Value" />。</summary>
+        <remarks>
+          <para>如果属性不存在和<paramref name="SchemaName" />包含一个有效的属性说明符，然后<b>SetProperty</b>创建属性并将其值赋指定<paramref name="Value" />。如果该属性是否存在和<paramref name="SchemaName" />是有效的则<b>SetProperty</b>分配属性指定的值与<paramref name="Value" />。</para>
+          <para>，使用<b>PropertyAccessor</b>创建的自定义属性不支持自定义视图中的注释。如果您想要查看项目的自定义属性，通过使用创建该属性<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法。</para>如果<b>PropertyAccessor</b>的父对象支持显式
+          <para><b>保存</b>的操作，则属性应保存到具有<b>保存</b>的显式对象方法调用。如果对象不支持显式<b>保存</b>的操作，则属性保存到该对象调用<b>SetProperties</b>时。</para><para>小心，并确保正确处理所有异常。设置属性失败其中包含的条件：</para><list type="bullet"><item><para>属性是只读的一些 Outlook 和 MAPI 属性是只读的。</para></item><item><para>找不到指定的命名空间所引用的属性。</para></item><item><para>属性指定格式无效，无法进行分析。</para></item><item><para>属性不存在且无法创建。</para></item><item><para>属性存在，但传递不正确的类型的值。</para></item><item><para>由于客户端脱机，无法打开属性。</para></item><item><para>创建属性使用的<b>Add</b>方法<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象。当第一次设置属性，必须使用<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象，而不是<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />或<b>PropertyAccessor</b>对象的<b>SetProperty</b>方法。</para></item></list><para>有关使用<b>PropertyAccessor</b>对象，设置属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StringToBinary">
+      <MemberSignature Language="C#" Value="public object StringToBinary (string Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object StringToBinary([in]string Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.StringToBinary(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StringToBinary (Value As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ StringToBinary(System::String ^ Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64258)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Value">一个要转换为字节数组的十六进制字符串值。</param>
+        <summary>将指定的字符串转换为<paramref name="Value" />到一个字节数组。</summary>
+        <returns>一个<b>Object</b>值，该值代表从转换返回的字节数组。</returns>
+        <remarks>
+          <para>有关使用<b>PropertyAccessor</b>对象时类型转换的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UTCToLocalTime">
+      <MemberSignature Language="C#" Value="public DateTime UTCToLocalTime (DateTime Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime UTCToLocalTime([in]valuetype System.DateTime Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Function UTCToLocalTime (Value As DateTime) As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DateTime UTCToLocalTime(DateTime Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64256)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Value" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Value">要从 UTC 转换为本地时间的 DateTime 值。</param>
+        <summary>将指定的日期时间值转换<paramref name="Value" />并且用通用协调时间 (UTC) 表示为本地时间值。</summary>
+        <returns>DateTime 值，该值代表<paramref name="Value" />后从 UTC 转换为本地时间。</returns>
+        <remarks>
+          <para>有关详细信息类型转换时使用<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

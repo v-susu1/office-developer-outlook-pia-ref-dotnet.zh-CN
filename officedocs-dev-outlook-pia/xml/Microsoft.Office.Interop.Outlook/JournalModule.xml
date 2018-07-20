@@ -1,0 +1,41 @@
+<Type Name="JournalModule" FullName="Microsoft.Office.Interop.Outlook.JournalModule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0c4ac2b4ea0698138fa548a4b78a65d6cc4884dd" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631447" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface JournalModule : Microsoft.Office.Interop.Outlook._JournalModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract JournalModule implements class Microsoft.Office.Interop.Outlook._JournalModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.JournalModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface JournalModule&#xA;Implements _JournalModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class JournalModule : Microsoft::Office::Interop::Outlook::_JournalModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._JournalModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.JournalModuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630ED-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表浏览器导航窗格中的日记导航模块。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._JournalModule" />。</para>
+      <para>
+        <b>JournalModule</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象，提供对资源管理器导航窗格的日记导航模块中包含的导航组的访问。使用<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />方法或<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" />属性 (<b>此</b>C# 中) 的<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" />父集合<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象来检索的<b>NavigationModule</b>对象，然后使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /><b>NavigationModule</b>对象的属性若要检索的模块类型。如果的<b>NavigationModuleType</b>属性设置为<b>olModuleJournal</b>，然后可以作为<b>JournalModule</b>对象访问转换<b>NavigationModule</b>对象引用<see cref="P:Microsoft.Office.Interop.Outlook._JournalModule.NavigationGroups" />导航模块的属性。</para>您可以使用
+      <para><see cref="P:Microsoft.Office.Interop.Outlook._JournalModule.Visible" />属性可以确定是否可见的导航模块和<see cref="P:Microsoft.Office.Interop.Outlook._JournalModule.Position" />属性可返回或设置导航窗格中的导航模块的显示位置。您可以使用<see cref="P:Microsoft.Office.Interop.Outlook._JournalModule.Name" />属性可返回导航窗格中的日记导航模块的显示名称。</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

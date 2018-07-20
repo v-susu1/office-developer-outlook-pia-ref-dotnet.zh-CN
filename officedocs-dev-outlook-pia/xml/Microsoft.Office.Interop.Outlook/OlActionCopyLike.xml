@@ -1,0 +1,126 @@
+<Type Name="OlActionCopyLike" FullName="Microsoft.Office.Interop.Outlook.OlActionCopyLike">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="aa645b393eb5513da0133626f8f3965d1adb7f3b" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632505" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlActionCopyLike" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlActionCopyLike extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlActionCopyLike" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlActionCopyLike" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定项目属性的复制方式。</summary>
+    <remarks>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Action" />指定项目属性将被复制到新项目时执行<b>操作</b>创建。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olForward">
+      <MemberSignature Language="C#" Value="olForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olForward = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olForward" />
+      <MemberSignature Language="VB.NET" Value="olForward" />
+      <MemberSignature Language="C++ CLI" Value="olForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>将设置新的项目的属性，以便为转发原始项目的新项目。  如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 新项目中的<b>和<b>抄送</b></b>属性的值将为空，如新项目的<b>Subject</b>属性将原始<b>主题</b>前缀与"FW:"(请参阅<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />属性) 添加。    原始项目上的附件将被复制到新项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olReply">
+      <MemberSignature Language="C#" Value="olReply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olReply = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olReply" />
+      <MemberSignature Language="VB.NET" Value="olReply" />
+      <MemberSignature Language="C++ CLI" Value="olReply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>这样的新项目是对原始项的答复，将设置新项目的属性。    如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 原始的<b>到</b>字段的值将被复制到新项目的<b>SenderEmailAddress</b>属性、 抄送字段将为空和新项目的<b>主题</b>字段将与原始<b>主题</b>如前缀"RE:"(请参阅<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />属性) 添加。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olReplyAll">
+      <MemberSignature Language="C#" Value="olReplyAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olReplyAll = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olReplyAll" />
+      <MemberSignature Language="VB.NET" Value="olReplyAll" />
+      <MemberSignature Language="C++ CLI" Value="olReplyAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>将设置新项目的属性，这样回复原始项目的发件人的所有新项目。  如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <b>SenderEmailAddress</b>和<b>抄送</b>属性的值将被复制到新项目的<b>To</b>属性和新项目的<b>Subject</b>属性将前缀与原始项目的主题例如，"RE:"(请参阅<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />属性) 添加。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olReplyFolder">
+      <MemberSignature Language="C#" Value="olReplyFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olReplyFolder = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olReplyFolder" />
+      <MemberSignature Language="VB.NET" Value="olReplyFolder" />
+      <MemberSignature Language="C++ CLI" Value="olReplyFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />基于旧、 新项目的 Post To 属性将包含的活动文件夹地址、 原始项目的<b>Subject</b>属性将被复制到新项，并将<b>的<b>ConversationTopic</b>属性主题</b>新项目的属性将为空。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olRespond">
+      <MemberSignature Language="C#" Value="olRespond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olRespond = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olRespond" />
+      <MemberSignature Language="VB.NET" Value="olRespond" />
+      <MemberSignature Language="C++ CLI" Value="olRespond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>专门用于对按钮操作投票。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

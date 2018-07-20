@@ -1,0 +1,44 @@
+<Type Name="NavigationFolders" FullName="Microsoft.Office.Interop.Outlook.NavigationFolders">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6fbb80fe1fc1d4e7cde3d72ff9f95a7c7cd9afa9" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632847" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NavigationFolders : Microsoft.Office.Interop.Outlook._NavigationFolders" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationFolders implements class Microsoft.Office.Interop.Outlook._NavigationFolders" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationFolders&#xA;Implements _NavigationFolders" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationFolders : Microsoft::Office::Interop::Outlook::_NavigationFolders" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NavigationFolders</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NavigationFoldersClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630F1-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>包含一组<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象代表与导航组关联的导航文件夹。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolders" />。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.NavigationFolders" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象可返回一个<b>NavigationFolders</b>对象。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" />方法，以创建新的<b>NavigationFolder</b>对象基于现有<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象并将其添加到集合。使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" />(中的<b>此</b>C#) 属性可返回<b>NavigationFolders</b>集合中包含的现有<b>NavigationFolder</b>对象。使用<see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Remove(Microsoft.Office.Interop.Outlook.NavigationFolder)" />方法从<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合对象的父<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象。</para>
+      <para>使用<see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.NavigationFolderAdd" />和<see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.NavigationFolderRemove" />事件，以检测时添加或删除，分别从<b>NavigationFolders</b>对象的导航文件夹。使用<see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" />事件以检测<b>NavigationFolders</b>对象中包含基于日历文件夹的导航文件夹的选择状态更改。</para>
+      <para>请注意，如果您删除<b>文件夹</b>使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" />，删除将自动反映，在导航窗格中，在<b>NavigationFolders</b>集合中，但因为实际文件夹之间的同步和导航窗格中发生的情况异步，这需要完成几毫秒。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

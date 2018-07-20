@@ -1,0 +1,55 @@
+<Type Name="AutoFormatRule" FullName="Microsoft.Office.Interop.Outlook.AutoFormatRule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4810c5d1dab65629f59a1b4f0090cef64f569c57" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631398" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface AutoFormatRule : Microsoft.Office.Interop.Outlook._AutoFormatRule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AutoFormatRule implements class Microsoft.Office.Interop.Outlook._AutoFormatRule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AutoFormatRule&#xA;Implements _AutoFormatRule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AutoFormatRule : Microsoft::Office::Interop::Outlook::_AutoFormatRule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._AutoFormatRule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.AutoFormatRuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063093-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>表示一个对象用于确定如何设置该视图中显示 Microsoft Outlook 项目的格式的格式规则。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._AutoFormatRule" />。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Add(System.String)" />方法或<see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Insert(System.String,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集创建新的格式设置规则的以下对象：</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
+          </para>
+        </item>
+      </list>
+      <para>Outlook 提供了一套内置的格式规则可被禁用，但不能删除或重新排序。自定义格式规则，以编程方式定义以下任意或上方或内置的格式设置规则之间，则不能移动用户操作。使用<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" />属性可以确定是否内置或自定义格式规则。</para>
+      <para>格式规则所检查并应用针对每个 Outlook 项目， <b>AutoFormatRules</b>集合中包含的顺序。使用<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Enabled" />属性来启用或禁用的格式规则，<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Filter" />属性来定义 Outlook 项目进行格式设置格式的规则，而必须满足的条件和<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Font" />属性指定要应用的格式的格式规则。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

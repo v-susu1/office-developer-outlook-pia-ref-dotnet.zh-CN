@@ -1,0 +1,66 @@
+<Type Name="OlBusinessCardType" FullName="Microsoft.Office.Interop.Outlook.OlBusinessCardType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a92627b00acbcb52c08646e5839dab97bf5b71b1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632888" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlBusinessCardType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlBusinessCardType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlBusinessCardType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlBusinessCardType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlBusinessCardType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>标识与关联的电子名片 (EBC) 格式的类型<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />对象。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olBusinessCardTypeInterConnect">
+      <MemberSignature Language="C#" Value="olBusinessCardTypeInterConnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlBusinessCardType olBusinessCardTypeInterConnect = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlBusinessCardType.olBusinessCardTypeInterConnect" />
+      <MemberSignature Language="VB.NET" Value="olBusinessCardTypeInterConnect" />
+      <MemberSignature Language="C++ CLI" Value="olBusinessCardTypeInterConnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlBusinessCardType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>指示 <b>联系人</b> 使用 Microsoft Office InterConnect 格式的关联电子名片。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olBusinessCardTypeOutlook">
+      <MemberSignature Language="C#" Value="olBusinessCardTypeOutlook" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlBusinessCardType olBusinessCardTypeOutlook = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlBusinessCardType.olBusinessCardTypeOutlook" />
+      <MemberSignature Language="VB.NET" Value="olBusinessCardTypeOutlook" />
+      <MemberSignature Language="C++ CLI" Value="olBusinessCardTypeOutlook" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlBusinessCardType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>指示在 <b>创建 ContactItem</b> 对象使用的Microsoft Outlook格式的关联电子名片。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

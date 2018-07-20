@@ -1,0 +1,229 @@
+<Type Name="InspectorEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e577cef66d03135647987f26fbc59f4c3687f225" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631807" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface InspectorEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract InspectorEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface InspectorEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class InspectorEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.InspectorEvents_10), typeof(Microsoft.Office.Interop.Outlook.InspectorEvents_10_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.InspectorEvents_10_ActivateEventHandler Activate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.InspectorEvents_10_ActivateEventHandler Activate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Activate" />
+      <MemberSignature Language="VB.NET" Value="Event Activate As InspectorEvents_10_ActivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::InspectorEvents_10_ActivateEventHandler ^ Activate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.InspectorEvents_10_ActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>由于用户操作或程序代码而使检查器成为活动窗口时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentSelectionChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.InspectorEvents_10_AttachmentSelectionChangeEventHandler AttachmentSelectionChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.InspectorEvents_10_AttachmentSelectionChangeEventHandler AttachmentSelectionChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.AttachmentSelectionChange" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentSelectionChange As InspectorEvents_10_AttachmentSelectionChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::InspectorEvents_10_AttachmentSelectionChangeEventHandler ^ AttachmentSelectionChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.InspectorEvents_10_AttachmentSelectionChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户通过编程方式，或者通过与用户界面交互，在活动检查器中选择某个项目的其他附件或更多附件时发生。</summary>
+        <remarks>
+          <para>检查器中选择的项目的不同或更多附件时，将触发<b>AttachmentSelectionChange</b>事件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeMaximize">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMaximizeEventHandler BeforeMaximize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMaximizeEventHandler BeforeMaximize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.BeforeMaximize" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeMaximize As InspectorEvents_10_BeforeMaximizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::InspectorEvents_10_BeforeMaximizeEventHandler ^ BeforeMaximize;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMaximizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户最大化检查器时发生。</summary>
+        <remarks>
+          <para>开始后可以取消此事件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeMinimize">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMinimizeEventHandler BeforeMinimize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMinimizeEventHandler BeforeMinimize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.BeforeMinimize" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeMinimize As InspectorEvents_10_BeforeMinimizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::InspectorEvents_10_BeforeMinimizeEventHandler ^ BeforeMinimize;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMinimizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户最小化活动检查器时发生。</summary>
+        <remarks>
+          <para>开始后可以取消此事件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMoveEventHandler BeforeMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMoveEventHandler BeforeMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.BeforeMove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeMove As InspectorEvents_10_BeforeMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::InspectorEvents_10_BeforeMoveEventHandler ^ BeforeMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>发生此事件时<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />移动用户。</summary>
+        <remarks>
+          <para>开始后可以取消此事件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeSize">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeSizeEventHandler BeforeSize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeSizeEventHandler BeforeSize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.BeforeSize" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeSize As InspectorEvents_10_BeforeSizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::InspectorEvents_10_BeforeSizeEventHandler ^ BeforeSize;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeSizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当用户调整当前大小时发生<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</summary>
+        <remarks>
+          <para>开始后可以取消此事件。如果取消该事件，不调整窗口。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.InspectorEvents_10_CloseEventHandler Close;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.InspectorEvents_10_CloseEventHandler Close" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Close" />
+      <MemberSignature Language="VB.NET" Value="Event Close As InspectorEvents_10_CloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::InspectorEvents_10_CloseEventHandler ^ Close;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.InspectorEvents_10_CloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当关闭与 Microsoft Outlook项目相关联的检查器时发生。</summary>
+        <remarks>
+          <para>如果您使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deactivate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.InspectorEvents_10_DeactivateEventHandler Deactivate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.InspectorEvents_10_DeactivateEventHandler Deactivate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Deactivate" />
+      <MemberSignature Language="VB.NET" Value="Event Deactivate As InspectorEvents_10_DeactivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::InspectorEvents_10_DeactivateEventHandler ^ Deactivate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.InspectorEvents_10_DeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>由于用户操作或程序代码而使检查器不再是活动窗口时发生。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.InspectorEvents_10_PageChangeEventHandler PageChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.InspectorEvents_10_PageChangeEventHandler PageChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.PageChange" />
+      <MemberSignature Language="VB.NET" Value="Event PageChange As InspectorEvents_10_PageChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::InspectorEvents_10_PageChangeEventHandler ^ PageChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.InspectorEvents_10_PageChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>当活动窗体页更改时发生，通过编程方式或用户操作，在<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象。</summary>
+        <remarks>
+          <para>如果此事件的事件处理程序调用出错<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />或<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.SetCurrentFormPage(System.String)" />方法。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

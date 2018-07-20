@@ -1,0 +1,40 @@
+<Type Name="Store" FullName="Microsoft.Office.Interop.Outlook.Store">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6445374782d0b4add1312b6169f01fab8b0ba475" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632722" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Store : Microsoft.Office.Interop.Outlook._Store" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Store implements class Microsoft.Office.Interop.Outlook._Store" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Store" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Store&#xA;Implements _Store" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Store : Microsoft::Office::Interop::Outlook::_Store" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Store</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.StoreClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630C7-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表本地计算机或网络驱动器上的文件，该文件存储当前配置文件中的帐户的电子邮件和其他项目。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Store" />。</para>
+      <para>的配置文件定义一个或多个电子邮件帐户，且每个电子邮件帐户与特定类型的服务器关联。Exchange 服务器，存储可以是在服务器上，在 Exchange 公用文件夹中，或本地个人文件夹文件 (.pst) 或脱机文件夹文件 (.ost) 中。对于 POP3、 IMAP 或 HTTP 电子邮件服务器，存储区是一个.pst 文件。</para>您可以使用
+      <para><see cref="T:Microsoft.Office.Interop.Outlook.Stores" />和<b>存储</b>对象，枚举所有文件夹和搜索当前会话中的所有存储区上的文件夹。 由于获得的根文件夹或存储区中的搜索文件夹，才能开放的存储而打开存储施加性能开销，您可以检查<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" />属性决定继续操作之前。</para><para>如果您使用 Exchange 服务器，您可以访问其他显式内置<b>存储</b>的属性存储特征，如<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />， <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsCachedExchange" />，和<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsDataFileStore" />。使用<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象返回<see cref="P:Microsoft.Office.Interop.Outlook._Store.PropertyAccessor" />访问其他的 Outlook 对象模型中未公开的属性存储。</para><para>有关详细信息存储 Outlook 项目在文件夹和存储区，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87932">存储 Outlook 项目</a></para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

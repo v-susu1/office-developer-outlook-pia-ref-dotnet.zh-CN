@@ -1,0 +1,180 @@
+<Type Name="OlDefaultSelectNamesDisplayMode" FullName="Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="058cc9a2f396bc8ecda0d309b46f8d4981756678" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632642" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlDefaultSelectNamesDisplayMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlDefaultSelectNamesDisplayMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定要在选择姓名对话框中显示的默认标题、按钮个数、按钮标签和地址列表，不需要任何本地化标题和标签的资源文件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olDefaultDelegates">
+      <MemberSignature Language="C#" Value="olDefaultDelegates" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultDelegates = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultDelegates" />
+      <MemberSignature Language="VB.NET" Value="olDefaultDelegates" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultDelegates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>显示一个编辑框中的收件人，使用的本地化字符串用于收件人按钮，表示"添加"，并代表"添加用户"本地化字符串用于标题。 CcLabel和 BccLabel设置为一个空字符串。 设置<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" />为 True 和<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />到 olTo。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMail">
+      <MemberSignature Language="C#" Value="olDefaultMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMail = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMail" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMail" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>显示三个编辑框和抄送和密件抄送收件人、 使用本地化字符串表示"到"、"抄送"和"密件抄送"的收件人、 抄送、 和密件抄送按钮，并代表的标题的"选择姓名"的本地化的字符串。 将为 True 的<b>AllowMultipleSelection</b>和<b>NumberOfRecipientSelectors</b>设置为 olToCcBcc。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMeeting">
+      <MemberSignature Language="C#" Value="olDefaultMeeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMeeting = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMeeting" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMeeting" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMeeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>需要，可选，显示三个编辑框和资源收件人使用的本地化字符串用于收件人、 抄送表示"需要"、"可选"，并"资源"和密件抄送按钮，并代表标题为"选择与会者和资源"的本地化的字符串。 将为 True 的<b>AllowMultipleSelection</b>和<b>NumberOfRecipientSelectors</b>设置为 olToCcBcc。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMembers">
+      <MemberSignature Language="C#" Value="olDefaultMembers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMembers = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMembers" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMembers" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMembers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>向收件人显示一个编辑框的使用的本地化的字符串用于收件人按钮，代表"收件人"，代表"选择成员"本地化字符串用于标题。 CcLabel和 BccLabel设置为一个空字符串。 将为 True 的<b>AllowMultipleSelection</b>和<b>NumberOfRecipientSelectors</b>设置为 olTo。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultPickRooms">
+      <MemberSignature Language="C#" Value="olDefaultPickRooms" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultPickRooms = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultPickRooms" />
+      <MemberSignature Language="VB.NET" Value="olDefaultPickRooms" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultPickRooms" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>为资源收件人显示一个编辑框使用的按钮和表示标题的"选择会议室"的本地化的字符串代表"会议室"的本地化的字符串。 CcLabel和 BccLabel设置为一个空字符串。 将为 True 的<b>AllowMultipleSelection</b>和<b>NumberOfRecipientSelectors</b>设置为 olShowTo。 <b>InitialDisplayList</b> 设置为全局地址列表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSharingRequest">
+      <MemberSignature Language="C#" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSharingRequest = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSharingRequest" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSharingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>显示一个编辑框中的收件人，将本地化字符串代表"收件人按钮，"为代表的标题的"选择姓名"的本地化字符串。 CcLabel和 BccLabel设置为一个空字符串。 将为 True 的<b>AllowMultipleSelection</b>和<b>NumberOfRecipientSelectors</b>设置为 olTo。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSingleName">
+      <MemberSignature Language="C#" Value="olDefaultSingleName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSingleName = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSingleName" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSingleName" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSingleName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>不为收件人显示任何编辑框，将代表“选择姓名”的本地化字符串用于标题。将 ToLabel、CcLabel 和 Bcc label 都设置为空字符串。将 <b>AllowMultipleSelection</b> 设置为 False，将 <b>NumberOfRecipientSelectors</b> 设置为 olNone。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultTask">
+      <MemberSignature Language="C#" Value="olDefaultTask" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultTask = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultTask" />
+      <MemberSignature Language="VB.NET" Value="olDefaultTask" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultTask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>显示一个编辑框中的收件人，将本地化字符串表示"收件人"按钮，并代表标题为"选择任务收件人"的本地化字符串。 CcLabel和 BccLabel设置为一个空字符串。 将为 True 的<b>AllowMultipleSelection</b>和<b>NumberOfRecipientSelectors</b>设置为 olTo。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

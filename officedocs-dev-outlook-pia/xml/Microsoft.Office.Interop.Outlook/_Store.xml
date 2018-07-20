@@ -1,0 +1,736 @@
+<Type Name="_Store" FullName="Microsoft.Office.Interop.Outlook._Store">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3f2239ab127f9c76011dbb664fdfb2aec7a1918e" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633074" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Store" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Store" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Store" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Store" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Store" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630C7-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Store" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Categories Categories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Categories Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Categories As Categories" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Categories ^ Categories { Microsoft::Office::Interop::Outlook::Categories ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64421)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64421)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Categories</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Categories" />集合，代表所有类别定义的<see cref="T:Microsoft.Office.Interop.Outlook.Store" />。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，只不过此属性适用于会话配置文件指定一个或多个帐户，并指定帐户相关联，存储的类别，而<b>类别</b><b>NameSpace</b>对象的属性应用于定义只有一个帐户，并指定该会话的主类别列表的会话配置文件。</para>
+          <para>对于如 IMAP 存储区某些辅助传递存储区， <b>Categories</b>属性返回的主存储区的<b>Categories</b>集合。IMAP 存储区实际上不支持单独的 categories 集合。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>DisplayName</b>是<b>存储</b>对象的默认属性。此属性对应于 MAPI 属性<b>PidTagDisplayName</b>。</para>
+          <para>
+            <b>DisplayName</b>是只读的。若要更改<b>DisplayName</b>个人文件夹文件 (.pst)，请使用<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象和<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />方法。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeStoreType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlExchangeStoreType ExchangeStoreType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlExchangeStoreType ExchangeStoreType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExchangeStoreType As OlExchangeStoreType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlExchangeStoreType ExchangeStoreType { Microsoft::Office::Interop::Outlook::OlExchangeStoreType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64218)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64218)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeStoreType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" />指示 Exchange 存储的类型的枚举。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ExchangeStoreType</b>属性区分开来不同 Exchange 存储区类型，如主 Exchange 邮箱、 Exchange 邮箱、 公用文件夹存储或非 Exchange 存储区。此属性存储包括 Hotmail、 HTTP、 IMAP、 等的每个类型之间没有区别。使用<see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" />类型的电子邮件帐户，如 Exchange、 HTTP、 IMAP 或 POP3 相关联的服务器。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilePath">
+      <MemberSignature Language="C#" Value="public string FilePath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FilePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.FilePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilePath As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FilePath { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64221)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64221)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 个人文件夹文件 (.pst) 或脱机文件夹文件 (.ost) 存储中表示的完整文件路径。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性支持 Exchange 和非 Exchange 存储区。如果该存储不.pst 或.ost 存储区， <b>FilePath</b>将返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDefaultFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder GetDefaultFolder (Microsoft.Office.Interop.Outlook.OlDefaultFolders FolderType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetDefaultFolder([in]valuetype Microsoft.Office.Interop.Outlook.OlDefaultFolders FolderType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDefaultFolder (FolderType As OlDefaultFolders) As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetDefaultFolder(Microsoft::Office::Interop::Outlook::OlDefaultFolders FolderType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64621)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlDefaultFolders" />
+      </Parameters>
+      <Docs>
+        <param name="FolderType">指定所请求默认文件夹的类型。</param>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />对象的代表存储区中的默认文件夹且由指定的类型的<paramref name="FolderType" />参数。</summary>
+        <returns>返回一个代表所请求的类型的默认文件夹的<b>Folder</b>对象。 如果不存在所请求的类型的默认文件夹， <b>GetDefaultFolder</b>将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</returns>
+        <remarks>
+          <para>此方法类似于是<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象。区别是此方法获取关联帐户后，传递存储区上的默认文件夹，而<b>NameSpace</b>对象的<b>GetDefaultFolder</b>上当前配置文件的默认存储区中返回的默认文件夹。</para>
+          <para>一个时<b>GetDefaultFolder</b>将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 的示例是何时<see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" />指定为<paramref name="FolderType" />但尚未部署托管文件夹组。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRootFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder GetRootFolder ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetRootFolder() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRootFolder () As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetRootFolder();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64219)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示的根级别文件夹<see cref="T:Microsoft.Office.Interop.Outlook.Store" />。 只读。</summary>
+        <returns>表示该 <b>存储区</b> 的根文件夹的 <b>文件夹</b> 对象。</returns>
+        <remarks>
+          <para>
+            <b>GetRootFolder</b>方法可用于枚举<b>存储区</b>的根文件夹的子文件夹。与不同<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" />其中包含当前配置文件中的所有存储区的所有文件夹、 <b>Store.GetRootFolder.Folders</b>允许您枚举中的当前配置文件的给定<b>存储</b>对象的所有文件夹。</para>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" />的存储区的根文件夹的属性将返回字符串"Mapi"。</para>
+          <para>Exchange 公用文件夹的根文件夹存储区是公用文件夹的文件夹。此文件夹返回到 Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders)。</para>
+          <para>如果服务提供程序不支持根文件夹，
+            <b>则 GetRootFolder</b>返回错误。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRules">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Rules GetRules ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Rules GetRules() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetRules" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRules () As Rules" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Rules ^ GetRules();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64265)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Rules</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合对象，它包含<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />为当前会话定义的对象。</summary>
+        <returns>针对当前会话定义的 <b>规则</b> 集合对象，该对象表示的一组 <b>规则</b> 。</returns>
+        <remarks>
+          <para>调用<b>GetRules</b>可能是操作会严重影响性能低速连接到 Exchange 服务器。</para>
+          <para>
+            <b>GetRules</b>返回集合中的<b>Rule</b>对象的顺序遵循的<see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" />与<b>ExecutionOrder</b>等于 1 正在第一个<b>规则</b>集合中， <b>ExecutionOrder</b>等于<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />正在上次集合中的<b>规则</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSearchFolders">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Folders GetSearchFolders ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Folders GetSearchFolders() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSearchFolders () As Folders" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Folders ^ GetSearchFolders();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64220)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Folders</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合对象，它代表搜索文件夹定义<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象。</summary>
+        <returns>表示 <b>存储</b> 对象的所有搜索文件夹的 <b>文件夹</b> 集合对象。</returns>
+        <remarks>
+          <para>
+            <b>存储</b>，
+            <b>则 GetSearchFolders</b>返回所有可见的活动搜索文件夹。它并不返回未初始化或已清除的搜索文件夹。</para>
+          <para>
+            <b>Folders</b>集合对象，
+            <b>则 GetSearchFolders</b>返回<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" />等于零 (0)，如果已<b>存储</b>不定义任何搜索文件夹。</para>
+          <para>表示集合的搜索文件夹的<b>Folders</b>集合对象的<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" />返回相同的对象<see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />。<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" />返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSpecialFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder GetSpecialFolder (Microsoft.Office.Interop.Outlook.OlSpecialFolders FolderType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetSpecialFolder([in]valuetype Microsoft.Office.Interop.Outlook.OlSpecialFolders FolderType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetSpecialFolder(Microsoft.Office.Interop.Outlook.OlSpecialFolders)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSpecialFolder (FolderType As OlSpecialFolders) As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetSpecialFolder(Microsoft::Office::Interop::Outlook::OlSpecialFolders FolderType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8456)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlSpecialFolders" />
+      </Parameters>
+      <Docs>
+        <param name="FolderType">在存储中的指定类型的特殊文件夹的 <b>OlSpecialFolders</b> 枚举常量。</param>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象由指定的特殊文件夹<paramref name="FolderType" />给定存储区中。</summary>
+        <returns>一个代表由指定的特殊文件夹的<b>Folder</b>对象<paramref name="FolderType" />。</returns>
+        <remarks>
+          <para>所有存储区中存在所有特殊文件夹。 如果不存在所请求的特殊文件夹，将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCachedExchange">
+      <MemberSignature Language="C#" Value="public bool IsCachedExchange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCachedExchange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsCachedExchange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCachedExchange As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCachedExchange { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64222)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64222)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示如果<see cref="T:Microsoft.Office.Interop.Outlook.Store" />是缓存的 Exchange 存储区。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>IsCachedExchange</b>返回<b>True</b>时<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />是 （<b>Store.ExchangeStoreType</b>是<b>olExchangePrimaryMailbox</b>） 主 Exchange 邮箱和邮箱配置为使用缓存 Exchange 模式。它否则返回<b>False</b> 。具体而言，将返回<b>False</b>配置 Exchange 公用文件夹存储到缓存公用文件夹收藏夹。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsConversationEnabled">
+      <MemberSignature Language="C#" Value="public bool IsConversationEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsConversationEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsConversationEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsConversationEnabled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64630)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64630)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:System.Boolean" />(<b>bool</b>的 C#) 值，该值为<b>True</b>如果存储区支持会话视图。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A 存储区支持会话视图，如果存储区为 POP、 IMAP 或 PST 存储区中，或者运行至少的 Microsoft Exchange Server 的版本 Microsoft Exchange Server 2010。存储区如果存储正在运行 Microsoft Exchange Server 2007 还支持对话视图，Outlook 版本至少是 Microsoft Outlook 2010 和 Outlook 中缓存模式下运行。</para>如果存储区支持对话
+          <para>，调用存储区中的项目的<b>GetConversation</b>方法返回<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />项对象。如果存储区不支持对话， <b>GetConversation</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 的存储区中的项目。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDataFileStore">
+      <MemberSignature Language="C#" Value="public bool IsDataFileStore { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDataFileStore" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsDataFileStore" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDataFileStore As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDataFileStore { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64223)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64223)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示如果<see cref="T:Microsoft.Office.Interop.Outlook.Store" />是 Outlook 数据文件，即个人文件夹文件 (.pst) 或脱机文件夹文件 (.ost) 存储区。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>IsDataFileStore</b>支持仅 Exchange 存储区，并将返回<b>False</b> ，对于 HTTP 类型存储，如 Hotmail 和 MSN 和 IMAP 存储区。</para>
+          <para>的 Exchange 存储区中，如果用户配置文件中未使用缓存 Exchange 模式<b>IsDataFileStore</b>将返回<b>False</b> 。<b>IsDataFileStore</b>还将返回<b>False</b>作为 Exchange 公用文件夹存储区时 (即，<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />是<b>olExchangePublicFolder</b>)。</para>
+          <para>
+            <b>IsDataFileStore</b>不指示是否对存储位于本地硬盘上。例如，无法映射的网络驱动器上位于.pst 文件和<b>IsDataFileStore</b>仍将返回<b>True</b>。</para>
+          <para>如果对用户配置的经典 Exchange 脱机模式下，可以更改<b>IsDataFileStore</b>的返回值。当用户处于脱机状态，并使用经典 Exchange 脱机模式， <b>IsDataFileStore</b>将返回<b>True</b>。当用户处于联机状态并且使用经典 Exchange online 模式， <b>IsDataFileStore</b>将返回<b>False</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInstantSearchEnabled">
+      <MemberSignature Language="C#" Value="public bool IsInstantSearchEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInstantSearchEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsInstantSearchEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInstantSearchEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInstantSearchEnabled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64532)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64532)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示是否即时搜索为已启用对存储操作。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>使用<b>IsInstantSearchEnabled</b>评估是否应使用<b>ci_startswith</b>或<b>ci_phrasematch</b>运算符在查询中。如果您使用<b>ci_startswith</b>或<b>ci_phrasematch</b>查询和即时搜索中未启用，则 Outlook 将返回错误。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOpen">
+      <MemberSignature Language="C#" Value="public bool IsOpen { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOpen" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOpen As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOpen { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64224)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64224)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示如果<see cref="T:Microsoft.Office.Interop.Outlook.Store" />处于打开状态。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性支持 Exchange 和非 Exchange 存储区。</para>
+          <para>
+            <b>IsOpen</b>仅指示存储是否已打开。它不指示如果存储处于脱机状态，或者如果它是 Exchange 邮箱或 Exchange 公用文件夹和存储服务器已关闭。</para>
+          <para>打开存储可以实施性能开销，因为和<see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />和<see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" />将打开存储如果尚未打开，您可以使用<b>IsOpen</b>决定之前调用<b>GetRootFolder</b>或<b>则 GetSearchFolders</b>最小化性能开销。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPIOBJECT">
+      <MemberSignature Language="C#" Value="public object MAPIOBJECT { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MAPIOBJECT" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.MAPIOBJECT" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MAPIOBJECT As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MAPIOBJECT { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshQuotaDisplay">
+      <MemberSignature Language="C#" Value="public void RefreshQuotaDisplay ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RefreshQuotaDisplay() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.RefreshQuotaDisplay" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RefreshQuotaDisplay ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RefreshQuotaDisplay();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64590)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>刷新资源管理器窗口的状态栏中显示的存储配额信息。</summary>
+        <remarks>
+          <para>如果存储区不支持配额信息的显示，则此方法没有任何影响。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreID">
+      <MemberSignature Language="C#" Value="public string StoreID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StoreID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.StoreID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoreID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StoreID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12552)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12552)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 标识<see cref="T:Microsoft.Office.Interop.Outlook.Store" />。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>StoreID</b>是唯一的配置文件。相当于 MAPI 属性<b>PidTagStoreEntryId</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

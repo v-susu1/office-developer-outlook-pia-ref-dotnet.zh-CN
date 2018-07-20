@@ -1,0 +1,699 @@
+<Type Name="_Conversation" FullName="Microsoft.Office.Interop.Outlook._Conversation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2f5c48eeaf35740be2ed40d2f2a41eb42b099ab3" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631710" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Conversation" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Conversation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Conversation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Conversation" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Conversation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063101-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父 Microsoft Outlook 应用程序的<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAlwaysAssignCategories">
+      <MemberSignature Language="C#" Value="public void ClearAlwaysAssignCategories (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearAlwaysAssignCategories([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearAlwaysAssignCategories(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64610)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示项目的类别中的所属对话的存储应删除。</param>
+        <summary>从会话的所有项目中删除所有类别，并停止始终为会话中的项目指定类别的操作。</summary>
+        <remarks>
+          <para>如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储、 类别删除操作将应用于默认传递存储区中会话项目。</para>
+          <para>后对对话，应用<b>ClearAlwaysAssignCategories</b>方法<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 该对话。清除现有项目的类别，且没有类别已分配给会话中的新项目。</para>
+          <para>如果<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />尚未将方法应用到会话，<b>则 ClearAlwaysAssignCategories</b>不会删除任何类别。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationID">
+      <MemberSignature Language="C#" Value="public string ConversationID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.ConversationID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:System.String" />（C# 中的<b>字符串</b>） 的唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>pidtagconversationid 对应</b>。</para>
+          <para>此属性与对话相关联的项目。这些项目和对话其<b>ConversationID</b>属性中具有相同的值。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlwaysAssignCategories">
+      <MemberSignature Language="C#" Value="public string GetAlwaysAssignCategories (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetAlwaysAssignCategories([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetAlwaysAssignCategories(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64602)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />应返回代表到的项目的类别的所属对话的存储对象。</param>
+        <summary>返回<see cref="T:System.String" />（C# 中的<b>字符串</b>），指示或多个已分配给进入对话中的所有新项目的类别。</summary>
+        <returns>A <see cref="T:System.String" /> （C# 中的<b>字符串</b>），其中包含已分配给会话中的项目的一个或多个类别。</returns>
+        <remarks>
+          <para>使用此属性返回的类别名称的字符串中的逗号分隔多个类别。若要将类别名称的字符串转换为类别名称的数组，使用 Microsoft Visual Basic<b>拆分</b>函数。</para>
+          <para>如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，该方法返回应用于默认送达存储中的会话项目的类别的字符串。</para>
+          <para>如果<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />尚未将方法应用到会话，<b>则 GetAlwaysAssignCategories</b>将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>要停止始终分配类别的操作，请使用
+          <para><see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法。在调用<b>ClearAlwaysAssignCategories</b>方法后，<b>则 GetAlwaysAssignCategories</b>将返回空字符串。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlwaysDelete">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation GetAlwaysDelete (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation GetAlwaysDelete([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::OlAlwaysDeleteConversation GetAlwaysDelete(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64603)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示保留的对话项目移动到已删除邮件文件夹的存储。</param>
+        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />枚举，指示加入会话的所有新项目是否总是移动到指定的送达存储中的已删除邮件文件夹。</summary>
+        <returns>指示对话的所有新项目是否总是移到指定的传送存储区的已删除邮件文件夹<b>OlAlwaysDeleteConversation</b>枚举中的常量。</returns>
+        <remarks>
+          <para>如果<paramref name="Store" />参数指定如存档.pst 存储未送达存储区， <b>GetAlwaysDelete</b>方法从<b>OlAlwaysDeleteConversation</b>于默认送达存储中的会话项目返回的常量。未送达存储区上的项不移到已删除邮件文件夹的默认传递存储区。</para>
+          <para>如果<b>GetAlwaysDelete</b>返回<b>olAlwaysDelete</b>，会话项目始终移到已删除邮件文件夹包含的项目的存储。在跨存储对话中，项目移至已删除邮件文件夹包含的项目的存储。当<b>GetAlwaysDelete</b>返回<b>olAlwaysDelete</b>，<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />方法返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示已删除邮件文件夹的默认存储。</para>
+          <para>如果<b>GetAlwaysDelete</b>返回<b>olAlwaysDeleteUnsupported</b>，指定存储区不支持始终将项目移至该存储区的已删除邮件文件夹的操作。</para>如果<b>GetAlwaysDelete</b>返回<b>olDoNotDelete</b><para>，进入对话中的新项目指定的送达存储中，不移到已删除邮件文件夹并将已删除邮件文件夹中的现有对话项目移动到收件箱。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlwaysMoveToFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder GetAlwaysMoveToFolder (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetAlwaysMoveToFolder([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetAlwaysMoveToFolder(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64604)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示项目移至的对话的文件夹所驻留的存储。</param>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，它指示进入对话中的新项目总是移动到指定的送达存储中的文件夹。</summary>
+        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />会话中到达的所有新项目总是移动到其指定存储区中的对象。</returns>
+        <remarks>
+          <para>如果<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，则<b>GetAlwaysMoveToFolder</b>方法返回一个适用于默认送达存储中会话项目的<b>Folder</b>对象。</para>
+          <para>如果尚未指定任何文件夹之外的已删除邮件文件夹中，插入的会话项目始终移，则<b>GetAlwaysMoveToFolder</b>方法返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetChildren">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.SimpleItems GetChildren (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.SimpleItems GetChildren([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetChildren(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetChildren (Item As Object) As SimpleItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::SimpleItems ^ GetChildren(System::Object ^ Item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64592)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SimpleItems</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">To be added.</param>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />集合，其中包含指定的会话节点下的所有项目。</summary>
+        <returns>一个<b>SimpleItems</b>集合，代表由指定的节点下的会话中的子项目集<paramref name="Item" />参数。</returns>
+        <remarks>
+          <para>返回的<b>SimpleItems</b>集合中包含指定会话节点的直接子项目<paramref name="Item" />参数。如果对话中不存在指定的节点， <b>GetChildren</b>方法将返回错误。</para>
+          <para>如果该节点下不存在任何子项目， <b>GetChildren</b>方法返回一个<b>SimpleItems</b>集合包含零个对象，在这种情况下<see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /><b>SimpleItems</b>集合的属性返回 0。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetParent">
+      <MemberSignature Language="C#" Value="public object GetParent (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetParent([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetParent(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetParent (Item As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetParent(System::Object ^ Item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64594)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">作为会话一部分的会话节点。</param>
+        <summary>返回会话中指定节点的父项目。</summary>
+        <returns>
+          <see cref="T:System.Object" /> （C# 中的<b>对象</b>），表示由指定的节点的父会话项目<paramref name="Item" />参数。</returns>
+        <remarks>
+          <para>如果指定节点<paramref name="Item" />参数不存在对话中， <b>GetParent</b>方法将返回错误。</para>
+          <para>如果节点指定<paramref name="Item" />参数对话中没有父项目， <b>GetParent</b>方法将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRootItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.SimpleItems GetRootItems ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.SimpleItems GetRootItems() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetRootItems" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRootItems () As SimpleItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::SimpleItems ^ GetRootItems();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64595)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SimpleItems</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />集合，其中包含会话中的所有根项目。</summary>
+        <returns>
+          <b>SimpleItems</b> 集合，该集合包含根项或会话的所有根项。</returns>
+        <remarks>
+          <para>A 对话可以有一个或多个根项目。例如，如果对话的根项目具有三个子项目，根项目将被永久删除所有三个子项将成为根项目。</para>如果在获取<b>T:Microsoft.Office.Interop.Outlook.Conversation</b>对象后从对话中删除所有项目
+          <para>， <b>GetRootItems</b>返回包含零个对象的<b>SimpleItems</b>集合。在这种情况下， <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> ， <b>SimpleItems</b>集合的属性返回 0。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTable">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Table GetTable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Table GetTable() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetTable" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTable () As Table" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Table ^ GetTable();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64591)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Table</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象，其中包含代表会话中的所有项目的各行。</summary>
+        <returns>
+          <b>表</b> 对象，其中包含表示在此对话中的所有项的行。</returns>
+        <remarks>
+          <para>
+            <b>GetTable</b>方法返回<b>表</b>，包含作为行对话的所有项目。下表中显示列的默认设置。</para>
+          <list type="table">
+            <item>
+              <description>1</description>
+              <description>
+                <b>EntryID</b>
+              </description>
+            </item>
+            <item>
+              <description>2</description>
+              <description>
+                <b>主题</b>
+              </description>
+            </item>
+            <item>
+              <description>3</description>
+              <description>
+                <b>CreationTime</b>
+              </description>
+            </item>
+            <item>
+              <description>4</description>
+              <description>
+                <b>LastModificationTime</b>
+              </description>
+            </item>
+            <item>
+              <description>5</description>
+              <description>
+                <b>MessageClass</b>
+              </description>
+            </item>
+          </list>
+          <para>默认情况下表中的行按项目的<b>ConversationIndex</b>属性排序。</para>
+          <para>要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合。</para>
+          <para>此<b>GetTable</b>方法返回的<b>Table</b>对象不包含已移至已删除邮件文件夹的对话中的项目。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsRead">
+      <MemberSignature Language="C#" Value="public void MarkAsRead ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MarkAsRead() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.MarkAsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkAsRead ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MarkAsRead();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64605)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将会话中的所有项目均标记为已读。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsUnread">
+      <MemberSignature Language="C#" Value="public void MarkAsUnread ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MarkAsUnread() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.MarkAsUnread" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkAsUnread ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MarkAsUnread();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64606)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将会话中的所有项目均标记为未读。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回父<see cref="T:System.Object" />（C# 中的<b>对象</b>） 的指定<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>一个<b>Conversation</b>对象的父对象是会话中的第一项。</para>
+          <para>如果在获取<b>Conversation</b>对象后删除会话中的所有项目，则<b>Parent</b>属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果没有已登录的会话的此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>您可以使用<b>会话</b>属性
+          <para>和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />交替方法获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAlwaysAssignCategories">
+      <MemberSignature Language="C#" Value="public void SetAlwaysAssignCategories (string Categories, Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAlwaysAssignCategories([in]string Categories, [in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAlwaysAssignCategories(System::String ^ Categories, Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64607)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Categories" Type="System.String" />
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Categories">以逗号分隔<see cref="T:System.String" />（C# 中的<b>字符串</b>） 的一个或多个始终分配给会话中的所有项目的类别名称。</param>
+        <param name="Store">
+          <see cref="T:Microsoft.Office.Interop.Outlook.Store" />中会话的项目应始终分配由指定的类别<paramref name="Categories" />参数。</param>
+        <summary>将一个或多个类别应用到会话的所有现有项目和未来项目。</summary>
+        <remarks>
+          <para>如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，该方法返回应用于默认送达存储中的会话项目的类别的字符串。</para>
+          <para>
+            <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" />事件<see cref="T:Microsoft.Office.Interop.Outlook.Items" />会话调用<b>SetAlwaysAssignCategories</b>方法时，发生此事件对象。</para>要确定当前用户的现有主类别，请检查
+          <para><see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" />属性指定的<b>存储</b>对象<paramref name="Store" />参数。如果一个或多个类别指定<paramref name="Categories" />的主控形状的 categories 集合中不存在参数、 类别将分配给对话，但不是将添加到主类别集合。</para><para>若要确定始终分配给指定存储区中会话项目的现有类别，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法。</para>如果多次调用<b>SetAlwaysAssignCategories</b><para>，则结果为累积。例如，如果您调用<b>SetAlwaysAssignCategories</b>指定类别"重要"，然后调用<b>SetAlwaysAssignCategories</b>再次指定的类别"Business"和"社交"始终分配类别是"Important"、"业务"和"社交"。</para>要停止始终分配类别的操作，请使用
+          <para><see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法。在调用<b>ClearAlwaysAssignCategories</b>方法后，<b>则 GetAlwaysAssignCategories</b>将返回空<b>字符串</b>（C# 中的<b>字符串</b>）。</para><para><b>SetAlwaysAssignToCategories</b>方法将忽略任何都是空字符串的类别名称。例如，如果<paramref name="Categories" />参数将设置为字符串"工时、 播放"，"工时"和"播放"已分配给对话空字符串类别将被忽略。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAlwaysDelete">
+      <MemberSignature Language="C#" Value="public void SetAlwaysDelete (Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation AlwaysDelete, Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAlwaysDelete([in]valuetype Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation AlwaysDelete, [in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAlwaysDelete(Microsoft::Office::Interop::Outlook::OlAlwaysDeleteConversation AlwaysDelete, Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64608)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="AlwaysDelete" Type="Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="AlwaysDelete">
+          <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />常量，指示是否进入对话中的所有现有和新项目总是移动到指定的存储区的删除文件夹<paramref name="Store" />参数。</param>
+        <param name="Store">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示包含现有项目和新项目的对话将移动到已删除邮件文件夹的存储区。</param>
+        <summary>为指定传递存储区指定设置，指示是否始终将会话中到达的所有现有项目和所有新项目移至指定传递存储区中的"已删除邮件"文件夹。</summary>
+        <remarks>
+          <para>
+            <b>SetAlwaysDelete</b>方法运行由指定传递存储区中会话项目<paramref name="Store" />参数。如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，则操作应用于默认送达存储中的会话项目。</para>
+          <para>如果<paramref name="AlwaysDelete" />参数为<b>olAlwaysDelete</b>，指定存储对话项目移动到已删除邮件文件夹。在这种情况下，则不永久删除项，除非用户已指定一个单独的选项，可永久删除项目，Microsoft Outlook 关闭时。</para>
+          <para>如果<b>SetAlwaysDelete</b>返回<b>olDoNotDelete</b>，现有对话项目和进入对话中的新项目不移动到指定的送达存储和现有对话中的已删除邮件文件夹中已删除的项目项目文件夹移至收件箱。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAlwaysMoveToFolder">
+      <MemberSignature Language="C#" Value="public void SetAlwaysMoveToFolder (Microsoft.Office.Interop.Outlook.MAPIFolder MoveToFolder, Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAlwaysMoveToFolder([in]class Microsoft.Office.Interop.Outlook.MAPIFolder MoveToFolder, [in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAlwaysMoveToFolder(Microsoft::Office::Interop::Outlook::MAPIFolder ^ MoveToFolder, Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64609)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MoveToFolder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="MoveToFolder">指定将会话中到达的所有现有项目和新项目始终移至其中的文件夹。</param>
+        <param name="Store">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示包含会话项目移至其中的文件夹的存储区。</param>
+        <summary>设置<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，指示其所有现有项目和进入对话中的新项目总是移动到的文件夹。</summary>
+        <remarks>
+          <para>
+            <b>SetAlwaysMoveToFolder</b>方法在由指定传递存储区中会话项目上操作<paramref name="Store" />参数。如果<paramref name="Store" />参数代表未送达存储区如存档.pst 存储、 移动操作将应用于默认送达存储中的会话项目。</para>
+          <para>如果<paramref name="MoveToFolder" />参数指定无效的文件夹不存在、 已移动，或为只读的则 Outlook 将引发错误。</para>
+          <para>若要停止的存储区中会话项目始终移动-到文件夹操作，请调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />方法</para>
+          <para>
+            <b>备注</b>： 设置为已删除邮件文件夹<paramref name="MoveToFolder" />中<b>SetAlwaysMoveToFolder</b>参数不是等效于调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />上的同一个存储和对话。设置<paramref name="MoveToFolder" />已删除邮件文件夹参数导致<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />方法返回值<b>olDoNotDelete</b>。</para>
+          <para>
+            <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" />调用<b>SetAlwaysMoveToFolder</b>时，会发生事件的<b>Folder</b>对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAlwaysDelete">
+      <MemberSignature Language="C#" Value="public void StopAlwaysDelete (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StopAlwaysDelete([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void StopAlwaysDelete(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64611)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示停止-始终-删除操作应用于的存储。</param>
+        <summary>停止始终将指定存储区中的会话项目移至该存储区中"已删除邮件"文件夹的操作。</summary>
+        <remarks>
+          <para>如果尚未启用始终删除操作 (通过调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />方法)， <b>StopAlwaysDelete</b>不执行任何操作。</para>
+          <para>如果已打开始终删除操作， <b>StopAlwaysDelete</b>会移动现有会话项目已删除邮件文件夹中到收件箱。</para>
+          <para>存储中的某会话调用<b>StopAlwaysDelete</b>方法后调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />对该会话和存储的方法将返回常量<b>olDoNotDelete</b>。</para>
+          <para>如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，则停止-始终-删除操作应用于默认送达存储中的会话项目。</para>
+          <para>指定存储区中的已删除邮件文件夹中已在会话上调用此方法将返回错误。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAlwaysMoveToFolder">
+      <MemberSignature Language="C#" Value="public void StopAlwaysMoveToFolder (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StopAlwaysMoveToFolder([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void StopAlwaysMoveToFolder(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64612)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示要清除的会话项目所驻留的存储。</param>
+        <summary>停止始终将指定存储区中的会话项目移至特定文件夹的操作。</summary>
+        <remarks>
+          <para>如果尚未启用始终移动操作， <b>StopAlwaysMoveToFolder</b>不执行任何操作。</para>
+          <para>如果<paramref name="Store" />参数代表未送达存储区如存档.pst 存储、 停止-始终-移动操作将应用于默认送达存储中的会话项目。</para>
+          <para>调用<b>StopAlwaysMoveToFolder</b>方法后，调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />方法返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

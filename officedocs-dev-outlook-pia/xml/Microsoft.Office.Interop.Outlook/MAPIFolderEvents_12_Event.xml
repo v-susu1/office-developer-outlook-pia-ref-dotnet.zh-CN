@@ -1,0 +1,83 @@
+<Type Name="MAPIFolderEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b57abf71e090da959e1914f676e549cec228a8b5" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631438" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class MAPIFolderEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12), typeof(Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是创建处理的互操作性与相应的 COM 对象的托管代码需要 COM coclass 时.NET 接口。 此接口实现早期接口的所有事件和任何其他的新事件。 此接口的 COM 对象的所有事件的信息，请参阅。 但是，使用<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />接口访问方法、 属性和事件的 COM 对象。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeFolderMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler BeforeFolderMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler BeforeFolderMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeFolderMove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeFolderMove As MAPIFolderEvents_12_BeforeFolderMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_BeforeFolderMoveEventHandler ^ BeforeFolderMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在即将移动或删除文件夹（由于用户操作或通过程序代码）时发生。</summary>
+        <remarks>
+          <para>文件夹即将被移动到另一个文件夹 （包括已删除邮件文件夹） 或者文件夹即将被永久删除时触发此事件。 不会触发自动存档或同步操作过程中。</para>
+          <para>如果操作是永久性删除，<paramref name="MoveTo" />返回文件夹在事件将为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler BeforeItemMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler BeforeItemMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeItemMove As MAPIFolderEvents_12_BeforeItemMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_BeforeItemMoveEventHandler ^ BeforeItemMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>在即将移动项目或从文件夹中删除项目（由于用户操作或通过程序代码）时发生。</summary>
+        <remarks>
+          <para>被移动到另一个文件夹 （包括已删除邮件文件夹） 或项时要永久删除项目时触发此事件。不会触发自动存档或同步操作过程中。</para>
+          <para>如果操作是永久性删除，<paramref name="MoveTo" />返回文件夹在事件将为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

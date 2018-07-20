@@ -1,0 +1,127 @@
+<Type Name="OlSearchScope" FullName="Microsoft.Office.Interop.Outlook.OlSearchScope">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5bf874a2f107891f654d5c42c74f87e291457f1b" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631426" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlSearchScope" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlSearchScope extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlSearchScope" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlSearchScope" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlSearchScope" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>从文件夹的角度指定搜索范围。</summary>
+    <remarks>
+      <para>您可以选择要通过单击 Microsoft Office Fluent 功能区中的搜索上下文选项卡的选项组中的搜索工具搜索中搜索菜单的位置的存储。</para>
+      <para>默认情况下，搜索不包含已删除邮件文件夹。搜索已删除邮件文件夹，将该文件夹设置为您当前文件夹并通过搜索<see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olSearchScopeAllFolders">
+      <MemberSignature Language="C#" Value="olSearchScopeAllFolders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlSearchScope olSearchScopeAllFolders = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeAllFolders" />
+      <MemberSignature Language="VB.NET" Value="olSearchScopeAllFolders" />
+      <MemberSignature Language="C++ CLI" Value="olSearchScopeAllFolders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlSearchScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>搜索范围将跨具有为当前文件夹的文件夹类型的所有文件夹 (<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" />) 和所有存储已选择中文件夹中的搜索都下拉列表菜单。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olSearchScopeAllOutlookItems">
+      <MemberSignature Language="C#" Value="olSearchScopeAllOutlookItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlSearchScope olSearchScopeAllOutlookItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeAllOutlookItems" />
+      <MemberSignature Language="VB.NET" Value="olSearchScopeAllOutlookItems" />
+      <MemberSignature Language="C++ CLI" Value="olSearchScopeAllOutlookItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlSearchScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>搜索范围是选中要搜索的存储区中所有文件夹内的所有 Outlook 项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olSearchScopeCurrentFolder">
+      <MemberSignature Language="C#" Value="olSearchScopeCurrentFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlSearchScope olSearchScopeCurrentFolder = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />
+      <MemberSignature Language="VB.NET" Value="olSearchScopeCurrentFolder" />
+      <MemberSignature Language="C++ CLI" Value="olSearchScopeCurrentFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlSearchScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>搜索范围将仅表示的文件夹<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olSearchScopeCurrentStore">
+      <MemberSignature Language="C#" Value="olSearchScopeCurrentStore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlSearchScope olSearchScopeCurrentStore = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentStore" />
+      <MemberSignature Language="VB.NET" Value="olSearchScopeCurrentStore" />
+      <MemberSignature Language="C++ CLI" Value="olSearchScopeCurrentStore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlSearchScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>搜索范围是当前文件夹，其中包含显示在活动资源管理器中的项存储区。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olSearchScopeSubfolders">
+      <MemberSignature Language="C#" Value="olSearchScopeSubfolders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlSearchScope olSearchScopeSubfolders = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeSubfolders" />
+      <MemberSignature Language="VB.NET" Value="olSearchScopeSubfolders" />
+      <MemberSignature Language="C++ CLI" Value="olSearchScopeSubfolders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlSearchScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>搜索范围是表示的文件夹<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />及其子文件夹。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

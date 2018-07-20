@@ -1,0 +1,46 @@
+<Type Name="JournalItem" FullName="Microsoft.Office.Interop.Outlook.JournalItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="14da28a55cb285e5fa631d53c0982fc20f778e83" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632635" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface JournalItem : Microsoft.Office.Interop.Outlook._JournalItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract JournalItem implements class Microsoft.Office.Interop.Outlook._JournalItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.JournalItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface JournalItem&#xA;Implements _JournalItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class JournalItem : Microsoft::Office::Interop::Outlook::_JournalItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._JournalItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.JournalItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063022-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表“日记”文件夹中的日记条目。</summary>
+    <remarks>
+      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._JournalItem" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
+      <para>日记条目代表为任何给定时期所有由 Outlook 处理事务的记录。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />方法可创建代表新日记条目的<b>JournalItem</b>对象。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" />(<paramref name="index" />)，其中<paramref name="index" />是日记条目或用来匹配的日志项，从日记文件夹中返回单个<b>JournalItem</b>对象的默认属性的值的索引号。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

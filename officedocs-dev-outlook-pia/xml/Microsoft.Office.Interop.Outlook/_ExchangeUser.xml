@@ -1,0 +1,1554 @@
+<Type Name="_ExchangeUser" FullName="Microsoft.Office.Interop.Outlook._ExchangeUser">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a9ddbfaff850f514434b04c735be4ebc01664fb1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631486" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _ExchangeUser" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ExchangeUser" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ExchangeUser" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _ExchangeUser" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _ExchangeUser" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630C9-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="public string Address { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Address" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Address" />
+      <MemberSignature Language="VB.NET" Value="Public Property Address As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Address { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12291)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12291)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12291)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示 X400 电子邮件地址的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性假定 X400 用户地址。若要确定主 Internet 地址，请使用<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" />属性。</para>
+          <para>呼叫之前，必须设置<b>Address</b>属性<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" />方法。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddressEntryUserType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAddressEntryUserType AddressEntryUserType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAddressEntryUserType AddressEntryUserType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.AddressEntryUserType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddressEntryUserType As OlAddressEntryUserType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAddressEntryUserType AddressEntryUserType { Microsoft::Office::Interop::Outlook::OlAddressEntryUserType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64242)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64242)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAddressEntryUserType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<b>olExchangeUserAddressEntry</b>是常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />枚举表示用户类型的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。它<b>AddressEntryUserType</b>属性继承的<b>AddressEntry</b>对象。对于<b>ExchangeUser</b><b>AddressEntryUserType</b>应始终返回<b>olExchangeUserAddressEntry</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Alias">
+      <MemberSignature Language="C#" Value="public string Alias { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Alias" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Alias" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Alias As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Alias { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14848)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14848)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的别名<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagAccount</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistantName">
+      <MemberSignature Language="C#" Value="public string AssistantName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AssistantName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.AssistantName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssistantName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AssistantName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14896)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14896)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14896)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的助手的名称<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagAssistant</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessTelephoneNumber">
+      <MemberSignature Language="C#" Value="public string BusinessTelephoneNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BusinessTelephoneNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.BusinessTelephoneNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property BusinessTelephoneNumber As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BusinessTelephoneNumber { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14856)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14856)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14856)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的商务电话号码<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagBusinessTelephoneNumber</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="City">
+      <MemberSignature Language="C#" Value="public string City { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string City" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.City" />
+      <MemberSignature Language="VB.NET" Value="Public Property City As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ City { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14887)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14887)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14887)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的城市<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagLocality</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Comments">
+      <MemberSignature Language="C#" Value="public string Comments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Comments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Comments" />
+      <MemberSignature Language="VB.NET" Value="Public Property Comments As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Comments { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12292)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12292)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12292)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 代表批注<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagComment</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyName">
+      <MemberSignature Language="C#" Value="public string CompanyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompanyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.CompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompanyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CompanyName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14870)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14870)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14870)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的公司名称<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagCompanyName</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(770)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>删除<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象从<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />其所属的集合对象。</summary>
+        <remarks>
+          <para>
+            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。<b>ExchangeUser</b>对象是一个<b>AddressEntry</b>对象，具有<b>olExchangeUserAddressEntry</b>作为<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />;调用<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" />返回对应的<b>ExchangeUser</b>对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Department">
+      <MemberSignature Language="C#" Value="public string Department { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Department" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Department" />
+      <MemberSignature Language="VB.NET" Value="Public Property Department As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Department { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14872)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14872)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14872)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的部门<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagDepartmentName</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Details">
+      <MemberSignature Language="C#" Value="public void Details (object HWnd);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Details([in]object HWnd) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Details (Optional HWnd As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(769)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HWnd" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="HWnd">"详细信息"对话框的父窗口句柄。零值（默认值）指定模式对话框。</param>
+        <summary>显示一个模式对话框，提供有关详细的信息<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。</summary>
+        <remarks>
+          <para>如果失败， <b>Details</b>方法<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" />属性为空。您必须使用错误处理程序来处理运行时错误，并当用户单击取消对话框中的。</para>
+          <para>
+            <b>详细信息</b>方法实际上停止运行时显示的对话框中的代码。  </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlDisplayType DisplayType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDisplayType DisplayType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.DisplayType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayType As OlDisplayType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlDisplayType DisplayType { Microsoft::Office::Interop::Outlook::OlDisplayType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14592)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14592)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<b>olUser</b>是常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />枚举，表示的性质<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagDisplayType</b>。</para>
+          <para>
+            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。它<b>DisplayType</b>属性继承的<b>AddressEntry</b>对象。对于<b>ExchangeUser</b>， <b>DisplayType</b>应始终返回<b>olUser</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstName">
+      <MemberSignature Language="C#" Value="public string FirstName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FirstName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.FirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FirstName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14854)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14854)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14854)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的第一个名称的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagGivenName</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContact">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ContactItem GetContact ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.ContactItem GetContact() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.GetContact" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetContact () As ContactItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::ContactItem ^ GetContact();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64240)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ContactItem</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#），因为<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象不对应于联系人通讯簿中的联系人。</summary>
+        <returns>
+          <b>执行任何操作</b>（空引用 (在 Visual Basic 中为 Nothing) 中 C#） 因为<b>ExchangeUser</b>对象不对应于联系人通讯簿中的联系人。</returns>
+        <remarks>
+          <para>
+            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。<b>GetContact</b>方法是从<b>AddressEntry</b>对象，而对于<b>ExchangeUser</b>，此方法始终返回<b>Nothing。</b></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDirectReports">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AddressEntries GetDirectReports ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AddressEntries GetDirectReports() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.GetDirectReports" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDirectReports () As AddressEntries" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::AddressEntries ^ GetDirectReports();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64243)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntries</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />集合对象，其中包含直接向 Exchange 用户报告的所有用户。</summary>
+        <returns>
+          <b>AddressEntries</b> 集合对象，该对象包含用户直接汇报给 Exchange 用户。 <b>AddressEntries</b>对象会为零 (0) 计数如果没有表示没有直接下属，则通过<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />在当前会话中，或者直接下属没有实施 Exchange 目录中。</returns>
+        <remarks>
+          <para>如果没有连接到 Exchange 服务器的速度慢，则，则
+            <b>GetDirectReports</b>是操作会严重影响性能。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetExchangeDistributionList">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ExchangeDistributionList GetExchangeDistributionList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.ExchangeDistributionList GetExchangeDistributionList() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.GetExchangeDistributionList" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetExchangeDistributionList () As ExchangeDistributionList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::ExchangeDistributionList ^ GetExchangeDistributionList();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64239)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExchangeDistributionList</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#），因为<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象不对应于<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />对象。</summary>
+        <returns>
+          <b>执行任何操作</b>（空引用 (在 Visual Basic 中为 Nothing) 中 C#） 因为<b>ExchangeUser</b>对象不对应于<b>ExchangeDistributionList</b>对象。</returns>
+        <remarks>
+          <para>
+            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。<b>GetExchangeDistributionList</b>方法是从<b>AddressEntry</b>对象，而对于<b>ExchangeUser</b>，此方法始终返回<b>Nothing。</b></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetExchangeUser">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ExchangeUser GetExchangeUser ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.ExchangeUser GetExchangeUser() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.GetExchangeUser" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetExchangeUser () As ExchangeUser" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::ExchangeUser ^ GetExchangeUser();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64241)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExchangeUser</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。</summary>
+        <returns>父的 <b>ExchangeUser</b> 对象。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetExchangeUserManager">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ExchangeUser GetExchangeUserManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.ExchangeUser GetExchangeUserManager() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.GetExchangeUserManager" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetExchangeUserManager () As ExchangeUser" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::ExchangeUser ^ GetExchangeUserManager();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64249)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExchangeUser</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象，表示 Exchange 用户的经理。</summary>
+        <returns>
+          <b>ExchangeUser</b> 对象，该对象表示的 Exchange 用户管理器。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFreeBusy">
+      <MemberSignature Language="C#" Value="public string GetFreeBusy (DateTime Start, int MinPerChar, object CompleteFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetFreeBusy([in]valuetype System.DateTime Start, [in]int32 MinPerChar, [in]object CompleteFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.GetFreeBusy(System.DateTime,System.Int32,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFreeBusy (Start As DateTime, MinPerChar As Integer, Optional CompleteFormat As Object) As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(774)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.DateTime" />
+        <Parameter Name="MinPerChar" Type="System.Int32" />
+        <Parameter Name="CompleteFormat" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Start">忙闲程度的日期，从零时开始。</param>
+        <param name="MinPerChar">以分钟为单位指定每个时间段的长度。默认值为 30 分钟。</param>
+        <param name="CompleteFormat">
+          <b>True</b> 值表明忙/闲字符串中返回的繁忙时间粒度更细。 <b>False</b> 值表明只空闲时间和繁忙时间之间的差异将返回。 </param>
+        <summary>获取一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的可用性<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />日期在指定日期的零时开始日期的 30 天的时间。</summary>
+        <returns>
+          <b>字符串</b>（C# 中的<b>字符串</b>） 表示 Exchange 用户的可用性 30 天内的一段的开始日期，从指定日期的零时。 <b>字符串</b>（C# 中的<b>字符串</b>） 中的每个字符是一个值，指示用户是否可用 (0)，以及 （可选） 是否/闲时间标记暂定 (1)，出 office (3) 或其他 (2)。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMemberOfList">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AddressEntries GetMemberOfList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AddressEntries GetMemberOfList() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.GetMemberOfList" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetMemberOfList () As AddressEntries" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::AddressEntries ^ GetMemberOfList();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64244)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntries</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />集合对象，它包含<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />用户所属的对象表示所有 Exchange 通讯组列表。</summary>
+        <returns>一个<b>AddressEntries</b>集合对象，代表 Exchange 通讯组列表到其<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />所属。 如果 <b>ExchangeUser</b> 不是任何 Exchange 通讯组列表的成员，则返回，次数设置为零 (0) <b>AddressEntries</b> 集合对象。</returns>
+        <remarks>
+          <para>如果没有连接到 Exchange 服务器的速度慢，则操作会严重影响性能
+            <b>GetMemberOfList</b> 。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPicture">
+      <MemberSignature Language="C#" Value="public stdole.StdPicture GetPicture ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class stdole.StdPicture GetPicture() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.GetPicture" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPicture () As StdPicture" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; stdole::StdPicture ^ GetPicture();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64631)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>获取<see cref="T:stdole.StdPicture" />对象，它代表在 Microsoft Outlook 中显示的 Microsoft Exchange 用户的图片。</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Exchange 用户的图片和，并存储在 Active Directory 中的在 Outlook 中，包括对话框中的 Outlook 属性的不同地方显示联系人 Card.If 图片不存在用户， <b>GetPicture</b>返回<b>Nothing</b> (在 C# 空引用 （Nothing 在 Visual Basic)）。</para>
+          <para>您可以仅<b>GetPicture</b>从代码调用的运行进程内为 Outlook。<b>StdPicture</b>对象不能被封送跨进程边界。如果您尝试从出进程代码调用<b>GetPicture</b> ，会发生异常。有关详细信息，请参阅<a href="http://support.microsoft.com/kb/150034">自动化服务器不能将图片对象的 IPictureDisp 实现跨进程边界指针传递</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ID">
+      <MemberSignature Language="C#" Value="public string ID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.ID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的唯一标识符<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。它从<b>AddressEntry</b>对象继承<b>ID</b>属性。传输提供程序时创建一个<b>AddressEntry</b>对象分配永久的唯一字符串的 ID。这些标识符请勿更改从一个会话到另一个。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTitle">
+      <MemberSignature Language="C#" Value="public string JobTitle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string JobTitle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.JobTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobTitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ JobTitle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14871)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14871)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14871)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的职务<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagTitle</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastName">
+      <MemberSignature Language="C#" Value="public string LastName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.LastName" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14865)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示姓<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagSurname</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Manager">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AddressEntry Manager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AddressEntry Manager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Manager" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Manager As AddressEntry" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AddressEntry ^ Manager { Microsoft::Office::Interop::Outlook::AddressEntry ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(771)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(771)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPIOBJECT">
+      <MemberSignature Language="C#" Value="public object MAPIOBJECT { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MAPIOBJECT" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.MAPIOBJECT" />
+      <MemberSignature Language="VB.NET" Value="Public Property MAPIOBJECT As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MAPIOBJECT { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Members">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AddressEntries Members { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AddressEntries Members" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Members" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Members As AddressEntries" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AddressEntries ^ Members { Microsoft::Office::Interop::Outlook::AddressEntries ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(772)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(772)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntries</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MobileTelephoneNumber">
+      <MemberSignature Language="C#" Value="public string MobileTelephoneNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MobileTelephoneNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.MobileTelephoneNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property MobileTelephoneNumber As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MobileTelephoneNumber { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14876)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14876)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14876)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的移动电话号码<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagMobileTelephoneNumber</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个值，该值代表的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfficeLocation">
+      <MemberSignature Language="C#" Value="public string OfficeLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OfficeLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.OfficeLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property OfficeLocation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OfficeLocation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14873)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14873)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14873)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的办公室位置<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagOfficeLocation</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回父<b>对象</b>的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalCode">
+      <MemberSignature Language="C#" Value="public string PostalCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostalCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalCode As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostalCode { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14890)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14890)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14890)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮政编码<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagPostalCode</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimarySmtpAddress">
+      <MemberSignature Language="C#" Value="public string PrimarySmtpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrimarySmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrimarySmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PrimarySmtpAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64245)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64245)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的主要简单邮件传输协议 (SMTP) 地址<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagEmailAddress</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateOrProvince">
+      <MemberSignature Language="C#" Value="public string StateOrProvince { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StateOrProvince" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.StateOrProvince" />
+      <MemberSignature Language="VB.NET" Value="Public Property StateOrProvince As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StateOrProvince { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14888)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14888)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14888)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的州或省的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagStateOrProvince</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StreetAddress">
+      <MemberSignature Language="C#" Value="public string StreetAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StreetAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.StreetAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property StreetAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StreetAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14889)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14889)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14889)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的街道地址<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性对应于 MAPI 属性<b>PidTagStreetAddress</b>。</para>
+          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public string Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Type { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12290)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12290)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12290)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的条目类型<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。从<b>AddressEntry</b>对象，它继承的<b>Type</b>属性。对于<b>ExchangeUser</b>类型始终是"EX"的字符串。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (object MakePermanent, object Refresh);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Update([in]object MakePermanent, [in]object Refresh) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Update(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Update (Optional MakePermanent As Object, Optional Refresh As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(768)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MakePermanent" Type="System.Object" />
+        <Parameter Name="Refresh" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="MakePermanent">
+          <b>True</b>的值表明刷新属性缓存，并将所有更改都提交到基本通讯簿中。 <b>False</b>的值表明刷新属性缓存，但不是提交到永久存储区。默认值是 <b>True</b>。 </param>
+        <param name="Refresh">
+          <b>True</b>表示，从基本通讯簿中的值重新加载属性缓存。 <b>False</b>表示不会重新加载属性缓存。默认值是 <b>False</b>。 </param>
+        <summary>投递对更改<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />邮件系统中的对象。</summary>
+        <remarks>
+          <para>新条目或对现有条目的更改不保留在集合中与被调用<b>Update</b>方法之前其<paramref name="MakePermanent" />参数设置为<b>True</b>。 </para>
+          <para>以刷新缓存，然后重新加载通讯簿中的值，请调用具有<b>更新</b><paramref name="MakePermanent" />参数设置为<b>False</b>和<paramref name="Refresh" />参数设置为<b>True</b>。 </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateFreeBusy">
+      <MemberSignature Language="C#" Value="public void UpdateFreeBusy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateFreeBusy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ExchangeUser.UpdateFreeBusy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateFreeBusy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UpdateFreeBusy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(775)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiCompanyName">
+      <MemberSignature Language="C#" Value="public string YomiCompanyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiCompanyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.YomiCompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiCompanyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiCompanyName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(32814)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(32814)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(32814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的公司名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiDepartment">
+      <MemberSignature Language="C#" Value="public string YomiDepartment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiDepartment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.YomiDepartment" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiDepartment As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiDepartment { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64488)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64488)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64488)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的部门名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiDisplayName">
+      <MemberSignature Language="C#" Value="public string YomiDisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiDisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.YomiDisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiDisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiDisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64487)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64487)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64487)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Exchange 显示名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiFirstName">
+      <MemberSignature Language="C#" Value="public string YomiFirstName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiFirstName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.YomiFirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiFirstName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiFirstName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(32812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(32812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(32812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的名字日语拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiLastName">
+      <MemberSignature Language="C#" Value="public string YomiLastName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiLastName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ExchangeUser.YomiLastName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiLastName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiLastName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(32813)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(32813)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(32813)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的最后一个名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 可读/写。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

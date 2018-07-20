@@ -1,0 +1,93 @@
+<Type Name="OlTimeStyle" FullName="Microsoft.Office.Interop.Outlook.OlTimeStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f0e5b8b037c6560b38e2cf451d02456b1d07b151" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631648" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlTimeStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlTimeStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlTimeStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlTimeStyle" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("4FD8B708-E730-49B5-BDD3-B807F48E5B83")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>指定时间值的显示方式以及时间控件解释时间值条目的方式。</summary>
+    <remarks>
+      <para>使用时间控件具有<b>olTimeStyleShortDuration</b>样式的持续时间字段，如<see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" />的<see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />。使用<b>olTimeStyleTimeDuration</b>样式时间控件的约会项目的结束时间。使用<b>olTimeStyleTimeOnly</b>样式时间控件的约会项目的开始时间。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olTimeStyleShortDuration">
+      <MemberSignature Language="C#" Value="olTimeStyleShortDuration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleShortDuration = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleShortDuration" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleShortDuration" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleShortDuration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>时间控件的下拉部分仅显示持续时间值由设置的间隔<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />属性。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olTimeStyleTimeDuration">
+      <MemberSignature Language="C#" Value="olTimeStyleTimeDuration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleTimeDuration = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleTimeDuration" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleTimeDuration" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleTimeDuration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>时间控件的下拉部分显示时间值从开始<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />，并作为增量使用<b>OlkTimeControl.IntervalTime</b>属性。  时间控件的编辑框中显示的持续时间从 <b>ReferenceTime</b> 到所选的时间。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olTimeStyleTimeOnly">
+      <MemberSignature Language="C#" Value="olTimeStyleTimeOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleTimeOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleTimeOnly" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleTimeOnly" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleTimeOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>时间控件的下拉列表部分只显示时间值的 <b>OlkTimeControl.IntervalTime</b> 属性设置的时间间隔。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
