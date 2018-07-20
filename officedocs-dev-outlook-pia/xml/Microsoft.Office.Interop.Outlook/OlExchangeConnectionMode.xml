@@ -1,0 +1,253 @@
+<Type Name="OlExchangeConnectionMode" FullName="Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b39ab38c85bbff93e02638a9f90ec6229d87948a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632370" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlExchangeConnectionMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlExchangeConnectionMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlExchangeConnectionMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlExchangeConnectionMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="fdf3c-101">指定帐户是否连接至 Exchange 服务器，如果连接，则指定连接模式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fdf3c-101">Specifies whether the account is connected to an Exchange server and if so, the connection mode.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olCachedConnectedDrizzle">
+      <MemberSignature Language="C#" Value="olCachedConnectedDrizzle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedConnectedDrizzle = int32(600)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedConnectedDrizzle" />
+      <MemberSignature Language="VB.NET" Value="olCachedConnectedDrizzle" />
+      <MemberSignature Language="C++ CLI" Value="olCachedConnectedDrizzle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>600</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf3c-102">帐户使用的是缓存的 Exchange 模式，因此先下载邮件头，然后下载所有项目的正文和附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-102">The account is using cached Exchange mode such that headers are downloaded first, followed by the bodies and attachments of full items.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCachedConnectedFull">
+      <MemberSignature Language="C#" Value="olCachedConnectedFull" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedConnectedFull = int32(700)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedConnectedFull" />
+      <MemberSignature Language="VB.NET" Value="olCachedConnectedFull" />
+      <MemberSignature Language="C++ CLI" Value="olCachedConnectedFull" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>700</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf3c-p101">帐户在局域网或与 Exchange 服务器的快速连接上使用的是缓存的 Exchange 模式。用户还可以手动选择此状态，同时禁用自动检测逻辑，并且在任何连接速度下都始终下载所有项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-p101">The account is using cached Exchange mode on a Local Area Network or a fast connection with the Exchange server. The user can also select this state manually, disabling auto-detect logic and always downloading full items regardless of connection speed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCachedConnectedHeaders">
+      <MemberSignature Language="C#" Value="olCachedConnectedHeaders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedConnectedHeaders = int32(500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedConnectedHeaders" />
+      <MemberSignature Language="VB.NET" Value="olCachedConnectedHeaders" />
+      <MemberSignature Language="C++ CLI" Value="olCachedConnectedHeaders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>500</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf3c-p102">帐户在与 Exchange 服务器的拨号连接或慢速连接上使用的是缓存的 Exchange 模式，因此只下载邮件头。所有项目正文和附件都保留在服务器上。在任何连接速度下，用户都可以手动选择此状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-p102">The account is using cached Exchange mode on a dial-up or slow connection with the Exchange server, such that only headers are downloaded. Full item bodies and attachments remain on the server. The user can also select this state manually regardless of connection speed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCachedDisconnected">
+      <MemberSignature Language="C#" Value="olCachedDisconnected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedDisconnected = int32(400)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedDisconnected" />
+      <MemberSignature Language="VB.NET" Value="olCachedDisconnected" />
+      <MemberSignature Language="C++ CLI" Value="olCachedDisconnected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>400</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf3c-108">帐户在与 Exchange 服务器断开的连接上使用的是缓存的 Exchange 模式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-108">The account is using cached Exchange mode with a disconnected connection to the Exchange server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCachedOffline">
+      <MemberSignature Language="C#" Value="olCachedOffline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedOffline = int32(200)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedOffline" />
+      <MemberSignature Language="VB.NET" Value="olCachedOffline" />
+      <MemberSignature Language="C++ CLI" Value="olCachedOffline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>200</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf3c-109">帐户使用的缓存的 Exchange 模式，并且用户已从文件菜单中选择脱机工作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-109">The account is using cached Exchange mode and the user has selected   Work Offline from the File menu.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDisconnected">
+      <MemberSignature Language="C#" Value="olDisconnected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olDisconnected = int32(300)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olDisconnected" />
+      <MemberSignature Language="VB.NET" Value="olDisconnected" />
+      <MemberSignature Language="C++ CLI" Value="olDisconnected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>300</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf3c-110">帐户与 Exchange 服务器的连接已经断开。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-110">The account has a disconnected connection to the Exchange server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olNoExchange">
+      <MemberSignature Language="C#" Value="olNoExchange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olNoExchange = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olNoExchange" />
+      <MemberSignature Language="VB.NET" Value="olNoExchange" />
+      <MemberSignature Language="C++ CLI" Value="olNoExchange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf3c-111">帐户不使用 Exchange 服务器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-111">The account does not use an Exchange server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olOffline">
+      <MemberSignature Language="C#" Value="olOffline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olOffline = int32(100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olOffline" />
+      <MemberSignature Language="VB.NET" Value="olOffline" />
+      <MemberSignature Language="C++ CLI" Value="olOffline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>100</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf3c-112">帐户未连接至 Exchange 服务器并且处于经典的脱机模式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-112">The account is not connected to an Exchange server and is in the classic offline mode.</span>
+          </span>
+          <span data-ttu-id="fdf3c-113">用户从文件菜单中选择脱机工作时也会发生这种情况。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-113">This also occurs when the user selects   Work Offline from the File menu.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olOnline">
+      <MemberSignature Language="C#" Value="olOnline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olOnline = int32(800)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olOnline" />
+      <MemberSignature Language="VB.NET" Value="olOnline" />
+      <MemberSignature Language="C++ CLI" Value="olOnline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>800</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf3c-114">帐户已连接至 Exchange 服务器并且处于经典的联机模式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf3c-114">The account is connected to an Exchange server and is in the classic online mode.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

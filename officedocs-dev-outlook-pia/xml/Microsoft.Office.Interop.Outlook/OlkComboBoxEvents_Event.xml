@@ -1,0 +1,582 @@
+<Type Name="OlkComboBoxEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3d2abb9b29c8c464f15ae99e580a708aca2dbeae" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632529" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface OlkComboBoxEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkComboBoxEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OlkComboBoxEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OlkComboBoxEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.OlkComboBoxEvents), typeof(Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="6f366-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6f366-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_AfterUpdateEventHandler AfterUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_AfterUpdateEventHandler AfterUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.AfterUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event AfterUpdate As OlkComboBoxEvents_AfterUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_AfterUpdateEventHandler ^ AfterUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_AfterUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-105">当控件中的数据已通过用户界面更改后发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-105">Occurs after the data in the control has been changed through the user interface.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="6f366-106">
+            <para>
+              <b>BeforeUpdate</b>和<b>AfterUpdate</b>会发生任何控件中的数据保存到项目的时间。 典型的此控件，如下所示，涉及<b>AfterUpdate</b>事件序列：</para>
+            <list type="number">
+              <item>
+                <description>用户将焦点放在控件上</description>
+              </item>
+              <item>
+                <description>
+                  <b>BeforeUpdate</b>
+                </description>
+              </item>
+              <item>
+                <description>控件数据被更新</description>
+              </item>
+              <item>
+                <description>
+                  <b>AfterUpdate</b>
+                </description>
+              </item>
+              <item>
+                <description>
+                  <b>Exit</b>： 用户将焦点从控件上</description>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-106">
+              <para>
+                <b>BeforeUpdate</b> and <b>AfterUpdate</b> can occur any time the data in the control is being saved to the item.  The typical sequence of events involving <b>AfterUpdate</b> for this control is as follows:</para>
+              <list type="number">
+                <item>
+                  <description>User focuses on the control</description>
+                </item>
+                <item>
+                  <description>
+                    <b>BeforeUpdate</b>
+                  </description>
+                </item>
+                <item>
+                  <description>Control data is updated</description>
+                </item>
+                <item>
+                  <description>
+                    <b>AfterUpdate</b>
+                  </description>
+                </item>
+                <item>
+                  <description>
+                    <b>Exit</b>: User moves focus away from control</description>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_BeforeUpdateEventHandler BeforeUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_BeforeUpdateEventHandler BeforeUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.BeforeUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeUpdate As OlkComboBoxEvents_BeforeUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_BeforeUpdateEventHandler ^ BeforeUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_BeforeUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-107">当控件中的数据通过用户界面更改并且即将保存到项目时发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-107">Occurs when  the data in the control is changed through the user interface and is about to be saved to the item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="6f366-108">
+            <para>取消此属性将还原为属性的当前值的控件，并将焦点返回到该控件。</para>
+            <para>
+              <b>BeforeUpdate</b>
+              <b>AfterUpdate</b>会导致出现和的随时控件中的数据保存到项目。 典型的此控件，如下所示，涉及<b>BeforeUpdate</b>事件序列：</para>
+            <list type="number">
+              <item>
+                <description>用户将焦点放在控件上</description>
+              </item>
+              <item>
+                <description>
+                  <b>BeforeUpdate</b>
+                </description>
+              </item>
+              <item>
+                <description>控件数据被更新</description>
+              </item>
+              <item>
+                <description>
+                  <b>AfterUpdate</b>
+                </description>
+              </item>
+              <item>
+                <description>
+                  <b>Exit</b>： 用户将焦点从控件上</description>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-108">
+              <para>Canceling this property will revert the control to the current value of the property and return the focus to the control.</para>
+              <para>
+                <b>BeforeUpdate</b> and <b>AfterUpdate</b> can occur any time the data in the control is being saved to the item.  The typical sequence of events involving <b>BeforeUpdate</b> for this control is as follows:</para>
+              <list type="number">
+                <item>
+                  <description>User focuses on the control</description>
+                </item>
+                <item>
+                  <description>
+                    <b>BeforeUpdate</b>
+                  </description>
+                </item>
+                <item>
+                  <description>Control data is updated</description>
+                </item>
+                <item>
+                  <description>
+                    <b>AfterUpdate</b>
+                  </description>
+                </item>
+                <item>
+                  <description>
+                    <b>Exit</b>: User moves focus away from control</description>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_ChangeEventHandler Change;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_ChangeEventHandler Change" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.Change" />
+      <MemberSignature Language="VB.NET" Value="Event Change As OlkComboBoxEvents_ChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_ChangeEventHandler ^ Change;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-109">当控件显示的列表中的选定内容更改时发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-109">Occurs when the selection in the list displayed by the control changes.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.Click" />
+      <MemberSignature Language="VB.NET" Value="Event Click As OlkComboBoxEvents_ClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_ClickEventHandler ^ Click;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-110">当用户在控件内单击时发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-110">Occurs when the user clicks inside the control.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_DoubleClickEventHandler DoubleClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_DoubleClickEventHandler DoubleClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DoubleClick" />
+      <MemberSignature Language="VB.NET" Value="Event DoubleClick As OlkComboBoxEvents_DoubleClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_DoubleClickEventHandler ^ DoubleClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_DoubleClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-111">当用户在控件内双击时发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-111">Occurs when the user double-clicks inside the control.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DropButtonClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_DropButtonClickEventHandler DropButtonClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_DropButtonClickEventHandler DropButtonClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" />
+      <MemberSignature Language="VB.NET" Value="Event DropButtonClick As OlkComboBoxEvents_DropButtonClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_DropButtonClickEventHandler ^ DropButtonClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_DropButtonClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-112">当用户单击下拉按钮以展开下拉列表在组合框控件中，或在<see cref="M:Microsoft.Office.Interop.Outlook._OlkComboBox.DropDown" />以编程方式调用方法。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-112">Occurs when the user clicks the drop button to expand the drop-down list in the combo box control, or when the <see cref="M:Microsoft.Office.Interop.Outlook._OlkComboBox.DropDown" /> method is called programmatically.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_EnterEventHandler Enter;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_EnterEventHandler Enter" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.Enter" />
+      <MemberSignature Language="VB.NET" Value="Event Enter As OlkComboBoxEvents_EnterEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_EnterEventHandler ^ Enter;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_EnterEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-113">当控件获得焦点时前, 一个控件的 <b>Exit</b> 事件之后立即发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-113">Occurs when the control receives focus, immediately after the previous control's <b>Exit</b> event.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="6f366-114">
+            <para>这是托管代码控件公开的或 Microsoft Visual Basic 6 中的<b>GotFocus</b>事件类似。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-114">
+              <para>This is similar to the <b>GotFocus</b> event exposed by managed-code controls or in Microsoft Visual Basic 6.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_ExitEventHandler Exit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_ExitEventHandler Exit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.Exit" />
+      <MemberSignature Language="VB.NET" Value="Event Exit As OlkComboBoxEvents_ExitEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_ExitEventHandler ^ Exit;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_ExitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-115">在焦点从此控件移到同一窗体上的另一个控件上后立即发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-115">Occurs just after the focus passes from this control  to another control on the same form.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_KeyDownEventHandler KeyDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_KeyDownEventHandler KeyDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.KeyDown" />
+      <MemberSignature Language="VB.NET" Value="Event KeyDown As OlkComboBoxEvents_KeyDownEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_KeyDownEventHandler ^ KeyDown;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-116">当用户按下某个键时发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-116">Occurs when a user presses a key.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="6f366-117">
+            <para>
+              <b>KeyDown</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-117">
+              <para>The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyDown</b> event is accessible through the <paramref name="Shift" /> parameter.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_KeyPressEventHandler KeyPress;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_KeyPressEventHandler KeyPress" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.KeyPress" />
+      <MemberSignature Language="VB.NET" Value="Event KeyPress As OlkComboBoxEvents_KeyPressEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_KeyPressEventHandler ^ KeyPress;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-118">当用户按某个 ANSI 键时发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-118">Occurs when the user presses an ANSI key.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="6f366-119">
+            <para>生成可键入字符，当用户按其 ANSI 键。用户运行窗体在窗体上按下某个 ANSI 键或上的某个控件具有焦点时，将发生<b>KeyPress</b>事件。之前或之后释放该键，可能发生此事件。</para>
+            <para>
+              <b>KeyPress</b>事件以下情况下不会发生：</para>
+            <list type="bullet">
+              <item>
+                <para>按选项卡上</para>
+              </item>
+              <item>
+                <para>按输入</para>
+              </item>
+              <item>
+                <para>按箭头键</para>
+              </item>
+              <item>
+                <para>当键击导致焦点从一个控件移到另一个。</para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-119">
+              <para>An ANSI key is one that produces a typeable character when the user presses it. The <b>KeyPress</b> event occurs when the user presses an ANSI  key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.</para>
+              <para>A <b>KeyPress</b> event does not occur under the following conditions:</para>
+              <list type="bullet">
+                <item>
+                  <para>Pressing TAB</para>
+                </item>
+                <item>
+                  <para>Pressing ENTER</para>
+                </item>
+                <item>
+                  <para>Pressing an arrow key</para>
+                </item>
+                <item>
+                  <para>When a keystroke causes the focus to move from one control to another. </para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_KeyUpEventHandler KeyUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_KeyUpEventHandler KeyUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.KeyUp" />
+      <MemberSignature Language="VB.NET" Value="Event KeyUp As OlkComboBoxEvents_KeyUpEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_KeyUpEventHandler ^ KeyUp;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-120">当用户释放某个键时发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-120">Occurs when the user releases a key.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="6f366-121">
+            <para>在<b>KeyUp</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-121">
+              <para>The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyUp</b> event is accessible through the <paramref name="Shift" /> parameter.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Event MouseDown As OlkComboBoxEvents_MouseDownEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_MouseDownEventHandler ^ MouseDown;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-122">当用户在控件上按下鼠标按钮时发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-122">Occurs when the user presses a mouse button on the control.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Event MouseMove As OlkComboBoxEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_MouseMoveEventHandler ^ MouseMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-123">在控件上出现鼠标移动后发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-123">Occurs after a mouse movement has been registered over the control.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="6f366-124">
+            <para>按 ALT 键可触发<b>MouseMove</b>事件。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-124">
+              <para>Pressing the ALT key fires the <b>MouseMove</b> event.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Event MouseUp As OlkComboBoxEvents_MouseUpEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkComboBoxEvents_MouseUpEventHandler ^ MouseUp;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f366-125">当用户在控件上释放已经按下的鼠标按钮后发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f366-125">Occurs after the user releases a mouse button that has been pressed on the control.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

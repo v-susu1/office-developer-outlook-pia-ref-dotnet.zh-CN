@@ -1,0 +1,2309 @@
+<Type Name="OlkTextBoxClass" FullName="Microsoft.Office.Interop.Outlook.OlkTextBoxClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b94866f1d8d1e088dd64ea420de3b9406dd16aed" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20633056" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class OlkTextBoxClass : Microsoft.Office.Interop.Outlook.OlkTextBox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi OlkTextBoxClass extends System.Object implements class Microsoft.Office.Interop.Outlook._OlkTextBox, class Microsoft.Office.Interop.Outlook.OlkTextBox, class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTextBoxClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class OlkTextBoxClass&#xA;Implements OlkTextBox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OlkTextBoxClass : Microsoft::Office::Interop::Outlook::OlkTextBox" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.OlkTextBox</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Interop.Outlook.OlkTextBoxEvents\0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006F068-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(34)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b0290-101">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b0290-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="b0290-102">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b0290-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="b0290-103">否则，使用.NET 接口派生 COM coclass。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b0290-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="b0290-104">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b0290-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OlkTextBoxClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OlkTextBoxClass();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-105">此成员继承自父接口的基本类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-105">This member is inherited from the base type of the parent interface.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AfterUpdate">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_AfterUpdateEventHandler AfterUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_AfterUpdateEventHandler AfterUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.AfterUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event AfterUpdate As OlkTextBoxEvents_AfterUpdateEventHandler Implements AfterUpdate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_AfterUpdateEventHandler ^ AfterUpdate;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.AfterUpdate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_AfterUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-106">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-106">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-107">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-107">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-108">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-108">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-109">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-109">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSize">
+      <MemberSignature Language="C#" Value="public virtual bool AutoSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.AutoSize" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AutoSize As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AutoSize { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.AutoSize</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-500)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-500)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-500)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-110">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-110">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-111">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-111">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-112">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-112">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-113">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-113">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoTab">
+      <MemberSignature Language="C#" Value="public virtual bool AutoTab { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoTab" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.AutoTab" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AutoTab As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AutoTab { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.AutoTab</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(217)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(217)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(217)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-114">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-114">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-115">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-115">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-116">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-116">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-117">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-117">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoWordSelect">
+      <MemberSignature Language="C#" Value="public virtual bool AutoWordSelect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoWordSelect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.AutoWordSelect" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AutoWordSelect As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AutoWordSelect { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.AutoWordSelect</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(218)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(218)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(218)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-118">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-118">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-119">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-119">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-120">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-120">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-121">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-121">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public virtual uint BackColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property BackColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::UInt32 BackColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.BackColor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-122">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-122">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-123">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-123">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-124">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-124">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-125">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-125">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeUpdate">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_BeforeUpdateEventHandler BeforeUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_BeforeUpdateEventHandler BeforeUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.BeforeUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeUpdate As OlkTextBoxEvents_BeforeUpdateEventHandler Implements BeforeUpdate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_BeforeUpdateEventHandler ^ BeforeUpdate;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.BeforeUpdate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_BeforeUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-126">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-126">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-127">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-127">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-128">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-128">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-129">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-129">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderStyle">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlBorderStyle BorderStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlBorderStyle BorderStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.BorderStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property BorderStyle As OlBorderStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlBorderStyle BorderStyle { Microsoft::Office::Interop::Outlook::OlBorderStyle get(); void set(Microsoft::Office::Interop::Outlook::OlBorderStyle value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.BorderStyle</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-504)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-130">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-130">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-131">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-131">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-132">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-132">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-133">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-133">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ChangeEventHandler Change;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ChangeEventHandler Change" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Change" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Change As OlkTextBoxEvents_ChangeEventHandler Implements Change" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_ChangeEventHandler ^ Change;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.Change</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-134">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-134">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-135">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-135">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-136">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-136">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-137">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-137">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public virtual void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear() = Microsoft::Office::Interop::Outlook::_OlkTextBox::Clear;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._OlkTextBox.Clear</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-554)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-138">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-138">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-139">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-139">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-140">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-140">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-141">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-141">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Click" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Click As OlkTextBoxEvents_ClickEventHandler Implements Click" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_ClickEventHandler ^ Click;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.Click</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-142">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-142">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-143">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-143">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-144">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-144">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-145">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-145">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public virtual void Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Copy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Copy() = Microsoft::Office::Interop::Outlook::_OlkTextBox::Copy;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._OlkTextBox.Copy</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-146">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-146">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-147">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-147">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-148">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-148">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-149">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-149">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cut">
+      <MemberSignature Language="C#" Value="public virtual void Cut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cut() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Cut" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Cut ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Cut() = Microsoft::Office::Interop::Outlook::_OlkTextBox::Cut;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._OlkTextBox.Cut</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-150">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-150">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-151">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-151">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-152">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-152">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-153">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-153">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleClick">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_DoubleClickEventHandler DoubleClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_DoubleClickEventHandler DoubleClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.DoubleClick" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event DoubleClick As OlkTextBoxEvents_DoubleClickEventHandler Implements DoubleClick" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_DoubleClickEventHandler ^ DoubleClick;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.DoubleClick</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_DoubleClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-154">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-154">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-155">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-155">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-156">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-156">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-157">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-157">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragBehavior">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlDragBehavior DragBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDragBehavior DragBehavior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.DragBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property DragBehavior As OlDragBehavior" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlDragBehavior DragBehavior { Microsoft::Office::Interop::Outlook::OlDragBehavior get(); void set(Microsoft::Office::Interop::Outlook::OlDragBehavior value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.DragBehavior</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(225)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(225)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(225)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDragBehavior</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-158">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-158">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-159">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-159">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-160">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-160">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-161">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-161">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public virtual bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.Enabled</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-162">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-162">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-163">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-163">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-164">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-164">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-165">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-165">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableRichText">
+      <MemberSignature Language="C#" Value="public virtual bool EnableRichText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableRichText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.EnableRichText" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property EnableRichText As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool EnableRichText { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.EnableRichText</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64524)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64524)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64524)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-166">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-166">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-167">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-167">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-168">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-168">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-169">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-169">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_EnterEventHandler Enter;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_EnterEventHandler Enter" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Enter" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Enter As OlkTextBoxEvents_EnterEventHandler Implements Enter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_EnterEventHandler ^ Enter;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.Enter</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_EnterEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-170">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-170">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-171">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-171">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-172">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-172">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-173">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-173">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnterFieldBehavior">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior EnterFieldBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior EnterFieldBehavior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.EnterFieldBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property EnterFieldBehavior As OlEnterFieldBehavior" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlEnterFieldBehavior EnterFieldBehavior { Microsoft::Office::Interop::Outlook::OlEnterFieldBehavior get(); void set(Microsoft::Office::Interop::Outlook::OlEnterFieldBehavior value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.EnterFieldBehavior</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(224)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(224)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(224)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-174">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-174">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-175">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-175">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-176">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-176">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-177">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-177">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnterKeyBehavior">
+      <MemberSignature Language="C#" Value="public virtual bool EnterKeyBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnterKeyBehavior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.EnterKeyBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property EnterKeyBehavior As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool EnterKeyBehavior { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.EnterKeyBehavior</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-544)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-544)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-544)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-178">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-178">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-179">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-179">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-180">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-180">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-181">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-181">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ExitEventHandler Exit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ExitEventHandler Exit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Exit" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Exit As OlkTextBoxEvents_ExitEventHandler Implements Exit" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_ExitEventHandler ^ Exit;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.Exit</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ExitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-182">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-182">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-183">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-183">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-184">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-184">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-185">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-185">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public virtual stdole.StdFont Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdFont Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Font" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Font As StdFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property stdole::StdFont ^ Font { stdole::StdFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.Font</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-186">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-186">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-187">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-187">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-188">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-188">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-189">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-189">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeColor">
+      <MemberSignature Language="C#" Value="public virtual uint ForeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 ForeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.ForeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ForeColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::UInt32 ForeColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.ForeColor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-190">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-190">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-191">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-191">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-192">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-192">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-193">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-193">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HideSelection">
+      <MemberSignature Language="C#" Value="public virtual bool HideSelection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HideSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.HideSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property HideSelection As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool HideSelection { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.HideSelection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(207)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(207)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(207)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-194">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-194">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-195">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-195">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-196">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-196">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-197">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-197">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntegralHeight">
+      <MemberSignature Language="C#" Value="public virtual bool IntegralHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IntegralHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.IntegralHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property IntegralHeight As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IntegralHeight { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.IntegralHeight</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(604)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(604)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(604)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-198">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-198">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-199">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-199">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-200">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-200">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-201">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-201">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_KeyDownEventHandler KeyDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_KeyDownEventHandler KeyDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.KeyDown" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event KeyDown As OlkTextBoxEvents_KeyDownEventHandler Implements KeyDown" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_KeyDownEventHandler ^ KeyDown;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.KeyDown</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-202">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-202">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-203">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-203">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-204">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-204">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-205">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-205">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_KeyPressEventHandler KeyPress;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_KeyPressEventHandler KeyPress" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.KeyPress" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event KeyPress As OlkTextBoxEvents_KeyPressEventHandler Implements KeyPress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_KeyPressEventHandler ^ KeyPress;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.KeyPress</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-206">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-206">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-207">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-207">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-208">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-208">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-209">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-209">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_KeyUpEventHandler KeyUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_KeyUpEventHandler KeyUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.KeyUp" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event KeyUp As OlkTextBoxEvents_KeyUpEventHandler Implements KeyUp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_KeyUpEventHandler ^ KeyUp;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.KeyUp</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-210">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-210">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-211">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-211">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-212">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-212">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-213">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-213">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Locked">
+      <MemberSignature Language="C#" Value="public virtual bool Locked { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Locked" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Locked" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Locked As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Locked { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.Locked</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-214">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-214">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-215">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-215">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-216">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-216">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-217">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-217">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLength">
+      <MemberSignature Language="C#" Value="public virtual int MaxLength { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.MaxLength" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MaxLength As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int MaxLength { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-533)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-533)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-533)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-218">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-218">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-219">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-219">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-220">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-220">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-221">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-221">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event MouseDown As OlkTextBoxEvents_MouseDownEventHandler Implements MouseDown" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_MouseDownEventHandler ^ MouseDown;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.MouseDown</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-222">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-222">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-223">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-223">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-224">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-224">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-225">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-225">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseIcon">
+      <MemberSignature Language="C#" Value="public virtual stdole.StdPicture MouseIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture MouseIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.MouseIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MouseIcon As StdPicture" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property stdole::StdPicture ^ MouseIcon { stdole::StdPicture ^ get(); void set(stdole::StdPicture ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.MouseIcon</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-226">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-226">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-227">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-227">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-228">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-228">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-229">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-229">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event MouseMove As OlkTextBoxEvents_MouseMoveEventHandler Implements MouseMove" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_MouseMoveEventHandler ^ MouseMove;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.MouseMove</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-230">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-230">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-231">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-231">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-232">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-232">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-233">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-233">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MousePointer">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.MousePointer" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MousePointer As OlMousePointer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlMousePointer MousePointer { Microsoft::Office::Interop::Outlook::OlMousePointer get(); void set(Microsoft::Office::Interop::Outlook::OlMousePointer value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.MousePointer</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-234">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-234">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-235">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-235">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-236">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-236">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-237">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-237">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event MouseUp As OlkTextBoxEvents_MouseUpEventHandler Implements MouseUp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::OlkTextBoxEvents_MouseUpEventHandler ^ MouseUp;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event.MouseUp</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-238">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-238">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-239">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-239">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-240">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-240">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-241">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-241">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiLine">
+      <MemberSignature Language="C#" Value="public virtual bool MultiLine { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MultiLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.MultiLine" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MultiLine As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool MultiLine { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.MultiLine</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-537)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-537)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-537)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-242">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-242">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-243">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-243">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-244">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-244">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-245">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-245">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordChar">
+      <MemberSignature Language="C#" Value="public virtual string PasswordChar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PasswordChar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.PasswordChar" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property PasswordChar As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ PasswordChar { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.PasswordChar</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-534)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-534)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-534)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-246">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-246">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-247">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-247">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-248">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-248">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-249">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-249">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Paste">
+      <MemberSignature Language="C#" Value="public virtual void Paste ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Paste() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Paste" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Paste ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Paste() = Microsoft::Office::Interop::Outlook::_OlkTextBox::Paste;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._OlkTextBox.Paste</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-250">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-250">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-251">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-251">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-252">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-252">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-253">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-253">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scrollbars">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlScrollBars Scrollbars { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlScrollBars Scrollbars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Scrollbars" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Scrollbars As OlScrollBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlScrollBars Scrollbars { Microsoft::Office::Interop::Outlook::OlScrollBars get(); void set(Microsoft::Office::Interop::Outlook::OlScrollBars value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.Scrollbars</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-535)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-535)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-535)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlScrollBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-254">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-254">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-255">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-255">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-256">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-256">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-257">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-257">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionMargin">
+      <MemberSignature Language="C#" Value="public virtual bool SelectionMargin { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SelectionMargin" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.SelectionMargin" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property SelectionMargin As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool SelectionMargin { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelectionMargin</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(220)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(220)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(220)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-258">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-258">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-259">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-259">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-260">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-260">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-261">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-261">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelLength">
+      <MemberSignature Language="C#" Value="public virtual int SelLength { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SelLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.SelLength" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property SelLength As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int SelLength { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelLength</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-548)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-548)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-548)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-262">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-262">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-263">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-263">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-264">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-264">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-265">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-265">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelStart">
+      <MemberSignature Language="C#" Value="public virtual int SelStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SelStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.SelStart" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property SelStart As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int SelStart { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelStart</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-547)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-547)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-547)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-266">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-266">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-267">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-267">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-268">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-268">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-269">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-269">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelText">
+      <MemberSignature Language="C#" Value="public virtual string SelText { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SelText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.SelText" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SelText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SelText { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-546)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-546)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-270">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-270">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-271">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-271">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-272">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-272">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-273">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-273">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabKeyBehavior">
+      <MemberSignature Language="C#" Value="public virtual bool TabKeyBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TabKeyBehavior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.TabKeyBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property TabKeyBehavior As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool TabKeyBehavior { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.TabKeyBehavior</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-545)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-545)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-545)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-274">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-274">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-275">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-275">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-276">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-276">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-277">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-277">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public virtual string Text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.Text</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-517)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-517)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-517)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-278">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-278">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-279">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-279">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-280">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-280">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-281">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-281">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextAlign">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlTextAlign TextAlign { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlTextAlign TextAlign" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.TextAlign" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property TextAlign As OlTextAlign" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlTextAlign TextAlign { Microsoft::Office::Interop::Outlook::OlTextAlign get(); void set(Microsoft::Office::Interop::Outlook::OlTextAlign value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.TextAlign</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-282">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-282">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-283">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-283">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-284">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-284">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-285">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-285">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public virtual object this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.Value" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ default { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-286">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-286">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-287">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-287">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-288">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-288">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-289">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-289">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordWrap">
+      <MemberSignature Language="C#" Value="public virtual bool WordWrap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool WordWrap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkTextBoxClass.WordWrap" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property WordWrap As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool WordWrap { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._OlkTextBox.WordWrap</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0290-290">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-290">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="b0290-291">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-291">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="b0290-292">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-292">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="b0290-293">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0290-293">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

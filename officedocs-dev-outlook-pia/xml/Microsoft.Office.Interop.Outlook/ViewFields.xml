@@ -1,0 +1,79 @@
+<Type Name="ViewFields" FullName="Microsoft.Office.Interop.Outlook.ViewFields">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6c5bf900d2618884c0ebd49cc59733155a2c46db" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632738" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ViewFields : Microsoft.Office.Interop.Outlook._ViewFields" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ViewFields implements class Microsoft.Office.Interop.Outlook._ViewFields" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ViewFields" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ViewFields&#xA;Implements _ViewFields" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ViewFields : Microsoft::Office::Interop::Outlook::_ViewFields" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._ViewFields</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ViewFieldsClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630A1-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d5748-101">表示集合的<see cref="T:Microsoft.Office.Interop.Outlook.ViewField" />视图中的对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d5748-101">Represents the collection of <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> objects in a view.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="d5748-102">
+        <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ViewFields" />。</para>
+        <para>
+          <b>ViewFields</b>集合代表可在视图中显示的 Outlook 项目属性。</para>
+        <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />方法添加视图字段中的下列对象派生的<b>ViewFields</b>集合的<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象：</para>
+        <list type="bullet">
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
+            </para>
+          </item>
+        </list>
+        <para>在表视图中， <b>ViewFields</b>集合中的<b>ViewField</b>对象的顺序不是显示在表视图中字段的列的顺序相同。若要获得所列顺序解决方法是分析返回的字符串<see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />属性。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d5748-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._ViewFields" />. </para>
+          <para>The <b>ViewFields</b> collection represents the Outlook item properties available for display in the view. </para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> method of the <b>ViewFields</b> collection to add a view field for the following objects derived from the <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />
+              </para>
+            </item>
+          </list>
+          <para>In a table view, the order of <b>ViewField</b> objects in the <b>ViewFields</b> collection is not the same as the order that field columns are displayed in the table view. A workaround to obtain the column order is to parse the string returned by the <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> property.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

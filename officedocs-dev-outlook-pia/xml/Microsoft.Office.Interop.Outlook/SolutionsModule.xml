@@ -1,0 +1,64 @@
+<Type Name="SolutionsModule" FullName="Microsoft.Office.Interop.Outlook.SolutionsModule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7b0f23071a205a204ae4ac55567b1e19195f5364" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632984" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SolutionsModule : Microsoft.Office.Interop.Outlook._SolutionsModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SolutionsModule implements class Microsoft.Office.Interop.Outlook._SolutionsModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SolutionsModule&#xA;Implements _SolutionsModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SolutionsModule : Microsoft::Office::Interop::Outlook::_SolutionsModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._SolutionsModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.SolutionsModuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630FF-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="e5d82-101">代表资源管理器导航窗格中的 <b>"解决方案"</b>导航模块。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e5d82-101">Represents the <b>Solutions</b> navigation module in the Navigation Pane of an explorer.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="e5d82-102">
+        <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._SolutionsModule" />。</para>
+        <para>
+          <b>解决方案</b>导航模块包含单个外接程序的开发人员想要在导航窗格中向用户公开的文件夹。每个解决方案已在<b>解决方案</b>模块下的一个根文件夹，每个根文件夹可以包含保留异构 Outlook 项目的子文件夹。</para>
+        <para>以编程方式向<b>解决方案</b>模块添加解决方案文件夹，使用从派生的<b>SolutionsModule</b>对象<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象。</para>
+        <para>获取的对象的<b>解决方案</b>模块中，您必须首先确定导航窗格中是否存在<b>解决方案</b>模块。若要执行的操作，使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象获取<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />集合，然后指定参数<b>olModuleSolutions</b>中<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /><b>NavigationModules</b>集合的方法。</para>
+        <para>如果调用成功，然后可以为<b>SolutionsModule</b>对象访问的属性和导航模块的方法将返回的<b>NavigationModule</b>对象引用。</para>
+        <para>添加解决方案根文件夹及其子文件夹，请传递<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象的引用<see cref="M:Microsoft.Office.Interop.Outlook._SolutionsModule.AddSolution(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.OlSolutionScope)" /><b>SolutionsModule</b>对象的方法。<b>解决方案</b>模块在导航窗格中的默认位置为"9"。</para>如果没有解决方案已添加到<b>解决方案</b>模块
+      <para>，不可见在导航窗格中，并设置任何尝试<see cref="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Position" />或<see cref="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Visible" />属性的<b>SolutionsModule</b>对象将引发错误。此外，任何尝试设置为<b>SolutionsModule</b><see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.CurrentModule" /><b>NavigationPane</b>对象的属性将引发错误。</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e5d82-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._SolutionsModule" />.</para>
+          <para>The <b>Solutions</b> navigation module contains folders that developers of individual add-ins want to expose to users in the Navigation Pane. Each solution has one root folder under the <b>Solutions</b> module, and each root folder can contain subfolders that hold heterogeneous Outlook items.</para>
+          <para>To add solution folders programmatically to the <b>Solutions</b> module, use the <b>SolutionsModule</b> object, which is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object.</para>
+          <para>To obtain an object for the <b>Solutions</b> module, you must first determine whether the <b>Solutions</b> module exists in the Navigation Pane. To do that, use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> property for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object to obtain a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> collection, and then specify the argument <b>olModuleSolutions</b> in the <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> method of the <b>NavigationModules</b> collection. </para>
+          <para>If the call is successful, you can then cast the returned <b>NavigationModule</b> object reference as a <b>SolutionsModule</b> object to access the properties and methods for that navigation module.</para>
+          <para>To add a solution root folder and its subfolders, pass a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object reference to the <see cref="M:Microsoft.Office.Interop.Outlook._SolutionsModule.AddSolution(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.OlSolutionScope)" /> method of the <b>SolutionsModule</b> object. The default position of the <b>Solutions</b> module on the Navigation Pane is '9'.</para>
+          <para>If no solutions have been added to the <b>Solutions</b> module, it is not visible in the Navigation Pane, and any attempt to set the <see cref="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Position" /> or the <see cref="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Visible" /> properties of the <b>SolutionsModule</b> object raises an error. In addition, any attempt to set the <b>SolutionsModule</b> as the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.CurrentModule" /> property of the <b>NavigationPane</b> object raises an error.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

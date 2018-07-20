@@ -1,0 +1,1398 @@
+<Type Name="_Inspector" FullName="Microsoft.Office.Interop.Outlook._Inspector">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c0c4b10538c5018a1ef11ef94f135148361dc521" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632543" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Inspector" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Inspector" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Inspector" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Inspector" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Inspector" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063005-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="95e46-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="95e46-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="95e46-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="95e46-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="95e46-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="95e46-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="95e46-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="95e46-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="public void Activate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Activate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Activate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8467)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-105">通过将检查器窗口提到前面并设置键盘焦点来激活该窗口。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-105">Activates an inspector window by bringing it to the foreground and setting keyboard focus.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-106">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="95e46-107">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-107">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentSelection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AttachmentSelection AttachmentSelection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AttachmentSelection AttachmentSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.AttachmentSelection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AttachmentSelection As AttachmentSelection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AttachmentSelection ^ AttachmentSelection { Microsoft::Office::Interop::Outlook::AttachmentSelection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64632)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64632)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AttachmentSelection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-108">获取<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />对象包含的检查器中选择一个或多个附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-108">Obtains an <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object consisting of one or more attachments that are selected in the inspector.</span>
+          </span>
+          <span data-ttu-id="95e46-109">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-109">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8465)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8465)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-110">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示标题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-110">Returns a <b>String</b> (<b>string</b> in C#) representing the title.</span>
+          </span>
+          <span data-ttu-id="95e46-111">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-111">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="95e46-113">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-113">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]valuetype Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (SaveMode As OlInspectorClose)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close(Microsoft::Office::Interop::Outlook::OlInspectorClose SaveMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SaveMode" Type="Microsoft.Office.Interop.Outlook.OlInspectorClose" />
+      </Parameters>
+      <Docs>
+        <param name="SaveMode">
+          <span data-ttu-id="95e46-p106">关闭行为。如果在检查器中显示的项目尚未更改，则该参数无效。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-p106">The close behavior. If the item displayed within the inspector has not been changed, this argument has no effect.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="95e46-116">关闭<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />和 （可选） 将更改保存到显示的 Outlook 项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-116">Closes the  <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> and optionally saves changes to the displayed Outlook item.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandBars">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CommandBars CommandBars { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CommandBars CommandBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.CommandBars" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandBars As CommandBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CommandBars ^ CommandBars { Microsoft::Office::Core::CommandBars ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CommandBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-117">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-117">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentItem">
+      <MemberSignature Language="C#" Value="public object CurrentItem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CurrentItem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentItem As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CurrentItem { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-p107">返回一个 <b>对象</b> ，表示显示在检查器中的当前项。只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-p107">Returns an <b>Object</b> representing the current item being displayed in the inspector. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="95e46-120">
+            <para>如果当前打开任何项不，则将返回一条错误消息。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-120">
+              <para>If no item is currently open, an error message will be returned.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public void Display (object Modal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Display([in]object Modal) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.Display(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Display (Optional Modal As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8452)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Modal" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Modal">
+          <span data-ttu-id="95e46-p108">
+            <b>真正</b> 要使窗口模式。默认值为 <b>False</b> 。 </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-p108">
+              <b>True</b> to make the window modal. The default value is <b>False</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="95e46-123">显示一个新<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-123">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object for the item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="95e46-124">
+            <para>
+              <b>Display</b>方法支持为了向后兼容的浏览器和检查器窗口。若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</para>如果您尝试使用 Microsoft Outlook 对象模型中打开"不安全的"文件系统对象 （或"freedoc"文件） 
+          <para>，E_FAIL 返回代码中收到 C 或 c + + 编程语言。在 Outlook 2000 和更早版本，您无法使用<b>Display</b>方法打开"不安全的"文件系统对象。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-124">
+              <para>The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</para>
+              <para>If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditorType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlEditorType EditorType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlEditorType EditorType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EditorType As OlEditorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlEditorType EditorType { Microsoft::Office::Interop::Outlook::OlEditorType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8464)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8464)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlEditorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-125">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlEditorType" />常量，指示编辑器的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-125">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlEditorType" /> constant indicating the type of editor.</span>
+          </span>
+          <span data-ttu-id="95e46-126">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-126">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="95e46-127">
+            <para>自 Microsoft Office Outlook 2007， <b>EditorType</b>属性总是返回 olEditorWord。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-127">
+              <para>Since Microsoft Office Outlook 2007, the <b>EditorType</b> property always returns olEditorWord.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-128">返回或设置一个指定的检查器窗口的高度 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-128">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the inspector window.</span>
+          </span>
+          <span data-ttu-id="95e46-129">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-129">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HideFormPage">
+      <MemberSignature Language="C#" Value="public void HideFormPage (string PageName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HideFormPage([in]string PageName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.HideFormPage(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HideFormPage (PageName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HideFormPage(System::String ^ PageName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8456)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PageName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="PageName">
+          <span data-ttu-id="95e46-130">窗体页中，显示名称或要隐藏的窗体区域的内部名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-130">The display name of the form page, or the internal name of a form region to be hidden.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="95e46-131">隐藏窗体页或检查器中的窗体区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-131">Hides a form page or form region in the inspector.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="95e46-132">
+            <para>可以使用<b>HideFormRegion</b>通过指定隐藏窗体区域<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />窗体区域，如果窗体区域是相邻或独立窗体区域的属性。仅加载项实现的窗体区域的可以隐藏窗体区域。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-132">
+              <para>You can use <b>HideFormRegion</b> to hide a form region by specifying the <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> property of the form region, if the form region is an adjoining or separate form region. Only the add-in that implements the form region can hide the form region.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HTMLEditor">
+      <MemberSignature Language="C#" Value="public object HTMLEditor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object HTMLEditor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.HTMLEditor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HTMLEditor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ HTMLEditor { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8462)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8462)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-133">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-133">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWordMail">
+      <MemberSignature Language="C#" Value="public bool IsWordMail ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsWordMail() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsWordMail () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsWordMail();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8453)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-134">确定是否在 Outlook 中显示与检查器相关联的邮件<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />或 Microsoft Word 中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-134">Determines whether the mail message associated with an inspector is displayed in an Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  or in Microsoft Word.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="95e46-135">
+            <b>如此</b> 如果邮件显示在 Microsoft Word (也就是说，如果 Word 邮件正在使用);否则为 <b>假</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-135">
+              <b>True</b> if the mail message is displayed in Microsoft Word (that is, if Word Mail is in use); otherwise, <b>False</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public int Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-136">返回或设置指定从屏幕边缘检查器窗口的垂直左边缘的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-136">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of an inspector window from the edge of the screen.</span>
+          </span>
+          <span data-ttu-id="95e46-137">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-137">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedFormPages">
+      <MemberSignature Language="C#" Value="public object ModifiedFormPages { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ModifiedFormPages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.ModifiedFormPages" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedFormPages As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ModifiedFormPages { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8454)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8454)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-138">返回<see cref="T:Microsoft.Office.Interop.Outlook.Pages" />集合，代表检查器中的项目的所有页面。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-138">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Pages" />  collection that represents all the pages for the item in the inspector.</span>
+          </span>
+          <span data-ttu-id="95e46-139">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-139">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="95e46-140">
+            <para>主页面和最多五个可自定义页使用可获取<see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" />方法。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-140">
+              <para>The main page and up to five customizable pages can be obtained using the <see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" />  method. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFormRegion">
+      <MemberSignature Language="C#" Value="public object NewFormRegion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object NewFormRegion() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.NewFormRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Function NewFormRegion () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ NewFormRegion();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64493)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-141">在新窗体区域的检查器中，在设计模式下打开新页面。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-141">Opens a new page in design mode in the inspector for a new form region.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="95e46-142">一个代表在检查器中显示窗体区域的页面的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-142">An Object that represents the page displaying the form region in the inspector.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="95e46-143">
+            <para>如果检查器尚未在设计模式下， <b>NewFormRegion</b>会将其置于设计模式。</para>
+            <para>此方法仅在设计模式下打开一个新窗体区域的页面。此方法不能在运行时创建窗体区域。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-143">
+              <para>If the inspector is not already in design mode, <b>NewFormRegion</b> will put it in design mode.</para>
+              <para>This method only opens a page for a new form region in design mode. This method is not intended for creating a form region at runtime.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenFormRegion">
+      <MemberSignature Language="C#" Value="public object OpenFormRegion (string Path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object OpenFormRegion([in]string Path) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.OpenFormRegion(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenFormRegion (Path As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ OpenFormRegion(System::String ^ Path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64511)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Path">
+          <span data-ttu-id="95e46-144">要在检查器中打开的窗体区域的 Outlook 窗体存储 (.OFS) 文件的完整本地文件路径。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-144">A full local file path to the Outlook Form Storage (.OFS) file for the form region that is to be opened in the inspector.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="95e46-145">在设计模式下，在检查器中打开指定窗体区域的页面。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-145">Opens a page in design mode in the inspector for the specified form region.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="95e46-146">一个代表在检查器中显示窗体区域的页面的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-146">An Object that represents the page displaying the form region in the inspector.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="95e46-147">
+            <para>如果检查器尚未在设计模式下， <b>OpenFormRegion</b>会将其置于设计模式。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-147">
+              <para>If the inspector is not already in design mode, <b>OpenFormRegion</b> will put it in design mode.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-p113">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-p113">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveFormRegion">
+      <MemberSignature Language="C#" Value="public void SaveFormRegion (object Page, string FileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveFormRegion([in]object Page, [in]string FileName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.SaveFormRegion(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveFormRegion (Page As Object, FileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SaveFormRegion(System::Object ^ Page, System::String ^ FileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Page" Type="System.Object" />
+        <Parameter Name="FileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Page">
+          <span data-ttu-id="95e46-150">显示检查器中的窗体区域的页面。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-150">The page displaying the form region in the inspector.</span>
+          </span>
+        </param>
+        <param name="FileName">
+          <span data-ttu-id="95e46-151">要将窗体区域保存到的 Outlook 窗体存储 (.OFS) 文件的完整本地文件路径。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-151">The full local file path to an Outlook Form Storage (.OFS) file that the form region is being saved to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="95e46-152">在设计模式下，将检查器中的指定页面保存到指定文件中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-152">Saves the specified page in design mode in the inspector to the specified file.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="95e46-153">
+            <para>为了让<b>SaveFormRegion</b>保存窗体区域，该窗体区域必须已加载在检查器中的设计模式。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-153">
+              <para>In order for <b>SaveFormRegion</b> to save the form region, the form region must have been loaded in design mode in the inspector.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-154">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-154">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="95e46-155">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-155">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="95e46-156">
+            <para>
+              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-156">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetControlItemProperty">
+      <MemberSignature Language="C#" Value="public void SetControlItemProperty (object Control, string PropertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetControlItemProperty([in]object Control, [in]string PropertyName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.SetControlItemProperty(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetControlItemProperty (Control As Object, PropertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetControlItemProperty(System::Object ^ Control, System::String ^ PropertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64201)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Control" Type="System.Object" />
+        <Parameter Name="PropertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Control">
+          <span data-ttu-id="95e46-157">将被绑定到属性的控件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-157">The control that will be bound to a property.</span>
+          </span>
+        </param>
+        <param name="PropertyName">
+          <span data-ttu-id="95e46-158">将要绑定到控件的属性名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-158">The name of the property that will be bound to the control.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="95e46-159">在检查器中的控件绑定的内置属性或自定义属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-159">Binds a built-in property or custom property to a control in an inspector.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="95e46-160">
+            <para>您可以使用此方法将的显式内置属性或自定义属性绑定到控件。您必须引用的属性由其字符串的名称，例如，为<b>主题</b>，而非命名空间，例如， http://schemas.microsoft.com/mapi/proptag/0x0037001E。</para>
+            <para>
+              <paramref name="PropertyName" />参数不区分大小写。例如， <b>SetControlItemProperty</b>解释参数， <b>customerid</b>，为<b>CustomerID</b>相同，并将指定的控件绑定到内置<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" />属性。</para>
+            <para>您还可以使用下面的代码 myPage.Controls("bar") 行。ItemProperty ="主题"以绑定到控件的 subject 属性。不过，请注意，不受信任的代码使用该操作将触发一条安全警告如果属性由对象模型安全保护，如<b>到</b>、 保护和客户端计算机正在运行 Microsoft Office Outlook 2007 或更高版本，但没有正确设置了防病毒软件。<b>SetControlItemProperty</b>方法可用于避免与受信任应用程序的安全警告。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87941">Outlook 对象模型的安全行为</a></para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-160">
+              <para>You can use this method to bind an explicit built-in property or a custom property to a control. You must reference the property by its string name, for example, <b>Subject</b>, and not by namespace, for example, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
+              <para>The <paramref name="PropertyName" /> parameter is not case-sensitive. For example, <b>SetControlItemProperty</b> interprets an argument, <b>CustomerId</b>, to be the same as <b>CustomerID</b> and binds the specified control to the built-in <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> property.</para>
+              <para>You can also use the following line of code myPage.Controls("bar").ItemProperty = "subject"  to bind the subject property to a control. However, note that untrusted code using this will trigger a security warning if the property is protected by the object model security guard such as <b>To</b>, and the client computer is running Microsoft Office Outlook 2007 or later but does not have an appropriately set up antivirus software. You can use the <b>SetControlItemProperty</b> method to avoid security warnings with trusted applications.  For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87941">Security Behavior of the Outlook Object Model</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCurrentFormPage">
+      <MemberSignature Language="C#" Value="public void SetCurrentFormPage (string PageName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetCurrentFormPage([in]string PageName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.SetCurrentFormPage(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCurrentFormPage (PageName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetCurrentFormPage(System::String ^ PageName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8460)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PageName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="PageName">
+          <span data-ttu-id="95e46-161">表单页的显示名称或窗体区域的内部名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-161">The display name of the form page, or the internal name of the form region.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="95e46-162">在检查器中显示指定的窗体页或窗体区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-162">Displays the specified form page or form region in the inspector.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="95e46-163">
+            <para>您可以使用<b>SetCurrentFormPage</b>通过指定显示窗体区域<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />属性的窗体区域，如果窗体区域是一个单独的、 replace、 或全部替换窗体区域。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-163">
+              <para>You can use <b>SetCurrentFormPage</b> to display a form region by specifying the <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> property of the form region, if the form region is an a separate, replace, or replace-all form region.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSchedulingStartTime">
+      <MemberSignature Language="C#" Value="public void SetSchedulingStartTime (DateTime Start);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSchedulingStartTime([in]valuetype System.DateTime Start) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.SetSchedulingStartTime(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetSchedulingStartTime (Start As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetSchedulingStartTime(DateTime Start);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64647)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Start">
+          <span data-ttu-id="95e46-164">检查器的 "调度助手"选项卡所显示的与会者空/闲时间时间范围的开始时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-164">The beginning of the time range that the Scheduling Assistant tab of the inspector displays free/busy times for meeting attendees.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="95e46-165">在检查器的调度助手选项卡上的空/闲网格中，设置会议项目的开始时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-165">Sets the start time for a meeting item in the free/busy grid on the Scheduling Assistant tab of the inspector.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="95e46-166">
+            <para>由指定的对象<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />对象的父属性<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象必须是<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />或<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />。必须在检查器中显示调度助手选项卡，否则 Microsoft Outlook 将引发错误。如果 Outlook 无法显示该项目类型的调度助手选项卡，Outlook 会显示以下错误： 当会议项目上的调度助手显示只能设置计划的开始时间。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-166">
+              <para>The object specified by the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> property of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object must be an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> or <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />. The Scheduling Assistant tab must be displayed in the inspector, otherwise Microsoft Outlook raises an error. If Outlook cannot display the Scheduling Assistant tab for that item type, Outlook displays the following error: The scheduling start time can only be set when the Scheduling Assistant is displayed on a meeting item.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFormPage">
+      <MemberSignature Language="C#" Value="public void ShowFormPage (string PageName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowFormPage([in]string PageName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.ShowFormPage(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowFormPage (PageName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowFormPage(System::String ^ PageName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8457)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PageName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="PageName">
+          <span data-ttu-id="95e46-167">窗体页中，显示名称或要显示的窗体区域的内部名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-167">The display name of the form page, or the internal name of a form region to be shown.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="95e46-168">Microsoft Office Fluent 功能区的显示组中显示检查器中，单击其中将显示指定的页或窗体区域按钮<paramref name="PageName" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-168">Displays a button in the Show group of the Microsoft Office Fluent ribbon for the inspector, clicking which will show the page or form region specified by <paramref name="PageName" />.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="95e46-169">
+            <para>对于窗体区域，您可以使用<b>ShowFormPage</b>以通过指定显示按钮<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />窗体区域，如果窗体区域是相邻或独立窗体区域的属性。仅加载项实现的窗体区域的可用<b>ShowFormRegion</b>来显示按钮。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-169">
+              <para>For form regions, you can use <b>ShowFormPage</b> to display the button by specifying the <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> property of the form region, if the form region is an adjoining or separate form region. Only the add-in that implements the form region can use <b>ShowFormRegion</b> to display the button.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public int Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-170">返回或设置指示从屏幕边缘检查器窗口的顶部水平边缘的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-170">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of an inspector window from the edge of the screen.</span>
+          </span>
+          <span data-ttu-id="95e46-171">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-171">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-172">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指定对象的宽度 （以像素为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-172">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span>
+          </span>
+          <span data-ttu-id="95e46-173">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-173">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowState">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlWindowState WindowState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlWindowState WindowState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.WindowState" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowState As OlWindowState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlWindowState WindowState { Microsoft::Office::Interop::Outlook::OlWindowState get(); void set(Microsoft::Office::Interop::Outlook::OlWindowState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-174">返回或设置的属性中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" />指定资源管理器或检查器窗口的窗口状态的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-174">Returns or sets the property with a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeration specifying the window state of an explorer or inspector window.</span>
+          </span>
+          <span data-ttu-id="95e46-175">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-175">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordEditor">
+      <MemberSignature Language="C#" Value="public object WordEditor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object WordEditor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.WordEditor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WordEditor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ WordEditor { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8463)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8463)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="95e46-p118">返回所显示邮件的 Microsoft Word 文档对象模型。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-p118">Returns the Microsoft Word Document Object Model of the  message being displayed. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="95e46-178">
+            <para>
+              <b>WordEditor</b>属性才有效如果<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" />，则返回<b>True</b>和<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" />是<b>olEditorWord</b>。返回的<b>WordDocument</b>对象提供对大部分除以下成员 Word 对象模型访问： </para>
+            <list type="bullet">
+              <item>
+                <para>
+                  <b>Tables.Add</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>Range.ConvertToTable</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>InlineShapes.AddChart</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>Shapes.AddChart</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>Range.InsertXML</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>Selection.InsertXML</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>Range.ImportFragment</b>
+                </para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="95e46-178">
+              <para>The <b>WordEditor</b> property is only valid if <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" /> returns <b>True</b> and the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" /> is <b>olEditorWord</b>. The returned <b>WordDocument</b> object provides access to most of the Word object model except for the following members: </para>
+              <list type="bullet">
+                <item>
+                  <para>
+                    <b>Tables.Add</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>Range.ConvertToTable</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>InlineShapes.AddChart</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>Shapes.AddChart</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>Range.InsertXML</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>Selection.InsertXML</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>Range.ImportFragment</b>
+                  </para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

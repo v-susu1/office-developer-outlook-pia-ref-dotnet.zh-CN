@@ -1,0 +1,90 @@
+<Type Name="_ViewsEvents_Event" FullName="Microsoft.Office.Interop.Outlook._ViewsEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ee7bada980854c97158f773f9479aa5efc04f49e" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631702" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _ViewsEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ViewsEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ViewsEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _ViewsEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _ViewsEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook._ViewsEvents), typeof(Microsoft.Office.Interop.Outlook._ViewsEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="108c7-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="108c7-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ViewAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook._ViewsEvents_ViewAddEventHandler ViewAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook._ViewsEvents_ViewAddEventHandler ViewAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook._ViewsEvents_Event.ViewAdd" />
+      <MemberSignature Language="VB.NET" Value="Event ViewAdd As _ViewsEvents_ViewAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::_ViewsEvents_ViewAddEventHandler ^ ViewAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook._ViewsEvents_ViewAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="108c7-p102">当向集合中添加视图时发生。Microsoft Outlook 创建新的视图并将其传递给此事件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="108c7-p102">Occurs when a view is added to the collection. Microsoft Outlook creates the new view and passes it to this event.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook._ViewsEvents_ViewRemoveEventHandler ViewRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook._ViewsEvents_ViewRemoveEventHandler ViewRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook._ViewsEvents_Event.ViewRemove" />
+      <MemberSignature Language="VB.NET" Value="Event ViewRemove As _ViewsEvents_ViewRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::_ViewsEvents_ViewRemoveEventHandler ^ ViewRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook._ViewsEvents_ViewRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="108c7-107">当视图从指定集合中删除后发生。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="108c7-107">Occurs when a view has been removed from the specified collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

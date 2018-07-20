@@ -1,0 +1,867 @@
+<Type Name="_SelectNamesDialog" FullName="Microsoft.Office.Interop.Outlook._SelectNamesDialog">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631609" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SelectNamesDialog" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SelectNamesDialog" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _SelectNamesDialog" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _SelectNamesDialog" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630C8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="677d5-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="677d5-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="677d5-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="677d5-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="677d5-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="677d5-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="677d5-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="677d5-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowMultipleSelection">
+      <MemberSignature Language="C#" Value="public bool AllowMultipleSelection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowMultipleSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowMultipleSelection As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowMultipleSelection { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64230)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64230)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64230)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-105">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 确定是否可在选择姓名对话框中一次选择多个地址条目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines whether more than one address entry can be selected at a time in the Select Names dialog.</span>
+          </span>
+          <span data-ttu-id="677d5-106">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-106">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-107">
+            <para>
+              <b>AllowMultipleSelection</b>的默认值为<b>True</b>。如果<b>AllowMultipleSelection</b>设置为<b>True</b>，则用户可以使用 CTRL 或 SHIFT 键选择多个收件人。如果<b>AllowMultipleSelection</b>设置为<b>False</b>，则禁用多重选择。  </para>
+            <para>设置<b>AllowMultipleSelection</b>为<b>False</b> ，并不能确保可选择该只有一个收件人。用户可以键入其他收件人编辑框或从收件人列表中的选择多个时间。若要确保该仅有一个收件人的可选择在对话框中，将设置为<b>False</b><b>AllowMultipleSelect</b>和<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />到<b>olShowNone</b>。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-107">
+              <para>The default value of <b>AllowMultipleSelection</b> is <b>True</b>. If <b>AllowMultipleSelection</b> is set to <b>True</b>, the user can select multiple recipients by using the CTRL or SHIFT key. If <b>AllowMultipleSelection</b> is set to <b>False</b>, multiple selection is disabled.   </para>
+              <para>Setting <b>AllowMultipleSelection</b> to <b>False</b> does not ensure that only one recipient can be selected. The user can type additional recipients in the edit box or select from the recipient list multiple times. To ensure that only one recipient can be selected in the dialog, set <b>AllowMultipleSelect</b> to <b>False</b> and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to <b>olShowNone</b>. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span>
+          </span>
+          <span data-ttu-id="677d5-109">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-109">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccLabel">
+      <MemberSignature Language="C#" Value="public string BccLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BccLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property BccLabel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BccLabel { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64227)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64227)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64227)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-110">返回或设置在选择姓名对话框的密件抄送命令按钮上显示的文本<b>字符串</b>（C# 中的<b>字符串</b>）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-110">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Bcc command button on the Select Names dialog box.</span>
+          </span>
+          <span data-ttu-id="677d5-111">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-111">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-112">
+            <para>若要提供的收件人编辑框的加速键，包括与号 (&amp;) 在标签参数字符串作为访问键的字符前面的字符。例如，如果<b>BccLabel</b>是字符串"本地&amp;与会者"，用户可以按 ALT + A 将焦点移到第一个收件人编辑框。</para>
+            <para>，如果未设置<b>BccLabel</b> ，则默认值将为"密件抄送"的本地化的字符串。如果<b>BccLabel</b>设置为空字符串，则将显示密件抄送命令按钮的&gt;。如果<b>BccLabel</b>属性将包含超过 32 个字符 (包括与号 (&amp;) 访问键)，仅前 32 个字符将显示在命令按钮。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-112">
+              <para>To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>BccLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </para>
+              <para>If <b>BccLabel</b> is not set, then the default value will be the localized string for "Bcc". If the <b>BccLabel</b> is set to an empty string, then the Bcc command button shows -&gt;. If the <b>BccLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64226)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64226)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64226)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-113">返回或设置一个值，该值代表选择姓名对话框的标题的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-113">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the title for the Select Names dialog box.</span>
+          </span>
+          <span data-ttu-id="677d5-114">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-114">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-115">
+            <para>如果未设置<b>标题</b>，对话框的标题将选择姓名或本地化的等效项。如果将<b>Caption</b>设置为空字符串，对话框框标题将为空字符串。</para>
+            <para>
+              <b>标题</b>设置为长字符串 （例如 300 个字符） 会使标题被截选，而不会更改选择姓名对话框的宽度。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-115">
+              <para>If you do not set <b>Caption</b>, the title of the dialog box will be Select Names or the localized equivalent. If you set <b>Caption</b> to an empty string, the dialog box caption will be an empty string.</para>
+              <para>Setting the <b>Caption</b> to a long string (for example, 300 characters) will cause the caption to be truncated, and will not cause the width of the Select Names dialog to change.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcLabel">
+      <MemberSignature Language="C#" Value="public string CcLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CcLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property CcLabel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CcLabel { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64228)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64228)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64228)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-116">返回或设置在选择姓名对话框的抄送命令按钮上显示的文本<b>字符串</b>（C# 中的<b>字符串</b>）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-116">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Cc command button on the Select Names dialog box.</span>
+          </span>
+          <span data-ttu-id="677d5-117">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-117">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-118">
+            <para>若要提供的收件人编辑框的加速键，包括与号 (&amp;) 在标签参数字符串作为访问键的字符前面的字符。例如，如果<b>CcLabel</b>是字符串"本地&amp;与会者"，用户可以按 ALT + A 将焦点移到第一个收件人编辑框。</para>
+            <para>，如果未设置<b>CcLabel</b> ，则默认值将为"抄送"的本地化的字符串。如果<b>CcLabel</b>设置为空字符串，则将显示抄送命令按钮的&gt;。如果<b>CcLabel</b>属性包含超过 32 个字符 (包括与号 (&amp;) 访问键)，仅前 32 个字符将显示在命令按钮。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-118">
+              <para>To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>CcLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </para>
+              <para>If <b>CcLabel</b> is not set, then the default value will be the localized string for "Cc". If the <b>CcLabel</b> is set to an empty string, then the Cc command button shows -&gt;. If the <b>CcLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-119">返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-119">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span>
+          </span>
+          <span data-ttu-id="677d5-120">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-120">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public bool Display ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Display() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />
+      <MemberSignature Language="VB.NET" Value="Public Function Display () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Display();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61473)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-121">显示选择姓名对话框。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-121">Displays the Select Names dialog box.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="677d5-122">一个<b>布尔</b>(C# 中<b>bool</b> ) 值，该值为<b>True</b> ，如果用户已单击确定，和<b>False</b> ，如果用户单击了取消或关闭图标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-122">A <b>Boolean</b> value (<b>bool</b> in C#) that is <b>True</b> if the user has clicked OK, and <b>False</b> if the user has clicked Cancel or the close icon.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="677d5-123">
+            <para>在显示选择姓名对话框， <b>Display</b>使用以前位置和对话框的大小 （由上、 左、 宽度和高度指示）。</para>
+            <para>选择姓名对话框是模式，这意味着在用户单击确定、 取消或关闭图标之前代码执行将一直暂停。</para>
+            <para>您应该会检测到错误条件包括内存不足或另一个消息框或对话框处于打开状态。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-123">
+              <para>When displaying the Select Names dialog box, <b>Display</b> uses the previous location and size (indicated by the top, left, width, and height) of the dialog box.</para>
+              <para>The Select Names dialog box is modal, meaning that code execution will halt until the user clicks OK, Cancel, or the close icon.</para>
+              <para>You should detect for error conditions that include insufficient memory or another message or dialog box is open.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceResolution">
+      <MemberSignature Language="C#" Value="public bool ForceResolution { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ForceResolution" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ForceResolution" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForceResolution As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ForceResolution { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64231)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64231)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64231)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-124">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 确定 Outlook 是否必须解析中指定的对象的所有收件人<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" />用户可以单击确定接受选择姓名对话框中的键入或所选收件人之前。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-124">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if Outlook must resolve all recipients in the object specified by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> before the user can click OK to accept the typed or selected recipients in the Select Names dialog box.</span>
+          </span>
+          <span data-ttu-id="677d5-125">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-125">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-126">
+            <para>默认值为<b>True</b>。如果无法解析收件人，Outlook 将提示用户解决不明确的名称。用户必须拥有能够单击确定之前解析的收件人编辑框中的所有收件人。</para>
+            <para>如果用户单击取消或关闭图标，则忽略
+            <b>ForceResolution</b> 。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-126">
+              <para>The default value is <b>True</b>. If a recipient cannot be resolved, Outlook will prompt the user to resolve the ambiguous names. The user must have all recipients in the recipient edit box resolved before being able to click OK.</para>
+              <para>
+                <b>ForceResolution</b> is ignored if the user clicks Cancel or the Close icon. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialAddressList">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AddressList InitialAddressList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AddressList InitialAddressList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitialAddressList As AddressList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AddressList ^ InitialAddressList { Microsoft::Office::Interop::Outlook::AddressList ^ get(); void set(Microsoft::Office::Interop::Outlook::AddressList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64234)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64234)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64234)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-127">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />确定要显示在选择姓名对话框的初始地址列表的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-127">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object that determines the initial address list to be displayed in the Select Names dialog box.</span>
+          </span>
+          <span data-ttu-id="677d5-128">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-128">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-129">
+            <para>设置<b>InitialAddressList</b>属性是在编程上等同于在选择姓名对话框中的通讯簿从下拉列表选择<b>AddressList</b> 。</para>
+            <para>在其默认状态， <b>InitialAddressList</b>是具有属性<b>AddressList</b><see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />将设置为<b>True</b>。<b>IsInitialAddressList</b>相当于设置的显示此地址列表首先在设置地址对话框，其中，可通过单击工具，然后在通讯簿对话框选项。 </para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-129">
+              <para>Setting the <b>InitialAddressList</b> property is the programmatic equivalent to selecting an <b>AddressList</b> from the drop-down list for  Address Book in the Select Names dialog box.</para>
+              <para>In its default state, <b>InitialAddressList</b> is the <b>AddressList</b> that has the property <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> set to <b>True</b>. <b>IsInitialAddressList</b> corresponds to setting Show this address list first in the Addressing dialog box, which is available by clicking Tools, and then Options in the Address Book dialog box.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfRecipientSelectors">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRecipientSelectors NumberOfRecipientSelectors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRecipientSelectors NumberOfRecipientSelectors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfRecipientSelectors As OlRecipientSelectors" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRecipientSelectors NumberOfRecipientSelectors { Microsoft::Office::Interop::Outlook::OlRecipientSelectors get(); void set(Microsoft::Office::Interop::Outlook::OlRecipientSelectors value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64233)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64233)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64233)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRecipientSelectors</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-130">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" />常数，用于确定收件人的号码编辑的框 （每个相关联的命令按钮） 显示在选择姓名对话框。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-130">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> constant that determines the number of recipient edit boxes (each associated with a command button) displayed in the Select Names dialog box.</span>
+          </span>
+          <span data-ttu-id="677d5-131">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-131">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-132">
+            <para>收件人编辑框中，可以输入收件人的姓名。每个收件人编辑框相关联的命令按钮，在选择姓名对话框;收件人编辑框的命令按钮的示例包括收件人和抄送命令按钮。<b>NumberOfRecipientSelectors</b>的默认值是<b>OlRecipientSelectors.olToCcBcc</b>。</para>
+            <para>如果将<b>NumberOfRecipientSelectors</b>设置为<b>OlRecipientSelectors.olShowTo</b> ，然后随后设置的文本<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />或<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />，则<b>NumberOfRecipientSelectors</b>将保持不变。</para>
+            <para>如果将<b>NumberOfRecipientSelectors</b>设置为<b>OlRecipientSelectors.olShowNone</b>，则<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" />属性将被忽略。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-132">
+              <para>A recipient edit box allows you to enter recipient names. Each recipient edit box is associated with a command button in the Select Names dialog box; examples of a command button for a recipient edit box are the To and Cc command buttons. The default value of <b>NumberOfRecipientSelectors</b> is <b>OlRecipientSelectors.olToCcBcc</b>.</para>
+              <para>If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowTo</b> and then subsequently set the text for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> or <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, the <b>NumberOfRecipientSelectors</b> will remain unchanged. </para>
+              <para>If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowNone</b>, then the <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> property will be ignored.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-133">返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-133">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span>
+          </span>
+          <span data-ttu-id="677d5-134">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-134">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Recipients Recipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Recipients Recipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property Recipients As Recipients" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Recipients ^ Recipients { Microsoft::Office::Interop::Outlook::Recipients ^ get(); void set(Microsoft::Office::Interop::Outlook::Recipients ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-135">返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合对象，代表在选择姓名对话框中，所选定的收件人或设置一个<b>Recipients</b>集合对象，该对象代表在选择姓名对话框中显示的初始收件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-135">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> collection object that represents the recipients selected in the Select Names dialog, or sets a <b>Recipients</b> collection object that represents the initial recipients to be displayed in the Select Names dialog box.</span>
+          </span>
+          <span data-ttu-id="677d5-136">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-136">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-137">
+            <para>此属性指定一个<b>Recipients</b>集合对象，具有<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" />equal 的收件人总数在收件人、 抄送和密件抄送编辑框。</para>
+            <para>如果显示选择姓名对话框之前未设置此属性，则由<b>SelectNamesDialog.Recipients</b>表示的<b>Recipients</b>对象会等于零<b>Recipients.Count</b> 。</para>
+            <para>如果用户不会从选择姓名对话框中选择任何名称，然后单击确定， <b>SelectNamesDialog.Recipients</b>将返回一个<b>Recipients</b>集合对象<b>recipients.count</b>等于零。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-137">
+              <para>This property specifies a <b>Recipients</b> collection object that has a <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> equal to the total number of recipients in the To, Cc, and Bcc edit boxes. </para>
+              <para>If you do not set this property before displaying the Select Names dialog box, then the <b>Recipients</b> object represented by <b>SelectNamesDialog.Recipients</b> will have a <b>Recipients.Count</b> equal to zero.</para>
+              <para>If the user does not select any names from the Select Names dialog box and clicks OK, <b>SelectNamesDialog.Recipients</b> will return a <b>Recipients</b> collection object with <b>Recipients.Count</b> equal to zero. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-138">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-138">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
+          </span>
+          <span data-ttu-id="677d5-139">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-139">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-140">
+            <para>
+              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-140">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDefaultDisplayMode">
+      <MemberSignature Language="C#" Value="public void SetDefaultDisplayMode (Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode defaultMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetDefaultDisplayMode([in]valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode defaultMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.SetDefaultDisplayMode(Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDefaultDisplayMode (defaultMode As OlDefaultSelectNamesDisplayMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetDefaultDisplayMode(Microsoft::Office::Interop::Outlook::OlDefaultSelectNamesDisplayMode defaultMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64235)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="defaultMode" Type="Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode" />
+      </Parameters>
+      <Docs>
+        <param name="defaultMode">
+          <span data-ttu-id="677d5-141">在确定 <b>选择姓名</b>对话框中的默认标题和按钮标签 OlDefaultSelectNamesDisplayMode 枚举常量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-141">A constant in the <b>OlDefaultSelectNamesDisplayMode</b> enumeration that determines the default caption and button labels for the Select Names dialog box.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="677d5-142">设置选择名称对话框的默认显示模式，指定其标题和按钮标签。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-142">Sets the default display mode for the Select Names dialog box, specifying its caption and button labels.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="677d5-143">
+            <para>
+              <b>SetDefaultDisplayMode</b>是可选的。如果在呼叫之前不调用<b>SetDefaultDisplayMode</b><see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />，默认显示模式将<b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>。若要设置为不同的值的显示模式，您应在调用<b>显示</b>方法之前调用<b>SetDefaultDisplayMode</b> 。</para>
+            <para>此方法允许您无需使用的资源文件进行本地化的值的标题，目标标签中，显示选择姓名对话框中抄送标签和密件抄送标签。通过设置为您自己的值，可以覆盖内置行为<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />， <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />， <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />，和<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />。</para>
+            <para>可以设置其他属性 (例如，设置<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />到<b>olRecipientSelectors.olToCc</b>) 调用<b>SetDefaultDisplayMode</b>后。选择姓名对话框将遵循后续设置。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-143">
+              <para>
+                <b>SetDefaultDisplayMode</b> is optional. If you do not call <b>SetDefaultDisplayMode</b> before calling <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, the default display mode will be <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>. To set the display mode to a different value, you should call <b>SetDefaultDisplayMode</b> before calling the <b>Display</b> method. </para>
+              <para>This method allows you to display the Select Names dialog box without using a resource file to localize the values for the caption, the To label, Cc label, and Bcc label. You can override the built-in behavior by setting your own values for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />. </para>
+              <para>You can set additional properties (for example, setting <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to  <b>olRecipientSelectors.olToCc</b>)  after calling  <b>SetDefaultDisplayMode</b>. The Select Names dialog box will observe the subsequent setting.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowOnlyInitialAddressList">
+      <MemberSignature Language="C#" Value="public bool ShowOnlyInitialAddressList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowOnlyInitialAddressList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ShowOnlyInitialAddressList" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowOnlyInitialAddressList As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowOnlyInitialAddressList { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64232)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64232)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64232)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-144">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的判断<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />由<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" />是唯一的<b>AddressList</b>下拉列表中的选择姓名对话框中的通讯簿。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-144">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> represented by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> is the only <b>AddressList</b> available in the drop-down list for Address Book in the Select Names dialog box.</span>
+          </span>
+          <span data-ttu-id="677d5-145">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-145">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-146">
+            <para>此属性的默认值为<b>False</b>，表示显示所有地址列表。若要限制所指示的<b>InitialAddressList</b>通讯簿下拉列表列表，请将<b>ShowOnlyInitialAddressList</b>设置为<b>True</b>。</para>
+            <para>如果未设置<b>InitialAddressList</b>属性并将<b>ShowOnlyInitialAddressList</b>设置为<b>True</b>，然后使用<b>AddressList</b><see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />等于<b>true，</b>将仅中可用的地址列表通讯簿的下拉列表。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-146">
+              <para>The default value of this property is <b>False</b>, meaning that all address lists are displayed. To restrict the drop-down list for Address Book to the one indicated by <b>InitialAddressList</b>, set <b>ShowOnlyInitialAddressList</b> to <b>True</b>. </para>
+              <para>If you do not set the <b>InitialAddressList</b> property and then set <b>ShowOnlyInitialAddressList</b> to <b>True</b>, then the <b>AddressList</b> with <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> equal to <b>True</b> will be the only address list available in the drop-down list for Address Book.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToLabel">
+      <MemberSignature Language="C#" Value="public string ToLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ToLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property ToLabel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ToLabel { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64229)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64229)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64229)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="677d5-147">返回或设置为显示在选择姓名对话框的收件人命令按钮的文本<b>字符串</b>（C# 中的<b>字符串</b>）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-147">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the To command button on the Select Names dialog box.</span>
+          </span>
+          <span data-ttu-id="677d5-148">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-148">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="677d5-149">
+            <para>若要提供的收件人编辑框的加速键，包括与号 (&amp;) 在标签参数字符串作为访问键的字符前面的字符。例如，如果<b>ToLabel</b>是字符串"本地&amp;与会者"，用户可以按 ALT + A 将焦点移到第一个收件人编辑框。</para>
+            <para>如果未设置<b>ToLabel</b> ，默认值将为"目标"本地化的字符串。如果<b>ToLabel</b>设置为空字符串，则将显示收件人命令按钮的&gt;。如果<b>ToLabel</b>属性包含超过 32 个字符 (包括与号 (&amp;) 访问键)，仅前 32 个字符将显示在命令按钮。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="677d5-149">
+              <para>To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>ToLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </para>
+              <para>If <b>ToLabel</b> is not set, the default value will be the localized string for "To". If the <b>ToLabel</b> is set to an empty string, then the To command button shows -&gt;. If the <b>ToLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

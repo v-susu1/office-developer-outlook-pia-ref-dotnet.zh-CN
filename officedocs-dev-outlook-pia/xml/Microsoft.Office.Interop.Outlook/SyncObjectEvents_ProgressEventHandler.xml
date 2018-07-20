@@ -1,0 +1,76 @@
+<Type Name="SyncObjectEvents_ProgressEventHandler" FullName="Microsoft.Office.Interop.Outlook.SyncObjectEvents_ProgressEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2760f48737100ee480f9825aed11b843583c81f8" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631996" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void SyncObjectEvents_ProgressEventHandler(OlSyncState State, string Description, int Value, int Max);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SyncObjectEvents_ProgressEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SyncObjectEvents_ProgressEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub SyncObjectEvents_ProgressEventHandler(State As OlSyncState, Description As String, Value As Integer, Max As Integer)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void SyncObjectEvents_ProgressEventHandler(OlSyncState State, System::String ^ Description, int Value, int Max);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="State" Type="Microsoft.Office.Interop.Outlook.OlSyncState" />
+    <Parameter Name="Description" Type="System.String" />
+    <Parameter Name="Value" Type="System.Int32" />
+    <Parameter Name="Max" Type="System.Int32" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="State">
+      <span data-ttu-id="c522f-101">标识同步进程的当前状态的值。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c522f-101">A value that identifies the current state of the synchronization process.</span>
+      </span>
+    </param>
+    <param name="Description">
+      <span data-ttu-id="c522f-102">有关同步进程的当前状态的文字说明。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c522f-102">A textual description of the current state of the synchronization process.</span>
+      </span>
+    </param>
+    <param name="Value">
+      <span data-ttu-id="c522f-103">指定同步进程的当前值（如已同步处理的项目数目）。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c522f-103">Specifies the current value of the synchronization process (such as the number of items synchronized).</span>
+      </span>
+    </param>
+    <param name="Max">
+      <span data-ttu-id="c522f-104">最大值的<paramref name="Value" />可达到。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c522f-104">The maximum that <paramref name="Value" /> can reach.</span>
+      </span>
+      <span data-ttu-id="c522f-105">比率<paramref name="Value" />到<paramref name="Max" />完成百分比表示，同步过程。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c522f-105">The ratio of <paramref name="Value" />  to <paramref name="Max" /> represents the percent complete of the synchronization process.</span>
+      </span>
+    </param>
+    <summary>
+      <span data-ttu-id="c522f-p102">这是针对相应对象中的事件的委派。在对事件实现回调方法后，使用此委派将回调方法连接到该事件。如果存在多个版本的事件接口，此委派将为指定版本的 Outlook 中的事件连接回调方法。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c522f-p102">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

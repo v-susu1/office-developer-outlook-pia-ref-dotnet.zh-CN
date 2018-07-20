@@ -1,0 +1,412 @@
+<Type Name="Selection" FullName="Microsoft.Office.Interop.Outlook.Selection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c546cacfd6888cac8506d614c46b0204cc42399d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632987" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Selection : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Selection implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Selection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Selection&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Selection : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063087-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4399c-101">包含当前在浏览器中选定的一组 Outlook 项目。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4399c-101">Contains the set of Outlook items currently selected in an explorer.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="4399c-102">
+        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性可返回<b>Selection</b>集合从<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4399c-102">
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />  property to return the <b>Selection</b> collection from the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Selection.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4399c-103">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="4399c-104">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Selection.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4399c-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="4399c-106">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Selection.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4399c-107">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-107">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
+          </span>
+          <span data-ttu-id="4399c-108">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Selection GetSelection (Microsoft.Office.Interop.Outlook.OlSelectionContents SelectionContents);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Selection GetSelection([in]valuetype Microsoft.Office.Interop.Outlook.OlSelectionContents SelectionContents) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSelection (SelectionContents As OlSelectionContents) As Selection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Selection ^ GetSelection(Microsoft::Office::Interop::Outlook::OlSelectionContents SelectionContents);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8706)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Selection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SelectionContents" Type="Microsoft.Office.Interop.Outlook.OlSelectionContents" />
+      </Parameters>
+      <Docs>
+        <param name="SelectionContents">
+          <span data-ttu-id="4399c-109">指定选定内容中要返回的对象种类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-109">Specifies the kind of objects in the selection to return.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4399c-110">返回<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象，其中包含的指定的对象种类<paramref name="SelectionContents" />参数，并且当前在活动资源管理器中选定。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-110">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that contains the kind of objects specified by the <paramref name="SelectionContents" /> parameter, and that are currently selected in the active explorer.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="4399c-111">返回<b>Selection</b>对象包含的指定的种类的活动浏览器中选定的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-111">Returns a <b>Selection</b> object that contains the specified kind of objects that are selected in the active explorer.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="4399c-112">
+            <para>调用<b>GetSelection</b>与<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />，该参数返回<b>Selection</b>对象已<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" />属性等于<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />。</para>如果当前视图不是对话视图，或者，如果<b>位置</b>不等于<b>OlSelectionLocation.olViewList</b>，使用<b>olConversationHeaders</b>作为参数调用<b>GetSelection</b>将返回<b>所选内容</b>的
+          <para>与对象<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />等于 0。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-112">
+              <para>Calling <b>GetSelection</b> with <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> as the argument returns a <b>Selection</b> object that has the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" /> property equal to <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />.</para>
+              <para>If the current view is not a conversation view, or, if <b>Location</b> is not equal to <b>OlSelectionLocation.olViewList</b>, calling <b>GetSelection</b> with <b>olConversationHeaders</b> as the argument returns a <b>Selection</b> object with <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> equal to 0.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Selection.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="4399c-113">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-113">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4399c-114">从集合中返回一个 Outlook 项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-114">Returns an Outlook item from a collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4399c-115">一个代表指定对象的 Object 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-115">An Object value that represents the specified object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlSelectionLocation Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlSelectionLocation Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Selection.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As OlSelectionLocation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlSelectionLocation Location { Microsoft::Office::Interop::Outlook::OlSelectionLocation get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33288)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33288)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlSelectionLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4399c-116">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" />指定在 Microsoft Outlook 用户界面中当前所选内容所在的常量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" /> constant that specifies where in the Microsoft Outlook user interface the current selection is.</span>
+          </span>
+          <span data-ttu-id="4399c-117">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-117">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="4399c-118">
+            <para>
+              <b>Location</b>属性的值<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />意味着当前选定内容位于浏览器中的项目列表。调用<see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" />与<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />，该参数返回<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象与<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />等于当前选定内容中的对话标头的数目。</para>
+            <para>如果<b>Location</b>属性不等于<b>olViewList</b>，调用<b>GetSelection</b><b>olconversationheaders</b> ，该参数返回<b>Selection</b>对象具有<b>计数</b>等于 0。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-118">
+              <para>A <b>Location</b> property with the value <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" /> means that the current selection is in a list of items in an explorer. Calling <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> with <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> as the argument returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object with <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> equal to the number of conversation headers in the current selection.</para>
+              <para>If the <b>Location</b> property is not equal to <b>olViewList</b>, calling <b>GetSelection</b> with <b>olConversationHeaders</b> as the argument returns a <b>Selection</b> object with <b>Count</b> equal to 0.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Selection.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4399c-p105">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Selection.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4399c-121">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-121">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="4399c-122">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-122">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="4399c-123">
+            <para>
+              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4399c-123">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,66 @@
+<Type Name="FormRegionStartup" FullName="Microsoft.Office.Interop.Outlook.FormRegionStartup">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="75a9b2ad694849b28efb9d70e2610a95ab5912e0" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632357" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface FormRegionStartup : Microsoft.Office.Interop.Outlook._FormRegionStartup" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormRegionStartup implements class Microsoft.Office.Interop.Outlook._FormRegionStartup" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />
+  <TypeSignature Language="VB.NET" Value="Public Interface FormRegionStartup&#xA;Implements _FormRegionStartup" />
+  <TypeSignature Language="C++ CLI" Value="public interface class FormRegionStartup : Microsoft::Office::Interop::Outlook::_FormRegionStartup" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._FormRegionStartup</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.FormRegionStartupClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063059-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="20ac9-101">定义接口，该接口允许加载项指定窗体区域的存储区和用户界面、获取该窗体区域的对象并确定何时在窗体或阅读窗格中显示该窗体区域。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="20ac9-101">Defines an interface that allows an add-in to specify the storage and the user interface of a form region, obtains an object for that form region, and determines when the form region is about to be displayed in a form or in the Reading Pane.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="20ac9-102">
+        <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._FormRegionStartup" />。</para>
+        <para>
+          <b>FormRegionStartup</b>接口是抽象类，这意味着它不能直接实例。在 Visual Basic 中，您可以使用<b>Implements</b>关键字，如下所示在外接程序类中提供的<b>FormRegionStartup</b>方法：</para>
+        <code>Implements Outlook._FormRegionStartup.BeforeFormRegionShow</code>
+        <para>外接程序部署窗体区域的 Outlook 窗体上的客户端计算机必须实现<b>FormRegionStartup</b>接口包含两种方法，<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.BeforeFormRegionShow(Microsoft.Office.Interop.Outlook.FormRegion)" />和<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" />。当 Outlook 加载的加载项时，Outlook 查询<b>FormRegionStartup</b><b>IDTExtensibility2</b>接口。</para>
+        <para>外接程序指示在<b>GetFormRegionStorage</b>窗体区域的存储和布局文件。通过调用<b>GetFormRegionStorage</b>，Outlook 分配存储和计算窗体区域的布局、 实例化对象的窗体区域，并返回一个值，代表分配给外接程序的存储空间。如果成功<b>GetFormRegionStorage</b> ，只需在检查器窗口中或阅读窗格中显示窗体区域之前 Outlook 将调用<b>BeforeFormRegionShow</b>并传递<see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />对象的外接程序的窗体区域。外接程序使用此商机窗体区域显示更新窗体区域中的任何控件之前。</para>
+        <para>时加载项关闭窗体区域的框架外, 接程序必须释放窗体区域的对象。</para>
+        <para>编写外接程序窗体区域的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87930">扩展窗体区域与外接程序</a><b>FormRegionStartup</b>，请参阅 MSDN 上的代码示例下载。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="20ac9-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._FormRegionStartup" />. </para>
+          <para>The <b>FormRegionStartup</b> interface is an abstract class, which means that it cannot be instantiated directly. In Visual Basic, you can use the <b>Implements</b> keyword to provide the methods of  <b>FormRegionStartup</b> in your add-in class as follows:</para>
+          <code>Implements Outlook._FormRegionStartup.BeforeFormRegionShow</code>
+          <para>An add-in deploying a form region in an Outlook form on a client computer must implement the <b>FormRegionStartup</b> interface which consists of the two methods,   <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.BeforeFormRegionShow(Microsoft.Office.Interop.Outlook.FormRegion)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" />. When Outlook loads the add-in, Outlook queries the <b>IDTExtensibility2</b> interface for <b>FormRegionStartup</b>. </para>
+          <para>The add-in indicates the storage and layout file for the form region  in <b>GetFormRegionStorage</b>. By calling <b>GetFormRegionStorage</b>, Outlook allocates storage and calculates the layout for the form region, instantiates an object for the form region, and returns a value representing the storage allocated to the add-in. If <b>GetFormRegionStorage</b> is successful, just before the form region is displayed in an Inspector window or in the Reading Pane, Outlook will call <b>BeforeFormRegionShow</b> and pass the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> object of the form region to the add-in. The add-in uses this opportunity before the form region is displayed to update any controls  in the form region. </para>
+          <para>When the add-in closes the frame for the form region, the add-in must release the object for the form region.</para>
+          <para>For more information on writing add-ins for form regions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87930">Extending a Form Region with an Add-in</a><b>FormRegionStartup</b>, see code sample downloads on MSDN.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

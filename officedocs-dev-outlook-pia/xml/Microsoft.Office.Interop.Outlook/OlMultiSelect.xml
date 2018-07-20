@@ -1,0 +1,122 @@
+<Type Name="OlMultiSelect" FullName="Microsoft.Office.Interop.Outlook.OlMultiSelect">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4f84515c06c18ca6bb1de1531e091f5e036bbe66" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632714" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlMultiSelect" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlMultiSelect extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlMultiSelect" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlMultiSelect" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("5A0FB768-AAF4-4E8C-9C57-89ACA8B6249F")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="f33e8-101">表示在列表框控件中支持的选择类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f33e8-101">Specifies the type of selection that is supported in a list box control.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olMultiSelectExtended">
+      <MemberSignature Language="C#" Value="olMultiSelectExtended" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMultiSelect olMultiSelectExtended = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMultiSelect.olMultiSelectExtended" />
+      <MemberSignature Language="VB.NET" Value="olMultiSelectExtended" />
+      <MemberSignature Language="C++ CLI" Value="olMultiSelectExtended" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiSelect</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f33e8-102">支持 SHIFT 和 CTRL 一次选择一个或多个项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f33e8-102">Supports  SHIFT and CTRL to select one or more items at a time.</span>
+          </span>
+          <span data-ttu-id="f33e8-103">按下 shift 键并单击鼠标，或按 SHIFT和箭头键之一扩展到当前项以前选定的项中的选项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f33e8-103">Pressing SHIFT and clicking the mouse, or pressing SHIFT and one of the arrow keys, extends the selection from the previously selected item to the current item.</span>
+          </span>
+          <span data-ttu-id="f33e8-104">按住 CTRL 并单击鼠标切换的项目的所选内容。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f33e8-104">Pressing CTRL and clicking the mouse toggles the selection of  an item.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMultiSelectMulti">
+      <MemberSignature Language="C#" Value="olMultiSelectMulti" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMultiSelect olMultiSelectMulti = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMultiSelect.olMultiSelectMulti" />
+      <MemberSignature Language="VB.NET" Value="olMultiSelectMulti" />
+      <MemberSignature Language="C++ CLI" Value="olMultiSelectMulti" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiSelect</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f33e8-105">支持一次选择一个或多个项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f33e8-105">Supports selection of one or more items at a time.</span>
+          </span>
+          <span data-ttu-id="f33e8-106">按空格键或单击鼠标切换选定内容的列表中的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f33e8-106">Pressing SPACEBAR or clicking the mouse  toggles the selection of  an item in the list.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMultiSelectSingle">
+      <MemberSignature Language="C#" Value="olMultiSelectSingle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMultiSelect olMultiSelectSingle = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMultiSelect.olMultiSelectSingle" />
+      <MemberSignature Language="VB.NET" Value="olMultiSelectSingle" />
+      <MemberSignature Language="C++ CLI" Value="olMultiSelectSingle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiSelect</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f33e8-107">支持一次仅选择一个项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f33e8-107">Supports selection of only one item at a time.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

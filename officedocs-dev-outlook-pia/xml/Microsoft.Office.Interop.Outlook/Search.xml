@@ -1,0 +1,656 @@
+<Type Name="Search" FullName="Microsoft.Office.Interop.Outlook.Search">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="95e75d0a084b225bee45b2e7972a363b981ca65d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632981" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Search" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Search" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Search" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Search" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Search" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006300B-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7335d-101">包含有关对 Outlook 项目执行的各种搜索的信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7335d-101">Contains information about individual searches performed against Outlook items.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="7335d-102">
+        <para>
+          <b>Search</b>对象包含定义搜索的类型和搜索本身的参数的属性。</para>
+        <para>使用<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象的<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法可返回<b>Search</b>对象。</para>
+        <para>使用<see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />来确定给定的搜索已完成时的事件。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7335d-102">
+          <para>The <b>Search</b> object contains properties that define the type of search and the parameters of the search itself.</para>
+          <para>Use the <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object's <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method to return a <b>Search</b> object.</para>
+          <para>Use the <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> event to determine when a given search has completed.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-103">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="7335d-104">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="7335d-106">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Filter">
+      <MemberSignature Language="C#" Value="public string Filter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Filter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.Filter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Filter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Filter { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-107">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表用来限制对指定的数据子集的搜索的 DASL 语句。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-107">Returns a <b>String</b> (<b>string</b> in C#) value that represents the DASL statement used to restrict the search to a specified subset of data.</span>
+          </span>
+          <span data-ttu-id="7335d-108">只读</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-108">Read-only</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7335d-109">
+            <para>此属性设置为<paramref name="Filter" />中的参数<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象的<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法。</para>
+            <para>搜索<b>文本</b>字段时，您可以使用撇号 （'） 或双引号 ("") 来分隔的值的筛选器的一部分。例如，下面的行函数正确当类型的所有字段为<b>字符串</b>（C# 中的<b>字符串</b>）：</para>
+            <code>sFilter = "[CompanyName] = 'Microsoft'"</code>
+            <code>sFilter = "[CompanyName] = 'Microsoft'";</code>
+            <code>sFilter = "[CompanyName] = ""Microsoft"""</code>
+            <code>sFilter = "[CompanyName] = ""Microsoft""";</code>
+            <code>sFilter = "[CompanyName] = " &amp;amp; Chr(34) &amp;amp; "Microsoft" &amp;amp; Chr(34)</code>
+            <code>sFilter = "[CompanyName] = " &amp;amp; Chr(34) &amp;amp; "Microsoft" &amp;amp; Chr(34);</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-109">
+              <para>This property is set as the <paramref name="Filter" /> argument in the <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object's <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />  method. </para>
+              <para>When searching <b>Text</b> fields, you can use either an apostrophe (') or double quotation marks ("") to delimit the values that are part of the filter. For example, all of the following lines function correctly when the field is of type <b>String </b>(<b>string</b> in C#): </para>
+              <code>sFilter = "[CompanyName] = 'Microsoft'"</code>
+              <code>sFilter = "[CompanyName] = 'Microsoft'";</code>
+              <code>sFilter = "[CompanyName] = ""Microsoft"""</code>
+              <code>sFilter = "[CompanyName] = ""Microsoft""";</code>
+              <code>sFilter = "[CompanyName] = " &amp;amp; Chr(34) &amp;amp; "Microsoft" &amp;amp; Chr(34)</code>
+              <code>sFilter = "[CompanyName] = " &amp;amp; Chr(34) &amp;amp; "Microsoft" &amp;amp; Chr(34);</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTable">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Table GetTable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Table GetTable() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTable () As Table" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Table ^ GetTable();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64285)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Table</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-110">获取<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象，其中包含由筛选的项目<paramref name="Filter" />中前面参数<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法调用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-110">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object that contains items filtered by the <paramref name="Filter" /> parameter in a preceding <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method call.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="7335d-111">一个<b>表</b>，包含符合指定条件的邮件<paramref name="Filter" />前面的<b>Application.AdvancedSearch</b>方法调用中的参数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-111">A <b>Table</b> that contains items that meet the criteria specified by the <paramref name="Filter" /> parameter in a preceding <b>Application.AdvancedSearch</b> method call.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="7335d-112">
+            <para>与不同<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />， <b>Search.GetTable</b>不接受<paramref name="Filter" />参数。<b>表</b>的筛选器由<see cref="P:Microsoft.Office.Interop.Outlook.Search.Filter" />。由于<b>Search.Filter</b>是只读属性， <paramref name="Filter" /><b>Application.AdvancedSearch</b>方法的参数建立<b>Search.GetTable</b>返回的<b>Table</b>对象的筛选器。</para>
+            <para>
+              <paramref name="Filter" />提供给 Application.AdvancedSearch 的参数必须为 DASL 查询。<b>AdvancedSearch</b>的筛选器将不会接受 JET 查询。不执行的与<b>AdvancedSearch</b>前缀 DASL 查询"@SQL ="。如果您要添加"@SQL ="前缀，则查询将产生错误。筛选器的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
+            <para>
+              <b>Search.GetTable</b>返回与父<b>文件夹</b>的文件夹类型为默认列的<b>表</b>。若要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合对象。 在默认列集的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87925">Table 对象中显示的默认属性</a></para>
+            <para>与<b>Folder.GetTable</b>，您无法使用<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />基于<b><b>表</b>应用于后续的筛选器搜索</b>对象。<b>Application.AdvancedSearch</b>重新应用筛选器中指定新的筛选器。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-112">
+              <para>Unlike <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <b>Search.GetTable</b> does not accept a <paramref name="Filter" /> parameter. The filter for the <b>Table</b> is determined by <see cref="P:Microsoft.Office.Interop.Outlook.Search.Filter" />. Since <b>Search.Filter</b> is a read-only property, the <paramref name="Filter" /> parameter for the <b>Application.AdvancedSearch</b> method establishes the filter for the <b>Table</b> object returned by <b>Search.GetTable</b>.</para>
+              <para>The <paramref name="Filter" /> parameter supplied to Application.AdvancedSearch must be a DASL query. The filter for <b>AdvancedSearch</b> will not accept a JET query. Do not prefix a DASL query for <b>AdvancedSearch</b> with “@SQL=”. If you add the “@SQL=” prefix, your query will raise an error. For more information on filters, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
+              <para>
+                <b>Search.GetTable</b> returns a <b>Table</b> with the default column set for the folder type of the parent <b>Folder</b>. To modify the default column set, use the <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection object.  For more information on default column sets, see <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Default Properties Displayed in a Table Object</a></para>
+              <para>Unlike <b>Folder.GetTable</b>, you cannot use <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> to apply subsequent filters to a <b>Table</b> that is based on the <b>Search</b> object. Specify a new filter in <b>Application.AdvancedSearch</b> to re-apply a filter.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSynchronous">
+      <MemberSignature Language="C#" Value="public bool IsSynchronous { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSynchronous" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.IsSynchronous" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSynchronous As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSynchronous { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-113">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否搜索是同步。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-113">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating whether the search is synchronous.</span>
+          </span>
+          <span data-ttu-id="7335d-114">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-114">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7335d-115">
+            <para>搜索可以同步或异步。如果搜索是同步的搜索完成之前将暂停代码执行。相反，如果搜索是异步的即使尚未完成搜索，会继续执行代码。在这种情况下，使用<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象的<see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" />方法暂停搜索。 若要从异步搜索获取有意义的结果，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />事件搜索已完成时通知您。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-115">
+              <para>A search can be synchronous or asynchronous. If the search is synchronous, code execution will pause until the search has completed. Conversely, if the search is asynchronous, code execution will continue even though the search has not completed. In this case, use the <see cref="T:Microsoft.Office.Interop.Outlook.Search" />  object's <see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" /> method to halt the search.  In order to get meaningful results from an asynchronous search, use the <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />  event to notify you when the search has finished.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-p105">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Results">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Results Results { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Results Results" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.Results" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Results As Results" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Results ^ Results { Microsoft::Office::Interop::Outlook::Results ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Results</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-118">返回<see cref="T:Microsoft.Office.Interop.Outlook.Results" />指定的搜索结果的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-118">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Results" /> collection that specifies the results of the search.</span>
+          </span>
+          <span data-ttu-id="7335d-119">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-119">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder Save (string Name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder Save([in]string Name) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (Name As String) As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ Save(System::String ^ Name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64173)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Name">
+          <span data-ttu-id="7335d-120">一个代表搜索文件夹名称的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-120">A string that represents the Search Folder name.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7335d-121">将搜索结果保存到搜索文件夹中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-121">Saves the search results to a Search Folder.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <span data-ttu-id="7335d-122">
+            <para>如果已存在同名的搜索文件夹， <b>Save</b>方法将显示一个错误。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-122">
+              <para>The <b>Save</b> method displays an error if a Search Folder with the same name already exists.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="public string Scope { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Scope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Scope As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Scope { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64165)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64165)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-123">返回指定的<b>字符串</b>（C# 中的<b>字符串</b>） 的指定搜索范围。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-123">Returns a <b>String</b> (<b>string</b> in C#) that specifies the scope of the specified search.</span>
+          </span>
+          <span data-ttu-id="7335d-124">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-124">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7335d-125">
+            <para>启动搜索时定义的搜索范围。有关详细信息，请参阅<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-125">
+              <para>The scope of the search is defined when the search is initiated. For more information, see the <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchSubFolders">
+      <MemberSignature Language="C#" Value="public bool SearchSubFolders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SearchSubFolders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.SearchSubFolders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SearchSubFolders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SearchSubFolders { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-126">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否指定搜索的范围包含任何搜索文件夹的子文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-126">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating whether the scope of the specified search included the subfolders of any folders searched.</span>
+          </span>
+          <span data-ttu-id="7335d-127">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-127">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7335d-128">
+            <para>此属性由<paramref name="SearchSubfolders" />参数<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法和初始化搜索时指定。如果<b>为 True</b>，<b>搜索</b>对象指定的筛选器路径中的任何子通过搜索。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-128">
+              <para>This property is determined by the <paramref name="SearchSubfolders" /> argument of the <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method and is specified when the search is initiated. If <b>True</b>, the <b>Search</b> object searches through any subfolders in the specified filter path.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-129">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-129">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="7335d-130">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-130">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7335d-131">
+            <para>
+              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-131">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public void Stop ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Stop() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Search.Stop" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Stop ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Stop();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-132">立即终止当前正在进行的搜索。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-132">Immediately ends the search that is being performed currently.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public string Tag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Search.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tag As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Tag { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7335d-133">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 指定当前搜索的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-133">Returns a <b>String</b> (<b>string</b> in C#) specifying the name of the current search.</span>
+          </span>
+          <span data-ttu-id="7335d-134">
+            <b>Tag</b> 属性用于标识特定的搜索。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-134">The <b>Tag</b> property is used to identify a specific search.</span>
+          </span>
+          <span data-ttu-id="7335d-135">只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-135">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="7335d-136">
+            <para>
+              <b>Tag</b>属性通过设置<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法时<see cref="T:Microsoft.Office.Interop.Outlook.Search" />创建对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7335d-136">
+              <para>The <b>Tag</b> property is set by using the <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method when the <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object is created.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

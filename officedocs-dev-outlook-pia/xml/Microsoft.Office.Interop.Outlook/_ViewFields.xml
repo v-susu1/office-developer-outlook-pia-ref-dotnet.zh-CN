@@ -1,0 +1,462 @@
+<Type Name="_ViewFields" FullName="Microsoft.Office.Interop.Outlook._ViewFields">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2fa7e9f0d7874832b1d6dbb48db18e744e8b2a5f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631611" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _ViewFields : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ViewFields implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ViewFields" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _ViewFields&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _ViewFields : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630A1-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="54548-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="54548-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="54548-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="54548-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="54548-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="54548-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="54548-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="54548-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewField Add (string PropertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.ViewField Add([in]string PropertyName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (PropertyName As String) As ViewField" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::ViewField ^ Add(System::String ^ PropertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewField</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PropertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="PropertyName">
+          <span data-ttu-id="54548-105">要与新对象关联的属性的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-105">The name of the property to which the new object is associated.</span>
+          </span>
+          <span data-ttu-id="54548-106">此属性可以按 （显示在字段选择器） 的字段名称或通过命名空间引用 (由<see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-106">This property can be referenced by field name (displayed in the Field Chooser) or by namespace (represented by <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />).</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="54548-107">将指定的字段添加到末尾的<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />的视图的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-107">Adds the specified field to the end of the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection for the view.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="54548-108">表示新视图字段的 <b>ViewField</b> 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-108">A <b>ViewField</b> object that represents the new view field.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="54548-109">
+            <para>引用中的属性<paramref name="PropertyName" />其字段名称都需要在相应的区域设置中的本地化的名称。通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
+            <para>如果要自定义属性添加到<b>ViewFields</b>集合，该属性必须存在于<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />集合View 的父文件夹。 </para>
+            <para>如果属性已存在于<b>ViewFields</b>集合，则 Outlook 将引发错误。</para>
+            <para>，以编程方式向视图中添加自定义字段，使用<b>ViewFields.Add</b>方法。这是通过设置中动态更改视图的建议的方式<see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />属性。</para>某些属性不能为
+          <para>添加到视图使用<b>ViewFields.Add</b>，包括二进制属性，计算属性，和 HTML 或 RTF 正文内容。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table 对象或 Table 筛选器中不受支持属性</a></para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-109">
+              <para>Referencing the property in <paramref name="PropertyName" /> by its field name requires the localized name in the corresponding locale. For more information on referencing properties by namespace, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></para>
+              <para>If you are adding a custom property to the <b>ViewFields</b> collection, the property must exist in the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> collection for the View’s parent folder.  </para>
+              <para>If the property already exists in the <b>ViewFields</b> collection, Outlook will raise an error.</para>
+              <para>To programmatically add a custom field to a view, use the <b>ViewFields.Add</b> method. This is the recommended way to dynamically change the view over setting the <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> property.</para>
+              <para>Certain properties cannot be added to a view using <b>ViewFields.Add</b>, including binary properties, computed properties, and HTML or RTF body content. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Unsupported Properties in a Table Object or Table Filter</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ViewFields.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="54548-110">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="54548-111">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-111">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ViewFields.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="54548-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="54548-113">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-113">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ViewFields.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="54548-114">返回指示数目的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.ViewField" />指定集合中的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> objects in the specified collection.</span>
+          </span>
+          <span data-ttu-id="54548-115">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-115">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Insert">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewField Insert (string PropertyName, object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.ViewField Insert([in]string PropertyName, [in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ViewFields.Insert(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Insert (PropertyName As String, Index As Object) As ViewField" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::ViewField ^ Insert(System::String ^ PropertyName, System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64342)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewField</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PropertyName" Type="System.String" />
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="PropertyName">
+          <span data-ttu-id="54548-116">要与新对象关联的属性的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-116">The name of the property to which the new object is associated.</span>
+          </span>
+        </param>
+        <param name="Index">
+          <span data-ttu-id="54548-117">或者是一个基于索引号要插入新的对象或用于匹配值<see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />是其中插入新的对象集合中对象的属性值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-117">Either a one-based index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> property value of an object in the collection where the new object is to be inserted.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="54548-118">创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.ViewField" />对象，并将其插入中指定索引处<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-118">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="54548-119">表示新视图字段的 <b>ViewField</b> 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-119">A <b>ViewField</b> object that represents the new view field.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewField this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewField Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ViewFields.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As ViewField" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewField ^ default[System::Object ^] { Microsoft::Office::Interop::Outlook::ViewField ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewField</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="54548-120">值可以是索引中的<b>ViewField</b>对象的基于一的整数<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />集合、 字符串匹配的<see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />的集合或在字段选择器中显示的字段名称中的<b>ViewField</b>对象的属性值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-120">The value  can be a one-based integer that indexes an <b>ViewField</b> object in the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection, a string that matches the <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> property value of an <b>ViewField</b> object in the collection, or a field name as displayed in the Field Chooser.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="54548-121">返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewField" />对象的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-121">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> object from the collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="54548-122">
+            <b>ViewField</b> 对象，该对象代表指定的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-122">A <b>ViewField</b> object that represents the specified object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ViewFields.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="54548-p106">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._ViewFields.Remove(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(82)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="54548-125">该对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />集合中对象的属性值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-125">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> property value of an object in the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="54548-126">从集合中删除对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-126">Removes an object from the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ViewFields.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="54548-127">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-127">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="54548-128">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-128">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="54548-129">
+            <para>
+              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54548-129">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,882 @@
+<Type Name="Attachment" FullName="Microsoft.Office.Interop.Outlook.Attachment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bca3de4ee3e1766193a9380a2d4dcee5344f4ba1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631744" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Attachment" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachment" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachment" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Attachment" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Attachment" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063007-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="e5fc0-101">代表 Outlook 项目中包含的文档或文档链接。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e5fc0-101">Represents a document or link to a document contained in an Outlook item.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="e5fc0-102">
+        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是返回单个<b>Attachment</b>对象的索引号。</para>
+        <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />方法，以向项目添加附件。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e5fc0-102">
+          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number, to return a single <b>Attachment</b> object.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />  method to add an attachment to an item.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-103">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="e5fc0-104">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel BlockLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel BlockLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.BlockLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BlockLevel As OlAttachmentBlockLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAttachmentBlockLevel BlockLevel { Microsoft::Office::Interop::Outlook::OlAttachmentBlockLevel get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64536)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" />常量，指定是否有任何限制基于文件扩展名的附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constant that specifies if there is any restriction on the attachment based on its file extension.</span>
+          </span>
+          <span data-ttu-id="e5fc0-106">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e5fc0-107">
+            <para>此属性的此值反映附件被阻止基于文件扩展名和如何附件安全设置客户端计算机上。在 Outlook 中的附件安全性的详细信息，请参阅 Office 资源工具包网站。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-107">
+              <para>This value of this property reflects whether an attachment is blocked based on its file extension and how attachment security has been set up on the client computer. For more information on attachment security in Outlook, see the Office Resource Kit Web site.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="e5fc0-109">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-109">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Attachment.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-110">从集合中删除一个对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-110">Deletes an object from the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-111">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示不必是实际的文件名称，表示嵌入的附件的图标下面显示的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-111">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name, which does not need to be the actual file name, displayed below the icon representing the embedded attachment.</span>
+          </span>
+          <span data-ttu-id="e5fc0-112">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-112">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e5fc0-113">
+            <para>此属性对应于 MAPI 属性<b>PidTagDisplayName</b>。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-113">
+              <para>This property corresponds to the MAPI property <b>PidTagDisplayName</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14084)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14084)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-114">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示附件的文件名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-114">Returns a <b>String</b> (<b>string</b> in C#) representing the file name of the attachment.</span>
+          </span>
+          <span data-ttu-id="e5fc0-115">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-115">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e5fc0-116">
+            <para>将此属性中结合使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-116">
+              <para>Use this property in conjunction with the <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />  property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTemporaryFilePath">
+      <MemberSignature Language="C#" Value="public string GetTemporaryFilePath ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetTemporaryFilePath() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Attachment.GetTemporaryFilePath" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTemporaryFilePath () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetTemporaryFilePath();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64634)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-117">返回在临时文件的文件夹中的附加文件的完整路径。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-117">Returns the full path to the attached file that is in a temporary-files folder.</span>
+          </span>
+          <span data-ttu-id="e5fc0-118">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-118">Read-only.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="e5fc0-119">返回<see cref="T:System.String" />的表示临时附件文件的完整路径。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-119">Returns a <see cref="T:System.String" /> that represents the full path to the temporary attachment file.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="e5fc0-120">
+            <para>其， <b>GetTemporaryFilePath</b>方法才有效的这些附件<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" />属性是<see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />。这意味着附件是一个副本，即使删除原始文件后，可以访问该副本。对于其他附件类型， <b>GetTemporaryFilePath</b>方法将返回错误。</para>
+            <para>
+              <b>GetTemporaryFilePath</b>也将返回错误时访问<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象在<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />集合或在<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />对象。仅在附件事件回调使用<b>GetTemporaryFilePath</b>下面列出的各种 Microsoft Outlook 项目：</para>
+            <list type="bullet">
+              <item>
+                <para>
+                  <b>AttachmentAdd</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>AttachmentRead</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>AttachmentRemove</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>BeforeAttachmentAdd</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>BeforeAttachmentPreview</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>BeforeAttachmentRead</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>BeforeAttachmentSave</b>
+                </para>
+              </item>
+              <item>
+                <para>
+                  <b>BeforeAttachmentWriteToTempFile</b>
+                </para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-120">
+              <para>The <b>GetTemporaryFilePath</b> method is only valid for those attachments whose <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> property is <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />. That means that the attachment is a copy and that the copy can be accessed even if the original file is removed. For other attachment types, the <b>GetTemporaryFilePath</b> method returns an error. </para>
+              <para>
+                <b>GetTemporaryFilePath</b> also returns an error when accessing an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object in an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection or in the <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object. Use <b>GetTemporaryFilePath</b> only in attachment event callbacks listed below for various Microsoft Outlook items:</para>
+              <list type="bullet">
+                <item>
+                  <para>
+                    <b>AttachmentAdd</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>AttachmentRead</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>AttachmentRemove</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>BeforeAttachmentAdd</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>BeforeAttachmentPreview</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>BeforeAttachmentRead</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>BeforeAttachmentSave</b>
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <b>BeforeAttachmentWriteToTempFile</b>
+                  </para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(91)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(91)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-121">返回指示集合中对象的位置的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-121">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the object within the collection.</span>
+          </span>
+          <span data-ttu-id="e5fc0-122">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-122">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e5fc0-123">
+            <para>
+              <b>Index</b>属性仅在当前会话中有效，并且在可以更改对象添加到和从集合中删除。集合中的第一个对象的<b>索引</b>值为 1。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-123">
+              <para>The <b>Index</b> property is only valid during the current session and can change as objects are added to and deleted from the collection. The first object in the collection has an <b>Index</b> value of 1.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPIOBJECT">
+      <MemberSignature Language="C#" Value="public object MAPIOBJECT { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MAPIOBJECT" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.MAPIOBJECT" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MAPIOBJECT As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MAPIOBJECT { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-124">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-124">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-p108">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-p108">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PathName">
+      <MemberSignature Language="C#" Value="public string PathName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PathName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PathName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PathName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14088)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-127">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示链接的完整路径附加文件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-127">Returns a <b>String</b> (<b>string</b> in C#) representing the full path to the linked attached file.</span>
+          </span>
+          <span data-ttu-id="e5fc0-128">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-128">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e5fc0-129">
+            <para>此属性才有效对链接的文件。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-129">
+              <para>This property is only valid for linked files.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public int Position { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Position" />
+      <MemberSignature Language="VB.NET" Value="Public Property Position As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Position { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-130">返回或设置指示附件在项目的正文中的位置的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-130">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the attachment within the body of the item.</span>
+          </span>
+          <span data-ttu-id="e5fc0-131">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-131">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e5fc0-132">
+            <para>
+              <b>Position</b>属性仅适用于项目的正文格式其中是多文本 (RTF) 附件。如果的正文格式不是 RTF， <b>Position</b>属性将被忽略的一组操作和 get 操作始终返回零 (0)。</para>如果您会将<b>Position</b>属性设置为 0 项目正文的格式其中
+          <para>为 RTF、 附件将隐藏 Outlook 的用户界面中。附件不可见在视图中，且用户无法删除项目的正文的附件。附件仍可以通过访问<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />的项的集合。</para><para>允许编程式设置 BodyFormat 属性的唯一项是<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。默认情况下，其他项目类型，如约会、 联系人和任务是 RTF。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-132">
+              <para>The <b>Position</b> property only works on an attachment for an item where the body format is Rich Text (RTF). If the body format is not RTF, the <b>Position</b> property is ignored for a set operation and always returns zero (0) for a get operation.</para>
+              <para>If you set the <b>Position</b> property to 0 for an item where the body format is RTF, the attachment will be hidden in Outlook's user interface. The attachment is not visible in a view, and the user cannot remove the attachment from the body of the item. The attachment can still be accessed through the <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection on the item.</para>
+              <para>The only item that allows programmatic setting of the BodyFormat property is a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Other item types such as Appointment, Contact, and Task are RTF by default. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-133">返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-133">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span>
+          </span>
+          <span data-ttu-id="e5fc0-134">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-134">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsFile">
+      <MemberSignature Language="C#" Value="public void SaveAsFile (string Path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveAsFile([in]string Path) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Attachment.SaveAsFile(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveAsFile (Path As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SaveAsFile(System::String ^ Path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Path">
+          <span data-ttu-id="e5fc0-135">附件保存到的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-135">The location at which to save the attachment.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e5fc0-136">将附件保存到指定的路径。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-136">Saves the attachment to the specified path.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-137">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-137">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="e5fc0-138">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-138">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e5fc0-139">
+            <para>
+              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-139">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64489)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64489)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-140">返回指示附件的大小 （以字节为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-140">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the attachment.</span>
+          </span>
+          <span data-ttu-id="e5fc0-141">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-141">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e5fc0-142">
+            <para>此信息可能始终不可用的附件。 例如，对 S/MIME 邮件，实际附件大小是未知直到提取附件。在其中附件大小不能确定的情况下，此属性返回 0。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-142">
+              <para>This information may not always be available for attachments.  For example, on an S/MIME message, the actual attachment sizes are unknown until the attachment is extracted. In cases where the attachment size cannot be determined, this property returns 0.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAttachmentType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAttachmentType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As OlAttachmentType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAttachmentType Type { Microsoft::Office::Interop::Outlook::OlAttachmentType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14085)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14085)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e5fc0-143">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" />常量，指示指定的对象的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-143">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constant indicating the type of the specified object.</span>
+          </span>
+          <span data-ttu-id="e5fc0-144">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e5fc0-144">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

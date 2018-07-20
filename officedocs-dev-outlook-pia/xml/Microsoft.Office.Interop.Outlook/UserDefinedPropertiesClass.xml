@@ -1,0 +1,549 @@
+<Type Name="UserDefinedPropertiesClass" FullName="Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="89e9a256da81f1c451f2d618900ab97b22933daf" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632212" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UserDefinedPropertiesClass : Microsoft.Office.Interop.Outlook.UserDefinedProperties, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi UserDefinedPropertiesClass extends System.Object implements class Microsoft.Office.Interop.Outlook._UserDefinedProperties, class Microsoft.Office.Interop.Outlook.UserDefinedProperties, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserDefinedPropertiesClass&#xA;Implements IEnumerable, UserDefinedProperties" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserDefinedPropertiesClass : Microsoft::Office::Interop::Outlook::UserDefinedProperties, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.UserDefinedProperties</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00061047-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="f7644-101">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f7644-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="f7644-102">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f7644-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="f7644-103">否则，使用.NET 接口派生 COM coclass。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f7644-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="f7644-104">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f7644-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.UserDefinedProperty Add (string Name, Microsoft.Office.Interop.Outlook.OlUserPropertyType Type, object DisplayFormat, object Formula);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.UserDefinedProperty Add([in]string Name, [in]valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType Type, [in]object DisplayFormat, [in]object Formula) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (Name As String, Type As OlUserPropertyType, Optional DisplayFormat As Object, Optional Formula As Object) As UserDefinedProperty" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserDefinedProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Type" Type="Microsoft.Office.Interop.Outlook.OlUserPropertyType" />
+        <Parameter Name="DisplayFormat" Type="System.Object" />
+        <Parameter Name="Formula" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="Type">To be added.</param>
+        <param name="DisplayFormat">To be added.</param>
+        <param name="Formula">To be added.</param>
+        <summary>
+          <span data-ttu-id="f7644-105">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-105">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-106">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-106">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-107">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-107">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-108">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-108">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f7644-109">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-109">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-110">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-110">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-111">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-111">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-112">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-112">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f7644-113">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-113">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-114">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-114">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-115">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-115">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-116">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-116">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public virtual int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f7644-117">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-117">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-118">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-118">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-119">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-119">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-120">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-120">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.UserDefinedProperty Find (string Name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.UserDefinedProperty Find([in]string Name) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Find (Name As String) As UserDefinedProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::UserDefinedProperty ^ Find(System::String ^ Name) = Microsoft::Office::Interop::Outlook::_UserDefinedProperties::Find;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Find(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserDefinedProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <summary>
+          <span data-ttu-id="f7644-121">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-121">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-122">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-122">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-123">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-123">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-124">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-124">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.UserDefinedProperty this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.UserDefinedProperty Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Item(Index As Object) As UserDefinedProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::UserDefinedProperty ^ default[System::Object ^] { Microsoft::Office::Interop::Outlook::UserDefinedProperty ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Item(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserDefinedProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>
+          <span data-ttu-id="f7644-125">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-125">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-126">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-126">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-127">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-127">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-128">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-128">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f7644-129">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-129">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-130">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-130">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-131">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-131">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-132">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-132">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Refresh">
+      <MemberSignature Language="C#" Value="public virtual void Refresh ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Refresh() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Refresh" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Refresh ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Refresh() = Microsoft::Office::Interop::Outlook::_UserDefinedProperties::Refresh;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Refresh</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64069)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f7644-133">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-133">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-134">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-134">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-135">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-135">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-136">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-136">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public virtual void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Remove (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Remove(int Index) = Microsoft::Office::Interop::Outlook::_UserDefinedProperties::Remove;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Remove(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(82)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>
+          <span data-ttu-id="f7644-137">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-137">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-138">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-138">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-139">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-139">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-140">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-140">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f7644-141">这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-141">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="f7644-142">仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-142">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="f7644-143">否则，使用.NET 接口派生 COM coclass。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-143">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="f7644-144">有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f7644-144">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,116 @@
+<Type Name="OlWindowState" FullName="Microsoft.Office.Interop.Outlook.OlWindowState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="afd1780309129eb9da2d330d91a75f6b2e43946e" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632098" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlWindowState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlWindowState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlWindowState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlWindowState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlWindowState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="84aa7-101">指示窗口状态。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="84aa7-101">Indicates the window state.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="84aa7-102">
+        <para>由<b>Inspector</b>和<b>Explorer</b>对象的<b>WindowState</b>属性。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="84aa7-102">
+          <para>Used by the <b>WindowState</b> property of <b>Inspector</b> and <b>Explorer</b> objects.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olMaximized">
+      <MemberSignature Language="C#" Value="olMaximized" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlWindowState olMaximized = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlWindowState.olMaximized" />
+      <MemberSignature Language="VB.NET" Value="olMaximized" />
+      <MemberSignature Language="C++ CLI" Value="olMaximized" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="84aa7-103">窗口已最大化。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84aa7-103">The window is maximized.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMinimized">
+      <MemberSignature Language="C#" Value="olMinimized" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlWindowState olMinimized = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlWindowState.olMinimized" />
+      <MemberSignature Language="VB.NET" Value="olMinimized" />
+      <MemberSignature Language="C++ CLI" Value="olMinimized" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="84aa7-104">窗口已最小化。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84aa7-104">The window is minimized.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olNormalWindow">
+      <MemberSignature Language="C#" Value="olNormalWindow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlWindowState olNormalWindow = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlWindowState.olNormalWindow" />
+      <MemberSignature Language="VB.NET" Value="olNormalWindow" />
+      <MemberSignature Language="C++ CLI" Value="olNormalWindow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="84aa7-105">窗口处于普通状态（既不最小化也不最大化）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84aa7-105">The window is in the normal state (not minimized or maximized).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

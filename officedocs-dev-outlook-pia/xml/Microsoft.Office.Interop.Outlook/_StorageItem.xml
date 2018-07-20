@@ -1,0 +1,782 @@
+<Type Name="_StorageItem" FullName="Microsoft.Office.Interop.Outlook._StorageItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dd3a237c41ec2b485800536418f96d03f99ca232" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20632755" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _StorageItem" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _StorageItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._StorageItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _StorageItem" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _StorageItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CB-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="892f8-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="892f8-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="892f8-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="892f8-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="892f8-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="892f8-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="892f8-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="892f8-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="892f8-106">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Attachments Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Attachments Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As Attachments" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Attachments ^ Attachments { Microsoft::Office::Interop::Outlook::Attachments ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63509)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />对象，表示为指定的项的所有附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  object that represents all the attachments for the specified item.</span>
+          </span>
+          <span data-ttu-id="892f8-108">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public string Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Body { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-109">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的纯文本正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-109">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the clear-text body of the Outlook item.</span>
+          </span>
+          <span data-ttu-id="892f8-110">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-110">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="892f8-111">
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象仅支持文本格式的项目正文。它们不支持 HTML 或 RTF 正文流。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-111">
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> objects only support the item body in text format. They  do not support HTML or RTF body streams.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="892f8-113">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-113">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="public DateTime CreationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreationTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12295)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12295)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-114">返回一个指示的创建时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-114">Returns a <b>DateTime</b> value that indicates the creation time for the <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span>
+          </span>
+          <span data-ttu-id="892f8-115">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-115">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public string Creator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Creator As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Creator { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34236)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34236)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34236)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-116">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表创建的解决方案<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-116">Returns and sets a <b>String</b> (<b>string</b> in C#) that represents the solution that created the <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> object.</span>
+          </span>
+          <span data-ttu-id="892f8-117">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-117">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="892f8-118">
+            <para>Outlook 不会设置<b>Creator</b>属性。<b>Creator</b>属性用于确定您已为加载项创建的<b>StorageItem</b>对象。此属性的一个推荐的值为的外接程序的编程标识符 (<b>ProgID</b>)。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-118">
+              <para>Outlook does not set the <b>Creator</b> property. Use the <b>Creator</b> property to identify the <b>StorageItem</b> objects you have created for your add-in. One recommended value for this property is the programmatic identifier (<b>ProgID</b>) of the add-in. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._StorageItem.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-119">永久删除<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象的父文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-119">Permanently removes the <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> object from the parent folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="892f8-120">
+            <para>此呼叫允许清理或重置为其私有数据存储的解决方案。如果试图删除已由以前的<b>StorageItem.Delete</b><b>StorageItem</b>呼叫将导致错误"无法完成删除"。 </para>
+            <para>有关删除<b>StorageItem</b>对象中存储的解决方案数据的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87948">更新和删除解决方案存储区</a></para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-120">
+              <para>This call allows a solution to clean up or reset the storage for its private data. Attempting to delete a <b>StorageItem</b> that has been removed by a prior <b>StorageItem.Delete</b> call will result in the error, "Could not complete the deletion."  </para>
+              <para>For more information on deleting solution data stored in a <b>StorageItem</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87948">Updating and Deleting Solution Storage</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntryID">
+      <MemberSignature Language="C#" Value="public string EntryID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EntryID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntryID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EntryID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-121">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-121">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span>
+          </span>
+          <span data-ttu-id="892f8-122">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-122">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="892f8-123">
+            <para>EntryID 是标识的三种方式之一<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetStorage(System.String,Microsoft.Office.Interop.Outlook.OlStorageIdentifierType)" />。</para>
+            <para>此属性对应于 MAPI 属性<b>PidTagEntryId</b>。</para>在存储中创建项时， 
+          <para>MAPI 存储提供程序分配的唯一 ID 字符串。因此， <b>EntryID</b>属性未设置为 Outlook 项目之前保存或发送。将项目移动到另一个存储区，例如，从收件箱到 Microsoft Exchange Server 公用文件夹，或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件时条目 ID 的更改。解决方案应不依赖<b>EntryID</b>属性来保持唯一性，除非项目将不会移动。<b>EntryID</b>属性返回一个 MAPI 长期条目 id。有关详细信息有关 long-和 short-term Entryid，搜索http://msdn.microsoft.com的<b>PidTagEntryId</b>。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-123">
+              <para>The EntryID is one of the three means to identify a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> object using <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetStorage(System.String,Microsoft.Office.Interop.Outlook.OlStorageIdentifierType)" />.</para>
+              <para>This property corresponds to the MAPI property <b>PidTagEntryId</b>.</para>
+              <para>A MAPI store provider assigns a unique ID string when an item is created in its store. Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent. The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file. Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved. The <b>EntryID</b> property returns a MAPI long-term Entry ID. For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModificationTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModificationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModificationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.LastModificationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModificationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModificationTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12296)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12296)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-124">返回指定的日期和时间的 Outlook 项目的上次修改 <b>日期时间</b> 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-124">Returns a <b>DateTime</b> value specifying the date and time that the Outlook item was last modified.</span>
+          </span>
+          <span data-ttu-id="892f8-125">只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-125">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="892f8-126">
+            <para>此属性对应于 MAPI 属性<b>PidTagLastModificationTime</b>。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-126">
+              <para>This property corresponds to the MAPI property <b>PidTagLastModificationTime</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-p110">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="892f8-129">
+            <para>
+              <b>StorageItem</b>对象的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-129">
+              <para>The parent of the <b>StorageItem</b> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-130">返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-130">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> object.</span>
+          </span>
+          <span data-ttu-id="892f8-131">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-131">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-132">保存<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-132">Saves the <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="892f8-133">
+            <para>如果<b>StorageItem</b>以前从未保存过，<b>保存</b>将项目保存为中的隐藏项<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />在其上<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetStorage(System.String,Microsoft.Office.Interop.Outlook.OlStorageIdentifierType)" />调用。如果先前已保存<b>StorageItem</b>和项目具有相已更改，<b></b>保存到项目的更改。如果先前已保存<b>StorageItem</b>和项目尚未更改从那时起， <b>Save</b>方法不起作用。</para>
+            <para>有关详细信息保存到<b>StorageItem</b>对象，解决方案数据，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87949">Creating and 将数据保存到解决方案存储区</a></para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-133">
+              <para>If the <b>StorageItem</b> has never been saved before, <b>Save</b> saves the item as a hidden item in the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> on which <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetStorage(System.String,Microsoft.Office.Interop.Outlook.OlStorageIdentifierType)" /> was called. If the <b>StorageItem</b> has been saved previously and the item has since been changed, <b>Save</b> saves the changes to the item. If the <b>StorageItem</b> has been saved previously and the item has not been changed since then, the <b>Save</b> method does nothing.</para>
+              <para>For more information on saving solution data to a <b>StorageItem</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87949">Creating and Saving Data to Solution Storage</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-134">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-134">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="892f8-135">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-135">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="892f8-136">
+            <para>如果没有已登录的会话，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+            <para>
+              <b>会话</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-136">
+              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3592)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3592)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-137">返回指示的大小 （以字节为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-137">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span>
+          </span>
+          <span data-ttu-id="892f8-138">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-138">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="892f8-139">
+            <para>新创建的<b>StorageItem</b>的<b>大小</b>上进行显式调用之前为零 (0)<see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" />项目的方法。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-139">
+              <para>The <b>Size</b> of a <b>StorageItem</b> that is newly created is zero (0) until you make an explicit call on the <see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" /> method of the item.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-140">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-140">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the subject for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="892f8-141">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-141">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="892f8-142">
+            <para>此属性对应于 MAPI 属性， <b>PidTagSubject</b>。<b>Subject</b>属性是 Outlook 项目的默认属性。</para>
+            <para>
+              <b>主题</b>充当的唯一标识符<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象。您应以确保对象是唯一的且不会被其他解决方案作者覆盖的方式设置主题。建议的做法是使用<b>ProgID</b>以及其他唯一文本来标识<b>StorageItem</b>。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-142">
+              <para>This property corresponds to the MAPI property, <b>PidTagSubject</b>. The <b>Subject</b> property is the default property for Outlook items. </para>
+              <para>The <b>Subject</b> serves as a unique identifier for <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> objects. You should set the subject in a way to ensure that the objects are unique and would not be overwritten by other solution writers. The recommended practice is to use a <b>ProgID</b> plus other unique text to identify the <b>StorageItem</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.UserProperties UserProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.UserProperties UserProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._StorageItem.UserProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserProperties As UserProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::UserProperties ^ UserProperties { Microsoft::Office::Interop::Outlook::UserProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63510)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63510)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="892f8-143">返回<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />代表 Outlook 项目的所有用户属性的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-143">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  collection that represents all the user properties for the Outlook item.</span>
+          </span>
+          <span data-ttu-id="892f8-144">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-144">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="892f8-145">
+            <para>如果您使用<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象相关联<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />，可选<paramref name="AddToFolderFields" />和<paramref name="DisplayFormat" /><b>UserProperties.Add</b>方法的参数将被忽略。不会为自定义属性在字段选择器公开的<b>StorageItem</b>对象的任何自定义属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="892f8-145">
+              <para>If you use the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method on the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object associated with a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />, the optional <paramref name="AddToFolderFields" /> and <paramref name="DisplayFormat" /> arguments of the <b>UserProperties.Add</b> method will be ignored. Any custom properties of the <b>StorageItem</b> object will not be exposed as custom properties in the Field Chooser.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
