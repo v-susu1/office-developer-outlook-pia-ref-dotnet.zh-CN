@@ -1,13 +1,5 @@
 <Type Name="_OlkCategory" FullName="Microsoft.Office.Interop.Outlook._OlkCategory">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632542" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCategory" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904152" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCategory" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCategory" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCategory" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCategory" />
@@ -56,13 +48,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的自动调整大小以显示完整的内容的控件。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的自动调整大小以显示完整的内容的控件。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的默认值为<b>True</b>。</para>
-          <para>除非内容会展开并且需要更多空间，此控件假定一行。 如果发生这种情况，该控件将增长显示内容和向下移动剩余的表单内容以腾出空间。</para>
-          <para />
-        </remarks>
+        <remarks><para>  此属性的默认值为 <b>True</b> 。</para>
+          <para>除非内容会展开并且需要更多空间，否则该控件只呈现一行。如果这种情况发生，该控件将增长以显示内容并将剩余的窗体内容下移以释放空间。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -94,12 +84,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x8000000F，"按钮图符。"</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。 此属性的默认值是 0x8000000F，"按钮表面"。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -128,12 +116,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBackStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />更改之间透明和不透明的控件的背景样式的常量。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />更改之间透明和不透明的控件的背景样式的常量。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olBackStyleOpaque</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olBackStyleOpaque</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -162,12 +148,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -199,12 +183,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x80000008，"窗口文本"。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。 此属性的默认值是 0x80000008，"窗口型"。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -235,10 +217,8 @@
       <Docs>
         <summary>返回或设置 <b>StdPicture</b> 表示此控件的鼠标光标的自定义图片。读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -267,12 +247,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olMousePointerDefault</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olMousePointerDefault</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

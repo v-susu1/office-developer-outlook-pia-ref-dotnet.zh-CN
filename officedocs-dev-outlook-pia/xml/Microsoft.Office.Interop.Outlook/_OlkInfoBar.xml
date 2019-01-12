@@ -1,13 +1,5 @@
 <Type Name="_OlkInfoBar" FullName="Microsoft.Office.Interop.Outlook._OlkInfoBar">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="64d7ec659575e69ceafa9465ac11c50445d3f90f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631586" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkInfoBar" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="64d7ec659575e69ceafa9465ac11c50445d3f90f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904565" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkInfoBar" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkInfoBar" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkInfoBar" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkInfoBar" />
@@ -56,12 +48,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。 为可读/写属性。</summary>
+        <summary>返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -90,12 +80,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olMousePointerDefault</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olMousePointerDefault</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

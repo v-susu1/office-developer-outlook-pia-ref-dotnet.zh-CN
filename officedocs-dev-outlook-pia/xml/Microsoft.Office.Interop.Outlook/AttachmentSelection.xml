@@ -1,13 +1,5 @@
 <Type Name="AttachmentSelection" FullName="Microsoft.Office.Interop.Outlook.AttachmentSelection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="89d4cc40051887ef0752881948727d49c4a4034f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632794" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AttachmentSelection : Microsoft.Office.Interop.Outlook._AttachmentSelection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5df6fe2a5d806356f31002cd4706f333d2625a82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904397" /></Metadata><TypeSignature Language="C#" Value="public interface AttachmentSelection : Microsoft.Office.Interop.Outlook._AttachmentSelection" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AttachmentSelection implements class Microsoft.Office.Interop.Outlook._AttachmentSelection" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />
   <TypeSignature Language="VB.NET" Value="Public Interface AttachmentSelection&#xA;Implements _AttachmentSelection" />
@@ -31,13 +23,10 @@
   </Attributes>
   <Docs>
     <summary>包含一组<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象代表 Outlook 项目中的所选的附件。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._AttachmentSelection" />。</para>
-      <para>
-        <b>AttachmentSelection</b>对象包含附件的项目处于活动检查器或活动资源管理器中选定的只读集合。</para>
-      <para>若要使用 Microsoft Office Fluent 功能区扩展性自定义附件快捷菜单，使用<b>IRibbonControl</b>接口的<b>Context</b>属性来获取<b>AttachmentSelection</b>对象。</para>
-      <para />
-    </remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._AttachmentSelection" />。</para>
+      <para><b>AttachmentSelection</b> 对象包含附件选择在活动检查器或活动资源管理器中的项的只读集合。</para>
+      <para>使用 Microsoft Office Fluent 功能区扩展性自定义附件快捷菜单，请使用<b>IRibbonControl</b>接口的<b>Context</b>属性来获取<b>AttachmentSelection</b>对象。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

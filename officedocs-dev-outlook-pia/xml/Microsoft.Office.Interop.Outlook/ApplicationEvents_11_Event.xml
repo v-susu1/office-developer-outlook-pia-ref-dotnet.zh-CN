@@ -1,13 +1,5 @@
 <Type Name="ApplicationEvents_11_Event" FullName="Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0c3817e72f684595f4f26217d161e8043fe66e25" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632639" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ApplicationEvents_11_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="55baf69e8982426d3edf8948b4176446a076a71d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905685" /></Metadata><TypeSignature Language="C#" Value="public interface ApplicationEvents_11_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ApplicationEvents_11_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ApplicationEvents_11_Event" />
@@ -49,11 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>发生此事件时<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法已完成。</summary>
-        <remarks>
-          <para>
-            <b>AdvancedSearchComplete</b>事件用于返回<b>AdvancedSearch</b>方法创建的对象。以编程方式执行<b>AdvancedSearch</b>方法时，仅会触发此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>AdvancedSearchComplete</b> 事件用于返回由 <b>AdvancedSearch</b> 方法创建的对象。以编程方式执行 <b>AdvancedSearch</b> 方法时，只将激发此事件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AdvancedSearchStopped">
@@ -72,10 +61,8 @@
       </ReturnValue>
       <Docs>
         <summary>时发生指定<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象的<see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" />在执行方法。</summary>
-        <remarks>
-          <para>触发此事件时，该<b>搜索</b>对象后<see cref="T:Microsoft.Office.Interop.Outlook.Results" />集合将不再更新。只能以编程方式触发此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>触发此事件时，该<b>搜索</b>对象后<see cref="T:Microsoft.Office.Interop.Outlook.Results" />集合将不再更新。 此事件只能以编程方式触发。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AttachmentContextMenuDisplay">
@@ -113,10 +100,8 @@
       </ReturnValue>
       <Docs>
         <summary>显示共享对话框之前发生的所选<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。</summary>
-        <remarks>
-          <para>此事件提供外接程序通过替换 Outlook 提供的自定义用户界面的共享的用户界面的功能。 如果共享邮件以编程方式创建并显示，就不会发生此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>此事件使加载项能够将 Outlook 提供的用户界面替换为自定义的用户界面。如果共享邮件是以编程方式创建和显示的，则此事件不发生。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContextMenuClose">
@@ -192,27 +177,24 @@
       </ReturnValue>
       <Docs>
         <summary>在将 Outlook 项目加载到内存中时发生。</summary>
-        <remarks>
-          <para>开始加载到内存中的 Outlook 项目时发生此事件。项的数据尚不可用，之外的 Outlook 项目中，<b>类</b>和<b>MessageClass</b>属性的值以便为 Outlook 项目调用<b>类</b>或<b>MessageClass</b>之外的任何属性时出错返回在<paramref name="Item" />。同样，如果您尝试从 Outlook 项目，调用任何方法或出错如果您调用<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetObjectReference(System.Object,Microsoft.Office.Interop.Outlook.OlReferenceType)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象中返回的 Outlook 项目<paramref name="Item" />。</para>
-          <para>
-            <b>ItemLoad</b>事件通常应作为一种方法以便挂接项目级事件处理程序，如<b>BeforeRead</b>、<b>打开</b>、<b>发送</b>和<b>写入</b>。</para>
-          <para>会出现以下情况时，不会引发此事件：</para>
+        <remarks><para>Outlook 项目开始加载到内存时发生此事件。 项的数据尚不可用，之外的 Outlook 项目中，<b>类</b>和<b>MessageClass</b>属性的值以便为 Outlook 项目调用<b>类</b>或<b>MessageClass</b>之外的任何属性时出错返回在<paramref name="Item" />。 同样，如果您尝试从 Outlook 项目，调用任何方法或出错如果您调用<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetObjectReference(System.Object,Microsoft.Office.Interop.Outlook.OlReferenceType)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象中返回的 Outlook 项目<paramref name="Item" />。</para>
+          <para><b>ItemLoad</b>事件通常应作为一种挂钩项目级事件处理程序，如 <b>BeforeRead</b>、 <b>Open</b>、 <b>Send</b>和 <b>Write</b>的方法。</para>
+          <para>出现下列情况时不会引发此事件：</para>
           <list type="bullet">
             <item>
-              <para>与文件夹同步的 Outlook 项目。</para>
+              <para>某个 Outlook 项目与某个文件夹同步。</para>
             </item>
             <item>
-              <para>为 Outlook 项目触发服务器端规则。</para>
+              <para>为某个 Outlook 项目触发了服务器端规则。</para>
             </item>
             <item>
               <para>为某个 Outlook 项目触发了提醒。</para>
             </item>
             <item>
-              <para>为某个 Outlook 项目显示桌面通知。</para>
+              <para>为某个 Outlook 项目显示了桌面通知。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemSend">
@@ -269,12 +251,9 @@
       </ReturnValue>
       <Docs>
         <summary>当收件箱中收到一封或多封新电子邮件时发生。</summary>
-        <remarks>
-          <para>在收件箱中收到新邮件和规则处理客户端之前发生时，会触发<b>NewMail</b>事件。如果您想要处理进入收件箱中的项目，请考虑使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemAdd" />上的收件箱中的项目集合的事件。<b>ItemAdd</b>事件传递对添加到文件夹每个项目的引用。</para>
-          <para>
-            <b>NewMail</b>事件不会触发当用户处于脱机模式。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>NewMail</b> 事件触发，当新邮件到达收件箱时之前客户端, 规则处理。 如果您想要处理进入收件箱中的项目，请考虑使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemAdd" />上的收件箱中的项目集合的事件。 该 <b>ItemAdd</b> 事件传递的引用添加到文件夹中的每一项。</para>
+          <para><b>NewMail</b> 事件不会触发用户处于脱机模式时。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NewMailEx">
@@ -293,15 +272,12 @@
       </ReturnValue>
       <Docs>
         <summary>在"收件箱"中收到新项目时发生此事件。</summary>
-        <remarks>
-          <para>为每个已接收项目的处理 outlook 后，会触发此事件。项目可以几个不同项目类型之一，例如， <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />，或<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。<paramref name="EntryIDsCollection" />字符串包含对应于该项目的条目 ID。请注意，此行为已从早期版本的事件时<paramref name="EntryIDCollection" />包含逗号分隔的所有触发自上次事件在收件箱中收到的项目的条目 Id 的列表。</para>
-          <para>提供接收的消息，如 Microsoft Exchange Server 和 POP3 帐户的通知的电子邮件帐户会触发此事件。</para>
-          <para>
-            <b>NewMailEx</b>事件触发时在收件箱中收到新邮件和处理客户端规则之前发生。您可以使用返回中的条目 ID<paramref name="EntryIDCollection" />数组呼叫<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" />方法和处理项目。谨慎使用此方法，以减少对 Outlook 性能的影响。但是，具体取决于客户端上安装计算机，新邮件收件箱，到达后处理类似垃圾邮件筛选并将新邮件从收件箱移动到另一个文件夹的客户端规则可能发生异步。不应假定触发这些事件后，将始终获取增加了一个项目中的收件箱中的项目数。</para>
-          <para>对于使用 Exchange Server 帐户 （非缓存 Exchange 模式或缓存 Exchange 模式） 的用户，只对到达服务器，启动 Outlook 后的消息，会触发事件。该事件不会触发的在 Outlook 启动后立即缓存 Exchange 模式下同步的邮件或在 Outlook 启动非缓存 Exchange 模式时，已为服务器上的邮件。</para>
-          <para>中的所有设置事件触发提供 Outlook 运行收到邮件时使用缓存 Exchange 模式的用户，： 下载整个项目、 下载邮件头，并下载邮件头，然后整个项目。</para>
-          <para />
-        </remarks>
+        <remarks><para>为每个已接收项目的处理 outlook 后，会触发此事件。 项目可以几个不同项目类型之一，例如， <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />，或<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 <paramref name="EntryIDsCollection" />字符串包含对应于该项目的条目 ID。 请注意，此行为已从早期版本的事件时<paramref name="EntryIDCollection" />包含逗号分隔的所有触发自上次事件在收件箱中收到的项目的条目 Id 的列表。</para>
+          <para>对于收到的邮件提供通知的电子邮件帐户（例如 Microsoft Exchange Server 和 POP3 帐户），将为其触发此事件。</para>
+          <para><b>NewMailEx</b> 事件时触发新邮件到达收件箱并在客户端规则之前进行处理。 您可以使用返回中的条目 ID<paramref name="EntryIDCollection" />数组呼叫<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" />方法和处理项目。 使用此方法时要格外小心，Outlook 的性能影响降至最低。 但是，这取决于客户端上安装计算机，新邮件到达收件箱之后, 处理像垃圾邮件过滤，将新邮件从收件箱移动到另一个文件夹的客户端规则可以将会异步发生。 不应假定，这些事件会触发后，始终会有一项增加在收件箱中的项目数。</para>
+          <para>对于使用 Exchange Server 帐户 （非缓存 Exchange 模式或缓存 Exchange 模式） 的用户的消息到达服务器，启动 Outlook 后才会触发事件。 该事件不会触发的邮件的缓存 Exchange 模式下后会立即同步启动 Outlook，或在 Outlook 启动非缓存 Exchange 模式时，已为服务器上的邮件。</para>
+          <para>对于使用缓存 Exchange 模式用户，在所有设置事件触发提供 Outlook 运行收到邮件时： 下载整个项目、 下载邮件头，并下载邮件头，然后整个项目。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OptionsPagesAdd">
@@ -320,10 +296,8 @@
       </ReturnValue>
       <Docs>
         <summary>只要用户单击 Outlook 的选项对话框的加载项选项卡上的加载选项按钮，此事件就发生。</summary>
-        <remarks>
-          <para>您的程序处理此事件中添加自定义属性页面。属性页将添加到选项对话框。标识的<b>PropertyPages</b>集合对象时，将触发事件，<paramref name="Pages" />包含在事件处理程序调用之前已添加的属性页。若要添加到集合的属性页，请使用<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /><b>PropertyPages</b>集合之前退出事件处理程序方法。</para>
-          <para />
-        </remarks>
+        <remarks><para>您的程序处理该事件以添加自定义属性页。 属性页将添加到 选项对话框中。 标识的<b>PropertyPages</b>集合对象时，将触发事件，<paramref name="Pages" />包含在事件处理程序调用之前已添加的属性页。 若要添加到集合的属性页，请使用<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /> <b>PropertyPages</b>集合之前退出事件处理程序方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Quit">
@@ -399,10 +373,8 @@
       </ReturnValue>
       <Docs>
         <summary>在 Microsoft Outlook 启动时并且在所有加载项程序加载后发生。</summary>
-        <remarks>
-          <para>Outlook Visual Basic for Applications (VBA) 宏可以使用此事件过程初始化自身 Outlook 启动时。</para>
-          <para />
-        </remarks>
+        <remarks><para>Outlook Visual Basic for Applications (VBA) 宏可以使用此事件过程初始化自身 Outlook 启动时。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreContextMenuDisplay">

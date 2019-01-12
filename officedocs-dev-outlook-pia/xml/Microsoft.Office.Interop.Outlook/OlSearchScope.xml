@@ -1,13 +1,5 @@
 <Type Name="OlSearchScope" FullName="Microsoft.Office.Interop.Outlook.OlSearchScope">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5bf874a2f107891f654d5c42c74f87e291457f1b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631426" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlSearchScope" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6e37dca2d95b84fa85e86240986f903d21b6057e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904208" /></Metadata><TypeSignature Language="C#" Value="public enum OlSearchScope" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlSearchScope extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlSearchScope" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlSearchScope" />
@@ -21,11 +13,9 @@
   </Base>
   <Docs>
     <summary>从文件夹的角度指定搜索范围。</summary>
-    <remarks>
-      <para>您可以选择要通过单击 Microsoft Office Fluent 功能区中的搜索上下文选项卡的选项组中的搜索工具搜索中搜索菜单的位置的存储。</para>
-      <para>默认情况下，搜索不包含已删除邮件文件夹。搜索已删除邮件文件夹，将该文件夹设置为您当前文件夹并通过搜索<see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />。</para>
-      <para />
-    </remarks>
+    <remarks><para>单击 Microsoft Office Fluent 功能区中 "搜索"上下文选项卡 "选项"组中的 "搜索工具"，在 "要搜索的位置"菜单中选择要搜索的存储区。</para>
+      <para>默认情况下，搜索不包括"已删除邮件"文件夹。 搜索已删除邮件文件夹，将该文件夹设置为您当前文件夹并通过搜索<see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olSearchScopeAllFolders">

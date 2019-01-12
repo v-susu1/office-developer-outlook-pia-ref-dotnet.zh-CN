@@ -1,13 +1,5 @@
 <Type Name="_Column" FullName="Microsoft.Office.Interop.Outlook._Column">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="adbe9af5926d15b27b9c5b30432c3473b39e888c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631602" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Column" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="adbe9af5926d15b27b9c5b30432c3473b39e888c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905419" /></Metadata><TypeSignature Language="C#" Value="public interface _Column" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Column" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Column" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Column" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.Column" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.Column" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.Column" />对象。 只读。</summary>
+        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.Column" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,15 +101,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。 只读。</summary>
+        <summary>返回一个代表的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Name</b>属性是<b>Column</b>对象的默认成员。</para>
-          <para>
-            <b>列</b>中的默认列是否<see cref="T:Microsoft.Office.Interop.Outlook.Table" />，或如果它已添加到<b>表</b>显式内置属性名，<b>名称</b>的值为 （不带任何封闭方括号） 的显式内置名称属性。<b>列</b>已添加到<b>表</b>与引用命名空间的属性名称，如果<b>名称</b>的值将是通过命名空间引用的属性名称。 通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
-          <para />
-        </remarks>
+        <remarks><para><b>Name</b> 属性是 <b>列</b> 对象的默认成员。</para>
+          <para><b>列</b>是否中的默认列<see cref="T:Microsoft.Office.Interop.Outlook.Table" />，或者如果它已添加到<b>表</b>显式内置属性名，<b>名称</b>的值为显式的内置名称 （不带任何封闭方括号） 的属性。 如果属性名引用的命名空间与已将 <b>列</b> 添加到 <b>表</b> ， <b>名称</b> 的值将通过命名空间引用的属性名。  通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -143,7 +131,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回父<b>对象</b>的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />对象。 只读。</summary>
+        <summary>返回父<b>对象</b>的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,19 +159,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

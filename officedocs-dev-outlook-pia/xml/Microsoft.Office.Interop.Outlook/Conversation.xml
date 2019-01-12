@@ -1,13 +1,5 @@
 <Type Name="Conversation" FullName="Microsoft.Office.Interop.Outlook.Conversation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0025327e68611f20324db4c8310969d994238428" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633087" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Conversation : Microsoft.Office.Interop.Outlook._Conversation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0d425ab7d89897ccc2721f6cce02af3eb6781d6f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905195" /></Metadata><TypeSignature Language="C#" Value="public interface Conversation : Microsoft.Office.Interop.Outlook._Conversation" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conversation implements class Microsoft.Office.Interop.Outlook._Conversation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conversation" />
   <TypeSignature Language="VB.NET" Value="Public Interface Conversation&#xA;Implements _Conversation" />
@@ -31,16 +23,13 @@
   </Attributes>
   <Docs>
     <summary>代表包含一个或多个文件夹和存储中所存储的一个或多个项目的会话。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Conversation" />。</para>
-      <para>
-        <b>对话</b>对象是抽象、 聚合对象。尽管对话可以包括不同类型的项， <b>Conversation</b>对象不对应于特定基础 MAPI IMessage: IMAPIProp 对象。</para>
-      <para>A 对话代表一个或多个文件夹和存储中的一个或多个项目。如果您将在对话中的项目移动到已删除邮件文件夹，并随后使用枚举对话<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetChildren(System.Object)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetRootItems" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetTable" />方法，该项目将不包括在返回的对象。</para>
-      <para>要获取现有对话的<b>Conversation</b>对象，请使用项目的<b>GetConversation</b>方法。</para>
-      <para>有可通过调用应用于对话中的项目的操作<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.Store)" />方法。每个这些操作时将应用于对话中的所有项目自动调用;只要操作是仍然适用于对话时，操作也被应用到会话中的未来项目。Save 方法上<b>Conversation</b>对象没有显式。</para>
-      <para>此外，当您向对话中的项目应用操作，请在相应事件发生。例如，<see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" />事件<see cref="T:Microsoft.Office.Interop.Outlook.Items" />调用<b>SetAlwaysAssignCategories</b>时，发生此事件对象和<see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" />事件<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />调用<b>SetAlwaysMoveToFolder</b>时，发生此事件对象。</para>
-      <para />
-    </remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Conversation" />。</para>
+      <para><b>对话</b> 是抽象、 聚合对象。 尽管对话可以包括不同类型的项， <b>Conversation</b>对象不对应于特定基础 MAPI IMessage: IMAPIProp 对象。</para>
+      <para>会话代表一个或多个文件夹和存储中的一个或多个项目。 如果您将在对话中的项目移动到已删除邮件文件夹，并随后使用枚举对话<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetChildren(System.Object)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetRootItems" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetTable" />方法，该项目将不包括在返回的对象。</para>
+      <para>若要获取当前对话的 <b>对话</b> 对象，使用 <b>GetConversation</b> 方法的项。</para>
+      <para>可通过调用应用于对话中的项目的操作<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.Store)" />方法。 每种操作时将应用于在此对话中的所有项自动调用此方法;此操作也适用于对话中的未来项目只要操作仍适用于对话。 没有任何显式保存在 <b>会话</b> 对象上的方法。</para>
+      <para>此外，到对话中的项目应用一个操作时，对应的事件发生。 例如，<see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" />事件<see cref="T:Microsoft.Office.Interop.Outlook.Items" />调用<b>SetAlwaysAssignCategories</b>时，发生此事件对象和<see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" />事件<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />调用<b>SetAlwaysMoveToFolder</b>时，发生此事件对象。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

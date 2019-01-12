@@ -1,13 +1,5 @@
 <Type Name="_FormRegionStartup" FullName="Microsoft.Office.Interop.Outlook._FormRegionStartup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b34bd4c4bdf22fffb31f02727f5872c4371b275f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633180" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FormRegionStartup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b34bd4c4bdf22fffb31f02727f5872c4371b275f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904579" /></Metadata><TypeSignature Language="C#" Value="public interface _FormRegionStartup" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegionStartup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegionStartup" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FormRegionStartup" />
@@ -54,12 +46,10 @@
       <Docs>
         <param name="FormRegion">表示要显示的窗体区域的 <b>FormRegion</b> 对象。</param>
         <summary>允许加载项在显示窗体区域之前先更新窗体区域的用户界面。</summary>
-        <remarks>
-          <para>此方法允许 Outlook 将<b>FormRegion</b>对象传递到该加载项，并允许外接程序更新窗体区域的用户界面以便，例如，可以更改的标签文本或可以取消无关内容显示之前。调用后控件进行实例化和计算的布局，但之前窗体区域变为可见。</para>
-          <para>实现此方法时，请记住，从获取的项目<paramref name="FormRegion" />参数 (即， <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" /><b>FormRegion</b>对象的属性) 是只读的。</para>
-          <para>的加载项 C# 和 Visual Basic.NET 来实现<b>FormRegionStartup</b>的示例，请参阅 MSDN 上的代码示例下载。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法允许 Outlook 将 <b>FormRegion</b> 对象传递到加载项，并允许外接程序以更新该窗体区域的用户界面，因此，例如，可以更改标签文本或者禁止显示不相关的内容显示它之前。后实例化控件和计算的布局，但之前该窗体区域将出现，并调用它。</para>
+          <para>实现此方法时，请记住，从获取的项目<paramref name="FormRegion" />参数 (即， <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" /> ， <b>FormRegion</b>对象的属性) 是只读的。</para>
+          <para>有关加载项 C# 和 Visual Basic.NET 中实现<b>FormRegionStartup</b>的示例，请参阅 MSDN 上的代码示例下载。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFormRegionIcon">
@@ -92,9 +82,11 @@
         <param name="Icon">一个标识图标类型的常量。</param>
         <summary>获取一个将为窗体区域的特定类型图标显示的图标图像。</summary>
         <returns>一个<b>对象</b>，它代表图像文件的原始字节的字节数组或一个<b>IPictureDisp</b>对象。</returns>
-        <remarks>
-          <para>此方法是应由外接程序来实现，并由 Outlook 调用。一部分<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />接口，此方法和<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" />方法提供一种机制，通过该外接程序可以注册窗体区域并提供 Outlook 的 XML 指令清单的图标与窗体区域。</para>如果您希望外接程序提供窗体区域的图标在 Windows 注册表中注册窗体区域时指定 ProgID 的外接程序， 
-          <para>。有关注册窗体区域的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87933">在 Windows 注册表中指定窗体区域</a><b>GetFormRegionManifest</b>和<b>FormRegionStartup</b>接口的<b>GetFormRegionIcon</b>方法。</para><para>中 XML 清单的窗体区域，在 icons 元素，指定您想要使用自定义图标的子元素的每个值外接程序。 实现<b>GetFormRegionIcon</b> ，以便当 Outlook 作为参数传入的图标的类型<paramref name="Icon" />， <b>GetFormRegionIcon</b>返回的自定义图标的图像。如果您希望 Outlook 显示的默认图标，实现<b>GetFormRegionIcon</b> ，以便返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 图标的类型。<b>GetFormRegionIcon</b>还应时返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）<paramref name="Icon" />是<b>olFormRegionIconDefault</b>。</para><para>当 Outlook 启动时，从 Windows 注册表中读取窗体区域的列表并将缓存与窗体区域关联的数据。如果窗体区域已注册 ProgID，Outlook 将通过调用来在 icons 元素的子元素的值与具有外接程序的 XML 指令清单中的任何图标<b>GetFormRegionIcon</b>其实现借助到相应的加载项中。请注意，是否您没有在 Windows 注册表中指定任何 ProgID，Outlook 将不调用<b>GetFormRegionManifest</b>和<b>GetFormRegionIcon</b>方法的调用。</para><para /></remarks>
+        <remarks><para>此方法应由加载项实现并由 Outlook 调用。 一部分<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />接口，此方法和<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" />方法提供一种机制，通过该外接程序可以注册窗体区域并提供 Outlook 的 XML 指令清单的图标与窗体区域。</para>
+          <para>如果您将外接程序来为窗体区域提供的图标，请指定的外接程序的 ProgID，当您在 Windows 注册表中注册窗体区域。 有关注册窗体区域的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87933">在 Windows 注册表中指定窗体区域</a><b>GetFormRegionManifest</b>和<b>FormRegionStartup</b>接口的<b>GetFormRegionIcon</b>方法。 </para>
+          <para>在 XML 清单中的窗体区域，在 icons 元素，指定您想要使用自定义图标的子元素的每个的值外接程序。  实现<b>GetFormRegionIcon</b> ，以便当 Outlook 作为参数传入的图标的类型<paramref name="Icon" />， <b>GetFormRegionIcon</b>返回的自定义图标的图像。 如果您希望 Outlook 显示的默认图标，实现<b>GetFormRegionIcon</b> ，以便返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 图标的类型。 <b>GetFormRegionIcon</b>还应时返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）<paramref name="Icon" />是<b>olFormRegionIconDefault</b>。</para>
+          <para> 当 Outlook 启动时，它从 Windows 注册表中读取窗体区域列表，并将与窗体区域相关联的数据存储在缓存中。如果窗体区域已经注册了 ProgID ，则对于 XML 清单中 icons 元素的子元素的值为 addin 的任何图标，Outlook 将通过调用其 <b>GetFormRegionIcon</b> 实现来使用相应的加载项。请注意，如果没有在 Windows 注册表中指定任何 ProgID，则 Outlook 不会调用 <b>GetFormRegionManifest</b> 和 <b>GetFormRegionIcon</b> 方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFormRegionManifest">
@@ -125,10 +117,26 @@
         <param name="LCID">标识 Outlook 当前使用的语言的区域设置 ID。此值用于获取与窗体区域的此语言相对应的本地化字符串。</param>
         <summary>获取窗体区域的 XML 清单。</summary>
         <returns>一个<b>对象</b>，表示窗体区域的 XML 清单。 此 XML 字符串包含窗体区域，如 （按照指定的 title 元素） 的显示名称、 任何相关的布局文件或加载项、 任何受支持的用户操作和任何本地化字符串的特征。 XML 必须按照窗体区域 XML 架构。 窗体区域 XML 架构的详细信息，请参阅<a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN 库</a>中 Microsoft Outlook 2010 XML 架构参考</returns>
-        <remarks>
-          <para>此方法是应由外接程序来实现，并由 Outlook 调用。一部分<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />接口，此方法和<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" />方法提供一种机制，通过该外接程序可以注册窗体区域并提供 Outlook 的 XML 指令清单和图标窗体区域。</para>如果您希望加载项提供 XML 清单窗体区域，在 Windows 注册表中注册窗体区域时指定 ProgID 的外接程序
-          <para>。有关注册窗体区域的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87933">在 Windows 注册表中指定窗体区域</a><b>GetFormRegionManifest</b>方法<b>FormRegionStartup</b>接口。请注意，是否您没有在 Windows 注册表中指定任何 ProgID，Outlook 将不调用此方法。</para><para>信赖上外接程序，以提供用于窗体区域的 XML 清单还意味着您已允许外接程序提供窗体区域的任何图标。外接程序还必须实现<b>FormRegionStartup</b>接口<b>GetFormRegionIcon</b> 。Outlook 将调用<b>GetFormRegionIcon</b>获取任何加载项指定的图标的窗体区域。使用外接程序来指定图标的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87934">如何： 使用窗体区域加载到指定的图标</a></para><para>当 Outlook 启动时，从 Windows 注册表中读取窗体区域的列表并缓存的数据。根据此数据，如果 Outlook 通知的外接程序已指定要为窗体区域中提供的 XML 指令清单，Outlook 将使用的缓存的数据和由获取此加载项实现的<b>GetFormRegionManifest</b>方法的调用中提供的 ProgID需要显示窗体区域 XML。如果 XML 指令清单无效，并且不符合窗体区域 XML 架构，Outlook 将不能加载窗体区域。此外，如果您没有在 Windows 注册表中指定任何 ProgID，Outlook 将不会调用<b>GetFormRegionManifest</b>和<b>GetFormRegionIcon</b>方法的调用。</para><para>当外接程序提供的 XML 清单时，outlook 会忽略以下元素：</para><list type="bullet"><item><para>名称： Outlook 忽略为此元素指定的值，将使用在注册表中为窗体区域指定的名称。</para></item><item><para>layoutFile： 由于加载项会扩展此窗体区域，Outlook 将忽略此元素。</para></item><item><para>addin: Outlook 使用注册表中前面带有等号 （=） 的值为 ProgID 的外接程序</para></item>stringOverride
-            <item><para>文件属性： Outlook 将忽略 stringOverride 元素所指定的任何辅助本地化文件。外接程序可以实现<b>GetFormRegionManifest</b>返回为指定的字符串本地化的 XML 清单的内嵌<paramref name="LCID" />，或管理本地化字符串中的另一种方法，例如，使用.NET Framework 本地化，然后返回相应的 XML 指令清单指定<paramref name="LCID" />。</para></item></list><para /></remarks>
+        <remarks><para>此方法应由加载项实现并由 Outlook 调用。 一部分<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />接口，此方法和<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" />方法提供一种机制，通过该外接程序可以注册窗体区域并提供 Outlook 的 XML 指令清单和图标窗体区域。</para>
+          <para>如果您希望外接程序提供一个窗体区域 XML 清单，指定 ProgID的外接程序，当您在 Windows 注册表中注册窗体区域。 有关注册窗体区域的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87933">在 Windows 注册表中指定窗体区域</a><b>GetFormRegionManifest</b>方法<b>FormRegionStartup</b>接口。 请注意，是否您在 Windows 注册表中未指定任何 ProgID ，Outlook 将不会调用此方法。</para>
+          <para>依靠外接程序提供一个窗体区域的 XML 清单也意味着您允许外接程序为该窗体区域提供的任何图标。 外接程序必须实现 <b>FormRegionStartup</b> 接口 <b>GetFormRegionIcon</b> 。 Outlook 将调用 <b>GetFormRegionIcon</b> 来获取任何外接程序中指定的图标的窗体区域。 使用外接程序来指定图标的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87934">如何： 使用窗体区域加载到指定的图标</a></para>
+          <para> 当 Outlook 启动时，它会从 Windows 注册表中读取列表中的窗体区域并缓存的数据。 根据此数据，如果 Outlook 通知的外接程序已指定要为窗体区域中提供的 XML 指令清单，Outlook 将使用缓存的数据中提供的 ProgID，并调用由获取此加载项实现<b>GetFormRegionManifest</b>方法需要显示窗体区域的 XML。 如果 XML 清单无效并且不符合窗体区域 XML 架构，Outlook 将不能加载窗体区域。 此外，如果您没有在 Windows 注册表中指定任何 ProgID，Outlook 将不会调用<b>GetFormRegionManifest</b>和<b>GetFormRegionIcon</b>方法。</para>
+          <para>当加载项提供 XML 清单时，Outlook 会忽略以下元素： </para>
+          <list type="bullet">
+            <item>
+              <para>名称： Outlook 忽略为此元素指定的值，将使用在注册表中为窗体区域指定的名称。</para>
+            </item>
+            <item>
+              <para>layoutFile ：由于加载项会扩展此窗体区域，因此 Outlook 将忽略此元素。</para>
+            </item>
+            <item>
+              <para>addin：Outlook 使用注册表中前面带有等号 (=) 的值作为加载项的 ProgID。</para>
+            </item>
+            <item>
+              <para>stringOverride 的 文件 属性: Outlook 忽略 stringOverride 元素所指定的任何辅助本地化文件。 外接程序可以实现<b>GetFormRegionManifest</b>返回为指定的字符串本地化的 XML 清单的内嵌<paramref name="LCID" />，或管理本地化字符串中的另一种方法，例如，使用.NET Framework 本地化，然后返回指定相应的 XML 指令清单<paramref name="LCID" />。</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFormRegionStorage">
@@ -165,19 +173,17 @@
         <param name="FormRegionSize">所加载的窗体区域的类型（相邻或独立）。</param>
         <summary>基于指定的信息获取窗体区域的相应存储。</summary>
         <returns>代表 Outlook 窗体区域已分配的存储<b>对象</b>。 可以是返回值类型： <b>String</b> （C# 中的<b>字符串</b>） 表示的返回值 Outlook 窗体存储的本地路径 (。OFS) 文件;<b>Byte （)</b>表示的返回值是一个包含的内容的字节数组。OFS 文件;<b>IStorage</b>表示的返回值是 COM 存储对象 （适用于 c + + 仅）; <b>IStorage</b><b>Nothing</b>或<b>空</b>，表示 Outlook 无法为此窗体区域分配存储，并将不会加载窗体区域。</returns>
-        <remarks>
-          <para>外接程序必须检查<b>GetFormRegionStorage</b>的返回值。如果以下任一条件返回的存储，将不会加载窗体区域：</para>
+        <remarks><para>外接程序必须检查 <b>GetFormRegionStorage</b> 的返回值。如果下列任一条件返回的存储，则不会加载窗体区域:</para>
           <list type="bullet">
             <item>
-              <para>返回存储是。OFS 文件指定非本地路径。</para>
+              <para>返回的存储是用非区域设置路径指定的 .OFS 文件。</para>
             </item>
             <item>
-              <para>返回的存储是一个文件，但不是。从窗体设计器保存 OFS 文件。</para>
+              <para>返回的存储是一个文件，但不是从窗体设计器保存的 .OFS 文件。</para>
             </item>
           </list>
-          <para>有关的加载项 C# 和 Visual Basic.NET 中实现的示例<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />接口，请参阅 MSDN 上的代码示例下载。</para>
-          <para />
-        </remarks>
+          <para>有关加载项 C# 和 Visual Basic.NET 中实现的示例<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />接口，请参阅 MSDN 上的代码示例下载。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

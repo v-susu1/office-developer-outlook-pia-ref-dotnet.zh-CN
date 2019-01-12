@@ -1,13 +1,5 @@
 <Type Name="MeetingItem" FullName="Microsoft.Office.Interop.Outlook.MeetingItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="34eab5654ab96af922059da1346bbb0bbeb90464" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631436" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MeetingItem : Microsoft.Office.Interop.Outlook._MeetingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a519f177e19a587888ee73b9e44d8933e51cec00" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904761" /></Metadata><TypeSignature Language="C#" Value="public interface MeetingItem : Microsoft.Office.Interop.Outlook._MeetingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MeetingItem implements class Microsoft.Office.Interop.Outlook._MeetingItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MeetingItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface MeetingItem&#xA;Implements _MeetingItem, ItemEvents_10_Event" />
@@ -34,12 +26,10 @@
   </Attributes>
   <Docs>
     <summary>代表由其他方启动或由于组操作导致的对收件人的“日历”文件夹的更改。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._MeetingItem" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
-      <para>与其他 Microsoft Outlook 对象不同，您无法创建此对象。设置时自动创建<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" />属性<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象传递给<b>olMeeting</b>并将其发送到一个或多个用户。作为<b>MeetingItem</b>其收件箱中收到。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._MeetingItem" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
+      <para>与其他 Microsoft Outlook 对象不同的是，您无法创建此对象。 设置时自动创建<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" />属性<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象传递给<b>olMeeting</b>并将其发送到一个或多个用户。 他们收到它在其收件箱中为 <b>MeetingItem</b> 。</para>
       <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" />方法返回<b>AppointmentItem</b>对象相关联的<b>MeetingItem</b>对象，并工作直接与<b>AppointmentItem</b>对象来响应请求。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

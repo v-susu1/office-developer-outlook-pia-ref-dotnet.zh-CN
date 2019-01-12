@@ -1,13 +1,5 @@
 <Type Name="OlNavigationModuleType" FullName="Microsoft.Office.Interop.Outlook.OlNavigationModuleType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="962cc61e0ae4176aabb9c2a50b45f802b6477e8c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633403" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlNavigationModuleType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fa69bbbd014c3440fc2f899ccd1710d5a73586e1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904019" /></Metadata><TypeSignature Language="C#" Value="public enum OlNavigationModuleType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlNavigationModuleType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlNavigationModuleType" />
@@ -21,8 +13,7 @@
   </Base>
   <Docs>
     <summary>标识导航模块类型的<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象。</summary>
-    <remarks>
-      <para>此枚举由<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" />属性的下列对象来标识导航模块的类型：</para>
+    <remarks><para>此枚举由<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" />的下列对象来标识导航模块类型的属性：</para>
       <list type="bullet">
         <item>
           <para>
@@ -60,9 +51,8 @@
           </para>
         </item>
       </list>
-      <para>枚举还由<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />来标识要检索该方法的<b>NavigationModule</b>的导航模块类型的集合。</para>
-      <para />
-    </remarks>
+      <para>也可使用此枚举的<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />来标识要检索该方法的<b>NavigationModule</b>的导航模块类型的集合。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olModuleCalendar">

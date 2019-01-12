@@ -1,13 +1,5 @@
 <Type Name="ItemProperty" FullName="Microsoft.Office.Interop.Outlook.ItemProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8b9cd8e1046b3e3fb1b3f1e72a9158303acba7bb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632631" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="867107e667467cf1af12c042db1fe1725a1f331e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905608" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperty" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>代表有关 Microsoft Outlook 项目对象的给定项目属性的信息。</summary>
-    <remarks>
-      <para>每个项目属性定义项目，如名称、 类型或项的值的某些属性。<b>ItemProperty</b>对象所在的<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />集合。</para>
+    <remarks><para> 每个 item 属性定义的项，如名称、 类型或值的项的某些特性。 <b>ItemProperty</b>对象所在的<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />集合。</para>
       <para>使用<b>ItemProperties.Item</b>(<paramref name="index" />)，其中<paramref name="index" />对象的集合中的数字位置或可返回单个<b>ItemProperty</b>对象，它具有命名。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -57,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -178,7 +168,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，指示 item 属性是由用户创建的自定义属性。 只读。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，指示 item 属性是由用户创建的自定义属性。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -206,7 +196,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 只读。</summary>
+        <summary>返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,19 +252,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -300,7 +287,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />常量，指示指定的对象的类型。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />常量，指示指定的对象的类型。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -405,12 +392,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指定的自定义或显式内置属性的值，该值指示一个<b>对象</b>。 为可读/写属性。</summary>
+        <summary>返回或设置指定的自定义或显式内置属性的值，该值指示一个<b>对象</b>。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>即使<b>ItemProperty.Value</b>允许您获取或设置的显式内置属性或自定义属性，您可以直接从父对象，例如，ContactItem.Body 引用显式内置属性。访问 Outlook 中的属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87861">属性概述</a></para>
-          <para />
-        </remarks>
+        <remarks><para>即使<b>ItemProperty.Value</b>允许您获取或设置的显式内置属性或自定义属性，您可以直接从父对象，例如，ContactItem.Body 引用显式内置属性。 访问 Outlook 中的属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87861">属性概述</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

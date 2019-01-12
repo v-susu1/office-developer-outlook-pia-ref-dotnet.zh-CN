@@ -1,13 +1,5 @@
 <Type Name="_AddressRuleCondition" FullName="Microsoft.Office.Interop.Outlook._AddressRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="84f193c25f7f01534bbcd631f87bc3b9044e6e05" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632227" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AddressRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="84f193c25f7f01534bbcd631f87bc3b9044e6e05" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905104" /></Metadata><TypeSignature Language="C#" Value="public interface _AddressRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AddressRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AddressRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AddressRuleCondition" />
@@ -56,13 +48,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置来评估地址规则条件的<b>字符串</b>（C# 中的<b>字符串</b>） 元素的数组。 为可读/写属性。</summary>
+        <summary>返回或设置来评估地址规则条件的<b>字符串</b>（C# 中的<b>字符串</b>） 元素的数组。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>您可以分配一个元素，用于计算单个地址数组或多个用于计算多个地址的字符串的数组。使用逻辑或运算计算分配数组中的多个地址字符串。</para>
-          <para>如果收件人或发件人地址中包含指定<b>地址</b>的字符串，该条件则计算结果为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>您可以指定带有一个元素的数组来评估一个地址，或者带有多个字符串的数组来评估多个地址。在一个数组中指定的多个地址字符串是使用“逻辑或”运算评估的。</para>
+          <para>如果收件人或发件人地址中包含了 <b>Address</b> 指定的字符串，该条件则评估为 <b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -88,7 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,7 +106,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,14 +134,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleConditionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />指示的规则条件的类型的枚举。 只读。</summary>
+        <summary>返回一个常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />指示的规则条件的类型的枚举。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />对象的类型<b>olRuleSend</b>和<b>olRuleReceive</b>规则由。如果<b>olRuleSend</b>规则来创建规则，则相关联的<b>AddressRuleCondition</b>对象的类型将<b>olConditionSenderAddress</b>。如果<b>对 olRuleReceive</b>规则来创建规则，关联的<b>AddressRuleCondition</b>对象的类型将<b>olConditionRecipientAddress</b>。</para>
-          <para>这但并不意味着规则始终具有定义的规则条件发件人或收件人的地址。无论是否存在这样的定义或已启用的规则条件， <b>AddressRuleCondition.ConditionType</b>属性始终初始化一旦创建相关的规则。有关规则条件的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />对象的类型<b>olRuleSend</b>和<b>olRuleReceive</b>规则由。 如果 <b>olRuleSend</b> 规则来创建规则，相关联的 <b>AddressRuleCondition</b> 对象的类型将是 <b>olConditionSenderAddress</b> 。 如果 <b>olRuleReceive</b> 规则来创建规则，相关联的 <b>AddressRuleCondition</b> 对象的类型将是 <b>olConditionRecipientAddress</b> 。 </para>
+          <para>这但是并不意味着该规则始终具有定义的规则条件的发件人或收件人的地址。 无论是否存在此类定义或已启用规则条件， <b>AddressRuleCondition.ConditionType</b> 属性总是初始化后创建相关联的规则。 有关规则条件的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -180,12 +167,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的确定是否启用的规则条件。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的确定是否启用的规则条件。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>启用的规则条件后，还必须使用保存规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />，以便规则条件及其启用的状态当前会话。 只有它已成功保存之后，才能启用的规则条件。</para>
-          <para />
-        </remarks>
+        <remarks><para>启用的规则条件后，还必须使用保存规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />，以便规则条件及其启用的状态当前会话。  规则条件只有在成功保存之后才能启用。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -213,10 +198,8 @@
       <Docs>
         <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>父对象是<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>父对象是<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -242,19 +225,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

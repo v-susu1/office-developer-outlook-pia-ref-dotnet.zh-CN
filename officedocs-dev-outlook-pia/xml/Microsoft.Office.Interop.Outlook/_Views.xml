@@ -1,13 +1,5 @@
 <Type Name="_Views" FullName="Microsoft.Office.Interop.Outlook._Views">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632288" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903935" /></Metadata><TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Views implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Views" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Views&#xA;Implements IEnumerable" />
@@ -63,8 +55,7 @@
         <param name="SaveOption">指定新视图权限的保存选项。 <b>olViewSaveOptionAllFoldersOfType</b>视图可以访问此类型的所有文件夹中。<b>olViewSaveOptionThisFolderEveryOne</b>可以仅此文件夹中的所有用户访问的视图。<b>olViewSaveOptionThisFolderOnlyMe</b>只能由用户，可以在此文件夹中访问该视图。</param>
         <summary>新建一个视图，在<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象，表示新视图。</returns>
-        <remarks>
-          <para>如果将<b>视图</b>添加到的文件夹不是当前文件夹的<b>Views</b>集合中时，必须先保存一份<b>Views</b>集合对象，然后将<b>视图</b>添加到此集合对象，如下面的代码示例中所示。这是一种解决现有的问题，否则会导致调用<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />添加了<b>视图</b>失败。</para>
+        <remarks><para>如果将<b>视图</b>添加到的文件夹不是当前文件夹的<b>Views</b>集合中时，必须先保存一份<b>Views</b>集合对象，然后将<b>视图</b>添加到此集合对象，如下面的代码示例中所示。 这是一种解决现有的问题，否则会导致调用<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />添加了<b>视图</b>失败。</para>
           <code>Sub CalendarView()
     Dim calView As Outlook.View
     Dim vws As Outlook.Views
@@ -110,8 +101,7 @@ End Sub</code>
     // This Apply call will be fine.
     calView.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -137,7 +127,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -165,7 +155,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -193,7 +183,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -258,8 +248,7 @@ End Sub</code>
       <Docs>
         <param name="Index">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象的集合。</summary>
-        <value>
-          <b>视图</b> 对象，该对象代表指定的对象。</value>
+        <value><b>视图</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -342,19 +331,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

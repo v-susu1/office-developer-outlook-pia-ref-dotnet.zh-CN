@@ -1,13 +1,5 @@
 <Type Name="_Application" FullName="Microsoft.Office.Interop.Outlook._Application">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3a1a76725d5ad1aff125d99fcb70c41ea0bd31ed" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631595" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Application" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3a1a76725d5ad1aff125d99fcb70c41ea0bd31ed" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904047" /></Metadata><TypeSignature Language="C#" Value="public interface _Application" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Application" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Application" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Application" />
@@ -53,10 +45,8 @@
       <Docs>
         <summary>返回最顶端<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />桌面上的对象。</summary>
         <returns>表示在桌面上最顶层的资源管理器 <b>资源管理器</b> 。如果没有资源管理器处于活动状态，则返回 <b>Nothing</b> 。</returns>
-        <remarks>
-          <para>使用此方法可返回用户最可能查看的<b>资源管理器</b>对象。此方法还可用于确定当没有任何活动资源管理器，因此可以打开一个新。</para>
-          <para />
-        </remarks>
+        <remarks><para> 使用此方法以返回用户很可能正在查看的 <b>资源管理器</b> 对象。此方法还可用于确定没有活动的浏览器，以便打开一个新。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveInspector">
@@ -82,11 +72,9 @@
       <Docs>
         <summary>返回最顶端<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />桌面上的对象。</summary>
         <returns>表示在桌面上最顶层的检查器 <b>检查器</b> 。</returns>
-        <remarks>
-          <para>使用此方法可访问该用户是最可能查看的<b>Inspector</b>对象。</para>
-          <para>如果没有检查器处于活动状态，则返回<b>Nothing</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para> 使用此方法访问该用户是最有可能被查看该 <b>检查器</b> 对象。</para>
+          <para>如果没有检查器处于活动状态，则返回 <b>Nothing</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveWindow">
@@ -146,11 +134,9 @@
         <param name="Tag">指定作为搜索标识符的名称。</param>
         <summary>根据指定的 DAV 搜索和定位 (DASL) 搜索字符串进行搜索。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象，表示搜索结果。</returns>
-        <remarks>
-          <para>您可以通过调用中的代码的连续行的<b>AdvancedSearch</b>方法同时运行多个搜索。但是，您应注意： 以编程方式创建大量的搜索文件夹会导致在会影响 Outlook 的性能的重要同时搜索活动 Outlook 经营 online 的 Exchange 模式中的搜索尤其。</para>
-          <para>
-            <b>AdvancedSearch</b>方法和 Outlook 对象模型中的相关的功能不会创建搜索文件夹将出现在 Outlook 用户界面。但是，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" />方法返回的搜索文件夹列表中的 Outlook 用户界面创建搜索文件夹显示的搜索对象。</para>
-          <para>使用<paramref name="Scope" />参数，您可以在同一个存储中，指定一个或多个文件夹，但不是能在多个存储区中指定多个文件夹。若要指定多个文件夹为<paramref name="Scope" />参数，用逗号隔开每个文件夹路径，并将每个文件夹路径括在单引号。对于如收件箱或已发送邮件的默认文件夹，您可以使用简单的文件夹名称而不是完整文件夹路径。例如，下面的代码行表示有效<paramref name="Scope" />参数：</para>
+        <remarks><para>通过调用 <b>AdvancedSearch</b> 方法在连续行代码中，可以同时运行多个搜索。但是，应该注意: 以编程方式创建大量的搜索文件夹会导致重大同时搜索活动会影响性能的 Outlook 中，在尤其是 Outlook 进行联机 Exchange 模式搜索。</para>
+          <para><b>AdvancedSearch</b> 方法和相关的功能，在 Outlook 对象模型中不会创建搜索文件夹将显示在 Outlook 用户界面中。 但是，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" />方法返回的搜索文件夹列表中的 Outlook 用户界面创建搜索文件夹将显示的搜索对象。</para>
+          <para>使用<paramref name="Scope" />参数，您可以在同一个存储中，指定一个或多个文件夹，但不是能在多个存储区中指定多个文件夹。 若要指定多个文件夹为<paramref name="Scope" />参数，用逗号隔开每个文件夹路径，并将每个文件夹路径括在单引号。 如收件箱或已发送邮件的默认文件夹，可以使用简单的文件夹名称而不是完整的文件夹路径。 例如，下面的代码行表示有效<paramref name="Scope" />参数：</para>
           <code>Dim Scope As String = "'Inbox', 'Sent Items'"</code>
           <code>string Scope = "'Inbox', 'Sent Items'";</code>
           <code>Dim Scope1 As String = "'" &amp;amp; Application.Session.GetDefaultFolder( _
@@ -161,10 +147,8 @@
     Outlook.OlDefaultFolders.olFolderInbox).FolderPath + 
     "','" + Application.Session.GetDefaultFolder( 
     Outlook.OlDefaultFolders.olFolderSentMail).FolderPath;</code>
-          <para>
-            <paramref name="Filter" />参数可以是任何有效的 DASL 查询。DASL 查询的其他信息，请参阅筛选项目和通过 Namespace 引用属性。请注意，不能使用 JET 查询的<paramref name="Filter" />的高级搜索参数。如果包含在指定的文件夹的存储区启用即时搜索<paramref name="Scope" />参数，您可以使用即时搜索关键字来提高您的搜索的性能。如果您使用即时搜索关键字和不启用即时搜索，Outlook 将返回错误和搜索将失败。</para>
-          <para />
-        </remarks>
+          <para><paramref name="Filter" />参数可以是任何有效的 DASL 查询。 DASL 查询的其他信息，请参阅筛选项目和通过 Namespace 引用属性。 请注意，不能使用 JET 查询的<paramref name="Filter" />的高级搜索参数。 如果包含在指定的文件夹的存储区启用即时搜索<paramref name="Scope" />参数，您可以使用即时搜索关键字来提高您的搜索的性能。 如果使用即时搜索关键字并不启用了即时搜索，则 Outlook 会返回错误，搜索将失败。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AnswerWizard">
@@ -221,7 +205,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -251,10 +235,8 @@
       <Docs>
         <summary>返回一个<a href="http://go.microsoft.com/fwlink/?LinkId=87944">IAssistance</a></summary>
         <value>To be added.</value>
-        <remarks>
-          <para>有关<b>IAssistance</b>的详细信息，请参阅 2007 Microsoft Office system 的对象库参考。</para>
-          <para />
-        </remarks>
+        <remarks><para>有关<b>IAssistance</b>的详细信息，请参阅 2007 Microsoft Office system 的对象库参考。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Assistant">
@@ -311,7 +293,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -401,11 +383,8 @@
         <param name="ItemType">新项 Outlook 项目类型。</param>
         <summary>创建并返回一个新的 Microsoft Outlook 项目。</summary>
         <returns>一个代表新 Outlook 项目的 <b>Object</b> 值。</returns>
-        <remarks>
-          <para>
-            <b>CreateItem</b>方法只能创建默认 Outlook 项目。若要创建使用自定义窗体的新项目，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>CreateItem</b> 方法只能创建默认 Outlook 项目。 若要创建使用自定义窗体的新项目，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateItemFromTemplate">
@@ -435,10 +414,8 @@
         <param name="InFolder">将在其中创建项目的文件夹。如果忽略此参数，将使用此项目类型的默认文件夹。</param>
         <summary>根据 Outlook 模板 (.oft) 创建一个新的 Microsoft Outlook 项目并返回这一新项目。</summary>
         <returns>一个代表新的 Microsoft Outlook 项目的<b>Object</b>值。</returns>
-        <remarks>
-          <para>新项目始终将打开在撰写模式下，而不是阅读模式下，无论在其中保存项目的模式到磁盘。</para>
-          <para />
-        </remarks>
+        <remarks><para>不管新项目保存到磁盘时处于何种模式，始终会以撰写模式（而不是读取模式）打开该项目。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateObject">
@@ -467,12 +444,10 @@
         <param name="ObjectName">要创建的对象的类名。 有关有效类名的信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87946">OLE 编程标识符</a></param>
         <summary>创建指定类的 Automation 对象。</summary>
         <returns>一个代表新的自动化对象实例的<b>对象</b>值。 如果应用程序已在运行， <b>无论</b> 将创建一个新实例。</returns>
-        <remarks>
-          <para>提供此方法，以便其他应用程序可以自动从 Microsoft Visual Basic Scripting Edition (VBScript) 1.0，其中不包括<b>CreateObject</b>方法。在 VBScript 2.0 及更高版本中包括了<b>CreateObject</b> 。此方法不应用于 VBScript 从 Microsoft Outlook 的自动化。</para>
+        <remarks><para>提供此方法，以便其他应用程序可以自动从 Microsoft Visual Basic Scripting Edition (VBScript) 1.0，其中不包括<b>CreateObject</b>方法。 <b>无论</b> 已包括在 VBScript 2.0 及更高版本。 不应使用此方法来自动执行从 VBScript 的Microsoft Outlook 。</para>
           <para>
-            <b>注意</b>： 此帮助文件 （单击"示例"时可用） 中的代码示例中常用的<b>CreateObject</b>方法可供 Microsoft Visual Basic 或 Microsoft Visual Basic for Applications (VBA)。这些示例执行<paramref name="not" />作为 Outlook 中的对象模型的一部分使用相同的<b>CreateObject</b>方法实现。</para>
-          <para />
-        </remarks>
+            <b>注意</b>： 此帮助文件 （单击"示例"时可用） 中的代码示例中常用的<b>CreateObject</b>方法可供 Microsoft Visual Basic 或 Microsoft Visual Basic for Applications (VBA)。 这些示例执行<paramref name="not" />作为 Outlook 中的对象模型的一部分使用相同的<b>CreateObject</b>方法实现。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DefaultProfileName">
@@ -498,12 +473,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的默认配置文件名称的名称。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的默认配置文件名称的名称。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果已配置没有配置文件或者 outlook 没有默认配置文件，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果没有为 Outlook 配置配置文件或者 Outlook 没有默认的配置文件，将返回空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Explorers">
@@ -529,7 +502,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Explorers</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />集合对象，它包含<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />代表所有打开的 explorers 对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />集合对象，它包含<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />代表所有打开的 explorers 对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -597,10 +570,8 @@
         <param name="Type">要返回的命名空间的类型。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />指定类型的对象。</summary>
         <returns>表示指定的命名空间的 <b>命名空间</b> 对象。</returns>
-        <remarks>
-          <para>仅支持命名空间类型是"MAPI"。<b>GetNameSpace</b>方法等效于<b>会话</b>属性在 Microsoft Outlook 98 中引入。</para>
-          <para />
-        </remarks>
+        <remarks><para>唯一受支持的命名空间类型是"MAPI"。 <b>GetNameSpace</b>方法等效于<b>会话</b>属性在 Microsoft Outlook 98 中引入。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNewNickNames">
@@ -661,14 +632,11 @@
         <param name="Item">从中获取强或弱对象引用的对象。</param>
         <param name="ReferenceType">对象引用的类型。</param>
         <summary>为指定的 Outlook 对象创建一个强或弱对象引用。</summary>
-        <returns>
-          <b>对象</b> ，表示强或弱对象引用指定的对象。</returns>
-        <remarks>
-          <para>此方法返回的中指定的对象的弱或强对象引用<paramref name="Item" />。</para>
+        <returns><b>对象</b> ，表示强或弱对象引用指定的对象。</returns>
+        <remarks><para>此方法返回的中指定的对象的弱或强对象引用<paramref name="Item" />。</para>
           <para>
-            <b>注释</b>： Outlook 可能无法成功关闭如果外接程序保留强对象引用。始终取消引用的强对象引用，一旦它不再需要该加载项。</para>
-          <para />
-        </remarks>
+            <b>注意</b>： Outlook 可能无法成功关闭如果外接程序保留强对象引用。 请始终在加载项不再需要某个强对象引用时，立即取消对该对象的引用。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Inspectors">
@@ -694,7 +662,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspectors</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" />集合对象，它包含<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />代表所有打开的 inspectors 对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" />集合对象，它包含<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />代表所有打开的 inspectors 对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -724,12 +692,9 @@
       <Docs>
         <param name="LookInFolders">将要在其中进行搜索的文件夹的路径名。必须用单引号将文件夹路径引起来。</param>
         <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示如果搜索是同步还是异步。</summary>
-        <returns>
-          <b>如此</b> 如果搜索是同步的;否则为 <b>假</b> 。</returns>
-        <remarks>
-          <para>如果搜索是同步的<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法不会返回搜索完成之前。相反，如果搜索是异步的将立即返回<b>AdvancedSearch</b>方法。若要从异步搜索获取有意义的结果，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />事件搜索已完成时通知您。</para>
-          <para />
-        </remarks>
+        <returns><b>如此</b> 如果搜索是同步的;否则为 <b>假</b> 。</returns>
+        <remarks><para>如果搜索是同步的<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法不会返回搜索完成之前。 相反，如果搜索是异步的 <b>AdvancedSearch</b> 方法将立即返回。 若要从异步搜索获取有意义的结果，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />事件搜索已完成时通知您。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsTrusted">
@@ -757,10 +722,8 @@
       <Docs>
         <summary>返回一个<b>boolean 类型的值</b>(<b>bool</b> C# 中) 以指示是否外接程序或外部呼叫者将被视为受信任的 outlook。 只读</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>进程外呼叫者实例化的<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象， <b>IsTrusted</b>始终返回<b>False</b>。  Outlook 加载项，为<b>IsTrusted</b>返回<b>True</b> ，当且仅当外接程序被视为受信任的 outlook。</para>
-          <para />
-        </remarks>
+        <remarks><para>进程外呼叫者实例化的<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象， <b>IsTrusted</b>始终返回<b>False</b>。   对于 Outlook 外接 <b>IsTrusted</b> 返回 <b>True</b> ，当且仅当外接程序被视为受信任的 Outlook。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LanguageSettings">
@@ -814,7 +777,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 只读。</summary>
+        <summary>返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -870,11 +833,9 @@
         <ReturnType>Microsoft.Office.Core.PickerDialog</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Core.PickerDialog" />对象，它提供了功能，以选择对话框中的人员或数据。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Core.PickerDialog" />对象，它提供了功能，以选择对话框中的人员或数据。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>PickerDialog</b>对象位于 Microsoft Office 类型库中。有关详细信息，请参阅下列对象和及其成员：</para>
+        <remarks><para>Microsoft Office 类型库中提供了 <b>PickerDialog</b> 对象。有关详细信息，请参阅下列对象和它们的成员:</para>
           <list type="bullet">
             <item>
               <para>
@@ -906,9 +867,13 @@
                 <see cref="T:Microsoft.Office.Core.PickerResult" />
               </para>
             </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerResults" />
+              </para>
+            </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ProductCode">
@@ -961,10 +926,8 @@
       <Parameters />
       <Docs>
         <summary>关闭当前所有打开的窗口。</summary>
-        <remarks>
-          <para>完全; 关闭相关的 Outlook 会话在邮件系统中注销用户并丢弃对项目尚未保存的任何更改。</para>
-          <para />
-        </remarks>
+        <remarks><para>彻底关闭相关的 Outlook 会话；使用户从邮件系统中注销，并丢弃对项目所做的所有未保存的更改。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RefreshFormRegionDefinition">
@@ -992,13 +955,10 @@
       <Docs>
         <param name="RegionName">要在缓存中刷新其定义的窗体区域的内部名称。若要刷新所有窗体区域定义，请指定空字符串。</param>
         <summary>从 Windows 注册表中，获取为本地计算机和当前用户定义的一个或所有窗体区域的当前定义，以刷新缓存。</summary>
-        <remarks>
-          <para>Microsoft Outlook 启动时，它读取 Windows 注册表以获取窗体区域的列表和及其定义，然后缓存数据。定义存储在本地计算机密钥 （作为 HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions) 和 （作为 HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\FormRegions) 当前用户注册表项下在注册表中。定义介绍布局、 行为和每个窗体区域的其他特征。如果您在注册窗体区域或在 Outlook 启动之后，修改窗体区域的定义，您可以使用<b>RefreshFormRegionDefinition</b>方法以指示 Outlook 以获取更新的信息。</para>
-          <para>
-            <paramref name="RegionName" />参数应匹配<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />窗体区域要刷新其定义的属性。窗体区域的内部名称只支持 ASCII 字符。如果您指定为空字符串，Outlook 读取 Windows 注册表以获取所有为本地计算机和当前用户定义的窗体区域的定义。</para>
+        <remarks><para>Microsoft Outlook 启动时，它读取 Windows 注册表以获取窗体区域的列表和及其定义，然后缓存数据。 定义存储在本地计算机密钥 (如 HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions) 和下 (如 HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\FormRegions) 当前用户注册表项的注册表中。 定义描述布局、 行为和其他特性的每个窗体区域。 如果您注册窗体区域或修改定义窗体区域的 Outlook 启动后，可以使用 <b>RefreshFormRegionDefinition</b> 方法来指示 Outlook 以获取更新的信息。</para>
+          <para><paramref name="RegionName" />参数应匹配<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />窗体区域要刷新其定义的属性。 窗体区域的内部名称只支持 ASCII 字符。 如果指定空字符串，Outlook 将读取 Windows 注册表来获取为本地机器和当前用户定义的所有窗体区域的定义。</para>
           <para>有关注册窗体区域的详细信息，请参阅在 Windows 注册表中指定窗体区域。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reminders">
@@ -1024,7 +984,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Reminders</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Reminders" />集合，代表所有当前提醒。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Reminders" />集合，代表所有当前提醒。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1052,19 +1012,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TimeZones">
@@ -1090,12 +1047,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TimeZones</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.TimeZones" />表示的 Outlook 支持的时区集的集合。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.TimeZones" />表示的 Outlook 支持的时区集的集合。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>支持的 Outlook 的时区集基于存储在 Windows 注册表项 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones 中的数据。</para>
-          <para />
-        </remarks>
+        <remarks><para>支持的 Outlook 的时区集基于存储在 Windows 注册表项 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones 中的数据。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Version">

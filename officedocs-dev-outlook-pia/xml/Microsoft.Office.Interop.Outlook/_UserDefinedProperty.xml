@@ -1,13 +1,5 @@
 <Type Name="_UserDefinedProperty" FullName="Microsoft.Office.Interop.Outlook._UserDefinedProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632008" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905167" /></Metadata><TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _UserDefinedProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface _UserDefinedProperty" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -134,20 +126,19 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>整数</b>(C# 中<b>int</b> ) 值，表示的显示格式<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />对象。 只读。</summary>
+        <summary>返回一个<b>整数</b>(C# 中<b>int</b> ) 值，表示的显示格式<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的值是常量枚举，其中枚举依赖的值<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" />属性的<b>UserDefinedProperty</b>对象：</para>
+        <remarks><para>此属性的值是常量枚举，其中枚举依赖的值<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> <b>UserDefinedProperty</b>对象的属性：</para>
           <list type="table">
             <item>
-              <description>Type 值</description>
+              <description>类型值</description>
               <description>DisplayFormat 枚举</description>
             </item>
             <item>
               <description>
                 <b>olCombination</b>
               </description>
-              <description>没有可用的枚举。此属性始终返回 1 <b>olCombination</b>。</description>
+              <description>没有可用的枚举。 此属性始终返回 1 <b>olCombination</b>。</description>
             </item>
             <item>
               <description>
@@ -185,7 +176,7 @@
               <description>
                 <b>olFormula</b>
               </description>
-              <description>没有可用的枚举。此属性始终返回 1 <b>olFormula</b>。</description>
+              <description>没有可用的枚举。 此属性始终返回 1 <b>olFormula</b>。</description>
             </item>
             <item>
               <description>
@@ -215,7 +206,7 @@
               <description>
                 <b>olOutlookInternal</b>
               </description>
-              <description>没有可用的枚举。此属性始终返回 1 <b>olOutlookInternal</b>。</description>
+              <description>没有可用的枚举。 此属性始终返回 1 <b>olOutlookInternal</b>。</description>
             </item>
             <item>
               <description>
@@ -241,15 +232,16 @@
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatText" />
               </description>
             </item>
-            <description>
-              <b>olYesNo</b>
-            </description>
-            <description>
-              <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" />
-            </description>
+            <item>
+              <description>
+                <b>olYesNo</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" />
+              </description>
+            </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Formula">
@@ -275,7 +267,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表<b>UserDefinedProperty</b>对象的公式。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表<b>UserDefinedProperty</b>对象的公式。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -303,7 +295,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 只读。</summary>
+        <summary>返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -359,19 +351,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">

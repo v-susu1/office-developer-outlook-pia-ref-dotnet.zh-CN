@@ -1,13 +1,5 @@
 <Type Name="_Rule" FullName="Microsoft.Office.Interop.Outlook._Rule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631589" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Rule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902794" /></Metadata><TypeSignature Language="C#" Value="public interface _Rule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Rule" />
@@ -53,14 +45,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleActions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合对象，代表所有可用的规则操作的规则。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合对象，代表所有可用的规则操作的规则。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>您可以枚举和启用规则与任何规则操作的规则和通知向导支持，但您可以编程方式创建具有仅的最常用的规则操作，而不是任何规则和通知向导支持的规则操作。规则操作支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></para>
-          <para>
-            <b>操作</b>属性中，通过每个规则相关联<b>RuleActions</b>对象。<b>作为 RuleActions</b>集合是固定的对象-无法添加或移除此集合的项目。规则中启用的规则操作<b>作为 RuleActions</b>集合中都已启用的规则操作。在规则未启用的操作将具有的规则操作具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" />属性设置为<b>False</b>。编程规则创建过程中不支持的规则操作可以仅枚举现有规则，<b>作为 RuleActions</b>集合中，但<b>作为 RuleActions</b>集合固定的因为无法创建规则，并为其添加诸如操作关联<b>作为 RuleActions</b>集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>您可以枚举和启用规则的规则和通知向导支持，任何规则操作，但您可以编程方式创建具有仅的最常用的规则操作，而不是任何规则和通知向导支持的规则操作。 规则操作支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></para>
+          <para>通过 <b>操作</b> 属性中，每个规则都与 <b>RuleActions</b> 对象相关联。 <b>RuleActions</b> 集合是固定的对象-您不能添加或删除此集合中的项目。 在规则中启用的规则操作 <b>RuleActions</b> 集合中都已启用的规则操作。 在规则未启用的操作将具有的规则操作具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" />属性设置为<b>False</b>。 在编程规则创建过程中不受支持的规则操作只可以枚举现有规则， <b>RuleActions</b> 集合中，但 <b>RuleActions</b> 集合固定的因为您不能创建规则并将这样的操作添加到关联的 <b>RuleActions</b> 集合。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -86,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -114,7 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,11 +131,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合对象，它代表规则的所有可用规则条件。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合对象，它代表规则的所有可用规则条件。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>规则条件表明应在其下应用规则的条件。两个<b>条件</b>和<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" />属性共享同一个池的条件并返回相应的<b>RuleConditions</b>集合对象。</para>但
-          <para>以编程方式可以枚举和启用支持的规则和通知向导，任何规则条件的规则的规则和通知向导，可以创建具有只有最常用的规则条件，而不是任何规则条件的规则支持。规则条件支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para><para><b>条件</b>属性中，通过每个规则都与一个<b>RuleConditions</b>对象相关联。<b>RuleConditions</b>集合是固定的对象-无法添加或移除此集合的项目。规则中启用的规则条件中<b>作为 RuleConditions</b>集合都已启用的规则条件。未启用规则中的条件将具有的规则条件具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />属性设置为<b>False</b>。编程规则创建过程中不支持的规则条件可以仅枚举现有规则， <b>RuleConditions</b>集合中，但<b>作为 RuleConditions</b>集合固定的因为无法创建规则，并添加此类条件到关联的<b>RuleConditions</b>集合。</para><para /></remarks>
+        <remarks><para>规则的条件，指出应依据应用规则的条件。 两个<b>条件</b>和<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" />属性共享同一个池的条件并返回相应的<b>RuleConditions</b>集合对象。</para>
+          <para>您可以在以编程方式枚举和启用规则的规则和通知向导支持，任何规则条件，但您可以创建仅具有最常用的规则条件，而不是任何规则和通知向导支持的规则条件的规则。 规则条件支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
+          <para>通过 <b>条件</b> 属性，每个规则都与 <b>RuleConditions</b> 对象相关联。 <b>RuleConditions</b> 集合是固定的对象-您不能添加或删除此集合中的项目。 在规则中启用的规则条件 <b>RuleConditions</b> 集合中都已启用的规则条件。 未启用规则中的条件将具有的规则条件具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />属性设置为<b>False</b>。 对于现有的规则， <b>RuleConditions</b> 集合中只可以枚举编程规则创建过程中不受支持的规则条件但 <b>RuleConditions</b> 集合固定的因为您不能创建规则并将此类条件添加到关联的 <b>RuleConditions</b> 集合。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -175,13 +165,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> ) 来确定是否要应用该规则。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> ) 来确定是否要应用该规则。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>规则的将<b>Enabled</b>属性设置不保证将启用该规则。之后才启用规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />执行成功。</para>
-          <para>使用<b>Rule.Enabled</b><b>Rules.Save</b>将规则应用一致和仍然存在超出当前会话的规则。启用的规则 （已成功保存） 可以确保将应用规则。这是本地客户端规则，如果 Outlook 正在运行，并且如果规则是基于服务器的规则，它将应用无论是否正在运行 Outlook 时将应用规则。如果未启用规则，然后定义规则，但不是会应用。但是，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />应用规则作为一次性操作而不管是否启用规则。 </para>
-          <para />
-        </remarks>
+        <remarks><para>规则的 <b>Enabled</b> 属性设置不能保证该规则将被启用。 之后才启用规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />执行成功。</para>
+          <para>使用 <b>Rule.Enabled</b> 和 <b>Rules.Save</b> 始终如一地适用规则和当前会话以外的规则仍然存在。 启用规则 (即已成功保存) 以确保该规则将被应用。 如果是本地客户端规则，则规则将应用当 Outlook 正在运行，并且如果该规则是基于服务器的规则，它将应用不管 Outlook 是否正在运行。 如果未启用规则，然后定义规则，但不是会应用。 但是，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />应用规则作为一次性操作而不管是否启用规则。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exceptions">
@@ -207,15 +195,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合对象，它代表规则的所有可用规则例外条件。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合对象，它代表规则的所有可用规则例外条件。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>规则例外条件指明在其下不应应用该规则的条件。同时<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" />和<b>例外</b>属性共享同一个池的条件并返回相应的<b>RuleConditions</b>集合对象。</para>
-          <para>您可以枚举和启用规则的规则和通知向导支持，任何规则例外条件，但您可以编程方式创建具有只有最常用的规则例外条件，而不是任何规则例外条件的规则规则和通知向导支持。规则条件支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
-          <para>
-            <b>条件</b>属性中，通过每个规则都与一个<b>RuleConditions</b>对象相关联。<b>RuleConditions</b>集合是固定的对象-无法添加或移除此集合的项目。规则中启用的规则例外条件<b>作为 RuleConditions</b>集合中都启用的规则例外条件。在规则未启用的例外条件将具有规则例外条件具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />属性设置为<b>False</b>。编程规则创建过程中不支持的规则例外条件可以仅枚举<b>RuleConditions</b>集合中的现有规则，但<b>作为 RuleConditions</b>集合固定的因为无法创建规则并将其添加到关联的<b>RuleConditions</b>集合的此类例外条件。</para>
-          <para />
-        </remarks>
+        <remarks><para>规则例外条件，指出依据不应应用此规则的条件。 同时<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" />和<b>例外</b>属性共享同一个池的条件并返回相应的<b>RuleConditions</b>集合对象。</para>
+          <para>您可以枚举和启用规则的规则和通知向导支持，任何规则例外条件，但您可以编程方式创建具有只有最常用的规则例外条件，而不是任何规则例外条件的规则规则和通知向导支持。 规则条件支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
+          <para>通过 <b>条件</b> 属性，每个规则都与 <b>RuleConditions</b> 对象相关联。 <b>RuleConditions</b> 集合是固定的对象-您不能添加或删除此集合中的项目。 在规则中启用的规则例外条件 <b>RuleConditions</b> 集合中都已启用的规则例外条件。 在规则未启用的例外条件将具有规则例外条件具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />属性设置为<b>False</b>。 在编程规则创建过程中不受支持的规则例外条件只可枚举现有规则， <b>RuleConditions</b> 集合中，但 <b>RuleConditions</b> 集合固定的因为您不能创建规则并将这种异常情况添加到关联的 <b>RuleConditions</b> 集合。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -243,16 +228,13 @@
         <Parameter Name="RuleExecuteOption" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ShowProgress">
-          <b>True</b> 在执行规则时显示进度对话框， <b>False</b> 而不显示对话框中运行该规则。</param>
+        <param name="ShowProgress"><b>True</b> 在执行规则时显示进度对话框， <b>False</b> 而不显示对话框中运行该规则。</param>
         <param name="Folder">代表将要应用规则的文件夹。</param>
-        <param name="IncludeSubfolders">
-          <b>真</b> 要将规则应用于由 Folder参数，则该文件夹的子文件夹 <b>假</b> 以该规则仅应用于该文件夹中，但不是包括子文件夹。</param>
+        <param name="IncludeSubfolders"><b>真</b> 要将规则应用于由 Folder参数，则该文件夹的子文件夹 <b>假</b> 以该规则仅应用于该文件夹中，但不是包括子文件夹。</param>
         <param name="RuleExecuteOption">代表是否向由 Folder 和 IncludeSubfolders 参数指定的一个或多个文件夹中的已读邮件、未读邮件或所有邮件应用规则。</param>
         <summary>将规则作为一次性操作来应用。</summary>
-        <remarks>
-          <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />将规则作为一次性操作来无论是否应用<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" />为<b>True</b>。使用<b>Rule.Enabled</b>然后<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />如果想要始终应用规则，并保留超出当前会话的规则。</para>
-          <para>的<b>Execute</b>方法的参数是可选的。如果不指定任何参数，则规则将应用到收件箱中的所有消息，但不适用于收件箱的子文件夹。可选参数的默认值如下所示： </para>
+        <remarks><para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />将规则作为一次性操作来无论是否应用<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" />为<b>True</b>。 使用<b>Rule.Enabled</b>然后<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />如果您想要始终应用规则，并保留超出当前会话的规则。</para>
+          <para><b>Execute</b> 方法的参数是可选的。如果不指定任何参数，则规则将应用到收件箱中的所有邮件，而不是收件箱的子文件夹。可选参数的默认值如下所示:</para>
           <list type="table">
             <item>
               <description>参数</description>
@@ -277,10 +259,9 @@
               </description>
             </item>
           </list>
-          <para>如果<paramref name="ShowProgress" />为<b>True</b> ，并且用户取消进度对话框中，规则执行相同的方式取消了就好像用户已取消通过规则和通知向导执行规则。执行用户取消进度对话框时将返回错误。</para>
-          <para>如果您打算显示自定义进度用户界面而不是使用进度对话框，您应了解没有表示当规则执行启动事件和停止。</para>
-          <para />
-        </remarks>
+          <para>如果<paramref name="ShowProgress" />为<b>true，</b>并在相同的方式取消进度对话框的规则执行，就好像用户已取消用户取消规则的规则和通知向导通过执行。 当用户取消进度对话框，则 Execute将返回错误。</para>
+          <para>如果您打算显示自定义的进度用户界面，而不使用进度对话框，则应当知道没有任何事件指示规则何时开始和停止执行。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExecutionOrder">
@@ -309,13 +290,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示执行之间中其他规则的规则的顺序<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合。 为可读/写属性。</summary>
+        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示执行之间中其他规则的规则的顺序<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExecutionOrder</b>直接映射的数字值<paramref name="Index" />的<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />。例如，Rules.Item(1) 与<b>ExecutionOrder</b>正在 1 代表一个规则、 Rules.Item(2) 与<b>ExecutionOrder</b>正在 2，代表一个规则和 Rules.Item(Rules.Count) 代表<b>ExecutionOrder</b>正在的规则<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>ExecutionOrder</b>直接映射的数字值<paramref name="Index" />的<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />。 例如，Rules.Item(1) 与<b>ExecutionOrder</b>正在 1 代表一个规则、 Rules.Item(2) 与<b>ExecutionOrder</b>正在 2，代表一个规则和 Rules.Item(Rules.Count) 代表<b>ExecutionOrder</b>正在的规则<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsLocalRule">
@@ -341,11 +320,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示是否该规则将执行作为客户端规则。 只读。</summary>
+        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示是否该规则将执行作为客户端规则。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>客户端规则执行仅在运行 Outlook 时。如果<b>IsLocalRule</b>为<b>False</b>，则该规则将执行服务器端规则作为。</para>如果您有 Microsoft Exchange Server 电子邮件帐户的
-          <para>，服务器可以应用服务器端规则消息即使您没有运行 Outlook。必须设置规则它们被传递到收件箱的服务器上，并且必须能够在服务器上完成运行规则时要应用于邮件。例如，规则不能在上完成运行服务器如果操作指定打印邮件。启动 Outlook 时应用的服务器上，不能应用规则，如果。</para><para>如果存储区中的规则集合包含服务器和客户端规则，则服务器端规则将应用首先，客户端规则后跟。</para><para /></remarks>
+        <remarks><para>客户端规则执行仅在运行 Outlook 时。如果 <b>IsLocalRule</b> 为 <b>False</b> 时，该规则执行作为服务器端规则。</para>
+          <para>如果您有 Microsoft Exchange Server 电子邮件帐户，那么，即使 Outlook 未在运行，服务器也可以将服务器端规则应用于邮件。必须将这些规则设置为当邮件到达服务器的"收件箱"中时应用于邮件，并且这些规则必须能够在服务器上完成运行。例如，如果操作指定打印邮件，规则就无法在服务器上完成运行。如果规则不能应用于服务器上，则它会在您启动 Outlook 时应用。</para>
+          <para>如果存储区中的规则集合既包含服务器端规则又包含客户端规则，则先应用服务器端规则，再应用客户端规则。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -374,14 +354,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的规则的名称。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的规则的名称。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>名称</b>是默认属性和索引器中的某个规则的<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合对象。对应于<b>PidTagRuleMsgName</b> (0x65EC001E)。</para>
-          <para>规则的名称不唯一同一集合中的规则。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>Name</b>是默认属性和索引器中的某个规则的<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合对象。 它对应于 <b>PidTagRuleMsgName</b> (0x65EC001E)。</para>
+          <para>同一个集合中规则的名称不唯一。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -409,10 +387,8 @@
       <Docs>
         <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RuleType">
@@ -438,7 +414,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" />枚举，指示是否规则应用于邮件正在发送或接收。 只读。</summary>
+        <summary>返回一个常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" />枚举，指示是否规则应用于邮件正在发送或接收。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -466,19 +442,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

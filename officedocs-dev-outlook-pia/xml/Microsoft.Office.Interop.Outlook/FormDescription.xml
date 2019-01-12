@@ -1,13 +1,5 @@
 <Type Name="FormDescription" FullName="Microsoft.Office.Interop.Outlook.FormDescription">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="474138c677b1667c78f8bf4160d0107458af0554" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632347" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FormDescription" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1625d2c4b84142438b141ea8a9cc465c8ebceaf7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904467" /></Metadata><TypeSignature Language="C#" Value="public interface FormDescription" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormDescription" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormDescription" />
   <TypeSignature Language="VB.NET" Value="Public Interface FormDescription" />
@@ -27,13 +19,11 @@
   </Attributes>
   <Docs>
     <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
-    <remarks>
-      <para>表示 Outlook 窗体的常规属性。</para>
-      <para>在设计时显示窗体的属性页上的 Outlook 窗体属性。</para>
-      <para>若要查看在设计时的属性页上，打开 Outlook 项目、 工具菜单上选择窗体、 单击设计该窗体，，然后单击在项目的窗口中的属性选项卡。</para>
+    <remarks><para>代表 Outlook 窗体的常规属性。</para>
+      <para>在设计过程中，Outlook 窗体的属性显示在窗体的 "属性"页面上。</para>
+      <para>若要在设计过程中查看“属性”页面，请打开 Outlook 项目，选择“工具”菜单上的“窗体”，单击“设计此窗体”，然后单击项目窗口中的“属性”选项卡。</para>
       <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.FormDescription" />属性可返回与 Outlook 项目相关的<b>FormDescription</b>对象。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -59,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,7 +80,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给窗体说明的类别。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给窗体说明的类别。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -121,7 +111,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 分配给窗体说明的子类别。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 分配给窗体说明的子类别。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,7 +139,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -180,7 +170,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给窗体说明的注释的文本。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给窗体说明的注释的文本。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -211,7 +201,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的联系人的信息自定义窗体，此名称<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的联系人的信息自定义窗体，此名称<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -242,12 +232,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的窗体，在选择窗体对话框中显示的名称。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的窗体，在选择窗体对话框中显示的名称。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果两个<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />和<b>FormDescription.DisplayName</b>属性为空，设置一个会将其他设置。如果已以前设置，其他设置不会更改值。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果两个<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />和<b>FormDescription.DisplayName</b>属性为空，设置一个会将其他设置。 如果以前设置了，其他设置不会更改的值。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Hidden">
@@ -276,12 +264,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b>以使指定的自定义窗体，为隐藏。  为可读/写属性。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b>以使指定的自定义窗体，为隐藏。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>自定义窗体不会显示在菜单上，或在选择窗体对话框，并将被指定为另一个自定义窗体中的响应窗体时，才使用。默认值为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>自定义窗体不会显示在菜单或 选择窗体对话框中，并被指定为其他自定义窗体的响应窗体时才会使用。默认值为 <b>False</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Icon">
@@ -310,7 +296,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示窗体显示的图标的文件名。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示窗体显示的图标的文件名。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -341,7 +327,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b> ，如果不能修改窗体。 为可读/写属性。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b> ，如果不能修改窗体。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -369,12 +355,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮件类<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象。  只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮件类<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象。  此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagMessageClass</b>。<b>MessageClass</b>属性链接到窗体所基于的项目。选择项目时，Outlook 将使用的邮件类来定位窗体和公开其属性，如答复命令。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagMessageClass</b> 的 MAPI 属性。 <b>邮件类</b> 属性链接到窗体所基于的项目。当选中某一项时，Outlook 将使用的邮件类来定位该窗体，并列出其属性，如 答复命令。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MiniIcon">
@@ -403,7 +387,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示要显示窗体的小图标的文件名。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示要显示窗体的小图标的文件名。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -434,13 +418,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表窗体的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表窗体的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>名称</b>也是窗体的标题。必须设置此属性，然后才能使用<see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" />方法。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>名称</b> 也是窗体的标题。 必须设置此属性，然后才能使用<see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" />方法。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Number">
@@ -469,7 +450,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置对应于指定的窗体的号码的<b>字符串</b>（C# 中的<b>字符串</b>）。 为可读/写属性。</summary>
+        <summary>返回或设置对应于指定的窗体的号码的<b>字符串</b>（C# 中的<b>字符串</b>）。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -500,7 +481,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b> ，如果窗体将删除一次使用后 （一次性）， <b>False</b>如果窗体保留为自定义窗体。 为可读/写属性。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b> ，如果窗体将删除一次使用后 （一次性）， <b>False</b>如果窗体保留为自定义窗体。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -596,12 +577,10 @@
         <param name="Registry">窗体类。</param>
         <param name="Folder">表达式返回的<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。 只用于窗体注册表。 必须来访问窗体文件夹对象。</param>
         <summary>保存的定义<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定的窗体注册表 （库） 中的对象。</summary>
-        <remarks>
-          <para>
-            <b>注释</b>：<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />属性必须设置在使用<b>PublishForm</b>方法之前。</para>
-          <para>窗体均注册为以下三类之一： 文件夹、 组织或个人。文件夹窗体注册表包含一组仅可访问该特定文件夹中的窗体是否公共或专用。组织窗体注册表包含整个企业内共享和所有人都可以访问窗体。个人窗体注册表拥有仅供当前用户存储的窗体。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>注意</b>：<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />在使用<b>PublishForm</b>方法之前，必须设置属性。</para>
+          <para>窗体注册为以下三类之一：文件夹、组织或个人。"文件夹"窗体注册表拥有一组只能从该特定文件夹访问的窗体，不管是公用的还是私有的。"组织"窗体注册表拥有整个企业都可以共享的窗体，每个人都可以访问。"个人"窗体注册表仅拥有当前存储用户可以访问的窗体。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ScriptText">
@@ -627,7 +606,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 包含所有 VBScript 代码窗体的脚本编辑器中。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 包含所有 VBScript 代码窗体的脚本编辑器中。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -655,19 +634,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Template">
@@ -696,12 +672,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示表单模板的名称。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示表单模板的名称。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性是指 Microsoft Office Word。点模板文件，因此它是适用于窗体与<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />   =  <b>，则返回 True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性是指 Microsoft Office Word。点模板文件，因此它是适用于窗体与<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />   =  <b>，则返回 True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UseWordMail">
@@ -730,7 +704,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b>以 Microsoft Office Word 用作表单的默认编辑器。 为可读/写属性。</summary>
+        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b>以 Microsoft Office Word 用作表单的默认编辑器。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -761,7 +735,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示版本数。 可读/写。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示版本数。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

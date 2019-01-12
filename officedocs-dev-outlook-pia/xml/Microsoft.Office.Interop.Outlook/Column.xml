@@ -1,13 +1,5 @@
 <Type Name="Column" FullName="Microsoft.Office.Interop.Outlook.Column">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="46ea2650432468cf516946b92fbae341d0c68957" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631448" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Column : Microsoft.Office.Interop.Outlook._Column" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b2633365f3bf01e8376f60873e9b594ca9522299" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904460" /></Metadata><TypeSignature Language="C#" Value="public interface Column : Microsoft.Office.Interop.Outlook._Column" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Column implements class Microsoft.Office.Interop.Outlook._Column" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Column" />
   <TypeSignature Language="VB.NET" Value="Public Interface Column&#xA;Implements _Column" />
@@ -31,13 +23,10 @@
   </Attributes>
   <Docs>
     <summary>代表一列中的数据<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Column" />。</para>
-      <para>
-        <b>表</b>组成的行和列。它表示中的数据的只读动态行集<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />或<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象。您可以将<b>表</b>的每一行视为文件夹，每个列作为项目的属性中的项目。默认情况下<b>表</b>包含的文件夹中的项目的属性的子集。这使得<b>表</b>允许快速枚举和筛选文件夹中的项目的内存中轻型 rowset。</para>
-      <para>来获取特定项目 （行）<b>表</b>中的属性 （列） 的值可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetArray(System.Int32)" />方法和索引返回的数组或使用<see cref="P:Microsoft.Office.Interop.Outlook._Row.Item(System.Object)" /><b />属性 (<b>此</b>C# 中)，指定<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />列。</para>
-      <para />
-    </remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Column" />。</para>
+      <para><b>表</b> 由行和列组成。 它表示中的数据的只读动态行集<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />或<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象。 作为一项在文件夹中，每一列视为项目的一个属性，可将 <b>表</b> 中的每一行。 默认情况下， <b>表</b> 包含文件夹中的项目的属性的子集。 这使得 <b>表</b> 允许快速枚举和筛选文件夹中的项目的内存中的轻量行集。</para>
+      <para>若要获取的<b>表</b>中的特定项目 （行） 属性 （列） 的值，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Table.GetArray(System.Int32)" />方法和索引返回的数组或使用<see cref="P:Microsoft.Office.Interop.Outlook._Row.Item(System.Object)" /><b />属性 (<b>此</b>C# 中)，指定<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的列。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

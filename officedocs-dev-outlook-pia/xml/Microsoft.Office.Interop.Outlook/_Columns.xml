@@ -1,13 +1,5 @@
 <Type Name="_Columns" FullName="Microsoft.Office.Interop.Outlook._Columns">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9300e361b5107c915d7b8582ebd31d96a46678c7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632241" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Columns : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9300e361b5107c915d7b8582ebd31d96a46678c7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902801" /></Metadata><TypeSignature Language="C#" Value="public interface _Columns : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Columns implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Columns" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Columns&#xA;Implements IEnumerable" />
@@ -60,14 +52,15 @@
         <param name="Name">作为列添加的属性的名称。</param>
         <summary>添加<see cref="T:Microsoft.Office.Interop.Outlook.Column" />指定<paramref name="Name" />到<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合和重置<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</summary>
         <returns>表示新列的 <b>列</b> 对象。</returns>
-        <remarks>
+        <remarks><para>
+            <b>Columns.Add</b> 将指定的 <b>列</b> 添加到 <b>表</b> 的 <b>列</b> 集合的末尾，并将 <b>表</b> 重置移动当前行仅在 <b>表</b> 的第一行之前。如果 <b>Columns.Add</b> 会返回一个错误，将不会更改当前行。</para>
           <para>
-            <b>Columns.Add</b>将指定的<b>列</b>添加到<b>表</b>中，为<b>Columns</b>集合的末尾，并重置<b>表</b>通过移动到紧邻<b>表</b>的第一行之前的当前行。如果<b>Columns.Add</b>返回一个错误，将不会更改当前行。</para>
-          <para>
-            <paramref name="Name" />可以显式内置属性名称或通过命名空间引用的属性名称。它必须引用为英语区域设置中的名称。通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
-          <para>如果要添加的属性，例如，即对象模型中的显式内置属性<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />，则必须指定<paramref name="Name" />作为英文显式内置属性名称。 对于某些类型的属性，将作为列添加这些属性影响<b>表</b>中表示它们的值的方式时使用的格式。上<b>表</b>中的属性值表示方式的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a></para>
-          <para>如果要自定义属性添加到<b>表</b>中，引用通过 MAPI 字符串命名空间的属性，您将需要显式追加到末尾的属性引用的属性的类型。例如，若要添加自定义属性 MyCustomProperty，具有类型的 Unicode 字符串，您将必须明确类型 001f 追加到该引用，导致： http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f，其中 {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} 表示的命名空间GUID。</para>某些属性不能为
-          <para>添加到<b>表</b>使用<b>Columns.Add</b>，包括二进制属性，计算属性，和 HTML 或 RTF 正文内容。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table 对象或 Table 筛选器中不受支持属性</a></para><para>时<see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />可用于加快缓存某些属性，对这些属性的非常快速访问<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合，某些属性限制从<b>SetColumns</b>。由于这些限制不适用于<b>Columns.Add</b>， <b>Table</b>对象是超过<b>项目</b>限制较少替代。</para><para /></remarks>
+            <paramref name="Name" />可以显式内置属性名称或通过命名空间引用的属性名称。 在英语区域设置中它必须作为名称来引用。 通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
+          <para>如果要添加的属性，例如，即对象模型中的显式内置属性<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />，则必须指定<paramref name="Name" />为英文的显式内置属性名称。  对于某些类型的属性，在将这些属性作为列添加到 <b>表</b> 中表示其值的方式会影响时所用的格式。 上<b>表</b>中的属性值表示方式的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a></para>
+          <para>向 <b>表</b> 中添加一个自定义属性，通过 MAPI 字符串命名空间引用该属性需要的属性类型显式追加到属性引用的结尾。 例如，若要添加自定义属性 MyCustomProperty，具有类型的 Unicode 字符串，您将必须明确类型 001f 追加到该引用，导致： http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f，其中 {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} 表示的命名空间 GUID.</para>
+          <para>某些属性无法添加到使用 <b>Columns.Add</b> ，包括二进制属性、 计算的属性和 HTML 或 rtf 格式的正文内容的 <b>表</b> 中。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table 对象或 Table 筛选器中不受支持属性</a></para>
+          <para>时<see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />可用于加快缓存某些属性，对这些属性的非常快速访问<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合，某些属性禁止<b>SetColumns</b>。 由于这些限制不适用于 <b>Columns.Add</b> ， <b>Table</b> 对象是 <b>项目</b> 比一个限制性较小的替代方案。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -93,7 +86,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -121,7 +114,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />对象。 只读。</summary>
+        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,7 +142,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个表示数的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Column" />集合中的对象。 只读。</summary>
+        <summary>返回一个表示数的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Column" />集合中的对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -209,7 +202,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />对象。 只读。</summary>
+        <summary>返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -239,12 +232,9 @@
       <Docs>
         <param name="Index">一个从 1 开始的索引值，可以是一个用来表示<b>Columns</b>集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<b>列</b>。</param>
         <summary>删除<see cref="T:Microsoft.Office.Interop.Outlook.Column" />指定对象<paramref name="Index" />并重置<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</summary>
-        <remarks>
-          <para>
-            <b>Remove</b>方法通过移动到紧邻<b>表</b>的第一行之前的当前行重置<b>表</b>。如果，但是，无效<paramref name="Index" />已指定，则它将不删除任何列或重置<b>表</b>。</para>
-          <para>如果无效，则返回一条错误消息<paramref name="Index" />已指定。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Remove</b> 方法通过移动当前行仅在 <b>表</b> 的第一行之前重置 <b>表</b> 。 如果，但是，无效<paramref name="Index" />已指定，则它将不删除任何列或重置<b>表</b>。</para>
+          <para>返回一条错误消息，如果一个无效的<paramref name="Index" />已指定。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveAll">
@@ -269,11 +259,9 @@
       <Parameters />
       <Docs>
         <summary>删除中的所有列<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合和重置<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</summary>
-        <remarks>
-          <para>
-            <b>RemoveAll</b>通过移动到紧邻<b>表</b>的第一行之前的当前行重置<b>表</b>。在调用<b>RemoveAll</b>，<see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" />成为零 (0)。</para>
-          <para />
-        </remarks>
+        <remarks><para>通过移动当前行仅在 
+            <b>表</b> 的第一行之前， <b>拔出所有</b> 重置 <b>表</b> 。 在调用<b>RemoveAll</b>，<see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" />成为零 (0)。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -299,19 +287,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="Selection" FullName="Microsoft.Office.Interop.Outlook.Selection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c546cacfd6888cac8506d614c46b0204cc42399d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632987" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Selection : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c7af77512ef69a2ad810f96955f3537afca082e8" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902570" /></Metadata><TypeSignature Language="C#" Value="public interface Selection : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Selection implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Selection" />
   <TypeSignature Language="VB.NET" Value="Public Interface Selection&#xA;Implements IEnumerable" />
@@ -31,10 +23,8 @@
   </Attributes>
   <Docs>
     <summary>包含当前在浏览器中选定的一组 Outlook 项目。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性可返回<b>Selection</b>集合从<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</para>
-      <para />
-    </remarks>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性可返回<b>Selection</b>集合从<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -60,7 +50,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -88,7 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,7 +106,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -147,9 +137,9 @@
         <param name="SelectionContents">指定选定内容中要返回的对象种类。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象，其中包含的指定的对象种类<paramref name="SelectionContents" />参数，并且当前在活动资源管理器中选定。</summary>
         <returns>返回<b>Selection</b>对象包含的指定的种类的活动浏览器中选定的对象。</returns>
-        <remarks>
-          <para>调用<b>GetSelection</b>与<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />，该参数返回<b>Selection</b>对象已<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" />属性等于<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />。</para>如果当前视图不是对话视图，或者，如果<b>位置</b>不等于<b>OlSelectionLocation.olViewList</b>，使用<b>olConversationHeaders</b>作为参数调用<b>GetSelection</b>将返回<b>所选内容</b>的
-          <para>与对象<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />等于 0。</para><para /></remarks>
+        <remarks><para>调用<b>GetSelection</b>与<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />，该参数返回<b>Selection</b>对象已<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" />属性等于<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />。</para>
+          <para>如果当前视图不是对话视图，或者，如果<b>位置</b>不等于<b>OlSelectionLocation.olViewList</b>，则使用<b>olConversationHeaders</b>作为参数调用<b>GetSelection</b>将返回<b>Selection</b>对象与<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />等于 0。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -207,14 +197,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSelectionLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" />指定在 Microsoft Outlook 用户界面中当前所选内容所在的常量。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" />指定在 Microsoft Outlook 用户界面中当前所选内容所在的常量。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Location</b>属性的值<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />意味着当前选定内容位于浏览器中的项目列表。调用<see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" />与<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />，该参数返回<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象与<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />等于当前选定内容中的对话标头的数目。</para>
-          <para>如果<b>Location</b>属性不等于<b>olViewList</b>，调用<b>GetSelection</b><b>olconversationheaders</b> ，该参数返回<b>Selection</b>对象具有<b>计数</b>等于 0。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Location</b>属性的值<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />意味着当前选定内容位于浏览器中的项目列表。 调用<see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" />与<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />，该参数返回<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象与<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />等于当前选定内容中的对话标头数。</para>
+          <para>如果<b>位置</b>属性不等于<b>olViewList</b>，则使用<b>olConversationHeaders</b>作为参数调用<b>GetSelection</b>返回<b>Selection</b>对象具有<b>计数</b>等于 0。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -268,19 +255,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

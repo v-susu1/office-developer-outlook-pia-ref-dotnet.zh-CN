@@ -1,13 +1,5 @@
 <Type Name="NavigationFolder" FullName="Microsoft.Office.Interop.Outlook.NavigationFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c2a2409fbe1ec306f5eef687c9635875089a48f5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633107" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NavigationFolder : Microsoft.Office.Interop.Outlook._NavigationFolder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5130e9ede7b54fc9d0edf44f38d128541dedc4e9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904537" /></Metadata><TypeSignature Language="C#" Value="public interface NavigationFolder : Microsoft.Office.Interop.Outlook._NavigationFolder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationFolder implements class Microsoft.Office.Interop.Outlook._NavigationFolder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />
   <TypeSignature Language="VB.NET" Value="Public Interface NavigationFolder&#xA;Implements _NavigationFolder" />
@@ -31,11 +23,12 @@
   </Attributes>
   <Docs>
     <summary>代表导航窗格内导航模块的导航组中显示的导航文件夹。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索从一个<b>NavigationFolder</b>对象<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合对象的父<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象。使用<see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" />方法创建一个新的<b>NavigationFolder</b>对象的<b>NavigationFolders</b>集合的基于现有<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Folder" />方法可返回或设置<b>NavigationFolder</b>对象所基于的<b>Folder</b>对象。</para>使用
-      <para><see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" />属性确定是否选定的导航文件夹和<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Position" />属性可返回或设置导航窗格中的导航文件夹的显示位置。您还可以使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.DisplayName" />属性可返回导航窗格中的导航文件夹的显示名称。</para><para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" />属性可以确定是否可以从<b>NavigationFolders</b>集合中删除导航文件夹和<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSideBySide" />属性可返回或设置与关联的导航文件夹查看模式<see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" />对象。</para><para /></remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />。 </para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索从一个<b>NavigationFolder</b>对象<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合对象的父<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象。 使用<see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" />方法创建一个新的<b>NavigationFolder</b>对象的<b>NavigationFolders</b>集合的基于现有<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Folder" />方法可返回或设置<b>NavigationFolder</b>对象所基于的<b>Folder</b>对象。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" />属性确定是否选定的导航文件夹和<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Position" />属性可返回或设置导航窗格中的导航文件夹的显示位置。 您还可以使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.DisplayName" />属性可返回导航窗格中的导航文件夹的显示名称。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" />属性可以确定是否可以从<b>NavigationFolders</b>集合中删除导航文件夹和<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSideBySide" />属性可返回或设置与关联的导航文件夹查看模式<see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" />对象。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

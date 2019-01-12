@@ -1,13 +1,5 @@
 <Type Name="OlMarkInterval" FullName="Microsoft.Office.Interop.Outlook.OlMarkInterval">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7c9e49df717ce3ddf0f27eb4d29b64b4f9d7e205" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632870" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlMarkInterval" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5d866ab7681d12730bf668c858772b7531129236" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904971" /></Metadata><TypeSignature Language="C#" Value="public enum OlMarkInterval" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlMarkInterval extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlMarkInterval" />
@@ -21,8 +13,7 @@
   </Base>
   <Docs>
     <summary>指定 Outlook 项目标记为任务的时间段。</summary>
-    <remarks>
-      <para>此枚举由<b>MarkAsTask</b>方法用于以下 Outlook 项目：</para>
+    <remarks><para>此枚举由 <b>MarkAsTask</b> 方法用于以下 Outlook 项目：</para>
       <list type="bullet">
         <item>
           <para>
@@ -44,8 +35,13 @@
             <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />
           </para>
         </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />
+          </para>
+        </item>
       </list>
-      <para>具体取决于所选的值，将以下属性设置为指定的默认值。</para>
+      <para>根据所选的值，以下属性将被设置为指定的默认值。</para>
       <list type="table">
         <item>
           <description>枚举值</description>
@@ -56,46 +52,45 @@
             <b>olMarkComplete</b>
           </description>
           <description>
-            <b>TaskCompletedDate</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中），如果该项目已被标记为任务。如果项目不被标记为任务，或任务已标记完成<b>TaskCompletedDate</b>设置为空日期值 （#1/1/4501 #）。</description>
+            <b>TaskCompletedDate</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中），如果该项目已被标记为任务。 如果项目尚未标记为某项任务，或者如果该任务已被标记完成 <b>TaskCompletedDate</b>设置为空日期值 (第 1/1/4501 #)。</description>
         </item>
         <item>
           <description>
             <b>olMarkNoDate</b>
           </description>
-          <description>
-            <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>、 <b>TaskDueDate</b>和<b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。 </description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。 TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。 <b>TaskStartDate</b>、 <b>TaskDueDate</b>和<b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。  </description>
         </item>
         <item>
           <description>
             <b>olMarkNextWeek</b>
           </description>
-          <description>
-            <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>设置为下周的第一个工作日。  <b>TaskDueDate</b>设置为下周的最后一个工作日。<b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。 TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。 TaskStartDate <b>TaskStartDate</b> 设置为下周的第一个工作日。   TaskDueDate <b>TaskDueDate</b> 设置为下周的最后一个工作日。 <b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。 </description>
         </item>
         <item>
           <description>
             <b>olMarkThisWeek</b>
           </description>
-          <description>
-            <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>设置为当前日期之前的两个工作日的日期。如果该值超过<b>TaskDueDate</b>的值，然后<b>TaskStartDate</b>设置为<b>TaskDueDate</b>的值。  <b>TaskDueDate</b>设置为本周的最后一个工作日。<b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。 TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。 TaskStartDate <b>TaskStartDate</b> 设置为比当前日期早两个工作日的日期。 如果该值超出了 TaskDueDate <b>TaskDueDate</b> 的值，则 TaskStartDate <b>TaskStartDate</b> 将设置为 TaskDueDate <b>TaskDueDate</b> 的值。   TaskDueDate <b>TaskDueDate</b> 设置为本周的最后一个工作日。 <b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。 </description>
         </item>
         <item>
           <description>
             <b>olMarkToday</b>
           </description>
-          <description>
-            <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>和<b>TaskDueDate</b>设置为当前日期。 <b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。 TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。 TaskStartDate <b>TaskStartDate</b> 和 TaskDueDate <b>TaskDueDate</b> 设置为当前日期。  <b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。 <b>ToDoTaskOrdinal</b> 设置为当前日期和时间（在 Visual Basic 中为 <b>Now</b>）。 </description>
         </item>
         <item>
           <description>
             <b>olMarkTomorrow</b>
           </description>
-          <description>
-            <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>和<b>TaskDueDate</b>设置为当前日期晚一天。 <b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</description>
+          <description>IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。 TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。 TaskStartDate <b>TaskStartDate</b> 和 TaskDueDate <b>TaskDueDate</b> 设置为比当前日期晚一天的日期。  <b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。 <b>ToDoTaskOrdinal</b> 设置为当前日期和时间（在 Visual Basic 中为 <b>Now</b>）。 </description>
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olMarkComplete">

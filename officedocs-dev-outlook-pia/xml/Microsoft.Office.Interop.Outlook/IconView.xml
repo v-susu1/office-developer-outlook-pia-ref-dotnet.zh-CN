@@ -1,13 +1,5 @@
 <Type Name="IconView" FullName="Microsoft.Office.Interop.Outlook.IconView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3b48e95b3428e34709f0bdb589bb0a8dfe91f865" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633290" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IconView : Microsoft.Office.Interop.Outlook._IconView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b0a93fbe3620b28d6569f84c38310db201f4fbe0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902885" /></Metadata><TypeSignature Language="C#" Value="public interface IconView : Microsoft.Office.Interop.Outlook._IconView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IconView implements class Microsoft.Office.Interop.Outlook._IconView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.IconView" />
   <TypeSignature Language="VB.NET" Value="Public Interface IconView&#xA;Implements _IconView" />
@@ -31,16 +23,15 @@
   </Attributes>
   <Docs>
     <summary>代表将 Outlook 项目显示为一系列带标签图标的视图。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._IconView" />。</para>
-      <para>
-        <b>IconView</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象，可以创建允许您显示为带有标签大或小图标的 Outlook 项目的可自定义视图。</para>
-      <para>Outlook 提供了几种内置视图，并还可以创建自定义的<b>IconView</b>对象。使用<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合添加到新<b>IconView</b><see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.Standard" />属性可以确定是否内置或自定义现有的<b>IconView</b>对象。</para>
-      <para>
-        <b>IconView</b>对象支持多种不同的视图类型，具体取决于要在其中显示 Outlook 项目所需的布局。使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconViewType" />属性可设置的视图类型。</para>
-      <para>您还可以配置 Outlook 项目<b>IconView</b>对象中的显示方式。使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconPlacement" />属性可以确定 Outlook 项目的图标视图中的排列方式。使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.Filter" />属性确定要在视图中显示 Outlook 项目和<see cref="P:Microsoft.Office.Interop.Outlook._IconView.SortFields" />集指定 Outlook 项目的 outlook 项目在视图中排序的属性。</para>可扩展标记语言 (XML) 格式存储
-      <para>每个<b>IconView</b>对象的定义。使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.XML" />属性以使用<b>IconView</b>对象的 XML 定义。</para>使用
-      <para><see cref="M:Microsoft.Office.Interop.Outlook._IconView.Apply" />方法，以应用于当前视图的<b>IconView</b>对象所做的任何更改。使用<see cref="M:Microsoft.Office.Interop.Outlook._IconView.Save" />方法以持续对<b>IconView</b>对象所做的任何更改。使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.LockUserChanges" />属性以允许或阻止到视图的用户界面的更改。</para><para>可以更改内置<b>IconView</b>对象，但不是能删除它们。使用<see cref="M:Microsoft.Office.Interop.Outlook._IconView.Delete" />方法，以删除自定义的<b>IconView</b>对象。使用<see cref="M:Microsoft.Office.Interop.Outlook._IconView.Reset" />方法的内置的<b>IconView</b>对象的属性重置为其默认值。</para><para /></remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._IconView" />。</para>
+      <para><b>IconView</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象，可以创建允许您显示为带有标签大或小图标的 Outlook 项目的可自定义视图。</para>
+      <para>Outlook 提供多种内置视图，并且您还可以创建自定义的 <b>IconView</b> 对象。 使用<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合添加到新<b>IconView</b> <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。 使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.Standard" />属性可以确定是否内置或自定义现有的<b>IconView</b>对象。</para>
+      <para><b>IconView</b> 对象支持几种不同的视图类型，具体取决于要在其中显示 Outlook 项目所需的布局。 使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconViewType" />属性可设置的视图类型。</para>
+      <para>您还可以配置 Outlook 项目中的 <b>IconView</b> 对象的显示方式。 使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconPlacement" />属性可以确定 Outlook 项目的图标视图中的排列方式。 使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.Filter" />属性确定要在视图中显示 Outlook 项目和<see cref="P:Microsoft.Office.Interop.Outlook._IconView.SortFields" />集指定 Outlook 项目的 outlook 项目在视图中排序的属性。</para>
+      <para>每个 <b>IconView</b> 对象的定义存储在可扩展标记语言 (XML) 格式。 使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.XML" />属性以使用<b>IconView</b>对象的 XML 定义。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._IconView.Apply" />方法，以应用于当前视图的<b>IconView</b>对象所做的任何更改。 使用<see cref="M:Microsoft.Office.Interop.Outlook._IconView.Save" />方法以持续对<b>IconView</b>对象所做的任何更改。 使用<see cref="P:Microsoft.Office.Interop.Outlook._IconView.LockUserChanges" />属性以允许或阻止到视图的用户界面的更改。</para>
+      <para>您可以更改内置的 <b>IconView</b> 对象，但不能删除它们。 使用<see cref="M:Microsoft.Office.Interop.Outlook._IconView.Delete" />方法，以删除自定义的<b>IconView</b>对象。 使用<see cref="M:Microsoft.Office.Interop.Outlook._IconView.Reset" />方法的内置的<b>IconView</b>对象的属性重置为其默认值。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

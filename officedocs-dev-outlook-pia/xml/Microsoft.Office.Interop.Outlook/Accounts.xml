@@ -1,13 +1,5 @@
 <Type Name="Accounts" FullName="Microsoft.Office.Interop.Outlook.Accounts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dabd111d67875448e925763c0eedfe7670198aac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633263" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Accounts : Microsoft.Office.Interop.Outlook._Accounts, Microsoft.Office.Interop.Outlook.AccountsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="126c66dfc0128c6458fcc66e2b655055bc4817a4" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903312" /></Metadata><TypeSignature Language="C#" Value="public interface Accounts : Microsoft.Office.Interop.Outlook._Accounts, Microsoft.Office.Interop.Outlook.AccountsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Accounts implements class Microsoft.Office.Interop.Outlook._Accounts, class Microsoft.Office.Interop.Outlook.AccountsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Accounts" />
   <TypeSignature Language="VB.NET" Value="Public Interface Accounts&#xA;Implements _Accounts, AccountsEvents_Event" />
@@ -33,13 +25,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <b>Accounts</b>集合对象包含一组<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象代表可供当前配置文件的帐户。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Accounts" />。</para>
-      <para>用途的<b>Accounts</b>集合对象和<b>Account</b>对象是允许在给定配置文件的<b>帐户</b>的类型和使用特定<b>帐户的标识的<b>帐户</b>对象的枚举</b>对象来发送邮件。</para>
-      <para />
-    </remarks>
+    <summary><b>Accounts</b>集合对象包含一组<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象代表可供当前配置文件的帐户。</summary>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Accounts" />。</para>
+      <para><b>帐户</b> 集合对象和 <b>帐户</b> 对象的用途是允许在给定配置文件中标识类型的 <b>帐户</b> ，并使用特定的 <b>帐户</b> 对象发送邮件的 <b>帐户</b> 对象的枚举。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

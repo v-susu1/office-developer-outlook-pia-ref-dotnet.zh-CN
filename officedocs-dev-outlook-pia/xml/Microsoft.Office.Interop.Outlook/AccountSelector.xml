@@ -1,13 +1,5 @@
 <Type Name="AccountSelector" FullName="Microsoft.Office.Interop.Outlook.AccountSelector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c409072ad64d234b7e80331a89e5f74f895758a6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633071" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AccountSelector : Microsoft.Office.Interop.Outlook._AccountSelector, Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f008a8efb16494e93ba46b972f92d952aeb25a82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905118" /></Metadata><TypeSignature Language="C#" Value="public interface AccountSelector : Microsoft.Office.Interop.Outlook._AccountSelector, Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AccountSelector implements class Microsoft.Office.Interop.Outlook._AccountSelector, class Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AccountSelector" />
   <TypeSignature Language="VB.NET" Value="Public Interface AccountSelector&#xA;Implements _AccountSelector, AccountSelectorEvents_Event" />
@@ -34,14 +26,10 @@
   </Attributes>
   <Docs>
     <summary>能够获取在父对象的 Microsoft Office Backstage 视图中选择的帐户<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._AccountSelector" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />。</para>
-      <para>
-        <b>AccountSelector</b>对象具有作为其父对象的<b>Explorer</b>对象。您可以获取<b>AccountSelector</b>对象的实例<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.AccountSelector" /><b>资源管理器</b>对象的属性。</para>
-      <para>
-        <b>AccountSelector</b>对象提供<see cref="P:Microsoft.Office.Interop.Outlook._AccountSelector.SelectedAccount" />返回当前帐户已选择 Backstage 视图中的属性。对象还提供<see cref="E:Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event.SelectedAccountChange" />用户已更改 Backstage 视图中的帐户时触发的事件。</para>
-      <para />
-    </remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._AccountSelector" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />。</para>
+      <para><b>AccountSelector</b> 对象具有为其父对象的 <b>资源管理器</b> 对象。 您可以获取<b>AccountSelector</b>对象的实例<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.AccountSelector" /><b>资源管理器</b>对象的属性。</para>
+      <para><b>AccountSelector</b>对象提供<see cref="P:Microsoft.Office.Interop.Outlook._AccountSelector.SelectedAccount" />返回当前帐户已选择 Backstage 视图中的属性。 对象还提供<see cref="E:Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event.SelectedAccountChange" />用户已更改 Backstage 视图中的帐户时触发的事件。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

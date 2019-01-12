@@ -1,13 +1,5 @@
 <Type Name="_OrderFields" FullName="Microsoft.Office.Interop.Outlook._OrderFields">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4707bd736bb2b4cef102b593a1f1d2ea3da54811" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632254" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OrderFields : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4707bd736bb2b4cef102b593a1f1d2ea3da54811" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904068" /></Metadata><TypeSignature Language="C#" Value="public interface _OrderFields : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OrderFields implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OrderFields" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OrderFields&#xA;Implements IEnumerable" />
@@ -60,8 +52,7 @@
         <param name="PropertyName">要与新对象关联的属性的名称。</param>
         <param name="IsDescending">用于设置的值<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" />的新的<b>OrderField</b>对象的属性。 如果未指定此值，则使用 <b>IsDescending</b> 属性的默认值。</param>
         <summary>创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />对象，并将其追加<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />集合。</summary>
-        <returns>
-          <b>OrderField</b> 对象，该对象表示新订单字段。</returns>
+        <returns><b>OrderField</b> 对象，该对象表示新订单字段。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -88,7 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,7 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,7 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示数目的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />指定集合中的对象。 只读。</summary>
+        <summary>返回指示数目的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />指定集合中的对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -177,8 +168,7 @@
         <param name="Index">用于插入新的对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />集合中要在其中插入新的对象是对象的属性值。</param>
         <param name="IsDescending">用于设置的值<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" />的新的<b>OrderField</b>对象的属性。 如果未指定此值，则使用 <b>IsDescending</b> 属性的默认值。</param>
         <summary>创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />对象，并将其插入中指定索引处<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />集合。</summary>
-        <returns>
-          <b>OrderField</b> 对象，该对象表示新订单字段。</returns>
+        <returns><b>OrderField</b> 对象，该对象表示新订单字段。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -210,8 +200,7 @@
       <Docs>
         <param name="Index">值可以是索引中的<b>OrderField</b>对象的基于一的整数<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />集合、 字符串匹配的<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />的集合或在字段选择器中显示的字段名称中的<b>OrderField</b>对象的属性值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OrderField" />对象的集合。</summary>
-        <value>
-          <b>OrderField</b> 对象，该对象代表指定的对象。</value>
+        <value><b>OrderField</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -319,19 +308,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

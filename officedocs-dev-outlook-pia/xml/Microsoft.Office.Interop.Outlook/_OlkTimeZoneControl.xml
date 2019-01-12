@@ -1,13 +1,5 @@
 <Type Name="_OlkTimeZoneControl" FullName="Microsoft.Office.Interop.Outlook._OlkTimeZoneControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631601" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902787" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTimeZoneControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTimeZoneControl" />
@@ -56,12 +48,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAppointmentTimeField</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" />指定时间字段的控件绑定针对约会的常量。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" />指定时间字段的控件绑定针对约会的常量。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此控件不支持标准数据绑定。</para>
-          <para />
-        </remarks>
+        <remarks><para>此控件不支持标准数据绑定。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -90,12 +80,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />定义的控件周围的边框样式的常量。   为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />定义的控件周围的边框样式的常量。   读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olBorderStyleSingle</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olBorderStyleSingle</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -120,10 +108,8 @@
       <Parameters />
       <Docs>
         <summary>展开时区控件的下拉部分。</summary>
-        <remarks>
-          <para>模拟用户单击下拉按钮控件上。此方法会导致<see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" />触发事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>模拟用户单击控件上的下拉按钮。 此方法会导致<see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" />触发事件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -152,12 +138,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -186,13 +170,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件处于锁定状态而被更改。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件处于锁定状态而被更改。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>False</b>。 </para>
-          <para>当控件处于锁定状态，该控件不具有"已禁用"外观，但是用户不能编辑控件的内容。  </para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>False</b> 。</para>
+          <para>当控件处于锁定状态时，该控件不具有"禁用"外观，但是用户不能编辑控件中的内容。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -221,12 +203,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。 为可读/写属性。</summary>
+        <summary>返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -255,12 +235,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olMousePointerDefault</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olMousePointerDefault</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedTimeZoneIndex">
@@ -289,13 +267,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> )，表示索引<see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" />确定选定的时区的集合。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> )，表示索引<see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" />确定选定的时区的集合。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Selectedtimezoneindex 从</b>1 开始，和已选择任何时区零 (0) 表示的值。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>SelectedTimeZoneIndex</b> 是基于 1 的一个值为零 (0) 表示，任何时区已被选中。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -324,7 +300,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>对象</b>，表示控件的内容。 可读/写。</summary>
+        <summary>返回或设置一个<b>对象</b>，表示控件的内容。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

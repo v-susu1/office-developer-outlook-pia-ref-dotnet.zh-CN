@@ -1,13 +1,5 @@
 <Type Name="AddressEntries" FullName="Microsoft.Office.Interop.Outlook.AddressEntries">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4bda78f2cfac522b2c9037bd4e14d0b6b1213f6c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632296" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressEntries : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="934ec4a81165b2002ddbd25cdf69cfc08184863b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903151" /></Metadata><TypeSignature Language="C#" Value="public interface AddressEntries : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressEntries implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressEntries" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressEntries&#xA;Implements IEnumerable" />
@@ -31,10 +23,8 @@
   </Attributes>
   <Docs>
     <summary>包含的地址集合<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象。</summary>
-    <remarks>
-      <para>该对象可能包含零个或多<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，并且提供对传输提供程序的通讯簿容器中的项的访问。</para>
-      <para />
-    </remarks>
+    <remarks><para>该对象可能包含零个或多<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，并且提供对传输提供程序的通讯簿容器中的项的访问。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -65,12 +55,9 @@
         <param name="Name">新条目的名称。</param>
         <param name="Address">地址。</param>
         <summary>添加新项到<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />集合。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，它代表新条目。</returns>
-        <remarks>
-          <para>新条目或对现有条目的更改之后调用直到集合中不保留<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" />方法。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，它代表新条目。</returns>
+        <remarks><para>新条目或对现有条目的更改之后调用直到集合中不保留<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" />方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -96,7 +83,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -124,7 +111,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,7 +139,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -179,12 +166,9 @@
       <Parameters />
       <Docs>
         <summary>返回中的第一个对象<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />集合。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，表示包含在集合中的第一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，表示包含在集合中的第一个对象。</returns>
+        <remarks><para>返回 <b>任何内容</b> 如果不存在第一个对象，例如，如果集合中没有对象。 以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -209,12 +193,9 @@
       <Parameters />
       <Docs>
         <summary>返回中的最后一个对象<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />集合。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，表示包含在集合中的最后一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，表示包含在集合中的最后一个对象。</returns>
+        <remarks><para>返回 <b>Nothing</b> 如果没有最后一个对象存在，例如，如果集合为空。 以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -239,12 +220,9 @@
       <Parameters />
       <Docs>
         <summary>返回中的下一个对象<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />集合。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，代表集合包含的下一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，代表集合包含的下一个对象。</returns>
+        <remarks><para>返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -269,12 +247,9 @@
       <Parameters />
       <Docs>
         <summary>返回中的上一个对象<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />集合。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，代表集合包含的上一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，代表集合包含的上一个对象。</returns>
+        <remarks><para>返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -305,8 +280,7 @@
       <Docs>
         <param name="Index">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象的集合。</summary>
-        <value>
-          <b>AddressEntry</b> 对象，该对象代表指定的对象。</value>
+        <value><b>AddressEntry</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -392,19 +366,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sort">
@@ -433,11 +404,9 @@
         <param name="Property">作为排序依据的属性名称，可以用方括号括起来（如"[公司名称]"）。不能是用户定义字段，也不能是多值属性，如"类别"。</param>
         <param name="Order">指定的地址条目的顺序。可以是其中一个 <b>OlSortOrder</b> 常量: <b>olAscending</b> 、 <b>olDescending</b> 或 <b>olSortNone</b> 。 </param>
         <summary>按指定属性对项目的集合进行排序。在完成该方法后将集合的索引重新设置为 1。</summary>
-        <remarks>
-          <para>
-            <b>排序</b>只影响集合中的项的顺序。它不会影响资源管理器视图中的项目的顺序。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>排序</b> 将仅影响集合中项目的顺序。它不影响浏览器视图中项目的顺序。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

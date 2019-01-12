@@ -1,13 +1,5 @@
 <Type Name="Exceptions" FullName="Microsoft.Office.Interop.Outlook.Exceptions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="520fadd96b8362d70a9b5a030b8ffe9075c071ff" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633264" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Exceptions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7f68233838899e145d387aa0eb20809a1521e737" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903207" /></Metadata><TypeSignature Language="C#" Value="public interface Exceptions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Exceptions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Exceptions" />
   <TypeSignature Language="VB.NET" Value="Public Interface Exceptions&#xA;Implements IEnumerable" />
@@ -31,12 +23,10 @@
   </Attributes>
   <Docs>
     <summary>包含一组<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />对象。</summary>
-    <remarks>
-      <para>如果您有定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象定义这些约会的定期。<b>Exceptions</b>对象包含定义到约会的系列的例外的<b>Exception</b>对象的组。</para>
-      <para>
-        <b>Exception</b>对象添加到<b>Exceptions</b>对象时修改相应的<b>AppointmentItem</b>对象中的属性。</para>
-      <para />
-    </remarks>
+    <remarks><para>如果您有定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象定义这些约会的定期。 <b>异常</b> 对象包含对约会的定义异常的 <b>异常</b> 对象的组。</para>
+      <para>相应的 
+        <b>AppointmentItem</b> 对象中的属性被更改时， <b>异常</b> 对象被添加到 <b>异常</b> 对象。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -62,7 +52,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,7 +80,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -118,7 +108,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,8 +141,7 @@
       <Docs>
         <param name="Index">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />对象的集合。</summary>
-        <value>
-          <b>异常</b> 对象，该对象代表指定的对象。</value>
+        <value><b>异常</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -207,19 +196,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

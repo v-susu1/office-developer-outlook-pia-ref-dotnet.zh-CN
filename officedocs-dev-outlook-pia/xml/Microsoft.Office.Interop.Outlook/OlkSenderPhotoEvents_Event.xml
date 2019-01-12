@@ -1,13 +1,5 @@
 <Type Name="OlkSenderPhotoEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkSenderPhotoEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="38b39f13b137a4b4ed1bf56097da0fda2cac1133" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631875" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkSenderPhotoEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="822ba4099c9cbb5e680fd7e7bbc599cadba66c9d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905057" /></Metadata><TypeSignature Language="C#" Value="public interface OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkSenderPhotoEvents_Event" />
@@ -49,10 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>当发件人的联系人图片已更改时发生。</summary>
-        <remarks>
-          <para>发件人的联系人图片的更改通常意味着，<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" />和<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" />属性以及已更改。因此，此事件可以用作表示需要调整控件的大小。</para>
-          <para />
-        </remarks>
+        <remarks><para>发件人的联系人图片的更改通常意味着，<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" />和<see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" />属性以及已更改。 因此，此事件可用来表示需要调整控件的大小。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Click">
@@ -128,10 +118,8 @@
       </ReturnValue>
       <Docs>
         <summary>在控件上出现鼠标移动后发生。</summary>
-        <remarks>
-          <para>按 ALT 键可触发<b>MouseMove</b>事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>按下 ALT键触发 <b>MouseMove</b> 事件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

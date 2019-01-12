@@ -1,13 +1,5 @@
 <Type Name="OlkComboBoxEvents_BeforeUpdateEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_BeforeUpdateEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3c4e694eb0f77aa4272bbaab51c1423e687610ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631643" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void OlkComboBoxEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="37fe3b0190b3f1b332404d6aa24fb36f1320ff9e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905545" /></Metadata><TypeSignature Language="C#" Value="public delegate void OlkComboBoxEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkComboBoxEvents_BeforeUpdateEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_BeforeUpdateEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkComboBoxEvents_BeforeUpdateEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>假</b> 的事件发生时。如果事件过程将此参数设置为 <b>True</b> ，将不完成该操作，将不会更新绑定到该控件的属性。 </param>
+    <param name="Cancel"><b>假</b> 的事件发生时。如果事件过程将此参数设置为 <b>True</b> ，将不完成该操作，将不会更新绑定到该控件的属性。 </param>
     <summary>这是针对相应对象中的事件的委派。在对事件实现回调方法后，使用此委派将回调方法连接到该事件。如果存在多个版本的事件接口，此委派将为指定版本的 Outlook 中的事件连接回调方法。</summary>
     <remarks>To be added.</remarks>
   </Docs>

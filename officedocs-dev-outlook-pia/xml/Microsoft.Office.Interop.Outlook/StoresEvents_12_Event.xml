@@ -1,13 +1,5 @@
 <Type Name="StoresEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.StoresEvents_12_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b7130da689629b3854734549d3eea36f219b10b1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632468" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1da25ba77d55a14d75d64b193c88a0a25d516efe" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903816" /></Metadata><TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StoresEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StoresEvents_12_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface StoresEvents_12_Event" />
@@ -49,37 +41,35 @@
       </ReturnValue>
       <Docs>
         <summary>发生此事件时<see cref="T:Microsoft.Office.Interop.Outlook.Store" />即将通过编程方式或通过用户操作从当前会话中删除。</summary>
-        <remarks>
-          <para>顺序触发此事件，必须运行 outlook。时，将触发此事件发生以下任一情况： </para>
+        <remarks><para>Outlook 必须处于运行状态才能触发此事件。发生以下任一情况时将触发此事件：</para>
           <list type="bullet">
             <item>
-              <para>存储区删除的用户单击快捷菜单上的关闭命令。</para>
+              <para>用户在"快捷方式"菜单上单击 "关闭"命令以删除存储区。</para>
             </item>
             <item>
               <para>通过调用以编程方式删除存储区<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />。</para>
             </item>
           </list>
-          <para>时，不会触发此事件发生以下任一情况：</para>
+          <para>发生以下任一情况时不触发此事件： </para>
           <list type="bullet">
             <item>
-              <para>当 Outlook 关闭并关闭主或代理存储区。</para>
+              <para>Outlook 结束运行并关闭主存储区或代理存储区。</para>
             </item>
             <item>
-              <para>如果通过 Microsoft Windows 控制面板中的邮件小程序删除存储区并且 Outlook 没有运行。</para>
+              <para>通过 Microsoft Windows 控制面板中的 "邮件"小程序删除存储区并且 Outlook 未处于运行状态。</para>
             </item>
             <item>
-              <para>Microsoft Exchange Server 对话框的高级选项卡上删除代理存储区。</para>
+              <para>在 "Microsoft Exchange Server"对话框的 "高级"选项卡上删除代理存储区。</para>
             </item>
             <item>
-              <para>通过帐户管理器对话框的数据文件选项卡删除存储区时未运行 Outlook。</para>
+              <para>在未运行 Outlook 时通过 "帐户管理器"对话框的 "数据文件"选项卡删除存储区。</para>
             </item>
             <item>
               <para>从配置文件中删除 IMAP 存储区。</para>
             </item>
           </list>
-          <para>可以使用此事件来确定已删除存储区，并采取相应的操作，如果存储是需要您的应用程序 （如重新装入存储）。否则将必须借助轮询<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />集合。</para>
-          <para />
-        </remarks>
+          <para>可以使用此事件确定是否删除了某个存储区；如果应用程序需要此存储区，则采取相应的操作（例如重新安装存储区）。 否则将必须借助轮询<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />集合。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreAdd">
@@ -98,34 +88,32 @@
       </ReturnValue>
       <Docs>
         <summary>发生此事件时<see cref="T:Microsoft.Office.Interop.Outlook.Store" />以编程方式或通过用户操作已添加到当前会话。</summary>
-        <remarks>
-          <para>顺序触发此事件，必须运行 outlook。发生下列任一情况时，将触发此事件： </para>
+        <remarks><para>Outlook 必须处于运行状态才能触发此事件。发生以下任一情况时将触发此事件：</para>
           <list type="bullet">
             <item>
-              <para>添加存储区打开 Outlook 数据文件对话框中，通过选择打开，然后在文件菜单上的 Outlook 数据文件。</para>
+              <para>在 "文件"菜单上依次选择 "打开"和 "Outlook 数据文件"，然后通过选择 "打开 Outlook 数据文件"对话框添加存储区。</para>
             </item>
             <item>
-              <para>通过帐户管理器对话框的数据文件选项卡添加存储区。</para>
+              <para>通过 "帐户管理器"对话框的 "数据文件"选项卡添加存储区。</para>
             </item>
             <item>
               <para>通过调用成功添加存储区<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" />方法。</para>
             </item>
           </list>
-          <para>时，不会触发此事件发生以下任一情况：</para>
+          <para>发生以下任一情况时不触发此事件： </para>
           <list type="bullet">
             <item>
-              <para>当 Outlook 启动并打开主或代理存储区。</para>
+              <para>在 Outlook 启动并打开主存储区或代理存储区时。</para>
             </item>
             <item>
-              <para>如果通过 Microsoft Windows 控制面板中的邮件小程序添加存储区并且 Outlook 没有运行。</para>
+              <para>如果在 Microsoft Windows 控制面板中通过 "邮件"小程序添加存储区并且未运行 Outlook。</para>
             </item>
             <item>
-              <para>通过 Microsoft Exchange Server 对话框的高级选项卡添加代理存储区。</para>
+              <para>通过 "Microsoft Exchange Server"对话框的 "高级"选项卡添加代理存储区。</para>
             </item>
           </list>
-          <para>您可以使用此事件以确定是否已添加存储区，并对该存储区中的项采取相应的操作。否则，您将需要借助轮询<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />集合。</para>
-          <para />
-        </remarks>
+          <para>可以使用此事件确定是否添加了某个存储区，然后对该存储区中的项目采取相应的操作。 否则，您将需要借助轮询<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />集合。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

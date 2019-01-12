@@ -1,13 +1,5 @@
 <Type Name="RuleAction" FullName="Microsoft.Office.Interop.Outlook.RuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5743cd73382d3ab8101df11cb011aba2ef07f771" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632457" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RuleAction : Microsoft.Office.Interop.Outlook._RuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="132f27cc744a51b00f4dfbd300f92e64bf1697d0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903956" /></Metadata><TypeSignature Language="C#" Value="public interface RuleAction : Microsoft.Office.Interop.Outlook._RuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleAction implements class Microsoft.Office.Interop.Outlook._RuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface RuleAction&#xA;Implements _RuleAction" />
@@ -31,10 +23,9 @@
   </Attributes>
   <Docs>
     <summary>代表运行时操作<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象执行。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._RuleAction" />。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._RuleAction" />。 </para>
       <para>
-        <b>RuleAction</b>是支持的编程方式创建规则的规则操作的基类。派生自<b>RuleAction</b>的类包括： </para>
+        <b>RuleAction</b> 是支持以编程方式创建规则的规则操作的基类。从 <b>RuleAction</b> 派生的类包括︰</para>
       <list type="bullet">
         <item>
           <para>
@@ -61,11 +52,15 @@
             <see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" />
           </para>
         </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" />
+          </para>
+        </item>
       </list>
-      <para>规则对象模型提供与规则和通知向导在 Outlook 用户界面中的部分奇偶校验。它支持的最常用的规则操作和条件。尽管它不支持创建规则与每个规则操作或规则条件，该向导支持，您可以仍枚举和启用这些规则操作和中现有规则的条件。</para>
+      <para>Rules 对象模型与 Outlook 用户界面中的“规则和通知向导”具有部分对应关系。Rules 对象模型支持最常用的规则操作和条件。尽管它无法支持该向导所能够支持的每个规则操作或规则条件，但是，您仍可以在现有的规则中枚举和启用这些规则操作和规则条件。</para>
       <para>规则操作的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">如何： 创建特定电子邮件移动到文件夹规则</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

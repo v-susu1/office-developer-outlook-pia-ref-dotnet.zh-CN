@@ -1,13 +1,5 @@
 <Type Name="OlRuleConditionType" FullName="Microsoft.Office.Interop.Outlook.OlRuleConditionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="420b4d8422ef3de8b9f1b7ac956632bf20619f7b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632861" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="55c9c3c8d21a782558acd0cb913818a13333d9f0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903711" /></Metadata><TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlRuleConditionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlRuleConditionType" />
@@ -21,11 +13,9 @@
   </Base>
   <Docs>
     <summary>指定规则的规则条件或例外条件的类型。</summary>
-    <remarks>
-      <para>的此枚举中的规则条件类型的列表包含所有规则条件和例外条件的规则和通知向导支持。请注意时以编程方式可以枚举所有规则条件和规则例外条件，, 您可以以编程方式创建规则与仅最常使用的条件。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
-      <para>例如规则条件类型<b>olConditionDateRange</b><b>olConditionSizeRange</b>支持和仅枚举和中启用或禁用现有规则.使用这种情况，不能以编程方式创建规则。您不能以编程方式获取或设置值的 x 和 y 的表示范围。</para>
-      <para />
-    </remarks>
+    <remarks><para>The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports. Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions. 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
+      <para>例如，仅用于枚举和中启用或禁用现有规则支持的规则条件类型<b>olConditionDateRange</b>和<b>olConditionSizeRange</b> 。 您不能以编程方式创建具有此种条件的规则。 您不能以编程方式获取或设置代表范围的 x 和 y 的值。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olConditionAccount">
