@@ -1,13 +1,5 @@
 <Type Name="Attachments" FullName="Microsoft.Office.Interop.Outlook.Attachments">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2b8b26dcc7340ad097dbcab31fa6b4722b3b19e2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631814" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachments : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6f34c001cfd4c3278473ca2d66f73650667d3c4b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898730" /></Metadata><TypeSignature Language="C#" Value="public interface Attachments : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachments implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachments" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachments&#xA;Implements IEnumerable" />
@@ -31,12 +23,10 @@
   </Attributes>
   <Docs>
     <summary>包含一组<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />代表 Outlook 项目中的附件的对象。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />属性可以返回任何 Outlook 项目 （便笺除外） 的<b>Attachments</b>集合。</para>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />属性可以返回任何 Outlook 项目 （便笺除外） 的<b>Attachments</b>集合。</para>
       <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />方法，以向项目添加附件。</para>
-      <para>若要确保一致的结果，始终将项目保存之前添加或删除项目的<b>Attachments</b>集合中的对象。</para>
-      <para />
-    </remarks>
+      <para>若要确保结果一致，总是在添加或移除项的 <b>附件</b> 集合中的对象之前保存项。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -69,13 +59,9 @@
         <param name="Position">此参数仅电子邮件消息使用 Microsoft Outlook 富文本格式： 它是附件的邮件正文文本中的放置位置的位置。 值为 1 的<paramref name="Position" />参数指定是否应在邮件正文的开头放置附件。 大于电子邮件项目正文中的字符数的值"n"指定附件应放置在末尾。 值为 0 表示隐藏附件。</param>
         <param name="DisplayName">此参数仅适用于邮件项目是富文本格式和类型设置为<b>olByValue</b>: 名称显示在<b>Inspector</b>对象的附件或查看附件的属性时。 如果邮件项目是以纯文本或 HTML 格式，则附件显示使用中的文件名称<paramref name="Source" />参数。</param>
         <summary>创建一个新附件中的<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />集合。</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象，表示新附件。</returns>
-        <remarks>
-          <para>
-            <b>附件</b>添加到项目的<b>Attachments</b>集合后，<b>附件</b>的<b>Type</b>属性将始终返回<b>olOLE</b> (6) 保存项目之前。若要确保一致的结果，始终将项目保存之前添加或删除对象的<b>Attachments</b>集合中。</para>
-          <para />
-        </remarks>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象，表示新附件。</returns>
+        <remarks><para>在 <b>附件</b> 添加到项目的 <b>附件</b> 集合， <b>附件</b> 的 <b>Type</b> 属性将始终返回 <b>olOLE</b> (6) 在保存项目之前。为了确保一致的结果，总是在添加或删除 <b>附件</b> 集合中的对象之前保存项。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -101,7 +87,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -129,7 +115,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -157,7 +143,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -273,19 +259,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

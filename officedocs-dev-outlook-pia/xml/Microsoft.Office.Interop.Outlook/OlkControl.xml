@@ -1,13 +1,5 @@
 <Type Name="OlkControl" FullName="Microsoft.Office.Interop.Outlook.OlkControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5775f16b4f47ab029314c22c5ef7bfb307c13e1f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631461" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5939b00a41bad44f31458db50a6e9149c2069729" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901884" /></Metadata><TypeSignature Language="C#" Value="public interface OlkControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkControl" />
@@ -27,11 +19,8 @@
   </Attributes>
   <Docs>
     <summary>定义某些 Microsoft Outlook 控件通用的一些控件属性。</summary>
-    <remarks>
-      <para>
-        <b>OlkControl</b>提供的成员可以应用于大多数 Outlook 控件。 <b>OlkControl</b>提供指可以方便地强制转换一个 Outlook 控件，而无需进行反射的类。尽管<b>OlkControl</b>不适用于 Microsoft Forms 2.0 控件，类似属性是供 Forms 2.0 控件。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98： 其他控件属性可用于编程</a></para>
-      <para />
-    </remarks>
+    <remarks><para>由 <b>OlkControl</b> 提供的成员可以应用到大多数的 Outlook 控件。  <b>OlkControl</b>提供指可以方便地强制转换一个 Outlook 控件，而无需进行反射的类。 虽然 <b>OlkControl</b> 不适用于 Microsoft Forms 2.0 控件，类似属性是可用于 Forms 2.0 控件。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98： 其他控件属性可用于编程</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="ControlProperty">
@@ -91,12 +80,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，启用自动调整的相对于窗体的其余控件的布局。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，启用自动调整的相对于窗体的其余控件的布局。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>自动调整控件的布局包括垂直或水平对齐相对于其他控件，该控件和规模的高度或宽度的控件的宽度或窗体的宽度。</para>
-          <para />
-        </remarks>
+        <remarks><para>控件布局的自动调整包含将控件与其他控件垂直或水平对齐，以及按照窗体的高度和宽度调整控件的高度和宽度。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Format">
@@ -125,15 +112,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> ) 值，指定一个值的控件中显示方式。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> ) 值，指定一个值的控件中显示方式。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Format</b>属性可以是介绍如何显示一个值枚举中的常量。例如，可以<b>格式</b>指定为中定义常量<b>olFormatCurrencyDecimal</b><see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" />枚举，以显示货币值<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />控件。</para>
-          <para>
-            <b>格式</b>属性是特定于该控件绑定到 Outlook 对象模型中的属性。后者由<see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />。如果控件未绑定到任何属性，则访问<b>格式</b>将返回错误。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>格式</b> 属性可以是在描述如何显示一个值的枚举常量。 例如，可以<b>格式</b>指定为中定义常量<b>olFormatCurrencyDecimal</b> <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" />枚举，以显示货币值<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />控件。</para>
+          <para><b>Format</b>属性是特定于该控件绑定到 Outlook 对象模型中的属性。 后者由<see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />。 如果该控件未绑定到任何属性，则访问 <b>Format</b> 将返回一个错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HorizontalLayout">
@@ -162,7 +145,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlHorizontalLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" />指定任何对齐方式与其他选定控件的窗体上的此控件在水平方向的常量或是否控件在水平方向时自动调整更改窗体的宽度。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" />指定任何对齐方式与其他选定控件的窗体上的此控件在水平方向的常量或是否控件在水平方向时自动调整更改窗体的宽度。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -193,7 +176,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该控件绑定到 Outlook 对象模型中指定的属性的名称。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该控件绑定到 Outlook 对象模型中指定的属性的名称。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -224,13 +207,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指定该控件可自动调整到的最小高度。 为可读/写属性。</summary>
+        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指定该控件可自动调整到的最小高度。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />必须按<b>MinimumLength</b>生效的顺序设置为<b>True</b> 。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MinimumWidth">
@@ -259,13 +240,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指定该控件可自动调整到最小宽度的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置指定该控件可自动调整到最小宽度的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />必须按<b>MinimumWidth</b>生效的顺序设置为<b>True</b> 。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PossibleValues">
@@ -294,12 +273,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的可能值的控件的下拉列表、 分隔的列表由分号分隔。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的可能值的控件的下拉列表、 分隔的列表由分号分隔。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>对于不支持下拉列表的控件，此属性的值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para />
-        </remarks>
+        <remarks><para>对于不支持下拉列表的控件，此属性的值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="VerticalLayout">
@@ -328,7 +305,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlVerticalLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" />指定任何对齐方式与其他选定控件的窗体上的此控件在垂直方向的常量或是否控件在垂直方向时自动调整更改窗体的长度。 可读/写。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" />指定任何对齐方式与其他选定控件的窗体上的此控件在垂直方向的常量或是否控件在垂直方向时自动调整更改窗体的长度。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

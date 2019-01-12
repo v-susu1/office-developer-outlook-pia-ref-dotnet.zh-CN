@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="94f38ddf6e70cd1c60c264bff6a43ceefb4bb85d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632322" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1284170d4c7d7e9f8115cbb6aa1c5cae9ad00511" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896798" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户通过编程方式，或者通过与用户界面交互，在活动资源管理器中选择其他附件或更多附件时发生。</summary>
-        <remarks>
-          <para>活动资源管理器中选择的任何项目的不同或更多附件时，将触发<b>AttachmentSelectionChange</b>事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>在活动资源管理器中选择任何一项其他附件时，将激发 <b>AttachmentSelectionChange</b> 事件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeFolderSwitch">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>在浏览器前往新文件夹前发生，可以是用户操作或程序代码的结果。</summary>
-        <remarks>
-          <para>如果切换到文件夹位于不支持自动化 （如文件系统） 的命名空间<paramref name="NewFolder" />是<b>执行任何操作</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果切换到文件夹位于不支持自动化 （如文件系统） 的命名空间<paramref name="NewFolder" />是<b>执行任何操作</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCopy">
@@ -112,10 +100,8 @@
       </ReturnValue>
       <Docs>
         <summary>复制 Outlook 项目时发生。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCut">
@@ -134,10 +120,8 @@
       </ReturnValue>
       <Docs>
         <summary>从文件夹中剪切 Outlook 项目时发生。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。如果取消该事件，将不删除项目。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。如果事件被取消，将不删除项目。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemPaste">
@@ -156,10 +140,8 @@
       </ReturnValue>
       <Docs>
         <summary>粘贴 Outlook 项目时发生。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMaximize">
@@ -178,10 +160,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户最大化浏览器时发生。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMinimize">
@@ -200,10 +180,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户最小化活动浏览器时发生。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMove">
@@ -222,10 +200,8 @@
       </ReturnValue>
       <Docs>
         <summary>发生此事件时<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />移动用户。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeSize">
@@ -244,10 +220,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户调整当前大小时发生<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。如果取消该事件，不调整窗口。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。如果取消该事件，将不调整窗口大小。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeViewSwitch">
@@ -285,10 +259,8 @@
       </ReturnValue>
       <Docs>
         <summary>关闭浏览器时发生。</summary>
-        <remarks>
-          <para>如果您使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" />方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果您使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" />方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Deactivate">
@@ -345,10 +317,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户执行的操作导致内嵌响应显示在阅读窗格中时发生。</summary>
-        <remarks>
-          <para>此事件返回一个代表内嵌响应项目的项目对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>此事件返回一个代表内嵌响应项目的项目对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InlineResponseClose">
@@ -367,8 +337,7 @@
       </ReturnValue>
       <Docs>
         <summary>当用户执行的操作导致的阅读窗格中的活动内嵌响应关闭时发生。</summary>
-        <remarks>
-          <para>的新的内嵌响应时，会触发此事件或草稿内嵌响应关闭原因如下：</para>
+        <remarks><para>在新的内嵌响应时，会触发此事件或草稿内嵌响应关闭原因如下：</para>
           <list type="bullet">
             <item>
               <para>用户选择<b>弹出出</b>命令。</para>
@@ -383,14 +352,13 @@
               <para>当用户导航到邮件列表中的不同邮件。</para>
             </item>
             <item>
-              <para>当用户导航到另一个文件夹。</para>
+              <para>用户导航到另一个文件夹。</para>
             </item>
             <item>
               <para>用户切换模块，例如从到日历模块邮件模块。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionChange">
@@ -409,10 +377,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户切换到使用用户界面 (UI) 的文件夹中的其他项时发生或以编程方式。</summary>
-        <remarks>
-          <para>也会发生此事件时用户，或者是以编程方式或使用用户 inerface 中，单击或切换到另一个包含项目，如 Outlook 自动在该文件夹中选择的第一个项目的文件夹。但是，如果文件夹是文件系统文件夹，或者显示具有当前 Web 视图的任何文件夹，也不会发生此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>也会发生此事件时用户，或者是以编程方式或使用用户 inerface 中，单击或切换到另一个包含项目，如 Outlook 自动在该文件夹中选择的第一个项目的文件夹。 但是，如果该文件夹是文件系统文件夹，或者是显示当前 Web 视图的任何文件夹，那么不会发生此事件。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewSwitch">

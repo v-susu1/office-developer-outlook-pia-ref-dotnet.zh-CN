@@ -1,13 +1,5 @@
 <Type Name="ViewFont" FullName="Microsoft.Office.Interop.Outlook.ViewFont">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d5c2e1938663f908764deab25e8a1166f1a777ec" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632887" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ViewFont : Microsoft.Office.Interop.Outlook._ViewFont" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1ce58650a73a891bb0384ef901004455577ed173" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897449" /></Metadata><TypeSignature Language="C#" Value="public interface ViewFont : Microsoft.Office.Interop.Outlook._ViewFont" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ViewFont implements class Microsoft.Office.Interop.Outlook._ViewFont" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ViewFont" />
   <TypeSignature Language="VB.NET" Value="Public Interface ViewFont&#xA;Implements _ViewFont" />
@@ -31,33 +23,26 @@
   </Attributes>
   <Docs>
     <summary>代表设置视图不同部分中文本的格式时使用的字体。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ViewFont" />。</para>
-      <para>下列对象使用<b>ViewFont</b>对象来表示字体格式应用于视图不同部分中的文本的信息：</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ViewFont" />。 </para>
+      <para>下列对象使用 <b>ViewFont</b> 对象来代表应用于视图的不同部分中的文本的字体格式信息︰</para>
       <list type="bullet">
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook._BusinessCardView.HeadingsFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />对象。</para>
+          <para><see cref="P:Microsoft.Office.Interop.Outlook._BusinessCardView.HeadingsFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />对象。</para>
         </item>
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekFont" />， <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeFont" />，和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</para>
+          <para><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekFont" />， <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeFont" />，和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</para>
         </item>
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook._CardView.BodyFont" />和<see cref="P:Microsoft.Office.Interop.Outlook._CardView.HeadingsFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />对象。</para>
+          <para><see cref="P:Microsoft.Office.Interop.Outlook._CardView.BodyFont" />和<see cref="P:Microsoft.Office.Interop.Outlook._CardView.HeadingsFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />对象。</para>
         </item>
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" />， <see cref="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" />，和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。</para>
+          <para><see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" />， <see cref="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" />，和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。</para>
         </item>
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.ItemFont" />， <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.LowerScaleFont" />，和<see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.UpperScaleFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />对象。</para>
+          <para><see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.ItemFont" />， <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.LowerScaleFont" />，和<see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.UpperScaleFont" />属性<see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />对象。</para>
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

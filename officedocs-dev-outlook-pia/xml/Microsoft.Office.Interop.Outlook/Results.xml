@@ -1,13 +1,5 @@
 <Type Name="Results" FullName="Microsoft.Office.Interop.Outlook.Results">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d3bcd881146cf0ac5b35f618acd8b402317c43b0" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632878" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Results : Microsoft.Office.Interop.Outlook._Results, Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7dbd2e8cd2765301efd2c819f983e3b9bf9a360a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901198" /></Metadata><TypeSignature Language="C#" Value="public interface Results : Microsoft.Office.Interop.Outlook._Results, Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Results implements class Microsoft.Office.Interop.Outlook._Results, class Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Results" />
   <TypeSignature Language="VB.NET" Value="Public Interface Results&#xA;Implements _Results, ResultsEvents_Event" />
@@ -34,13 +26,10 @@
   </Attributes>
   <Docs>
     <summary>包含数据和返回结果<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象和<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Results" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />。</para>
-      <para>
-        <b>结果</b>对象包含属性和方法，使您能够查看和操作数据。例如<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />方法允许您搜索结果，并查看字段的数据。<see cref="M:Microsoft.Office.Interop.Outlook._Results.Sort(System.String,System.Object)" />方法允许您对数据进行排序。</para>
-      <para>使用<b>SearchObject.Results</b>属性可返回<b>Results</b>对象。</para>
-      <para />
-    </remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Results" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />。</para>
+      <para><b>结果</b> 对象包含的属性和方法，使您能够查看和操作数据。 例如<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />方法允许您搜索结果，并查看字段的数据。 <see cref="M:Microsoft.Office.Interop.Outlook._Results.Sort(System.String,System.Object)" />方法允许您对数据进行排序。</para>
+      <para>使用 <b>SearchObject.Results</b> 属性来返回 <b>结果</b> 对象。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

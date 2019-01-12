@@ -1,13 +1,5 @@
 <Type Name="Application" FullName="Microsoft.Office.Interop.Outlook.Application">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="da09d35d132ed58e324bfd41c114fa38d39760a8" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632300" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Application : Microsoft.Office.Interop.Outlook._Application, Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="801583c80d7ad4efb3f58f9096c0aeb20ef5434f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899352" /></Metadata><TypeSignature Language="C#" Value="public interface Application : Microsoft.Office.Interop.Outlook._Application, Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Application implements class Microsoft.Office.Interop.Outlook._Application, class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Application" />
   <TypeSignature Language="VB.NET" Value="Public Interface Application&#xA;Implements _Application, ApplicationEvents_11_Event" />
@@ -34,24 +26,22 @@
   </Attributes>
   <Docs>
     <summary>代表整个 Outlook 应用程序。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Application" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Application" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />。</para>
       <para>这是可以使用返回的层次结构中的唯一对象<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateObject(System.String)" />方法或固有 Visual Basic <b>GetObject</b>函数。</para>
-      <para>Outlook <b>Application</b>对象有以下几个用途：</para>
+      <para>Outlook <b>应用程序</b> 对象具有以下几个目的︰</para>
       <list type="bullet">
         <item>
-          <para>Outlook 层次结构中作为根对象，允许的其他对象的访问。</para>
+          <para>作为根对象，允许访问 Outlook 层次结构中的其他对象。</para>
         </item>
         <item>
           <para>允许使用创建的新项目的直接访问<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />，而不必遍历对象层次结构。</para>
         </item>
         <item>
-          <para>允许访问活动界面对象 （浏览器和检查器）。</para>
+          <para>允许访问活动界面对象（浏览器和检查器）。</para>
         </item>
       </list>
-      <para>时使用自动化控制 Microsoft Outlook 从其他应用程序，您可以使用<b>CreateObject</b>方法创建 Outlook <b>Application</b>对象。</para>
-      <para />
-    </remarks>
+      <para>当您使用自动化控制 Microsoft Outlook 从其他应用程序时，使用<b>CreateObject</b>方法创建 Outlook <b>Application</b>对象。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="Conflict" FullName="Microsoft.Office.Interop.Outlook.Conflict">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cb90976e0ba50952b4a6e695003743dad61b7d0f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632080" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Conflict" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0dcb31d09da4392777229d9d7b97842c76ace29c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897820" /></Metadata><TypeSignature Language="C#" Value="public interface Conflict" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conflict" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conflict" />
   <TypeSignature Language="VB.NET" Value="Public Interface Conflict" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>代表与另一个 Outlook 项目发生冲突的 Outlook 项目。</summary>
-    <remarks>
-      <para>每个 Outlook 项目都有<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合与之关联对象，该对象代表该项目相冲突的所有项目。</para>
+    <remarks><para> 每个 Outlook 项目都有<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合与之关联对象，该对象代表该项目相冲突的所有项目。</para>
       <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索特定的<b>Conflict</b>对象从<b>Conflicts</b>集合对象，例如：</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -57,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,7 +131,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 只读。</summary>
+        <summary>返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -197,19 +187,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">

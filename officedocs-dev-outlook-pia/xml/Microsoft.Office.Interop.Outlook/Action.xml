@@ -1,13 +1,5 @@
 <Type Name="Action" FullName="Microsoft.Office.Interop.Outlook.Action">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="17596c00726166fb08d75936fec79e91f1a60b4f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633249" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Action" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d6062d8975646fc20d49a63e5b13512f4b7f4c11" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897365" /></Metadata><TypeSignature Language="C#" Value="public interface Action" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Action" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Action" />
   <TypeSignature Language="VB.NET" Value="Public Interface Action" />
@@ -27,12 +19,9 @@
   </Attributes>
   <Docs>
     <summary>代表可在某个 Outlook 项目上执行的专门操作（例如，投票选项响应）。</summary>
-    <remarks>
-      <para>
-        <b>Action</b>对象所在的<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />集合。</para>
+    <remarks><para><b>Action</b>对象所在的<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />集合。</para>
       <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />(<paramref name="index" />)，其中<paramref name="index" />是可用操作，如从 Outlook 项目， <b>Actions</b>集合对象中返回一个<b>Action</b>对象的名称<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -58,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -86,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,12 +106,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" />常量，指示要使用的操作的属性继承样式。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" />常量，指示要使用的操作的属性继承样式。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>继承样式控制如何将属性复制到由操作创建的新项执行操作时使用。</para>
-          <para />
-        </remarks>
+        <remarks><para>执行操作时，使用继承样式控制如何将属性复制到由操作创建的新项目中。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -176,7 +163,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的应用程序中启用的操作，如果为<b>True</b> 。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的应用程序中启用的操作，如果为<b>True</b> 。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -233,12 +220,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮件类<see cref="T:Microsoft.Office.Interop.Outlook.Action" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮件类<see cref="T:Microsoft.Office.Interop.Outlook.Action" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagMessageClass</b>。<b>MessageClass</b>属性链接到窗体所基于的项目。选择项目时，Outlook 将使用的邮件类来定位窗体和公开其属性，如答复命令。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagMessageClass</b> 的 MAPI 属性。 <b>邮件类</b> 属性链接到窗体所基于的项目。当选中某一项时，Outlook 将使用的邮件类来定位该窗体，并列出其属性，如 答复命令。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -267,7 +252,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表<b>对象</b>的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表<b>对象</b>的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -326,12 +311,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 指定要用于项目的主题时执行操作的前缀 （例如，"re"结尾）。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 指定要用于项目的主题时执行操作的前缀 （例如，"re"结尾）。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Outlook 设置项目的主题时，会自动将冒号 （:） 添加到<b>前缀</b>属性的值。</para>
-          <para />
-        </remarks>
+        <remarks><para>Outlook 自动将冒号 (:) 添加到 <b>前缀</b> 属性的值设置项的主题时。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyStyle">
@@ -360,7 +343,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionReplyStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlActionReplyStyle" />常量的文本格式指定的操作的答复风格。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlActionReplyStyle" />常量的文本格式指定的操作的答复风格。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -391,7 +374,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionResponseStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlActionResponseStyle" />执行指定的操作时使用的常量，指示响应风格。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlActionResponseStyle" />执行指定的操作时使用的常量，指示响应风格。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -419,19 +402,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOn">
@@ -460,7 +440,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionShowOn</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlActionShowOn" />常量，代表将显示该操作的位置。 可读/写。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlActionShowOn" />常量，代表将显示该操作的位置。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

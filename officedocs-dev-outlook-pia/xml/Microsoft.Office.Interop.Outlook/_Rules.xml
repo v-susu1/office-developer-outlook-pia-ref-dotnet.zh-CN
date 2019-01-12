@@ -1,13 +1,5 @@
 <Type Name="_Rules" FullName="Microsoft.Office.Interop.Outlook._Rules">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4a0275af7a8c6faf5c2868ab956b5cb5ba6a601" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632292" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Rules : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4a0275af7a8c6faf5c2868ab956b5cb5ba6a601" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901709" /></Metadata><TypeSignature Language="C#" Value="public interface _Rules : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rules implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rules" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Rules&#xA;Implements IEnumerable" />
@@ -57,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +77,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,7 +105,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,10 +138,9 @@
         <param name="RuleType">确定是否将该规则应用上发送或接收消息的 <b>OlRuleType</b> 枚举中的一个常数。</param>
         <summary>创建<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象与指定名称的<paramref name="Name" />由指定的规则的类型和<paramref name="RuleType" />。</summary>
         <returns>表示新创建的规则的 <b>规则</b> 对象。</returns>
-        <remarks>
-          <para>
-            <paramref name="RuleType" />添加规则参数确定有效的规则操作、 规则条件和规则例外条件，可与<b>Rule</b>对象相关联。</para>规则添加到集合中时,
-          <para><see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" />的新规则为 1。集合中其他规则<b>ExecutionOrder</b>增加 1。</para><para /></remarks>
+        <remarks><para><paramref name="RuleType" />添加规则参数确定有效的规则操作、 规则条件和规则例外条件，可与<b>Rule</b>对象相关联。</para>
+          <para>当规则添加到集合中，<see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" />的新规则为 1。 集合中的其他规则 <b>ExecutionOrder</b> 就会递增 1。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsRssRulesProcessingEnabled">
@@ -178,13 +169,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否已启用 RSS 规则处理。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否已启用 RSS 规则处理。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>设置后<b>IsRssRulesProcessingEnabled</b>，必须调用<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />以保留此设置。此属性与该用户将漫游的邮箱级别设置保持不变。 </para>
-          <para>如果<b>IsRssRulesProcessingEnabled</b>为<b>False</b>，则将在规则处理期间不评估 RSS 源的任何条件。</para>
-          <para />
-        </remarks>
+        <remarks><para>设置后<b>IsRssRulesProcessingEnabled</b>，必须调用<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />以保留此设置。 该属性与用户将漫游的邮箱级别设置保持不变。  </para>
+          <para> 如果<b>IsRssRulesProcessingEnabled</b>为<b>False</b>，然后在规则处理期间 RSS 源的任何条件进行不评估。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -216,10 +205,8 @@
         <param name="Index">或者是基于 1 的<b>整数</b>(C# 中<b>int</b> ) 值值，表示索引<b>Rules</b>集合中，或者表示规则的默认属性的值的<b>字符串</b>（C# 中的<b>字符串</b>） 名称<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />。</param>
         <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />指定对象<paramref name="Index" />，这是要么是数字索引入<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合或规则名称。</summary>
         <value>由指定的规则匹配一个<b>规则</b>对象<paramref name="Index" />。</value>
-        <remarks>
-          <para>集合中找不到该规则时，将返回错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>当在集合中找不到该规则时，将返回一个错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -247,10 +234,8 @@
       <Docs>
         <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Rules 对象的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>Rules 对象的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -278,10 +263,8 @@
       <Docs>
         <param name="Index">一个用来代表<b>Rules</b>集合中或表示规则的默认属性的值的<b>字符串</b>（C# 中的<b>字符串</b>） 名称索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />。</param>
         <summary>从<b>Rules</b>集合中删除<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />由指定对象<paramref name="Index" />，这是要么是数字索引入<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合或规则名称。</summary>
-        <remarks>
-          <para>集合中找不到该规则时，将返回错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>当在集合中找不到该规则时，将返回一个错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -306,17 +289,14 @@
         <Parameter Name="ShowProgress" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ShowProgress">
-          <b>真</b> 要显示进度对话框， <b>假</b> 要保存规则而不显示进度。</param>
+        <param name="ShowProgress"><b>真</b> 要显示进度对话框， <b>假</b> 要保存规则而不显示进度。</param>
         <summary>保存中的所有规则<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合。</summary>
-        <remarks>
-          <para>启用规则后，您还必须使用<b>Rules.Save</b>操作，以便规则及其启用的状态当前会话中保存该规则。 规则仅启用成功保存之后。</para>
+        <remarks><para>启用了某个规则后，您还必须通过，以便在当前会话之外也保持该规则及其启用的状态使用 <b>Rules.Save</b> 保存该规则。  一个规则只有在成功保存之后才能启用。</para>
           <para>
-            <b>Rules.Save</b>可操作会严重影响性能低速连接到 Exchange 服务器。使用进度对话框的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87863">管理 Outlook 对象模型中的规则</a></para>
-          <para>保存规则的不兼容或者已经错误地定义操作或条件 (如为空字符串<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />) 将返回错误.</para>
-          <para>Exchange 服务器限制可以支持的存储区的规则的最大数量。当达到此限制时， <b>Rules.Save</b>将返回错误。</para>
-          <para />
-        </remarks>
+            <b>Rules.Save</b> 可以在低速连接到 Exchange 服务器的性能方面代价高昂的操作。 使用进度对话框的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87863">管理 Outlook 对象模型中的规则</a></para>
+          <para>保存规则的不兼容或者已经错误地定义操作或条件 (如空字符串作为<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />) 将返回错误。</para>
+          <para>Exchange 服务器限制规则，可以将存储支持的最大的数量。达到此限制时， <b>Rules.Save</b> 将返回错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -342,19 +322,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

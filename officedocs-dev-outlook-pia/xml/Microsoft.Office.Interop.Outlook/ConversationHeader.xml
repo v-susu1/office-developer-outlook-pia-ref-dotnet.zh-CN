@@ -1,13 +1,5 @@
 <Type Name="ConversationHeader" FullName="Microsoft.Office.Interop.Outlook.ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f240db48bde1c2db353f938b5173be3971c038f7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633251" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6baf4e2eb6ab932ae64172f4ef76ba4e203b7dff" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900841" /></Metadata><TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConversationHeader implements class Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface ConversationHeader&#xA;Implements _ConversationHeader" />
@@ -31,24 +23,22 @@
   </Attributes>
   <Docs>
     <summary>代表"会话"视图中的 Microsoft Outlook 会话标头。</summary>
-    <remarks>
-      <para>在 Outlook 中，对话组共享相同的主题和属于同一线程的消息。对话还可以包括分支，如时获取一条消息，两个或多个响应的数目和讨论从每个响应的增长独立。对话视图关联跨文件夹和存储区的同一对话中的所有项目。对话标头可以是项目或中如下格式之一的组标头：</para>
+    <remarks><para>在 Outlook 中，会话组共享相同的主题，并且属于同一线程的消息。对话还可以包括分支，例如获取一条消息，当两个或多个响应和讨论单独地增大从每个响应。 会话视图在文件夹和存储相关同一对话中的所有项目。 对话标题可以是一个或多个组页眉以下形式之一︰</para>
       <list type="bullet">
         <item>
-          <para>包含单个项目的主题中的项目。</para>
+          <para>仅包含单个项目的线程中的项目。</para>
         </item>
         <item>
-          <para>组标头的会话的包含多个项。</para>
+          <para>包含多个项目的会话的组标头。</para>
         </item>
         <item>
-          <para>包含单个线程的会话中的第一项。</para>
+          <para>包含单个线程的会话中的第一个项目。</para>
         </item>
         <item>
-          <para>拆分对话中的第一项。</para>
+          <para>分割会话中的第一个项目。</para>
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

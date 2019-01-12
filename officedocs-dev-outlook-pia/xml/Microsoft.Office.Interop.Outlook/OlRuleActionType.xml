@@ -1,13 +1,5 @@
 <Type Name="OlRuleActionType" FullName="Microsoft.Office.Interop.Outlook.OlRuleActionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="500f2d31b3b2b2e3a92b96d60baaa1d1ff2b6db7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632525" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlRuleActionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2daea31e387847ebeb992ce5610348578c35a9ce" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901653" /></Metadata><TypeSignature Language="C#" Value="public enum OlRuleActionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlRuleActionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlRuleActionType" />
@@ -21,10 +13,8 @@
   </Base>
   <Docs>
     <summary>为某规则指定规则操作的类型。</summary>
-    <remarks>
-      <para>此枚举中的规则操作类型的列表中包括的规则和通知向导支持的规则操作。请注意时您可以以编程方式枚举所有规则的规则操作，, 您可以编程方式创建规则与仅的最常用的规则操作。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></para>
-      <para />
-    </remarks>
+    <remarks><para>The list of rule action types in this enumeration includes all the rule actions that the Rules and Alerts Wizard supports. Note that while you can programmatically enumerate all the rule actions for a rule, you can programmatically create a rule with only the most commonly used rule actions. 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olRuleActionAssignToCategory">

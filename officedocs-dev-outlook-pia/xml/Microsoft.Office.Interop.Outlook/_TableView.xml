@@ -1,13 +1,5 @@
 <Type Name="_TableView" FullName="Microsoft.Office.Interop.Outlook._TableView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631693" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TableView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897190" /></Metadata><TypeSignature Language="C#" Value="public interface _TableView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TableView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TableView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TableView" />
@@ -56,12 +48,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，确定是否在允许单元格内编辑<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，确定是否在允许单元格内编辑<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果此属性设置为<b>True</b>，则<see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /><b>TableView</b>对象的属性自动设置为<b>olAlwaysSingleLine</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果此属性设置为<b>True</b>，则<see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> <b>TableView</b>对象的属性自动设置为<b>olAlwaysSingleLine</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlwaysExpandConversation">
@@ -90,15 +80,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否始终完全在表视图中展开对话。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否始终完全在表视图中展开对话。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
+        <remarks><para><b>AlwaysExpandConversation</b>属性类似于 Microsoft Office Fluent 功能区的排列组视图选项卡上的对话菜单中选择始终展开对话。</para>
           <para>
-            <b>AlwaysExpandConversation</b>属性是类似于 Microsoft Office Fluent 功能区的排列组视图选项卡上的对话菜单中选择始终展开对话。</para>
-          <para>
-            <b>True</b>指示的对话组完全在表视图中展开默认设置。<b>False</b>指示对话组只部分展开。</para>
-          <para />
-        </remarks>
+            <b>True</b> 表示的对话组完全展开的表视图中默认设置。 <b>False</b> 指示组仅部分展开的对话。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -124,7 +111,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -177,7 +164,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />对象，表示的格式设置规则适用于<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />对象，表示的格式设置规则适用于<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -208,12 +195,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否中的列<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象由 Outlook 自动调整大小。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否中的列<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象由 Outlook 自动调整大小。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果此属性设置为<b>False</b>，则<see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /><b>TableView</b>对象的属性自动设置为<b>olAlwaysSingleLine</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果此属性设置为<b>False</b>，则<see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> <b>TableView</b>对象的属性自动设置为<b>olAlwaysSingleLine</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutomaticGrouping">
@@ -242,12 +227,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否在活动的自动分组<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否在活动的自动分组<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果此属性设置为<b>True</b>，项目在视图中根据指定 Outlook 用户界面中的排列方式自动分组。如果此属性设置为<b>False</b>，项目进行分组在视图中的内容根据<see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" />属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果此属性设置为 <b>True</b> 时，项目会自动分组根据排列在 Outlook 用户界面中指定的视图中。 如果此属性设置为<b>False</b>，项目进行分组在视图中的内容根据<see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" />属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoPreview">
@@ -276,7 +259,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoPreview</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoPreview" />常数，用于确定如何通过自动预览项目<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoPreview" />常数，用于确定如何通过自动预览项目<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -304,7 +287,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />对象，表示时自动预览 Outlook 项目中使用的字体<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />对象，表示时自动预览 Outlook 项目中使用的字体<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -332,7 +315,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -360,7 +343,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />对象，表示显示中的列标题时使用的字体<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />对象，表示显示中的列标题时使用的字体<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -421,7 +404,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" />常数，用于确定组中的默认扩展设置<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" />常数，用于确定组中的默认扩展设置<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -477,12 +460,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的筛选器。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的筛选器。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的值是一个字符串，在 DAV 搜索和定位 (DASL) 语法中，表示当前视图的筛选器。有关使用视图中的筛选项目的 DASL 语法的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
-          <para />
-        </remarks>
+        <remarks><para>此属性的值是字符串，在 DAV 搜索和定位 (DASL) 语法中，该字符串代表当前的视图筛选器。 有关使用视图中的筛选项目的 DASL 语法的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -508,11 +489,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象，表示的所有 Microsoft Outlook 项目中包含的<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。</summary>
         <returns>返回一个<b>Table</b>对象，其行表示当前表视图中的项目。</returns>
-        <remarks>
+        <remarks><para><b>表</b> 对象的 <b>GetTable</b> 方法返回相同的存储区或跨越多个存储区，聚合视图中通过一个或多个文件夹中的项目表。 例如，汇总的视图在所有邮件项目通过搜索获得使用即时搜索。 此行为不同于<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，获取一个 table 对象，其中包含从同一文件夹中的项目。</para>
+          <para>父<b>TableView</b>对象必须基于当前文件夹活动资源管理器，由<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />活动属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。 如果文件夹不是当前文件夹可见的资源管理器，或者该文件夹中，这将由的视图<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性，不在表视图，则 Outlook 将返回错误。</para>
+          <para>设置结果表的筛选器<see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> <b>TableView</b>对象的属性。 如果 <b>筛选器</b> 属性的 <b>表</b> 对象不是空的 <b>GetTable</b> 会返回一个 <b>表</b> 表示筛选的项的子集，可在视图中的行。 如果以后，<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />方法调用结果的表上时，应用<b>Restrict</b>方法等效于逻辑与筛选器由<see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />。</para>
           <para>
-            <b>TableView</b>对象的<b>GetTable</b>方法返回从同一个存储或跨越多个存储区，聚合视图中的一个或多个文件夹的项目的 table。例如，聚合的视图使用即时搜索获得跨所有邮件项目由搜索。此行为不同于<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，获取一个 table 对象，其中包含从同一文件夹中的项目。</para>必须由在活动资源管理器，将当前文件夹上基于
-          <para>父<b>TableView</b>对象<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />活动属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。如果文件夹不是当前文件夹可见的资源管理器，或者该文件夹中，这将由的视图<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性，不在表视图，则 Outlook 将返回错误。</para>设置结果表的筛选器
-          <para><see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /><b>TableView</b>对象的属性。如果<b>TableView</b>对象的<b>Filter</b>属性不为空， <b>GetTable</b>将返回与行表示筛选的视图中可用的项目子集的<b>Table</b>对象。如果以后，<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />方法调用结果的表上时，应用<b>Restrict</b>方法等效于逻辑与筛选器由<see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />。</para><para><b>GetTable</b>返回带默认列集的<b>表</b>。<b>GetTable</b>不会返回一个<b>表</b>，包含中每个字段的列<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />当前视图的集合。基于文件夹类型的表的默认列集的详细信息，请参阅 Table 对象中显示的默认属性。若要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合对象。您无法添加到表，如中不支持的属性表对象或 Table 筛选器中将列出列的属性。</para><para>的结果表中的行顺序不保证<b>GetTable</b>所依据的当前视图中的项的顺序相同。例如， <b>GetTable</b>不会返回有代表视图中的分组依据标头行的表。若要从<b>GetTable</b>返回的表中的行进行排序，使用<see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /><b>Table</b>对象的方法。</para><para><b>GetTable</b>返回的<b>Table</b>对象的父对象是<b>TableView</b>对象。<b>TableView</b>对象的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集和<b>Views</b>集合的父对象是<b>Folder</b>对象。</para><para /></remarks>
+            <b>GetTable</b> 返回默认列设置了一个 <b>表</b> 。 <b>GetTable</b>不会返回一个<b>表</b>，包含中每个字段的列<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />当前视图的集合。 基于文件夹类型的表的默认列集的详细信息，请参阅 Table 对象中显示的默认属性。 若要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合对象。 您无法添加到表，如中不支持的属性表对象或 Table 筛选器中将列出列的属性。</para>
+          <para>结果表中的行顺序不能保证可在基于 <b>GetTable</b> 的当前视图中的项的顺序相同。 例如， <b>GetTable</b> 不会返回表示视图中的分组依据标头行的表。 若要从<b>GetTable</b>返回的表中的行进行排序，使用<see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> <b>Table</b>对象的方法。</para>
+          <para><b>GetTable</b> 返回的 <b>Table</b> 对象的父对象是 <b>表</b> 对象。 <b>TableView</b>对象的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集和<b>Views</b>集合的父对象是<b>Folder</b>对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -569,7 +553,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlGridLineStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlGridLineStyle" />常量，代表用于网格线的线型<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlGridLineStyle" />常量，代表用于网格线的线型<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -597,7 +581,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />对象，表示项目中所显示的字段集<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象进行分组。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />对象，表示项目中所显示的字段集<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象进行分组。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -628,7 +612,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，确定是否为某个 Outlook 项目的标题的阅读窗格中显示<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，确定是否为某个 Outlook 项目的标题的阅读窗格中显示<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -659,14 +643,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的语言设置。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的语言设置。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>语言</b>属性使用<b>字符串</b>（C# 中的<b>字符串</b>） 来表示 ISO 语言标记。例如，"EN-US"的字符串表示"美国-英语。"的 ISO 代码</para>
-          <para>如果指定了有效的语言代码，该对象将只能在指定的语言类型视图菜单中可用。如果未不指定任何值，则对象项是可用于所有语言类型。此属性的默认值为空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Language</b>属性使用<b>字符串</b>（C# 中的<b>字符串</b>） 来表示 ISO 语言标记。 例如，"EN-US"的字符串表示"美国-英语。"的 ISO 代码</para>
+          <para>如果指定了有效的语言代码，对象将仅在指定语言类型的 "视图"菜单中可用。如果未指定值，则该对象项目对所有语言类型都可用。此属性的默认值为一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -695,12 +676,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示用户是否可以修改视图的设置。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示用户是否可以修改视图的设置。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果<b>，则返回 True</b>，则用户可以修改指定视图的设置。但是，不会保存界面所做的更改。如果<b>False</b> （默认值），任何更改将保存。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果 <b>True</b> ，用户可以修改指定视图的设置。但是，将不保存对接口进行更改。如果 <b>False</b> (默认值)，任何更改都将保存。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLinesInMultiLineView">
@@ -729,12 +708,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> ) 值，确定多行模式中显示的行的最大数目<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> ) 值，确定多行模式中显示的行的最大数目<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性可以设置为 2 到 20 之间的值。如果此属性设置为小于 2 的值，则将该属性设置为 2。如果此属性设置为一个值大于 20，该属性设置为 20。此属性的默认值为 2。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性可以设置为 2 和 20 之间的值。如果此属性设置为小于 2 的值，则会将此属性设置为 2。如果此属性设置为大于 20 的值，则会将此属性设置为 20。此属性的默认值为 2。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLine">
@@ -763,12 +740,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiLine</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" />常数，用于确定如何将多个行显示在<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" />常数，用于确定如何将多个行显示在<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果值<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />属性设置为<b>False</b>或的值<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性设置为<b>True</b>，此属性的值自动设置为<b>olAlwaysSingleLine</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果值<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />属性设置为<b>False</b>或的值<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性设置为<b>True</b>，此属性的值自动设置为<b>olAlwaysSingleLine</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLineWidth">
@@ -799,11 +774,9 @@
       <Docs>
         <summary>返回或设置一个代表触发 multiline 模式中的所需的文本宽度 （以字符为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性可以设置为 1 到 999 之间的值。如果此属性设置为小于 1 的值，则将该属性设置为 1。如果此属性设置为一个值大于 999，该属性设为 999。此属性的默认值为 100。</para>
-          <para>此属性仅适用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /><b>TableView</b>对象的属性设置为<b>olWidthMultiLine</b>。此属性的值确定<b>TableView</b>对象在多行模式中显示为某个 Outlook 项目的文本的点。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性可以设置为 1 和 999 之间的值。如果此属性设置为小于 1 的值，则会将此属性设置为 1。如果此属性设置为大于 999 的值，则会将此属性设置为 999。此属性的默认值为 100。</para>
+          <para>此属性仅适用如果<see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> <b>TableView</b>对象的属性设置为<b>olWidthMultiLine</b>。 此属性的值确定 <b>表</b> 对象在多行模式中显示 Outlook 项文本的点。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -832,7 +805,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -887,10 +860,8 @@
       <Parameters />
       <Docs>
         <summary>将内置的 Microsoft Outlook 视图重置为原始设置。</summary>
-        <remarks>
-          <para>此方法仅应用于内置 Outlook 视图。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法仅应用于内置 Outlook 视图。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RowFont">
@@ -916,7 +887,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />对象，表示显示中的行时使用的字体<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" />对象，表示显示中的行时使用的字体<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -969,13 +940,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />附加到视图的常量，指定指定的视图位于的文件夹和读取的权限。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />附加到视图的常量，指定指定的视图位于的文件夹和读取的权限。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SaveOption</b>属性的值时设置<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象使用创建<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SaveOption</b>属性的值时设置<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象使用创建<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1001,19 +969,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationByDate">
@@ -1042,14 +1007,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否对话中的项目是垂直左对齐和已排序的接收的日期和时间，使用顶部的最新项目。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否对话中的项目是垂直左对齐和已排序的接收的日期和时间，使用顶部的最新项目。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果表视图不按对话，则设置<b>ShowConversationByDate</b>属性不会识别视图中的任何项目。以会话方式显示对话，Microsoft Office Fluent 功能区视图选项卡的对话组中各项检查显示。</para>
-          <para>垂直<b>ShowConversationByDate</b>属性设置为<b>True</b>左对齐的会话项目和订单它们按其接收的日期和时间，与顶部的最新项目。在对话视图中的此组织是具有清除在功能区的对话组中的对话设置菜单中的使用经典缩进视图设置相同。</para>
-          <para>
-            <b>ShowConversationByDate</b>属性设置为<b>False</b>将缩进对话项目并按其接收的日期和时间顶部的最早项目进行排序。属于该线程，每个左侧-缩进从最后一项后跟首先，显示对话的每个线程的根目录。在对话视图中的此组织是在功能区的对话组的对话设置菜单中选择了使用经典缩进视图设置相同。</para>要将更改应用于<b>ShowConversationByDate</b>属性呼叫的
-          <para><see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />方法。在对话视图中折叠然后会显示对话。如果展开对话，您将看到对话中的项目重新组织了和显示设置<b>ShowConversationByDate</b>属性的方式。</para><para /><para /></remarks>
+        <remarks><para>如果表格视图不组织的对话中，将 <b>ShowConversationByDate</b> 属性设置不 does 重组视图中的任何项目。 若要按对话，Microsoft Office Fluent 功能区视图选项卡的对话组中显示项目检查以会话方式显示。</para>
+          <para>垂直方向将 <b>ShowConversationByDate</b> 属性设置为 <b>True</b> 左对齐对话项目，责令其收到的日期和时间，与最新项在最前面。在会话视图中的该组织是具有清除 会话设置菜单中功能区的 对话组中的 用经典缩进视图设置相同。</para>
+          <para><b>ShowConversationByDate</b>属性设置为<b>False</b>将缩进会话项目，并按其接收的日期和时间顶部的最早项目进行排序。 跟属于该线程，每个左-缩进从最后一项第一，显示会话的每个线程的根。 该组织在会话视图中的是相同的 对话组中的功能区 的对话设置菜单中选择了 用经典缩进视图设置。</para>
+          <para>若要将更改应用于<b>ShowConversationByDate</b>属性，调用<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />方法。 在会话视图中折叠然后会显示对话。 如果您展开对话，您将看到对话中的项目重组并显示设置 <b>ShowConversationByDate</b> 属性的方式。</para>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationSendersAboveSubject">
@@ -1078,13 +1043,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否表视图显示上方的主题行的参与发件人在对话标头，或其下方。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否表视图显示上方的主题行的参与发件人在对话标头，或其下方。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>True</b>表示表视图对话标头中显示的主题行上方的参与发件人。<b>False</b> ，则指示表视图对话标头中显示的主题行下方的参与发件人。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>为 true</b> ，则表示表视图会话标题中显示主题行上方参与发件人。 <b>False</b> 指示表视图会话标题中显示主题行下方参与发件人。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowFullConversations">
@@ -1113,17 +1076,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否显示其他文件夹，如已发送邮件文件夹中，从会话项目作为表视图中的对话的一部分。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否显示其他文件夹，如已发送邮件文件夹中，从会话项目作为表视图中的对话的一部分。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
+        <remarks><para>仅当当前表格视图显示按日期和对话项目， <b>ShowFullConversations</b> 属性才会生效。</para>
           <para>
-            <b>ShowFullConversations</b>属性才会生效，仅当当前表视图按日期和对话显示项目。</para>
-          <para>
-            <b>True</b>指示表视图中的对话的一部分默认情况下显示的同一对话的项。<b>False</b>指示对话项目仅在当前文件夹表视图中显示。</para>
-          <para>
-            <b>时，ShowFullConversations</b>属性是类似于从其他文件夹中的 Microsoft Office Fluent 功能区的排列组视图选项卡上的对话菜单中选择显示消息。</para>
-          <para />
-        </remarks>
+            <b>为 true</b> ，则表示同一对话项显示默认的表视图中的对话的一部分。 <b>False</b> 指示在表视图中显示只有对话在当前文件夹中的项目。</para>
+          <para><b>ShowFullConversations</b>属性类似于从其他文件夹中的 Microsoft Office Fluent 功能区的排列组视图选项卡上的对话菜单中选择显示消息。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowItemsInGroups">
@@ -1152,7 +1111,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，确定 Outlook 项目是否显示在组内<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，确定 Outlook 项目是否显示在组内<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1185,10 +1144,8 @@
       <Docs>
         <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值来确定是否将新项目行显示在<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的值仅适用于<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性设置为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性的值仅适用于<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性设置为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowReadingPane">
@@ -1217,7 +1174,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否将阅读窗格显示在<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否将阅读窗格显示在<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1282,7 +1239,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />对象，表示项目中所显示的字段集<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象进行排序。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />对象，表示项目中所显示的字段集<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象进行排序。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1310,13 +1267,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象是内置 Outlook 视图。 只读。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象是内置 Outlook 视图。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />方法仅用于视图如果此属性的值设置为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />方法仅用于视图如果此属性的值设置为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewFields">
@@ -1342,7 +1296,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />对象，表示的 outlook 项目中显示的字段集<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />对象，表示的 outlook 项目中显示的字段集<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1370,7 +1324,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />常量，指示视图的视图类型。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />常量，指示视图的视图类型。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1401,13 +1355,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，指定视图的 XML 定义。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，指定视图的 XML 定义。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>XML 定义描述视图类型使用一系列的标记和关键字对应的视图本身的各种属性。创建视图时，分析的 XML 定义呈现新视图的设置。</para>
-          <para>，以确定如何 XML 结构应时创建视图，您可以通过使用 Outlook 用户界面创建视图，然后您可以检索该视图的<b>XML</b>属性。 </para>
-          <para />
-        </remarks>
+        <remarks><para>XML 定义使用一系列与视图本身各种属性对应的标记和关键字来描述视图的类型。创建视图时，通过解析 XML 定义来设置新视图。</para>
+          <para>若要确定在创建视图时应如何组织 XML，可以使用 Outlook 用户界面中创建的视图，然后可以检索该视图的 <b>XML</b> 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

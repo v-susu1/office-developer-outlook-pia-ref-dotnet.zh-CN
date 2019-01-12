@@ -1,13 +1,5 @@
 <Type Name="PropertyPage" FullName="Microsoft.Office.Interop.Outlook.PropertyPage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dbed428a055e97eb67cfd333fb2c6bc9ce4824a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631893" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyPage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="48f2f3f7d91d2193670d3d00ba2f1e1b6f744750" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897596" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyPage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPage" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyPage" />
@@ -27,15 +19,12 @@
   </Attributes>
   <Docs>
     <summary>表示选项对话框或文件夹的属性对话框中的一个自定义属性页面。</summary>
-    <remarks>
-      <para>Outlook 使用此对象允许自定义属性页面与对话框中的应用按钮进行交互。</para>
-      <para>
-        <b>PropertyPage</b>对象是抽象对象。即 Microsoft Outlook 对象库中的<b>PropertyPage</b>对象不包含实现代码。相反，它作为模板，可帮助您在 Microsoft Visual Basic 中实现对象。这提供了一组预定义的 Outlook 可使用以确定是否已更改自定义属性页并通知用户，单击确定按钮的应用程序的接口。（如果您的自定义属性页不依赖于应用按钮，然后您无需实现<b>PropertyPage</b>对象。）</para>
-      <para>的自定义属性页是一个 ActiveX 控件，当用户单击自定义属性页上的选项卡上由 Outlook 或文件夹的属性对话框中选项对话框显示。若要在 Visual Basic.NET 中实现<b>PropertyPage</b>对象，包含的实现代码的模块必须包含以下 Implements 语句。</para>
+    <remarks><para>Outlook 使用此对象允许自定义属性页面与对话框中的 "应用"按钮进行交互。</para>
+      <para><b>PropertyPage</b>对象是一个抽象对象。 即 Microsoft Outlook 对象库中的<b>PropertyPage</b>对象不包含实现代码。 相反，它作为模板，可帮助您在 Microsoft Visual Basic 中实现对象。 这提供了一组预定义的 Outlook 可使用以确定是否已更改自定义属性页并通知用户，单击确定按钮的应用程序的接口。 （如果您的自定义属性页不依赖于应用按钮，然后您不需要实现<b>PropertyPage</b>对象。）</para>
+      <para>自定义属性页是一个 ActiveX 控件，当用户单击自定义属性页上的选项卡上由 Outlook 或文件夹的属性对话框中选项对话框显示。若要在 Visual Basic.NET 中实现<b>PropertyPage</b>对象，包含的实现代码的模块必须包含以下 Implements 语句。</para>
       <code>Implements Outlook.PropertyPage</code>
-      <para>模块还必须包含实现的属性和<b>PropertyPage</b>对象的方法的过程。</para>
-      <para />
-    </remarks>
+      <para>该模块还必须包含实现的属性和方法的 <b>属性页</b> 对象的过程。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Apply">
@@ -55,10 +44,8 @@
       <Parameters />
       <Docs>
         <summary>应用在自定义属性页上所做的更改。</summary>
-        <remarks>
-          <para>因为<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />是一个抽象对象，它实现应用程序中 （而不是通过 Microsoft Outlook 本身），实现的<b>应用</b>方法类似于在程序代码中的事件过程。即您编写几乎编写事件过程的相同方式实现方法的代码。换句话说，Outlook 调用<b>Apply</b>方法来通知程序： 用户已在显示自定义属性页的要求将属性值由用户更改应用程序对话框采取操作。</para>
-          <para />
-        </remarks>
+        <remarks><para>因为<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />是一个抽象对象，它实现应用程序中 （而不是通过 Microsoft Outlook 本身），实现的<b>应用</b>方法类似于在程序代码中的事件过程。 就是您编写的代码相同的方式编写事件过程在很大程度实现该方法。 换句话说，Outlook 调用 <b>Apply</b> 方法来通知程序: 用户已经在显示要求程序应用由用户更改的属性值的自定义属性页的对话框中采取动作。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dirty">
@@ -81,7 +68,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 值，如果已更改自定义属性页的内容为<b>True</b> 。 实现的 ActiveX 控件<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />对象设置此属性的值和 Microsoft Outlook 会查询此响应<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />方法<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />对象。 只读。</summary>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 值，如果已更改自定义属性页的内容为<b>True</b> 。 实现的 ActiveX 控件<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />对象设置此属性的值和 Microsoft Outlook 会查询此响应<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />方法<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

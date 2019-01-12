@@ -1,13 +1,5 @@
 <Type Name="_NameSpace" FullName="Microsoft.Office.Interop.Outlook._NameSpace">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="180db45f39b12a2e4725cdddcd3cc5780306b7d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631802" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NameSpace" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="180db45f39b12a2e4725cdddcd3cc5780306b7d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897218" /></Metadata><TypeSignature Language="C#" Value="public interface _NameSpace" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NameSpace" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NameSpace" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NameSpace" />
@@ -53,12 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Accounts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />集合对象，代表所有<see cref="T:Microsoft.Office.Interop.Outlook.Account" />当前配置文件中的对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />集合对象，代表所有<see cref="T:Microsoft.Office.Interop.Outlook.Account" />当前配置文件中的对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果 Outlook 运行在无会话模式下，<b>帐户</b>将返回与<b>Accounts</b>集合<see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" />等于 0。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果 Outlook 运行在无会话模式下，<b>帐户</b>将返回与<b>Accounts</b>集合<see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" />等于 0。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressLists">
@@ -84,13 +74,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressLists</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />该会话的可用列表集合表示集合的地址。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />该会话的可用列表集合表示集合的地址。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>AddressLists</b>集合表示当前会话的通讯簿层次结构的根。特定<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象都代表一个可用的通讯簿。获得的访问类型取决于每个单独的通讯簿提供程序通过向您授予的访问权限。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>地址列表</b> 集合表示当前会话的通讯簿层次结构的根。 特定<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象都代表一个可用的通讯簿。 用户获得的访问类型取决于每个通讯簿提供商授予的访问权限。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddStore">
@@ -118,11 +105,8 @@
       <Docs>
         <param name="Store">要添加到配置文件中的 .pst 文件的路径。如果 .pst 文件不存在，Microsoft Outlook 将创建该文件。</param>
         <summary>向当前配置文件中添加个人文件夹 (.pst) 文件。</summary>
-        <remarks>
-          <para>
-            <b>RemoveStore</b>方法用于删除已添加到一个配置文件的.pst。</para>
-          <para />
-        </remarks>
+        <remarks><para>使用 <b>RemoveStore</b> 方法来删除已经添加到配置文件中的.pst。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddStoreEx">
@@ -152,10 +136,8 @@
         <param name="Store">要添加到配置文件中的 .pst 文件的路径。如果 .pst 文件不存在，Microsoft Outlook 将创建该文件。</param>
         <param name="Type">创建数据文件应使用的格式。</param>
         <summary>以指定格式将个人文件夹文件 (.pst) 添加到当前配置文件。</summary>
-        <remarks>
-          <para>使用<b>olStoreUnicode</b>常数添加新的.pst 文件具有更高版本的存储空间留给的项目和文件夹并支持多语言 Unicode 数据，向用户配置文件。<b>OlStoreANSI</b>常量允许您创建的不完全支持提供的多语言 Unicode 数据，但与 Outlook 的早期版本兼容的.pst 文件。 <b>OlStoreDefault</b>常数可帮助您创建的.pst 文件中与 Outlook 的 Microsoft Exchange 服务器运行的邮箱模式兼容的默认格式。</para>
-          <para />
-        </remarks>
+        <remarks><para>使用 <b>olStoreUnicode</b> 常量来添加新的.pst 文件具有更大的存储容量为项目和文件夹并支持多语言 Unicode 数据，对该用户的配置文件。 <b>OlStoreANSI</b> 常量可以创建.pst 文件，不提供完全支持多语言 Unicode 数据，但与 Outlook 的早期版本兼容。  <b>OlStoreDefault</b> 常量可帮助您与 Microsoft Exchange Server 运行 Outlook 邮箱模式兼容的默认格式创建一个.pst 文件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -181,7 +163,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -209,7 +191,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" />指定到 Exchange 服务器的自动发现服务的连接类型的常量。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" />指定到 Exchange 服务器的自动发现服务的连接类型的常量。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -237,9 +219,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示 XML 中的信息检索从 Exchange 服务器的自动发现服务。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示 XML 中的信息检索从 Exchange 服务器的自动发现服务。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>XML<para>返回的字符串包括有关各种 Web 服务 （例如，可用性服务和统一邮件服务） 和可用服务器的信息。 </para><para>如果活动配置文件不包含 Microsoft Exchange Server 2007 或更高版本的帐户，则返回一个错误。</para><para /></remarks>
+        <remarks><para>XML 的返回字符串包括有关各种 Web 服务（例如，可用性服务和统一邮件服务）和可用服务器的信息。  </para>
+          <para>如果活动配置文件不包含 Microsoft Exchange Server 2007 或更高版本的帐户，则返回错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Categories">
@@ -265,12 +249,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Categories</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Categories" />对象，表示一组的<see cref="T:Microsoft.Office.Interop.Outlook.Category" />可用到命名空间的对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Categories" />对象，表示一组的<see cref="T:Microsoft.Office.Interop.Outlook.Category" />可用到命名空间的对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性表示主类别列表，这是可应用于包含的<b>NameSpace</b>对象的 Outlook 项目的<b>类别</b>对象的集合，并适用于该命名空间的所有用户。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性表示主类别列表，这是可以应用于 Outlook 项目包含的 <b>命名空间</b> 对象的 <b>类别</b> 对象的集合，并适用于该命名空间的所有用户。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -296,7 +278,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -328,12 +310,9 @@
         <param name="FirstEntryID">要比较的第一个条目 ID。</param>
         <param name="SecondEntryID">要比较的第二个条目 ID。</param>
         <summary>返回一个<b>布尔</b>值 (C# 中<b>bool</b> )，该值指示两个条目 ID 值是否引用同一个 Outlook 项目。</summary>
-        <returns>
-          <b>如此</b> 如果条目 ID 的值是指同一 Outlook 项目;否则为 <b>假</b> 。</returns>
-        <remarks>
-          <para>由于可以由两个不同的二进制值表示一个对象，则不能直接比较条目标识符。使用此方法以确定两个条目标识符是否表示相同的对象。</para>
-          <para />
-        </remarks>
+        <returns><b>如此</b> 如果条目 ID 的值是指同一 Outlook 项目;否则为 <b>假</b> 。</returns>
+        <remarks><para>不能直接对条目标识符进行比较，因为一个对象可以由两个不同的二进制值表示。使用此方法可以确定两个条目标识符是否代表同一个对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateContactCard">
@@ -358,15 +337,11 @@
         <Parameter Name="AddressEntry" Type="Microsoft.Office.Interop.Outlook.AddressEntry" />
       </Parameters>
       <Docs>
-        <param name="AddressEntry">
-          <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，表示为其联系人卡片是要创建的用户。</param>
+        <param name="AddressEntry"><see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，表示为其联系人卡片是要创建的用户。</param>
         <summary>创建实例<see cref="T:Microsoft.Office.Core.ContactCard" />指定的联系人对象<paramref name="AddressEntry" />参数。</summary>
         <returns>返回为指定用户创建<b>ContactCard</b>对象。</returns>
-        <remarks>
-          <para>
-            <b>ContactCard</b>对象位于 Microsoft office 类型库中。调用<b>CreateContactCard</b> Microsoft Outlook 中创建的联系人卡片之前, Outlook 必须登录到 Outlook 会话。</para>
-          <para>
-            <paramref name="AddressEntry" />参数是一个<b>AddressEntry</b>对象，代表中定义的以下 AddressEntry 类型之一<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />枚举：</para>
+        <remarks><para>Microsoft Office 类型库中提供了 <b>ContactCard</b> 对象。 在调用之前 <b>CreateContactCard</b> 在Microsoft Outlook中创建联系人卡片，Outlook 必须登录到 Outlook 会话中。</para>
+          <para><paramref name="AddressEntry" />参数是一个<b>AddressEntry</b>对象，代表中定义的以下 AddressEntry 类型之一<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />枚举：</para>
           <list type="bullet">
             <item>
               <para>
@@ -388,8 +363,13 @@
                 <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookContactAddressEntry" />
               </para>
             </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olSmtpAddressEntry" />
+              </para>
+            </item>
           </list>
-          <para>Outlook 将引发<b>E_INVALIDARG</b>错误时您的任何以下<b>OlAddressEntryUserType</b>值作为参数传递给<b>CreateContactCard</b>方法：</para>
+          <para>当您的任何以下<b>OlAddressEntryUserType</b>值作为参数传递给<b>CreateContactCard</b>方法时，outlook 将引发<b>E_INVALIDARG</b>错误：</para>
           <list type="bullet">
             <item>
               <para>
@@ -422,8 +402,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateRecipient">
@@ -452,10 +431,8 @@
         <param name="RecipientName">收件人的姓名；可以是表示收件人显示名称、别名或完整 SMTP 电子邮件地址的字符串。</param>
         <summary>创建<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。</summary>
         <returns>一个代表新收件人的 <b>Recipient</b> 对象。</returns>
-        <remarks>
-          <para>此方法通常用于创建<b>Recipient</b>对象以用于<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />方法，例如，若要打开 delegator 文件夹。此外可以用于验证通讯簿针对给定的名称。</para>
-          <para />
-        </remarks>
+        <remarks><para> 此方法通常用于创建<b>Recipient</b>对象以用于<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />方法，例如，若要打开 delegator 文件夹。 它还可以用于验证给定的名称对照通讯簿。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateSharingItem">
@@ -481,18 +458,13 @@
         <Parameter Name="Provider" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Context">
-          <b>字符串</b>（C# 中的<b>字符串</b>） 值或<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，代表要使用的共享上下文。</param>
-        <param name="Provider">
-          <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />值，该值表示要使用的共享提供程序。</param>
+        <param name="Context"><b>字符串</b>（C# 中的<b>字符串</b>） 值或<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，代表要使用的共享上下文。</param>
+        <param name="Provider"><see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />值，该值表示要使用的共享提供程序。</param>
         <summary>创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。</summary>
-        <returns>
-          <b>SharingItem</b> 对象，该对象表示指定的上下文的共享消息。</returns>
-        <remarks>
-          <para>如果在指定<b>String</b> （C# 中的<b>字符串</b>） 值<paramref name="Context" />，该方法假定已作为共享上下文中提供的 URL。如果<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />中指定对象<paramref name="Context" />，该方法尝试发现文件夹中的共享上下文。如果没有共享存在上下文，或如果存在多个共享上下文，将发生错误。</para>
+        <returns><b>SharingItem</b> 对象，该对象表示指定的上下文的共享消息。</returns>
+        <remarks><para>如果在指定<b>String</b> （C# 中的<b>字符串</b>） 值<paramref name="Context" />，该方法假定已作为共享上下文中提供的 URL。 如果<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />中指定对象<paramref name="Context" />，该方法尝试发现文件夹中的共享上下文。 如果不存在共享上下文，或者存在多个共享上下文，则发生错误。</para>
           <para>如果<paramref name="Provider" />未指定，则该方法尝试中指定的值使用合适的共享提供<paramref name="Context" />。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentProfileName">
@@ -518,14 +490,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示当前配置文件的名称。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示当前配置文件的名称。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>时创建一个配置文件分配一个配置文件名称。</para>
+        <remarks><para>在创建配置文件时指定配置文件名称。</para>
           <para>
-            <b>CurrentProfileName</b>映射到 MAPI 属性<b>PidTagProfileName</b>。</para>
-          <para />
-        </remarks>
+            <b>CurrentProfileName</b> 到 <b>PidTagProfileName</b> 的 MAPI 属性映射。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentUser">
@@ -551,7 +521,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回作为当前已登录用户的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。 只读。</summary>
+        <summary>返回作为当前已登录用户的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -579,12 +549,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，代表配置文件的默认存储。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，代表配置文件的默认存储。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果没有任何默认存储当前配置文件，则将返回错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果当前配置文件没有存储区，则返回错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dial">
@@ -609,8 +577,7 @@
         <Parameter Name="ContactItem" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ContactItem">
-          <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />要拨打的联系人对象。</param>
+        <param name="ContactItem"><see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />要拨打的联系人对象。</param>
         <summary>显示新呼叫对话框，使用户可以拨打指定联系人的主要电话号码。</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -638,12 +605,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />常量，指示当前的连接模式用户使用。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />常量，指示当前的连接模式用户使用。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果<b>ExchangeConnectionMode</b>属性是<b>olOffline</b>或<b>olDisconnected</b>，<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" />属性将返回<b>True</b> 。如果<b>olOnline</b>、 <b>olConnected</b>或<b>olConnectedHeaders</b><b>ExchangeConnectionMode</b>属性，则<b>NameSpace.Offline</b>属性将返回<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果<b>ExchangeConnectionMode</b>属性是<b>olOffline</b>或<b>olDisconnected</b>，<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" />属性将返回<b>True</b> 。 如果<b>olOnline</b>、 <b>olConnected</b>或<b>olConnectedHeaders</b> <b>ExchangeConnectionMode</b>属性，则<b>NameSpace.Offline</b>属性将返回<b>False</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerName">
@@ -669,12 +634,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，代表在其托管主动邮箱的 Exchange 服务器的名称。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，代表在其托管主动邮箱的 Exchange 服务器的名称。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果 Exchange 邮箱不存在的命名空间中，此属性将返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果 Exchange 邮箱在命名空间中不存在，则此属性返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerVersion">
@@ -700,15 +663,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示在其托管主动邮箱的 Exchange 服务器的完整版本。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示在其托管主动邮箱的 Exchange 服务器的完整版本。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回包含活动邮箱的 Exchange 服务器的版本号的字符串。版本号具有四个部分，如下所示：</para>
+        <remarks><para>此属性返回包含活动邮箱的 Exchange 服务器的版本号的字符串。 版本号有四个部分，如下所示：</para>
           <code>&amp;lt;major version&amp;gt;.&amp;lt;minor version&amp;gt;.&amp;lt;build number&amp;gt;.&amp;lt;revision&amp;gt;</code>
-          <para>不所有部件中都可能存在的版本号，具体取决于由 Microsoft Exchange Server 提供的版本信息。例如，此属性返回的 Microsoft Exchange Server 2003 Service Pack 2"6.5.7638"。</para>
-          <para>如果 Exchange 邮箱不存在的命名空间中，此属性返回空字符串。</para>
-          <para />
-        </remarks>
+          <para>并非所有部件中都可能存在的版本号，具体取决于由 Microsoft Exchange Server 提供的版本信息。 例如，对于 Microsoft Exchange Server 2003 Service Pack 2，此属性返回"6.5.7638"。</para>
+          <para>如果 Exchange 邮箱在命名空间中不存在，则此属性返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folders">
@@ -734,13 +695,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Folders</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合，代表指定中包含的所有文件夹<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合，代表指定中包含的所有文件夹<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>NameSpace</b>对象是给定命名空间的所有文件夹的根目录。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>NameSpace</b>对象是给定命名空间的所有文件夹的根目录。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAddressEntryFromID">
@@ -768,18 +726,14 @@
       <Docs>
         <param name="ID">会话维护的地址条目的字符串标识符。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，表示由指定的地址条目<paramref name="ID" />。</summary>
-        <returns>
-          <b>AddressEntry</b>已<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />属性匹配指定<paramref name="ID" />。</returns>
-        <remarks>
-          <para>
-            <b>AddressEntry</b>的<b>ID</b>属性是一个永久的唯一字符串标识符，创建<b>AddressEntry</b>时分配传输提供程序。</para>
+        <returns><b>AddressEntry</b>已<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />属性匹配指定<paramref name="ID" />。</returns>
+        <remarks><para><b>AddressEntry</b>的<b>ID</b>属性是一个永久的唯一字符串标识符，创建<b>AddressEntry</b>时分配传输提供程序。 </para>
           <para>Outlook 针对会话维护通讯簿层次结构和地址条目返回必须匹配给定<paramref name="ID" />而且必须在某个通讯簿。</para>
           <para>如果没有项目，
-            <b>那么 GetAddressEntryFromID</b>将返回错误给定<paramref name="ID" />可以找到。</para>
-          <para>如果无连接可用，或者用户设置为脱机工作后，
-            <b>那么 GetAddressEntryFromID</b>将也返回错误。</para>
-          <para />
-        </remarks>
+            <b>那么 GetAddressEntryFromID</b>将返回错误给定<paramref name="ID" />找不到。</para>
+          <para>如果无连接可用，或者用户设置为脱机工作，
+            <b>那么 GetAddressEntryFromID</b>也会返回错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDefaultFolder">
@@ -808,11 +762,9 @@
         <param name="FolderType">要返回的默认文件夹类型。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示当前配置文件; 请求的类型的默认文件夹例如，获取当前登录的用户的默认日历文件夹。</summary>
         <returns>一个代表当前配置文件所要求类型的默认文件夹的 <b>Folder</b> 对象。</returns>
-        <remarks>
-          <para>要返回特定的非默认文件夹，请使用<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合。</para>
-          <para>不存在所请求的类型的默认文件夹，具体取决于类型，如果 Outlook 可能会创建并返回文件夹，或可能会引发错误。例如，如果 olFolderManagedEmail 指定为 FolderType，但是尚未部署托管文件夹组中，Microsoft Outlook 将引发错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>若要返回特定的非默认文件夹，请使用<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合。</para>
+          <para>如果所请求的类型的默认文件夹不存在，具体取决于类型，Outlook 可能会创建并返回该文件夹，或可能会引发错误。 例如，如果 olFolderManagedEmail 指定为 FolderType，但是尚未部署托管文件夹组中，Microsoft Outlook 将引发错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFolderFromID">
@@ -838,16 +790,12 @@
         <Parameter Name="EntryIDStore" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="EntryIDFolder">
-          <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />的文件夹。</param>
-        <param name="EntryIDStore">
-          <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />的文件夹。</param>
+        <param name="EntryIDFolder"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />的文件夹。</param>
+        <param name="EntryIDStore"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />的文件夹。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />由指定的条目 ID （如果有效） 标识的对象。</summary>
         <returns>值，该值代表指定的文件夹的<b>Folder</b>对象。</returns>
-        <remarks>
-          <para>此方法用于简化 MAPI 和 OLE/Messaging 应用程序和 Microsoft Outlook 之间的转换。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法用于简化 MAPI 和 OLE/Messaging 应用程序与 Microsoft Outlook 之间的转换。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetGlobalAddressList">
@@ -873,12 +821,10 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象，它代表 Exchange 全球通讯簿。</summary>
         <returns>表示全局地址列表 <b>设置</b> 。</returns>
-        <remarks>
-          <para>
-            <b>GetGlobalAddressList</b>支持仅 Exchange 服务器。如果全局地址列表不可用或找不到将返回错误。</para>
-          <para>如果无连接可用，或者用户设置为脱机工作，它会也会返回错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>GetGlobalAddressList</b> 支持只有 Exchange 服务器。如果全局地址列表不可用或无法找到，则返回错误。</para>
+          <para>如果没有可用连接或者用户设置为脱机工作，它也会返回错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItemFromID">
@@ -904,17 +850,13 @@
         <Parameter Name="EntryIDStore" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="EntryIDItem">
-          <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />的项。</param>
-        <param name="EntryIDStore">
-          <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />的文件夹。 <paramref name="EntryIDStore" />通常，必须提供检索基于其 MAPI Id 的项目时。</param>
+        <param name="EntryIDItem"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />的项。</param>
+        <param name="EntryIDStore"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />的文件夹。 <paramref name="EntryIDStore" />通常，必须提供检索基于其 MAPI Id 的项目时。</param>
         <summary>返回一个由指定条目 ID（如果有效）标识的 Microsoft Outlook 项目。</summary>
         <returns>一个代表指定 Outlook 项目的 Object 值。</returns>
-        <remarks>
-          <para>此方法用于简化 MAPI 和 OLE/Messaging 应用程序和 Outlook 之间的转换。</para>
-          <para>有关条目 Id 的详细信息，请参阅<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法用于简化 MAPI 和 OLE/Messaging 应用程序与 Outlook 之间的转换。</para>
+          <para>有关条目 Id 的详细信息，请参阅<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />属性。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecipientFromID">
@@ -940,15 +882,11 @@
         <Parameter Name="EntryID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="EntryID">
-          <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />的收件人。</param>
+        <param name="EntryID"><see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />的收件人。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />由指定的条目 ID （如果有效） 标识的对象。</summary>
-        <returns>
-          <b>收件人</b> 对象，该对象代表指定的收件人。</returns>
-        <remarks>
-          <para>此方法用于简化 MAPI 和 OLE/Messaging 应用程序和 Microsoft Outlook 之间的转换。</para>
-          <para />
-        </remarks>
+        <returns><b>收件人</b> 对象，该对象代表指定的收件人。</returns>
+        <remarks><para>此方法用于简化 MAPI 和 OLE/Messaging 应用程序与 Microsoft Outlook 之间的转换。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSelectNamesDialog">
@@ -1004,12 +942,10 @@
         <param name="FolderType">文件夹的类型。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示指定用户的指定的默认文件夹。</summary>
         <returns>代表指定的用户指定的默认文件夹的 <b>Folder</b> 对象。</returns>
-        <remarks>
-          <para>此方法用于在委派方案中，一个用户其中有到另一个用户的访问代理的一个或多个默认文件夹 （如共享的日历文件夹）。</para>
+        <remarks><para>此方法用于代理方案，在这种情况下，一位用户对其他用户的一个或多个默认文件夹（如共享的 "日历"文件夹）有代理访问权限。</para>
           <para>
-            <paramref name="FolderType" />可以是下列<b>OlDefaultFolders</b>常量之一： <b>olFolderCalendar</b>、 <b>olFolderContacts</b>、 <b>olFolderDrafts</b>、 <b>olFolderInbox</b>、 <b>olFolderJournal</b>、 <b>olFolderNotes</b>或<b>olFolderTasks</b>。（常量<b>olFolderDeletedItems</b><b>olFolderOutbox</b>、 <b>olFolderJunk</b>、 <b>olFolderConflicts</b>、 <b>olFolderLocalFailures</b>、 <b>olFolderServerFailures</b>、 <b>olFolderSyncIssues</b>，<b>olPublicFoldersAllPublicFolders</b>、 <b>olFolderRssSubscriptions</b>、 <b>olFolderToDo</b>、 <b>olFolderManagedEmail</b>和<b>olFolderSentMail</b>无法为指定此参数。）</para>
-          <para />
-        </remarks>
+            <paramref name="FolderType" />可以是下列<b>OlDefaultFolders</b>常量之一： <b>olFolderCalendar</b>、 <b>olFolderContacts</b>、 <b>olFolderDrafts</b>、 <b>olFolderInbox</b>、 <b>olFolderJournal</b>、 <b>olFolderNotes</b>或<b>olFolderTasks</b>. (常量 <b>olFolderDeletedItems</b> 、 <b>olFolderOutbox</b> 、 <b>olFolderJunk</b> 、 <b>olFolderConflicts</b> 、 <b>olFolderLocalFailures</b> 、 <b>olFolderServerFailures</b> 、 <b>olFolderSyncIssues</b> 、 <b>olPublicFoldersAllPublicFolders</b> 、 <b>olFolderRssSubscriptions</b> 、 <b>olFolderToDo</b> 、 <b>olFolderManagedEmail</b> 和 <b>olFolderSentMail</b> 不能指定此参数。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetStoreFromID">
@@ -1037,16 +973,12 @@
       <Docs>
         <param name="ID">一个用来标识存储区的字符串值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示指定的存储区<paramref name="ID" />。</summary>
-        <returns>
-          <b>Store</b>对象。<see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" />属性匹配<paramref name="ID" />。</returns>
-        <remarks>
-          <para>
-            <b>StoreID</b>属性与<b>存储</b>的会话是唯一的配置文件。它等效于 MAPI 属性<b>PidTagStoreEntryId</b>。</para>
-          <para>存储必须装入该方法成功的顺序。</para>
+        <returns><b>Store</b>对象。<see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" />属性匹配<paramref name="ID" />。</returns>
+        <remarks><para><b>StoreID</b> 属性 <b>存储</b> 的会话是唯一的配置文件。 它相当于 <b>PidTagStoreEntryId</b> 的 MAPI 属性。</para>
+          <para>必须安装存储区，才能使该方法成功。</para>
           <para>如果没有指定存储
             <b>区，GetStoreFromID</b>将返回错误<paramref name="ID" />可为当前会话中找到。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Logoff">
@@ -1101,14 +1033,12 @@
       <Docs>
         <param name="Profile">MAPI 配置文件名称，作为<b>字符串</b>（<b>字符串</b>中 C#），用于会话。 指定要用于当前会话的默认配置文件为空字符串。</param>
         <param name="Password">关联的密码 （如果有），以<b>字符串</b>（<b>字符串</b>中 C#），使用配置文件。  此参数存在仅向后兼容性，出于安全考虑，建议不要使用。  Microsoft Oultook 将提示用户在大部分系统配置中指定的密码。  这是您的登录密码，不应与 PST 密码混淆。</param>
-        <param name="ShowDialog">
-          <b>True</b> 指示显示的 MAPI 登录对话框，以允许用户选择的 MAPI 配置文件。</param>
+        <param name="ShowDialog"><b>True</b> 指示显示的 MAPI 登录对话框，以允许用户选择的 MAPI 配置文件。</param>
         <param name="NewSession">为 <b>True</b> 时创建新的 Outlook 会话。因为在 Outlook 中不能创建多个会话，仅当不存在会话时才将此参数指定为“True”。</param>
         <summary>使用户登录到 MAPI，获取 MAPI 会话。</summary>
-        <remarks>
-          <para>使用<b>Logon</b>方法仅用于登录到特定配置文件时已在未运行 Outlook。这是因为只有一个 Outlook 进程可以运行一次，以及该 Outlook 进程使用只有一个配置文件和支持只有一个 MAPI 会话。当用户在第二次启动 Outlook 时，Outlook 该实例同一 Outlook 进程中运行、 不会创建一个新的过程，并使用的同一配置文件。</para>
-          <para>如果 Outlook 已在运行，则使用此方法不创建新的 Outlook 会话或更改为一个不同的当前配置文件。</para>
-          <para>如果未运行 Outlook，并且您只希望使用默认配置文件，启动 Outlook 不使用<b>Logon</b>方法。下面的代码示例 InitializeMAPI 中显示更好的替代方法： 首先，实例化 Outlook<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，然后引用默认文件夹，如收件箱。此已初始化 MAPI 要使用的默认配置文件，以便完善的对象模型的副作用。</para>
+        <remarks><para><b>Logon</b>方法仅可用于登录到特定的配置文件时 Outlook 未运行。 这是因为只有一个 Outlook 进程可以运行一次，并且 Outlook 进程使用一个配置文件，并支持只有一个 MAPI 会话。 当用户在第二次启动 Outlook 时，Outlook 该实例同一 Outlook 进程中运行、 不会创建一个新的过程，并使用的同一配置文件。 </para>
+          <para>如果尚未运行 Outlook，使用这种方法不创建新的 Outlook 会话或更改为一个不同的当前配置文件。</para>
+          <para>如果 Outlook 未运行，并且您只想使用默认的配置文件启动 Outlook，请使用 <b>Logon</b>方法。 下面的代码示例 InitializeMAPI 中显示更好的替代方法： 首先，实例化 Outlook<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，然后引用默认文件夹，如收件箱。 这有不利的一面，初始化 MAPI 使用默认配置文件，并使对象模型完全正常。 </para>
           <code>
 Imports Outlook = Microsoft.Office.Interop.Outlook
 
@@ -1130,9 +1060,8 @@ Sub InitializeMAPI ()
 
     ' Continue to use the object model to automate Outlook.
 End Sub</code>
-          <para>从 Outlook 2010 中，如果您具有多个配置文件、 配置了 Outlook 始终使用默认配置文件，并使用<b>Logon</b>方法登录到默认配置文件而不提示用户，用户将收到提示仍然选择一个配置文件。要避免此行为，请不要使用<b>Logon</b>方法;使用替代方法，而是建议在上述示例中 InitializeMAPI。</para>
-          <para />
-        </remarks>
+          <para>在 Outlook 2010 中，从开始，如果您具有多个配置文件、 配置了 Outlook 始终使用默认配置文件，并使用<b>Logon</b>方法登录到默认配置文件而不提示用户，用户将收到提示选择一个配置文件仍然。 要避免此行为，请不要使用<b>Logon</b>方法;使用改为 InitializeMAPI 上例中建议的解决方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -1189,13 +1118,11 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，如果 Outlook 处于脱机状态 （未连接到 Exchange 服务器），该值<b>，则返回 True</b>和<b>False</b>如果联机 （连接到 Exchange 服务器）。  只读。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，如果 Outlook 处于脱机状态 （未连接到 Exchange 服务器），该值<b>，则返回 True</b>和<b>False</b>如果联机 （连接到 Exchange 服务器）。  此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>脱机属性返回有效的信息仅针对 Exchange 配置文件。它不适合于非 Exchange 帐户类型，如 POP3、 IMAPI 和 HTTP。</para>
-          <para>如果<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />属性是<b>olOffline</b>或<b>olDisconnected</b>、<b>脱机</b>属性将返回<b>True</b>。如果<b>ExchangeConnectionMode</b>属性， <b>olOnline</b>、 <b>olConnected</b>或<b>olConnectedHeaders</b><b>脱机</b>属性将返回<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>Offline 属性只为 Exchange 配置文件返回有效信息，它不用于 POP3、IMAPI 和 HTTP 等非 Exchange 帐户类型。</para>
+          <para>如果<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />属性是<b>olOffline</b>或<b>olDisconnected</b>、<b>脱机</b>属性将返回<b>True</b>。 如果将 <b>ExchangeConnectionMode</b> 属性， <b>olOnline</b> ， <b>olConnected</b> 或 <b>olConnectedHeaders</b> 的 <b>脱机</b> 属性将返回 <b>False</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenSharedFolder">
@@ -1229,33 +1156,31 @@ End Sub</code>
         <param name="UseTTL">指示是否应使用 RSS 源或 WebCal 日历中的生存时间 (TTL) 设置。对于其他共享文件夹类型，忽略此参数。</param>
         <summary>打开一个通过 URL 或文件名引用的共享文件夹。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示的共享的文件夹。</returns>
-        <remarks>
-          <para>使用此方法访问下列共享的文件夹类型：</para>
+        <remarks><para>此方法用于访问下列共享文件夹类型：</para>
           <list type="bullet">
             <item>
-              <para>Webcal 日历 (webcal://mysite/mycalendar)</para>
+              <para>Webcal 日历 (webcal://我的网站/我的日历)</para>
             </item>
             <item>
-              <para>RSS 源 (feed://mysite/myfeed)</para>
+              <para>RSS 源 (feed://我的网站/我的源)</para>
             </item>
             <item>
-              <para>Microsoft SharePoint Foundation 文件夹 (stssync://mysite/myfolder)</para>
+              <para>Microsoft SharePoint Foundation 文件夹 (stssync://我的网站/我的文件夹)</para>
             </item>
             <item>
               <para>iCalendar 日历 (.ics) 文件</para>
             </item>
             <item>
-              <para>vCard 联系人 (。为 vcf) 文件</para>
+              <para>vCard 联系人 (.vcf) 文件</para>
             </item>
             <item>
               <para>Outlook 邮件 (.msg) 文件</para>
             </item>
           </list>
           <para>
-            <b>注意</b>： 此方法不支持 iCalendar 约会 (.ics) 文件。若要打开 iCalendar 约会文件，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象。</para>
+            <b>注意</b>： 此方法不支持 iCalendar 约会 (.ics) 文件。 若要打开 iCalendar 约会文件，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象。</para>
           <para>您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />共享默认文件夹，如收件箱文件夹中，在 Exchange 中的<b>Namespace</b>对象的方法。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenSharedItem">
@@ -1284,12 +1209,11 @@ End Sub</code>
         <param name="Path">要打开的共享项目的路径或 URL。</param>
         <summary>从指定的路径或 URL 打开共享项目。</summary>
         <returns>一个代表共享项目相应的 Outlook 项目的对象。</returns>
-        <remarks>
-          <para>使用此方法以打开 iCalendar 约会 (.ics) 文件、 vCard (.vcf) 文件和 Outlook 邮件 (.msg) 文件。下表中所述，此方法返回的对象的类型取决于打开的共享项目的类型。</para>
+        <remarks><para>此方法用于打开 iCalendar 约会 (.ics) 文件、vCard (.vcf) 文件和 Outlook 邮件 (.msg) 文件。此方法所返回对象的类型取决于所打开共享项目的类型，如下表所述。</para>
           <list type="table">
             <item>
               <description>共享项目类型</description>
-              <description>的 Outlook 项目</description>
+              <description>Outlook 项目</description>
             </item>
             <item>
               <description>iCalendar 约会 (.ics) 文件</description>
@@ -1301,13 +1225,12 @@ End Sub</code>
             </item>
             <item>
               <description>Outlook 邮件 (.msg) 文件</description>
-              <description>类型对应的已保存为.msg 文件的项目键入</description>
+              <description>类型对应于已保存为 .msg 文件的项目类型</description>
             </item>
           </list>
           <para>
-            <b>注意</b>： 此方法不支持 iCalendar 日历 (.ics) 文件。若要打开 iCalendar 日历文件，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" />的<b>NameSpace</b>对象的方法。</para>
-          <para />
-        </remarks>
+            <b>注意</b>： 此方法不支持 iCalendar 日历 (.ics) 文件。 若要打开 iCalendar 日历文件，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" />的<b>NameSpace</b>对象的方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -1361,10 +1284,8 @@ End Sub</code>
       <Docs>
         <summary>显示选择文件夹对话框。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示的文件夹，如果用户取消对话框中，在用户选择中的对话框中，或<b>Nothing</b> 。</returns>
-        <remarks>
-          <para>选择文件夹对话框是模式对话框，这意味着在用户选择一个文件夹或取消对话框之前不会继续代码执行。</para>
-          <para />
-        </remarks>
+        <remarks><para>"选择文件夹"对话框是模式对话框，这意味着在用户选择一个文件夹或取消对话框之前不会继续执行代码。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RefreshRemoteHeaders">
@@ -1420,10 +1341,8 @@ End Sub</code>
       <Docs>
         <param name="Folder">要从列表中删除的个人文件夹文件 (.pst)。</param>
         <summary>从当前的 MAPI 配置文件或会话中删除个人文件夹文件 (.pst)。</summary>
-        <remarks>
-          <para>此方法仅从 Microsoft Outlook 用户界面删除存储区。从服务器上的主邮箱或从使用 Outlook 对象模型的用户的硬盘，不能删除存储区。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法仅从 Microsoft Outlook 用户界面删除存储区。 不能使用 Outlook 对象模型从服务器上的主邮箱或从用户硬盘删除存储。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendAndReceive">
@@ -1451,14 +1370,12 @@ End Sub</code>
       <Docs>
         <param name="showProgressDialog">指示是否应当显示 "Outlook 发送/接收进度"对话框，而不考虑用户设置。</param>
         <summary>开始立即传递所有未送达提交的邮件中的当前会话和立即接收当前配置文件中的所有帐户的邮件。</summary>
-        <remarks>
-          <para>调用<b>SendAndReceive</b>方法是异步。</para>
+        <remarks><para>调用 <b>SendAndReceive</b> 方法是异步的。</para>
           <para>
-            <b>SendAndReceive</b>提供一个在编程上的等同于单击工具，然后选择发送/接收时，可全部发送/接收命令。</para>
-          <para>如果您不需要同步所有对象，则可以使用<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />要选择特定的对象集合对象。有关详细信息，请参阅<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />。</para>
-          <para>全部发送/接收中使用当前配置文件中定义的所有帐户。如果执行发送/接收所有需要的联机连接，根据用户首选项进行了连接。</para>
-          <para />
-        </remarks>
+            <b>SendAndReceive</b>提供在编程上的等同于单击工具，然后选择发送/接收时，可全部发送/接收命令。</para>
+          <para>如果您不需要同步所有对象，则可以使用<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />要选择特定的对象集合对象。 有关详细信息，请参阅 <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />。</para>
+          <para>在 全部发送/接收中使用当前配置文件中定义的所有帐户。如果执行 发送/接收所有都需要建立联机连接，该连接将根据用户首选项。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1484,19 +1401,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Stores">
@@ -1522,7 +1436,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Stores</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />集合对象，代表所有<see cref="T:Microsoft.Office.Interop.Outlook.Store" />当前配置文件中的对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Stores" />集合对象，代表所有<see cref="T:Microsoft.Office.Interop.Outlook.Store" />当前配置文件中的对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1550,7 +1464,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.SyncObjects</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />集合，其中包含所有发送 \ 接收组。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />集合，其中包含所有发送 \ 接收组。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

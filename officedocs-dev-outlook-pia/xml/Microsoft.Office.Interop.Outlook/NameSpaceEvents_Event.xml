@@ -1,13 +1,5 @@
 <Type Name="NameSpaceEvents_Event" FullName="Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0f045237185550e081b3a4867c8df470879b59be" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632882" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NameSpaceEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1c005a7d21957144559d87eb958351e7789b49e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896861" /></Metadata><TypeSignature Language="C#" Value="public interface NameSpaceEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface NameSpaceEvents_Event" />
@@ -68,11 +60,9 @@
       </ReturnValue>
       <Docs>
         <summary>每当打开文件夹的属性对话框时发生。</summary>
-        <remarks>
-          <para>您可以通过右键单击该文件夹并选择属性打开属性对话框中的文件夹。</para>
-          <para>程序处理此事件中添加自定义属性页面。属性页将添加到指定的文件夹的属性对话框。标识的<b>PropertyPages</b>集合对象时，将触发事件，<paramref name="Pages" />包含在事件处理程序调用之前已添加的属性页。若要添加到集合的属性页，请使用<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /><b>PropertyPages</b>集合之前退出事件处理程序方法。</para>
-          <para />
-        </remarks>
+        <remarks><para>通过右键单击某个文件夹并选择 "属性"，可以打开该文件夹的 "属性"对话框。</para>
+          <para>您的程序处理该事件以添加自定义属性页。 属性页将添加到指定的文件夹的 属性对话框。 标识的<b>PropertyPages</b>集合对象时，将触发事件，<paramref name="Pages" />包含在事件处理程序调用之前已添加的属性页。 若要添加到集合的属性页，请使用<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /> <b>PropertyPages</b>集合之前退出事件处理程序方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

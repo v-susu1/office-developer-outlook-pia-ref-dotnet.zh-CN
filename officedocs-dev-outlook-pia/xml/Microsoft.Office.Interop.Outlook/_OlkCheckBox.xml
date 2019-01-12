@@ -1,13 +1,5 @@
 <Type Name="_OlkCheckBox" FullName="Microsoft.Office.Interop.Outlook._OlkCheckBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="06ec4a697a0ebc451e72e60a6cf8aa5055e89538" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632259" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCheckBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="06ec4a697a0ebc451e72e60a6cf8aa5055e89538" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899437" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCheckBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCheckBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCheckBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCheckBox" />
@@ -56,13 +48,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个代表加速器或热控件键的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个代表加速器或热控件键的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>的默认值为空字符串，这意味着没有热键。 如果该属性设置与多个字符的字符串，则值将被截断的第一个字符。 </para>
-          <para>您不能在加速键中使用数字。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为空字符串，表示没有热键。如果该属性设置为包含多个字符的字符串，则该值将被截断为只包含第一个字符。  </para>
+          <para>不能在加速键中使用数字。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Alignment">
@@ -91,12 +81,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAlignment</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" />常量，指示相对于其标题的控件的位置。    为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" />常量，指示相对于其标题的控件的位置。    读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olAlignmentLeft</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olAlignmentLeft</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -128,12 +116,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x8000000F，"按钮图符。"</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。 此属性的默认值是 0x8000000F，"按钮表面"。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -162,12 +148,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBackStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />更改之间透明和不透明的控件的背景样式的常量。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />更改之间透明和不透明的控件的背景样式的常量。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olBackStyleOpaque</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olBackStyleOpaque</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -196,12 +180,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 出现的用以标识或描述它的对象。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 出现的用以标识或描述它的对象。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值取决于控件的名称。 相对于复选框的标题的位置由<see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" />属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>  默认值基于控件的名称。  相对于复选框的标题的位置由<see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" />属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -230,12 +212,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -263,10 +243,8 @@
       <Docs>
         <summary>返回 <b>StdFont</b> 表示用来呈现控件中的文本的字体。  只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>字体表示为 Microsoft Windows 类型<b>stdfont</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>字体表示为 Microsoft Windows 类型<b>stdfont</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -298,12 +276,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x80000008，"窗口文本"。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。 此属性的默认值是 0x80000008，"窗口型"。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -334,10 +310,8 @@
       <Docs>
         <summary>返回或设置 <b>StdPicture</b> 表示此控件的鼠标光标的自定义图片。读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -366,12 +340,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olMousePointerDefault</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olMousePointerDefault</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TripleState">
@@ -400,12 +372,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，指定是否用户可以指定在用户界面控件的<b>Null</b>状态。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，指定是否用户可以指定在用户界面控件的<b>Null</b>状态。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果此属性为<b>True</b>，则复选框单击三种状态。如果此属性为<b>False</b>，则复选框将支持仅<b>True</b>和<b>False</b>状态。默认值为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果此属性为 <b>True</b> 时，该复选框支持三种状态。如果此属性为 <b>False</b> ，复选框支持只有 <b>True</b> 和 <b>False</b> 的状态。默认值为 <b>False</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -434,12 +404,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个指定控件的状态的<b>对象</b>。 为可读/写属性。</summary>
+        <summary>返回或设置一个指定控件的状态的<b>对象</b>。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>对于复选框控件，该属性是<b>True</b>或<b>False</b>，或者如果<see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" />属性设置， <b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#），也可以是<b>Value</b>属性。默认值为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>对于复选框控件，该属性是<b>True</b>或<b>False</b>，或者如果<see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" />属性设置， <b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#），也可以是<b>Value</b>属性。 默认值为 <b>False</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -468,12 +436,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件的内容是否自动换行的末尾。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件的内容是否自动换行的末尾。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OutlookBarShortcut" FullName="Microsoft.Office.Interop.Outlook.OutlookBarShortcut">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5a65f22e3eaa69e1ad0b770928f78d702f831c4a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632871" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarShortcut" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c4b5b620ecfa5e6e93db716a5fcba064777cf64a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896931" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarShortcut" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarShortcut" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarShortcut" />
@@ -27,10 +19,8 @@
   </Attributes>
   <Docs>
     <summary>代表“快捷方式”窗格中一个组中的快捷方式。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索<b>OutlookBarShortcut</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />对象。因为<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" />属性为<b>OutlookBarShortcut</b>对象的默认属性，您可以通过名称识别快捷方式。</para>
-      <para />
-    </remarks>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索<b>OutlookBarShortcut</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />对象。 因为<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" />属性为<b>OutlookBarShortcut</b>对象的默认属性，您可以通过名称识别快捷方式。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -56,7 +46,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,7 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,7 +105,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,19 +161,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetIcon">
@@ -237,12 +224,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>对象</b>，指示快捷方式窗格组中的指定快捷方式的目标。 只读。</summary>
+        <summary>返回一个<b>对象</b>，指示快捷方式窗格组中的指定快捷方式的目标。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>返回类型取决于快捷方式的类型。如果该快捷方式代表 Outlook 文件夹，返回的类型是<b>文件夹</b>。如果快捷方式表示文件系统文件夹，则返回的类型为<b>对象</b>。如果该快捷方式表示的文件系统路径或 URL，返回的类型为<b>字符串</b>（C# 中的<b>字符串</b>）。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回的类型依赖于快捷方式的类型。 如果该快捷方式表示 Outlook 文件夹，则返回的类型是 <b>文件夹</b> 。 如果该快捷方式代表文件系统文件夹，则返回类型为 <b>对象</b> 。 如果该快捷方式表示的文件系统路径或 URL，返回的类型为<b>字符串</b>（C# 中的<b>字符串</b>）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlkCategoryEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6b5bfb00aa9250de100ae933103dc32bfe1cf197" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632510" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkCategoryEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9969fef0204c00347d74f89eb2a59ae1eec65350" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900827" /></Metadata><TypeSignature Language="C#" Value="public interface OlkCategoryEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkCategoryEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkCategoryEvents_Event" />
@@ -144,11 +136,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户按下某个键时发生。</summary>
-        <remarks>
-          <para>
-            <b>KeyDown</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>KeyDown</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -167,26 +156,23 @@
       </ReturnValue>
       <Docs>
         <summary>当用户按某个 ANSI 键时发生。</summary>
-        <remarks>
-          <para>生成可键入字符，当用户按其 ANSI 键。用户运行窗体在窗体上按下某个 ANSI 键或上的某个控件具有焦点时，将发生<b>KeyPress</b>事件。之前或之后释放该键，可能发生此事件。</para>
-          <para>
-            <b>KeyPress</b>事件以下情况下不会发生：</para>
+        <remarks><para>一个 ANSI 键是一种用户按下它时生成可键入字符。 用户运行窗体在窗体上按下某个 ANSI 键或上的某个控件具有焦点时，将发生<b>KeyPress</b>事件。 之前或之后释放该键，则可能发生此事件。</para>
+          <para>在下列情况下，不发生 <b>KeyPress</b> 事件:</para>
           <list type="bullet">
             <item>
-              <para>按选项卡上</para>
+              <para>按 Tab。</para>
             </item>
             <item>
-              <para>按输入</para>
+              <para>按 Enter。</para>
             </item>
             <item>
               <para>按箭头键</para>
             </item>
             <item>
-              <para>当键击导致焦点从一个控件移到另一个。</para>
+              <para>当键击导致焦点从一个控件移到另一个控件时。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -205,10 +191,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户释放某个键时发生。</summary>
-        <remarks>
-          <para>在<b>KeyUp</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
-          <para />
-        </remarks>
+        <remarks><para>在<b>KeyUp</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -246,10 +230,8 @@
       </ReturnValue>
       <Docs>
         <summary>在控件上出现鼠标移动后发生。</summary>
-        <remarks>
-          <para>按 ALT 键可触发<b>MouseMove</b>事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>按下 ALT键触发 <b>MouseMove</b> 事件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

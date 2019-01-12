@@ -1,13 +1,5 @@
 <Type Name="NameSpaceClass" FullName="Microsoft.Office.Interop.Outlook.NameSpaceClass">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ac6a0c726a290f8d36429f19b24081080ab0d3bf" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632440" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class NameSpaceClass : Microsoft.Office.Interop.Outlook.NameSpace" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5aa70cfa4f7c907f279675e467797efaeb4524a9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897512" /></Metadata><TypeSignature Language="C#" Value="public class NameSpaceClass : Microsoft.Office.Interop.Outlook.NameSpace" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi NameSpaceClass extends System.Object implements class Microsoft.Office.Interop.Outlook._NameSpace, class Microsoft.Office.Interop.Outlook.NameSpace, class Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpaceClass" />
   <TypeSignature Language="VB.NET" Value="Public Class NameSpaceClass&#xA;Implements NameSpace" />
@@ -781,10 +773,8 @@
         <param name="FolderType">To be added.</param>
         <summary>这是.NET 类或创建时处理 COM coclass 托管代码实现与相应的 COM 对象的互操作性所需的.NET 类的成员。 仅当您需要访问具有更高版本的 Outlook 中的随后扩展此类中的早期事件时，请使用此类。 否则，使用.NET 接口派生 COM coclass。 有关.NET 接口的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />。</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>如果不存在所请求的类型的默认文件夹，具体取决于类型，可以创建 Outlook 并返回文件夹，或可能会引发错误。例如，如果 olFolderManagedEmail 指定为 FolderType，但是尚未部署托管文件夹组，Outlook 将引发错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果所请求的类型的默认文件夹不存在，具体取决于类型，Outlook 可能会创建并返回该文件夹，或可能会引发错误。 例如，如果 olFolderManagedEmail 指定为 FolderType，但是尚未部署托管文件夹组，Outlook 将引发错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFolderFromID">

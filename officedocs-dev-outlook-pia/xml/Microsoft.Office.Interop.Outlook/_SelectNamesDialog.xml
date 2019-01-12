@@ -1,13 +1,5 @@
 <Type Name="_SelectNamesDialog" FullName="Microsoft.Office.Interop.Outlook._SelectNamesDialog">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631609" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900967" /></Metadata><TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SelectNamesDialog" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SelectNamesDialog" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SelectNamesDialog" />
@@ -56,14 +48,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 确定是否可在选择姓名对话框中一次选择多个地址条目。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 确定是否可在选择姓名对话框中一次选择多个地址条目。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>AllowMultipleSelection</b>的默认值为<b>True</b>。如果<b>AllowMultipleSelection</b>设置为<b>True</b>，则用户可以使用 CTRL 或 SHIFT 键选择多个收件人。如果<b>AllowMultipleSelection</b>设置为<b>False</b>，则禁用多重选择。  </para>
-          <para>设置<b>AllowMultipleSelection</b>为<b>False</b> ，并不能确保可选择该只有一个收件人。用户可以键入其他收件人编辑框或从收件人列表中的选择多个时间。若要确保该仅有一个收件人的可选择在对话框中，将设置为<b>False</b><b>AllowMultipleSelect</b>和<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />到<b>olShowNone</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>AllowMultipleSelection</b> 的默认值是 <b>True</b>。如果将 <b>AllowMultipleSelection</b> 设置为 <b>True</b>，用户可以使用 ctrl 键或 SHIFT键来选择多个收件人。如果将 <b>AllowMultipleSelection</b> 设置为 <b>False</b>，禁用多个选定内容。</para>
+          <para>将 <b>AllowMultipleSelection</b> 设置为 <b>False</b>不能保证，只能有一个收件人可以选择。 用户可以直接从收件人列表中的选择的编辑框中多次重复键入其他收件人。 若要确保该仅有一个收件人的可选择在对话框中，将设置为<b>False</b> <b>AllowMultipleSelect</b>和<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />到<b>olShowNone</b>。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -89,7 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -120,13 +109,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置在选择姓名对话框的密件抄送命令按钮上显示的文本<b>字符串</b>（C# 中的<b>字符串</b>）。 为可读/写属性。</summary>
+        <summary>返回或设置在选择姓名对话框的密件抄送命令按钮上显示的文本<b>字符串</b>（C# 中的<b>字符串</b>）。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>若要提供的收件人编辑框的加速键，包括与号 (&amp;) 在标签参数字符串作为访问键的字符前面的字符。例如，如果<b>BccLabel</b>是字符串"本地&amp;与会者"，用户可以按 ALT + A 将焦点移到第一个收件人编辑框。</para>
-          <para>，如果未设置<b>BccLabel</b> ，则默认值将为"密件抄送"的本地化的字符串。如果<b>BccLabel</b>设置为空字符串，则将显示密件抄送命令按钮的&gt;。如果<b>BccLabel</b>属性将包含超过 32 个字符 (包括与号 (&amp;) 访问键)，仅前 32 个字符将显示在命令按钮。</para>
-          <para />
-        </remarks>
+        <remarks><para>若要提供的收件人编辑框的加速键，包括与号 (&amp;) 在标签参数字符串作为访问键的字符前面的字符。 例如，如果<b>BccLabel</b>是字符串"本地&amp;与会者"，用户可以按 ALT + A 将焦点移到第一个收件人编辑框。 </para>
+          <para>如果未设置<b>BccLabel</b> ，则默认值将"密件抄送"的本地化的字符串。 如果<b>BccLabel</b>设置为空字符串，则将显示密件抄送命令按钮的&gt;。 如果<b>BccLabel</b>属性将包含超过 32 个字符 (包括与号 (&amp;) 访问键)，将命令按钮中显示仅前 32 个字符。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -155,14 +142,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表选择姓名对话框的标题的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表选择姓名对话框的标题的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果未设置<b>标题</b>，对话框的标题将选择姓名或本地化的等效项。如果将<b>Caption</b>设置为空字符串，对话框框标题将为空字符串。</para>
-          <para>
-            <b>标题</b>设置为长字符串 （例如 300 个字符） 会使标题被截选，而不会更改选择姓名对话框的宽度。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果您没有设置 <b>标题</b> ，对话框的标题将 选择姓名或本地化的等效项。如果您将 <b>标题</b> 设置为空字符串，则将空字符串对话框框标题。</para>
+          <para>将 <b>标题</b> 设置为长字符串 (例如，300 个字符) 会使标题被截断，而不会更改 选择姓名对话框的宽度。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CcLabel">
@@ -191,13 +175,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置在选择姓名对话框的抄送命令按钮上显示的文本<b>字符串</b>（C# 中的<b>字符串</b>）。 为可读/写属性。</summary>
+        <summary>返回或设置在选择姓名对话框的抄送命令按钮上显示的文本<b>字符串</b>（C# 中的<b>字符串</b>）。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>若要提供的收件人编辑框的加速键，包括与号 (&amp;) 在标签参数字符串作为访问键的字符前面的字符。例如，如果<b>CcLabel</b>是字符串"本地&amp;与会者"，用户可以按 ALT + A 将焦点移到第一个收件人编辑框。</para>
-          <para>，如果未设置<b>CcLabel</b> ，则默认值将为"抄送"的本地化的字符串。如果<b>CcLabel</b>设置为空字符串，则将显示抄送命令按钮的&gt;。如果<b>CcLabel</b>属性包含超过 32 个字符 (包括与号 (&amp;) 访问键)，仅前 32 个字符将显示在命令按钮。</para>
-          <para />
-        </remarks>
+        <remarks><para>若要提供的收件人编辑框的加速键，包括与号 (&amp;) 在标签参数字符串作为访问键的字符前面的字符。 例如，如果<b>CcLabel</b>是字符串"本地&amp;与会者"，用户可以按 ALT + A 将焦点移到第一个收件人编辑框。 </para>
+          <para>如果未设置<b>CcLabel</b> ，则默认值将"抄送"的本地化的字符串。 如果<b>CcLabel</b>设置为空字符串，则将显示抄送命令按钮的&gt;。 如果<b>CcLabel</b>属性包含超过 32 个字符 (包括与号 (&amp;) 访问键)，将命令按钮中显示仅前 32 个字符。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -223,7 +205,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />对象。 只读。</summary>
+        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -251,12 +233,10 @@
       <Docs>
         <summary>显示选择姓名对话框。</summary>
         <returns>一个<b>布尔</b>(C# 中<b>bool</b> ) 值，该值为<b>True</b> ，如果用户已单击确定，和<b>False</b> ，如果用户单击了取消或关闭图标。</returns>
-        <remarks>
-          <para>在显示选择姓名对话框， <b>Display</b>使用以前位置和对话框的大小 （由上、 左、 宽度和高度指示）。</para>
-          <para>选择姓名对话框是模式，这意味着在用户单击确定、 取消或关闭图标之前代码执行将一直暂停。</para>
-          <para>您应该会检测到错误条件包括内存不足或另一个消息框或对话框处于打开状态。</para>
-          <para />
-        </remarks>
+        <remarks><para>当显示 选择姓名对话框中， <b>显示</b> 使用以前的位置和大小 (由顶部、 左侧、 宽度和高度) 对话框。</para>
+          <para>"选择名称"对话框是一个模式对话框，这意味着在用户单击 "确定"、 "取消"或"关闭"图标之前代码执行将一直暂停。</para>
+          <para>您应该对错误条件（包括内存不足或者打开了其他消息框或对话框）进行检测。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForceResolution">
@@ -285,14 +265,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 确定 Outlook 是否必须解析中指定的对象的所有收件人<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" />用户可以单击确定接受选择姓名对话框中的键入或所选收件人之前。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 确定 Outlook 是否必须解析中指定的对象的所有收件人<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" />用户可以单击确定接受选择姓名对话框中的键入或所选收件人之前。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>True</b>。如果无法解析收件人，Outlook 将提示用户解决不明确的名称。用户必须拥有能够单击确定之前解析的收件人编辑框中的所有收件人。</para>
-          <para>如果用户单击取消或关闭图标，则忽略
-            <b>ForceResolution</b> 。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>True</b> 。 如果收件人不能解析，Outlook 将提示用户解决不明确的名称。 用户必须具有所有收件人在收件人编辑框，可单击 确定之前解决。</para>
+          <para>如果用户单击 
+            <b>取消</b>或关闭图标，则 ForceResolution 将被忽略。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InitialAddressList">
@@ -321,13 +299,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />确定要显示在选择姓名对话框的初始地址列表的对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />确定要显示在选择姓名对话框的初始地址列表的对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>设置<b>InitialAddressList</b>属性是在编程上等同于在选择姓名对话框中的通讯簿从下拉列表选择<b>AddressList</b> 。</para>
-          <para>在其默认状态， <b>InitialAddressList</b>是具有属性<b>AddressList</b><see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />将设置为<b>True</b>。<b>IsInitialAddressList</b>相当于设置的显示此地址列表首先在设置地址对话框，其中，可通过单击工具，然后在通讯簿对话框选项。 </para>
-          <para />
-        </remarks>
+        <remarks><para>设置<b>InitialAddressList</b>属性是在编程上等同于在选择姓名对话框中的通讯簿从下拉列表选择<b>AddressList</b> 。</para>
+          <para>在其默认状态， <b>InitialAddressList</b>是具有属性<b>AddressList</b> <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />将设置为<b>True</b>。 <b>IsInitialAddressList</b>相当于设置的显示此地址列表首先在设置地址对话框，其中，可通过单击工具，然后在通讯簿对话框选项。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfRecipientSelectors">
@@ -356,14 +332,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRecipientSelectors</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" />常数，用于确定收件人的号码编辑的框 （每个相关联的命令按钮） 显示在选择姓名对话框。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" />常数，用于确定收件人的号码编辑的框 （每个相关联的命令按钮） 显示在选择姓名对话框。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>收件人编辑框中，可以输入收件人的姓名。每个收件人编辑框相关联的命令按钮，在选择姓名对话框;收件人编辑框的命令按钮的示例包括收件人和抄送命令按钮。<b>NumberOfRecipientSelectors</b>的默认值是<b>OlRecipientSelectors.olToCcBcc</b>。</para>
-          <para>如果将<b>NumberOfRecipientSelectors</b>设置为<b>OlRecipientSelectors.olShowTo</b> ，然后随后设置的文本<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />或<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />，则<b>NumberOfRecipientSelectors</b>将保持不变。</para>
+        <remarks><para>收件人编辑框中，可以输入收件人的姓名。 每个收件人编辑框相关联的命令按钮，在选择姓名对话框;收件人编辑框的命令按钮的示例包括收件人和抄送命令按钮。 <b>NumberOfRecipientSelectors</b>的默认值是<b>OlRecipientSelectors.olToCcBcc</b>。</para>
+          <para>如果将<b>NumberOfRecipientSelectors</b>设置为<b>OlRecipientSelectors.olShowTo</b> ，然后随后设置的文本<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />或<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />，则<b>NumberOfRecipientSelectors</b>将保持不变。 </para>
           <para>如果将<b>NumberOfRecipientSelectors</b>设置为<b>OlRecipientSelectors.olShowNone</b>，则<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" />属性将被忽略。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -389,7 +363,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />对象。 只读。</summary>
+        <summary>返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -420,14 +394,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合对象，代表在选择姓名对话框中，所选定的收件人或设置一个<b>Recipients</b>集合对象，该对象代表在选择姓名对话框中显示的初始收件人。 为可读/写属性。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合对象，代表在选择姓名对话框中，所选定的收件人或设置一个<b>Recipients</b>集合对象，该对象代表在选择姓名对话框中显示的初始收件人。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性指定一个<b>Recipients</b>集合对象，具有<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" />equal 的收件人总数在收件人、 抄送和密件抄送编辑框。</para>
-          <para>如果显示选择姓名对话框之前未设置此属性，则由<b>SelectNamesDialog.Recipients</b>表示的<b>Recipients</b>对象会等于零<b>Recipients.Count</b> 。</para>
-          <para>如果用户不会从选择姓名对话框中选择任何名称，然后单击确定， <b>SelectNamesDialog.Recipients</b>将返回一个<b>Recipients</b>集合对象<b>recipients.count</b>等于零。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性指定一个<b>Recipients</b>集合对象，具有<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" />equal 的收件人总数在收件人、 抄送和密件抄送编辑框。 </para>
+          <para>如果不设置此属性时，才显示 选择姓名对话框中，由 <b>SelectNamesDialog.Recipients</b> 的 <b>收件人</b> 对象将具有 <b>Recipients.Count</b> 等于零。</para>
+          <para>如果用户不会从选择姓名对话框中选择任何名称，然后单击确定， <b>SelectNamesDialog.Recipients</b>将返回一个<b>Recipients</b>集合对象<b>recipients.count</b>等于零。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -453,19 +425,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetDefaultDisplayMode">
@@ -493,13 +462,11 @@
       <Docs>
         <param name="defaultMode">在确定 <b>选择姓名</b>对话框中的默认标题和按钮标签 OlDefaultSelectNamesDisplayMode 枚举常量。</param>
         <summary>设置选择名称对话框的默认显示模式，指定其标题和按钮标签。</summary>
-        <remarks>
-          <para>
-            <b>SetDefaultDisplayMode</b>是可选的。如果在呼叫之前不调用<b>SetDefaultDisplayMode</b><see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />，默认显示模式将<b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>。若要设置为不同的值的显示模式，您应在调用<b>显示</b>方法之前调用<b>SetDefaultDisplayMode</b> 。</para>
-          <para>此方法允许您无需使用的资源文件进行本地化的值的标题，目标标签中，显示选择姓名对话框中抄送标签和密件抄送标签。通过设置为您自己的值，可以覆盖内置行为<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />， <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />， <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />，和<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />。</para>
-          <para>可以设置其他属性 (例如，设置<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />到<b>olRecipientSelectors.olToCc</b>) 调用<b>SetDefaultDisplayMode</b>后。选择姓名对话框将遵循后续设置。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>SetDefaultDisplayMode</b> 是可选的。 如果在呼叫之前不调用<b>SetDefaultDisplayMode</b> <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />，默认显示模式将<b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>。 若要设置显示模式为不同的值，应 <b>显示</b> 方法在调用之前调用 <b>SetDefaultDisplayMode</b> 。 </para>
+          <para>利用此方法，可以显示 "选择名称"对话框，而无需使用资源文件将标题、 "收件人"标签、 "抄送"标签和 "密件抄送"标签的值本地化。 通过设置为您自己的值，可以覆盖内置行为<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />， <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />， <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />，和<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />。 </para>
+          <para>您可以设置其他属性 (例如，设置<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />到<b>olRecipientSelectors.olToCc</b>) 调用<b>SetDefaultDisplayMode</b>后。 选择姓名对话框将观察后续设置。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOnlyInitialAddressList">
@@ -528,13 +495,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的判断<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />由<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" />是唯一的<b>AddressList</b>下拉列表中的选择姓名对话框中的通讯簿。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的判断<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />由<see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" />是唯一的<b>AddressList</b>下拉列表中的选择姓名对话框中的通讯簿。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的默认值为<b>False</b>，表示显示所有地址列表。若要限制所指示的<b>InitialAddressList</b>通讯簿下拉列表列表，请将<b>ShowOnlyInitialAddressList</b>设置为<b>True</b>。</para>
-          <para>如果未设置<b>InitialAddressList</b>属性并将<b>ShowOnlyInitialAddressList</b>设置为<b>True</b>，然后使用<b>AddressList</b><see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />等于<b>true，</b>将仅中可用的地址列表通讯簿的下拉列表。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性的默认值为 <b>False</b> ，表示显示所有地址列表。若要限制所指示的 InitialAddressList <b>地址簿</b>的下拉列表，请将 <b>ShowOnlyInitialAddressList</b> 设置为 <b>True</b> 。</para>
+          <para>如果未设置<b>InitialAddressList</b>属性并将<b>ShowOnlyInitialAddressList</b>设置为<b>True</b>，然后使用<b>AddressList</b> <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />等于<b>true，</b>将仅在下拉列表中可用的地址列表通讯簿。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToLabel">
@@ -563,13 +528,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置为显示在选择姓名对话框的收件人命令按钮的文本<b>字符串</b>（C# 中的<b>字符串</b>）。 为可读/写属性。</summary>
+        <summary>返回或设置为显示在选择姓名对话框的收件人命令按钮的文本<b>字符串</b>（C# 中的<b>字符串</b>）。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>若要提供的收件人编辑框的加速键，包括与号 (&amp;) 在标签参数字符串作为访问键的字符前面的字符。例如，如果<b>ToLabel</b>是字符串"本地&amp;与会者"，用户可以按 ALT + A 将焦点移到第一个收件人编辑框。</para>
-          <para>如果未设置<b>ToLabel</b> ，默认值将为"目标"本地化的字符串。如果<b>ToLabel</b>设置为空字符串，则将显示收件人命令按钮的&gt;。如果<b>ToLabel</b>属性包含超过 32 个字符 (包括与号 (&amp;) 访问键)，仅前 32 个字符将显示在命令按钮。</para>
-          <para />
-        </remarks>
+        <remarks><para>若要提供的收件人编辑框的加速键，包括与号 (&amp;) 在标签参数字符串作为访问键的字符前面的字符。 例如，如果<b>ToLabel</b>是字符串"本地&amp;与会者"，用户可以按 ALT + A 将焦点移到第一个收件人编辑框。 </para>
+          <para>如果未设置<b>ToLabel</b> ，默认值将"收件人"的本地化的字符串。 如果<b>ToLabel</b>设置为空字符串，则将显示收件人命令按钮的&gt;。 如果<b>ToLabel</b>属性包含超过 32 个字符 (包括与号 (&amp;) 访问键)，将命令按钮中显示仅前 32 个字符。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

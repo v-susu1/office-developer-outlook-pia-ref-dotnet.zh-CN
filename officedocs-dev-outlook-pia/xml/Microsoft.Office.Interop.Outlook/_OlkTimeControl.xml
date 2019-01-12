@@ -1,13 +1,5 @@
 <Type Name="_OlkTimeControl" FullName="Microsoft.Office.Interop.Outlook._OlkTimeControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ce2a5f72951f8dc3e07a337dee076ea8ef948818" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632749" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTimeControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ce2a5f72951f8dc3e07a337dee076ea8ef948818" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896721" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTimeControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTimeControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTimeControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTimeControl" />
@@ -56,12 +48,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的自动调整大小以显示完整的内容的控件。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的自动调整大小以显示完整的内容的控件。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的默认值为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>  此属性的默认值为 <b>False</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -90,12 +80,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的指定用于扩展选定内容的基本单位单词还是将字符。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的指定用于扩展选定内容的基本单位单词还是将字符。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -127,12 +115,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x80000005，"窗口"。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。 此属性的默认值是 0x80000005，"窗口。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -161,12 +147,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBackStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />更改之间透明和不透明的控件的背景样式的常量。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />更改之间透明和不透明的控件的背景样式的常量。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olBackStyleOpaque</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olBackStyleOpaque</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -220,12 +204,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterFieldBehavior">
@@ -254,12 +236,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />进入控件时指定的选择行为的常量。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />进入控件时指定的选择行为的常量。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olEnterFieldBehaviorSelectAll</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olEnterFieldBehaviorSelectAll</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -285,7 +265,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>StdFont</b>值，该值代表用于呈现控件内的文本的字体。  只读。</summary>
+        <summary>返回一个<b>StdFont</b>值，该值代表用于呈现控件内的文本的字体。  此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -319,12 +299,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x80000008，"窗口文本"。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。 此属性的默认值是 0x80000008，"窗口型"。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -353,12 +331,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 指定是显示还是隐藏控件控件失去焦点时的选择。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 指定是显示还是隐藏控件控件失去焦点时的选择。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的默认值为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性的默认值为 <b>True</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IntervalTime">
@@ -387,17 +363,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指定显示为用于时间控件上的<b>olTimeStyleTimeDuration</b>样式设置的间隔的分钟数的<b>DateTime</b> 。  为可读/写属性。</summary>
+        <summary>返回或设置指定显示为用于时间控件上的<b>olTimeStyleTimeDuration</b>样式设置的间隔的分钟数的<b>DateTime</b> 。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为 30。</para>
-          <para>
-            <b>IntervalTime</b>的最小值为 1，最大值为 1440年。 分配此范围之外的值将导致改为使用最近边缘值。 </para>
-          <para>时<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是的日期控件显示的值的<b>olTimeStyleTimeDuration</b>，<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />作为第一个可选时间值，显示 （由<b>IntervalTime</b>指定） 的其他间隔从<b>ReferenceTime</b>开始值，并显示事件的持续时间。</para>
-          <para>
-            <b>ReferenceTime</b>的默认值为 1899 年 12 月 30 12:00。在这种情况下，时间控件将显示 30 1899 年 12 月 12:00 为第一个可选的时间。 值为 60 <b>IntervalTime</b>将标记 1899 年 12 月 30 凌晨 1:00 作为第一个间隔。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 30。</para>
+          <para><b>IntervalTime</b> 的最小值为 1，最大值为 1440 分钟。  指定超出此范围的值将导致改用最接近的边缘值。  </para>
+          <para>当<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是的日期控件显示的值的<b>olTimeStyleTimeDuration</b>，<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />作为第一个可选时间值，显示 （由<b>IntervalTime</b>指定） 的其他间隔<b>ReferenceTime</b>值，从开始和显示事件的持续时间。</para>
+          <para><b>ReferenceTime</b> 的默认值是 1899 年 12 月 30 上午 12:00。 在这种情况下，时间控件将作为第一个可选时间显示 30 1899 年 12 月 12:00 AM 。  60 <b>IntervalTime</b> 的值将作为第一个间隔标记 30 1899 年 12 月 1:00 AM 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -426,13 +398,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件处于锁定状态而被更改。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件处于锁定状态而被更改。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>False</b>。</para>
-          <para>当控件处于锁定状态时，该控件不具有"禁用"外观，但是用户不能编辑控件的内容。 </para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>False</b>。</para>
+          <para>当控件处于锁定状态时，该控件不具有“禁用”外观，但是用户不能编辑控件中的内容。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -461,12 +431,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。 为可读/写属性。</summary>
+        <summary>返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -495,12 +463,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olMousePointerDefault</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olMousePointerDefault</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReferenceTime">
@@ -529,15 +495,12 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指定用于在时间控件的<b>olTimeStyleTimeDuration</b>样式设置引用时间的<b>DateTime</b> 。    为可读/写属性。</summary>
+        <summary>返回或设置指定用于在时间控件的<b>olTimeStyleTimeDuration</b>样式设置引用时间的<b>DateTime</b> 。    读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>的默认值为 1899 年 12 月 30 日。</para>
-          <para>时<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是<b>olTimeStyleTimeDuration</b>，的日期控件显示的<b>ReferenceTime</b>值作为第一个可选时间值，显示其他时间间隔 (由指定<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />) 从<b>ReferenceTime</b>值，开始显示事件的持续时间。</para>
-          <para>
-            <b>ReferenceTime</b>的默认值为 1899 年 12 月 30 12:00。在这种情况下，时间控件将显示 30 1899 年 12 月 12:00 为第一个可选的时间。 值为 60 <b>IntervalTime</b>将标记 1899 年 12 月 30 凌晨 1:00 作为第一个间隔。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 1899 年 12 月 30 日。</para>
+          <para>当<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是<b>olTimeStyleTimeDuration</b>，的日期控件显示的<b>ReferenceTime</b>值作为第一个可选时间值，显示其他时间间隔 (由指定<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />) 从<b>ReferenceTime</b>值，开始和显示事件的持续时间。</para>
+          <para><b>ReferenceTime</b> 的默认值是 1899 年 12 月 30 上午 12:00。 在这种情况下，时间控件将作为第一个可选时间显示 30 1899 年 12 月 12:00 AM 。  60 <b>IntervalTime</b> 的值将作为第一个间隔标记 30 1899 年 12 月 1:00 AM 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Style">
@@ -566,12 +529,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />指定时间控件的样式的常量。   为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />指定时间控件的样式的常量。   读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olTimeStyleTimeOnly</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olTimeStyleTimeOnly</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -600,15 +561,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），为控件中显示的文本。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），为控件中显示的文本。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Text</b>属性的默认值为空字符串。</para>
-          <para>
-            <b>Text</b>属性与提供的值相同<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Value" />属性，但是该值强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>文本</b> 属性的默认值为空字符串。</para>
+          <para><b>Text</b>属性与提供的值相同<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Value" />属性，但是该值强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -637,12 +594,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />指定文本中控件的对齐方式的常量。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />指定文本中控件的对齐方式的常量。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olTextAlignLeft</b>从左到右语言，例如英语。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olTextAlignLeft</b> 中与英语等从左到右语言。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Time">
@@ -671,13 +626,11 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置代表当前选定控件中的时间值<b>DateTime</b> 。  为可读/写属性。</summary>
+        <summary>返回或设置代表当前选定控件中的时间值<b>DateTime</b> 。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>的默认值为 1899 年 12 月 30 日可以 12:00</para>
-          <para>时使用的时间控件以指示持续时间 (即，<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是<b>olTimeStyleDuration</b>)，如果工期是超过 24 小时， <b>Time</b>属性将指示从 1899 年 12 月 30 日中午 12:00 点的持续时间。 例如，跨 24 小时的持续时间将返回 1899 年 12 月 31 12:00 AM <b>DateTime</b>值。 如果这是约会的持续时间值，并且您想要确定约会的结束时间，则可以添加到此值<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />属性值。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 1899 年 12 月 30 日上午 12:00。</para>
+          <para>使用时间控件表示持续时间时 (即，<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是<b>olTimeStyleDuration</b>)，如果工期是超过 24 小时， <b>Time</b>属性将指示从 1899 年 12 月 30 日中午 12:00 点的持续时间。  例如，跨 24 小时的持续时间将返回 1899 年 12 月 31 12:00 AM <b>DateTime</b>值。  如果这是约会的持续时间值，并且您想要确定约会的结束时间，则可以添加到此值<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />属性值。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -706,12 +659,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>对象</b>，表示控件的内容。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>对象</b>，表示控件的内容。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>值是相同的值<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Text" />、 在于此属性是<b>对象</b>类型而<b>Text</b>强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</para>
-          <para />
-        </remarks>
+        <remarks><para>值是相同的值<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Text" />、 在于此属性是<b>对象</b>类型而<b>Text</b>强类型化为<b>String</b> （C# 中的<b>字符串</b>）。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

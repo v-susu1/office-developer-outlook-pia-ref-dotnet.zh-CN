@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_BeforeViewSwitchEventHandler" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3bb21f9db6d8ee58159488a99963c4a9f554f598" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632323" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeViewSwitchEventHandler(object NewView, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="356f2a9fe50a742ef94bb3df0a96141c66781a55" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896903" /></Metadata><TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeViewSwitchEventHandler(object NewView, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExplorerEvents_10_BeforeViewSwitchEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ExplorerEvents_10_BeforeViewSwitchEventHandler(NewView As Object, ByRef Cancel As Boolean)" />
@@ -36,8 +28,7 @@
   </ReturnValue>
   <Docs>
     <param name="NewView">浏览器要切换到的视图的名称。</param>
-    <param name="Cancel">
-      <b>假</b> 的事件发生时。如果事件过程将此参数设置为 <b>True</b> ，则取消切换，并且不更改当前视图。 </param>
+    <param name="Cancel"><b>假</b> 的事件发生时。如果事件过程将此参数设置为 <b>True</b> ，则取消切换，并且不更改当前视图。 </param>
     <summary>这是针对相应对象中的事件的委派。在对事件实现回调方法后，使用此委派将回调方法连接到该事件。如果存在多个版本的事件接口，此委派将为指定版本的 Outlook 中的事件连接回调方法。</summary>
     <remarks>To be added.</remarks>
   </Docs>

@@ -1,0 +1,897 @@
+<Type Name="_Items" FullName="Microsoft.Office.Interop.Outlook._Items">
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7bd8b181e72530f36fac5524b4ed22a89311b9c6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898380" /></Metadata><TypeSignature Language="C#" Value="public interface _Items : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Items implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Items" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Items&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Items : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063041-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Items" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public object Add (object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Add([in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional Type As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Type">新项 Outlook 项目类型。 指定<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" />来创建自定义窗体。 可以是下列的 <b>OlItemType</b> 常量之一: <b>olAppointmentItem</b> 、 <b>olContactItem</b> 、 <b>olJournalItem</b> 、 <b>olMailItem</b> 、 <b>olNoteItem</b> 、 <b>olPostItem</b> ，或 <b>olTaskItem，</b> 或任何有效的邮件类。</param>
+        <summary>创建新的 Outlook 项目中<see cref="T:Microsoft.Office.Interop.Outlook.Items" />的文件夹的集合。</summary>
+        <returns>一个代表新 Outlook 项目的 Object 值。</returns>
+        <remarks><para>如果未指定，Outlook 项目的<b>Type</b>属性默认为的类型的文件夹或为<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />如果不类型的父文件夹。</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public object Find (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Find([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (Filter As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Find(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">一个字符串，它指定所返回的对象必须满足的条件。</param>
+        <summary>查找并返回一个 Outlook 项目对象的满足给定<paramref name="Filter" />。</summary>
+        <returns>一个 Object 值，如果调用成功，则代表 Outlook 项目如果失败，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</returns>
+        <remarks><para>使用中的内容索引的搜索<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合，使用<see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" />方法。 <b>FindRow</b>将返回错误，如果<paramref name="Filter" />包含内容索引的关键字。 内容索引关键字的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87947">使用查询关键字筛选项目</a></para>
+          <para>该方法将返回具有以下属性中出错<paramref name="Filter" />: </para>
+          <list type="table">
+            <item>
+              <description>BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</description>
+              <description>LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</description>
+            </item>
+          </list>
+          <para>创建 Find 方法和 Restrict 方法的筛选器</para>
+          <para>根据要筛选的字段类型，筛选器的语法将有所不同。</para>
+          <para>字符串（适用于文本字段） </para>
+          <para>搜索文本字段时，您可以使用撇号 （'） 或双引号 ("") 来分隔的值的筛选器的一部分。 例如，下面的行函数类型所有正确时字段为<b>字符串</b>（C# 中的<b>字符串</b>）： </para>
+          <para>sFilter ="[CompanyName] = 'Microsoft'" </para>
+          <para>sFilter ="[CompanyName] =""Microsoft""" </para>
+          <para>sFilter ="[CompanyName] =" &amp; chr （34) &amp; "Microsoft" &amp; chr （34)</para>
+          <para>在 Jet 或 DASL 查询中指定筛选器的过程中，如果使用一对单引号来分隔构成筛选器的字符串，而且该字符串包含另一个单引号或撇号，则应在这个单引号或撇号前面添加一个单引号以用作转义符。如果使用一对双引号来分隔字符串，则也可使用类似方法。如果该字符串包含一个双引号，则应在该双引号前面添加一个双引号以用作转义符。</para>
+          <para>例如，在 DASL 筛选器的筛选的<b>Subject</b>属性值等于 word 不能、 整个筛选器字符串分隔对双引号，并且不能嵌入的字符串字符串由分隔对单引号。 有三个需要进行转义此筛选器字符串中的字符： 起始双引号和属性引用的结束双引号http://schemas.microsoft.com/mapi/proptag/0x0037001f，而且撇号词在值条件中的不能。 通过应用适当的转义符，您可将筛选器字符串表示如下：</para>
+          <para>筛选器 ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= 可以 t"</para>
+          <para>
+
+ 
+
+或者，也可使用 chr(34) 函数来代表用作转义符的双引号（其 ASCII 字符值为 34）。通过使用 chr(34) 代替双引号转义符，您可将上一个示例表示如下：
+
+ 
+
+</para>
+          <para>筛选器 ="@SQL =" &amp; chr （34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f"_</para>
+          <para>    &amp;Chr （34) &amp; "=" &amp; "' 可以 t"</para>
+          <para>对于使用 <b>ci_startswith</b> 或 <b>ci_phrasematch</b> 运算符的 DASL 查询而言，转义单引号和双引号字符也是必需的。例如，以下查询可在邮件主题中执行针对 can't 的短语匹配查询：
+
+ 
+
+</para>
+          <para>筛选器 ="@SQL =" &amp; chr （34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E"_</para>
+          <para>    &amp;Chr （34) &amp; "ci_phrasematch" &amp; "' 可以 t"</para>
+          <para>另一个示例是一个筛选器的<b>Subject</b>属性值等于单词正确的内容，其中用双引号括起来 word 材料 （英文） 的 DASL 筛选器字符串。 此情况下，必须对该双引号进行转义，如下所示：</para>
+          <para>筛选器 ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= right"的"资料"""</para>
+          <para>对于包含空格、单引号、双引号或百分号字符的命名属性，对这些属性的引用将应用一组不同的转义规则。 有关更多信息，请参阅按命名空间引用属性。</para>
+          <para>日期</para>
+          <para>尽管通常与日期格式存储日期和时间，查找和 Restrict 方法将需要的日期和时间要转换为字符串表示形式。 为确保日期的格式满足 Microsoft Outlook 的要求，请使用 Format 函数。 下面的示例创建一个筛选器，用于查找在 1999 年 1 月 15 日下午 3:30 之后修改过的所有联系人。 </para>
+          <para>sFilter ="[LastModificationTime] &gt; "&amp;格式 ("1/15/99 下午 3:30"，"ddddd h:nn AMPM") &amp; "'"</para>
+          <para>Boolean 运算符</para>
+          <para>Boolean 运算符、TRUE/FALSE、YES/NO 和 ON/OFF 等都不应转换为字符串。例如，要确定是否已为联系人启用日记，可使用以下筛选器：</para>
+          <para>sFilter ="[日记] = True" </para>
+          <para>
+            <b>注意</b>： 如果您使用引号作为 Boolean 字段的分隔符，然后为空字符串将查找其字段为 false，则项目和所有非空字符串将查找其字段为 True 的项目。</para>
+          <para>关键字（或类别）</para>
+          <para>类别字段为类型关键字，旨在保存多个值。 如果以编程方式进行访问，则类别字段的行为与文本字段类似，且字符串必须完全匹配。 文本字符串中的值将通过逗号和空格分隔。 这通常意味着，当关键字字段包含多个值时，不能使用 Find 和 Restrict 方法对关键字字段进行操作。 例如，如果“商务”类别和“商务和社会”类别中各包含一个联系人，则无法轻松使用 Find 和 Restrict 方法检索“商务”类别中的所有项目。 但可循环遍历文件夹中的所有联系人，并使用 Instr 函数测试字符串“商务”是否包含在整个关键字字段中。 </para>
+          <para>
+            <b>注意</b>： 一个可能的例外是限定为 2 或更低值的类别字段。 此时，可以使用 Find 和 Restrict 方法结合 OR 逻辑运算符来检索所有商务联系人。 例如（在伪代码中）：“商务” OR “商务, 个人” OR “个人, 商务”。 类别字符串不区分大小写。</para>
+          <para>整数</para>
+          <para>您可以搜索整数字段使用或不带引号作为分隔符。 以下筛选器将查找与 Outlook 2000 创建的联系人： </para>
+          <para>sFilter ="[OutlookInternalVersion] = 92711" </para>
+          <para>sFilter ="[OutlookInternalVersion] = '92711'"</para>
+          <para>使用变量作为筛选器的一部分</para>
+          <para>如 Restrict 方法示例所示，可以将从变量的值用作筛选器的一部分。 以下 Microsoft Visual Basic 代码示例说明如何使用变量作为筛选器部分的语法。 </para>
+          <para>sFullName ="Dan Wilson" </para>
+          <para> 此方法使用 chr （34） 以分隔值： sFilter ="[FullName] =" &amp; chr （34) &amp; sFullName &amp; chr （34) </para>
+          <para> 此方法使用双引号以分隔值： sFilter ="[FullName] =""" &amp; sFullName &amp; """</para>
+          <para>使用逻辑运算符作为筛选器的一部分</para>
+          <para>可以使用的逻辑运算符为 AND、OR 和 NOT。 下面是 Restrict 方法的语句变体，因此你可指定多个条件。  </para>
+          <para>OR：以下代码返回所有类别为“商务”或“个人”的联系人项目。</para>
+          <para>sFilter ="[类别] = 个人或者 [类别] = 商务" </para>
+          <para>AND：以下代码检索所有工作单位为 Microsoft 的私人联系人。</para>
+          <para>sFilter ="[类别] = 个人并 [CompanyName] = 'Microsoft'" </para>
+          <para>NOT：以下代码检索所有工作单位不是 Microsoft 的私人联系人。</para>
+          <para>sFilter ="[类别] = 个人，而不 ([CompanyName] = 'Microsoft')"</para>
+          <para>其他注意事项</para>
+          <para>如果您试图查找或 Restrict 方法使用用户定义的字段，字段必须定义在文件夹中，否则会发生错误。 无法执行“包含”操作。 例如，不能使用 Find 和 Restrict 搜索“主题”字段中包含特定字词的项目。 而应使用 AdvancedSearch 方法，或循环遍历文件夹中的所有项目并使用 InStr 函数在字段内执行搜索操作。 可使用 Restrict 方法搜索以特定范围内的字符开始的项目。 例如，若要搜索姓氏以字母 M 开头的所有联系人，请使用以下筛选器： </para>
+          <para>sFilter ="[姓氏] &gt; LZZZ' 和 [LastName] &lt; ' N '"</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNext">
+      <MemberSignature Language="C#" Value="public object FindNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object FindNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ FindNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>后<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />方法运行时，此方法查找并返回指定集合中的下一个 Outlook 项目。</summary>
+        <returns>一个代表在集合中找到的下一个 Outlook 项目的 Object 值。</returns>
+        <remarks><para> 此搜索操作从当前位置，与以前用 <b>Find</b> 方法设置的表达式匹配开始。</para>
+          <para>Outlook 项目对象，如果调用成功，则该方法返回如果失败，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFirst">
+      <MemberSignature Language="C#" Value="public object GetFirst ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFirst() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFirst () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetFirst();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(86)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回集合中的第一个对象。</summary>
+        <returns>一个 Object 值，代表集合包含的第一个对象。</returns>
+        <remarks><para>返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLast">
+      <MemberSignature Language="C#" Value="public object GetLast ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetLast() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLast () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetLast();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(88)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回集合中的最后一个对象。</summary>
+        <returns>一个 Object 值，代表集合包含的最后一个对象。</returns>
+        <remarks><para>返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNext">
+      <MemberSignature Language="C#" Value="public object GetNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(87)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回集合中的下一个对象。</summary>
+        <returns>一个 Object 值，代表集合包含的下一个对象。</returns>
+        <remarks><para>返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrevious">
+      <MemberSignature Language="C#" Value="public object GetPrevious ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetPrevious() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPrevious () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetPrevious();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(89)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回集合中上一个对象。</summary>
+        <returns>一个 Object 值，代表集合包含的上一个对象。</returns>
+        <remarks><para>返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeRecurrences">
+      <MemberSignature Language="C#" Value="public bool IncludeRecurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeRecurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeRecurrences As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeRecurrences { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b> ，如果<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合应包括定期模式。 读/写。</summary>
+        <value>To be added.</value>
+        <remarks><para>此属性才有意义，如果<b>Items</b>集合包含约会，并不按任何属性以外的其他<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />升序排序。 默认值为 <b>False</b> 。 使用此属性时您想要检索给定日期，所有的约会在定期约会会通常不会显示因为它们不与任何特定日期相关联。 如果需要进行排序和筛选在包含定期约会的约会项目，则必须按以下顺序进行: 升序排序的项进行排序，将 <b>IncludeRecurrences</b> 设置为 <b>True</b> ，然后筛选的项。 有关演示此顺序的代码示例，请参阅下面的第二个示例。 如果该集合包含不具有结束日期的定期约会，将属性设置为 <b>True</b> 可能会导致该集合无穷大。 一定要为此测试纳入任何循环。 当循环 <b>项</b> 集合的 <b>IncludeRecurrence</b> 属性设置为 <b>True</b> 时，不应使用 <b>项</b> 集合的 <b>Count</b> 属性。 <b>计数</b> 的值将是未定义的值。</para>
+          <para>
+            <b>警告</b>： 筛选的匹配项的已排序列表，则会导致无法按预期方式工作的 IncludeRecurrences 属性。 例如，按以下顺序将返回约会的所有实例;定期和非定期: (1) 按 Start 属性 (2) 设置为 false (3) 呼叫 限制 (即筛选器) 的属性进行排序。</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</param>
+        <summary>从集合中返回一个 Outlook 项目。</summary>
+        <value>一个代表指定对象的 Object 值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawTable">
+      <MemberSignature Language="C#" Value="public object RawTable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object RawTable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.RawTable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawTable As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RawTable { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(84)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">对象在集合中的索引值，索引从 1 开始编号。</param>
+        <summary>从集合中删除对象。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetColumns">
+      <MemberSignature Language="C#" Value="public void ResetColumns ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetColumns() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.ResetColumns" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetColumns ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetColumns();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(93)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>清除属性与缓存的<see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />方法。</summary>
+        <remarks><para>在调用 <b>ResetColumns</b> 方法后，所有属性都都可以访问。 <b>SetColumns</b> 应重用再次存储新的属性。如果没有先调用 <b>SetColumns</b> ， <b>ResetColumns</b> 将没有任何效果。</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restrict">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Items Restrict (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Items Restrict([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Restrict (Filter As String) As Items" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Items ^ Restrict(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Items</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">要应用的筛选器字符串表达式。 有关详细信息，请参阅<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />方法。</param>
+        <summary>应用到筛选器<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合，返回包含的所有筛选器匹配从原始项目的新集合。</summary>
+        <returns>一个<b>Items</b>集合，代表从原始<b>Items</b>集合的筛选器匹配的项目。</returns>
+        <remarks><para>此方法是一种方式使用<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />方法或<see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />方法以循环访问集合中的特定项目。 如果集合中只有较少数量的项目，<b>Find</b> 或 <b>FindNext</b> 方法要比筛选更快。 如果集合中项目较多，尤其是预计在大型集合中仅可查找到少量几个项目时，<b>Restrict</b> 方法的速度会明显更快。</para>
+          <para>
+            <b>注意</b>： 如果您使用用户定义的字段为<b>查找</b>或<b>Restrict</b>子句的一部分，用户定义的字段必须存在的文件夹中。 否则代码会产生错误，指出字段未知。 可以通过显示“字段选择器”然后单击“新建”来将字段添加到文件夹中。</para>
+          <para>此方法不能与下列属性一起使用，否则将导致错误：</para>
+          <list type="table">
+            <item>
+              <description>BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</description>
+              <description>LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</description>
+            </item>
+          </list>
+          <para>创建 Find 方法和 Restrict 方法的筛选器</para>
+          <para>根据要筛选的字段类型，筛选器的语法将有所不同。</para>
+          <para>字符串（适用于文本字段） </para>
+          <para>搜索文本字段时，您可以使用撇号 （'） 或双引号 ("")，以分隔的值的筛选器的一部分。 例如，下面的行函数类型所有正确时字段为<b>字符串</b>（C# 中的<b>字符串</b>）： </para>
+          <para>sFilter ="[CompanyName] = 'Microsoft'" </para>
+          <para>sFilter ="[CompanyName] =""Microsoft""" </para>
+          <para>sFilter ="[CompanyName] =" &amp; chr （34) &amp; "Microsoft" &amp; chr （34)</para>
+          <para>在 Jet 或 DASL 查询中指定筛选器的过程中，如果使用一对单引号来分隔构成筛选器的字符串，而且该字符串包含另一个单引号或撇号，则应在这个单引号或撇号前面添加一个单引号以用作转义符。如果使用一对双引号来分隔字符串，则也可使用类似方法。如果该字符串包含一个双引号，则应在该双引号前面添加一个双引号以用作转义符。</para>
+          <para>例如，在 DASL 筛选器的筛选的<b>Subject</b>属性值等于 word 不能、 整个筛选器字符串分隔对双引号，并且不能嵌入的字符串字符串由分隔对单引号。 有三个需要进行转义此筛选器字符串中的字符： 起始双引号和属性引用的结束双引号http://schemas.microsoft.com/mapi/proptag/0x0037001f，而且撇号词在值条件中的不能。 通过应用适当的转义符，您可将筛选器字符串表示如下：</para>
+          <para>筛选器 ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= 可以 t"</para>
+          <para>
+
+ 
+
+或者，也可使用 chr(34) 函数来代表用作转义符的双引号（其 ASCII 字符值为 34）。通过使用 chr(34) 代替双引号转义符，您可将上一个示例表示如下：
+
+ 
+
+</para>
+          <para>筛选器 ="@SQL =" &amp; chr （34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f"_</para>
+          <para>    &amp;Chr （34) &amp; "=" &amp; "' 可以 t"</para>
+          <para>对于使用 <b>ci_startswith</b> 或 <b>ci_phrasematch</b> 运算符的 DASL 查询而言，转义单引号和双引号字符也是必需的。例如，以下查询可在邮件主题中执行针对 can't 的短语匹配查询：
+
+ 
+
+</para>
+          <para>筛选器 ="@SQL =" &amp; chr （34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E"_</para>
+          <para>    &amp;Chr （34) &amp; "ci_phrasematch" &amp; "' 可以 t"</para>
+          <para>另一个示例是一个筛选器的<b>Subject</b>属性值等于单词正确的内容，其中用双引号括起来 word 材料 （英文） 的 DASL 筛选器字符串。 此情况下，必须对该双引号进行转义，如下所示：</para>
+          <para>筛选器 ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= right"的"资料"""</para>
+          <para>对于包含空格、单引号、双引号或百分号字符的命名属性，对这些属性的引用将应用一组不同的转义规则。 有关更多信息，请参阅按命名空间引用属性。</para>
+          <para>日期</para>
+          <para>尽管日期和时间通常与<b>查找</b>日期格式存储和<b>Restrict</b>方法要求的日期和时间转换为字符串表示形式。 为确保日期的格式满足 Microsoft Outlook 的要求，请使用 <b>Format</b> 函数。 以下示例创建了筛选器以查找所有在 1999 年 1 月 15 日下午 3:30 以后修改过的联系人。 </para>
+          <para>sFilter ="[LastModificationTime] &gt; "&amp;格式 ("1/15/99 下午 3:30"，"ddddd h:nn AMPM") &amp; "'"</para>
+          <para>Boolean 运算符</para>
+          <para>Boolean 运算符、TRUE/FALSE、YES/NO 和 ON/OFF 等都不应转换为字符串。例如，要确定是否已为联系人启用日记，可使用以下筛选器：</para>
+          <para>sFilter ="[日记] = True" </para>
+          <para>
+            <b>注意</b>： 如果您使用引号作为<b>Boolean</b>字段的分隔符，然后为空字符串将查找其字段为<b>False</b>的项目和所有非空字符串将查找其字段为<b>True</b>的项目。 </para>
+          <para>关键字（或类别）</para>
+          <para>类别字段为类型关键字，旨在保存多个值。 如果以编程方式进行访问，则类别字段的行为与文本字段类似，且字符串必须完全匹配。 文本字符串中的值将通过逗号和空格分隔。 这通常意味着，当关键字字段包含多个值时，不能使用 <b>Find</b> 和 <b>Restrict</b> 方法对关键字字段进行操作。 例如，如果“商务”类别和“商务和社会”类别中各包含一个联系人，则无法轻松使用 <b>Find</b> 和 <b>Restrict</b> 方法检索“商务”类别中的所有项目。 但可循环遍历文件夹中的所有联系人，并使用 <b>Instr</b> 函数测试字符串“商务”是否包含在整个关键字字段中。 </para>
+          <para>
+            <b>注意</b>： 一个可能的例外是限定为 2 或更低值的类别字段。 此时，可以使用 <b>Find</b> 和 <b>Restrict</b> 方法结合 OR 逻辑运算符来检索所有商务联系人。 例如（在伪代码中）：“商务” OR “商务, 个人” OR “个人, 商务”。 类别字符串不区分大小写。 </para>
+          <para>整数</para>
+          <para>您可以搜索<b>整数</b>字段时，使用或不带引号作为分隔符。 以下筛选器会发现使用 Outlook 2000 创建的联系人： </para>
+          <para>sFilter ="[OutlookInternalVersion] = 92711" </para>
+          <para>sFilter ="[OutlookInternalVersion] = '92711'"</para>
+          <para>使用变量作为筛选器的一部分</para>
+          <para>如 <b>Restrict</b> 方法示例所示，可使用变量中的值作为筛选器的一部分。 以下 Microsoft Visual Basic 代码示例说明如何使用变量作为筛选器部分的语法。 </para>
+          <para>sFullName ="Dan Wilson" </para>
+          <para>此方法使用 chr （34） 以分隔值。 </para>
+          <para>sFilter ="[FullName] =" &amp; chr （34) &amp; sFullName &amp; chr （34) </para>
+          <para>此方法使用双引号以分隔值。 </para>
+          <para>sFilter ="[FullName] =""" &amp; sFullName &amp; """</para>
+          <para>使用逻辑运算符作为筛选器的一部分</para>
+          <para>可以使用的逻辑运算符为 AND、OR 和 NOT。 以下是子句的使您可以指定多个条件的<b>Restrict</b>方法的变体。  </para>
+          <para>OR：以下代码返回所有类别为“商务”或“个人”的联系人项目。</para>
+          <para>sFilter ="[类别] = 个人或者 [类别] = 商务" </para>
+          <para>AND：以下代码检索所有工作单位为 Microsoft 的私人联系人。</para>
+          <para>sFilter ="[类别] = 个人并 [CompanyName] = 'Microsoft'" </para>
+          <para>NOT：以下代码检索所有工作单位不是 Microsoft 的私人联系人。</para>
+          <para>sFilter ="[类别] = 个人，而不 ([CompanyName] = 'Microsoft')"</para>
+          <para>其他注意事项</para>
+          <para>如果试图通过用户定义的字段使用 <b>Find</b> 和 <b>Restrict</b> 方法，这些字段必须在文件夹中已定义，否则将发生错误。 无法执行“包含”操作。 例如，不能使用 <b>Find</b> 和 <b>Restrict</b> 搜索“主题”字段中包含特定字词的项目。 相反，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法，或您可循环访问所有文件夹中的项目并使用<b>InStr</b>函数来执行搜索字段中的。 可使用 <b>Restrict</b> 方法搜索以特定范围内的字符开始的项目。 例如，若要搜索姓氏以字母 M 开头的所有联系人，请使用以下筛选器： </para>
+          <para>sFilter ="[姓氏] &gt; LZZZ' 和 [LastName] &lt; ' N '"</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
+        <value>To be added.</value>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetColumns">
+      <MemberSignature Language="C#" Value="public void SetColumns (string Columns);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetColumns([in]string Columns) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetColumns (Columns As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetColumns(System::String ^ Columns);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(92)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Columns" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Columns">一个包含要缓存的属性的名称的字符串。此字符串中的属性名以逗号分隔。</param>
+        <summary>缓存某些属性，从而极大提高集合中的项目的指定属性的访问速度。</summary>
+        <remarks><para><b>SetColumns</b>方法可用于循环访问<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。 如果不使用此方法，则Microsoft Outlook必须打开每个项目以访问属性。 使用 <b>SetColumns</b> 方法时，Outlook 只检查您已缓存，并提供快速、 只读方式访问这些属性的属性。</para>
+          <para>应用 <b>SetColumns</b> 方法对集合中的特定属性之后, 不能读取其他属性的集合;未缓存的属性将返回空值。 不能既写到任何该集合的属性。 或者，如果您需要读 / 写、 快速访问一项，使用<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象。</para>
+          <para>
+            <b>SetColumns</b> 不能使用，并将产生错误，使用返回的对象的任何属性。它不能与下列属性一起使用:</para>
+          <list type="table">
+            <item>
+              <description>AutoResolvedWinner</description>
+              <description>InternetCodePage</description>
+            </item>
+            <item>
+              <description>Body</description>
+              <description>MeetingWorkspaceURL</description>
+            </item>
+            <item>
+              <description>BodyFormat</description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description>类别</description>
+              <description>ReceivedByEntryID</description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description>ReceivedOnBehalfOfEntryID</description>
+            </item>
+            <item>
+              <description>类</description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description>Companies</description>
+              <description>ReplyRecipients</description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description>DownloadState</description>
+              <description>Saved</description>
+            </item>
+            <item>
+              <description>EntryID</description>
+              <description>Sent</description>
+            </item>
+            <item>
+              <description>HTMLBody</description>
+              <description>Submitted</description>
+            </item>
+            <item>
+              <description>IsConflict</description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.VotingOptions" />
+              </description>
+            </item>
+          </list>
+          <para><b>ConversationIndex</b> 属性不能使用 <b>SetColumns</b> 方法进行缓存。但是，此属性不会导致像上面所列的其他属性的错误。</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sort">
+      <MemberSignature Language="C#" Value="public void Sort (string Property, object Descending);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Sort([in]string Property, [in]object Descending) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Sort(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Sort (Property As String, Optional Descending As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Property" Type="System.String" />
+        <Parameter Name="Descending" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Property">按其进行排序，这可能用括号括起来，例如，"[公司名称]"的属性的名称。 包含空格的用户定义属性必须括在中括号中。 可能不是用户定义的属性的类型的关键字，并不是多值的属性，如某一类别。 对于用户定义属性，该属性必须存在的<b>UserDefinedProperties</b>集合中<see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />，它表示<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象包含的项目。</param>
+        <param name="Descending"><b>真</b> 要按降序排序。默认值为 <b>False</b> (升序)。 </param>
+        <summary>按指定属性对项目的集合进行排序。在完成该方法后将集合的索引重新设置为 1。</summary>
+        <remarks><para>
+            <b>排序</b> 将仅影响集合中项目的顺序。它不影响浏览器视图中项目的顺序。</para>
+          <para>
+            <b>排序</b>不能使用并将导致出错，如果<paramref name="property" />参数可以是下列属性之一：                </para>
+          <list type="table">
+            <item>
+              <description>
+                <b>类别</b>
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnly" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnlyCompany" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>类</b>
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstNoSpace" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.NetMeetingAlias" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstSpaceOnly" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstAndSuffix" />
+              </description>
+              <description>
+                <b>保存</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpace" />
+              </description>
+              <description>
+                <b>发送</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpaceCompany" />
+              </description>
+              <description />
+            </item>
+          </list>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

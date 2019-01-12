@@ -1,13 +1,5 @@
 <Type Name="OutlookBarGroup" FullName="Microsoft.Office.Interop.Outlook.OutlookBarGroup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="85ca0de3e88bd9c5976bfd7505500d389abf4bd8" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632975" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarGroup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4832de3e6e97658b3771932387a27b9514bc5a81" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901464" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarGroup" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarGroup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarGroup" />
@@ -27,10 +19,8 @@
   </Attributes>
   <Docs>
     <summary>代表浏览器窗口的“快捷方式”窗格中的一组快捷方式。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarGroups.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索<b>OutlookBarGroup</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" />对象。因为<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarGroup.Name" />属性为<b>OutlookBarGroup</b>对象的默认属性，您可以按名称来标识组。</para>
-      <para />
-    </remarks>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarGroups.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索<b>OutlookBarGroup</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" />对象。 因为<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarGroup.Name" />属性为<b>OutlookBarGroup</b>对象的默认属性，您可以按名称来标识组。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -56,7 +46,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,7 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,7 +105,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,19 +161,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Shortcuts">
@@ -209,7 +196,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarShortcuts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />快捷方式窗格中包含的快捷方式的集合。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />快捷方式窗格中包含的快捷方式的集合。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,12 +227,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlOutlookBarViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlOutlookBarViewType" />常数，它表示视图类型的<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlOutlookBarViewType" />常数，它表示视图类型的<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性没有任何影响快捷方式窗格中显示的图标。已删除大图标，如果该属性设置为<b>olLargeIcon</b>，它将没有任何效果。 在以前版本的 Microsoft Outlook，它返回或设置指定的 Outlook 栏组显示的图标视图。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性没有任何影响快捷方式窗格中显示的图标。 大图标已被删除，如果此属性设置为 <b>olLargeIcon</b> ，它将没有任何效果。  在以前版本的Microsoft Outlook，它可以返回或设置指定 Outlook 面板组显示的图标视图。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

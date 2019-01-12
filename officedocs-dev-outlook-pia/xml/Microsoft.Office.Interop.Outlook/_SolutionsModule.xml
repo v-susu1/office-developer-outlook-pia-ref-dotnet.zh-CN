@@ -1,13 +1,5 @@
 <Type Name="_SolutionsModule" FullName="Microsoft.Office.Interop.Outlook._SolutionsModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f35b5c23dfbd65c71e9461b0584b441e862ca400" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631638" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SolutionsModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f35b5c23dfbd65c71e9461b0584b441e862ca400" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896973" /></Metadata><TypeSignature Language="C#" Value="public interface _SolutionsModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SolutionsModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SolutionsModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SolutionsModule" />
@@ -55,33 +47,30 @@
       </Parameters>
       <Docs>
         <param name="Solution">A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示要添加到<b>SolutionsModule</b>解决方案根文件夹。</param>
-        <param name="Scope">
-          <see cref="T:Microsoft.Office.Interop.Outlook.OlSolutionScope" />指定是否显示在只是在<b>解决方案</b>模块和<b>文件夹</b>列表中，解决方案的文件夹或将其显示在其各自的默认模块中的枚举<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />以及。</param>
+        <param name="Scope"><see cref="T:Microsoft.Office.Interop.Outlook.OlSolutionScope" />指定是否显示在只是在<b>解决方案</b>模块和<b>文件夹</b>列表中，解决方案的文件夹或将其显示在其各自的默认模块中的枚举<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />以及。</param>
         <summary>添加解决方案根文件夹及其子文件夹为<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />模块。</summary>
-        <remarks>
-          <para>如果<b>AddSolution</b>方法成功，并在<b>解决方案</b>模块下没有解决方案根文件夹以前存在，Microsoft Outlook 导航窗格中显示<b>解决方案</b>模块。</para>
-          <para>不能向解决方案根文件夹作为<b>解决方案</b>模块添加以下文件夹：</para>
+        <remarks><para>如果<b>AddSolution</b>方法成功，并在<b>解决方案</b>模块下没有解决方案根文件夹以前存在，Microsoft Outlook 导航窗格中显示<b>解决方案</b>模块。</para>
+          <para>无法将下列文件夹作为解决方案根文件夹添加到 <b>"解决方案"</b>模块中：</para>
           <list type="bullet">
             <item>
               <para>Outlook 显示在导航窗格中，按照定义的文件夹<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />枚举。</para>
             </item>
             <item>
-              <para>的特殊文件夹，如中定义的<see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" />枚举。</para>
+              <para>特殊文件夹，如中定义的<see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" />枚举。</para>
             </item>
             <item>
-              <para>Microsoft Exchange Server 公用文件夹上的任何文件夹存储。<see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象用于此文件夹<b>olExchangePublicFolder</b>。</para>
+              <para>存储在 Microsoft Exchange Server 公用文件夹上的任何文件夹。 <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象用于此文件夹<b>olExchangePublicFolder</b>。</para>
             </item>
             <item>
-              <para>隐藏的文件夹。隐藏的文件夹是一个<b>PR_ATTR_HIDDEN</b>，其 MAPI 属性为<b>True</b>或一个不在 IPM 子树。</para>
+              <para>隐藏的文件夹中。隐藏的文件夹是一个其 MAPI 属性， <b>PR_ATTR_HIDDEN</b> ，为 <b>True</b> 或与非 IPM 子树中。</para>
             </item>
           </list>
-          <para>此方法也返回错误，如果已指定的文件夹作为根文件夹或子文件夹中<b>解决方案</b>模块中，存在或者文件夹是父文件夹的<b>解决方案</b>模块中的文件夹。</para>
-          <para>如果<paramref name="Scope" />参数设置为<b>olShowInDefaultModules</b><b>OlSolutionScope</b>枚举的其各自的默认模块，以及<b>解决方案</b>模块中显示解决方案根及其子文件夹。如果<paramref name="Scope" />参数设置为<b>olHideInDefaultModules</b>、 解决方案根和及其子文件夹是否显示在<b>解决方案</b>模块。</para>
+          <para>如果指定的文件夹已作为根文件夹或其子文件夹存在于 <b>"解决方案"</b>模块中，或者该文件夹为 <b>"解决方案"</b>模块中某个文件夹的父文件夹，则此方法也将返回错误。</para>
+          <para>如果<paramref name="Scope" />参数设置为<b>olShowInDefaultModules</b> <b>OlSolutionScope</b>枚举的其各自的默认模块，以及<b>解决方案</b>模块中显示解决方案根及其子文件夹。 如果<paramref name="Scope" />参数设置为<b>olHideInDefaultModules</b>、 解决方案根和及其子文件夹是否显示在<b>解决方案</b>模块。</para>
           <para>
             <b>解决方案</b>文件夹始终显示在<b>文件夹列表</b>模块中。</para>
-          <para>默认情况下，Outlook 将显示<b>解决方案</b>模块后<b>任务</b>模块中，假设的导航模块的顺序默认 – 邮件、 日历、 联系人和任务。如果展开导航窗格中，<b>解决方案</b>模块还最初显示为扩展的模块。如果未显示<b>任务</b>模块之后最后一个扩展模块在导航窗格中, 显示<b>解决方案</b>模块。</para>
-          <para />
-        </remarks>
+          <para>默认情况下，Outlook 将显示<b>解决方案</b>模块后<b>任务</b>模块，假设的导航模块的顺序默认 – 邮件、 日历、 联系人和任务。 如果展开导航窗格中， <b>解决方案</b>模块还最初显示为一个扩展模块。 如果未显示该 <b>任务</b>模块， <b>解决方案</b>模块将显示在导航窗格中的最后一个扩展模块之后。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -107,7 +96,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -135,7 +124,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,12 +152,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:System.String" />（C# 中的<b>字符串</b>） 值，该值代表的本地化的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />对象。 只读。</summary>
+        <summary>返回<see cref="T:System.String" />（C# 中的<b>字符串</b>） 值，该值代表的本地化的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>只有一个解决方案根文件夹下的<b>解决方案</b>模块时，可以自定义<b>解决方案</b>模块的显示名称。如果有多个解决方案根文件夹，该名称将还原回<b>解决方案</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果在 <b>"解决方案"</b>模块下只有一个解决方案根文件夹，则可自定义 <b>"解决方案"</b>模块的显示名称。如果有多个解决方案根文件夹，则该名称恢复为 <b>"解决方案"</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NavigationModuleType">
@@ -194,12 +181,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />表示的导航模块类型常量<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />表示的导航模块类型常量<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>对于<b>SolutionsModule</b>对象，此属性返回值<b>olModuleSolutions</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>对于 <b>SolutionsModule</b> 对象，该属性返回值 <b>olModuleSolutions</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -225,13 +210,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回父<see cref="T:System.Object" />（C# 中的<b>对象</b>） 的指定<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />对象。 只读。</summary>
+        <summary>返回父<see cref="T:System.Object" />（C# 中的<b>对象</b>） 的指定<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SolutionsModule</b>对象的父对象返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SolutionsModule</b>对象的父对象返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -260,21 +242,19 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> )，表示的序号位置<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />对象中显示时<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> )，表示的序号位置<see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />对象中显示时<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性仅可设置为 1 到 9 之间的值。如果您尝试将此属性设置为超出该范围的值，将发生错误。如果<b>解决方案</b>模块中存在无解决方案，设置或获取<b>Position</b>属性也将引发错误。</para>
-          <para>更改此属性的值为给定的<b>SolutionsModule</b>对象更改其他导航模块中的<b>位置</b>值<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />集合，具体取决于新值和原始值之间的相对改变。</para>
+        <remarks><para>仅可以将此属性设置为 1 和 9 之间的一个值。如果您尝试将此属性设置为超出该范围的值，将发生错误。如果没有解决方案存在于 <b>解决方案</b>模块，设置或获取 <b>位置</b> 属性也将引发错误。</para>
+          <para>更改此属性的值为给定的<b>SolutionsModule</b>对象更改其他导航模块中的<b>位置</b>值<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />集合，具体取决于新值和原始值之间的相对改变。 </para>
           <list type="bullet">
             <item>
-              <para>如果新值小于原始值，指定的<b>SolutionsModule</b>对象向上移动到新位置并已在或下方的新位置的其他导航模块下移。</para>
+              <para>如果新值小于原始值，则指定的 <b>SolutionsModule</b> 对象将上移到新位置和的其他导航模块中已经等于或低于该新位置向下移动。</para>
             </item>
             <item>
-              <para>新值大于的原始值，如果指定的<b>SolutionsModule</b>对象下移到新位置并移旧位置和新位置之间的其他导航模块，填充旧位置。</para>
+              <para>如果新值大于原始值，则指定的 <b>SolutionsModule</b> 对象将下移到新位置并将介于旧位置与新位置之间的其他导航模块上移，填充旧位置。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -300,14 +280,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果没有已登录的会话，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para>
-            <b>会话</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果没有已登录的会话，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -336,12 +313,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:System.Boolean" />(C# 中<b>bool</b> ) 值，该值指示是否在导航窗格中显示<b>解决方案</b>模块。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:System.Boolean" />(C# 中<b>bool</b> ) 值，该值指示是否在导航窗格中显示<b>解决方案</b>模块。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果<b>解决方案</b>模块下的没有解决方案，设置或获取<b>Visible</b>属性将引发错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果没有在 <b>解决方案</b>模块下的解决方案，设置或获取的 <b>Visible</b> 属性将引发错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

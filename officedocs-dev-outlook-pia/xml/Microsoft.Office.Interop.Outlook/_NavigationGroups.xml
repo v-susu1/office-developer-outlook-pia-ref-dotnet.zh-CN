@@ -1,13 +1,5 @@
 <Type Name="_NavigationGroups" FullName="Microsoft.Office.Interop.Outlook._NavigationGroups">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d00a34406d33157b2a7462c169f68ae4e8e21656" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633175" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationGroups : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d00a34406d33157b2a7462c169f68ae4e8e21656" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901926" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationGroups : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationGroups implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationGroups" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationGroups&#xA;Implements IEnumerable" />
@@ -57,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,12 +77,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回的<b>olNavigationGroups</b><see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回的<b>olNavigationGroups</b> <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -116,7 +106,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,13 +136,10 @@
       <Docs>
         <param name="GroupDisplayName">值<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" />新的<b>NavigationGroup</b>对象的属性。</param>
         <summary>创建并返回新<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />添加到末尾的对象<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</summary>
-        <returns>
-          <b>NavigationGroup</b> 对象，该对象表示新的导航组。</returns>
-        <remarks>
-          <para>一个<b>NavigationGroups</b>集合可以包含多个相同的<b>Name</b>属性值的<b>NavigationGroup</b>对象。</para>
+        <returns><b>NavigationGroup</b> 对象，该对象表示新的导航组。</returns>
+        <remarks><para><b>NavigationGroups</b> 集合可以包含多个 <b>NavigationGroup</b> 对象具有相同的 <b>名称</b> 属性值。</para>
           <para>如果外接程序尝试将 50 个以上的导航组添加到<b>NavigationGroups</b>集合，或者外接程序尝试将一个<b>NavigationGroup</b>对象添加到<b>NavigationGroups</b>集合出错<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -180,24 +167,19 @@
       <Docs>
         <param name="Group">要删除的导航组。</param>
         <summary>删除指定<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象从<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</summary>
-        <remarks>
-          <para>
-            <b>Delete</b>方法将引发错误，如果：</para>
+        <remarks><para>如果， <b>Delete</b> 方法将引发错误:</para>
           <list type="bullet">
             <item>
-              <para>中指定的导航组<paramref name="Group" />中包含导航文件夹及其<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合。</para>
+              <para> 中指定的导航组<paramref name="Group" />中包含导航文件夹及其<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合。</para>
             </item>
             <item>
-              <para>
-                <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" />属性中指定的导航组<paramref name="Group" />设置为<b>olMyFoldersGroup</b>。</para>
+              <para><see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" />属性中指定的导航组<paramref name="Group" />设置为<b>olMyFoldersGroup</b>。</para>
             </item>
             <item>
-              <para>
-                <b>NavigationGroups</b>集合的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象。</para>
+              <para><b>NavigationGroups</b>集合的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDefaultNavigationGroup">
@@ -225,12 +207,9 @@
       <Docs>
         <param name="DefaultFolderGroup">要检索的导航组的类型。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />的与选定的默认共享的文件夹组相对应。</summary>
-        <returns>
-          <b>NavigationGroup</b> 对象，该对象代表所选的默认文件夹组。</returns>
-        <remarks>
-          <para>如果在中指定的默认导航组<paramref name="DefaultFolderGroup" />已删除或否则不存在，如果自动创建父<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象支持指定的导航组类型。 如果父<b>NavigationModule</b>对象不支持创建此导航组类型，发生错误。</para>
-          <para />
-        </remarks>
+        <returns><b>NavigationGroup</b> 对象，该对象代表所选的默认文件夹组。</returns>
+        <remarks><para>如果在中指定的默认导航组<paramref name="DefaultFolderGroup" />已删除或否则不存在，如果自动创建父<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象支持指定的导航组类型。  如果父 <b>NavigationModule</b> 对象不支持创建此导航组类型，则发生错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -261,13 +240,9 @@
       <Docs>
         <param name="Index">对象的索引号。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象的集合。</summary>
-        <value>
-          <b>NavigationGroup</b> 对象，该对象代表指定的对象。</value>
-        <remarks>
-          <para>
-            <b>NavigationGroup</b>集合中的索引值表示在导航窗格中显示时的导航组的序号位置。更改导航组的位置也会更改中包含的导航组的索引值<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</para>
-          <para />
-        </remarks>
+        <value><b>NavigationGroup</b> 对象，该对象代表指定的对象。</value>
+        <remarks><para><b>NavigationGroup</b> 在集合中的索引值表示当显示在导航窗格中的导航组的序号位置。 更改导航组的位置也会更改中包含的导航组的索引值<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -321,19 +296,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

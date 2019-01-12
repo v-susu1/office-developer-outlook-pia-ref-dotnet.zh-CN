@@ -1,13 +1,5 @@
 <Type Name="OlBusyStatus" FullName="Microsoft.Office.Interop.Outlook.OlBusyStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ee2ddcdba1a69e7e2392df0e3b1dda0822c4b079" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633395" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlBusyStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5814a4a1af5f1841564f7b251a3168d833689217" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901149" /></Metadata><TypeSignature Language="C#" Value="public enum OlBusyStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlBusyStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlBusyStatus" />
@@ -21,10 +13,8 @@
   </Base>
   <Docs>
     <summary>指示用户的可用性。</summary>
-    <remarks>
-      <para>用户的可用性取决于安排的约会。 请参阅<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.BusyStatus" />属性。</para>
-      <para />
-    </remarks>
+    <remarks><para>The user's availability is based on scheduled appointments.  请参阅<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.BusyStatus" />属性。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olBusy">

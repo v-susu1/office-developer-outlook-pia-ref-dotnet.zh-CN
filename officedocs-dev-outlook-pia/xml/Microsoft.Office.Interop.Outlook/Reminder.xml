@@ -1,13 +1,5 @@
 <Type Name="Reminder" FullName="Microsoft.Office.Interop.Outlook.Reminder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="43522c46b044288a474f0a6e6c16b40b4278d74a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632733" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Reminder : Microsoft.Office.Interop.Outlook._Reminder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8831c7e50804289d9bd3a536293647ba02be37bb" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896735" /></Metadata><TypeSignature Language="C#" Value="public interface Reminder : Microsoft.Office.Interop.Outlook._Reminder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Reminder implements class Microsoft.Office.Interop.Outlook._Reminder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Reminder" />
   <TypeSignature Language="VB.NET" Value="Public Interface Reminder&#xA;Implements _Reminder" />
@@ -31,14 +23,12 @@
   </Attributes>
   <Docs>
     <summary>代表 Outlook 提醒。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Reminder" />。</para>
-      <para>提醒允许用户以跟踪即将到来的约会按计划在给定时间显示一个弹出对话框。除了约会提醒可能发生的任务、 联系人和电子邮件。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" />(<paramref name="index" />)，其中<paramref name="index" />是名称或提醒，返回单个<b>Reminder</b>对象的索引号。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Reminder" />。 </para>
+      <para>用户可以通过提醒安排在指定时间弹出对话框，跟踪将要到来的约会。除了约会，提醒还可以提醒任务、联系人和电子邮件。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" />(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号的提醒，返回单个<b>Reminder</b>对象。</para>
       <para>提醒以编程方式将创建新的 Microsoft Outlook 的项时，如<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，请创建和项目的<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" />属性设置为<b>True</b>。</para>
-      <para>使用<b>Reminders</b>集合的<see cref="M:Microsoft.Office.Interop.Outlook._Reminders.Remove(System.Object)" />方法从集合中删除<b>Reminder</b>对象。一旦从其关联的项目中删除提醒， <b>AppointmentItem</b>对象的<b>ReminderSet</b>属性设置为<b>False</b>。</para>
-      <para />
-    </remarks>
+      <para>使用<b>Reminders</b>集合的<see cref="M:Microsoft.Office.Interop.Outlook._Reminders.Remove(System.Object)" />方法从集合中删除<b>Reminder</b>对象。 一旦从与其关联的项中删除提醒， <b>AppointmentItem</b> 对象的 <b>ReminderSet</b> 属性设置为 <b>False</b> 。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

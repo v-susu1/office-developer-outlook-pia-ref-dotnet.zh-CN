@@ -1,13 +1,5 @@
 <Type Name="AddressLists" FullName="Microsoft.Office.Interop.Outlook.AddressLists">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="77b219efecfb4a307ee175bb9ac614ee2b62cef1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632040" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressLists : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="82a19a36cf6ebc75f9dc27931f003230c7ac1d1b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897952" /></Metadata><TypeSignature Language="C#" Value="public interface AddressLists : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressLists implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressLists" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressLists&#xA;Implements IEnumerable" />
@@ -31,11 +23,8 @@
   </Attributes>
   <Docs>
     <summary>包含一组<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象。</summary>
-    <remarks>
-      <para>
-        <b>AddressLists</b>集合提供对传输提供程序的通讯簿层次结构的根的访问当前会话。</para>
-      <para />
-    </remarks>
+    <remarks><para><b>地址列表</b> 集合当前会话访问传输提供程序的地址簿层次结构的根。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -61,7 +50,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -89,7 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,7 +106,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -150,8 +139,7 @@
       <Docs>
         <param name="Index">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象的集合。</summary>
-        <value>
-          <b>设置</b> 对象，该对象代表指定的对象。</value>
+        <value><b>设置</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -206,19 +194,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

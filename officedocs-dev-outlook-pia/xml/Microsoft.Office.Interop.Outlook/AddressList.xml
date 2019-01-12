@@ -1,13 +1,5 @@
 <Type Name="AddressList" FullName="Microsoft.Office.Interop.Outlook.AddressList">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a41313c3d06cf1f8ff69f9336dea1b509c5eda8b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633256" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressList" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6a0bab57e96ddcb76bf78e2046cc16317ccf2001" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898373" /></Metadata><TypeSignature Language="C#" Value="public interface AddressList" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressList" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressList" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressList" />
@@ -27,13 +19,9 @@
   </Attributes>
   <Docs>
     <summary>代表包含一组的通讯簿<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。</summary>
-    <remarks>
-      <para>
-        <b>AddressList</b>对象是包含一组的通讯簿<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。</para>
-      <para>
-        <b>AddressList</b>对象提供的邮件系统可以将邮件传递到的地址条目的列表。<b>AddressList</b>对象代表当前会话的传输提供程序的通讯簿层次结构下提供一个通讯簿容器。在整个层次结构是可通过父级<see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />对象。</para>
-      <para />
-    </remarks>
+    <remarks><para><b>AddressList</b>对象是包含一组的通讯簿<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。</para>
+      <para><b>设置</b> 对象提供邮件系统可以把消息传送到的地址条目的列表。 <b>设置</b> 对象表示当前会话的一个通讯簿容器可用的传输提供程序的地址簿层次结构下。 在整个层次结构是可通过父级<see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />对象。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="AddressEntries">
@@ -59,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntries</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />指定对象的集合。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />指定对象的集合。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -87,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAddressListType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressListType" />代表的类型的枚举<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />。 只读。</summary>
+        <summary>返回一个常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressListType" />代表的类型的枚举<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,7 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,7 +131,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,10 +159,8 @@
       <Docs>
         <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示为联系人文件夹<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象。</summary>
         <returns>一个代表 <b>AddressList</b> 的 Outlook“联系人”文件夹的 <b>Folder</b> 对象。如果未找到 Outlook“联系人”文件夹，则返回 <b>Null</b>（在 Visual Basic 中为 <b>Nothing</b>）。</returns>
-        <remarks>
-          <para>此方法允许您匹配您想要设置为初始地址列表选择姓名对话框中的联系人文件夹的<b>AddressList</b> 。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法允许您匹配您想要设置为初始地址列表的 <b>选择姓名</b>对话框中的联系人文件夹的 设置 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -200,12 +186,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 对象的唯一标识符。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 对象的唯一标识符。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>传输提供程序时创建单个成员对象分配一个永久的唯一字符串<b>ID</b>属性。这些标识符请勿更改从一个会话到另一个。</para>
-          <para />
-        </remarks>
+        <remarks><para>传输提供程序在创建单个成员对象时分配永久的、 唯一的字符串 <b>ID</b> 属性。这些标识符不变化从一个会话到另一个。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -231,13 +215,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示集合中对象的位置的<b>整数</b>(C# 中<b>int</b> ) 值。  只读。</summary>
+        <summary>返回指示集合中对象的位置的<b>整数</b>(C# 中<b>int</b> ) 值。  此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Index</b>属性仅在当前会话中有效，并且在可以更改对象添加到和从集合中删除。集合中的第一个对象的<b>索引</b>值为 1。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Index</b> 属性仅在当前会话期间有效，并且在可以更改对象添加到集合和从集合中删除。集合中的第一个对象的 <b>索引</b> 值为 1。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsInitialAddressList">
@@ -263,13 +244,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示如果<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />是显示在选择姓名对话框初始<b>AddressList</b> 。 只读。</summary>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示如果<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />是显示在选择姓名对话框初始<b>AddressList</b> 。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>IsInitialAddressList</b>相当于设置的显示此地址列表首先在设置地址对话框，其中，可通过单击工具，然后在通讯簿对话框选项。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>IsInitialAddressList</b>相当于设置的显示此地址列表首先在设置地址对话框，其中，可通过单击工具，然后在通讯簿对话框选项。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsReadOnly">
@@ -295,13 +274,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>布尔</b>值 (C# 中<b>bool</b> )，该值指示<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象不能修改。 只读。</summary>
+        <summary>返回一个<b>布尔</b>值 (C# 中<b>bool</b> )，该值指示<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象不能修改。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>IsReadOnly</b>属性是指添加和删除由<b>AddressList</b>对象的地址簿容器中的条目。该属性为<b>True</b> ，如果可以添加或删除任何条目。如果可以修改，也就是说，如果地址条目可以添加到容器，并将其从容器中删除，该属性为<b>False</b> 。它是指通讯簿条目的通讯簿容器上下文中。它不指示是否可修改各个条目自身的内容。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>IsReadOnly</b> 属性引用中添加和删除通讯簿容器由 <b>设置</b> 对象中的项。如果可以添加或删除任何条目，则该属性为 <b>True</b> 。如果容器可以修改，也就是说，如果地址项可以添加到或从容器中删除，则该属性为 <b>False</b> 。 它是指在通讯簿容器的上下文中的通讯簿条目。它不指示是否可以修改各个条目自身的内容。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -327,7 +303,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表对象的显示名称的<b>字符串</b>值 （C# 中的<b>字符串</b>）。 只读。</summary>
+        <summary>返回一个代表对象的显示名称的<b>字符串</b>值 （C# 中的<b>字符串</b>）。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -383,7 +359,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -411,12 +387,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>整数</b>，表示此顺序<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />设置地址对话框中的自定义滚动列表中。 只读。</summary>
+        <summary>返回一个<b>整数</b>，表示此顺序<see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />设置地址对话框中的自定义滚动列表中。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ResolutionOrder</b>属性对应于<b>AddressList</b>的列表框中，其发送邮件时，将标记的位置，请检查地址按此顺序设置地址对话框中列出，可通过单击工具和中的选项通讯簿对话框。请注意，此行为独立于是否在设置地址对话框中选择自定义。例如，如果选择全局地址列表开始，滚动列表显示联系人的第一项作为联系人地址列表的<b>ResolutionOrder</b>属性仍然是 1，即使时解析收件人，Outlook 使用全局地址首先列出。</para>在设置地址对话框中选中
-          <para>时自定义、 <b>ResolutionOrder</b>属性反映 Outlook 在解析收件人姓名时使用的顺序。<b>ResolutionOrder</b>的值是从 1 开始。在这种情况下，第一个的地址列表，用于解析收件人姓名具有等于 1 <b>ResolutionOrder</b> 、 第二个地址列表 2，等等。如果未使用的地址列表来解析地址，然后其<b>ResolutionOrder</b>具有值-1。以编程方式在设置地址对话框中选择自定义时， <b>ResolutionOrder</b>属性反映实际解决方案顺序的<see cref="M:Microsoft.Office.Interop.Outlook.Recipients.ResolveAll" />或<see cref="M:Microsoft.Office.Interop.Outlook.Recipient.Resolve" />使用。</para><para /></remarks>
+        <remarks><para><b>ResolutionOrder</b>属性对应于<b>AddressList</b>的列表框中，其发送邮件时，将标记的位置，请检查地址按此顺序设置地址对话框中列出，可通过单击工具和中的选项通讯簿对话框。 请注意，这种现象是否在 设置地址对话框中选择 自定义的独立。 例如，如果选择全局地址列表开始，滚动列表显示联系人的第一项作为联系人地址列表的<b>ResolutionOrder</b>属性仍然是 1，即使时解析收件人，Outlook 使用全局地址首先列出。</para>
+          <para>在 设置地址对话框中选择 自定义时， <b>ResolutionOrder</b> 属性反映了 Outlook 在解析收件人名称时使用的顺序。 <b>ResolutionOrder</b> 的值是基于一个。 在这种情况下，首个地址列表用于解析收件人名称等于 1 <b>ResolutionOrder</b> ，第二个地址列表 2，等等。 如果未使用地址列表来解析地址，其 <b>ResolutionOrder</b> 将具有值为-1。 以编程方式在设置地址对话框中选择自定义时， <b>ResolutionOrder</b>属性反映实际解决方案顺序的<see cref="M:Microsoft.Office.Interop.Outlook.Recipients.ResolveAll" />或<see cref="M:Microsoft.Office.Interop.Outlook.Recipient.Resolve" />使用。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -442,19 +417,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

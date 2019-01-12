@@ -1,13 +1,5 @@
 <Type Name="_Results" FullName="Microsoft.Office.Interop.Outlook._Results">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82f716ca4e71998fcf133f6738e482e4bba38a38" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632742" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Results : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="82f716ca4e71998fcf133f6738e482e4bba38a38" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898891" /></Metadata><TypeSignature Language="C#" Value="public interface _Results : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Results implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Results" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Results&#xA;Implements IEnumerable" />
@@ -57,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +77,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,7 +105,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,7 +136,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlItemType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlItemType" />常量，指示默认的 Outlook 项目文件夹中包含的类型。 为可读/写属性。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlItemType" />常量，指示默认的 Outlook 项目文件夹中包含的类型。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,10 +164,8 @@
       <Docs>
         <summary>返回集合中的第一个对象。</summary>
         <returns>一个 Object 值，代表集合包含的第一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -201,10 +191,8 @@
       <Docs>
         <summary>返回集合中的最后一个对象。</summary>
         <returns>一个 Object 值，代表集合包含的最后一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -230,10 +218,8 @@
       <Docs>
         <summary>返回集合中的下一个对象。</summary>
         <returns>一个 Object 值，代表集合包含的下一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -259,10 +245,8 @@
       <Docs>
         <summary>返回集合中上一个对象。</summary>
         <returns>一个 Object 值，代表集合包含的上一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -378,10 +362,8 @@
       <Parameters />
       <Docs>
         <summary>清除属性与缓存的<see cref="M:Microsoft.Office.Interop.Outlook._Results.SetColumns(System.String)" />方法。</summary>
-        <remarks>
-          <para>调用<b>ResetColumns</b>方法后，所有属性都都可访问。应重复使用<b>SetColumns</b>再次存储新属性。如果不首先调用<b>SetColumns</b> ， <b>ResetColumns</b>无实际作用。</para>
-          <para />
-        </remarks>
+        <remarks><para>在调用 <b>ResetColumns</b> 方法后，所有属性都都可以访问。 <b>SetColumns</b> 应重用再次存储新的属性。如果没有先调用 <b>SetColumns</b> ， <b>ResetColumns</b> 将没有任何效果。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -407,19 +389,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetColumns">
@@ -447,11 +426,8 @@
       <Docs>
         <param name="Columns">To be added.</param>
         <summary>缓存某些属性，从而极大提高集合中的项目的指定属性的访问速度。</summary>
-        <remarks>
-          <para>
-            <b>SetColumns</b>方法可用于循环访问<see cref="T:Microsoft.Office.Interop.Outlook.Results" />对象。如果不使用此方法，Microsoft Outlook 必须打开每个项目访问属性。使用<b>SetColumns</b>方法时，Outlook 仅检查已缓存的属性。未缓存的属性将返回为空。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SetColumns</b>方法可用于循环访问<see cref="T:Microsoft.Office.Interop.Outlook.Results" />对象。 如果不使用此方法，则Microsoft Outlook必须打开每个项目以访问属性。 使用 <b>SetColumns</b> 方法时，Outlook 只检查您已缓存的属性。 未缓存的属性将返回空值。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sort">
@@ -478,14 +454,11 @@
       </Parameters>
       <Docs>
         <param name="Property">作为排序依据的属性名称，可以用方括号括起来（如"[公司名称]"）。不能是用户定义字段，也不能是多值属性，如"类别"。</param>
-        <param name="Descending">
-          <b>真</b> 要按降序排序。默认值为 <b>False</b> (升序)。 </param>
+        <param name="Descending"><b>真</b> 要按降序排序。默认值为 <b>False</b> (升序)。 </param>
         <summary>按指定属性对项目的集合进行排序。在完成该方法后将集合的索引重新设置为 1。</summary>
-        <remarks>
-          <para>
-            <b>排序</b>只影响集合中的项的顺序。它不会影响资源管理器视图中的项目的顺序。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>排序</b> 将仅影响集合中项目的顺序。它不影响浏览器视图中项目的顺序。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

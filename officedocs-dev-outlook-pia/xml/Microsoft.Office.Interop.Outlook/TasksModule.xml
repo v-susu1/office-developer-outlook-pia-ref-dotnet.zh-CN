@@ -1,13 +1,5 @@
 <Type Name="TasksModule" FullName="Microsoft.Office.Interop.Outlook.TasksModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bca92a93a61f9c63149f335ad68710654235250c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631449" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TasksModule : Microsoft.Office.Interop.Outlook._TasksModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="636ba7a8cb8a6c5f46d9d93b3a96a3eaa6e41e4e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899850" /></Metadata><TypeSignature Language="C#" Value="public interface TasksModule : Microsoft.Office.Interop.Outlook._TasksModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TasksModule implements class Microsoft.Office.Interop.Outlook._TasksModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TasksModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface TasksModule&#xA;Implements _TasksModule" />
@@ -31,11 +23,10 @@
   </Attributes>
   <Docs>
     <summary>代表浏览器的导航窗格中的任务导航模块。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._TasksModule" />。</para>
-      <para>
-        <b>TasksModule</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象，提供对资源管理器导航窗格的任务导航模块中包含的导航组的访问。使用<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />方法或<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" />属性 (<b>此</b>C# 中) 的<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />父集合<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象来检索的<b>NavigationModule</b>对象，然后使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /><b>NavigationModule</b>对象的属性若要检索的导航模块类型。如果的<b>NavigationModuleType</b>属性设置为<b>olModuleTasks</b>，然后可以作为<b>TasksModule</b>对象访问转换<b>NavigationModule</b>对象引用<see cref="P:Microsoft.Office.Interop.Outlook._TasksModule.NavigationGroups" />导航模块的属性。</para>您可以使用
-      <para><see cref="P:Microsoft.Office.Interop.Outlook._TasksModule.Visible" />属性可以确定是否可见的导航模块和<see cref="P:Microsoft.Office.Interop.Outlook._TasksModule.Position" />属性可返回或设置导航窗格中的导航模块的显示位置。您可以使用<see cref="P:Microsoft.Office.Interop.Outlook._TasksModule.Name" />属性可返回导航窗格中的任务导航模块的显示名称。</para><para /></remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._TasksModule" />。 </para>
+      <para><b>TasksModule</b>对象，派生<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象，提供对资源管理器导航窗格的任务导航模块中包含的导航组的访问。 使用<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />方法或<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" />属性 (<b>此</b>C# 中) 的<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />父集合<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象来检索的<b>NavigationModule</b>对象，然后使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /> <b>NavigationModule</b>对象的属性检索的导航模块类型。 如果的<b>NavigationModuleType</b>属性设置为<b>olModuleTasks</b>，然后可以作为<b>TasksModule</b>对象访问转换<b>NavigationModule</b>对象引用<see cref="P:Microsoft.Office.Interop.Outlook._TasksModule.NavigationGroups" />导航模块的属性。</para>
+      <para>您可以使用<see cref="P:Microsoft.Office.Interop.Outlook._TasksModule.Visible" />属性可以确定是否可见的导航模块和<see cref="P:Microsoft.Office.Interop.Outlook._TasksModule.Position" />属性可返回或设置导航窗格中的导航模块的显示位置。 您可以使用<see cref="P:Microsoft.Office.Interop.Outlook._TasksModule.Name" />属性可返回导航窗格中的任务导航模块的显示名称。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

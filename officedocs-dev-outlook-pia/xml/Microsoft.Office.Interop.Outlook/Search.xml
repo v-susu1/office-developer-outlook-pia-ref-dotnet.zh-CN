@@ -1,13 +1,5 @@
 <Type Name="Search" FullName="Microsoft.Office.Interop.Outlook.Search">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="95e75d0a084b225bee45b2e7972a363b981ca65d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632981" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Search" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="71b006a1225b8c88295fc1f2047326471943e9a9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900487" /></Metadata><TypeSignature Language="C#" Value="public interface Search" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Search" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Search" />
   <TypeSignature Language="VB.NET" Value="Public Interface Search" />
@@ -27,13 +19,10 @@
   </Attributes>
   <Docs>
     <summary>包含有关对 Outlook 项目执行的各种搜索的信息。</summary>
-    <remarks>
-      <para>
-        <b>Search</b>对象包含定义搜索的类型和搜索本身的参数的属性。</para>
+    <remarks><para><b>Search</b> 对象包含的属性定义了搜索类型和搜索本身的参数。</para>
       <para>使用<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象的<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法可返回<b>Search</b>对象。</para>
       <para>使用<see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />来确定给定的搜索已完成时的事件。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -59,7 +48,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -87,7 +76,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,17 +106,15 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表用来限制对指定的数据子集的搜索的 DASL 语句。  只读</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性设置为<paramref name="Filter" />中的参数<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象的<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法。</para>
-          <para>搜索<b>文本</b>字段时，您可以使用撇号 （'） 或双引号 ("") 来分隔的值的筛选器的一部分。例如，下面的行函数正确当类型的所有字段为<b>字符串</b>（C# 中的<b>字符串</b>）：</para>
+        <remarks><para>此属性设置为<paramref name="Filter" />中的参数<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象的<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法。 </para>
+          <para>搜索 <b>文本</b> 字段时，可以使用单引号 (') 或双引号 ("") 来分隔作为筛选器一部分的值。 例如，下面的行函数类型所有正确时字段为<b>字符串</b>（C# 中的<b>字符串</b>）： </para>
           <code>sFilter = "[CompanyName] = 'Microsoft'"</code>
           <code>sFilter = "[CompanyName] = 'Microsoft'";</code>
           <code>sFilter = "[CompanyName] = ""Microsoft"""</code>
           <code>sFilter = "[CompanyName] = ""Microsoft""";</code>
           <code>sFilter = "[CompanyName] = " &amp;amp; Chr(34) &amp;amp; "Microsoft" &amp;amp; Chr(34)</code>
           <code>sFilter = "[CompanyName] = " &amp;amp; Chr(34) &amp;amp; "Microsoft" &amp;amp; Chr(34);</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -153,15 +140,12 @@
       <Docs>
         <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象，其中包含由筛选的项目<paramref name="Filter" />中前面参数<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法调用。</summary>
         <returns>一个<b>表</b>，包含符合指定条件的邮件<paramref name="Filter" />前面的<b>Application.AdvancedSearch</b>方法调用中的参数。</returns>
-        <remarks>
-          <para>与不同<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />， <b>Search.GetTable</b>不接受<paramref name="Filter" />参数。<b>表</b>的筛选器由<see cref="P:Microsoft.Office.Interop.Outlook.Search.Filter" />。由于<b>Search.Filter</b>是只读属性， <paramref name="Filter" /><b>Application.AdvancedSearch</b>方法的参数建立<b>Search.GetTable</b>返回的<b>Table</b>对象的筛选器。</para>
+        <remarks><para>与不同<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />， <b>Search.GetTable</b>不接受<paramref name="Filter" />参数。 <b>表</b>的筛选器由<see cref="P:Microsoft.Office.Interop.Outlook.Search.Filter" />。 由于<b>Search.Filter</b>是只读属性， <paramref name="Filter" /> <b>Application.AdvancedSearch</b>方法的参数建立<b>Search.GetTable</b>返回的<b>Table</b>对象的筛选器。</para>
+          <para><paramref name="Filter" />提供给 Application.AdvancedSearch 的参数必须为 DASL 查询。 <b>AdvancedSearch</b> 的筛选器将不会接受一个 JET 查询。 不执行的与<b>AdvancedSearch</b>前缀 DASL 查询"@SQL ="。 如果您要添加"@SQL ="前缀，则查询将产生错误。 筛选器的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
           <para>
-            <paramref name="Filter" />提供给 Application.AdvancedSearch 的参数必须为 DASL 查询。<b>AdvancedSearch</b>的筛选器将不会接受 JET 查询。不执行的与<b>AdvancedSearch</b>前缀 DASL 查询"@SQL ="。如果您要添加"@SQL ="前缀，则查询将产生错误。筛选器的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
-          <para>
-            <b>Search.GetTable</b>返回与父<b>文件夹</b>的文件夹类型为默认列的<b>表</b>。若要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合对象。 在默认列集的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87925">Table 对象中显示的默认属性</a></para>
-          <para>与<b>Folder.GetTable</b>，您无法使用<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />基于<b><b>表</b>应用于后续的筛选器搜索</b>对象。<b>Application.AdvancedSearch</b>重新应用筛选器中指定新的筛选器。</para>
-          <para />
-        </remarks>
+            <b>Search.GetTable</b> 与为父 <b>文件夹</b> 的文件夹类型设置的默认列返回 <b>表</b> 。 若要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合对象。  在默认列集的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87925">Table 对象中显示的默认属性</a></para>
+          <para>与<b>Folder.GetTable</b>，您无法使用<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />后续筛选器应用于<b>表</b>基于<b>Search</b>对象。 <b>Application.AdvancedSearch</b> 重新应用筛选器中指定新的筛选器。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSynchronous">
@@ -187,12 +171,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否搜索是同步。 只读。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否搜索是同步。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>搜索可以同步或异步。如果搜索是同步的搜索完成之前将暂停代码执行。相反，如果搜索是异步的即使尚未完成搜索，会继续执行代码。在这种情况下，使用<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象的<see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" />方法暂停搜索。 若要从异步搜索获取有意义的结果，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />事件搜索已完成时通知您。</para>
-          <para />
-        </remarks>
+        <remarks><para>搜索可以同步或异步。 如果搜索是同步的在搜索完成前，将暂停代码执行。 相反，如果搜索是异步的尽管尚未完成搜索，会继续执行代码。 在这种情况下，使用<see cref="T:Microsoft.Office.Interop.Outlook.Search" />对象的<see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" />方法暂停搜索。  若要从异步搜索获取有意义的结果，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />事件搜索已完成时通知您。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -246,7 +228,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Results</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Results" />指定的搜索结果的集合。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Results" />指定的搜索结果的集合。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -277,10 +259,8 @@
         <param name="Name">一个代表搜索文件夹名称的字符串。</param>
         <summary>将搜索结果保存到搜索文件夹中。</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>如果已存在同名的搜索文件夹， <b>Save</b>方法将显示一个错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果已存在具有相同名称的搜索文件夹， <b>Save</b> 方法会显示一个错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Scope">
@@ -306,12 +286,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指定的<b>字符串</b>（C# 中的<b>字符串</b>） 的指定搜索范围。 只读。</summary>
+        <summary>返回指定的<b>字符串</b>（C# 中的<b>字符串</b>） 的指定搜索范围。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>启动搜索时定义的搜索范围。有关详细信息，请参阅<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法。</para>
-          <para />
-        </remarks>
+        <remarks><para>搜索范围在初始化搜索时定义。 有关详细信息，请参阅<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SearchSubFolders">
@@ -337,12 +315,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否指定搜索的范围包含任何搜索文件夹的子文件夹。 只读。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否指定搜索的范围包含任何搜索文件夹的子文件夹。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性由<paramref name="SearchSubfolders" />参数<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法和初始化搜索时指定。如果<b>为 True</b>，<b>搜索</b>对象指定的筛选器路径中的任何子通过搜索。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性由<paramref name="SearchSubfolders" />参数<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法和初始化搜索时指定。 如果 <b>为 True</b> ， <b>搜索</b> 对象通过指定的筛选器路径中的任何子文件夹的搜索。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -368,19 +344,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Stop">
@@ -433,11 +406,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 指定当前搜索的名称。 <b>Tag</b> 属性用于标识特定的搜索。 只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Tag</b>属性通过设置<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法时<see cref="T:Microsoft.Office.Interop.Outlook.Search" />创建对象。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Tag</b>属性通过设置<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法时<see cref="T:Microsoft.Office.Interop.Outlook.Search" />创建对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

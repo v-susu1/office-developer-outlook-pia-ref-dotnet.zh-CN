@@ -1,13 +1,5 @@
 <Type Name="OutlookBarGroups" FullName="Microsoft.Office.Interop.Outlook.OutlookBarGroups">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4ec37831bca16dd22d2ec7ced0143c9bdff6dee7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631884" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarGroups : Microsoft.Office.Interop.Outlook._OutlookBarGroups, Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c9ebbde3c6b3af38dc98d4d94c47e406247ce1ba" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898856" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarGroups : Microsoft.Office.Interop.Outlook._OutlookBarGroups, Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarGroups implements class Microsoft.Office.Interop.Outlook._OutlookBarGroups, class Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarGroups&#xA;Implements _OutlookBarGroups, OutlookBarGroupsEvents_Event" />
@@ -34,12 +26,10 @@
   </Attributes>
   <Docs>
     <summary>包含一组<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" />对象代表快捷方式窗格中的所有组。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_Event" />。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OutlookBarGroups" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroupsClass" />。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OutlookBarGroups" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroupsClass" />。</para>
       <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" />属性返回的<b>OutlookBarGroups</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />对象。</para>
       <para>使用<b>组</b>(<paramref name="index" />)，其中<paramref name="index" />是可用组，可返回<b>OutlookBarGroup</b>对象的名称。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

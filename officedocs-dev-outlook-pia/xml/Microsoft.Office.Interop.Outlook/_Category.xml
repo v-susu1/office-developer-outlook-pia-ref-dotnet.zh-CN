@@ -1,13 +1,5 @@
 <Type Name="_Category" FullName="Microsoft.Office.Interop.Outlook._Category">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="980d1194a72301e1075492e2bd0fe0d45c2cdad3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632772" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Category" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="980d1194a72301e1075492e2bd0fe0d45c2cdad3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897078" /></Metadata><TypeSignature Language="C#" Value="public interface _Category" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Category" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Category" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,13 +76,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本的边框颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 只读。</summary>
+        <summary>返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本的边框颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />属性。</para>
-          <para>应使用此颜色来显示<b>Category</b>对象的渐变阴影颜色样本的边框。</para>
-          <para />
-        </remarks>
+        <remarks><para>设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />属性。</para>
+          <para>该颜色用于显示 <b>类别</b> 对象的渐变底纹颜色色板的边框。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryGradientBottomColor">
@@ -119,13 +109,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本渐变颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 只读。</summary>
+        <summary>返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本渐变颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />属性。</para>
-          <para>应使用此颜色来显示<b>Category</b>对象的渐变阴影颜色样本。</para>
-          <para />
-        </remarks>
+        <remarks><para>设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />属性。</para>
+          <para>该颜色用于显示 <b>类别</b> 对象的渐变底纹颜色色板。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryGradientTopColor">
@@ -154,13 +142,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本的顶部渐变颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 只读。</summary>
+        <summary>返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本的顶部渐变颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />属性。</para>
-          <para>应使用此颜色来显示<b>Category</b>对象的渐变阴影颜色样本。</para>
-          <para />
-        </remarks>
+        <remarks><para>设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />属性。</para>
+          <para>该颜色用于显示 <b>类别</b> 对象的渐变底纹颜色色板。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryID">
@@ -186,13 +172,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表的唯一标识符的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 只读。</summary>
+        <summary>返回一个代表的唯一标识符的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>因为<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /><b>Category</b>对象的属性可以更改以下任意以编程方式或用户操作，每个<b>Category</b>对象由唯一标识分配给该对象，可以检索的全局唯一标识符 (GUID)使用此属性。使用以下格式字符串形式显示 GUID:</para>
+        <remarks><para>因为<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> <b>Category</b>对象的属性可以更改以下任意以编程方式或用户操作，每个<b>Category</b>对象由唯一标识分配给该对象，可以检索的全局唯一标识符 (GUID)使用此属性。 GUID 被显示为使用以下格式的字符串:</para>
           <code>{00000000-0000-0000-0000-000000000000}</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -218,7 +202,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -249,12 +233,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCategoryColor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量，指示所使用的颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量，指示所使用的颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>您可以通过指定相同常量值，该值代表<b>OlCategoryColor</b>枚举这些<b>类别</b>对象中的类别颜色共享相同的颜色为多个类别。</para>
-          <para />
-        </remarks>
+        <remarks><para>您可以共享相同的颜色为多个类别，通过指定的同一常数，表示对于那些 <b>Category</b>对象 <b>OlCategoryColor</b>枚举中的类别颜色。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -283,7 +265,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -339,19 +321,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShortcutKey">
@@ -380,12 +359,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" />常量，指定快捷键使用<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" />常量，指定快捷键使用<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在任何给定时间， <b>olCategoryShortcutKeyNone</b>之外的任何<b>OlCategoryShortcutKey</b>常量仅可以使用一个<b>Category</b>对象。设置此属性的值为<b>OlCategoryShortcutKey</b>常量已在使用集中已使用指定的值与<b>olCategoryShortcutKeyNone</b><b>Category</b>对象的<b>ShortcutKey</b>属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>在任何给定时间只能由一个 <b>类别</b> 对象使用除 <b>olCategoryShortcutKeyNone</b> 之外的任何 <b>OlCategoryShortcutKey</b> 常量。设置此属性的值为 <b>OlCategoryShortcutKey</b> 的常量已经在使用集已经在使用指定的值与 <b>olCategoryShortcutKeyNone</b> <b>类别</b> 对象的 <b>ShortcutKey</b> 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

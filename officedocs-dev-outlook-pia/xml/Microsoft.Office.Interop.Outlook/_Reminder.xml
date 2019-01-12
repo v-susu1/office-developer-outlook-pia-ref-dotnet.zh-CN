@@ -1,13 +1,5 @@
 <Type Name="_Reminder" FullName="Microsoft.Office.Interop.Outlook._Reminder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631590" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Reminder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901758" /></Metadata><TypeSignature Language="C#" Value="public interface _Reminder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Reminder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Reminder" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Reminder" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示标题。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示标题。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,7 +101,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -136,10 +128,8 @@
       <Parameters />
       <Docs>
         <summary>消除当前提醒。</summary>
-        <remarks>
-          <para>如果没有没有可见的提醒， <b>Dismiss</b>方法将失败。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果没有任何可见的提醒， <b>消除</b> 方法将失败。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsVisible">
@@ -165,12 +155,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定是否当前可见的提醒。  只读。</summary>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定是否当前可见的提醒。  此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Outlook 来确定基于当前提醒的状态此属性的返回值。所有活动提醒都是可见的。如果<b>IsVisible</b>为 True，则是可见的提醒。</para>
-          <para />
-        </remarks>
+        <remarks><para> Outlook 根据当前提醒状态此属性的返回值来确定。 所有活动的提醒都是可见的。 如果<b>IsVisible</b>为 True，则是可见的提醒。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -226,11 +214,8 @@
       <Docs>
         <summary>返回 <b>日期</b> 指定的提醒下一次会。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>NextReminderDate</b>属性值更改每次对象的<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />执行方法，或当用户单击暂停按钮。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>NextReminderDate</b>属性值更改每次对象的<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />执行方法，或当用户单击暂停按钮。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OriginalReminderDate">
@@ -258,10 +243,8 @@
       <Docs>
         <summary>返回一个指定的原始日期和指定为特定提醒设置发生的时间的 <b>日期</b> 。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此值对应于原始日期和时间值之前<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />执行方法或用户单击暂停按钮。</para>
-          <para />
-        </remarks>
+        <remarks><para>此值对应于原始日期和时间值之前<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />执行方法或用户单击暂停按钮。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -315,19 +298,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Snooze">
@@ -354,11 +334,9 @@
       <Docs>
         <param name="SnoozeTime">指示提醒延迟的时间（以分钟计）。默认值为 5 分钟。</param>
         <summary>将提醒延迟一定的时间。</summary>
-        <remarks>
-          <para>该属性等同于用户单击暂停按钮。 </para>
-          <para>此方法将失败如果当前提醒处于非活动状态。 </para>
-          <para />
-        </remarks>
+        <remarks><para>相当于用户单击 "暂停"按钮。  </para>
+          <para>如果当前提醒处于非活动状态，该方法将执行失败。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

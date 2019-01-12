@@ -1,13 +1,5 @@
 <Type Name="Category" FullName="Microsoft.Office.Interop.Outlook.Category">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="435e5765b7ec5d5ff26be55adc999086a3415e41" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633069" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Category : Microsoft.Office.Interop.Outlook._Category" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a7e2734d6e53bd5a1e3e99a9c8084ca598f7964f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897442" /></Metadata><TypeSignature Language="C#" Value="public interface Category : Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Category implements class Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Category" />
   <TypeSignature Language="VB.NET" Value="Public Interface Category&#xA;Implements _Category" />
@@ -31,12 +23,11 @@
   </Attributes>
   <Docs>
     <summary>表示可以 Microsoft Outlook 项目分组依据的用户定义的类别。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Category" />。</para>
-      <para>Outlook 提供了分类系统与 Outlook 项目可以轻松地识别和分组为用户定义的类别。<b>将 Category</b>对象代表用户定义的类别。</para>
-      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" />方法<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象创建新的<b>Category</b>对象，并将类别添加到该命名空间的主类别列表。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" />属性指定类别的名称，<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性指定显示该类别的颜色和<see cref="P:Microsoft.Office.Interop.Outlook._Category.ShortcutKey" />属性指定用于向 Outlook 中的 Outlook 项目分配类别的快捷键用户界面。使用<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" />属性来检索为类别的唯一标识符。</para>
-      <para>可以通过以下对象的<b>Categories</b>属性的以逗号分隔字符串中指定的相应的<b>Category</b>对象名为 Outlook 项目分配类别：</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Category" />。</para>
+      <para>Outlook 提供了分类系统与 Outlook 项目可以轻松地识别和分组为用户定义的类别。 该 <b>类别</b> 对象表示用户定义的类别。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" />方法<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象创建新的<b>Category</b>对象，并将类别添加到该命名空间的主类别列表。 </para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" />属性指定类别的名称，<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性指定显示该类别的颜色和<see cref="P:Microsoft.Office.Interop.Outlook._Category.ShortcutKey" />属性指定用于向 Outlook 用户界面中的 Outlook 项目分配类别的快捷键. 使用<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" />属性来检索为类别的唯一标识符。</para>
+      <para>可以通过在下列对象的 <b>Categories</b> 属性中的逗号分隔字符串中指定相应的 <b>Category</b> 对象名，为 Outlook 项目分配类别：</para>
       <list type="table">
         <item>
           <description>
@@ -109,8 +100,7 @@
           <description />
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="InspectorEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e577cef66d03135647987f26fbc59f4c3687f225" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631807" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface InspectorEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f1194b1f0b61ad8f4626aab81e241dac5cce1074" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897677" /></Metadata><TypeSignature Language="C#" Value="public interface InspectorEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract InspectorEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface InspectorEvents_10_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户通过编程方式，或者通过与用户界面交互，在活动检查器中选择某个项目的其他附件或更多附件时发生。</summary>
-        <remarks>
-          <para>检查器中选择的项目的不同或更多附件时，将触发<b>AttachmentSelectionChange</b>事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>在检查器中选择项目的其他附件后，将触发 <b>AttachmentSelectionChange</b> 事件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMaximize">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户最大化检查器时发生。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMinimize">
@@ -112,10 +100,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户最小化活动检查器时发生。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMove">
@@ -134,10 +120,8 @@
       </ReturnValue>
       <Docs>
         <summary>发生此事件时<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />移动用户。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeSize">
@@ -156,10 +140,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户调整当前大小时发生<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</summary>
-        <remarks>
-          <para>开始后可以取消此事件。如果取消该事件，不调整窗口。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在开始后可以取消。如果取消该事件，将不调整窗口大小。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -178,10 +160,8 @@
       </ReturnValue>
       <Docs>
         <summary>当关闭与 Microsoft Outlook项目相关联的检查器时发生。</summary>
-        <remarks>
-          <para>如果您使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果您使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Deactivate">
@@ -219,10 +199,8 @@
       </ReturnValue>
       <Docs>
         <summary>当活动窗体页更改时发生，通过编程方式或用户操作，在<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象。</summary>
-        <remarks>
-          <para>如果此事件的事件处理程序调用出错<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />或<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.SetCurrentFormPage(System.String)" />方法。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果此事件的事件处理程序调用出错<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />或<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.SetCurrentFormPage(System.String)" />方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

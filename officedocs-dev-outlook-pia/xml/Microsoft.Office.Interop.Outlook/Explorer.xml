@@ -1,13 +1,5 @@
 <Type Name="Explorer" FullName="Microsoft.Office.Interop.Outlook.Explorer">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7c41189af8838d93b69c311b0faddcb9bcf8790f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633076" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Explorer : Microsoft.Office.Interop.Outlook._Explorer, Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a49e61943340c72bb0122fc4868f8eecdc843e08" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901156" /></Metadata><TypeSignature Language="C#" Value="public interface Explorer : Microsoft.Office.Interop.Outlook._Explorer, Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Explorer implements class Microsoft.Office.Interop.Outlook._Explorer, class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Explorer" />
   <TypeSignature Language="VB.NET" Value="Public Interface Explorer&#xA;Implements _Explorer, ExplorerEvents_10_Event" />
@@ -34,14 +26,12 @@
   </Attributes>
   <Docs>
     <summary>代表在其中显示文件夹内容的窗口。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Explorer" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorers.Item(System.Object)" />属性 (<b>此</b>C# 中) 的<see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />对象返回代表特定浏览器的对象。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Explorer" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorers.Item(System.Object)" />属性 (<b>此</b>C# 中) 的<see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />对象返回代表特定浏览器的对象。 </para>
       <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法返回表示当前活动资源管理器 （如果有） 的对象。</para>
-      <para>使用 GetExplorer 方法可返回与文件夹关联的 Explorer 对象。</para>
-      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Display" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象及其关联的浏览器中显示文件夹。</para>
-      <para />
-    </remarks>
+      <para>使用 GetExplorer 方法可返回与文件夹关联的 Explorer 对象。 </para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Display" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象及其关联的浏览器中显示文件夹。 </para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

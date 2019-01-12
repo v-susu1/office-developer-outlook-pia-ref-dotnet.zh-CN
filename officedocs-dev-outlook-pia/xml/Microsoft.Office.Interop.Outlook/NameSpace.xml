@@ -1,13 +1,5 @@
 <Type Name="NameSpace" FullName="Microsoft.Office.Interop.Outlook.NameSpace">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e7fa3c61b1254f5d5f5ffdce481266853142f977" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632476" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NameSpace : Microsoft.Office.Interop.Outlook._NameSpace, Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fd1833d0e0e9aeab5240d7bbcdbecfc03a8dab6a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898219" /></Metadata><TypeSignature Language="C#" Value="public interface NameSpace : Microsoft.Office.Interop.Outlook._NameSpace, Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NameSpace implements class Microsoft.Office.Interop.Outlook._NameSpace, class Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpace" />
   <TypeSignature Language="VB.NET" Value="Public Interface NameSpace&#xA;Implements _NameSpace, NameSpaceEvents_Event" />
@@ -34,13 +26,11 @@
   </Attributes>
   <Docs>
     <summary>代表任何数据源的抽象根对象。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NameSpace" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />。</para>
-      <para>对象本身提供登录和注销、 访问通过标识符直接存储对象，直接访问某些特殊文件夹和访问其他用户拥有的数据源的方法。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NameSpace" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />。</para>
+      <para>对象本身提供登录和注销方法，通过标识符直接访问存储对象，直接访问某些特殊文件夹，并可访问其他用户拥有的数据源。</para>
       <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />("MAPI") 可返回 Outlook <b>NameSpace</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象。</para>
-      <para>支持的唯一数据源是 MAPI，允许对存储在用户的邮件存储区中的所有 Outlook 数据的访问。</para>
-      <para />
-    </remarks>
+      <para>支持的唯一数据源是 MAPI，允许访问存储在用户的邮件存储区中的所有 Outlook 数据。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="FormRegionEvents_Event" FullName="Microsoft.Office.Interop.Outlook.FormRegionEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2eeb87b0ffb262f178880b4a11c84090bad2d0a8" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632081" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FormRegionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="03549af7e90a5730370524d77c86ab2ddb2093aa" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896833" /></Metadata><TypeSignature Language="C#" Value="public interface FormRegionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormRegionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface FormRegionEvents_Event" />
@@ -68,11 +60,9 @@
       </ReturnValue>
       <Docs>
         <summary>发生在窗体区域展开或折叠时</summary>
-        <remarks>
-          <para>不能取消此事件。</para>
-          <para>Outlook 始终第一次加载窗体区域中扩展的状态和设置<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.IsExpanded" />为<b>True</b>。如果窗体区域的初始状态是进行折叠，然后 Outlook 立即关闭窗体区域，将触发<b>Expanded</b>事件与<paramref name="Expand" />正在<b>False</b>，并设置为<b>False</b><b>IsExpanded</b>的参数。</para>
-          <para />
-        </remarks>
+        <remarks><para>此事件不能取消。</para>
+          <para>Outlook 始终第一次加载窗体区域中扩展的状态和设置<see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.IsExpanded" />为<b>True</b>。 如果窗体区域的初始状态是进行折叠，然后 Outlook 立即关闭窗体区域，将触发<b>Expanded</b>事件与<paramref name="Expand" />正在<b>False</b>，并设置为<b>False</b> <b>IsExpanded</b>的参数。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

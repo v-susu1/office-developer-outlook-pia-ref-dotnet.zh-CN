@@ -1,13 +1,5 @@
 <Type Name="OlkCheckBox" FullName="Microsoft.Office.Interop.Outlook.OlkCheckBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1cd7d0ab65f1033bce48504c35876ea136b4caaa" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632122" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkCheckBox : Microsoft.Office.Interop.Outlook._OlkCheckBox, Microsoft.Office.Interop.Outlook.OlkCheckBoxEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5573b59b6b20f4f79bb907c4119fc41d016d982e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901870" /></Metadata><TypeSignature Language="C#" Value="public interface OlkCheckBox : Microsoft.Office.Interop.Outlook._OlkCheckBox, Microsoft.Office.Interop.Outlook.OlkCheckBoxEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkCheckBox implements class Microsoft.Office.Interop.Outlook._OlkCheckBox, class Microsoft.Office.Interop.Outlook.OlkCheckBoxEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkCheckBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkCheckBox&#xA;Implements _OlkCheckBox, OlkCheckBoxEvents_Event" />
@@ -34,13 +26,11 @@
   </Attributes>
   <Docs>
     <summary>一个控件，支持在一组已定义的复选框选项中选择一个或多个选项。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OlkCheckBox" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkCheckBoxEvents_Event" />。</para>
-      <para>之前您使用此控件在窗体设计器中，在第一次将 Microsoft Outlook 复选框控件添加到控件工具箱。仅可以将此控件添加到窗体区域的 Outlook 窗体使用窗体设计器。</para>
-      <para>下面是已绑定到周期性域复选框控件的一个示例。此控件支持 Microsoft Windows 主题。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OlkCheckBox" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkCheckBoxEvents_Event" />。</para>
+      <para>在窗体设计器中首次使用此控件之前，应将 Microsoft Outlook 复选框控件添加到控件工具箱中。 仅可以将此控件添加到 Outlook 窗体使用窗体设计器中的窗体区域。</para>
+      <para>下面是绑定到"重复"字段的复选框控件的一个示例。此控件支持 Microsoft Windows 主题。</para>
       <para>有关 Outlook 控件的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87823">自定义窗体中的控件</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

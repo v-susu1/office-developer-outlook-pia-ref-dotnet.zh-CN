@@ -1,13 +1,5 @@
 <Type Name="_StorageItem" FullName="Microsoft.Office.Interop.Outlook._StorageItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dd3a237c41ec2b485800536418f96d03f99ca232" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632755" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _StorageItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dd3a237c41ec2b485800536418f96d03f99ca232" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896504" /></Metadata><TypeSignature Language="C#" Value="public interface _StorageItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _StorageItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._StorageItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _StorageItem" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />对象，表示为指定的项的所有附件。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />对象，表示为指定的项的所有附件。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,13 +104,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的纯文本正文。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的纯文本正文。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象仅支持文本格式的项目正文。它们不支持 HTML 或 RTF 正文流。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象仅支持文本格式的项目正文。 它们不支持 HTML 或 RTF 正文流。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -144,7 +134,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,7 +162,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个指示的创建时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。 只读。</summary>
+        <summary>返回一个指示的创建时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -203,12 +193,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表创建的解决方案<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表创建的解决方案<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Outlook 不会设置<b>Creator</b>属性。<b>Creator</b>属性用于确定您已为加载项创建的<b>StorageItem</b>对象。此属性的一个推荐的值为的外接程序的编程标识符 (<b>ProgID</b>)。</para>
-          <para />
-        </remarks>
+        <remarks><para>Outlook 不会设置 <b>创建者</b> 属性。 <b>创建者</b> 属性用于标识为外接程序创建的 <b>邮件</b> 对象。 此属性的一个推荐的值为的外接程序的编程标识符 (<b>ProgID</b>)。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -233,11 +221,9 @@
       <Parameters />
       <Docs>
         <summary>永久删除<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象的父文件夹。</summary>
-        <remarks>
-          <para>此呼叫允许清理或重置为其私有数据存储的解决方案。如果试图删除已由以前的<b>StorageItem.Delete</b><b>StorageItem</b>呼叫将导致错误"无法完成删除"。 </para>
+        <remarks><para>此调用使清理或重置为其私有数据的存储解决方案。试图删除已删除以前的 <b>StorageItem.Delete</b> 通过 <b>邮件</b> 调用将导致错误，"无法完成删除操作"。</para>
           <para>有关删除<b>StorageItem</b>对象中存储的解决方案数据的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87948">更新和删除解决方案存储区</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EntryID">
@@ -263,12 +249,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。  只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。  此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>EntryID 是标识的三种方式之一<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetStorage(System.String,Microsoft.Office.Interop.Outlook.OlStorageIdentifierType)" />。</para>
-          <para>此属性对应于 MAPI 属性<b>PidTagEntryId</b>。</para>在存储中创建项时， 
-          <para>MAPI 存储提供程序分配的唯一 ID 字符串。因此， <b>EntryID</b>属性未设置为 Outlook 项目之前保存或发送。将项目移动到另一个存储区，例如，从收件箱到 Microsoft Exchange Server 公用文件夹，或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件时条目 ID 的更改。解决方案应不依赖<b>EntryID</b>属性来保持唯一性，除非项目将不会移动。<b>EntryID</b>属性返回一个 MAPI 长期条目 id。有关详细信息有关 long-和 short-term Entryid，搜索http://msdn.microsoft.com的<b>PidTagEntryId</b>。</para><para /></remarks>
+        <remarks><para>EntryID 是标识的三种方式之一<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetStorage(System.String,Microsoft.Office.Interop.Outlook.OlStorageIdentifierType)" />。</para>
+          <para>此属性对应于 <b>PidTagEntryId</b> 的 MAPI 属性。</para>
+          <para>MAPI 存储提供程序将在存储中创建项时分配的唯一 ID 字符串。 因此， <b>EntryID</b> 属性未设置为某个 Outlook 项目之前保存或发送。 条目 ID 更改时将项目移动到另一个存储中，例如，从 Microsoft Exchange Server 的公用文件夹，您 的收件箱或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件。 解决方案不应依赖于 <b>EntryID</b> 属性来保持唯一性，除非不移动项目。 <b>EntryID</b> 属性返回一个 MAPI 长期条目 id。 更多信息关于长时间的和 short-term Entryid，搜索 http://msdn.microsoft.com <b></b>。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -296,10 +282,8 @@
       <Docs>
         <summary>返回指定的日期和时间的 Outlook 项目的上次修改 <b>日期时间</b> 值。  只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagLastModificationTime</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagLastModificationTime</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -327,11 +311,8 @@
       <Docs>
         <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>StorageItem</b>对象的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>StorageItem</b>对象的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -357,7 +338,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -384,11 +365,9 @@
       <Parameters />
       <Docs>
         <summary>保存<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</summary>
-        <remarks>
-          <para>如果<b>StorageItem</b>以前从未保存过，<b>保存</b>将项目保存为中的隐藏项<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />在其上<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetStorage(System.String,Microsoft.Office.Interop.Outlook.OlStorageIdentifierType)" />调用。如果先前已保存<b>StorageItem</b>和项目具有相已更改，<b></b>保存到项目的更改。如果先前已保存<b>StorageItem</b>和项目尚未更改从那时起， <b>Save</b>方法不起作用。</para>
-          <para>有关详细信息保存到<b>StorageItem</b>对象，解决方案数据，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87949">Creating and 将数据保存到解决方案存储区</a></para>
-          <para />
-        </remarks>
+        <remarks><para>如果<b>StorageItem</b>以前从未保存过，<b>保存</b>将项目保存为中的隐藏项<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />在其上<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetStorage(System.String,Microsoft.Office.Interop.Outlook.OlStorageIdentifierType)" />调用。 如果先前已保存<b>StorageItem</b>和项目具有相已更改，<b></b>保存到项目的更改。 如果先前已保存<b>StorageItem</b>并且该项目尚未更改从那时起， <b>Save</b>方法没有任何影响。</para>
+          <para>将解决方案数据保存到<b>StorageItem</b>对象的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87949">创建并将数据保存到解决方案存储区</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -414,20 +393,17 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果没有已登录的会话，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para>
-            <b>会话</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para>如果没有已登录的会话，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -453,12 +429,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示的大小 （以字节为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。 只读。</summary>
+        <summary>返回指示的大小 （以字节为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>新创建的<b>StorageItem</b>的<b>大小</b>上进行显式调用之前为零 (0)<see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" />项目的方法。</para>
-          <para />
-        </remarks>
+        <remarks><para>新创建的<b>StorageItem</b>的<b>大小</b>上进行显式调用之前为零 (0)<see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" />项目的方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Subject">
@@ -487,14 +461,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的主题。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的主题。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性， <b>PidTagSubject</b>。<b>Subject</b>属性是 Outlook 项目的默认属性。</para>
-          <para>
-            <b>主题</b>充当的唯一标识符<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象。您应以确保对象是唯一的且不会被其他解决方案作者覆盖的方式设置主题。建议的做法是使用<b>ProgID</b>以及其他唯一文本来标识<b>StorageItem</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagSubject</b> 。 <b>主题</b> 属性是 Outlook 项目的默认属性。</para>
+          <para><b>主题</b>充当的唯一标识符<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象。 应以确保对象是唯一的且将不会覆盖由其他解决方案编写器的方式来设置主题。 推荐的做法是使用 <b>ProgID</b> 以及其他唯一的文本来标识 <b>StorageItem</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserProperties">
@@ -520,12 +491,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />代表 Outlook 项目的所有用户属性的集合。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />代表 Outlook 项目的所有用户属性的集合。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果您使用<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象相关联<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />，可选<paramref name="AddToFolderFields" />和<paramref name="DisplayFormat" /><b>UserProperties.Add</b>方法的参数将被忽略。不会为自定义属性在字段选择器公开的<b>StorageItem</b>对象的任何自定义属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果您使用<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象相关联<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />，可选<paramref name="AddToFolderFields" />和<paramref name="DisplayFormat" /> <b>UserProperties.Add</b>方法的参数将被忽略。 不会为自定义属性在字段选择器公开的<b>StorageItem</b>对象的任何自定义属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

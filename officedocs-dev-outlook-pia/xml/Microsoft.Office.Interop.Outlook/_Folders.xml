@@ -1,13 +1,5 @@
 <Type Name="_Folders" FullName="Microsoft.Office.Interop.Outlook._Folders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="65a8db10f5e9c75a72a6d9f58667845ef9c39629" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631465" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Folders : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="65a8db10f5e9c75a72a6d9f58667845ef9c39629" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898058" /></Metadata><TypeSignature Language="C#" Value="public interface _Folders : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Folders implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Folders" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Folders&#xA;Implements IEnumerable" />
@@ -87,7 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,7 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,7 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,10 +163,8 @@
       <Docs>
         <summary>返回中的第一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示包含在集合中的第一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -200,10 +190,8 @@
       <Docs>
         <summary>返回中的最后一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示包含在集合中的最后一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -229,10 +217,8 @@
       <Docs>
         <summary>返回中的下一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，代表集合包含的下一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -258,10 +244,8 @@
       <Docs>
         <summary>返回中的上一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，代表集合包含的上一个对象。</returns>
-        <remarks>
-          <para>返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -406,19 +390,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_MarkAsTaskRuleAction" FullName="Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cc08195b87f23ee9598f6fa75d5cd1052320cc84" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631929" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _MarkAsTaskRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cc08195b87f23ee9598f6fa75d5cd1052320cc84" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901765" /></Metadata><TypeSignature Language="C#" Value="public interface _MarkAsTaskRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MarkAsTaskRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _MarkAsTaskRuleAction" />
@@ -53,12 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleActionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>从返回常量， <b>olRuleActionMarkAsTask</b>，<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" />指示的规则采取的操作的类型的枚举。 只读。</summary>
+        <summary>从返回常量， <b>olRuleActionMarkAsTask</b>，<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" />指示的规则采取的操作的类型的枚举。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>仅邮件接收规则的支持任务标记规则操作。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></para>
-          <para />
-        </remarks>
+        <remarks><para> 仅邮件接收规则的支持任务标记规则操作。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -84,7 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,7 +102,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,12 +133,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的确定是否启用的规则操作。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的确定是否启用的规则操作。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>启用规则后，还必须使用保存规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />，以便规则及其启用的状态当前会话。 成功保存之后，才会启用规则。</para>
-          <para />
-        </remarks>
+        <remarks><para>启用规则后，还必须使用保存规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />，以便规则及其启用的状态当前会话。  规则只有在成功保存之后才能启用。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagTo">
@@ -179,10 +167,8 @@
       <Docs>
         <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表邮件标志的标签。 读/写</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果<b>FlagTo</b>为空字符串，则返回错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果 <b>FlagTo</b> 是一个空字符串，则返回错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkInterval">
@@ -211,7 +197,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMarkInterval</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个常量，以<see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />枚举表示任务之前的时间间隔的截止日期。 为可读/写属性。</summary>
+        <summary>返回或设置一个常量，以<see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />枚举表示任务之前的时间间隔的截止日期。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -241,10 +227,8 @@
       <Docs>
         <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>父对象是<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>父对象是<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -270,19 +254,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="RecurrencePattern" FullName="Microsoft.Office.Interop.Outlook.RecurrencePattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f0d4b4e4bfa2975577306ca466d47c09c5f4fad3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632213" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RecurrencePattern" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c7f2e8222b642280c67d4061aabd05caa9199818" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896784" /></Metadata><TypeSignature Language="C#" Value="public interface RecurrencePattern" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RecurrencePattern" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />
   <TypeSignature Language="VB.NET" Value="Public Interface RecurrencePattern" />
@@ -27,10 +19,58 @@
   </Attributes>
   <Docs>
     <summary>表示定期约会和任务关联的发生模式<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />和<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />对象。</summary>
-    <remarks>
-      <para>使用<b>GetRecurrencePattern</b>方法可返回与<b>AppointmentItem</b>或<b>TaskItem</b>对象相关联的<b>RecurrencePattern</b>对象。</para>
-      <para>呼叫<b>GetRecurrencePattern</b>或<b>ClearRecurrencePattern</b>具有副作用的相应地设置项目的<b>IsRecurring</b>属性。可使用此属性的有效筛选根据需要<see cref="T:Microsoft.Office.Interop.Outlook.Items" />对象。</para>定期模式的类型由
-      <para><see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性。同时将<b>RecurrenceType</b>属性是应设置第一个属性。</para><para>下列属性可用于所有定期模式： <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />， <b>StartDate</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />，或<b>Type</b>。</para><para>下表显示可用于不同定期类型的属性。如果保存项目和属性为 null 或包含无效值，将发生错误。每月和每年模式为一天才有效。每周模式仅为<b>或</b>的有效<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />。</para><list type="table"><item><description><b>olRecursDaily</b></description><description><see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></description></item><item><description><b>olRecursWeekly</b></description><description><see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />，<b>持续时间</b>， <b>EndTime</b>，<b>间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description></item><item><description><b>olRecursMonthly</b></description><description><see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />，<b>持续时间</b><b>EndTime</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description></item><item><description><b>olRecursMonthNth</b></description><description><b>DayOfWeekMask</b>，<b>持续时间</b>、<b>结束时间</b><b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description></item><item><description><b>olRecursYearly</b></description><description><b>DayOfMonth</b>、<b>持续时间</b>、<b>结束时间</b>、<b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.MonthOfYear" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description></item><item><description><b>olRecursYearNth</b></description><description><b>DayOfWeekMask</b>，<b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、<b>实例</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>， <b>PatternEndDate</b>、 <b>StartTime</b></description></item></list><para>当您处理定期约会项，您应释放任何以前的引用，获取新的定期约会项目引用之前您访问或修改项目，并释放这些引用，只要您完成和已保存所做的更改。这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。若要解除对 Visual Basic 中的，设置为<b>Nothing</b>的现有对象。C# 中明确释放该对象的内存。</para><para>注意，即使在释放您引用和尝试获取新的引用，如果仍没有活动的参考资料，由另一个加载项或 Outlook 中的，为上述对象，之一，则后您新参考仍指向的过期的副本对象。因此，很重要，只要您已完成的定期约会释放您的引用。</para><para /></remarks>
+    <remarks><para>使用<b>GetRecurrencePattern</b>方法可返回与<b>AppointmentItem</b>或<b>TaskItem</b>对象关联的<b>RecurrencePattern</b>对象。</para>
+      <para><b>GetRecurrencePattern</b>或<b>ClearRecurrencePattern</b>调用具有副作用的相应地设置项目的<b>IsRecurring</b>属性。 可使用此属性的有效筛选根据需要<see cref="T:Microsoft.Office.Interop.Outlook.Items" />对象。</para>
+      <para>定期模式的类型由<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性。 <b>介于 1</b> 是第一个应设置的属性。</para>
+      <para>以下属性可用于所有定期模式： <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />， <b>StartDate</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />，或<b>类型</b>。</para>
+      <para>下表显示对于不同定期类型有效的属性。 如果在保存该项目，该属性为空或包含无效的值，将发生错误。 按月和按年模式才对单独的天有效。 每周模式仅为<b>或</b>的有效<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />。</para>
+      <list type="table">
+        <item>
+          <description>
+            <b>olRecursDaily</b>
+          </description>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></description>
+        </item>
+        <item>
+          <description>
+            <b>olRecursWeekly</b>
+          </description>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" /><b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
+        </item>
+        <item>
+          <description>
+            <b>olRecursMonthly</b>
+          </description>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" /><b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
+        </item>
+        <item>
+          <description>
+            <b>olRecursMonthNth</b>
+          </description>
+          <description>
+            <b>DayOfWeekMask</b>、<b>持续时间</b>、<b>结束时间</b>、<b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
+        </item>
+        <item>
+          <description>
+            <b>olRecursYearly</b>
+          </description>
+          <description>
+            <b>DayOfMonth</b>、<b>持续时间</b>、<b>结束时间</b>、<b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.MonthOfYear" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
+        </item>
+        <item>
+          <description>
+            <b>olRecursYearNth</b>
+          </description>
+          <description>
+            <b>年</b> 、 <b>持续时间</b> 、 <b>结束时间</b> 、 <b>间隔</b> 、 <b>实例</b> 、 <b>NoEndDate</b> 、 <b>事件</b> 、 <b>PatternStartDate</b> 、 <b>PatternEndDate</b> 、 <b>开始时间</b></description>
+        </item>
+      </list>
+      <para>当使用定期约会项目时，您应当先释放以前的所有引用，再获取对定期约会项目的新引用，然后才访问或修改项目，并在完成和保存更改后立即释放这些引用。 这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。 若要在 Visual Basic 中释放引用，需将现有对象设置为 <b>Nothing</b>。 在 C# 中，明确释放相应对象占用的内存。 </para>
+      <para>请注意，即使在释放了您的引用并尝试获取新引用之后，如果其他外接程序或 Outlook 中仍有对以上某个对象的活动引用，您新的引用将仍指向该对象的过期副本。因此，您在完成定期约会后立即释放您的引用是非常重要的。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -56,7 +96,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,7 +124,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,7 +155,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指示的天发生的定期约会或任务的月份的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置指示的天发生的定期约会或任务的月份的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,14 +186,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDaysOfWeek</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDaysOfWeek" />常数，它表示为发生的定期约会或任务的星期数的掩码。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDaysOfWeek" />常数，它表示为发生的定期约会或任务的星期数的掩码。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>DayOfWeekMask</b>应设置后<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性已设置和之前<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />属性设置。</para>
-          <para>每月和每年模式为一天才有效。每周模式仅为<b>或</b><b>DayOfWeekMask</b>的有效。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>DayOfWeekMask</b>应设置后<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性已设置和之前<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />属性设置。 </para>
+          <para>按月和按年模式才对单独的天有效。每周一次的模式仅为 <b>或</b> 的 <b>年</b> 有效。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Duration">
@@ -182,13 +219,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指示的持续时间 （以分钟为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />。 为可读/写属性。</summary>
+        <summary>返回或设置指示的持续时间 （以分钟为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>对定期事件，此属性仅对约会有效。</para>
-          <para>若要创建的全天事件的一天的持续时间，设置的持续时间为 1440年。</para>
-          <para />
-        </remarks>
+        <remarks><para>对定期事件，该属性仅对约会有效。</para>
+          <para>若要为全天事件创建为期为一天的持续时间，请将 Duration 设置为 1440。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndTime">
@@ -217,12 +252,12 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指示定期模式的结束时间的<b>DateTime</b> 。 为可读/写属性。</summary>
+        <summary>返回或设置指示定期模式的结束时间的<b>DateTime</b> 。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性仅对约会有效。</para>
-          <para>创建时<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象和任何时区已指定为约会，<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />和<b>EndTime</b><b>RecurrencePattern</b>对象的基于通过指定的时区<see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>如果您想要创建特定的时区的定期约会
-          <para>，应首先创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />，然后调用<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />。返回的<b>RecurrencePattern</b>对象将具有两个<b>StartTime</b>和<b>EndTime</b>将基于由<b>AppointmentItem.StartTimeZone</b>指定的时区。请注意，在约会定期对话框中，时间指定为开始<b>RecurrencePattern.StartTime</b>基于<b>AppointmentItem.StartTimeZone</b>，但时间指示如结束并不总是<b>相同RecurrencePattern.EndTime</b>根据<b>AppointmentItem.StartTimeZone</b>;显示的时间值基于<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。</para><para /></remarks>
+        <remarks><para>此属性仅对约会有效。</para>
+          <para>当创建<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象和任何时区已指定为约会，<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />和<b>EndTime</b> <b>RecurrencePattern</b>对象的基于通过指定的时区<see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。 </para>
+          <para>如果您想要创建特定的时区的定期约会，应首先创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />，然后调用<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />。 返回的 <b>RecurrencePattern</b> 对象将具有两个 <b>开始时间</b> 和 <b>结束时间</b> 的基础通过 <b>AppointmentItem.StartTimeZone</b> 指定的时区。 请注意，在约会定期对话框中，时间指定为开始<b>RecurrencePattern.StartTime</b>基于<b>AppointmentItem.StartTimeZone</b>，但时间指示如结束并不总是<b>相同RecurrencePattern.EndTime</b>根据<b>AppointmentItem.StartTimeZone</b>;显示的时间值基于<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exceptions">
@@ -248,13 +283,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Exceptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />指定的定期约会系列的集合。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />指定的定期约会系列的集合。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>使用定期约会项目时，您应释放以前的任何引用，获取新引用的定期约会项目之前您访问或修改项目，并只要您完成和已保存版本这些引用更改。这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。若要解除对 Visual Basic 中的，设置为<b>Nothing</b>的现有对象。C# 中明确释放该对象的内存。</para>
-          <para>注意，即使在释放您引用和尝试获取新的引用，如果仍没有活动的参考资料，由另一个加载项或 Outlook 中的，为上述对象，之一，则后您新参考仍指向对象的过期的副本.因此，很重要，只要您已完成的定期约会释放您的引用。</para>
-          <para />
-        </remarks>
+        <remarks><para>当使用定期约会项目时，您应当先释放以前的所有引用，再获取对定期约会项目的新引用，然后才访问或修改项目，并在完成和保存更改后立即释放这些引用。 这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。 若要在 Visual Basic 中释放引用，需将现有对象设置为 <b>Nothing</b>。 在 C# 中，明确释放相应对象占用的内存。 </para>
+          <para>请注意，即使在释放了您的引用并尝试获取新引用之后，如果其他外接程序或 Outlook 中仍有对以上某个对象的活动引用，您新的引用将仍指向该对象的过期副本。因此，您在完成定期约会后立即释放您的引用是非常重要的。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetOccurrence">
@@ -280,18 +313,14 @@
         <Parameter Name="StartDate" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="StartDate">
-          <b>日期</b> 值表示本地时间。</param>
+        <param name="StartDate"><b>日期</b> 值表示本地时间。</param>
         <summary>返回的特定实例<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />上的指定日期的对象。</summary>
-        <returns>
-          <b>AppointmentItem</b> 对象，该对象代表在指定日期的特定约会。</returns>
-        <remarks>
-          <para>
+        <returns><b>AppointmentItem</b> 对象，该对象代表在指定日期的特定约会。</returns>
+        <remarks><para>
             <b>注意</b>： 如果在指定日期不存在该序列的任何约会， <b>GetOccurrence</b>方法将生成一个错误。</para>
-          <para>使用定期约会项目时，您应释放以前的任何引用，获取新引用的定期约会项目之前您访问或修改项目，并只要您完成和已保存版本这些引用更改。这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。若要解除对 Visual Basic 中的，设置为<b>Nothing</b>的现有对象。C# 中明确释放该对象的内存。</para>
-          <para>注意，即使在释放您引用和尝试获取新的引用，如果仍没有活动的参考资料，由另一个加载项或 Outlook 中的，为上述对象，之一，则后您新参考仍指向对象的过期的副本.因此，很重要，只要您已完成的定期约会释放您的引用。</para>
-          <para />
-        </remarks>
+          <para>当使用定期约会项目时，您应当先释放以前的所有引用，再获取对定期约会项目的新引用，然后才访问或修改项目，并在完成和保存更改后立即释放这些引用。 这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。 若要在 Visual Basic 中释放引用，需将现有对象设置为 <b>Nothing</b>。 在 C# 中，明确释放相应对象占用的内存。 </para>
+          <para>请注意，即使在释放了您的引用并尝试获取新引用之后，如果其他外接程序或 Outlook 中仍有对以上某个对象的活动引用，您新的引用将仍指向该对象的过期副本。因此，您在完成定期约会后立即释放您的引用是非常重要的。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Instance">
@@ -320,12 +349,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个指定为其定期模式是有效的给定间隔的计数的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个指定为其定期模式是有效的给定间隔的计数的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性才有效对<b>olRecursMonthNth</b>和<b>olRecursYearNth</b>类型的定期事件，并允许才有效的第 n 个匹配项的定期模式的定义，如"年 3 月的第二个星期日"模式。标尺设置计数： 第一个 1，2 代表第二个等到 5 的最后一次。大于 5 的值会生成错误保存模式。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性所适用的 <b>olRecursMonthNth</b> 和 <b>olRecursYearNth</b> 类型的重复，并允许所适用的第 n 次出现定期模式的定义，如"在 3 月中的第二个星期日"模式。计数设置数字: 1 表示第一个，第二个，依次类推到最后 5 2。在保存模式，大于 5 的值时会产生错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Interval">
@@ -354,14 +381,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个指定给定的定期类型的实例之间的单位数的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个指定给定的定期类型的实例之间的单位数的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>设置之前，必须设置<b>Interval</b>属性<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />。</para>
+        <remarks><para>设置之前，必须设置<b>Interval</b>属性<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />。 </para>
           <para>例如，将<b>Interval</b>属性设置为 2 和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性设为 olRecursWeekly 将导致发生每两周的模式。</para>
-          <para>当<b>RecurrenceType</b>设置为 olRecursYearNth 或 olRecursYear，将<b>Interval</b>属性指示匹配项之间的年的数。例如，<b>间隔</b>等于 1 表示定期是每年、<b>时间间隔</b>等于 2 指示定期为每 2 年，依此类推。</para>
-          <para />
-        </remarks>
+          <para>当<b>RecurrenceType</b>设置为 olRecursYearNth 或 olRecursYear 时， <b>Interval</b>属性指示匹配项之间的年的数。 例如， <b>间隔</b> 等于 1 表示重复周期是每年、 <b>时间间隔</b> 等 2 指示重复周期为每 2 年，依此类推。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MonthOfYear">
@@ -390,12 +415,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指示哪些月份的指定的定期模式无效的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置指示哪些月份的指定的定期模式无效的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>值可以是介于 1 至 12。例如，此属性设置为 5 和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性设为<b>olRecursYearly</b>将导致发生每月定期模式。此属性才有效为其<b>RecurrenceType</b>属性设置为<b>olRecursYearly</b>或<b>olRecursYearNth</b>定期模式。</para>
-          <para />
-        </remarks>
+        <remarks><para>值可以是 1 到 12 之间的一个数字。 例如，此属性设置为 5 和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性设为<b>olRecursYearly</b>将导致发生每月定期模式。 此属性只是为其 <b>介于 1</b> 属性设置为 <b>olRecursYearly</b> 或 <b>olRecursYearNth</b> 的定期模式有效。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NoEndDate">
@@ -424,12 +447,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果定期模式有无结束日期，则返回 True。 为可读/写属性。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果定期模式有无结束日期，则返回 True。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>设置的定期模式时，此属性必须协调与其他属性。如果<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />属性或<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />属性设置、 模式被视为有限并且<b>NoEndDate</b>属性为<b>False</b>。如果设置<b>PatternEndDate</b>和<b>匹配项</b>都不，模式被认为是无限和<b>NoEndDate</b>为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>设置定期模式时，此属性必须与其他属性协同使用。 如果<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />属性或<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />属性设置、 模式被视为有限并且<b>NoEndDate</b>属性为<b>False</b>。 如果 <b>PatternEndDate</b> 和 <b>匹配项</b> 都不设置，该模式被认为是无限和 <b>NoEndDate</b> 也是 <b>如此</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Occurrences">
@@ -458,12 +479,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值定期模式的次数。 为可读/写属性。</summary>
+        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值定期模式的次数。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性允许才有效的后续发生指定数量的定期模式的定义。例如，您可以将此属性设置为 10 将在下一步十个星期四晚上举行的正式培训课程。设置的定期模式时，此属性必须协调与其他属性。如果<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />属性或<b>Occurrences</b>属性设置，该模式被视为有限和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />属性为<b>False</b>。如果设置<b>PatternEndDate</b>和<b>匹配项</b>都不，模式被认为是无限和<b>NoEndDate</b>为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性允许定义所适用的指定数量的后续发生定期模式。 例如，您可以为正式的培训课程，将在接下来十个星期四晚上举行 10 来设置该属性。 设置定期模式时，此属性必须与其他属性协同使用。 如果<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />属性或<b>Occurrences</b>属性设置，该模式被视为有限和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />属性为<b>False</b>。 如果 <b>PatternEndDate</b> 和 <b>匹配项</b> 都不设置，该模式被认为是无限和 <b>NoEndDate</b> 也是 <b>如此</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -520,12 +539,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<b>DateTime</b> ，该值指示定期模式的结束日期。 为可读/写属性。</summary>
+        <summary>返回或设置<b>DateTime</b> ，该值指示定期模式的结束日期。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性是可选的但必须协调与其他属性设置的定期模式。如果此属性或<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />属性设置，该模式被认为是有限的而<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />属性为<b>False</b>。如果设置<b>PatternEndDate</b>和<b>匹配项</b>都不，模式被认为是无限和<b>NoEndDate</b>为<b>True</b>。<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />属性必须设置<b>PatternEndDate</b>之前设置。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性是可选的但设置定期模式时必须与其他属性协同使用。 如果此属性或<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />属性设置，该模式被认为是有限的而<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />属性为<b>False</b>。 如果 <b>PatternEndDate</b> 和 <b>匹配项</b> 都不设置，该模式被认为是无限和 <b>NoEndDate</b> 也是 <b>如此</b> 。 <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />属性必须设置<b>PatternEndDate</b>之前设置。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PatternStartDate">
@@ -554,7 +571,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置为<b>DateTime</b> ，该值指示定期模式的开始日期。 为可读/写属性。</summary>
+        <summary>返回或设置为<b>DateTime</b> ，该值指示定期模式的开始日期。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -585,10 +602,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRecurrenceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceType" />指定定期模式的匹配项的频率的常量。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceType" />指定定期模式的匹配项的频率的常量。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>设置其他属性之前，必须设置<b>RecurrenceType</b>属性<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。您随后可以设置的<b>RecurrencePattern</b>属性取决于<b>RecurrenceType</b>，值下表中所示：</para>
+        <remarks><para>设置其他属性之前，必须设置<b>RecurrenceType</b>属性<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。 您随后可以设置的<b>RecurrencePattern</b>属性取决于<b>RecurrenceType</b>，值下表中所示：</para>
           <list type="table">
             <item>
               <description>OlRecurrenceType</description>
@@ -606,39 +622,38 @@
                 <b>olRecursWeekly</b>
               </description>
               <description>
-                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />，<b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" /><b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
             </item>
             <item>
               <description>
                 <b>olRecursMonthly</b>
               </description>
               <description>
-                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />，<b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" /><b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
             </item>
             <item>
               <description>
                 <b>olRecursMonthNth</b>
               </description>
               <description>
-                <b>DayOfWeekMask</b>，<b>持续时间</b>、<b>结束时间</b><b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />， <b>NoEndDate</b>、<b>匹配项</b>， <b>PatternStartDate</b>， <b>PatternEndDate</b>、 <b>StartTime</b></description>
+                <b>DayOfWeekMask</b>、<b>持续时间</b>、<b>结束时间</b>、<b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
             </item>
             <item>
               <description>
                 <b>olRecursYearly</b>
               </description>
               <description>
-                <b>DayOfMonth</b>，<b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>MonthOfYear</b>、 <b>NoEndDate</b>，<b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
+                <b>DayOfMonth</b> 、 <b>持续时间</b> 、 <b>结束时间</b> 、 <b>间隔</b> 、 <b>MonthOfYear</b> 、 <b>NoEndDate</b> 、 <b>事件</b> 、 <b>PatternStartDate</b> 、 <b>PatternEndDate</b> 、 <b>开始时间</b></description>
             </item>
             <item>
               <description>
                 <b>olRecursYearNth</b>
               </description>
               <description>
-                <b>DayOfWeekMask</b>，<b>持续时间</b>、<b>结束时间</b>，<b>间隔</b>，<b>实例</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
+                <b>年</b> 、 <b>持续时间</b> 、 <b>结束时间</b> 、 <b>间隔</b> 、 <b>实例</b> 、 <b>NoEndDate</b> 、 <b>事件</b> 、 <b>PatternStartDate</b> 、 <b>PatternEndDate</b> 、 <b>开始时间</b></description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Regenerate">
@@ -667,13 +682,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示<b>True</b>如果任务通过定期模式本次以后重新生成。 为可读/写属性。</summary>
+        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示<b>True</b>如果任务通过定期模式本次以后重新生成。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性用于完成定期任务每次控制任务重新生成。才有效的任务。不是对约会有效。</para>
-          <para>创建定期模式，您必须首先将设置<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性来设置频率，然后<b>重新生成</b>属性设置为<b>True</b>以重新生成该任务。设置为<b>True</b>的<b>重新生成</b>后, 执行操作不将其设置为<b>False</b>。如果您随后将设置<b>重新生成</b>为<b>False</b>，则您应设置定期模式再次获取新<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>该属性用于在定期任务每次完成后控制任务的重新生成。它仅适用于任务，不适用于约会。</para>
+          <para>若要创建的定期模式，您必须首先将设置<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性来设置频率，然后<b>重新生成</b>属性设置为<b>True</b>以重新生成该任务。 设置为 <b>True</b> 的 <b>再生</b> 后, 不要设置它为 <b>False</b> 。 如果您随后将设置<b>重新生成</b>为<b>False</b>，则您应设置定期模式再次获取新<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -699,19 +712,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartTime">
@@ -740,12 +750,12 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置为<b>DateTime</b> ，该值指示的定期模式的开始时间。 为可读/写属性。</summary>
+        <summary>返回或设置为<b>DateTime</b> ，该值指示的定期模式的开始时间。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性仅对约会有效。</para>
-          <para>创建时<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象和任何时区已指定为约会， <b>StartTime</b>和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <b>RecurrencePattern</b>对象的基于通过指定的时区<see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>如果您想要创建特定的时区的定期约会
-          <para>，应首先创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />，然后调用<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />。返回的<b>RecurrencePattern</b>对象将具有两个<b>StartTime</b>和<b>EndTime</b>将基于由<b>AppointmentItem.StartTimeZone</b>指定的时区。请注意，在约会定期对话框中，时间指定为开始<b>RecurrencePattern.StartTime</b>基于<b>AppointmentItem.StartTimeZone</b>，但时间指示如结束并不总是<b>相同RecurrencePattern.EndTime</b>根据<b>AppointmentItem.StartTimeZone</b>;显示的时间值基于<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。</para><para /></remarks>
+        <remarks><para>此属性仅对约会有效。</para>
+          <para>当创建<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象和任何时区已指定为约会， <b>StartTime</b>和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <b>RecurrencePattern</b>对象的基于通过指定的时区<see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。 </para>
+          <para>如果您想要创建特定的时区的定期约会，应首先创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />，然后调用<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />。 返回的 <b>RecurrencePattern</b> 对象将具有两个 <b>开始时间</b> 和 <b>结束时间</b> 的基础通过 <b>AppointmentItem.StartTimeZone</b> 指定的时区。 请注意，在约会定期对话框中，时间指定为开始<b>RecurrencePattern.StartTime</b>基于<b>AppointmentItem.StartTimeZone</b>，但时间指示如结束并不总是<b>相同RecurrencePattern.EndTime</b>根据<b>AppointmentItem.StartTimeZone</b>;显示的时间值基于<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlkTimeZoneControlEvents_BeforeUpdateEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_BeforeUpdateEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6fba14b7d149e6e2f8f77bfcbce52383c3b394fd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631730" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void OlkTimeZoneControlEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4b775519b72513e91105e3a49cc4ecc82885a314" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901555" /></Metadata><TypeSignature Language="C#" Value="public delegate void OlkTimeZoneControlEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkTimeZoneControlEvents_BeforeUpdateEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_BeforeUpdateEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkTimeZoneControlEvents_BeforeUpdateEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>假</b> 的事件发生时。如果事件过程将此参数设置为 <b>True</b> ，将不完成该操作，将不会更新绑定到该控件的属性。 </param>
+    <param name="Cancel"><b>假</b> 的事件发生时。如果事件过程将此参数设置为 <b>True</b> ，将不完成该操作，将不会更新绑定到该控件的属性。 </param>
     <summary>这是针对相应对象中的事件的委派。在对事件实现回调方法后，使用此委派将回调方法连接到该事件。如果存在多个版本的事件接口，此委派将为指定版本的 Outlook 中的事件连接回调方法。</summary>
     <remarks>To be added.</remarks>
   </Docs>

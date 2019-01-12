@@ -1,13 +1,5 @@
 <Type Name="Reminders" FullName="Microsoft.Office.Interop.Outlook.Reminders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6aa22620bec00382bc27272b4238014063511ff2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632450" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Reminders : Microsoft.Office.Interop.Outlook._Reminders, Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3177ac1eb6298998c0f5ce092ef8ffe8c6b6fb25" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901772" /></Metadata><TypeSignature Language="C#" Value="public interface Reminders : Microsoft.Office.Interop.Outlook._Reminders, Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Reminders implements class Microsoft.Office.Interop.Outlook._Reminders, class Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Reminders" />
   <TypeSignature Language="VB.NET" Value="Public Interface Reminders&#xA;Implements _Reminders, ReminderCollectionEvents_Event" />
@@ -34,12 +26,10 @@
   </Attributes>
   <Docs>
     <summary>包含的所有集合<see cref="T:Microsoft.Office.Interop.Outlook.Reminder" />Microsoft Outlook 应用程序中的对象，表示所有挂起项目的提醒。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Reminders" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />。</para>
-      <para>使用<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象的<see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" />属性可返回<b>Reminders</b>集合。使用<b>Reminders</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或序号值提醒，返回单个<see cref="T:Microsoft.Office.Interop.Outlook.Reminder" />对象。</para>
-      <para>提醒是以编程方式创建新的 Microsoft Outlook 项目创建提醒时。例如，提醒时创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />创建对象和<b>AppointmentItem</b>对象的<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" />属性设置为<b>True</b>。</para>
-      <para />
-    </remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Reminders" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />。</para>
+      <para>使用<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象的<see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" />属性可返回<b>Reminders</b>集合。 使用<b>Reminders</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或序号值提醒，返回单个<see cref="T:Microsoft.Office.Interop.Outlook.Reminder" />对象。 </para>
+      <para>使用提醒创建新的 Microsoft Outlook 项目时，将以编程方式创建提醒。 例如，提醒时创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />创建对象和<b>AppointmentItem</b>对象的<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" />属性设置为<b>True</b>。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

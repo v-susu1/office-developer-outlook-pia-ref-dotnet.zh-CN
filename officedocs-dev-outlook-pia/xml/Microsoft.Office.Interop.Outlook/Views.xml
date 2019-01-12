@@ -1,13 +1,5 @@
 <Type Name="Views" FullName="Microsoft.Office.Interop.Outlook.Views">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="67cc6401eb92ff509cf4d542f0af055a58e66c07" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632255" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Views : Microsoft.Office.Interop.Outlook._Views, Microsoft.Office.Interop.Outlook._ViewsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c9b3b6eea87615bc94556e2bca8cf504beec531a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900536" /></Metadata><TypeSignature Language="C#" Value="public interface Views : Microsoft.Office.Interop.Outlook._Views, Microsoft.Office.Interop.Outlook._ViewsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Views implements class Microsoft.Office.Interop.Outlook._Views, class Microsoft.Office.Interop.Outlook._ViewsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Views" />
   <TypeSignature Language="VB.NET" Value="Public Interface Views&#xA;Implements _Views, _ViewsEvents_Event" />
@@ -34,13 +26,11 @@
   </Attributes>
   <Docs>
     <summary>包含的所有集合<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象的当前文件夹中。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Views" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ViewsClass" />。</para>
-      <para>使用<b>视图</b>属性<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />要返回<b>Views</b>集合对象。使用<b>视图</b>(<paramref name="index" />)，其中<paramref name="index" />是对象的名称或在集合中返回单个<b>View</b>对象的位置。</para>
-      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />views 集合来向集合添加一个新视图的方法。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Views" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ViewsClass" />。</para>
+      <para>使用的<b>视图</b>属性<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />要返回<b>Views</b>集合对象。 使用<b>视图</b>(<paramref name="index" />)，其中<paramref name="index" />是对象的名称或在集合中返回单个<b>View</b>对象的位置。 </para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法向集合添加一个新视图的视图集合。 </para>
       <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Views.Remove(System.Object)" />方法从集合中删除视图。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

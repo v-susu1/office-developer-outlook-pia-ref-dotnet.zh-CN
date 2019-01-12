@@ -1,13 +1,5 @@
 <Type Name="_CalendarView" FullName="Microsoft.Office.Interop.Outlook._CalendarView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632268" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CalendarView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896511" /></Metadata><TypeSignature Language="C#" Value="public interface _CalendarView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CalendarView" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -106,7 +98,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />对象，表示的格式设置规则适用于<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />对象，表示的格式设置规则适用于<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,7 +129,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在包含 Outlook 项目的日期中显示中日期选择区为加粗<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在包含 Outlook 项目的日期中显示中日期选择区为加粗<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,7 +191,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarViewMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" />，它确定的当前视图模式<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" />，它确定的当前视图模式<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -227,7 +219,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -290,10 +282,8 @@
       <Docs>
         <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值表示的连续中显示的天数<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 读/写</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性可以设置为 2 和 14 之间的值。如果此属性设置为小于 2 的值，则将该属性设置为 2。如果此属性设置为一个值大于 14，该属性设置为 14。此属性的默认值为 5。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性可以设置为 2 和 14 之间的值。 如果此属性设置为小于 2 的值，则会将此属性设置为 2。 如果此属性设置为一个值大于 14，该属性设置为 14。 此属性的默认值为 5。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DayWeekFont">
@@ -384,7 +374,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" />常量，代表用于表示中的时间段刻度<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" />常量，代表用于表示中的时间段刻度<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -437,12 +427,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回包含字符串表示中显示的天的<b>对象</b>数组<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 只读。</summary>
+        <summary>返回包含字符串表示中显示的天的<b>对象</b>数组<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回其中每个日期字符串代表<b>CalendarView</b>对象中显示一天的日期字符串的数组。日期字符串的格式用于操作系统使用的短日期格式设置。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回一个数组的日期字符串，其中每个日期字符串表示 <b>日历视图</b> 对象显示一天。日期字符串的格式使用的操作系统的短日期格式设置。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndField">
@@ -471,12 +459,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表结束持续时间中显示的 Outlook 项目属性的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表结束持续时间中显示的 Outlook 项目属性的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>值<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" />和<b>EndField</b>属性指示的 Outlook 项目属性使用在<b>CalendarView</b>对象，表示的 Outlook 项目的持续时间。可以指定自定义和内置属性，但不允许仅日期/时间属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>值<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" />和<b>EndField</b>属性指示的 Outlook 项目属性使用在<b>CalendarView</b>对象，表示的 Outlook 项目的持续时间。 可以指定自定义和内置属性，但不允许仅日期/时间属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Filter">
@@ -505,12 +491,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的筛选器。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的筛选器。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的值是一个字符串，在 DAV 搜索和定位 (DASL) 语法中，表示当前视图的筛选器。有关使用视图中的筛选项目的 DASL 语法的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
-          <para />
-        </remarks>
+        <remarks><para>此属性的值是字符串，在 DAV 搜索和定位 (DASL) 语法中，该字符串代表当前的视图筛选器。 有关使用视图中的筛选项目的 DASL 语法的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -567,14 +551,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的语言设置。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的语言设置。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>语言</b>属性使用<b>字符串</b>（C# 中的<b>字符串</b>） 来表示 ISO 语言标记。例如，"EN-US"的字符串表示"美国-英语。"的 ISO 代码</para>
-          <para>如果指定了有效的语言代码，该对象将只能在指定的语言类型视图菜单中可用。如果未不指定任何值，则对象项是可用于所有语言类型。此属性的默认值为空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Language</b>属性使用<b>字符串</b>（C# 中的<b>字符串</b>） 来表示 ISO 语言标记。 例如，"EN-US"的字符串表示"美国-英语。"的 ISO 代码</para>
+          <para>如果指定了有效的语言代码，对象将仅在指定语言类型的 "视图"菜单中可用。如果未指定值，则该对象项目对所有语言类型都可用。此属性的默认值为一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -603,12 +584,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示用户是否可以修改视图的设置。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示用户是否可以修改视图的设置。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果<b>，则返回 True</b>，则用户可以修改指定视图的设置。但是，不会保存界面所做的更改。如果<b>False</b> （默认值），任何更改将保存。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果 <b>True</b> ，用户可以修改指定视图的设置。但是，将不保存对接口进行更改。如果 <b>False</b> (默认值)，任何更改都将保存。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MonthFont">
@@ -668,12 +647,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否中显示 Outlook 项目的结束时间<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否中显示 Outlook 项目的结束时间<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的值是时才适用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" />的<b>CalendarView</b>对象的属性设置为<b>olCalendarViewMonth</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性的值是时才适用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" />的<b>CalendarView</b>对象的属性设置为<b>olCalendarViewMonth</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -702,7 +679,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -757,10 +734,8 @@
       <Parameters />
       <Docs>
         <summary>将内置的 Microsoft Outlook 视图重置为原始设置。</summary>
-        <remarks>
-          <para>此方法仅应用于内置 Outlook 视图。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法仅应用于内置 Outlook 视图。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -811,13 +786,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />附加到视图的常量，指定指定的视图位于的文件夹和读取的权限。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />附加到视图的常量，指定指定的视图位于的文件夹和读取的权限。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SaveOption</b>属性的值时设置<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象通过使用创建<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SaveOption</b>属性的值时设置<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象通过使用创建<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedEndTime">
@@ -843,17 +815,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表选定内容中的结束时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 只读。</summary>
+        <summary>返回一个代表选定内容中的结束时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>用途的<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" />进行复制，以编程方式，<b>则 SelectedEndTime</b>属性，用户在 Microsoft Outlook 用户界面中创建约会的方式。通常情况下，用户在日历视图中选择一个时间范围，并通过双击所选内容或 Microsoft Office Fluent 功能区的主页选项卡中，单击新的约会，然后创建一个新的约会。通过在<b>CalendarView</b>对象这两个属性，您可获得的开始时间和结束时间的任何选择该视图中以编程方式。然后，可以编程方式创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，并设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />对<b>SelectedStartTime</b>和<b>则 SelectedEndTime</b>属性分别以反映任何用户的<b>AppointmentItem</b>对象的属性在日历视图中的选定内容。</para>
+        <remarks><para>用途的<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" />进行复制，以编程方式，<b>则 SelectedEndTime</b>属性，用户在 Microsoft Outlook 用户界面中创建约会的方式。 通常情况下，用户在日历视图中选择一个时间范围，并通过双击所选内容或 Microsoft Office Fluent 功能区的主页选项卡中，单击新的约会，然后创建一个新的约会。 使用 <b>日历视图</b> 对象这两个属性，您可以获得的开始时间和结束时间的任何在该视图中的选定内容以编程方式。 然后，可以编程方式创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，并设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />对<b>SelectedStartTime</b>和<b>则 SelectedEndTime</b>属性分别以反映任何用户的<b>AppointmentItem</b>对象的属性在日历视图中的选定内容。</para>
           <para>如果日历视图中的选定区域是一个时间范围而不是一个项，<b>则 SelectedEndTime</b>返回<b>DateTime</b>值等于选定内容的结束时间。</para>
-          <b>如果日历视图中选择了一个或多个项的
-          <para>，则 SelectedEndTime返回<b>DateTime</b>值等于结束时间的第一项资源管理器显示日历视图的选定内容中。所选内容由指定<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</para></b>
-          <para>
-            <b>CalendarView</b>对象使用此属性，获取<b>CalendarView</b>对象从<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />活动<b>资源管理器</b>对象的属性 (可通过返回其<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法)。没有获得<b>CalendarView</b>对象上使用此属性的已知的问题否则为-使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象 (返回<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /><b>所表示的对象的属性Application.ActiveExplorer</b>)。</para>
-          <para />
-        </remarks>
+          <para>如果日历视图中选择了一个或多个项，<b>则 SelectedEndTime</b>返回<b>DateTime</b>值等于结束时间的第一项资源管理器显示日历视图的选定内容中。 所选内容由指定<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</para>
+          <para>若要在<b>CalendarView</b>对象上使用此属性，获取<b>CalendarView</b>对象从<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />活动<b>资源管理器</b>对象的属性 (可通过返回其<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法)。 没有获得<b>CalendarView</b>对象上使用此属性的已知的问题否则为-使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象 (返回<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> <b>Application.ActiveExplorer 所表示的对象的属性</b>).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedStartTime">
@@ -879,17 +847,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表选定内容中的开始时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 只读。</summary>
+        <summary>返回一个代表选定内容中的开始时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>用途的<b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" />属性是复制，以编程方式，用户在 Microsoft Outlook 用户界面中创建约会的方式。通常情况下，用户在日历视图中选择一个时间范围，并通过双击所选内容或 Microsoft Office Fluent 功能区的主页选项卡中，单击新的约会，然后创建一个新的约会。通过在<b>CalendarView</b>对象这两个属性，您可获得的开始时间和结束时间的任何选择该视图中以编程方式。然后，可以编程方式创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，并设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />对<b>SelectedStartTime</b>和<b>则 SelectedEndTime</b>属性分别以反映任何用户的<b>AppointmentItem</b>对象的属性在日历视图中的选定内容。</para>
-          <para>如果日历视图中的选定区域是一个时间范围而不是一个项，<b>则 SelectedStartTime</b>返回<b>DateTime</b>值等于选定内容的开始时间。</para>
-          <b>如果日历视图中选择了一个或多个项的
-          <para>，则 SelectedStartTime返回<b>DateTime</b>值等于的第一个项目的开始时间显示日历视图的资源管理器选定内容中。所选内容由指定<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</para></b>
-          <para>
-            <b>CalendarView</b>对象使用此属性，获取<b>CalendarView</b>对象从<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />活动<b>资源管理器</b>对象的属性 (可通过返回其<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法)。没有获得<b>CalendarView</b>对象上使用此属性的已知的问题否则为-使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象 (返回<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /><b>所表示的对象的属性Application.ActiveExplorer</b>)。</para>
-          <para />
-        </remarks>
+        <remarks><para>用途的<b>SelectedStartTime</b> <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" />属性是复制，以编程方式，用户在 Microsoft Outlook 用户界面中创建约会的方式。 通常情况下，用户在日历视图中选择一个时间范围，并通过双击所选内容或 Microsoft Office Fluent 功能区的主页选项卡中，单击新的约会，然后创建一个新的约会。 使用 <b>日历视图</b> 对象这两个属性，您可以获得的开始时间和结束时间的任何在该视图中的选定内容以编程方式。 然后，可以编程方式创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，并设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />对<b>SelectedStartTime</b>和<b>则 SelectedEndTime</b>属性分别以反映任何用户的<b>AppointmentItem</b>对象的属性在日历视图中的选定内容。</para>
+          <para>如果日历视图中的选定区域是一个时间范围而不是一个项，则<b>SelectedStartTime</b>返回<b>DateTime</b>值等于选定内容的开始时间。</para>
+          <para>如果日历视图中选择了一个或多个项，<b>则 SelectedStartTime</b>返回<b>DateTime</b>值等于的第一个项目的开始时间显示日历视图的资源管理器选定内容中。 所选内容由指定<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</para>
+          <para>若要在<b>CalendarView</b>对象上使用此属性，获取<b>CalendarView</b>对象从<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />活动<b>资源管理器</b>对象的属性 (可通过返回其<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法)。 没有获得<b>CalendarView</b>对象上使用此属性的已知的问题否则为-使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象 (返回<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> <b>Application.ActiveExplorer 所表示的对象的属性</b>).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -915,19 +879,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -953,13 +914,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象是内置 Outlook 视图。 只读。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象是内置 Outlook 视图。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />方法仅用于视图如果此属性的值设置为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />方法仅用于视图如果此属性的值设置为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartField">
@@ -988,12 +946,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表启动的持续时间中显示的 Outlook 项目属性的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表启动的持续时间中显示的 Outlook 项目属性的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>值的<b>StartField</b>和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" />属性指示的 Outlook 项目属性使用在<b>CalendarView</b>对象，表示的 Outlook 项目的持续时间。可以指定自定义和内置属性，但不允许仅日期/时间属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>值的<b>StartField</b>和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" />属性指示的 Outlook 项目属性使用在<b>CalendarView</b>对象，表示的 Outlook 项目的持续时间。 可以指定自定义和内置属性，但不允许仅日期/时间属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -1019,7 +975,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />常量，指示视图的视图类型。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />常量，指示视图的视图类型。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1050,13 +1006,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，指定视图的 XML 定义。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，指定视图的 XML 定义。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>XML 定义描述视图类型使用一系列的标记和关键字对应的视图本身的各种属性。创建视图时，分析的 XML 定义呈现新视图的设置。</para>
-          <para>，以确定如何 XML 结构应时创建视图，您可以通过使用 Outlook 用户界面创建视图，然后您可以检索该视图的<b>XML</b>属性。 </para>
-          <para />
-        </remarks>
+        <remarks><para>XML 定义使用一系列与视图本身各种属性对应的标记和关键字来描述视图的类型。创建视图时，通过解析 XML 定义来设置新视图。</para>
+          <para>若要确定在创建视图时应如何组织 XML，可以使用 Outlook 用户界面中创建的视图，然后可以检索该视图的 <b>XML</b> 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

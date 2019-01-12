@@ -1,13 +1,5 @@
 <Type Name="_Row" FullName="Microsoft.Office.Interop.Outlook._Row">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a3c7defd97d97fe5c78387a6bea20000c185f175" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633054" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Row" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a3c7defd97d97fe5c78387a6bea20000c185f175" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899997" /></Metadata><TypeSignature Language="C#" Value="public interface _Row" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Row" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Row" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Row" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,10 +76,8 @@
         <param name="Index">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<b>列</b>。</param>
         <summary>获取一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示值已转换的二进制值从父<see cref="T:Microsoft.Office.Interop.Outlook.Row" />在指定的列<paramref name="Index" />。</summary>
         <returns>已转换的 PT_BINARY 值位于指定的列的父<b>Row</b>的十六进制<b>字符串</b>（C# 中的<b>字符串</b>） 值<paramref name="Index" />。 返回错误"无法转换为字符串索引指定的列"如果指定的值<paramref name="Index" />不是 PT_BINARY。</returns>
-        <remarks>
-          <para>使用 helper 函数<b>Row.BinaryToString</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />的特定行的列值进行类型转换。有关详细信息中的属性值表示<see cref="T:Microsoft.Office.Interop.Outlook.Table" />，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a></para>
-          <para />
-        </remarks>
+        <remarks><para>使用 helper 函数<b>Row.BinaryToString</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />的特定行的列值进行类型转换。 有关详细信息中的属性值表示<see cref="T:Microsoft.Office.Interop.Outlook.Table" />，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -113,7 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。 只读。</summary>
+        <summary>返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,13 +131,11 @@
       <Docs>
         <summary>获取一个一维数组，包含在所有列的值<see cref="T:Microsoft.Office.Interop.Outlook.Row" />，父级中<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</summary>
         <returns>一个<b>对象</b>，表示在<b>表</b>中的<b>行</b>的所有列的值的数组。</returns>
-        <remarks>
-          <para>
-            <b>GetValues</b>是一种帮助程序方法，从而便于提取一次调用中的<b>行</b>中的所有列值。</para>
-          <para>由于数组是从零开始的因此数组的长度为值减 1 的<b>行</b>中的列数。</para>
-          <para>数组中返回的值为父<b>Table</b>中的值类型相同。这意味着，以字节数组返回<b>表</b>中的二进制属性。对于日期时间属性，如果<see cref="T:Microsoft.Office.Interop.Outlook.Column" />是默认列或如果已添加使用显式内置属性名称，则其值<b>表</b>中和数组中表示本地时间。如果<b>列</b>已添加到使用的命名空间引用的<b>表</b>，其值表中和数组中都表示以协调世界时 (UTC)。通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>GetValues</b> 是一个 helper 方法，便于提取单个调用中的 <b>行</b> 中所有列的值。</para>
+          <para>由于数组是从零开始，数组的长度是减 1 的 <b>行</b> 中的列数。</para>
+          <para>返回数组中的值是类型的与父 <b>表</b> 中的值相同。 这意味着 <b>表</b> 中的二进制属性将返回以字节数组。 对于日期时间属性，如果<see cref="T:Microsoft.Office.Interop.Outlook.Column" />是默认列或如果已添加使用显式内置属性名称，则其值<b>表</b>中和数组中表示本地时间。 如果<b>列</b>已添加到使用的命名空间引用的<b>表</b>，其值表中和数组中都表示以协调世界时 (UTC)。 通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -179,10 +167,8 @@
         <param name="Index">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。</param>
         <summary>获取一个<b>对象</b>，表示的值为<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象指定的列<paramref name="Index" />。</summary>
         <value>一个代表属性的值的<b>对象</b>(由指定<paramref name="Index" />) 的一个项目 （作为指定的父<b>Row</b>）。</value>
-        <remarks>
-          <para>如果<b>列</b>已添加到<see cref="T:Microsoft.Office.Interop.Outlook.Table" />使用引用命名空间的属性名称，您必须通过相同的命名空间引用引用的<b>Row.Item</b>属性 (<b>此</b>C# 中) 中的<b>列</b>。如果您在<b>Row.Item</b>中使用的显式内置名称引用，您将收到错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果<b>列</b>已添加到<see cref="T:Microsoft.Office.Interop.Outlook.Table" />使用引用命名空间的属性名称，您必须通过相同的命名空间引用引用的<b>Row.Item</b>属性 (<b>此</b>C# 中) 中的<b>列</b>。 如果在 <b>Row.Item</b> 中使用显式内置名称引用，则会发生错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LocalTimeToUTC">
@@ -211,11 +197,9 @@
         <param name="Index">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。</param>
         <summary>获取中的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.Table" />由指定<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象在<paramref name="Index" />的具有已从本地时间转换为协调世界时 (UTC)。</summary>
         <returns>一个 Date值，已从用本地时间表示形式转换为 UTC。 如果将返回错误<paramref name="Index" />无效或行值由<paramref name="Index" />不是日期值。</returns>
-        <remarks>
-          <para>使用 helper 函数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />， <b>Row.LocalTimeToUTC</b>和<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />的特定行的列值进行类型转换。</para>
-          <para>有关在<b>表</b>中，属性值表示方式的信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a><b>表</b>筛选器，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87929">使用日期-时间比较筛选项目</a></para>
-          <para />
-        </remarks>
+        <remarks><para>使用 helper 函数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />， <b>Row.LocalTimeToUTC</b>和<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />的特定行的列值进行类型转换。</para>
+          <para>上<b>表</b>中的属性值表示方式的信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a><b>表</b>筛选器，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87929">使用日期-时间比较筛选项目</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -241,7 +225,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。 只读。</summary>
+        <summary>返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -269,19 +253,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UTCToLocalTime">
@@ -310,11 +291,9 @@
         <param name="Index">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。</param>
         <summary>获取中的 DateTime 值<see cref="T:Microsoft.Office.Interop.Outlook.Table" />指定<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象在<paramref name="Index" />的具有已为本地时间转换从协调世界时 (UTC)。</summary>
         <returns>已从 utc 格式的表示形式转换为本地时间的 Date 值。 如果将返回错误<paramref name="Index" />无效或行值由<paramref name="Index" />不是日期值。</returns>
-        <remarks>
-          <para>使用 helper 函数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />，和<b>row.utctolocaltime 有助于</b>对特定行的列值的类型转换。</para>
+        <remarks><para>使用 helper 函数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />，和<b>row.utctolocaltime 有助于</b>对特定行的列值的类型转换。 </para>
           <para>上<b>表</b>中的属性值表示方式的信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a><b>表</b>筛选器，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87929">使用日期-时间比较筛选项目</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

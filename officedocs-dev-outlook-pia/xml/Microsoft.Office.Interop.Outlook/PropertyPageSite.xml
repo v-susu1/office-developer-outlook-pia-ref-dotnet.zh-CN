@@ -1,13 +1,5 @@
 <Type Name="PropertyPageSite" FullName="Microsoft.Office.Interop.Outlook.PropertyPageSite">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3da8a15e1213bc289f8144fbd4527357769b055b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631737" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyPageSite" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1605e730a32e4dac4023d073b77fcdcf33b9d6b0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898004" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyPageSite" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPageSite" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyPageSite" />
@@ -27,16 +19,14 @@
   </Attributes>
   <Docs>
     <summary>代表自定义属性页的容器。</summary>
-    <remarks>
-      <para>使用<b>Parent</b>属性可实现的 ActiveX 控件<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />与<b>PropertyPageSite</b>对象返回<b>PropertyPageSite</b>对象关联的对象。实现<b>PropertyPage</b>对象模块的声明部分必须包含一个类似于下面的声明。</para>
+    <remarks><para>使用<b>Parent</b>属性可实现的 ActiveX 控件<see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />与<b>PropertyPageSite</b>对象返回<b>PropertyPageSite</b>对象关联的对象。 实现 <b>属性页</b> 对象的模块的声明部分必须包含与以下类似的声明。</para>
       <code>Private myPropertyPageSite As Outlook.PropertyPageSite</code>
       <code>private Outlook.PropertyPageSite myPropertyPageSite;</code>
-      <para>然后从 ActiveX 控件的<b>Parent</b>属性返回的对象。</para>
+      <para>从 ActiveX 控件的<b>Parent</b>属性，然后返回的对象。</para>
       <code>myPropertyPageSite = Parent</code>
       <code>myPropertyPageSite = Parent;</code>
       <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />方法来通知 Microsoft Outlook 的属性页已更改。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -62,7 +52,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,7 +80,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,19 +161,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

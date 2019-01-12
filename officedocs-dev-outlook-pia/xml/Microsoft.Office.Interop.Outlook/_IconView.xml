@@ -1,13 +1,5 @@
 <Type Name="_IconView" FullName="Microsoft.Office.Interop.Outlook._IconView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b6ff21adc4d8ef4b981f070cb8eebd186d37d298" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631935" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _IconView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b6ff21adc4d8ef4b981f070cb8eebd186d37d298" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901394" /></Metadata><TypeSignature Language="C#" Value="public interface _IconView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _IconView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._IconView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _IconView" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -106,7 +98,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -192,12 +184,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的筛选器。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的筛选器。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的值是一个字符串，在 DAV 搜索和定位 (DASL) 语法中，表示当前视图的筛选器。有关使用视图中的筛选项目的 DASL 语法的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
-          <para />
-        </remarks>
+        <remarks><para>此属性的值是字符串，在 DAV 搜索和定位 (DASL) 语法中，该字符串代表当前的视图筛选器。 有关使用视图中的筛选项目的 DASL 语法的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -256,10 +246,8 @@
       <Docs>
         <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlIconViewPlacement" />值，该值确定图标中的放置方式<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象。 读/写</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果值<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconViewType" />属性设置为<b>olIconViewList</b>，此属性的值自动设置为<b>olIconSortAndAutoArrange</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果值<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconViewType" />属性设置为<b>olIconViewList</b>，此属性的值自动设置为<b>olIconSortAndAutoArrange</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IconViewType">
@@ -288,12 +276,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlIconViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlIconViewType" />确定 Outlook 项目中的显示方式的常量<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlIconViewType" />确定 Outlook 项目中的显示方式的常量<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果此属性的值设置为<b>olIconSortAndAutoArrange</b>的值<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconPlacement" />属性自动设置为<b>olIconSortAndAutoArrange</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果此属性的值设置为<b>olIconSortAndAutoArrange</b>的值<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconPlacement" />属性自动设置为<b>olIconSortAndAutoArrange</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Language">
@@ -322,14 +308,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的语言设置。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的语言设置。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>语言</b>属性使用<b>字符串</b>（C# 中的<b>字符串</b>） 来表示 ISO 语言标记。例如，"EN-US"的字符串表示"美国-英语。"的 ISO 代码</para>
-          <para>如果指定了有效的语言代码，该对象将只能在指定的语言类型视图菜单中可用。如果未不指定任何值，则对象项是可用于所有语言类型。此属性的默认值为空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Language</b>属性使用<b>字符串</b>（C# 中的<b>字符串</b>） 来表示 ISO 语言标记。 例如，"EN-US"的字符串表示"美国-英语。"的 ISO 代码</para>
+          <para>如果指定了有效的语言代码，对象将仅在指定语言类型的 "视图"菜单中可用。如果未指定值，则该对象项目对所有语言类型都可用。此属性的默认值为一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -358,12 +341,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示用户是否可以修改当前视图的设置。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示用户是否可以修改当前视图的设置。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果<b>，则返回 True</b>，则用户可以修改当前视图的设置。但是，不会保存界面所做的更改。如果<b>False</b> （默认值），任何更改将保存。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果 <b>True</b> ，用户可以修改当前视图的设置。但是，将不保存对接口进行更改。如果 <b>False</b> (默认值)，任何更改都将保存。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -392,7 +373,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -447,10 +428,8 @@
       <Parameters />
       <Docs>
         <summary>将内置的 Microsoft Outlook 视图重置为原始设置。</summary>
-        <remarks>
-          <para>此方法仅应用于内置 Outlook 视图。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法仅应用于内置 Outlook 视图。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -501,13 +480,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />附加到视图的常量，指定指定的视图位于的文件夹和读取的权限。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />附加到视图的常量，指定指定的视图位于的文件夹和读取的权限。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SaveOption</b>属性的值时设置<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象通过使用创建<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SaveOption</b>属性的值时设置<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象通过使用创建<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -533,19 +509,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SortFields">
@@ -571,7 +544,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />对象，表示项目中所显示的字段集<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象进行排序。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />对象，表示项目中所显示的字段集<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象进行排序。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -599,13 +572,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象是内置 Outlook 视图。 只读。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象是内置 Outlook 视图。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />方法仅用于视图如果此属性的值设置为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />方法仅用于视图如果此属性的值设置为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -631,7 +601,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />常量，指示视图的视图类型。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />常量，指示视图的视图类型。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -662,13 +632,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，指定视图的 XML 定义。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，指定视图的 XML 定义。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>XML 定义描述视图类型使用一系列的标记和关键字对应的视图本身的各种属性。创建视图时，分析的 XML 定义呈现新视图的设置。</para>
-          <para>，以确定如何 XML 结构应时创建视图，您可以通过使用 Outlook 用户界面创建视图，然后您可以检索该视图的<b>XML</b>属性。 </para>
-          <para />
-        </remarks>
+        <remarks><para>XML 定义使用一系列与视图本身各种属性对应的标记和关键字来描述视图的类型。创建视图时，通过解析 XML 定义来设置新视图。</para>
+          <para>若要确定在创建视图时应如何组织 XML，可以使用 Outlook 用户界面中创建的视图，然后可以检索该视图的 <b>XML</b> 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

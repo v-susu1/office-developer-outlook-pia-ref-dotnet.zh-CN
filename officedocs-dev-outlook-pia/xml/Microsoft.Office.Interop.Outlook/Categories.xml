@@ -1,13 +1,5 @@
 <Type Name="Categories" FullName="Microsoft.Office.Interop.Outlook.Categories">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="da774a44b942881c2a052bbbff3a5d922668713f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633084" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Categories : Microsoft.Office.Interop.Outlook._Categories" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="899c9ca19737a0150c9cf75ece17f79a01b1947b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897176" /></Metadata><TypeSignature Language="C#" Value="public interface Categories : Microsoft.Office.Interop.Outlook._Categories" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Categories implements class Microsoft.Office.Interop.Outlook._Categories" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Categories" />
   <TypeSignature Language="VB.NET" Value="Public Interface Categories&#xA;Implements _Categories" />
@@ -31,11 +23,11 @@
   </Attributes>
   <Docs>
     <summary>表示集合的<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象定义命名空间的主类别列表。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Categories" />。</para>
-      <para>Microsoft Outlook 提供了分类系统使用的 Outlook 项目可以方便地标识和分组为用户定义的类别。<b>Categories</b>对象代表的一组用户定义的给定的邮箱用户可用的类别。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象获取代表该命名空间的主类别列表的<b>类别</b>对象引用。</para>使用
-      <para><see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" />方法可创建新的 Category 对象，并将其追加到集合。使用<see cref="P:Microsoft.Office.Interop.Outlook._Categories.Item(System.Object)" />属性 (<b>此</b>C# 中) 以获取的现有类别的<b>类别</b>对象引用和<see cref="M:Microsoft.Office.Interop.Outlook._Categories.Remove(System.Object)" />方法从集合中删除一个<b>Category</b>对象。使用<see cref="P:Microsoft.Office.Interop.Outlook._Categories.Count" />属性返回包含在集合中的分类数。</para><para /></remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._Categories" />。</para>
+      <para>Microsoft Outlook提供了一个分类系统，依据 Outlook 项目可以很容易地标识和分组为用户定义的类别。 <b>类别</b> 对象表示在给定的邮箱的用户的用户定义的类别组。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象获取代表该命名空间的主类别列表的<b>类别</b>对象引用。 </para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" />方法可创建新的 Category 对象，并将其追加到集合。 使用<see cref="P:Microsoft.Office.Interop.Outlook._Categories.Item(System.Object)" />属性 (<b>此</b>C# 中) 以获取的现有类别的<b>类别</b>对象引用和<see cref="M:Microsoft.Office.Interop.Outlook._Categories.Remove(System.Object)" />方法从集合中删除一个<b>Category</b>对象。 使用<see cref="P:Microsoft.Office.Interop.Outlook._Categories.Count" />属性返回包含在集合中的分类数。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

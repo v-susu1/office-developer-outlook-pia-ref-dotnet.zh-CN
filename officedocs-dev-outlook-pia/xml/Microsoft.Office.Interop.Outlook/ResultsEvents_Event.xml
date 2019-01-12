@@ -1,13 +1,5 @@
 <Type Name="ResultsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ResultsEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3a87dc9dae2379388ad923144e6c646f5a199984" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632885" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ResultsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4a6435255dc3c98ff97995c77a01ed2d110fb667" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896847" /></Metadata><TypeSignature Language="C#" Value="public interface ResultsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ResultsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ResultsEvents_Event" />
@@ -49,10 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>在将一个或多个项目添加到指定的集合中时发生。</summary>
-        <remarks>
-          <para>大量项目的同时添加到文件夹时没有运行此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>该事件在将大量项目同时添加到文件夹时不运行。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemChange">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>当从指定集合中删除项目时发生。</summary>
-        <remarks>
-          <para>此事件不运行时删除个人文件夹文件 (.pst) 中的最后一项，或同时从.pst 文件、 Microsoft Exchange 邮箱或 Exchange 公用文件夹删除 16 或多个项目。</para>
-          <para />
-        </remarks>
+        <remarks><para>当删除个人文件夹文件 (.pst) 中的最后一项时，或从 .pst 文件、Microsoft Exchange 邮箱或 Exchange 公用文件夹中同时删除 16 个或更多项目时，该事件不运行。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

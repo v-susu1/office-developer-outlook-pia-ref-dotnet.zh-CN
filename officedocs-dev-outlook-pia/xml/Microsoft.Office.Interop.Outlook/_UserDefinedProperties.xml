@@ -1,13 +1,5 @@
 <Type Name="_UserDefinedProperties" FullName="Microsoft.Office.Interop.Outlook._UserDefinedProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="24b5b183d8ab727f45fd9782281e0902068419cd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631581" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _UserDefinedProperties : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="24b5b183d8ab727f45fd9782281e0902068419cd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900071" /></Metadata><TypeSignature Language="C#" Value="public interface _UserDefinedProperties : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _UserDefinedProperties implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._UserDefinedProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface _UserDefinedProperties&#xA;Implements IEnumerable" />
@@ -64,12 +56,9 @@
         <param name="DisplayFormat">新的用户定义属性的显示格式。 此参数可以从几个不同的枚举，由中指定的属性类型之一设置为一个值<paramref name="Type" />参数。 有关详细信息操作<paramref name="Type" />和<paramref name="DisplayFormat" />交互，请参阅<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />。</param>
         <param name="Formula">用于计算新的用户定义属性的值的公式。 如果此参数，则忽略<paramref name="Type" />参数设置为非<b>olCombination</b>或<b>olFormula</b>任何值。</param>
         <summary>创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />对象并将其追加到集合。</summary>
-        <returns>
-          <b>UserDefinedProperty</b> 对象，该对象表示新的用户定义属性。</returns>
-        <remarks>
-          <para>您可以创建由定义类型的属性<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />枚举，除以下类型： <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />， <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />，和<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
-          <para />
-        </remarks>
+        <returns><b>UserDefinedProperty</b> 对象，该对象表示新的用户定义属性。</returns>
+        <remarks><para>您可以创建由定义类型的属性<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />枚举，除以下类型： <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />， <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />，和<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -95,7 +84,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -123,7 +112,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,7 +140,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>整数</b>(C# 中<b>int</b> ) 值，该值指示指定集合中对象的计数。 只读。</summary>
+        <summary>返回一个<b>整数</b>(C# 中<b>int</b> ) 值，该值指示指定集合中对象的计数。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -179,8 +168,7 @@
         <Parameter Name="Name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" />属性值为集合中查找的<b>UserDefinedProperty</b>对象。</param>
+        <param name="Name"><see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" />属性值为集合中查找的<b>UserDefinedProperty</b>对象。</param>
         <summary>找到<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />包含在集合中。</summary>
         <returns>如果成功，则代表位于的对象，一个<b>UserDefinedProperty</b>对象否则为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</returns>
         <remarks>To be added.</remarks>
@@ -322,19 +310,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

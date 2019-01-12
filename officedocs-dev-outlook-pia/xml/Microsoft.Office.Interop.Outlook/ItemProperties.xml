@@ -1,13 +1,5 @@
 <Type Name="ItemProperties" FullName="Microsoft.Office.Interop.Outlook.ItemProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="068473e5343109a26ed982c2916e8e99e1bf5182" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632356" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e0b6f765c864178318a6ab735154aa9fb4aa042" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900277" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperties implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperties&#xA;Implements IEnumerable" />
@@ -31,11 +23,13 @@
   </Attributes>
   <Docs>
     <summary>所有与项目关联的属性的集合。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" />属性可返回<b>ItemProperties</b>集合。使用 ItemProperties.Item (<paramref name="index" />)，其中<paramref name="index" />是对象的名称或在集合中返回单个项的数字位置<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" />对象。</para>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" />属性可返回<b>ItemProperties</b>集合。 使用 ItemProperties.Item (<paramref name="index" />)，其中<paramref name="index" />是对象的名称或在集合中返回单个项的数字位置<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" />对象。</para>
       <para>
-        <b>注释</b>： <b>ItemProperties</b>集合是从零开始，这意味着集合中的第一项由 0 引用。</para>使用
-      <para><see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法，以将新的项目属性添加到<b>ItemProperties</b>集合。使用<see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" />方法，以从<b>ItemProperties</b>集合中删除的项目属性。</para><para><b>注意</b>： 您只能添加或删除自定义属性。自定义属性由表示<see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" />。</para><para /></remarks>
+        <b>注意</b>： <b>ItemProperties</b>集合是从零开始，这意味着集合中的第一项由 0 引用。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法，以将新的项目属性添加到<b>ItemProperties</b>集合。 使用<see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" />方法，以从<b>ItemProperties</b>集合中删除的项目属性。</para>
+      <para>
+        <b>注意</b>： 您只能添加或删除自定义属性。 自定义属性由表示<see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" />。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -69,10 +63,8 @@
         <param name="DisplayFormat">确定字段在给定文件夹中的显示格式。</param>
         <summary>向 <b>ItemProperties</b> 集合中添加一个 <b>ItemProperty</b> 对象。</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>您可以创建由定义类型的属性<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />枚举，除以下类型： <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />， <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />，和<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
-          <para />
-        </remarks>
+        <remarks><para>您可以创建由定义类型的属性<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />枚举，除以下类型： <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />， <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />，和<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -98,7 +90,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -126,7 +118,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -154,7 +146,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -219,8 +211,7 @@
       <Docs>
         <param name="Index">或者是对象从零开始的索引号，或者是用于与集合中某个对象的默认属性相匹配的值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" />对象的集合。</summary>
-        <value>
-          <b>ItemProperty</b> 对象，该对象代表指定的对象。</value>
+        <value><b>ItemProperty</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -303,19 +294,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

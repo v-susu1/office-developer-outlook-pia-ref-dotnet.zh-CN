@@ -1,13 +1,5 @@
 <Type Name="OlkTextBoxEvents_ExitEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ExitEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f22c0f0ade7986f7df9e9257e9916b71e6624c71" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633007" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void OlkTextBoxEvents_ExitEventHandler(ref bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9076c6de311fee50fa28058ed9344f80f3de17d9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896770" /></Metadata><TypeSignature Language="C#" Value="public delegate void OlkTextBoxEvents_ExitEventHandler(ref bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkTextBoxEvents_ExitEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_ExitEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkTextBoxEvents_ExitEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>假</b> 的事件发生时。如果该事件过程将此参数设置为 <b>True</b> ，则不完成退出操作，并且焦点仍保留在该控件中。 </param>
+    <param name="Cancel"><b>假</b> 的事件发生时。如果该事件过程将此参数设置为 <b>True</b> ，则不完成退出操作，并且焦点仍保留在该控件中。 </param>
     <summary>这是针对相应对象中的事件的委派。在对事件实现回调方法后，使用此委派将回调方法连接到该事件。如果存在多个版本的事件接口，此委派将为指定版本的 Outlook 中的事件连接回调方法。</summary>
     <remarks>To be added.</remarks>
   </Docs>

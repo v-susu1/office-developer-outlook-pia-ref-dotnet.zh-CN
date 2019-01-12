@@ -1,13 +1,5 @@
 <Type Name="TimeZone" FullName="Microsoft.Office.Interop.Outlook.TimeZone">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="df2e0acca707a2d52c4baedac03f2eece2d396b9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632204" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TimeZone : Microsoft.Office.Interop.Outlook._TimeZone" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="92ac327201e46a47d61eb3482e491c6d531f4e53" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901366" /></Metadata><TypeSignature Language="C#" Value="public interface TimeZone : Microsoft.Office.Interop.Outlook._TimeZone" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TimeZone implements class Microsoft.Office.Interop.Outlook._TimeZone" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TimeZone" />
   <TypeSignature Language="VB.NET" Value="Public Interface TimeZone&#xA;Implements _TimeZone" />
@@ -31,11 +23,10 @@
   </Attributes>
   <Docs>
     <summary>表示 Microsoft Windows 所支持的时区的信息。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._TimeZone" />。</para>
-      <para>
-        <b>TimeZone</b>对象是时区数据的 Outlook 包装。</para>可以从 Windows 注册表项 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones 获得
-      <para>此数据。在这种情况下，此对象的某些属性是在注册表中的时区的 TZI 值中的部分。TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para><para /></remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._TimeZone" />。 </para>
+      <para><b>时区</b> 是 Outlook 时区数据包装。</para>
+      <para>可从 Windows 注册表项 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time 区域获取此类数据。 在这种情况下，此对象的某些属性是在注册表中的时区的 TZI 值中的部分。 TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>
