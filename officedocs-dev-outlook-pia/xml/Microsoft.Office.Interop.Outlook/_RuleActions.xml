@@ -1,13 +1,5 @@
 <Type Name="_RuleActions" FullName="Microsoft.Office.Interop.Outlook._RuleActions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7b0d9621b3685ab22d601175636ec9ed19292022" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632273" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleActions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7b0d9621b3685ab22d601175636ec9ed19292022" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902157" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleActions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleActions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleActions" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleActions&#xA;Implements IEnumerable" />
@@ -87,11 +79,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.ActionType" />正在<b>olRuleAssignToCategory</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来为邮件分配类别的规则操作时，使用返回的<b>AssignToCategoryRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>AssignToCategoryRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来为邮件分配类别的规则操作时，请使用返回的<b>AssignToCategoryRuleAction</b>对象。</para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>AssignToCategoryRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -119,11 +109,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" />正在<b>olRuleActionCcMessage</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定为一个操作抄送邮件的特定收件人的规则操作时，请使用返回的<b>SendRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>SendRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定为一个操作抄送邮件的特定收件人的规则操作时，请使用返回的<b>SendRuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>SendRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -177,13 +165,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>olRuleActionClearCategories</b>。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>olRuleActionClearCategories</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个规则来指定将删除为一个操作的邮件的所有类别的规则操作时，请使用返回的<b>RuleAction</b>对象。  </para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />始终集合返回一个<b>RuleAction</b>对象，而不管是否与此<b>作为 RuleActions</b>集合关联的规则定义了这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" />将为<b>True</b>。 </para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个规则来指定将删除为一个操作的邮件的所有类别的规则操作时，请使用返回的<b>RuleAction</b>对象。   </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />始终集合返回一个<b>RuleAction</b>对象，而不管是否与此<b>作为 RuleActions</b>集合关联的规则定义了这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" />将为<b>True</b>。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CopyToFolder">
@@ -211,11 +197,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" />正在<b>olRuleActionCopyToFolder</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定将邮件复制到特定文件夹为一个操作的规则操作时，请使用返回的<b>MoveOrCopyRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>MoveOrCopyRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定将邮件复制到特定文件夹为一个操作的规则操作时，请使用返回的<b>MoveOrCopyRuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>MoveOrCopyRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -243,10 +227,8 @@
       <Docs>
         <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>您可以枚举<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />介于 1 至<b>RuleActions.Count</b>若要确定所有现有规则的规则操作的集合。尽管规则 OM 支持创建规则只使用最常用的规则操作和支持的规则和通知向导不是所有规则操作，<b>作为 RuleActions</b>集合包括一个规则的所有规则操作。因此，您可以始终枚举<b>RuleActions</b>集合对象，以确定启用了现有规则的规则操作。</para>
-          <para />
-        </remarks>
+        <remarks><para>您可以枚举<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />介于 1 至<b>RuleActions.Count</b>若要确定所有现有规则的规则操作的集合。 虽然规则 OM 支持创建只使用最常用规则的规则操作和并不是所有的规则和通知向导支持的规则操作， <b>RuleActions</b> 集合仍包括了一个规则的所有规则操作。 因此您总是可以枚举 <b>RuleActions</b> 集合对象以确定启用现有规则的规则操作。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -274,11 +256,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" />正在<b>olRuleActionDelete</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定删除为一个操作邮件的规则操作时，请使用返回的<b>RuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定删除为一个操作邮件的规则操作时，请使用返回的<b>RuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeletePermanently">
@@ -306,11 +286,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" />正在<b>olRuleActionDeletePermanently</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定删除永久为一个操作邮件的规则操作时，请使用返回的<b>RuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定删除永久为一个操作邮件的规则操作时，请使用返回的<b>RuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DesktopAlert">
@@ -338,11 +316,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" />正在<b>olRuleActionDesktopAlert</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定为一个操作显示桌面通知的规则操作时，请使用返回的<b>RuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定为一个操作显示桌面通知的规则操作时，请使用返回的<b>RuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -370,11 +346,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" />正在<b>olRuleActionForward</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定为一个操作向特定收件人转发邮件的规则操作时，请使用返回的<b>SendRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>SendRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定为一个操作向特定收件人转发邮件的规则操作时，请使用返回的<b>SendRuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>SendRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForwardAsAttachment">
@@ -402,11 +376,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" />正在<b>olRuleActionForwardAsAttachment</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定转发邮件作为附件转发到特定收件人为一个操作的规则操作时，请使用返回的<b>SendRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>SendRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定转发邮件作为附件转发到特定收件人为一个操作的规则操作时，请使用返回的<b>SendRuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>SendRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -438,11 +410,8 @@
         <param name="Index">基于 1 数值反映<b>RuleActions</b>集合中的规则操作的序号位置。 例如，集合中的第一个规则操作的索引值为 1，而第二个规则操作的索引值为 2。</param>
         <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />指定对象<paramref name="Index" />即的数值索引<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合。</summary>
         <value>与指定的规则操作相匹配的<b>RuleAction</b>对象<paramref name="Index" />。</value>
-        <remarks>
-          <para>
-            <b>RuleActions</b>集合对象是固定的集合。它包含<b>RuleAction</b>对象或派生自<b>RuleAction</b>的对象。无法添加或移除项目从该集合，但您可以使用<b>项目</b>枚举的规则操作项，并设置<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" />的规则操作的属性。当使用<b>项目</b>枚举的集合，您可以枚举<paramref name="Index" />从 1 到<see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Count" />。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>RuleActions</b> 集合对象是一个固定的集合。 它包含 <b>RuleAction</b> 对象或源自 <b>RuleAction</b> 对象。 无法添加或移除项目从该集合，但您可以使用<b>项目</b>枚举的规则操作项，并设置<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" />的规则操作的属性。 当使用<b>项目</b>枚举的集合，您可以枚举<paramref name="Index" />从 1 到<see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Count" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkAsTask">
@@ -470,11 +439,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.ActionType" />正在<b>olRuleActionMarkAsTask</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定标记为任务邮件的操作的规则操作时，请使用返回的<b>MarkAsTaskRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>MarkAsTaskRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定标记为任务邮件的操作的规则操作时，请使用返回的<b>MarkAsTaskRuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>MarkAsTaskRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MoveToFolder">
@@ -502,11 +469,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" />正在<b>olRuleActionMoveToFolder</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定将邮件复制到特定文件夹为一个操作的规则操作时，请使用返回的<b>MoveOrCopyRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>MoveOrCopyRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定将邮件复制到特定文件夹为一个操作的规则操作时，请使用返回的<b>MoveOrCopyRuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>MoveOrCopyRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NewItemAlert">
@@ -534,11 +499,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.ActionType" />正在<b>olRuleActionNewItemAlert</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定为一个操作中显示的新项目通知的规则操作时，请使用返回的<b>NewItemAlertRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>NewItemAlertRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定为一个操作中显示的新项目通知的规则操作时，请使用返回的<b>NewItemAlertRuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>NewItemAlertRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotifyDelivery">
@@ -566,11 +529,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" />正在<b>olRuleActionNotifyDelivery</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来通知邮件送达指定为一个操作时的规则操作时，请使用返回的<b>RuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来通知邮件送达指定为一个操作时的规则操作时，请使用返回的<b>RuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotifyRead">
@@ -598,11 +559,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" />正在<b>olRuleActionNotifyRead</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定为一个操作发送邮件的通知有关打开的规则操作时，请使用返回的<b>RuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定为一个操作发送邮件的通知有关打开的规则操作时，请使用返回的<b>RuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -630,10 +589,8 @@
       <Docs>
         <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PlaySound">
@@ -661,11 +618,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.ActionType" />正在<b>olRuleActionNotifyRead</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定为一个操作播放声音文件的规则操作时，请使用返回的<b>PlaySoundRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>PlaySoundRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定为一个操作播放声音文件的规则操作时，请使用返回的<b>PlaySoundRuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>PlaySoundRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Redirect">
@@ -693,11 +648,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" />正在<b>olRuleActionRedirect</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定将邮件重定向到特定收件人为一个操作的规则操作时，请使用返回的<b>SendRuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>SendRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定将邮件重定向到特定收件人为一个操作的规则操作时，请使用返回的<b>SendRuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>SendRuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -725,17 +678,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Stop">
@@ -763,11 +713,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" />正在<b>olRuleActionStop</b>。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>在枚举现有规则，或者在创建一个新规则来指定停止处理其他规则为一个操作的规则操作时，请使用返回的<b>RuleAction</b>对象。</para>
-          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>在枚举现有规则，或者在创建一个新规则来指定停止处理其他规则为一个操作的规则操作时，请使用返回的<b>RuleAction</b>对象。 </para>
+          <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回的<b>RuleAction</b>对象，而无论与此<b>作为 RuleActions</b>集合关联的规则是否已定义这样的规则操作。 如果规则具有定义，并启用这样的规则操作，然后<see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" />将为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

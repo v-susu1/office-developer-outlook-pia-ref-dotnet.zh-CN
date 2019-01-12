@@ -1,13 +1,5 @@
 <Type Name="_Explorer" FullName="Microsoft.Office.Interop.Outlook._Explorer">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631606" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Explorer" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906189" /></Metadata><TypeSignature Language="C#" Value="public interface _Explorer" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Explorer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Explorer" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Explorer" />
@@ -108,8 +100,7 @@
       <Docs>
         <summary>返回一个代表活动的内嵌响应项目阅读窗格在浏览器中的项目对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>您可以使用的大多数属性和方法的<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />按此项的对象。不能使用以下方法：</para>
+        <remarks><para>您可以使用的大多数属性和方法的<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />按此项的对象。 不能使用以下方法：</para>
           <list type="bullet">
             <item>
               <para>
@@ -148,9 +139,8 @@
                 <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />方法</para>
             </item>
           </list>
-          <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有内嵌响应的阅读窗格中可见。</para>
-          <para />
-        </remarks>
+          <para>如果没有内嵌响应是可见的阅读窗格中，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveInlineResponseWordEditor">
@@ -178,8 +168,7 @@
       <Docs>
         <summary>返回 Word<see cref="T:Microsoft.Office.Interop.Word.Document" />对象的阅读窗格在浏览器中显示的活动内嵌响应。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果没有内嵌响应是可见的阅读窗格中，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。返回的 Word<b>文档</b>对象提供了访问大部分 Word 对象模型，除以下成员：</para>
+        <remarks><para>如果没有内嵌响应是可见的阅读窗格中，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。 返回的 Word<b>文档</b>对象提供了访问大部分 Word 对象模型，除以下成员：</para>
           <list type="bullet">
             <item>
               <para>
@@ -217,8 +206,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddToSelection">
@@ -246,40 +234,58 @@
       <Docs>
         <param name="Item">添加到活动资源管理器中选定内容的项目。</param>
         <summary>将指定的Microsoft Outlook项添加到活动资源管理器中的选定内容。</summary>
-        <remarks>
-          <para>活动资源管理器中的选定内容由<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象返回的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性。</para>
-          <para>要选定的项必须是在活动资源管理器当前视图中。使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />方法以确定是否可在视图中选择项目。项目没有为视图中可见。</para>
-          <para>以下情况下，Outlook 将返回错误时调用<b>AddToSelection</b>方法：</para>
+        <remarks><para>活动资源管理器中的选定内容由<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象返回的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性。</para>
+          <para>若要选择项目，该项目在活动资源管理器的当前视图中必须是可选择的。 使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />方法以确定是否可在视图中选择项目。 该项目不必在视图中可见。 </para>
+          <para>在以下情况下 Outlook 调用 <b>AddToSelection</b> 方法时返回一个错误:</para>
           <list type="bullet">
             <item>
-              <para>指定的项目在活动资源管理器的当前视图不是。</para>
+              <para>指定的项目不在活动资源管理器的当前视图中。</para>
             </item>
             <item>
-              <para>活动浏览器的当前视图中处于编辑的指定的项。</para>
+              <para>指定的项目在活动资源管理器的当前视图中处于编辑状态。</para>
             </item>
             <item>
-              <para>被筛选出当前视图和筛选器的应用程序从视图中移除项目。</para>
+              <para>当前视图已经过筛选，并且应用筛选后，该项目已从视图中移除。</para>
             </item>
             <item>
-              <para>尚未保存的指定的项。</para>
+              <para>指定的项目未保存。</para>
             </item>
             <item>
-              <para>指定的项目表示<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</para>
+              <para>指定的项目表示<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。 </para>
             </item>
             <item>
-              <para>没有当前视图存在活动资源管理器。</para>
+              <para>活动资源管理器没有当前视图存在。</para>
             </item>
           </list>
           <para>如果项目未选中并且可选的当前视图中，调用<b>AddToSelection</b>原因<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />触发事件。</para>
-          <para>调用<b>AddToSelection</b>不会滚动视图来使选定的项目视图中可见和不展开或折叠视图中的组。</para>
+          <para>调用 <b>AddToSelection</b> 并不滚动视图以使选定的项在视图中可见，并不展开或折叠视图中的组。</para>
           <para>下表说明了调用<b>AddToSelection</b>考虑任何当前所选内容的结果 (<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性) 以及阅读窗格是否显示。</para>
-          <description>是</description>
-          <description>项目
-          <list type="table"><item><description>0</description>被添加到选定内容。<b>SelectionChange</b>触发。阅读窗格显示项目。 
-            </item></list><item><description>0</description><description>无</description><description>项目添加到选定内容。<b>SelectionChange</b>激发。</description></item><item><description> &gt;= 1</description><description></description><description>项目添加到选定内容。<b>SelectionChange</b>触发。阅读窗格不会更改其显示的项目除非视图是日历视图，在这种情况下，调用<b>AddToSelection</b>可能会导致阅读窗格显示其他项目。</description></item><item><description> &gt;= 1</description><description>无</description><description>项目添加到选定内容。<b>SelectionChange</b>激发。</description></item><para>如果指定的项已选中活动资源管理器中，调用<b>AddToSelection</b>不会引起任何更改对所选内容，并不会触发<b>SelectionChange</b>事件。</para>当您定期约会或任务中指定项目，如<b>AddToSelection</b>方法参数，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用
-          <para><see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />属性和<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。如果您不展开定期事件并获取出现系列中的，传递实例变量值，该值代表约会或任务的系列，并<b>AddToSelection</b>方法而不是出现系列上运行。</para><para>请注意，您可以使用<b>AddToSelection</b>将项目添加到选定内容，但不能将对话标头添加到选定内容。</para></description>
-          <para />
-        </remarks>
+          <list type="table">
+            <item>
+              <description>0</description>
+              <description>是</description>
+              <description>项目添加到选定内容。<b>SelectionChange</b>触发。阅读窗格显示项目。</description>
+            </item>
+            <item>
+              <description>0</description>
+              <description>否</description>
+              <description>项目添加到选定内容。<b>SelectionChange</b>触发。</description>
+            </item>
+            <item>
+              <description>&gt;= 1</description>
+              <description>是</description>
+              <description>项目添加到选定内容。<b>SelectionChange</b>触发。阅读窗格不会更改其显示的项目除非视图是日历视图中，在这种情况下，调用<b>AddToSelection</b>可能会导致阅读窗格显示其他项目。</description>
+            </item>
+            <item>
+              <description>&gt;= 1</description>
+              <description>否</description>
+              <description>项目添加到选定内容。<b>SelectionChange</b>触发。</description>
+            </item>
+          </list>
+          <para>如果指定的项已选择在活动资源管理器中，调用 <b>AddToSelection</b> 不会导致任何更改为所选内容， <b>SelectionChange</b> 事件不会触发。</para>
+          <para>当在定期约会或任务指定项目作为<b>AddToSelection</b>方法的参数时，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />属性和<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。 如果不展开定期事件，并且获得该系列中的事情，通过实例变量表示的约会或任务系列和 <b>AddToSelection</b> 方法进行操作，而不是出现一系列上。 </para>
+          <para>请注意，可以使用 <b>AddToSelection</b> 来将项目添加到所选内容，但无法将对话标头添加到所选内容。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -416,11 +422,9 @@
       <Parameters />
       <Docs>
         <summary>清除来自 Microsoft 即时搜索结果<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />如果结果显示在<b>资源管理器</b>中。</summary>
-        <remarks>
-          <para>此方法的功能是类似于即时搜索中清除按钮。  </para>
-          <para>，如果不含搜索结果显示在浏览器， <b>ClearSearch</b>中将不执行任何操作。如果当前视图的<b>资源管理器</b>没有显示搜索视图， <b>ClearSearch</b>将不会引发错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法的功能类似于即时搜索中清除按钮。   </para>
+          <para>如果浏览器中不显示任何搜索结果， <b>ClearSearch</b> 将不会执行任何操作。如果 <b>资源管理器中</b> 的当前视图没有显示搜索视图， <b>ClearSearch</b> 将不会引发错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearSelection">
@@ -445,14 +449,12 @@
       <Parameters />
       <Docs>
         <summary>取消活动资源管理器中的任何选择。</summary>
-        <remarks>
-          <para>调用<b>ClearSelection</b>方法后，<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性返回零。那么，<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />除非之前的<b>ClearSelection</b>呼叫，当前视图不包含任何项目、 当前文件夹为空，或者<b>Count</b>属性已为零，会触发事件。</para>
-          <para>如果当前视图是表视图是可见的阅读窗格中，调用<b>ClearSelection</b>呈现阅读窗格为空。</para>
-          <para>如果当前视图或当前文件夹不包含任何项目，调用<b>ClearSelection</b>不会引起任何更改对所选内容并不会触发<b>SelectionChange</b>事件。</para>
-          <para>如果当前视图中处于编辑项目， 
-            <b>ClearSelection</b>将返回错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>调用<b>ClearSelection</b>方法后，<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性返回零。 那么，<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />除非之前的<b>ClearSelection</b>呼叫，当前视图不包含任何项目、 当前文件夹为空，或者<b>Count</b>属性已为零，会触发事件。 </para>
+          <para>如果当前视图是表格视图阅读窗格处于可见状态，调用 <b>ClearSelection</b> 呈现阅读窗格保留为空。</para>
+          <para>如果当前文件夹的当前视图中不包含任何项，调用 <b>ClearSelection</b> 不会导致任何更改为所选内容并不会触发 <b>SelectionChange</b> 事件。</para>
+          <para>如果正在编辑当前视图中的项，则 
+            <b>ClearSelection</b> 将返回错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -537,12 +539,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示在浏览器中显示的当前文件夹。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示在浏览器中显示的当前文件夹。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>使用此属性可更改用户正在查看的文件夹。</para>
-          <para />
-        </remarks>
+        <remarks><para>使用此属性可更改用户正在查看的文件夹。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentView">
@@ -571,12 +571,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个代表当前视图的<b>对象</b>。 为可读/写属性。</summary>
+        <summary>返回或设置一个代表当前视图的<b>对象</b>。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>若要获取<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象的当前视图<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />，使用<b>Explorer.CurrentView</b> ，而不是使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />返回对象<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />。</para>
-          <para>必须先保存由<b>CurrentView</b>返回，然后您才能继续用于任何目的<b>View</b>对象的引用。</para>
-          <para>正确重置当前视图中，您必须执行<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />，然后<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。下面的代码示例说明了的呼叫顺序：</para>
+        <remarks><para>若要获取<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象的当前视图<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />，使用<b>Explorer.CurrentView</b> ，而不是使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />返回对象<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />。 </para>
+          <para>您必须保存返回 <b>CurrentView</b> 之前继续将其用于任何目的的 <b>视图</b> 对象的引用。</para>
+          <para>要正确重置当前视图，您必须执行<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />，然后<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。 下面的代码示例说明了调用顺序：</para>
           <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
@@ -595,9 +594,8 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-          <para>设置此属性时，两个事件发生：<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />发生之前发生，可以使用取消更改这些实际大小视图更改和<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />发生更改将生效之后。</para>
-          <para />
-        </remarks>
+          <para>当设置此属性时，会发生两个事件：<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />发生之前发生，可以使用取消更改这些实际大小视图更改和<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />发生之后更改将生效。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeselectFolder">
@@ -653,10 +651,9 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>显示一个新<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象的文件夹。</summary>
-        <remarks>
-          <para>
-            <b>Display</b>方法支持为了向后兼容的浏览器和检查器窗口。若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</para>如果您尝试使用 Microsoft Outlook 对象模型中打开"不安全的"文件系统对象 （或"freedoc"文件） 
-          <para>，E_FAIL 返回代码中收到 C 或 c + + 编程语言。在 Outlook 2000 和更早版本，您无法使用<b>Display</b>方法打开"不安全的"文件系统对象。</para><para /></remarks>
+        <remarks><para>为了向后兼容的浏览器和检查器窗口支持 <b>显示</b> 方法。 若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</para>
+          <para>如果您尝试打开"不安全"文件系统对象 (或"freedoc"文件)，请使用Microsoft Outlook对象模型，您将收到 E_FAIL 返回代码在 C 或 c + + 编程语言中。在 Outlook 2000 和早期版本，您可以通过 <b>显示</b> 方法打开"不安全"文件系统对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -685,7 +682,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个指定浏览器窗口的高度 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个指定浏览器窗口的高度 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -715,10 +712,8 @@ End Sub</code>
       <Docs>
         <summary>返回一个 <b>HTMLDocument</b> 对象，指定与当前视图 (假定存在) 中的 HTML 文档相关联的 HTML 对象模型。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>若要使用此属性，，文件夹必须使用文件夹主页，也可以设置<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />到网页的对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>若要使用此属性，，文件夹必须使用文件夹主页，也可以设置<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />到网页的对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsFolderSelected">
@@ -779,10 +774,12 @@ End Sub</code>
         <param name="Item">考虑要选择的项目。</param>
         <summary>返回一个值，该值指示指定的 Microsoft Outlook项目 在活动资源管理器的当前视图中是否可选择。</summary>
         <returns>返回<see cref="T:System.Boolean" />(<b>bool</b>的 C#) 值，该值指示是否可在当前视图中选择的指定的项。</returns>
-        <remarks>
-          <para>返回<b>True</b>如果可以在当前视图; 中选定项否则返回<b>False</b>。</para>
-          <para>方法返回<b>True</b>或<b>False</b> ，具体取决于是否在视图中的项目。它不指示项目是否在视图中可见。如果该项目包含在折叠视图中的组中，该方法返回<b>False</b>。</para>
-          <para>如果单元格内编辑活动浏览器的当前视图打开并且单元格内编辑正在进行的项，该方法返回<b>False</b>。如果当前视图是表视图，您可以检查的单元格内编辑使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。同样，如果当前视图是卡片视图，则可以使用<see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />属性<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />对象。</para>当您定期约会或任务中指定项目，如参数， <b>IsItemSelectableInView</b>方法，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /><para>如果当前视图是对话视图， <b>IsItemSelectableInView</b>方法将引发错误。</para><para /></remarks>
+        <remarks><para>当返回 <b>True</b> 可以在当前视图中; 选定项否则返回 <b>False</b> 。</para>
+          <para>该方法返回 <b>True</b> 或 <b>False</b> 根据是否可在视图中选择该项目。它不表示的项是否在视图中可见。如果此项包含在视图中折叠的组，则该方法返回 <b>False</b> 。</para>
+          <para>如果在单元格内编辑为当前活动的资源管理器视图打开并且在单元格内编辑正在进行的项目，该方法返回 <b>False</b> 。 如果当前视图是表视图，您可以检查的单元格内编辑使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。 同样，如果当前视图是卡片视图，则可以使用<see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />属性<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />对象。</para>
+          <para>当您指定项目在定期约会或任务为参数， <b>IsItemSelectableInView</b>方法时，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />属性和<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。 如果不展开定期事件，并且获得系列中出现，您可以传递实例变量表示的约会或任务系列，和 <b>IsItemSelectableInView</b> 方法将运行而不是出现一系列上。 </para>
+          <para>如果当前视图是会话视图， <b>IsItemSelectableInView</b> 方法将引发错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsPaneVisible">
@@ -810,12 +807,9 @@ End Sub</code>
       <Docs>
         <param name="Pane">要检查的窗格。</param>
         <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示的特定资源管理器窗格是否可见。</summary>
-        <returns>
-          <b>如此</b> 如果在指定窗格中显示在资源管理器;否则为 <b>假</b> 。</returns>
-        <remarks>
-          <para>您还可以使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />属性<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />对象确定快捷方式窗格是否可见。</para>
-          <para />
-        </remarks>
+        <returns><b>如此</b> 如果在指定窗格中显示在资源管理器;否则为 <b>假</b> 。</returns>
+        <remarks><para>您还可以使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />属性<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />对象确定快捷方式窗格是否可见。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Left">
@@ -844,7 +838,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个指定左边缘垂直从屏幕边缘浏览器窗口的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个指定左边缘垂直从屏幕边缘浏览器窗口的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -874,10 +868,8 @@ End Sub</code>
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象，表示在导航窗格<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>某些<b>Explorer</b>对象可能没有关联的<b>NavigationPane</b>对象。在这种情况下，此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）</para>
-          <para />
-        </remarks>
+        <remarks><para>某些<b>Explorer</b>对象可能没有关联的<b>NavigationPane</b>对象。 在这种情况下，此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Panes">
@@ -961,37 +953,64 @@ End Sub</code>
       <Docs>
         <param name="Item">要从选定内容中移除的项目。</param>
         <summary>取消选中活动资源管理器中指定的 Microsoft Outlook项目。</summary>
-        <remarks>
-          <para>活动资源管理器中的选定内容由<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象返回的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性。</para>
-          <para>要删除项必须是在活动资源管理器当前视图中。使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />方法以确定是否可在视图中选择项目。项目没有为视图中可见。</para>
-          <para>以下情况下，Outlook 将返回错误时调用<b>RemoveFromSelection</b>方法：</para>
+        <remarks><para>活动资源管理器中的选定内容由<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象返回的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性。</para>
+          <para>要删除项必须是在活动资源管理器当前视图中。 使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />方法以确定是否可在视图中选择项目。 该项目不必在视图中可见。 </para>
+          <para>在下列情况下调用<b>RemoveFromSelection</b>方法时，Outlook 也会返回错误：</para>
           <list type="bullet">
             <item>
-              <para>指定的项目在活动资源管理器的当前视图不是。</para>
+              <para>指定的项目不在活动资源管理器的当前视图中。</para>
             </item>
             <item>
-              <para>活动浏览器的当前视图中处于编辑的指定的项。</para>
+              <para>指定的项目在活动资源管理器的当前视图中处于编辑状态。</para>
             </item>
             <item>
-              <para>被筛选出当前视图和筛选器的应用程序从视图中移除项目。</para>
+              <para>当前视图已经过筛选，并且应用筛选后，该项目已从视图中移除。</para>
             </item>
             <item>
-              <para>尚未保存的指定的项。</para>
+              <para>指定的项目未保存。</para>
             </item>
             <item>
-              <para>指定的项目表示<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</para>
+              <para>指定的项目表示<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。 </para>
             </item>
             <item>
               <para>当前视图是对话视图。</para>
             </item>
             <item>
-              <para>没有当前视图存在活动资源管理器。</para>
+              <para>活动资源管理器没有当前视图存在。</para>
             </item>
-          </list>如果选择项目，则调用<b>RemoveFromSelection</b>原因
-          <para><see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />触发事件。如果未选择项目，调用<b>RemoveFromSelection</b>不会触发<b>SelectionChange</b>事件。</para><para>调用<b>RemoveFromSelection</b>不会滚动视图来使选定的项目视图中可见和不展开或折叠视图中的组。</para><para>下表说明了调用<b>RemoveFromSelection</b>，考虑任何当前所选内容的结果 (<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性)、 阅读窗格显示，以及是否中显示的指定的项阅读窗格。</para><description>是</description>的
-              <description>是</description><description>选定内容被清除
-          <list type="table"><item><description>1</description>。<b>SelectionChange</b>触发。阅读窗格为空。 
-            </item></list><item><description> &gt;1</description><description>是</description><description>无</description><description>项已从所选内容。<b>SelectionChange</b>触发。阅读窗格没变化。</description></item><item><description> &gt;1</description><description>是</description><description>是</description><description>项已从所选内容。<b>SelectionChange</b>触发。阅读窗格显示所选内容的下一个项目或旁边的项目。</description></item><item><description> &gt;= 1</description><description>无</description><description>n/A</description><description>项已从所选内容。<b>SelectionChange</b>激发。</description></item><para>如果指定的项的当前视图中存在但未选定在于视图调用<b>RemoveFromSelection</b>不会引起任何更改对所选内容，并且不会触发<b>SelectionChange</b>事件。</para>当您在定期约会或任务指定项目，如<b>RemoveFromSelection</b>方法参数，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /></description><para /></remarks>
+          </list>
+          <para>如果选择此项，则调用<b>RemoveFromSelection</b>原因<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />触发事件。 如果未选中此项，调用 <b>RemoveFromSelection</b> 不会导致 <b>SelectionChange</b> 事件的开始。</para>
+          <para>调用<b>RemoveFromSelection</b>不会滚动视图来使选定的项目视图中可见和不展开或折叠视图中的组。</para>
+          <para>下表说明了调用<b>RemoveFromSelection</b>，考虑任何当前所选内容的结果 (<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性)、 阅读窗格显示，是否和是否指定的项目显示在阅读窗格。</para>
+          <list type="table">
+            <item>
+              <description>1</description>
+              <description>是</description>
+              <description>是</description>
+              <description>选定内容被清除。<b>SelectionChange</b>触发。阅读窗格为空。</description>
+            </item>
+            <item>
+              <description>&gt;1</description>
+              <description>是</description>
+              <description>否</description>
+              <description>从所选内容中删除项。<b>SelectionChange</b>触发。阅读窗格没变化。</description>
+            </item>
+            <item>
+              <description>&gt;1</description>
+              <description>是</description>
+              <description>是</description>
+              <description>从所选内容中删除项。<b>SelectionChange</b>触发。阅读窗格显示选定内容中下一个项目或旁边的项目。</description>
+            </item>
+            <item>
+              <description>&gt;= 1</description>
+              <description>否</description>
+              <description>不适用</description>
+              <description>从所选内容中删除项。<b>SelectionChange</b>触发。</description>
+            </item>
+          </list>
+          <para>如果指定的项目的当前视图中存在但不是选中时，在视图调用<b>RemoveFromSelection</b>不会导致对所选内容和<b>SelectionChange</b>事件的任何更改将不会触发。</para>
+          <para>当在定期约会或任务指定项目作为<b>RemoveFromSelection</b>方法的参数时，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />属性和<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。 如果不展开定期事件，并且获得系列中出现，您可以传递实例变量表示的约会或任务系列，和 <b>RemoveFromSelection</b> 方法将运行而不是出现一系列上。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Search">
@@ -1021,12 +1040,9 @@ End Sub</code>
         <param name="Query">可以包含即时搜索功能所支持的任何有效关键字的搜索字符串。</param>
         <param name="SearchScope">从文件夹的角度指定搜索范围。</param>
         <summary>对显示在资源管理器中使用的当前文件夹执行 Microsoft 即时搜索给定<paramref name="Query" />。</summary>
-        <remarks>
-          <para>类似于即时搜索中的搜索按钮<b>Explorer.Search</b>的功能。它的行为就好像用户键入即时搜索用户界面中的查询字符串，然后单击搜索。 当调用<b>Search</b>时，查询将运行在用户界面中，并且没有编程的机制来获取搜索结果。即时搜索的详细信息，查询 Outlook 帮助中的"即时搜索"。</para>
-          <para>
-            <b>Search</b>方法不提供回调功能，开发人员无法确定搜索何时完成。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Explorer.Search</b> 的功能是类似于即时搜索中的 搜索按钮。 它的行为就像是用户在即时搜索用户界面中键入了查询字符串，然后单击 搜索。  当调用 <b>Search</b> 时，查询将运行在用户界面中，并且没有用于获取搜索结果的编程机制。 即时搜索，Outlook 帮助中的"即时搜索"查询的详细信息。</para>
+          <para><b>Search</b> 方法不提供回调功能，开发人员无法确定搜索何时完成。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectAllItems">
@@ -1051,10 +1067,13 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>选择包含在活动资源管理器当前视图中的所有项目。</summary>
-        <remarks>
-          <para>如果一个或多个组折叠当前视图中，调用<b>SelectAllItems</b>不选择折叠组中的项目。仅扩展组中的项目所选。</para>如果当前视图是日历视图的
-          <para>，调用<b>SelectAllItems</b>选择视图中的所有约会和全天事件。日历视图中调用<b>SelectAllItems</b>不会在日常任务列表中选择项目。</para><para><see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />会触发事件仅执行一次调用<b>SelectAllItems</b>方法后。</para><para>如果当前视图或当前文件夹不包含任何项目，调用<b>SelectAllItems</b>不会引起任何更改对所选内容并不会触发<b>SelectionChange</b>事件。</para><para>如果正在编辑项目在当前视图中，或者当前视图是对话视图， 
-            <b>SelectAllItems</b>将引发错误。</para><para /></remarks>
+        <remarks><para>如果当前的视图中，一个或多个组处于折叠状态，调用 <b>SelectAllItems</b> 不会选择折叠组中的项目。只在展开的组中选取项目。</para>
+          <para>如果当前视图是日历视图，如果调用 <b>SelectAllItems</b> ，则可在视图中选择所有约会和全天事件。在日历视图上调用 <b>SelectAllItems</b> 不日常任务列表中选择项目。</para>
+          <para><see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />会触发事件仅执行一次调用<b>SelectAllItems</b>方法后。</para>
+          <para>如果当前文件夹的当前视图中不包含任何项，调用 <b>SelectAllItems</b> 不会导致任何更改为所选内容并不会触发 <b>SelectionChange</b> 事件。</para>
+          <para>如果正在编辑的项与当前视图中或当前视图为对话视图时， 
+            <b>SelectAllItems</b> 将引发错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectFolder">
@@ -1113,10 +1132,8 @@ End Sub</code>
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象包含的当前视图中选择一个或多个项目。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果当前文件夹是文件系统文件夹，或者当前显示 Microsoft Outlook 今日或 Web 视图的任何文件夹，此属性返回一个空集合。另外组标头处于选中状态，如果所选内容的<b>Count</b>属性返回零。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果当前文件夹是文件系统文件夹，或者当前显示 Microsoft Outlook 今日或 Web 视图的任何文件夹，此属性返回一个空集合。 另外组标头处于选中状态，如果所选内容的<b>Count</b>属性返回零。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1144,17 +1161,14 @@ End Sub</code>
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowPane">
@@ -1182,14 +1196,11 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Pane">要显示的窗格。</param>
-        <param name="Visible">
-          <b>真正</b> 使窗格中可见， <b>False</b> 隐藏窗格。</param>
+        <param name="Visible"><b>真正</b> 使窗格中可见， <b>False</b> 隐藏窗格。</param>
         <summary>在浏览器中显示或隐藏特定窗格。</summary>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>注意</b>： 还可以使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />属性<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />对象显示或隐藏快捷方式窗格。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -1218,7 +1229,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指示从屏幕边缘浏览器窗口的顶部水平边缘的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置指示从屏幕边缘浏览器窗口的顶部水平边缘的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1280,7 +1291,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指定对象的宽度 （以像素为单位）。 为可读/写属性。</summary>
+        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指定对象的宽度 （以像素为单位）。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1311,7 +1322,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置的属性中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" />指定资源管理器或检查器窗口的窗口状态的枚举。 可读/写。</summary>
+        <summary>返回或设置的属性中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" />指定资源管理器或检查器窗口的窗口状态的枚举。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,5 @@
 <Type Name="_JournalModule" FullName="Microsoft.Office.Interop.Outlook._JournalModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="56610af43bb71ceb5d575ba50b86e86b91a9b435" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631599" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _JournalModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="56610af43bb71ceb5d575ba50b86e86b91a9b435" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898282" /></Metadata><TypeSignature Language="C#" Value="public interface _JournalModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _JournalModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._JournalModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _JournalModule" />
@@ -83,10 +75,8 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回的<b>olJournalModule</b><see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回的<b>olJournalModule</b> <see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -170,10 +160,8 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />代表对象的导航模块类型的常量。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回的<b>olModuleJournal</b><see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回的<b>olModuleJournal</b> <see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -230,21 +218,19 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>整数</b>值，表示的序号位置<see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />对象在导航窗格中显示时。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>整数</b>值，表示的序号位置<see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />对象在导航窗格中显示时。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>仅为 1 到 8 之间的值，将设置此属性。如果您尝试将此属性设置为超出该范围的值，则将出错。</para>
-          <para>更改此属性的值的<b>JournalModule</b>对象更改<b>位置</b>值包含其他导航模块<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />集合，具体取决于新值和原始值之间的相对更改<b>JournalModule</b>对象的<b>position</b>属性： </para>
+        <remarks><para>此属性只能设置为 1 和 8 之间的值。如果您尝试将此属性设置为该范围以外的值，则会出现错误。</para>
+          <para><b>JournalModule</b>对象的此属性的值更改<b>位置</b>值包含其他导航模块的<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />集合，具体取决于<b>的原始值的新值之间的相对更改位置</b> <b>JournalModule</b>对象的属性： </para>
           <list type="bullet">
             <item>
-              <para>如果新值小于原始值，然后指定的<b>JournalModule</b>对象移到新位置并已将其他导航模块等于或低于下的新位置。</para>
+              <para>如果新值小于的原始值，指定的<b>JournalModule</b>对象移到新位置，并将其他导航模块已等于或低于下的新位置。</para>
             </item>
             <item>
-              <para>新值大于原始值，然后指定的<b>JournalModule</b>对象下移到新位置，并将其他导航模块推送旧的位置之间 up 的新位置，如果填充旧的位置。</para>
+              <para>如果新值大于的原始值，指定的<b>JournalModule</b>对象下移到新位置，并将旧位置和新位置之间的其他导航模块，以填充旧的位置。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -272,17 +258,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -311,7 +294,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> )，确定是否<see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />在导航窗格中显示对象。 可读/写。</summary>
+        <summary>返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> )，确定是否<see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" />在导航窗格中显示对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

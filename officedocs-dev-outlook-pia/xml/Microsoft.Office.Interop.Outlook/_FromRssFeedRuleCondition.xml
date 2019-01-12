@@ -1,13 +1,5 @@
 <Type Name="_FromRssFeedRuleCondition" FullName="Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5456d3a993ab54560ea591aa3a07476cccd977c7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631583" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FromRssFeedRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5456d3a993ab54560ea591aa3a07476cccd977c7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898898" /></Metadata><TypeSignature Language="C#" Value="public interface _FromRssFeedRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FromRssFeedRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FromRssFeedRuleCondition" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>从返回常量， <b>olConditionFromRssFeed</b>，<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />指示的规则条件的类型的枚举。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此规则条件邮件接收规则的支持。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkID=87803">指定规则条件</a></para>
-          <para />
-        </remarks>
+        <remarks><para>用于接收邮件的规则支持此规则条件。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkID=87803">指定规则条件</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -143,12 +133,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的确定是否启用的规则条件。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的确定是否启用的规则条件。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>启用的规则条件后，还必须使用保存规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />，以便规则条件及其启用的状态当前会话。只有成功保存后启用的规则条件。</para>
-          <para />
-        </remarks>
+        <remarks><para>启用的规则条件后，还必须使用保存规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />，以便规则条件及其启用的状态当前会话。 规则条件只有在成功保存之后才能启用。   </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromRssFeed">
@@ -177,14 +165,12 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个代表要计算的规则条件的 RSS 订阅的<b>字符串</b>（C# 中的<b>字符串</b>） 元素的数组。 为可读/写属性。</summary>
+        <summary>返回或设置一个代表要计算的规则条件的 RSS 订阅的<b>字符串</b>（C# 中的<b>字符串</b>） 元素的数组。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>数组的每个元素都是一个 RSS 订阅。多个 RSS 订阅计算为逻辑 OR 条件。</para>
-          <para>您无法获取有效通过 Outlook 对象模型的 RSS 订阅名称的列表。您可以从 XML 文件 Outlook.Sharing.xml.obi，位于文件夹 [驱动器] \Documents and Settings 中获取有效的 RSS 订阅名称的列表\[用户名] \Local Settings\Application data\microsoft\outlook 中\.名称属性的&lt;本地&gt;标记包含必须为<b>FromRssFeed</b>提供的字符串数组中的 RSS 订阅的名称。若要枚举所有 RSS 订阅，请检查&lt;绑定&gt;标记的位置&lt;绑定 prov ="{0006F0AF-0000-0000-C000-000000000046}"&gt;。</para>
-          <para>如果数组中的一个或多个元素包含空字符串或无效的 RSS 订阅，则将返回错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>该数组的每个元素都是一个 RSS 订阅。多个 RSS 订阅按逻辑 OR 条件进行计算。</para>
+          <para> 无法获取有效通过 Outlook 对象模型的 RSS 订阅名称的列表。 您可以从 XML 文件 Outlook.Sharing.xml.obi，位于文件夹 [驱动器] \Documents and Settings 中获取有效的 RSS 订阅名称的列表\[用户名] \Local Settings\Application data\microsoft\outlook 中\. Name 属性的&lt;本地&gt;标记包含必须为<b>FromRssFeed</b>提供的字符串数组中的 RSS 订阅的名称。 若要枚举所有 RSS 订阅，请检查&lt;绑定&gt;标记的位置&lt;绑定 prov ="{0006F0AF-0000-0000-C000-000000000046}"&gt;。 </para>
+          <para>如果数组中有一个或多个元素包含空字符串或无效的 RSS 订阅，则返回错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -212,10 +198,8 @@
       <Docs>
         <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>父对象是<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>父对象是<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -243,17 +227,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

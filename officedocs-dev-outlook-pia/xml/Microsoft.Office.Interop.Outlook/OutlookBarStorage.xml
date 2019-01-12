@@ -1,13 +1,5 @@
 <Type Name="OutlookBarStorage" FullName="Microsoft.Office.Interop.Outlook.OutlookBarStorage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="043c8ecdd93490c3e8263146a82163cecdeb3921" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631878" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d13a6d2bb6e5b24337516ec0dbcf6227c9faa792" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905762" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarStorage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarStorage" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>代表快捷方式窗格中的对象的存储区。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" />属性<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />对象检索<b>OutlookBarStorage</b>对象的窗格。</para>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" />属性<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />对象检索窗格<b>OutlookBarStorage</b>对象。</para>
       <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" />属性来检索<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" />快捷方式窗格中的对象。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -171,17 +161,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

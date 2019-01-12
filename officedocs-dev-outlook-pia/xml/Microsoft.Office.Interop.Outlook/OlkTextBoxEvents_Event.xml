@@ -1,13 +1,5 @@
 <Type Name="OlkTextBoxEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="29bb9c23ea2dac69b85e3e28cd4150a07e8844e4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631867" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkTextBoxEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="34ade93bf254c3e20148f6fe4c1270fb0a1173bd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901569" /></Metadata><TypeSignature Language="C#" Value="public interface OlkTextBoxEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTextBoxEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkTextBoxEvents_Event" />
@@ -49,9 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>当控件中的数据已通过用户界面更改后发生。</summary>
-        <remarks>
-          <para>
-            <b>BeforeUpdate</b>和<b>AfterUpdate</b>会发生任何控件中的数据保存到项目的时间。 典型的此控件，如下所示，涉及<b>AfterUpdate</b>事件序列：</para>
+        <remarks><para>
+            <b>更新</b> 和 <b>更新后</b> 会在该控件中的数据保存到项目的任何时候。  典型的涉及 <b>更新后</b> ，此控件的事件序列如下所示:</para>
           <list type="number">
             <item>
               <description>用户将焦点放在控件上</description>
@@ -71,11 +62,10 @@
             </item>
             <item>
               <description>
-                <b>Exit</b>： 用户将焦点从控件上</description>
+                <b>退出</b>: 用户移动焦点离开控件</description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeUpdate">
@@ -94,11 +84,9 @@
       </ReturnValue>
       <Docs>
         <summary>当控件中的数据通过用户界面更改并且即将保存到项目时发生。</summary>
-        <remarks>
-          <para>取消此属性将还原为属性的当前值的控件，并将焦点返回到该控件。</para>
+        <remarks><para>取消此属性会将该控件恢复为该属性的当前值，并将焦点返回到该控件。</para>
           <para>
-            <b>BeforeUpdate</b>
-            <b>AfterUpdate</b>会导致出现和的随时控件中的数据保存到项目。 典型的此控件，如下所示，涉及<b>BeforeUpdate</b>事件序列：</para>
+            <b>更新</b> 和 <b>更新后</b> 会在该控件中的数据保存到项目的任何时候。  典型的涉及此控件的 <b>更新前</b> 事件序列如下所示:</para>
           <list type="number">
             <item>
               <description>用户将焦点放在控件上</description>
@@ -118,11 +106,10 @@
             </item>
             <item>
               <description>
-                <b>Exit</b>： 用户将焦点从控件上</description>
+                <b>退出</b>: 用户移动焦点离开控件</description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Change">
@@ -198,10 +185,8 @@
       </ReturnValue>
       <Docs>
         <summary>当控件获得焦点时前, 一个控件的 <b>Exit</b> 事件之后立即发生。</summary>
-        <remarks>
-          <para>这是托管代码控件公开的或 Microsoft Visual Basic 6 中的<b>GotFocus</b>事件类似。</para>
-          <para />
-        </remarks>
+        <remarks><para>这是类似于 <b>GotFocus</b> 事件公开由托管代码控件或 Microsoft Visual Basic 6 中。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exit">
@@ -239,11 +224,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户按下某个键时发生。</summary>
-        <remarks>
-          <para>
-            <b>KeyDown</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>KeyDown</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -262,26 +244,23 @@
       </ReturnValue>
       <Docs>
         <summary>当用户按某个 ANSI 键时发生。</summary>
-        <remarks>
-          <para>生成可键入字符，当用户按其 ANSI 键。用户运行窗体在窗体上按下某个 ANSI 键或上的某个控件具有焦点时，将发生<b>KeyPress</b>事件。之前或之后释放该键，可能发生此事件。</para>
-          <para>
-            <b>KeyPress</b>事件以下情况下不会发生：</para>
+        <remarks><para>一个 ANSI 键是一种用户按下它时生成可键入字符。 用户运行窗体在窗体上按下某个 ANSI 键或上的某个控件具有焦点时，将发生<b>KeyPress</b>事件。 之前或之后释放该键，则可能发生此事件。</para>
+          <para>在下列情况下，不发生 <b>KeyPress</b> 事件:</para>
           <list type="bullet">
             <item>
-              <para>按选项卡上</para>
+              <para>按 Tab。</para>
             </item>
             <item>
-              <para>按输入</para>
+              <para>按 Enter。</para>
             </item>
             <item>
               <para>按箭头键</para>
             </item>
             <item>
-              <para>当键击导致焦点从一个控件移到另一个。</para>
+              <para>当键击导致焦点从一个控件移到另一个控件时。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -300,10 +279,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户释放某个键时发生。</summary>
-        <remarks>
-          <para>在<b>KeyUp</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
-          <para />
-        </remarks>
+        <remarks><para>在<b>KeyUp</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -341,10 +318,8 @@
       </ReturnValue>
       <Docs>
         <summary>在控件上出现鼠标移动后发生。</summary>
-        <remarks>
-          <para>按 ALT 键可触发<b>MouseMove</b>事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>按下 ALT键触发 <b>MouseMove</b> 事件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

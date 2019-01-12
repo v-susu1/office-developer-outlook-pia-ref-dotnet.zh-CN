@@ -1,13 +1,5 @@
 <Type Name="Pages" FullName="Microsoft.Office.Interop.Outlook.Pages">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3a39316f31c31dd7d14073362c6ea96a307b3e63" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632753" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Pages : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee2ae6b5fa0a95a49e5a94e7b8a64a924c28cab9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905615" /></Metadata><TypeSignature Language="C#" Value="public interface Pages : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Pages implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Pages" />
   <TypeSignature Language="VB.NET" Value="Public Interface Pages&#xA;Implements IEnumerable" />
@@ -31,10 +23,11 @@
   </Attributes>
   <Docs>
     <summary>包含代表检查器窗口页的页面。</summary>
-    <remarks>
-      <para>每个<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象具有一个<b>页面</b>定义的对象，它是空 （计数为 0），如果从不已的 Outlook 项目之前自定义。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.ModifiedFormPages" />属性可从<b>Inspector</b>对象返回<b>Pages</b>对象。</para>使用
-      <para><see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" />方法，以创建自定义页面 （您可以添加多达 5 个可自定义页面）。使用<b>Add</b>方法的名称参数设置返回页上的显示名称。除了添加自定义页面，您可以使用<paramref name="Name" />参数返回<b>Inspector</b>对象进行修改的主页。</para><para>使用<b>ModifiedFormPages</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可从<b>Pages</b>对象返回的单个页面。</para><para /></remarks>
+    <remarks><para>每个<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象具有一个<b>页面</b>定义的对象，它是空 （计数为 0），如果从不已的 Outlook 项目之前自定义。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.ModifiedFormPages" />属性可从<b>Inspector</b>对象返回<b>Pages</b>对象。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" />方法，以创建自定义页面 （您可以添加多达 5 个可自定义页面）。 使用<b>Add</b>方法的名称参数设置返回页上的显示名称。 除了添加自定义页面，您可以使用<paramref name="Name" />参数返回<b>Inspector</b>对象进行修改的主页。</para>
+      <para>使用<b>ModifiedFormPages</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可从<b>Pages</b>对象返回的单个页面。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -61,14 +54,9 @@
       <Docs>
         <param name="Name">页面的名称。</param>
         <summary>创建一个新的页面，在<see cref="T:Microsoft.Office.Interop.Outlook.Pages" />集合。</summary>
-        <returns>
-          <a href="http://go.microsoft.com/fwlink/?LinkId=87950">页</a>
-        </returns>
-        <remarks>
-          <para>
-            <b>Pages</b>集合初始为空，并且没有限制为每个集合 5 个可自定义页面。</para>
-          <para />
-        </remarks>
+        <returns><a href="http://go.microsoft.com/fwlink/?LinkId=87950">页</a></returns>
+        <remarks><para><b>Pages</b> 集合初始为空，并且没有限制为每个集合 5 个可自定义的页面。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -268,17 +256,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

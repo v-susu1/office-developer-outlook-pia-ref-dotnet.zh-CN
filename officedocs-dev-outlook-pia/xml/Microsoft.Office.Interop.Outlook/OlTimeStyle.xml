@@ -1,13 +1,5 @@
 <Type Name="OlTimeStyle" FullName="Microsoft.Office.Interop.Outlook.OlTimeStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f0e5b8b037c6560b38e2cf451d02456b1d07b151" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631648" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlTimeStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="06def39a148d0498b4fc0eff481c52f16cfbf7fd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898478" /></Metadata><TypeSignature Language="C#" Value="public enum OlTimeStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlTimeStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlTimeStyle" />
@@ -26,10 +18,8 @@
   </Attributes>
   <Docs>
     <summary>指定时间值的显示方式以及时间控件解释时间值条目的方式。</summary>
-    <remarks>
-      <para>使用时间控件具有<b>olTimeStyleShortDuration</b>样式的持续时间字段，如<see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" />的<see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />。使用<b>olTimeStyleTimeDuration</b>样式时间控件的约会项目的结束时间。使用<b>olTimeStyleTimeOnly</b>样式时间控件的约会项目的开始时间。</para>
-      <para />
-    </remarks>
+    <remarks><para>使用时间控件具有<b>olTimeStyleShortDuration</b>样式的持续时间字段，如<see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" />的<see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />。 将具有 <b>olTimeStyleTimeDuration</b> 样式的时间控件用于约会项目的结束时间。 将具有 <b>olTimeStyleTimeOnly</b> 样式的时间控件用于约会项目的开始时间。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olTimeStyleShortDuration">

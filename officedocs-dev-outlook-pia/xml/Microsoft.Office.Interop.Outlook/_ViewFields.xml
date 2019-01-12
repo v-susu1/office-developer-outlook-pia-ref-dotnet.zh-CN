@@ -1,13 +1,5 @@
 <Type Name="_ViewFields" FullName="Microsoft.Office.Interop.Outlook._ViewFields">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2fa7e9f0d7874832b1d6dbb48db18e744e8b2a5f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631611" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ViewFields : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2fa7e9f0d7874832b1d6dbb48db18e744e8b2a5f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901597" /></Metadata><TypeSignature Language="C#" Value="public interface _ViewFields : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ViewFields implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ViewFields" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ViewFields&#xA;Implements IEnumerable" />
@@ -60,12 +52,12 @@
         <param name="PropertyName">要与新对象关联的属性的名称。 此属性可以按 （显示在字段选择器） 的字段名称或通过命名空间引用 (由<see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />)。</param>
         <summary>将指定的字段添加到末尾的<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />的视图的集合。</summary>
         <returns>表示新视图字段的 <b>ViewField</b> 对象。</returns>
-        <remarks>
-          <para>引用中的属性<paramref name="PropertyName" />其字段名称都需要在相应的区域设置中的本地化的名称。通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
-          <para>如果要自定义属性添加到<b>ViewFields</b>集合，该属性必须存在于<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />集合View 的父文件夹。 </para>
-          <para>如果属性已存在于<b>ViewFields</b>集合，则 Outlook 将引发错误。</para>
-          <para>，以编程方式向视图中添加自定义字段，使用<b>ViewFields.Add</b>方法。这是通过设置中动态更改视图的建议的方式<see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />属性。</para>某些属性不能为
-          <para>添加到视图使用<b>ViewFields.Add</b>，包括二进制属性，计算属性，和 HTML 或 RTF 正文内容。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table 对象或 Table 筛选器中不受支持属性</a></para><para /></remarks>
+        <remarks><para>引用中的属性<paramref name="PropertyName" />其字段名称都需要在相应的区域设置中的本地化的名称。 通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
+          <para>如果要自定义属性添加到<b>ViewFields</b>集合，该属性必须存在于<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />View 的父文件夹的集合。  </para>
+          <para>如果 <b>ViewFields</b> 集合中已存在该属性，则 Outlook 将引发错误。</para>
+          <para>若要以编程方式向视图中添加自定义字段，使用 <b>ViewFields.Add</b> 方法。 这是通过设置中动态更改视图的建议的方式<see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />属性。</para>
+          <para>无法将某些属性添加到视图中使用 <b>ViewFields.Add</b> ，包括二进制属性、 计算的属性和 HTML 或 rtf 格式的正文内容。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87926">Table 对象或 Table 筛选器中不受支持属性</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -211,8 +203,7 @@
       <Docs>
         <param name="Index">值可以是索引中的<b>ViewField</b>对象的基于一的整数<see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />集合、 字符串匹配的<see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />的集合或在字段选择器中显示的字段名称中的<b>ViewField</b>对象的属性值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ViewField" />对象的集合。</summary>
-        <value>
-          <b>ViewField</b> 对象，该对象代表指定的对象。</value>
+        <value><b>ViewField</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -297,17 +288,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

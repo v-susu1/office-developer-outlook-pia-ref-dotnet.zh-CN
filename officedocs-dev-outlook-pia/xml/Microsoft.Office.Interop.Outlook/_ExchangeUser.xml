@@ -1,13 +1,5 @@
 <Type Name="_ExchangeUser" FullName="Microsoft.Office.Interop.Outlook._ExchangeUser">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a9ddbfaff850f514434b04c735be4ebc01664fb1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631486" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ExchangeUser" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a9ddbfaff850f514434b04c735be4ebc01664fb1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902906" /></Metadata><TypeSignature Language="C#" Value="public interface _ExchangeUser" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ExchangeUser" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ExchangeUser" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ExchangeUser" />
@@ -56,13 +48,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示 X400 电子邮件地址的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示 X400 电子邮件地址的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性假定 X400 用户地址。若要确定主 Internet 地址，请使用<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" />属性。</para>
-          <para>呼叫之前，必须设置<b>Address</b>属性<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" />方法。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性显示用户的 X400 地址。 若要确定主 Internet 地址，请使用<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" />属性。</para>
+          <para>在呼叫之前，必须设置<b>Address</b>属性<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" />方法。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -90,11 +80,8 @@
       <Docs>
         <summary>返回<b>olExchangeUserAddressEntry</b>是常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />枚举表示用户类型的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。它<b>AddressEntryUserType</b>属性继承的<b>AddressEntry</b>对象。对于<b>ExchangeUser</b><b>AddressEntryUserType</b>应始终返回<b>olExchangeUserAddressEntry</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。 它的 <b>AddressEntryUserType</b> 属性继承的 <b>AddressEntry</b> 对象。 对于<b>ExchangeUser</b> <b>AddressEntryUserType</b>应始终返回<b>olExchangeUserAddressEntry</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Alias">
@@ -122,11 +109,9 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的别名<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagAccount</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagAccount</b> 的 MAPI 属性。</para>
+          <para>如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -183,13 +168,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的助手的名称<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的助手的名称<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagAssistant</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagAssistant</b> 的 MAPI 属性。</para>
+          <para>如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessTelephoneNumber">
@@ -218,13 +201,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的商务电话号码<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的商务电话号码<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagBusinessTelephoneNumber</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagBusinessTelephoneNumber</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="City">
@@ -253,13 +234,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的城市<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的城市<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagLocality</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagLocality</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -316,13 +295,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 代表批注<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 代表批注<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagComment</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagComment</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CompanyName">
@@ -351,13 +328,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的公司名称<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的公司名称<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagCompanyName</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagCompanyName</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -382,11 +357,8 @@
       <Parameters />
       <Docs>
         <summary>删除<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象从<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />其所属的集合对象。</summary>
-        <remarks>
-          <para>
-            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。<b>ExchangeUser</b>对象是一个<b>AddressEntry</b>对象，具有<b>olExchangeUserAddressEntry</b>作为<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />;调用<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" />返回对应的<b>ExchangeUser</b>对象。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。 <b>ExchangeUser</b>对象是一个<b>AddressEntry</b>对象，具有<b>olExchangeUserAddressEntry</b>作为<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />;调用<see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" />返回对应的<b>ExchangeUser</b>对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Department">
@@ -415,13 +387,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的部门<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的部门<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagDepartmentName</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagDepartmentName</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Details">
@@ -448,12 +418,9 @@
       <Docs>
         <param name="HWnd">"详细信息"对话框的父窗口句柄。零值（默认值）指定模式对话框。</param>
         <summary>显示一个模式对话框，提供有关详细的信息<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。</summary>
-        <remarks>
-          <para>如果失败， <b>Details</b>方法<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" />属性为空。您必须使用错误处理程序来处理运行时错误，并当用户单击取消对话框中的。</para>
-          <para>
-            <b>详细信息</b>方法实际上停止运行时显示的对话框中的代码。  </para>
-          <para />
-        </remarks>
+        <remarks><para>如果失败， <b>Details</b>方法<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" />属性为空。 必须使用错误处理程序来处理运行时错误，当用户单击对话框中的 取消。 </para>
+          <para><b>详细信息</b> 方法实际上会停止运行时显示对话框的代码。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -481,12 +448,9 @@
       <Docs>
         <summary>返回<b>olUser</b>是常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />枚举，表示的性质<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagDisplayType</b>。</para>
-          <para>
-            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。它<b>DisplayType</b>属性继承的<b>AddressEntry</b>对象。对于<b>ExchangeUser</b>， <b>DisplayType</b>应始终返回<b>olUser</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagDisplayType</b> 。</para>
+          <para> <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。 它 <b>DisplayType</b> 属性继承的 <b>AddressEntry</b> 对象。 对于<b>ExchangeUser</b>， <b>DisplayType</b>应始终返回<b>olUser</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FirstName">
@@ -515,13 +479,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的第一个名称的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的第一个名称的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagGivenName</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagGivenName</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -546,13 +508,9 @@
       <Parameters />
       <Docs>
         <summary>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#），因为<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象不对应于联系人通讯簿中的联系人。</summary>
-        <returns>
-          <b>执行任何操作</b>（空引用 (在 Visual Basic 中为 Nothing) 中 C#） 因为<b>ExchangeUser</b>对象不对应于联系人通讯簿中的联系人。</returns>
-        <remarks>
-          <para>
-            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。<b>GetContact</b>方法是从<b>AddressEntry</b>对象，而对于<b>ExchangeUser</b>，此方法始终返回<b>Nothing。</b></para>
-          <para />
-        </remarks>
+        <returns><b>执行任何操作</b>（空引用 (在 Visual Basic 中为 Nothing) 中 C#） 因为<b>ExchangeUser</b>对象不对应于联系人通讯簿中的联系人。</returns>
+        <remarks><para><b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。 <b>GetContact</b>方法是从<b>AddressEntry</b>对象，而对于<b>ExchangeUser</b>，此方法始终返回<b>Nothing。</b></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDirectReports">
@@ -577,13 +535,10 @@
       <Parameters />
       <Docs>
         <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />集合对象，其中包含直接向 Exchange 用户报告的所有用户。</summary>
-        <returns>
-          <b>AddressEntries</b> 集合对象，该对象包含用户直接汇报给 Exchange 用户。 <b>AddressEntries</b>对象会为零 (0) 计数如果没有表示没有直接下属，则通过<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />在当前会话中，或者直接下属没有实施 Exchange 目录中。</returns>
-        <remarks>
-          <para>如果没有连接到 Exchange 服务器的速度慢，则，则
-            <b>GetDirectReports</b>是操作会严重影响性能。</para>
-          <para />
-        </remarks>
+        <returns><b>AddressEntries</b> 集合对象，该对象包含用户直接汇报给 Exchange 用户。 <b>AddressEntries</b>对象会为零 (0) 计数如果没有表示没有直接下属，则通过<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />在当前会话中，或者直接下属没有实施 Exchange 目录中。</returns>
+        <remarks><para>慢速连接到 Exchange 服务器时， 
+            <b>GetDirectReports</b> 是在性能方面代价高昂的操作。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeDistributionList">
@@ -608,13 +563,9 @@
       <Parameters />
       <Docs>
         <summary>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#），因为<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象不对应于<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />对象。</summary>
-        <returns>
-          <b>执行任何操作</b>（空引用 (在 Visual Basic 中为 Nothing) 中 C#） 因为<b>ExchangeUser</b>对象不对应于<b>ExchangeDistributionList</b>对象。</returns>
-        <remarks>
-          <para>
-            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。<b>GetExchangeDistributionList</b>方法是从<b>AddressEntry</b>对象，而对于<b>ExchangeUser</b>，此方法始终返回<b>Nothing。</b></para>
-          <para />
-        </remarks>
+        <returns><b>执行任何操作</b>（空引用 (在 Visual Basic 中为 Nothing) 中 C#） 因为<b>ExchangeUser</b>对象不对应于<b>ExchangeDistributionList</b>对象。</returns>
+        <remarks><para><b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。 <b>GetExchangeDistributionList</b>方法是从<b>AddressEntry</b>对象，而对于<b>ExchangeUser</b>，此方法始终返回<b>Nothing。</b></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeUser">
@@ -665,8 +616,7 @@
       <Parameters />
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象，表示 Exchange 用户的经理。</summary>
-        <returns>
-          <b>ExchangeUser</b> 对象，该对象表示的 Exchange 用户管理器。</returns>
+        <returns><b>ExchangeUser</b> 对象，该对象表示的 Exchange 用户管理器。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -696,11 +646,9 @@
       <Docs>
         <param name="Start">忙闲程度的日期，从零时开始。</param>
         <param name="MinPerChar">以分钟为单位指定每个时间段的长度。默认值为 30 分钟。</param>
-        <param name="CompleteFormat">
-          <b>True</b> 值表明忙/闲字符串中返回的繁忙时间粒度更细。 <b>False</b> 值表明只空闲时间和繁忙时间之间的差异将返回。 </param>
+        <param name="CompleteFormat"><b>True</b> 值表明忙/闲字符串中返回的繁忙时间粒度更细。 <b>False</b> 值表明只空闲时间和繁忙时间之间的差异将返回。 </param>
         <summary>获取一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的可用性<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />日期在指定日期的零时开始日期的 30 天的时间。</summary>
-        <returns>
-          <b>字符串</b>（C# 中的<b>字符串</b>） 表示 Exchange 用户的可用性 30 天内的一段的开始日期，从指定日期的零时。 <b>字符串</b>（C# 中的<b>字符串</b>） 中的每个字符是一个值，指示用户是否可用 (0)，以及 （可选） 是否/闲时间标记暂定 (1)，出 office (3) 或其他 (2)。</returns>
+        <returns><b>字符串</b>（C# 中的<b>字符串</b>） 表示 Exchange 用户的可用性 30 天内的一段的开始日期，从指定日期的零时。 <b>字符串</b>（C# 中的<b>字符串</b>） 中的每个字符是一个值，指示用户是否可用 (0)，以及 （可选） 是否/闲时间标记暂定 (1)，出 office (3) 或其他 (2)。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -727,11 +675,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />集合对象，它包含<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />用户所属的对象表示所有 Exchange 通讯组列表。</summary>
         <returns>一个<b>AddressEntries</b>集合对象，代表 Exchange 通讯组列表到其<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />所属。 如果 <b>ExchangeUser</b> 不是任何 Exchange 通讯组列表的成员，则返回，次数设置为零 (0) <b>AddressEntries</b> 集合对象。</returns>
-        <remarks>
-          <para>如果没有连接到 Exchange 服务器的速度慢，则操作会严重影响性能
-            <b>GetMemberOfList</b> 。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果 Exchange Server 连接速度缓慢， 
+            <b>GetMemberOfList</b> 是在性能方面代价高昂的操作。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPicture">
@@ -757,11 +703,9 @@
       <Docs>
         <summary>获取<see cref="T:stdole.StdPicture" />对象，它代表在 Microsoft Outlook 中显示的 Microsoft Exchange 用户的图片。</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Exchange 用户的图片和，并存储在 Active Directory 中的在 Outlook 中，包括对话框中的 Outlook 属性的不同地方显示联系人 Card.If 图片不存在用户， <b>GetPicture</b>返回<b>Nothing</b> (在 C# 空引用 （Nothing 在 Visual Basic)）。</para>
-          <para>您可以仅<b>GetPicture</b>从代码调用的运行进程内为 Outlook。<b>StdPicture</b>对象不能被封送跨进程边界。如果您尝试从出进程代码调用<b>GetPicture</b> ，会发生异常。有关详细信息，请参阅<a href="http://support.microsoft.com/kb/150034">自动化服务器不能将图片对象的 IPictureDisp 实现跨进程边界指针传递</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Exchange 用户的图片和，并存储在 Active Directory 中的在 Outlook 中，包括对话框中的 Outlook 属性的不同地方显示联系人 Card.If 图片不存在用户， <b>GetPicture</b>返回<b>Nothing</b> (空引用 (在 Visual Basic 中为 Nothing) 中 C#）。</para>
+          <para>您只能从代码，运行在进程内为 Outlook 调用 <b>GetPicture</b> 。 <b>StdPicture</b>对象不能跨进程边界封送。 如果您尝试从进程外的代码中调用 <b>GetPicture</b>时，会发生异常。 有关详细信息，请参阅<a href="http://support.microsoft.com/kb/150034">自动化服务器无法传递到图片对象的 IPictureDisp 实现跨进程边界的指针</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -789,11 +733,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的唯一标识符<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。它从<b>AddressEntry</b>对象继承<b>ID</b>属性。传输提供程序时创建一个<b>AddressEntry</b>对象分配永久的唯一字符串的 ID。这些标识符请勿更改从一个会话到另一个。</para>
-          <para />
-        </remarks>
+        <remarks><para> <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。 它的 <b>ID</b> 属性继承的 <b>AddressEntry</b> 对象。 创建 <b>AddressEntry</b> 对象时，传输提供程序将分配一个永久且唯一的字符串 ID。 这些标识符不变化从一个会话到另一个。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="JobTitle">
@@ -822,13 +763,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的职务<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的职务<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagTitle</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagTitle</b> 。</para>
+          <para>如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastName">
@@ -857,13 +796,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示姓<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示姓<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagSurname</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagSurname</b> 的 MAPI 属性。</para>
+          <para>如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -991,13 +928,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的移动电话号码<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的移动电话号码<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagMobileTelephoneNumber</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagMobileTelephoneNumber</b> 的 MAPI 属性。</para>
+          <para>如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -1026,7 +961,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />对象。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1057,13 +992,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的办公室位置<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的办公室位置<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagOfficeLocation</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagOfficeLocation</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -1120,13 +1053,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮政编码<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮政编码<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagPostalCode</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagPostalCode</b> 。</para>
+          <para>如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PrimarySmtpAddress">
@@ -1154,11 +1085,9 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的主要简单邮件传输协议 (SMTP) 地址<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagEmailAddress</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagEmailAddress</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -1214,17 +1143,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StateOrProvince">
@@ -1253,13 +1179,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的州或省的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的州或省的<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagStateOrProvince</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagStateOrProvince</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StreetAddress">
@@ -1288,13 +1212,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的街道地址<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的街道地址<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagStreetAddress</b>。</para>
-          <para>如果此属性未被执行或<b>ExchangeUser</b>对象不存在，则返回空字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 MAPI 属性， <b>PidTagStreetAddress</b> 。</para>
+          <para> 如果此属性尚未实现或 <b>ExchangeUser</b> 对象不存在，则返回一个空字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -1323,13 +1245,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的条目类型<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的条目类型<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。从<b>AddressEntry</b>对象，它继承的<b>Type</b>属性。对于<b>ExchangeUser</b>类型始终是"EX"的字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ExchangeUser</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象。 它从 <b>AddressEntry</b> 对象继承的 <b>类型</b> 属性。 对于 <b>ExchangeUser</b> ，类型始终是"EX"字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -1355,16 +1274,12 @@
         <Parameter Name="Refresh" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="MakePermanent">
-          <b>True</b>的值表明刷新属性缓存，并将所有更改都提交到基本通讯簿中。 <b>False</b>的值表明刷新属性缓存，但不是提交到永久存储区。默认值是 <b>True</b>。 </param>
-        <param name="Refresh">
-          <b>True</b>表示，从基本通讯簿中的值重新加载属性缓存。 <b>False</b>表示不会重新加载属性缓存。默认值是 <b>False</b>。 </param>
+        <param name="MakePermanent"><b>True</b>的值表明刷新属性缓存，并将所有更改都提交到基本通讯簿中。 <b>False</b>的值表明刷新属性缓存，但不是提交到永久存储区。默认值是 <b>True</b>。 </param>
+        <param name="Refresh"><b>True</b>表示，从基本通讯簿中的值重新加载属性缓存。 <b>False</b>表示不会重新加载属性缓存。默认值是 <b>False</b>。 </param>
         <summary>投递对更改<see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />邮件系统中的对象。</summary>
-        <remarks>
-          <para>新条目或对现有条目的更改不保留在集合中与被调用<b>Update</b>方法之前其<paramref name="MakePermanent" />参数设置为<b>True</b>。 </para>
-          <para>以刷新缓存，然后重新加载通讯簿中的值，请调用具有<b>更新</b><paramref name="MakePermanent" />参数设置为<b>False</b>和<paramref name="Refresh" />参数设置为<b>True</b>。 </para>
-          <para />
-        </remarks>
+        <remarks><para>新条目或对现有条目的更改不保留在集合中与被调用<b>Update</b>方法之前其<paramref name="MakePermanent" />参数设置为<b>True</b>。  </para>
+          <para>若要刷新缓存，然后重新加载通讯簿中的值，调用具有<b>更新</b><paramref name="MakePermanent" />参数设置为<b>False</b>和<paramref name="Refresh" />参数设置为<b>True</b>。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">
@@ -1421,7 +1336,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的公司名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的公司名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1452,7 +1367,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的部门名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的部门名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1483,7 +1398,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Exchange 显示名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Exchange 显示名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1514,7 +1429,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的名字日语拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的名字日语拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1545,7 +1460,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的最后一个名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 可读/写。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的最后一个名称的日文拼音呈现 (yomigana) <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

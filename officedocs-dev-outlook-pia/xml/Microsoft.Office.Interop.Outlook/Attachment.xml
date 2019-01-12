@@ -1,13 +1,5 @@
 <Type Name="Attachment" FullName="Microsoft.Office.Interop.Outlook.Attachment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bca3de4ee3e1766193a9380a2d4dcee5344f4ba1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631744" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eadbaac7ca2fb1ea21fb2b4899e303c68daea5b3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904215" /></Metadata><TypeSignature Language="C#" Value="public interface Attachment" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachment" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachment" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>代表 Outlook 项目中包含的文档或文档链接。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是返回单个<b>Attachment</b>对象的索引号。</para>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是返回单个<b>Attachment</b>对象的索引号。</para>
       <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />方法，以向项目添加附件。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -87,10 +77,8 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" />常量，指定是否有任何限制基于文件扩展名的附件。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性的此值反映附件被阻止基于文件扩展名和如何附件安全设置客户端计算机上。在 Outlook 中的附件安全性的详细信息，请参阅 Office 资源工具包网站。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性的该值反映了是否根据附件的文件扩展名阻止附件，以及附件安全性在客户端计算机上是如何设置的。有关 Outlook 中的附件安全的详细信息，请参阅 Office 资源工具包网站。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -172,12 +160,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示不必是实际的文件名称，表示嵌入的附件的图标下面显示的名称。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示不必是实际的文件名称，表示嵌入的附件的图标下面显示的名称。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagDisplayName</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagDisplayName</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileName">
@@ -205,10 +191,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示附件的文件名。  只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>将此属性中结合使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>将此属性中结合使用<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTemporaryFilePath">
@@ -234,10 +218,9 @@
       <Docs>
         <summary>返回在临时文件的文件夹中的附加文件的完整路径。 只读。</summary>
         <returns>返回<see cref="T:System.String" />的表示临时附件文件的完整路径。</returns>
-        <remarks>
-          <para>其， <b>GetTemporaryFilePath</b>方法才有效的这些附件<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" />属性是<see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />。这意味着附件是一个副本，即使删除原始文件后，可以访问该副本。对于其他附件类型， <b>GetTemporaryFilePath</b>方法将返回错误。</para>
+        <remarks><para>其， <b>GetTemporaryFilePath</b>方法才有效的这些附件<see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" />属性是<see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />。 这意味着该附件是一个副本，该副本可即使删除原始文件。 对于其他附件类型， <b>GetTemporaryFilePath</b> 方法将返回错误。 </para>
           <para>
-            <b>GetTemporaryFilePath</b>也将返回错误时访问<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象在<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />集合或在<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />对象。仅在附件事件回调使用<b>GetTemporaryFilePath</b>下面列出的各种 Microsoft Outlook 项目：</para>
+            <b>GetTemporaryFilePath</b>也将返回错误时访问<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象在<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />集合或在<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />对象。 使用 <b>GetTemporaryFilePath</b> 只在下面列出的各种Microsoft Outlook项的附件事件回调:</para>
           <list type="bullet">
             <item>
               <para>
@@ -280,8 +263,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -309,11 +291,8 @@
       <Docs>
         <summary>返回指示集合中对象的位置的<b>整数</b>(C# 中<b>int</b> ) 值。  只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Index</b>属性仅在当前会话中有效，并且在可以更改对象添加到和从集合中删除。集合中的第一个对象的<b>索引</b>值为 1。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Index</b> 属性仅在当前会话期间有效，并且在可以更改对象添加到集合和从集合中删除。集合中的第一个对象的 <b>索引</b> 值为 1。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -400,10 +379,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示链接的完整路径附加文件。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性才有效对链接的文件。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性仅对链接的文件有效。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -432,12 +409,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指示附件在项目的正文中的位置的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置指示附件在项目的正文中的位置的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Position</b>属性仅适用于项目的正文格式其中是多文本 (RTF) 附件。如果的正文格式不是 RTF， <b>Position</b>属性将被忽略的一组操作和 get 操作始终返回零 (0)。</para>如果您会将<b>Position</b>属性设置为 0 项目正文的格式其中
-          <para>为 RTF、 附件将隐藏 Outlook 的用户界面中。附件不可见在视图中，且用户无法删除项目的正文的附件。附件仍可以通过访问<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />的项的集合。</para><para>允许编程式设置 BodyFormat 属性的唯一项是<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。默认情况下，其他项目类型，如约会、 联系人和任务是 RTF。</para><para /></remarks>
+        <remarks><para><b>位置</b> 属性仅适用于项目的正文格式所在多信息文本 (RTF) 的附件中。如果正文格式不是 rtf 格式， <b>位置</b> 属性为 set 操作将被忽略，并始终为 get 操作返回零 (0)。</para>
+          <para>如果您设置 <b>位置</b> 属性为项 0，正文格式为 RTF，则附件将被隐藏在 Outlook 用户界面中。 在视图中，看不到附件，用户不能从项目的正文中删除附件。 附件仍可以通过访问<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />的项的集合。</para>
+          <para>允许编程 BodyFormat 属性的设置的唯一项是<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。 其他项目类型，如约会、 联系人和任务默认情况下是 rtf 格式。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -521,17 +498,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -559,10 +533,8 @@
       <Docs>
         <summary>返回指示附件的大小 （以字节为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此信息可能始终不可用的附件。 例如，对 S/MIME 邮件，实际附件大小是未知直到提取附件。在其中附件大小不能确定的情况下，此属性返回 0。</para>
-          <para />
-        </remarks>
+        <remarks><para>并非总是可以提供附件的此信息。  例如，在 S/MIME 邮件中，实际附件大小在提取附件之前是未知的。 在无法确定附件大小的情况下，此属性返回 0。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">

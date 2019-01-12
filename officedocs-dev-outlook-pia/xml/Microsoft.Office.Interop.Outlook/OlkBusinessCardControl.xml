@@ -1,13 +1,5 @@
 <Type Name="OlkBusinessCardControl" FullName="Microsoft.Office.Interop.Outlook.OlkBusinessCardControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2703ad8809b0aad49b1c07f470d63453ad3a30f0" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631389" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkBusinessCardControl : Microsoft.Office.Interop.Outlook._OlkBusinessCardControl, Microsoft.Office.Interop.Outlook.OlkBusinessCardControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="810f1947687eb2728103f45411c4d27cde24aa5c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899325" /></Metadata><TypeSignature Language="C#" Value="public interface OlkBusinessCardControl : Microsoft.Office.Interop.Outlook._OlkBusinessCardControl, Microsoft.Office.Interop.Outlook.OlkBusinessCardControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkBusinessCardControl implements class Microsoft.Office.Interop.Outlook._OlkBusinessCardControl, class Microsoft.Office.Interop.Outlook.OlkBusinessCardControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkBusinessCardControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkBusinessCardControl&#xA;Implements _OlkBusinessCardControl, OlkBusinessCardControlEvents_Event" />
@@ -34,13 +26,11 @@
   </Attributes>
   <Docs>
     <summary>此控件显示名片。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OlkBusinessCardControl" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkBusinessCardControlEvents_Event" />。</para>
-      <para>之前您使用此控件在窗体设计器中，在第一次将 Microsoft Outlook 名片控件添加到控件工具箱。仅可以将此控件添加到 Outlook 窗体使用窗体设计器; 在窗体区域无法将此控件添加到 Visual Basic <b>UserForm</b>对象在 Visual Basic 编辑器。</para>
-      <para>下面是在运行时名片控件的示例：</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OlkBusinessCardControl" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkBusinessCardControlEvents_Event" />。</para>
+      <para>之前您使用此控件在窗体设计器中，第一次将Microsoft Outlook名片控件添加到控件工具箱。 仅可以将此控件添加到 Outlook 窗体使用窗体设计器; 在窗体区域您不能将此控件添加到 Visual Basic <b>UserForm</b>对象在 Visual Basic 编辑器中。</para>
+      <para>下面是运行时名片控件的一个示例：</para>
       <para>有关 Outlook 控件的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87823">自定义窗体中的控件</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

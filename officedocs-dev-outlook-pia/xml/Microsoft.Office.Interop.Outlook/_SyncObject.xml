@@ -1,13 +1,5 @@
 <Type Name="_SyncObject" FullName="Microsoft.Office.Interop.Outlook._SyncObject">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="76910bdb5f2ffd23348b9b37eff39ee5cb4ca869" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632545" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SyncObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="76910bdb5f2ffd23348b9b37eff39ee5cb4ca869" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896560" /></Metadata><TypeSignature Language="C#" Value="public interface _SyncObject" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SyncObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SyncObject" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SyncObject" />
@@ -167,17 +159,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Start">
@@ -229,10 +218,8 @@
       <Parameters />
       <Docs>
         <summary>立即结束使用指定的“发送/接收”组同步用户文件夹的操作。</summary>
-        <remarks>
-          <para>此方法不能撤消任何已经发生的同步。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法不能撤消任何已经发生的同步处理。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_CalendarSharing" FullName="Microsoft.Office.Interop.Outlook._CalendarSharing">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0fa933e0b4d67bf2f8c2536ee0c2d6c3a656ea10" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631580" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CalendarSharing" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0fa933e0b4d67bf2f8c2536ee0c2d6c3a656ea10" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903739" /></Metadata><TypeSignature Language="C#" Value="public interface _CalendarSharing" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarSharing" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarSharing" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CalendarSharing" />
@@ -84,23 +76,21 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarDetail</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarDetail" />值，该值指示由创建的 iCalendar (.ics) 文件中包含的日历项目的详细程度<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarDetail" />值，该值指示由创建的 iCalendar (.ics) 文件中包含的日历项目的详细程度<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 读/写。</summary>
         <value>一个 <b>OlCalendarDetail</b> 值，指示日历项目的详细信息的级别。</value>
-        <remarks>
-          <para>此属性的值确定<b>CalendarSharing</b>对象的下列属性的允许值：</para>
+        <remarks><para>此属性的值确定允许的值为 <b>CalendarSharing</b> 对象的以下属性:</para>
           <list type="bullet">
             <item>
-              <para>如果 CalendarDetail 设置为 olFreeBusyOnly 或 olfreebusyandsubject，则 IncludeAttachments 必须设置为 False。</para>
+              <para>如果 CalendarDetail 设置为 olFreeBusyOnly 或 olFreeBusyAndSubject ，则 IncludeAttachments 必须设置为 False 。</para>
             </item>
             <item>
-              <para>如果 CalendarDetail 设置为 olfreebusyonly，则 IncludePrivateDetails 必须设置为 False。</para>
+              <para>如果 CalendarDetail 设置为 olFreeBusyOnly ，则 IncludePrivateDetails 必须设置为 False 。</para>
             </item>
             <item>
-              <para>如果 CalendarDetail 设置为 olFreeBusyAndSubject 或 olfulldetails，则 RestrictToWorkingHours 必须设置为 False。</para>
+              <para>如果 CalendarDetail 设置为 olFreeBusyAndSubject 或 olFullDetails ，则 RestrictToWorkingHours 必须设置为 False 。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -157,12 +147,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>日期时间</b>值，指示由共享的日历项目范围的非独占的结束日期<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>日期时间</b>值，指示由共享的日历项目范围的非独占的结束日期<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果此属性，则忽略<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /><b>CalendarSharing</b>对象的属性设置为<b>true</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果此属性，则忽略<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> <b>CalendarSharing</b>对象的属性设置为<b>true</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folder">
@@ -219,19 +207,16 @@
         <param name="MailFormat">确定日历信息在由此方法创建的<b>MailItem</b>的正文中的格式。</param>
         <summary>转发日历信息从父<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />的<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象作为有效负载的<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。</summary>
         <returns>表示日历信息附加到新邮件项的 <b>MailItem</b> 对象。</returns>
-        <remarks>
-          <para>
-            <b>ForwardAsICal</b>方法提供一个方法依据您可以使用有效负载共享与其他用户共享日历。该方法：</para>
+        <remarks><para><b>ForwardAsICal</b> 方法提供了一个方法，通过它您可以使用有效负载共享来与其他用户共享的日历。方法:</para>
           <list type="bullet">
             <item>
-              <para>创建一个 MailItem 对象，并提供演示文稿的邮件项目的正文中的日历信息。</para>
+              <para>创建一个 MailItem 对象，并在该邮件项目的正文中呈现日历信息。</para>
             </item>
             <item>
-              <para>创建一个包含日历信息的 iCalendar (.ics) 文件并将该文件附加到 MailItem。</para>
+              <para>创建一个包含日历信息的 iCalendar (.ics) 文件，并将该文件附加到 MailItem 。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IncludeAttachments">
@@ -260,14 +245,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在创建的 iCalendar (.ics) 文件中包括的日历项目的附件<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在创建的 iCalendar (.ics) 文件中包括的日历项目的附件<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b>指示应包括日历项目的附件。</para>
-          <para>如果此属性必须设置为<b>False</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /><b>CalendarSharing</b>对象的属性设置为<b>olFreeBusyOnly</b>或<b>olfreebusyandsubject，则</b>。</para>
-          <para />
-        </remarks>
+          <para>如果此属性必须设置为<b>False</b> <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> <b>CalendarSharing</b>对象的属性设置为<b>olFreeBusyOnly</b>或<b>olfreebusyandsubject，则</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IncludePrivateDetails">
@@ -296,14 +279,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在创建的 iCalendar (.ics) 文件中包括的日历项目的个人详细信息<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在创建的 iCalendar (.ics) 文件中包括的日历项目的个人详细信息<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b>指示应包括日历项目的专用详细信息。</para>
-          <para>如果此属性必须设置为<b>False</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /><b>CalendarSharing</b>对象的属性设置为<b>olfreebusyonly，则</b>。</para>
-          <para />
-        </remarks>
+          <para>如果此属性必须设置为<b>False</b> <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> <b>CalendarSharing</b>对象的属性设置为<b>olfreebusyonly，则</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IncludeWholeCalendar">
@@ -332,15 +313,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应包含由创建的 iCalendar (.ics) 文件的文件夹中的所有日历项目<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应包含由创建的 iCalendar (.ics) 文件的文件夹中的所有日历项目<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b>指示应包含的文件夹中的所有日历项目。</para>
-          <para>此属性设置为<b>True</b>，如果<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" />和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" />将忽略<b>CalendarSharing</b>对象的属性和已包括文件夹中的所有日历项。</para>
+          <para>如果此属性设置为<b>True</b>，<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" />和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" />将忽略<b>CalendarSharing</b>对象的属性和已包括文件夹中的所有日历项。</para>
           <para>如果此属性设置为<b>False</b>， <b>StartDate</b>和<b>EndDate</b>属性确定要包括的日历项目的范围。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -397,14 +376,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在创建的 iCalendar (.ics) 文件中包括日历项目的工作时间内，不会发生<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在创建的 iCalendar (.ics) 文件中包括日历项目的工作时间内，不会发生<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />或<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>为 true</b> ，则表示工作时间内，不会发生的日历项目应包括。</para>
-          <para>如果此属性必须设置为<b>False</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /><b>CalendarSharing</b>对象的属性设置为<b>olFreeBusyOnly</b>或<b>olfulldetails，则</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>True</b>指示应包含的工作时间内，不会发生的日历项目。</para>
+          <para>如果此属性必须设置为<b>False</b> <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> <b>CalendarSharing</b>对象的属性设置为<b>olFreeBusyOnly</b>或<b>olfulldetails，则</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SaveAsICal">
@@ -432,8 +409,7 @@
       <Docs>
         <param name="Path">iCalendar 文件的路径和文件名。</param>
         <summary>导出日历信息从父<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />的<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象作为 iCalendar 日历 (.ics) 文件。</summary>
-        <remarks>
-          <para>ICalendar 文件中提供的详细程度由下列<b>CalendarSharing</b>属性中的值的组合：</para>
+        <remarks><para>ICalendar 文件中提供的详细程度取决于在下面的 <b>CalendarSharing</b> 属性的值的组合:</para>
           <list type="bullet">
             <item>
               <para>CalendarDetail</para>
@@ -448,9 +424,8 @@
               <para>RestrictToWorkingHours</para>
             </item>
           </list>
-          <para>可以设置<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" />属性设置为<b>True</b>以包含在该文件夹，或您的所有项目都导出可以设置<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" />和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" />属性的项目限制为导出到之间指定日期范围开始日期和结束日期，分别。</para>
-          <para />
-        </remarks>
+          <para>您可以设置<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" />属性设置为<b>True</b>以包含在该文件夹，或您的所有项目都导出可以设置<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" />和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" />属性的项目限制为导出到某个日期之间的指定的开始日期和结束日期，分别范围。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -478,17 +453,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartDate">
@@ -517,12 +489,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>日期时间</b>值，指示要由共享的日历项目范围的非独占开始日期<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>日期时间</b>值，指示要由共享的日历项目范围的非独占开始日期<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果此属性，则忽略<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /><b>CalendarSharing</b>对象的属性设置为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果此属性，则忽略<see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> <b>CalendarSharing</b>对象的属性设置为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

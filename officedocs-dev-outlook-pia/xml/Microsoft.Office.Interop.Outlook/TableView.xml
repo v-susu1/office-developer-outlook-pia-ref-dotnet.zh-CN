@@ -1,13 +1,5 @@
 <Type Name="TableView" FullName="Microsoft.Office.Interop.Outlook.TableView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="71115d371c1db6bd8ebfa5a46c3be4b25e7e47eb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631795" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TableView : Microsoft.Office.Interop.Outlook._TableView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="52cf6cf06bbd4dd99384c822323122193bdc2449" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896497" /></Metadata><TypeSignature Language="C#" Value="public interface TableView : Microsoft.Office.Interop.Outlook._TableView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TableView implements class Microsoft.Office.Interop.Outlook._TableView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TableView" />
   <TypeSignature Language="VB.NET" Value="Public Interface TableView&#xA;Implements _TableView" />
@@ -31,14 +23,15 @@
   </Attributes>
   <Docs>
     <summary>代表一个视图，该视图将 Outlook 项目显示在一个表中，将每个项目显示在一行中，并将项目的详细信息显示在列中。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._TableView" />。</para>
-      <para>
-        <b>TableView</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象，允许您创建可自定义视图，以便您可以在表中显示 Outlook 项目。</para>
-      <para>Outlook 提供了几个内置<b>TableView</b>对象和您还可以创建自定义的<b>TableView</b>对象。使用<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合添加到新<b>TableView</b><see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。使用<b>标准</b>属性可确定是否内置或自定义现有的<b>TableView</b>对象。</para>您可以配置的外观和功能的<b>TableView</b>对象的
-      <para>。使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />属性可以确定是否在视图自动调整大小列和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticGrouping" />属性可以确定是否视图自动组 Outlook 项目。使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreview" />属性可以确定是否在视图中，为 Outlook 项目的行中显示预览信息和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" />属性指定用于显示预览信息的字体。使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" />属性可以确定是否在多行模式中显示 Outlook 项目。</para><para>您还可以配置 Outlook 项目<b>TableView</b>对象中的显示方式。使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" />属性指定用于列标题的字体和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" />属性指定用于视图中的 Outlook 项目的字体。使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性，以允许编辑的视图中的 Outlook 项目属性值。使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />属性确定要在视图中显示 Outlook 项目和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.ViewFields" />来指定要为每个 Outlook 项目显示的 Outlook 项目属性的集合。使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" />指定的 outlook 项目进行分组的 Outlook 项目属性和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.SortFields" />集指定 Outlook 项目的 outlook 项目在视图中排序的属性。</para>可扩展标记语言 (XML) 格式存储
-      <para>每个<b>TableView</b>对象的定义。使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.XML" />属性来处理<b>TableView</b>对象的 XML 定义。</para>使用
-      <para><see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />方法，应用于当前视图的<b>TableView</b>对象的任何更改。使用<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Save" />方法以持续对<b>TableView</b>对象所做的任何更改。使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.LockUserChanges" />属性以允许或阻止到视图的用户界面的更改。</para><para>可以更改内置<b>TableView</b>对象，但不是能删除它们。使用<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Delete" />方法，以删除自定义的<b>TableView</b>对象。使用<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Reset" />方法内置的<b>TableView</b>对象的属性重置为其默认值。</para><para /></remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._TableView" />。 </para>
+      <para><b>TableView</b>对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象，可以创建允许在表中显示 Outlook 项目的可自定义视图。</para>
+      <para>Outlook 提供了几个内置的 <b>表</b> 对象，并且您还可以创建自定义的 <b>表</b> 对象。 使用<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合添加到新<b>TableView</b> <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。 使用 <b>标准</b> 属性以确定是否内置或自定义现有 <b>表</b> 对象。</para>
+      <para>您可以配置的外观和功能的 <b>表</b> 对象。 使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />属性可以确定是否在视图自动调整大小列和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticGrouping" />属性可以确定是否视图自动组 Outlook 项目。 使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreview" />属性可以确定是否在视图中，为 Outlook 项目的行中显示预览信息和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" />属性指定用于显示预览信息的字体。 使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" />属性可以确定是否在多行模式中显示 Outlook 项目。</para>
+      <para>您还可以配置 Outlook 项目在 <b>表</b> 对象的显示方式。 使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" />属性指定用于列标题的字体和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" />属性指定用于视图中的 Outlook 项目的字体。 使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性，以允许编辑的视图中的 Outlook 项目属性值。 使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />属性确定要在视图中显示 Outlook 项目和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.ViewFields" />来指定要为每个 Outlook 项目显示的 Outlook 项目属性的集合。 使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" />指定的 outlook 项目进行分组的 Outlook 项目属性和<see cref="P:Microsoft.Office.Interop.Outlook._TableView.SortFields" />集指定 Outlook 项目的 outlook 项目在视图中排序的属性。</para>
+      <para>对于 <b>表</b> 中的每个对象定义存储在可扩展标记语言 (XML) 格式。 使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.XML" />属性来处理<b>TableView</b>对象的 XML 定义。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />方法，应用于当前视图的<b>TableView</b>对象的任何更改。 使用<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Save" />方法以持续对<b>TableView</b>对象所做的任何更改。 使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.LockUserChanges" />属性以允许或阻止到视图的用户界面的更改。</para>
+      <para>您可以更改内置 <b>表</b> 对象，但不能删除它们。 使用<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Delete" />方法，以删除自定义的<b>TableView</b>对象。 使用<see cref="M:Microsoft.Office.Interop.Outlook._TableView.Reset" />方法内置的<b>TableView</b>对象的属性重置为其默认值。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

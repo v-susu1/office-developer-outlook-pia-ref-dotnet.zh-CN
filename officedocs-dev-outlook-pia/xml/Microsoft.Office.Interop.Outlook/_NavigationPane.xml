@@ -1,13 +1,5 @@
 <Type Name="_NavigationPane" FullName="Microsoft.Office.Interop.Outlook._NavigationPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632735" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896763" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationPane" />
@@ -83,10 +75,8 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回的<b>olNavigationPane</b><see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回的<b>olNavigationPane</b> <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentModule">
@@ -115,7 +105,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationModule</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象，它代表在导航窗格中的当前选定的导航模块。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象，它代表在导航窗格中的当前选定的导航模块。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,14 +136,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示数<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />在导航窗格中显示的对象。 为可读/写属性。</summary>
+        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示数<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />在导航窗格中显示的对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性仅可设置为 0 到的值之间的值<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" />属性<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /><b>NavigationPane</b>对象的集合。如果此属性设置为一个值大于允许的最大值，该属性值是自动设置为允许的最大值。如果此属性设置为小于 0，则将出错。</para>
-          <para>如果<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象设置为<b>False</b>，则此属性值表示为其图标和名称显示在导航窗格中的导航模块的数量。如果<b>IsCollapsed</b>设置为<b>True</b>，则<b>DisplayedModuleCount</b>属性值表示对于该图标显示在导航窗格中的导航模块的数量。</para>
-          <para>设置此属性的值调整大小以根据需要显示更多或更少的<b>NavigationModule</b>对象在导航窗格的模块部分。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性仅可设置为 0 到的值之间的值<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" />属性<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> <b>NavigationPane</b>对象的集合。 如果此属性设置为一个值大于最大允许值，属性值会自动设置为最大允许值。 如果将此属性设置为小于 0 就会出错。</para>
+          <para> 如果<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象设置为<b>False</b>，则此属性值表示为其图标和名称显示在导航窗格中的导航模块的数量。 如果 <b>IsCollapsed</b> 设置为 <b>True</b> ，则 <b>DisplayedModuleCount</b> 属性值表示为其图标显示在导航窗格中的导航模块的数量。</para>
+          <para>设置此属性的值调整导航窗格，以根据需要显示更多或更少的 <b>NavigationModule</b> 对象的模块部分。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsCollapsed">
@@ -182,7 +170,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置确定是否折叠导航窗格中一个<b>布尔</b>值 (C# 中<b>bool</b> )。 为可读/写属性。</summary>
+        <summary>返回或设置确定是否折叠导航窗格中一个<b>布尔</b>值 (C# 中<b>bool</b> )。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -268,17 +256,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

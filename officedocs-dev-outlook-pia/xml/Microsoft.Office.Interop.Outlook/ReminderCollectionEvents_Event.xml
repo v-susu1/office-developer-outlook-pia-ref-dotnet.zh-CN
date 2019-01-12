@@ -1,13 +1,5 @@
 <Type Name="ReminderCollectionEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82f7e87f4a7c31c6fea7961afdea6e402f53ccb4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632526" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ReminderCollectionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c046e68f17198ddfc2900cf348031dac0601e25f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898513" /></Metadata><TypeSignature Language="C#" Value="public interface ReminderCollectionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ReminderCollectionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ReminderCollectionEvents_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>添加提醒后发生。</summary>
-        <remarks>
-          <para>已保存的关联的 Microsoft Outlook 项目之前，将不实际创建提醒。因此，只有在保存相关的项目对象后，不会发生此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>在保存关联的 Microsoft Outlook 项目前，并不会真正地创建提醒。因此，只有在保存了关联的项目对象后，此事件才会发生。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderChange">
@@ -128,8 +118,7 @@
       </ReturnValue>
       <Docs>
         <summary>发生此事件时<see cref="T:Microsoft.Office.Interop.Outlook.Reminder" />对象已从集合中删除。</summary>
-        <remarks>
-          <para>可以通过以下方式之一从<b>Reminders</b>集合删除提醒：</para>
+        <remarks><para>提醒可以被从集合中移除 <b>提醒</b> 任何以下几方面:</para>
           <list type="bullet">
             <item>
               <para>Reminders 集合的 Remove 方法。</para>
@@ -138,17 +127,16 @@
               <para>Reminder 对象的 Dismiss 方法。</para>
             </item>
             <item>
-              <para>当用户单击消除按钮。</para>
+              <para>用户单击 "消除" 按钮时。</para>
             </item>
             <item>
-              <para>用户关闭会议提醒时从关联的项目中。</para>
+              <para>用户关闭相关项目中的会议提醒时。</para>
             </item>
             <item>
-              <para>当用户删除包含提醒的项。</para>
+              <para>用户删除包含提醒的项目时。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Snooze">
@@ -167,10 +155,8 @@
       </ReturnValue>
       <Docs>
         <summary>当使用暂停按钮消除提醒时发生。</summary>
-        <remarks>
-          <para>时，将触发此事件<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />执行方法时，或当用户单击暂停按钮。</para>
-          <para />
-        </remarks>
+        <remarks><para>时，将触发此事件<see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" />执行方法时，或当用户单击暂停按钮。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

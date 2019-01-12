@@ -1,13 +1,5 @@
 <Type Name="NavigationModules" FullName="Microsoft.Office.Interop.Outlook.NavigationModules">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f92cc2b8365c96a8eb75c73cceedd7c2e6ba750b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631400" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NavigationModules : Microsoft.Office.Interop.Outlook._NavigationModules" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ecafa9cd3ab35d8ca768f7803880d81e2801d063" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899031" /></Metadata><TypeSignature Language="C#" Value="public interface NavigationModules : Microsoft.Office.Interop.Outlook._NavigationModules" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationModules implements class Microsoft.Office.Interop.Outlook._NavigationModules" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationModules" />
   <TypeSignature Language="VB.NET" Value="Public Interface NavigationModules&#xA;Implements _NavigationModules" />
@@ -31,13 +23,11 @@
   </Attributes>
   <Docs>
     <summary>包含一只读组<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />代表在导航窗格中显示的导航模块的对象。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NavigationModules" />。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NavigationModules" />。 </para>
       <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象返回<b>NavigationModules</b>对象。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" />属性 (<b>此</b>C# 中) 要检索的名称或序号位置在集合中的导航模块的<b>NavigationModule</b>对象或使用<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />方法返回<b>NavigationModule</b>对象的导航模块类型。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" />属性 (<b>此</b>C# 中) 要检索的名称或序号位置在集合中的导航模块的<b>NavigationModule</b>对象或使用<see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" />方法返回的<b>NavigationModule</b>对象导航模块类型。</para>
       <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" />属性可返回导航窗格中包含的导航模块的数量。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

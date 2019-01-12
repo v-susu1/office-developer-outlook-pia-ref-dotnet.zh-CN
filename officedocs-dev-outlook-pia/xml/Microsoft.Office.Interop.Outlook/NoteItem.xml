@@ -1,13 +1,5 @@
 <Type Name="NoteItem" FullName="Microsoft.Office.Interop.Outlook.NoteItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c3c651b8fa7c6452466bc3e9898b37e5e8be0166" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631384" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NoteItem : Microsoft.Office.Interop.Outlook._NoteItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f03425335f748dee3a57be5302c258bb5ff2355f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898604" /></Metadata><TypeSignature Language="C#" Value="public interface NoteItem : Microsoft.Office.Interop.Outlook._NoteItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NoteItem implements class Microsoft.Office.Interop.Outlook._NoteItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NoteItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface NoteItem&#xA;Implements _NoteItem" />
@@ -31,16 +23,12 @@
   </Attributes>
   <Docs>
     <summary>代表“便笺”文件夹中的便笺。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NoteItem" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_Event" />。</para>
-      <para>
-        <b>NoteItem</b>不可自定义。如果您打开一个新便笺，您会注意到不能将其放在设计时。</para>
-      <para>
-        <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Subject" />的<b>NoteItem</b>对象的属性是只读的因为它从便笺正文文本计算。此外， <b>NoteItem</b><see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Body" />只能格式文本，因此属性对应于 HTML 和 Microsoft Word 内容不适用。尽管<see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.GetInspector" />属性将从事注释，说明不能自定义，因为某些<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />属性、 方法和事件将不会应用于<b>NoteItem</b>对象。</para>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._NoteItem" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_Event" />。 </para>
+      <para><b>NoteItem</b> 是不可自定义。如果您打开一个新便笺时，您会发现不可能将其放置在设计时中。</para>
+      <para><see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Subject" />的<b>NoteItem</b>对象的属性是只读的因为它从便笺正文文本计算。 此外， <b>NoteItem</b> <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Body" />只能格式文本，因此属性对应于 HTML 和 Microsoft Word 内容不适用。 尽管<see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.GetInspector" />属性将从事注释，说明不能自定义，因为某些<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />属性、 方法和事件将不会应用于<b>NoteItem</b>对象。</para>
       <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />方法可创建代表新便笺的<b>NoteItem</b>对象。</para>
       <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是一条注释，或用来匹配的说明，以从便笺文件夹中返回单个<b>NoteItem</b>对象的默认属性的值的索引号。</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

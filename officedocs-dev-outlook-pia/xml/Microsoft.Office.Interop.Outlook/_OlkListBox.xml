@@ -1,13 +1,5 @@
 <Type Name="_OlkListBox" FullName="Microsoft.Office.Interop.Outlook._OlkListBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632263" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkListBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902759" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkListBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkListBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkListBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkListBox" />
@@ -56,10 +48,8 @@
         <param name="ItemText">要添加到列表框控件的列表中的值。</param>
         <param name="Index">从 0 开始计数的值，指定新项目在列表中的顺序。</param>
         <summary>向列表中添加项目，另外为显示在列表中的新项目指定索引。</summary>
-        <remarks>
-          <para>如果值<paramref name="Index" />等于或大于数的列表中的元素，新项目将添加到列表末尾。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果值<paramref name="Index" />等于或大于数的列表中的元素，新项目将添加到列表末尾。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -91,12 +81,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x80000005，"窗口"。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。 此属性的默认值是 0x80000005，"窗口。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -125,12 +113,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />定义的控件周围的边框样式的常量。   为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />定义的控件周围的边框样式的常量。   读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olBorderStyleSingle</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olBorderStyleSingle</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -209,12 +195,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -274,12 +258,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x80000008，"窗口文本"。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。 此属性的默认值是 0x80000008，"窗口型"。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItem">
@@ -308,10 +290,8 @@
         <param name="Index">从零开始计数的值，指定项目在列表中的位置。</param>
         <summary>获取一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表列表中的指定位置处的项目。</summary>
         <returns>一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表列表中的指定位置处的项目。</returns>
-        <remarks>
-          <para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSelected">
@@ -340,10 +320,8 @@
         <param name="Index">从零开始计数的值，指定项目在列表中的位置。</param>
         <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示是否当前所选索引的项。</summary>
         <returns>一个布尔值 (C# 中<b>bool</b> )，为<b>True</b> ，如果指定的项目当前选中， <b>False</b>否则。</returns>
-        <remarks>
-          <para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCount">
@@ -371,10 +349,8 @@
       <Docs>
         <summary>返回一个列表框控件的下拉列表中指定的元素数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为零，表示列表中没有任何项目。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为零，表示列表中没有项目。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListIndex">
@@ -403,13 +379,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示当前所选元素的组合框列表中的位置控件。 为可读/写属性。</summary>
+        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示当前所选元素的组合框列表中的位置控件。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ListIndex</b>是编入列表中的项的数组的索引从零开始的值。 默认值为-1，指示未选定任何项。</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>ListIndex</b> 是值列表中的项的数组的索引从零开始。  默认值为-1，表示未选择任何项。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -438,13 +412,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件处于锁定状态而被更改。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件处于锁定状态而被更改。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>False</b>。</para>
-          <para>当控件处于锁定状态时，该控件不具有"禁用"外观，但是用户不能编辑控件的内容。 </para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>False</b>。</para>
+          <para>当控件处于锁定状态时，该控件不具有“禁用”外观，但是用户不能编辑控件中的内容。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MatchEntry">
@@ -473,12 +445,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMatchEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" />常量，指示如何控制在用户键入时搜索其列表。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" />常量，指示如何控制在用户键入时搜索其列表。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olMatchEntryComplete</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olMatchEntryComplete</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -507,12 +477,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。 为可读/写属性。</summary>
+        <summary>返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -541,12 +509,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olMousePointerDefault</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olMousePointerDefault</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiSelect">
@@ -575,7 +541,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiSelect</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" />常量，指定范围中的可选择列表框控件中的项。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" />常量，指定范围中的可选择列表框控件中的项。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -605,10 +571,8 @@
       <Docs>
         <param name="Index">编入列表中项目数组的索引的值，从零开始计数。</param>
         <summary>从列表中删除指定的项目。</summary>
-        <remarks>
-          <para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetItem">
@@ -638,10 +602,8 @@
         <param name="Index">从零开始计数的值，指定项目在列表中的位置。</param>
         <param name="Item">要用于更新列表中指定位置的值。</param>
         <summary>将列表中指定位置处的项目设置为指定的值。</summary>
-        <remarks>
-          <para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetSelected">
@@ -669,13 +631,10 @@
       </Parameters>
       <Docs>
         <param name="Index">从零开始计数的值，指定项目在列表中的位置。</param>
-        <param name="Selected">
-          <b>True</b> 指示选中的项， <b>False</b> 以指示不应选择该项目。</param>
+        <param name="Selected"><b>True</b> 指示选中的项， <b>False</b> 以指示不应选择该项目。</param>
         <summary>将项目的选中的状态设置的列表中指定位置处给定<paramref name="Selected" />值。</summary>
-        <remarks>
-          <para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -704,15 +663,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），为控件中显示的文本。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），为控件中显示的文本。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Text</b>属性的默认值为空字符串。</para>
-          <para>
-            <b>Text</b>属性与提供的值相同<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" />属性，但是该值强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>文本</b> 属性的默认值为空字符串。</para>
+          <para><b>Text</b>属性与提供的值相同<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" />属性，但是该值强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -741,12 +696,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />指定文本中控件的对齐方式的常量。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />指定文本中控件的对齐方式的常量。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>olTextAlignLeft</b>从左到右语言，例如英语。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值是 <b>olTextAlignLeft</b> 中与英语等从左到右语言。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TopIndex">
@@ -775,13 +728,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个代表列表的显示部分顶部的项目的索引的<b>整数</b>(C# 中<b>int</b> ) 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个代表列表的显示部分顶部的项目的索引的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如滚动列表和顶部的列表项将被更改，此属性的值将更改以反映当前列表的顶部显示的项。</para>
-          <para>索引值是从零开始的。默认值为-1，指示应应用任何特殊的顺序。</para>
-          <para />
-        </remarks>
+        <remarks><para>当列表滚动时，列表顶端的项目会更改，此属性的值也会随之更改以反映当前显示在列表顶端的项目。</para>
+          <para>索引值是从零开始的。默认值为 -1，表示不应用特殊的排序。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -810,12 +761,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>对象</b>，表示由控件显示为列表中选定的内容。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>对象</b>，表示由控件显示为列表中选定的内容。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>值是相同的值<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />、 在于此属性是<b>对象</b>类型而<b>Text</b>强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</para>
-          <para />
-        </remarks>
+        <remarks><para>值是相同的值<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />、 在于此属性是<b>对象</b>类型而<b>Text</b>强类型化为<b>String</b> （C# 中的<b>字符串</b>）。  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

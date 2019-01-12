@@ -1,13 +1,5 @@
 <Type Name="_SharingItem" FullName="Microsoft.Office.Interop.Outlook._SharingItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2a2b248af606d583a4be509e00fba5f14cadd876" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632649" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SharingItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2a2b248af606d583a4be509e00fba5f14cadd876" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906279" /></Metadata><TypeSignature Language="C#" Value="public interface _SharingItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SharingItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SharingItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SharingItem" />
@@ -83,24 +75,28 @@
       <Docs>
         <param name="contact">从中获取名片信息的联系人项目。</param>
         <summary>将基于电子名片 (EBC) 与指定关联的联系人信息追加<see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />对象传递给<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。</summary>
-        <remarks>
-          <para>此方法将生成的<b>ContactItem</b>对象，与现有的<b>SharingItem</b>对象中存储的信息的联系人信息。 包含的信息取决于的值<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BodyFormat" />的<b>SharingItem</b>对象的属性：</para>
+        <remarks><para>此方法将生成的<b>ContactItem</b>对象，与现有的<b>SharingItem</b>对象中存储的信息的联系人信息。  包含的信息取决于的值<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BodyFormat" />的<b>SharingItem</b>对象的属性：</para>
           <list type="table">
-            <item>的
-            <item><description>属性值</description><description>结果</description></item><description>olFormatPlain</description><description>创建一个 vCard (.vcf) 文件并将其添加到SharingItem 对象的 attachments 集合。</description></item>
+            <item>
+              <description>属性值</description>
+              <description>结果</description>
+            </item>
+            <item>
+              <description>olFormatPlain</description>
+              <description>创建一个 vCard (.vcf) 文件并将其添加到 SharingItem 对象的 Attachments 集合中。</description>
+            </item>
             <item>
               <description>olFormatRichText</description>
-              <description>创建一个 vCard (.vcf) 文件并将其添加到 SharingItem 对象的 Attachments 集合。</description>
+              <description>创建一个 vCard (.vcf) 文件并将其添加到 SharingItem 对象的 Attachments 集合中。</description>
             </item>
             <item>
               <description>olFormatHTML</description>
-              <description>和生成的名片图像并将其包含 SharingItem 对象的 Body 属性中创建一个 vCard (.vcf) 文件并将其添加到 SharingItem 对象的 Attachments 集合。</description>
+              <description>生成名片的一个图像并将其包括在 SharingItem 对象的 Body 属性中，创建一个 vCard (.vcf) 文件并将其添加到 SharingItem 对象的 Attachments 集合中。</description>
             </item>
           </list>
           <para>
-            <b>注意</b>： 该附加的 vCard 文件包含仅包含在电子名片与<b>ContactItem</b>对象关联的联系信息。从 vCard 文件中排除不显示电子名片中任何联系人信息。</para>
-          <para />
-        </remarks>
+            <b>注意</b>： 该附加的 vCard 文件包含仅包含在电子名片与<b>ContactItem</b>对象关联的联系信息。 从 vCard 文件中排除不显示电子名片中的任何联系人信息。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Allow">
@@ -125,13 +121,11 @@
       <Parameters />
       <Docs>
         <summary>允许共享请求并共享响应发送给发件人<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。</summary>
-        <remarks>
-          <para>只能<b>SharingItem</b>对象上调用<b>Allow</b>方法<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />属性值为<b>olSharingMsgTypeRequest</b>或<b>olSharingMsgTypeInviteAndRequest</b>。</para>
-          <para>共享响应发送时调用此方法的<b>Type</b>属性设置为<b>olSharingMsgTypeResponseAllow</b>。</para>
+        <remarks><para>只能<b>SharingItem</b>对象上调用<b>Allow</b>方法<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />属性值为<b>olSharingMsgTypeRequest</b>或<b>olSharingMsgTypeInviteAndRequest</b>。</para>
+          <para>共享的响应时调用此方法发送的 <b>Type</b> 属性设置为 <b>olSharingMsgTypeResponseAllow</b> 。</para>
           <para>
-            <b>注释</b>： 共享后会立即允许调用此方法，而不管是否曾收到过共享响应。</para>
-          <para />
-        </remarks>
+            <b>注意</b>： 共享后会立即允许调用此方法，而不管是否曾收到过共享响应。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AllowWriteAccess">
@@ -160,14 +154,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示共享邀请是否应包含的文件夹的写访问。 为可读/写属性。</summary>
-        <value>
-          <b>如此</b> 如果共享邀请的收件人会收到写访问权限;其他 <b>假</b> 。 默认值为 <b>False</b> 。</value>
-        <remarks>
-          <para>发送非默认文件夹的共享邀请时，收件人可以授予对除了默认读取访问权限的文件夹的写访问。 此属性确定应是否写权限授予收件人时<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />发送。</para>
-          <para>如果您尝试共享后设置此属性已发送或接收邮件，就会出错。</para>
-          <para />
-        </remarks>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示共享邀请是否应包含的文件夹的写访问。 读/写。</summary>
+        <value><b>如此</b> 如果共享邀请的收件人会收到写访问权限;其他 <b>假</b> 。 默认值为 <b>False</b>。</value>
+        <remarks><para>发送非默认文件夹的共享邀请时，除了向接收方授予默认的读访问权限外，还可向其授予该文件夹的写访问权限。  此属性确定应是否写权限授予收件人时<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />发送。</para>
+          <para>如果尝试在已发送或接收共享邮件后设置此属性，则会出错。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlternateRecipientAllowed">
@@ -196,7 +187,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，才能转发项目时<b>，则返回 True</b> 。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，才能转发项目时<b>，则返回 True</b> 。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -283,7 +274,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，如果该项目已转发，自动为<b>True</b> 。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，如果该项目已转发，自动为<b>True</b> 。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -314,14 +305,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的密件抄送 (BCC) 名称的显示列表<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的密件抄送 (BCC) 名称的显示列表<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性包含只是的显示名称，用分号 （;） 分隔字符。<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />用于修改密件抄送收件人集合。</para>
+        <remarks><para>此属性包含仅显示名称，用分号 (;) 分隔字符。 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />用于修改密件抄送收件人集合。 </para>
           <para>
-            <b>注意</b>： 如果<b>SharingItem</b>使用 Exchange 共享上下文，则此属性设置为任何值以外的其他<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 阻止发送项目，并使<see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" />方法引发错误。</para>
-          <para />
-        </remarks>
+            <b>注意</b>： 如果<b>SharingItem</b>使用 Exchange 共享上下文，则此属性设置为任何值以外的其他<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 阻止发送项目，并使<see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" />方法引发一个错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -350,12 +339,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），表示与关联的帐单信息<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），表示与关联的帐单信息<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>它是自由格式文本字段。</para>
-          <para />
-        </remarks>
+        <remarks><para>它是自由格式的文本字段。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -384,7 +371,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的纯文本正文<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的纯文本正文<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -415,13 +402,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBodyFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBodyFormat" />常量，指示正文文本的格式。  为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBodyFormat" />常量，指示正文文本的格式。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>正文文本格式确定用于显示消息的文本的标准。Microsoft Outlook 提供了三个正文文本格式选项： 纯文本和格式文本 (RTF)、 HTML。</para>
-          <para>格式的所有文本都将丢失，当<b>BodyFormat</b>属性从 RTF 切换到 HTML，反之亦然。</para>
-          <para />
-        </remarks>
+        <remarks><para>正文文本格式决定用于显示邮件文本的标准。Microsoft Outlook 提供了三个正文文本格式选项：纯文本、RTF 和 HTML。</para>
+          <para><b>BodyFormat</b> 属性从 RTF 切换到 HTML，反之亦然，所有文本格式都将丢失。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Categories">
@@ -450,13 +435,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），表示类别分配给<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），表示类别分配给<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Categories</b>属性的值是已分配给某个 Outlook 项目的类别名称的分隔的字符串。此属性使用在值名称 sList，位于 Windows 注册表中的 HKEY_CURRENT_USER\Control Panel\International 下指定为多个类别值的分隔符的字符。若要将类别名称的字符串转换为类别名称的数组，使用 Microsoft Visual Basic 函数<b>拆分</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Categories</b>属性的值是已分配给某个 Outlook 项目的类别名称的分隔的字符串。 此属性使用在值名称 sList，位于 Windows 注册表中的 HKEY_CURRENT_USER\Control Panel\International 下指定为多个类别值的分隔符的字符。 要将类别名称的字符串转换为数组的类别名称，请使用 Microsoft Visual Basic 函数 <b>拆分</b> 。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -485,14 +467,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的抄送 (CC) 名称的显示列表<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的抄送 (CC) 名称的显示列表<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性包含只是的显示名称，由分号 （;） 分隔字符。<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />用于修改抄送收件人集合。</para>
+        <remarks><para>此属性包含仅显示名称，用分号 (;) 分隔字符。 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />用于修改抄送收件人集合。 </para>
           <para>
             <b>注意</b>： 如果<b>SharingItem</b>使用 Exchange 共享上下文，则此属性设置为除<b>Nothing</b>之外的任何值阻止发送项目并使<see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" />方法引发错误。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -520,10 +500,8 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性始终返回<b>olSharing</b>为<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性始终返回<b>olSharing</b>为<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearConversationIndex">
@@ -573,10 +551,8 @@
       <Parameters />
       <Docs>
         <summary>清除<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />作为任务的对象。</summary>
-        <remarks>
-          <para>调用此方法设置<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>调用此方法设置<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设为<b>False</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -633,12 +609,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），表示与关联的公司的名称<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），表示与关联的公司的名称<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>它是自由格式文本字段。</para>
-          <para />
-        </remarks>
+        <remarks><para>它是自由格式的文本字段。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Conflicts">
@@ -694,12 +668,10 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），用于唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象的<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象属于。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性与对话相关联的项目。这些项目和对话其<b>ConversationID</b>属性中具有相同的值。</para>
-          <para>此属性对应于 MAPI 属性<b>pidtagconversationid 对应</b>。</para>
-          <para>如果<b>SharingItem</b>对象创建在 Microsoft Outlook 2010 中，以前版本的 Microsoft Outlook 或 Outlook 运行在针对 Microsoft Exchange Server 的版本早于 Microsoft Exchange Server 2010 的联机模式下此属性返回相同的值<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ConversationTopic" />属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性将项目与对话相关联。这些项目和对话其 <b>转换 Id</b> 属性中具有相同的值。</para>
+          <para>此属性对应的 MAPI 属性 <b>PidTagConversationId</b> 。</para>
+          <para>如果<b>SharingItem</b>对象创建在 Microsoft Outlook 2010 中，以前版本的 Microsoft Outlook 或 Outlook 运行在联机模式下对 Microsoft Exchange Server 2010，此属性以前版本的 Microsoft Exchange Server返回相同的值<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ConversationTopic" />属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -807,12 +779,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示的创建时间的<b>DateTime</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
+        <summary>返回指示的创建时间的<b>DateTime</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagCreationTime</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagCreationTime</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeferredDeliveryTime">
@@ -841,12 +811,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置表示的日期和时间的<b>DateTime</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />是传送。  为可读/写属性。</summary>
+        <summary>返回或设置表示的日期和时间的<b>DateTime</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />是传送。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagDeferredDeliveryTime</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagDeferredDeliveryTime</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -871,10 +839,9 @@
       <Parameters />
       <Docs>
         <summary>删除<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />包含的项目文件夹中的项目。</summary>
-        <remarks>
-          <para>
-            <b>Delete</b>方法删除集合中的单个项。若要删除中的所有项目<see cref="T:Microsoft.Office.Interop.Outlook.Items" />的文件夹的集合，您必须都删除开头的文件夹中的最后一项的每个项目。例如，在文件夹的 items 集合，AllItems，如果有 n 个项目的文件夹中，启动删除 AllItems.Item(n)，递减每次您删除 AllItems.Item(1) 之前的索引处的项。</para>删除
-          <para>方法可将项目从包含文件夹移到已删除邮件文件夹。如果包含文件夹是已删除邮件文件夹， <b>Delete</b>方法中永久删除项目。</para><para /></remarks>
+        <remarks><para><b>Delete</b> 方法删除集合中的单个项。 若要删除中的所有项目<see cref="T:Microsoft.Office.Interop.Outlook.Items" />的文件夹的集合，您必须都删除开头的文件夹中的最后一项的每个项目。 例如，在文件夹的 items 集合，AllItems，如果有 n 个项目的文件夹中，启动删除 AllItems.Item(n)，递减每次您删除 AllItems.Item(1) 之前的索引处的项目。</para>
+          <para>Delete方法将该项目从包含它的文件夹移动到 已删除邮件文件夹。如果包含它的文件夹的 已删除邮件文件夹， <b>Delete</b>方法将永久移除的项。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteAfterSubmit">
@@ -903,7 +870,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果项目的副本不保存在正在发送和<b>False</b>时，如果副本保存为<b>True</b> 。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果项目的副本不保存在正在发送和<b>False</b>时，如果副本保存为<b>True</b> 。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -930,15 +897,12 @@
       <Parameters />
       <Docs>
         <summary>拒绝共享请求并共享响应发送给发件人<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。</summary>
-        <returns>
-          <b>SharingItem</b> 对象，该对象代表共享响应。</returns>
-        <remarks>
-          <para>只能<b>SharingItem</b>对象上调用<b>Deny</b>方法<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />属性值为<b>olSharingMsgTypeRequest</b>或<b>olSharingMsgTypeInviteAndRequest</b>。</para>
-          <para>此方法将生成一个新的<b>SharingItem</b>对象，并将新对象的<b>Type</b>属性设置为<b>olSharingMsgTypeResponseDeny</b>。<b>SharingItem</b>不立即发送给发件人共享请求，但是，以便您可以根据需要编辑共享响应。</para>
+        <returns><b>SharingItem</b> 对象，该对象代表共享响应。</returns>
+        <remarks><para>只能<b>SharingItem</b>对象上调用<b>Deny</b>方法<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />属性值为<b>olSharingMsgTypeRequest</b>或<b>olSharingMsgTypeInviteAndRequest</b>。</para>
+          <para>此方法会生成一个新的 <b>SharingItem</b> 对象，并将新对象的 <b>Type</b> 属性设置为 <b>olSharingMsgTypeResponseDeny</b> 。 <b>SharingItem</b>是不立即发送到发件人共享请求，但是，以便您可以根据需要编辑共享响应。</para>
           <para>
-            <b>注释</b>： 共享后会立即拒绝调用此方法，而不管是否曾收到过共享响应。</para>
-          <para />
-        </remarks>
+            <b>注意</b>： 共享后会立即拒绝调用此方法，而不管是否曾收到过共享响应。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -963,13 +927,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>真正</b> 要使窗口模式。默认值为 <b>False</b> 。 </param>
+        <param name="Modal"><b>真正</b> 要使窗口模式。默认值为 <b>False</b> 。 </param>
         <summary>显示一个新<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象的<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。</summary>
-        <remarks>
-          <para>
-            <b>Display</b>方法支持为了向后兼容的浏览器和检查器窗口。若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</para>如果您尝试使用 Microsoft Outlook 对象模型中打开"不安全的"文件系统对象 （或"freedoc"文件） 
-          <para>，E_FAIL 返回代码中收到 C 或 c + + 编程语言。在 Outlook 2000 和更早版本，您无法使用<b>Display</b>方法打开"不安全的"文件系统对象。</para><para /></remarks>
+        <remarks><para>为了向后兼容的浏览器和检查器窗口支持 <b>显示</b> 方法。 若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</para>
+          <para>如果您尝试打开"不安全"文件系统对象 (或"freedoc"文件)，请使用Microsoft Outlook对象模型，您将收到 E_FAIL 返回代码在 C 或 c + + 编程语言中。在 Outlook 2000 和早期版本，您可以通过 <b>显示</b> 方法打开"不安全"文件系统对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -1062,9 +1024,9 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的唯一的条目 ID <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。  只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagEntryId</b>。</para>在存储中创建项时， 
-          <para>MAPI 存储提供程序分配的唯一 ID 字符串。因此， <b>EntryID</b>属性未设置为 Outlook 项目之前保存或发送。将项目移动到另一个存储区，例如，从收件箱到 Microsoft Exchange Server 公用文件夹，或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件时条目 ID 的更改。解决方案应不依赖<b>EntryID</b>属性来保持唯一性，除非项目将不会移动。<b>EntryID</b>属性返回一个 MAPI 长期条目 id。有关详细信息有关 long-和 short-term Entryid，搜索http://msdn.microsoft.com的<b>PidTagEntryId</b>。</para><para /></remarks>
+        <remarks><para>此属性对应于 <b>PidTagEntryId</b> 的 MAPI 属性。</para>
+          <para>MAPI 存储提供程序将在存储中创建项时分配的唯一 ID 字符串。 因此， <b>EntryID</b> 属性未设置为某个 Outlook 项目之前保存或发送。 条目 ID 更改时将项目移动到另一个存储中，例如，从 Microsoft Exchange Server 的公用文件夹，您 的收件箱或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件。 解决方案不应依赖于 <b>EntryID</b> 属性来保持唯一性，除非不移动项目。 <b>EntryID</b> 属性返回一个 MAPI 长期条目 id。 更多信息关于长时间的和 short-term Entryid，搜索 http://msdn.microsoft.com <b></b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExpiryTime">
@@ -1093,7 +1055,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置表示的日期和时间的<b>DateTime</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />失效并可以删除。 为可读/写属性。</summary>
+        <summary>返回或设置表示的日期和时间的<b>DateTime</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />失效并可以删除。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1198,12 +1160,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示为请求的操作<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示为请求的操作<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>它是自由格式文本字段。</para>
-          <para />
-        </remarks>
+        <remarks><para>它是自由格式的文本字段。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagStatus">
@@ -1293,12 +1253,9 @@
       <Parameters />
       <Docs>
         <summary>执行项目的转发动作，并返回将结果副本作为<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。</summary>
-        <returns>
-          <b>SharingItem</b> 对象，该对象表示新的共享邀请。</returns>
-        <remarks>
-          <para>如果在共享使用 Exchange 共享上下文的邀请或共享请求上调用此方法，将发生错误。</para>
-          <para />
-        </remarks>
+        <returns><b>SharingItem</b> 对象，该对象表示新的共享邀请。</returns>
+        <remarks><para>如果在使用 Exchange 共享上下文的共享邀请上调用此方法或在共享请求上调用，则会出错。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetConversation">
@@ -1324,25 +1281,23 @@
       <Docs>
         <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象，它代表此项目所属的会话。</summary>
         <returns>返回一个代表此项目所属的会话的<b>Conversation</b>对象。</returns>
-        <remarks>
-          <para>
-            <b>GetConversation</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有对话项目。没有对话存在以下方案中某项：</para>
+        <remarks><para>
+            <b>GetConversation</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有对话项目。 没有对话存在以下方案中的项目:</para>
           <list type="bullet">
             <item>
-              <para>尚未保存项目。由用户操作或自动保存可以以编程方式保存项目。</para>
+              <para>该项目尚未保存。 由用户操作或自动保存，可以以编程方式保存项目。</para>
             </item>
             <item>
-              <para>尚未对于可以发送 （例如邮件项目、 约会项目或联系人项目） 的项，发送项目。</para>
+              <para>对于可以发送的项目（例如邮件项目、约会项目或联系人项目），该项目尚未发送。</para>
             </item>
             <item>
-              <para>对话已通过 Windows 注册表禁用。</para>
+              <para>已通过 Windows 注册表禁用会话。</para>
             </item>
             <item>
-              <para>存储不支持对话视图 （例如，Outlook 在早于 Microsoft Exchange Server 2010 的 Microsoft Exchange 版本针对经典的联机模式下运行）。使用<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，以确定是否在存储区支持会话视图。</para>
+              <para>存储不支持对话视图 （例如，Outlook 在早于 Microsoft Exchange Server 2010 的 Microsoft Exchange 版本针对经典的联机模式下运行）。 使用<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，以确定是否在存储区支持会话视图。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1370,10 +1325,8 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象，表示检查器初始化包含指定<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性是可用于返回一个新的<b>Inspector</b>对象中显示的项目，而不是使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />方法和设置<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性是可用于返回一个新的<b>Inspector</b>对象中显示的项目，而不是使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />方法和设置<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />属性。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HTMLBody">
@@ -1402,15 +1355,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示指定的 HTML 正文<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示指定的 HTML 正文<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>HTMLBody</b>属性应为 HTML 语法字符串。</para>
+        <remarks><para>该 <b>HTMLBody</b> 属性应为 HTML 语法字符串。</para>
           <para>设置<b>HTMLBody</b>属性集<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" />在项目属性<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />为<b>olEditorHTML</b>。</para>
-          <para>设置<b>HTMLBody</b>属性会始终更新<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Body" />属性立即。</para>
-          <para />
-        </remarks>
+          <para>设置<b>HTMLBody</b>属性会始终更新<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Body" />立即属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -1439,12 +1389,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" />常量，指示的相对重要性级别<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" />常量，指示的相对重要性级别<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagImportance</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagImportance</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternetCodepage">
@@ -1473,11 +1421,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> ) 值，确定所使用的 Internet 代码页<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> ) 值，确定所使用的 Internet 代码页<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Internet 代码页定义了项目使用的文本编码方案。</para>
-          <para>下表列出了<b>InternetCodepage</b>属性支持的值。</para>
+        <remarks><para>Internet 代码页定义了项目使用的文本编码方案。</para>
+          <para>下表列出了支持的 <b>InternetCodepage</b> 属性的值。</para>
           <list type="table">
             <item>
               <description>名称</description>
@@ -1490,169 +1437,169 @@
               <description>28596 </description>
             </item>
             <item>
-              <description>阿拉伯文 (Windows)</description>
-              <description>windows 1256 </description>
-              <description>1256年</description>
+              <description>阿拉伯语 (Windows)</description>
+              <description>windows-1256 </description>
+              <description>1256 </description>
             </item>
             <item>
-              <description>波罗的语字符 (ISO)</description>
+              <description>波罗的海字符 (ISO)</description>
               <description>iso-8859-4 </description>
               <description>28594 </description>
             </item>
             <item>
-              <description>波罗的语字符 (Windows)</description>
-              <description>windows 1257 </description>
-              <description>1257年</description>
+              <description>波罗的海字符 (Windows)</description>
+              <description>windows-1257 </description>
+              <description>1257 </description>
             </item>
             <item>
-              <description>中央欧 (ISO)</description>
+              <description>中欧字符 (ISO)</description>
               <description>iso-8859-2 </description>
               <description>28592 </description>
             </item>
             <item>
-              <description>管理中心字符 (Windows)</description>
-              <description>windows 1250 </description>
-              <description>1250年</description>
+              <description>中欧字符 (Windows)</description>
+              <description>windows-1250 </description>
+              <description>1250 </description>
             </item>
             <item>
-              <description>简体中文 (GB2312) </description>
+              <description>简体中文(GB2312) </description>
               <description>gb2312 </description>
               <description>936 </description>
             </item>
             <item>
-              <description>中文简体中文 (HZ) </description>
-              <description>hz-gb 2312 </description>
-              <description>52936</description>
+              <description>简体中文(HZ) </description>
+              <description>hz-gb-2312 </description>
+              <description>52936 </description>
             </item>
             <item>
-              <description>繁体中文传统 (Big5) </description>
+              <description>繁体中文(Big5) </description>
               <description>big5 </description>
-              <description>950</description>
+              <description>950 </description>
             </item>
             <item>
-              <description>西里尔文 (ISO) </description>
+              <description>塞瑞利克字符 (ISO) </description>
               <description>iso-8859-5 </description>
-              <description>28595</description>
+              <description>28595 </description>
             </item>
             <item>
-              <description>西里尔文 (KOI8-R) </description>
+              <description>塞瑞利克字符 (KOI8-R) </description>
               <description>koi8-r </description>
-              <description>20866</description>
+              <description>20866 </description>
             </item>
             <item>
-              <description>西里尔文 (KOI8-U) </description>
+              <description>塞瑞利克字符 (KOI8-U) </description>
               <description>koi8-u </description>
-              <description>21866</description>
+              <description>21866 </description>
             </item>
             <item>
-              <description>西里尔文 (Windows) </description>
-              <description>windows 1251 </description>
-              <description>1251</description>
+              <description>塞瑞利克字符 (Windows) </description>
+              <description>windows-1251 </description>
+              <description>1251 </description>
             </item>
             <item>
               <description>希腊语 (ISO) </description>
               <description>iso-8859-7 </description>
-              <description>28597</description>
+              <description>28597 </description>
             </item>
             <item>
               <description>希腊语 (Windows) </description>
-              <description>windows 1253 </description>
-              <description>1253</description>
+              <description>windows-1253 </description>
+              <description>1253 </description>
             </item>
             <item>
-              <description>希伯来语 （ISO-逻辑） </description>
-              <description>iso-8859-8-i </description>
-              <description>38598</description>
+              <description>希伯来文（ISO-逻辑） </description>
+              <description>ISO-8859-8-I </description>
+              <description>38598 </description>
             </item>
             <item>
               <description>希伯来语 (Windows) </description>
-              <description>windows 1255 </description>
-              <description>1255</description>
+              <description>windows-1255 </description>
+              <description>1255 </description>
             </item>
             <item>
-              <description>日语 (EUC) </description>
+              <description>日语(EUC) </description>
               <description>euc-jp </description>
-              <description>51932</description>
+              <description>51932 </description>
             </item>
             <item>
-              <description>日语 (JIS) </description>
-              <description>iso-2022年-jp </description>
-              <description>50220</description>
+              <description>日语(JIS) </description>
+              <description>iso-2022-jp </description>
+              <description>50220 </description>
             </item>
             <item>
-              <description>日语 （JIS-允许 1 字节假名） </description>
+              <description>日文（JIS - 允许 1 字节假名) </description>
               <description>csISO2022JP </description>
-              <description>50221</description>
+              <description>50221 </description>
             </item>
             <item>
-              <description>日语 (SHIFT-JIS) </description>
-              <description>iso-2022年-jp </description>
-              <description>932</description>
+              <description>日文(Shift-JIS) </description>
+              <description>iso-2022-jp </description>
+              <description>932 </description>
             </item>
             <item>
-              <description>朝鲜语</description>
-              <description>ks_c_5601 1987 </description>
-              <description>949</description>
+              <description>韩语 </description>
+              <description>ks_c_5601-1987 </description>
+              <description>949 </description>
             </item>
             <item>
-              <description>朝鲜语 (EUC) </description>
-              <description>euc kr </description>
-              <description>51949</description>
+              <description>朝鲜语(EUC) </description>
+              <description>euc-kr </description>
+              <description>51949 </description>
             </item>
             <item>
               <description>拉丁语 3 (ISO) </description>
               <description>iso-8859-3 </description>
-              <description>28593</description>
+              <description>28593 </description>
             </item>
             <item>
               <description>拉丁文 9 (ISO) </description>
               <description>iso-8859-15 </description>
-              <description>28605</description>
+              <description>28605 </description>
             </item>
             <item>
               <description>泰语 (Windows) </description>
-              <description>windows 874 </description>
-              <description>874</description>
+              <description>windows-874 </description>
+              <description>874 </description>
             </item>
             <item>
               <description>土耳其语 (ISO) </description>
               <description>iso-8859-9 </description>
-              <description>28599</description>
+              <description>28599 </description>
             </item>
             <item>
               <description>土耳其语 (Windows) </description>
-              <description>windows 1254 </description>
-              <description>1254</description>
+              <description>windows-1254 </description>
+              <description>1254 </description>
             </item>
             <item>
-              <description>Unicode (utf-7) </description>
-              <description>utf-7 </description>
-              <description>65000</description>
+              <description>Unicode (UTF-7) </description>
+              <description>UTF-7 </description>
+              <description>65000 </description>
             </item>
             <item>
-              <description>Unicode (utf-8) </description>
+              <description>Unicode (UTF-8) </description>
               <description>utf-8 </description>
-              <description>65001</description>
+              <description>65001 </description>
             </item>
             <item>
-              <description>美国 ASCII </description>
-              <description>我们 ascii </description>
-              <description>20127</description>
+              <description>US-ASCII </description>
+              <description>US-ASCII </description>
+              <description>20127 </description>
             </item>
             <item>
               <description>越南语 (Windows) </description>
-              <description>windows 1258 </description>
-              <description>1258</description>
+              <description>windows-1258 </description>
+              <description>1258 </description>
             </item>
             <item>
-              <description>西欧 (ISO) </description>
+              <description>西欧语 (ISO) </description>
               <description>iso-8859-1 </description>
-              <description>28591</description>
+              <description>28591 </description>
             </item>
             <item>
               <description>西欧字符 (Windows) </description>
-              <description>windows 1252 </description>
-              <description>1252年</description>
+              <description>windows-1252 </description>
+              <description>1252 </description>
             </item>
           </list>
           <para>下表列出了 Microsoft 建议您用于与旧电子邮件系统的最佳兼容的代码页。</para>
@@ -1663,93 +1610,92 @@
               <description>代码页</description>
             </item>
             <item>
-              <description>阿拉伯文 (Windows)</description>
-              <description>windows 1256 </description>
-              <description>1256年</description>
+              <description>阿拉伯语 (Windows)</description>
+              <description>windows-1256 </description>
+              <description>1256 </description>
             </item>
             <item>
-              <description>波罗的语字符 (ISO)</description>
-              <description>iso-8859-4</description>
+              <description>波罗的海字符 (ISO)</description>
+              <description>iso-8859-4 </description>
               <description>28594 </description>
             </item>
             <item>
-              <description>中央欧 (ISO)</description>
+              <description>中欧字符 (ISO)</description>
               <description>iso-8859-2 </description>
               <description>28592 </description>
             </item>
             <item>
-              <description>简体中文 (GB2312) </description>
+              <description>简体中文(GB2312) </description>
               <description>gb2312 </description>
               <description>936 </description>
             </item>
             <item>
-              <description>繁体中文 (Big5) </description>
+              <description>繁体中文(Big5) </description>
               <description>big5 </description>
               <description>950 </description>
             </item>
             <item>
-              <description>西里尔文 (KOI8-R) </description>
+              <description>塞瑞利克字符 (KOI8-R) </description>
               <description>koi8-r </description>
               <description>20866 </description>
             </item>
             <item>
-              <description>西里尔文 (Windows) </description>
-              <description>windows 1251 </description>
-              <description>1251年</description>
+              <description>塞瑞利克字符 (Windows) </description>
+              <description>windows-1251 </description>
+              <description>1251 </description>
             </item>
             <item>
-              <description>希腊语 (ISO)</description>
-              <description>iso-8859-7</description>
-              <description>28597</description>
+              <description>希腊语 (ISO) </description>
+              <description>iso-8859-7 </description>
+              <description>28597 </description>
             </item>
             <item>
               <description>希伯来语 (Windows) </description>
-              <description>windows 1255 </description>
-              <description>1255</description>
+              <description>windows-1255 </description>
+              <description>1255 </description>
             </item>
             <item>
-              <description>日语 (JIS) </description>
-              <description>iso-2022年-jp </description>
-              <description>50220</description>
+              <description>日语(JIS) </description>
+              <description>iso-2022-jp </description>
+              <description>50220 </description>
             </item>
             <item>
-              <description>朝鲜语</description>
-              <description>ks_c_5601 1987 </description>
-              <description>949</description>
+              <description>朝鲜语 </description>
+              <description>ks_c_5601-1987 </description>
+              <description>949 </description>
             </item>
             <item>
               <description>泰语 (Windows) </description>
-              <description>windows 874 </description>
-              <description>874</description>
+              <description>windows-874 </description>
+              <description>874 </description>
             </item>
             <item>
               <description>土耳其语 (ISO) </description>
               <description>iso-8859-9 </description>
-              <description>28599</description>
+              <description>28599 </description>
             </item>
             <item>
-              <description>Unicode (utf-8) </description>
+              <description>Unicode (UTF-8) </description>
               <description>utf-8 </description>
-              <description>65001</description>
+              <description>65001 </description>
             </item>
             <item>
-              <description>美国 ASCII </description>
-              <description>我们 ascii </description>
-              <description>20127</description>
+              <description>US-ASCII </description>
+              <description>US-ASCII </description>
+              <description>20127 </description>
             </item>
             <item>
               <description>越南语 (Windows) </description>
-              <description>windows 1258 </description>
-              <description>1258</description>
+              <description>windows-1258 </description>
+              <description>1258 </description>
             </item>
             <item>
-              <description>西欧 (ISO) </description>
+              <description>西欧语 (ISO) </description>
               <description>iso-8859-1 </description>
-              <description>28591</description>
+              <description>28591 </description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1777,11 +1723,9 @@
       <Docs>
         <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，判断<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />有冲突。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>由应用程序的状态确定项目有冲突。例如，当用户处于脱机状态，并尝试访问联机文件夹操作将失败。在此方案中，则<b>IsConflict</b>属性将返回<b>True</b>。</para>
-          <para>如果<b>，则返回 True</b>，指定的项目有冲突。</para>
-          <para />
-        </remarks>
+        <remarks><para>某一项处于冲突取决于应用程序的状态。例如，如果用户在脱机时试图访问联机文件夹，该操作将失败。在此方案中， <b>操作</b> 属性将返回 <b>True</b> 。</para>
+          <para>如果 <b>True</b> ，指定的项有冲突。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsMarkedAsTask">
@@ -1837,11 +1781,8 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />与关联的集合，代表所有标准和用户定义属性<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ItemProperties</b>集合是从零开始的集合，这意味着集合中的第一个对象，由索引值 0 引用。</para>
-          <para />
-        </remarks>
+        <remarks><para>该 <b>ItemProperties</b> 集合是从零开始的集合，表示集合中的第一个对象引用的索引为 0 的。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1869,10 +1810,8 @@
       <Docs>
         <summary>返回<b>DateTime</b>的日期和时间的<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />上次修改。  只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagLastModificationTime</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagLastModificationTime</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -1929,13 +1868,10 @@
         <Parameter Name="MarkInterval" Type="Microsoft.Office.Interop.Outlook.OlMarkInterval" />
       </Parameters>
       <Docs>
-        <param name="MarkInterval">
-          <b>SharingItem</b> 任务间隔。</param>
+        <param name="MarkInterval"><b>SharingItem</b> 任务间隔。</param>
         <summary>标记<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象作为任务和分配任务时间间隔的对象。</summary>
-        <remarks>
-          <para>调用此方法设置<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设为<b>True</b>和更新<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />， <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />，和<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ToDoTaskOrdinal" />属性中提供的值根据<paramref name="MarkInterval" />。</para>
-          <para />
-        </remarks>
+        <remarks><para>调用此方法设置<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设为<b>True</b>和更新<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />， <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />，和<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ToDoTaskOrdinal" />属性中提供的值根据<paramref name="MarkInterval" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkForDownload">
@@ -1964,12 +1900,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />远程用户接收到后确定项目的状态的常量。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />远程用户接收到后确定项目的状态的常量。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性为远程用户提供与小于弱数据传输功能提高了消息灵活性。</para>
-          <para />
-        </remarks>
+        <remarks><para>利用此属性，数据传输能力较弱的远程用户可以更加灵活地进行邮件收发。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -1998,13 +1932,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮件类<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮件类<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagMessageClass</b>。<b>MessageClass</b>属性链接到窗体所基于的项目。选择项目时，Outlook 将使用的邮件类定位窗体并公开其属性，如答复命令。</para>
-          <para>此属性的默认值是 IPM。共享。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagMessageClass</b> 的 MAPI 属性。 <b>邮件类</b> 属性链接到窗体所基于的项目。当选中某一项时，Outlook 将使用的邮件类来定位该窗体，并列出其属性，如 答复命令。</para>
+          <para>此属性的默认值为 IPM.Sharing。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -2033,12 +1965,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的里程<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的里程<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>这是自由格式的字符串字段，并可用于存储里程为了报销相关联的项目 （例如 100 英里的约会、 联系人或任务记录） 的信息。</para>
-          <para />
-        </remarks>
+        <remarks><para>这是自由格式的字符串字段，可用于存储与项目的经费报销相关的里程信息（例如，里程为 100 英里的约会、联系人或任务）。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -2096,7 +2026,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，为<b>True</b>不年龄<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，为<b>True</b>不年龄<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2124,10 +2054,8 @@
       <Docs>
         <summary>打开由共享邀请提供的共享文件夹。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示的共享的文件夹。</returns>
-        <remarks>
-          <para>此方法允许共享邀请打开提供发件人的共享的文件夹的收件人。如果在调用此方法将发生错误<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /><b>olSharingMsgTypeInvite</b>或<b>olSharingMsgTypeInviteAndRequest</b>，type 属性值的对象或如果 Outlook 无法连接到共享文件夹。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法允许打开由发件人提供共享的文件夹的共享邀请的收件人。 如果在调用此方法将发生错误<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> <b>olSharingMsgTypeInvite</b>或<b>olSharingMsgTypeInviteAndRequest</b>，type 属性值的对象或如果 Outlook 无法连接到共享文件夹。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OriginatorDeliveryReportRequested">
@@ -2156,14 +2084,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，确定是否的发起方<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />将收到的送达报告。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，确定是否的发起方<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />将收到的送达报告。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>处理您的消息每个传输提供程序向您发送它已发送的每个收件人的单个传递通知，其中包含的名称和地址。传递并不表示邮件已被阅读。如果原始发件人要求对邮件送达回执，则为 true。</para>
-          <para>
-            <b>OriginatorDeliveryReportRequested</b>属性对应于 MAPI 属性<b>PidTagOriginatorDeliveryReportRequested</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>每个处理邮件的传输提供程序会向您发送一个送达通知，其中包含该邮件所送达的各个收件人的姓名和地址。送达并不表示邮件已被阅读。如果发送方要求了邮件送达回执，则为 True 。</para>
+          <para><b>OriginatorDeliveryReportRequested</b> 属性对应于 <b>PidTagOriginatorDeliveryReportRequested</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OutlookInternalVersion">
@@ -2247,10 +2172,8 @@
       <Docs>
         <summary>返回指定的<b>对象</b>的父<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果<b>SharingItem</b>刚创建的则此属性返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，代表收件箱文件夹。否则，此属性返回一个<b>Folder</b>对象，该对象表示在其中保存<b>SharingItem</b>的文件夹。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果<b>SharingItem</b>刚创建的则此属性返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，代表收件箱文件夹。 否则，此属性返回一个 <b>Folder</b> 对象，该对象代表在其中保存 <b>SharingItem</b> 文件夹。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Permission">
@@ -2279,15 +2202,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlPermission</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlPermission" />常数，用于确定权限收件人将对<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlPermission" />常数，用于确定权限收件人将对<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Permission</b>属性应该与同步<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionTemplateGuid" />属性来准确地反映<b>SharingItem</b>的权限状态。<b>PermissionTemplateGuid</b>属性设置为一个有效的 GUID 应也会引发<b>权限</b>属性设置为<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />。</para>
-          <para>时没有信息权限管理 (IRM) 设置 (在这种情况下<b>Permission</b>属性是<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />)，或在限制是不转发<b>SharingItem</b> （在这种情况下<b>Permission</b>属性是<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />)， <b>PermissionTemplateGuid</b>属性的值应为空字符串。</para>
-          <para>虽然可以查看运行 2007 Microsoft Office system 或更高版本的任何计算机由 IRM 保护的内容，您必须具有 Microsoft Office Professional Edition 2003、 Microsoft Office Outlook 2007 或更高版本的 Outlook 创建或发送受 IRM 电子邮件。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Permission</b>属性应该与同步<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionTemplateGuid" />属性来准确地反映<b>SharingItem</b>的权限状态。 <b>PermissionTemplateGuid</b>属性设置为一个有效的 GUID 应也会引发<b>权限</b>属性设置为<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />。 </para>
+          <para>当没有信息权限管理 (IRM) 设置 (在这种情况下<b>Permission</b>属性为<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />)，或限制是不转发<b>SharingItem</b> ( <b>Permission</b>属性是在这种情况下<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />) 的值<b>PermissionTemplateGuid</b>属性应为空字符串。</para>
+          <para>尽管您可以查看任何运行 2007 Microsoft Office system 或更高版本的计算机上受 IRM 保护的内容，但是只有在安装了 Microsoft Office Professional Edition 2003、Microsoft Office Outlook 2007 或更高版本的 Outlook 的情况下才能创建或发送受 IRM 保护的电子邮件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionService">
@@ -2316,13 +2236,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlPermissionService</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlPermissionService" />常数，用于确定发送时将使用的权限服务<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />信息权限管理 (IRM) 保护。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlPermissionService" />常数，用于确定发送时将使用的权限服务<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />信息权限管理 (IRM) 保护。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>该属性很有用，仅当您具有多个权限身份为特定的 SMTP 地址。</para>
-          <para>您可以查看运行 2007 Microsoft Office system 或更高版本的任何计算机由 IRM 保护的内容时，您必须具有 Microsoft Office Professional Edition 2003、 Microsoft Office Outlook 2007 或更高版本的 Outlook 创建或发送受 IRM 电子邮件。</para>
-          <para />
-        </remarks>
+        <remarks><para>仅在对特定的 SMTP 地址拥有多重权限时才需要使用此属性。 </para>
+          <para>虽然您可以查看任何运行 2007 Microsoft Office system 或更高版本的计算机上受 IRM 保护的内容，但您必须安装有 Microsoft Office Professional Edition 2003、Microsoft Office Outlook 2007 或更高版本的 Outlook 才能创建或发送受 IRM 保护的电子邮件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionTemplateGuid">
@@ -2351,15 +2269,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表要应用于模板文件的 GUID 的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />才能指定信息权限管理 (IRM) 权限。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表要应用于模板文件的 GUID 的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />才能指定信息权限管理 (IRM) 权限。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性是对<b>SharingItem</b>对象; 的 IRM 属性即<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Permission" />属性和<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionService" />属性。</para>
-          <para>具体说来，应该与<b>Permission</b>属性将准确地反映<b>SharingItem</b>的权限状态同步<b>PermissionTemplateGuid</b>属性。<b>PermissionTemplateGuid</b>属性设置为一个有效的 GUID 应也会引发<b>权限</b>属性设置为<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />。</para>
-          <para>空字符串值的<b>PermissionTemplateGuid</b>属性是指没有权限模板文件指定为<b>SharingItem</b>。例如，如果没有 IRM 设置 (在这种情况下<b>Permission</b>属性为<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />)，或在限制是不转发<b>SharingItem</b> ( <b>Permission</b>属性是在这种情况下<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />)。</para>
+        <remarks><para>此属性是对<b>SharingItem</b>对象; 的 IRM 属性即<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Permission" />属性和<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionService" />属性。</para>
+          <para>具体说来，应该与<b>Permission</b>属性将准确地反映<b>SharingItem</b>的权限状态同步<b>PermissionTemplateGuid</b>属性。 <b>PermissionTemplateGuid</b>属性设置为一个有效的 GUID 应也会引发<b>权限</b>属性设置为<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />。</para>
+          <para><b>PermissionTemplateGuid</b>属性为空字符串值意味着没有权限模板文件指定为<b>SharingItem</b>。 例如，如果没有 IRM 设置 (在这种情况下<b>Permission</b>属性为<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />)，或在限制是不转发<b>SharingItem</b> ( <b>Permission</b>属性是在这种情况下<see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />)。</para>
           <para>如果尝试设置为收到的邮件<b>PermissionTemplateGuid</b>属性 (即， <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" /> ， <b>SharingItem</b>的属性为<b>True</b>)，Microsoft Outlook 将返回错误。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PrintOut">
@@ -2384,11 +2300,8 @@
       <Parameters />
       <Docs>
         <summary>打印<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />使用所有默认设置。</summary>
-        <remarks>
-          <para>
-            <b>PrintOut</b>方法是唯一可用于打印的 Outlook 方法。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>PrintOut</b> 方法是唯一可用于打印的 Outlook 方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -2447,10 +2360,8 @@
       <Docs>
         <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b> ，如果已读的回执请求发件人。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagReadReceiptRequested</b>。此属性是可读写的<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象的已创建但不是已发送或张贴;它是只读的已发送<b>SharingItem</b>对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagReadReceiptRequested</b> 的 MAPI 属性。 此属性是可读写的<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象的已创建但不是已发送或张贴;它是只读的已发送<b>SharingItem</b>对象。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByEntryID">
@@ -2478,10 +2389,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />由传输提供程序提供设置为 true 收件人<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagReceivedByEntryId</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagReceivedByEntryId</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByName">
@@ -2509,10 +2418,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的真正收件人的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagReceivedByName</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagReceivedByName</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfEntryID">
@@ -2540,10 +2447,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />收件人的委派的用户的<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagReceivedRepresentingEntryId</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagReceivedRepresentingEntryId</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfName">
@@ -2571,10 +2476,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的显示名称的用户委派收件人的<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagReceivedRepresentingName</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagReceivedRepresentingName</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedTime">
@@ -2600,7 +2503,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示的日期和时间的<b>DateTime</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />曾收到过。 只读。</summary>
+        <summary>返回指示的日期和时间的<b>DateTime</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />曾收到过。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2631,7 +2534,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b> ，如果收件人不能转发指定<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b> ，如果收件人不能转发指定<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2661,10 +2564,8 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合，代表所有的收件人<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>可以通过代表收件人的显示名称、 别名或完整 SMTP 电子邮件地址的字符串指定收件人。</para>
-          <para />
-        </remarks>
+        <remarks><para>可以通过代表收件人的显示名称、 别名或完整 SMTP 电子邮件地址的字符串指定收件人。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderOverrideDefault">
@@ -2693,12 +2594,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果提醒重写为指定的默认提醒行为<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果提醒重写为指定的默认提醒行为<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>必须设置<b>ReminderOverrideDefault</b>属性来验证<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" />和<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" />属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>必须设置<b>ReminderOverrideDefault</b>属性来验证<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" />和<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" />属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderPlaySound">
@@ -2727,12 +2626,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，如果提醒应播放声音，指定发生时为<b>True</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，如果提醒应播放声音，指定发生时为<b>True</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>必须设置<b>ReminderPlaySound</b>属性验证<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" />属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>必须设置<b>ReminderPlaySound</b>属性验证<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" />属性。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -2761,7 +2658,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒已设置为<b>True</b>指定<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒已设置为<b>True</b>指定<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2792,12 +2689,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的提醒发生时要播放的声音文件的路径和文件名称。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的提醒发生时要播放的声音文件的路径和文件名称。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性才有效如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderOverrideDefault" />和<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" />属性设置为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性才有效如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderOverrideDefault" />和<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" />属性设置为<b>True</b>。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderTime">
@@ -2826,7 +2721,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置表示的日期和时间的提醒应当发生的指定<b>DateTime</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置表示的日期和时间的提醒应当发生的指定<b>DateTime</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2856,11 +2751,9 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的共享上下文的唯一标识符<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性包含<b>SharingItem</b>对象中包含的共享上下文的 GUID 或 EntryID。</para>
-          <para>此属性设置为空字符串，如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />的<b>SharingItem</b>对象的属性设置为<b>olSharingMsgTypeRequest</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性包含一个 GUID 或条目 Id 为 <b>SharingItem</b> 对象中包含的共享上下文。</para>
+          <para>如果此属性设置为空字符串<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />的<b>SharingItem</b>对象的属性设置为<b>olSharingMsgTypeRequest</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoteName">
@@ -2888,11 +2781,9 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的共享上下文的名称<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性包含用于共享上下文，例如的<b>SharingItem</b>对象中包含的项的文件夹名称的名称。</para>
-          <para>此属性设置为空字符串，如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />的<b>SharingItem</b>对象的属性设置为<b>olSharingMsgTypeRequest</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性包含用于共享上下文，例如 <b>SharingItem</b> 对象中包含的项的文件夹的名称的名称。</para>
+          <para>如果此属性设置为空字符串<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />的<b>SharingItem</b>对象的属性设置为<b>olSharingMsgTypeRequest</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemotePath">
@@ -2920,11 +2811,9 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的共享上下文的路径<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性包含的共享上下文，如一个 WebCal 日历， <b>SharingItem</b>对象中包含的 URL 的路径。</para>
-          <para>此属性设置为空字符串，如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />的<b>SharingItem</b>对象的属性设置为<b>olSharingMsgTypeRequest</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性包含共享上下文，如 WebCal 日历， <b>SharingItem</b> 对象中包含的 URL 路径。</para>
+          <para>如果此属性设置为空字符串<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" />的<b>SharingItem</b>对象的属性设置为<b>olSharingMsgTypeRequest</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoteStatus">
@@ -2953,7 +2842,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />指定的远程状态的常量<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />指定的远程状态的常量<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3035,10 +2924,8 @@
       <Docs>
         <summary>返回以分号分隔的<b>字符串</b>（C# 中的<b>字符串</b>） 列表的答复收件人<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。  只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性只包含答复收件人的显示名称。应使用设置答复收件人列表<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReplyRecipients" />集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性只包含答复收件人的显示名称。 应使用设置答复收件人列表<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReplyRecipients" />集合。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyRecipients">
@@ -3094,10 +2981,8 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />常量，代表共享请求访问请求到默认文件夹的类型。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象，表示共享请求只能请求对于默认文件夹的访问权限。</para>
-          <para />
-        </remarks>
+        <remarks><para>A<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象，表示共享请求只能请求对于默认文件夹的访问权限。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RetentionExpirationDate">
@@ -3125,24 +3010,22 @@
       <Docs>
         <summary>返回<see cref="T:System.DateTime" />值，该值指定日期时<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象过期，其后消息记录管理 (MRM) 助理将删除项目。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A 保留策略启用和禁用由 Microsoft Exchange Server 邮箱级别上的管理员。此功能才可用只能在 Exchange Server 2010 邮箱上启用的 MRM 2.0。</para>
-          <para>Microsoft Outlook 中缓存或脱机模式下的 Outlook 是否计算基于项目保留开始日期和保留期，此属性的值。Exchange Server 在联机模式下的 Outlook 是否指定的值。</para>
-          <para>一般情况下，保留开始日期的项目确定，如下所示：</para>
+        <remarks><para>保留策略启用和禁用由 Microsoft Exchange Server 邮箱级别上的管理员。 此功能才可用只能在 Exchange Server 2010 邮箱上启用的 MRM 2.0。 </para>
+          <para>如果 Outlook 处于缓存或脱机模式，Microsoft Outlook 将基于项目保留开始日期和保留期计算该属性的值。如果 Outlook 处于联机模式，Exchange Server 将指定该值。</para>
+          <para>通常，项目保留开始日期是按以下方式确定的：</para>
           <list type="bullet">
             <item>
-              <para>接收或已发送的项目： 保留开始日期是接收的日期。</para>
+              <para>收到或发送的项目：保留开始日期是接收日期。</para>
             </item>
             <item>
-              <para>非定期日历项目： 保留开始日期是约会结束日期。</para>
+              <para>非定期日历项目：保留开始日期是约会结束日期。</para>
             </item>
             <item>
-              <para>定期日历项目： 保留开始日期是最后一次执行的结束日期。如果没有无结束日期，永不过期项目。</para>
+              <para>定期日历项目：保留开始日期是上一周期的结束日期。如果没有结束日期，则项目永不过期。</para>
             </item>
           </list>
-          <para />
-          <para />
-        </remarks>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RetentionPolicyName">
@@ -3170,10 +3053,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 指定保留策略的名称。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>保留已启用或禁用的 Microsoft Exchange Server 邮箱级别上的管理员。只有在 Exchange Server 2010 邮箱与邮件记录管理 (MRM) 2.0 启用该功能才可用。保留策略名的示例是"定义到期快速搜索的时间间隔"。</para>
-          <para />
-        </remarks>
+        <remarks><para>保留已启用或禁用的 Microsoft Exchange Server 邮箱级别上的管理员。 只有在 Exchange Server 2010 邮箱与邮件记录管理 (MRM) 2.0 启用该功能才可用。 保留策略名称的一个示例是"定义时间间隔到期快速搜索"。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RTFBody">
@@ -3202,12 +3083,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个字节数组，表示富文本格式的 Microsoft Outlook 项目的正文。 为可读/写属性。</summary>
+        <summary>返回或设置一个字节数组，表示富文本格式的 Microsoft Outlook 项目的正文。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>您可以使用 C# 或 Visual Basic 中的 system.text.encoding.asciiencoding.getstring （） 方法将字节数组转换为字符串。</para>
-          <para />
-        </remarks>
+        <remarks><para>您可以使用 C# 或 Visual Basic 中的 system.text.encoding.asciiencoding.getstring （） 方法将字节数组转换为字符串。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -3261,10 +3140,8 @@
         <param name="Path">将项目保存到的路径。</param>
         <param name="Type">要保存的文件类型。 可以是下列<b>OlSaveAsType</b>常量之一： <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>， <b>olICal</b>，或<b>olMSGUnicode</b>。</param>
         <summary>保存<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />指定路径和中所指定的文件类型的格式。 如果没有指定文件类型，则使用 MSG 格式 (.msg)。</summary>
-        <remarks>
-          <para>此外请注意，即使<b>olDoc</b>是有效的<b>OlSaveAsType</b>常量、 无法保存文档格式，以 HTML 格式的邮件和<b>olDoc</b>常量适用于 Microsoft Word 设置为默认电子邮件编辑器时，才。</para>
-          <para />
-        </remarks>
+        <remarks><para>此外请注意，即使<b>olDoc</b>是有效的<b>OlSaveAsType</b>常量、 无法保存文档格式，以 HTML 格式的邮件和<b>olDoc</b>常量适用于 Microsoft Word 设置为默认电子邮件编辑器时，才。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -3290,7 +3167,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果为<b>True</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />自上次保存后尚未修改。 只读。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果为<b>True</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />自上次保存后尚未修改。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3321,7 +3198,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示在其中的文件夹的副本<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />发送后，将保存。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示在其中的文件夹的副本<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />发送后，将保存。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3348,13 +3225,10 @@
       <Parameters />
       <Docs>
         <summary>发送<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。</summary>
-        <remarks>
-          <para>
-            <b>Send</b>方法发送使用默认的帐户指定会话项目。在会话中多个 Microsoft Exchange 帐户配置文件中的定义位置，添加到配置文件的第一个 Exchange 帐户是 Exchange 主帐户，并且是会话的默认帐户还。若要指定不同的帐户来发送项目，将设置<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" />属性设为所需<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象，然后调用<b>Send</b>方法。</para>
-          <para>某些共享提供程序可能有限制，对允许的收件人类型。调用此方法时，某些提供程序将尝试访问控制列表 (ACL) 项文件夹上设置为<b>SharingItem</b>中包含每个收件人。如果尝试为任何收件人的 Acl 时发生错误，此方法将引发错误和不向任何收件人发送该<b>SharingItem</b> 。</para>
+        <remarks><para><b>Send</b>方法在发送项目使用会话指定的默认帐户。 其中多个 Microsoft Exchange 帐户的配置文件中定义的会话，在第一个 Exchange 帐户添加到配置文件是主 Exchange 帐户，并也是会话的默认帐户。 若要指定不同的帐户来发送项目，将设置<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" />属性设为所需<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象，然后调用<b>Send</b>方法。</para>
+          <para>一些共享提供单元可能会限制允许收件人的类型。当调用此方法时，某些提供程序将尝试访问控制列表 (ACL) 项对该文件夹设置为包含在 <b>SharingItem</b> 中的每个收件人。如果试图将 Acl 设置为任何收件人时出现错误，此方法将引发错误， <b>SharingItem</b> 不会发送到任何收件人。</para>
           <para>如果出错<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BCC" />或<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.CC" />属性设置为<b>SharingItem</b>使用 Exchange 共享上下文。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailAddress">
@@ -3382,10 +3256,8 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表发件人的电子邮件地址<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。   只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagSenderEmailAddress</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagSenderEmailAddress</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailType">
@@ -3441,11 +3313,9 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示的发件人的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。  只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagSenderName</b>。</para>
+        <remarks><para>此属性对应于 <b>PidTagSenderName</b> 的 MAPI 属性。</para>
           <para>如果希望检索发件人的完全限定电子邮件地址，请使用<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SenderEmailAddress" />属性。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendUsingAccount">
@@ -3474,14 +3344,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象，表示所用的帐户<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />是发送。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象，表示所用的帐户<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />是发送。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SendUsingAccount</b>属性可用于指定应该用于发送该<b>SharingItem</b>的帐户时<see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" />调用方法。此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<b>SharingItem</b>是一个已接收的项目，或者如果帐户指定为不再存在<b>SharingItem</b> 。</para>
-          <para>此属性是只读的如果<b>SharingItem</b>是一个已接收的项目，或者如果已发送<b>SharingItem</b> (<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" />对象的属性设置为<b>True</b>。)</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SendUsingAccount</b>属性可用于指定应该用于发送该<b>SharingItem</b>的帐户时<see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" />调用方法。 如果<b>SharingItem</b>是一个已接收的项目，或如果帐户指定为<b>SharingItem</b>不再存在，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> 此属性是只读的如果<b>SharingItem</b>是一个已接收的项目，或者如果已发送<b>SharingItem</b> (<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" />对象的属性设置为<b>True</b>。)</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sensitivity">
@@ -3510,12 +3377,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" />常量，指示的敏感度<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" />常量，指示的敏感度<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagSensitivity</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagSensitivity</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sent">
@@ -3543,11 +3408,9 @@
       <Docs>
         <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示如果<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />已发送。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>一般情况下，有三种不同类型的邮件： 发送，发布，并保存。发送的消息将发送给收件人或公用文件夹项目。公用文件夹中创建已发布的消息。保存的邮件进行创建和保存而不发送或张贴。</para>
+        <remarks><para>通常，存在三种不同类型的邮件：已发送、已投递和已保存。已发送的邮件是发送至收件人或公用文件夹的项目。已投递的邮件是在公用文件夹中创建的项目。已保存的邮件则是已创建并保存但尚未发送或投递的项目。</para>
           <para>如果此属性设置为<b>True</b>，试图设置<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" />属性将引发错误。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOn">
@@ -3573,12 +3436,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示的日期和时间的<b>DateTime</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />发送。 只读。</summary>
+        <summary>返回指示的日期和时间的<b>DateTime</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />发送。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagClientSubmitTime</b>。当您发送项目使用对象的<see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" />方法，传输提供程序设置<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReceivedTime" />和为您的<b>SentOn</b>属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagClientSubmitTime</b> 的 MAPI 属性。 当您发送项目使用对象的<see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" />方法，传输提供程序设置<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReceivedTime" />和为您的<b>SentOn</b>属性。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOnBehalfOfName">
@@ -3607,12 +3468,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示预期发件人的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示预期发件人的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagSentRepresentingName</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagSentRepresentingName</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -3640,17 +3499,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SharingProvider">
@@ -3706,12 +3562,10 @@
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示使用的共享提供程序的 GUID<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>使用以下格式字符串形式返回 GUID:</para>
+        <remarks><para>将使用下列格式以字符串的形式返回 GUID：</para>
           <code>{00000000-0000-0000-0000-000000000000}</code>
-          <para>如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SharingProvider" /><b>SharingItem</b>对象的属性设置为<b>olProviderUnknown</b>，您可以使用<b>SharingProviderGUID</b>属性识别共享提供程序。</para>
-          <para />
-        </remarks>
+          <para>如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SharingProvider" />的<b>SharingItem</b>对象的属性设置为<b>olProviderUnknown</b>，您可以使用<b>SharingProviderGUID</b>属性识别的共享提供程序。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -3793,12 +3647,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示主题<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示主题<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagSubject</b>。<b>Subject</b>属性是 Outlook 项目的默认属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagSubject</b> 的 MAPI 属性。 <b>主题</b> 属性是 Outlook 项目的默认属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Submitted">
@@ -3824,12 +3676,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果为<b>True</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />已提交。 只读。</summary>
+        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果为<b>True</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />已提交。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>始终创建一条消息，并将其在文件夹中，通常发件箱中提交。</para>
-          <para />
-        </remarks>
+        <remarks><para>邮件总是在文件夹（通常为 "发件箱"）中创建和提交。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskCompletedDate">
@@ -3858,12 +3708,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>日期时间</b>值，表示此任务的完成日期<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>日期时间</b>值，表示此任务的完成日期<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskDueDate">
@@ -3892,12 +3740,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>日期时间</b>值，表示此任务的截止日期<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>日期时间</b>值，表示此任务的截止日期<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskStartDate">
@@ -3926,12 +3772,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个代表此任务的开始日期的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个代表此任务的开始日期的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskSubject">
@@ -3960,12 +3804,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表的任务的主题的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表的任务的主题的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回的值<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Subject" />属性如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回的值<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Subject" />属性如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="To">
@@ -3994,12 +3836,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置收件人的显示名称的分号分隔<b>字符串</b>（C# 中的<b>字符串</b>） 列表<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置收件人的显示名称的分号分隔<b>字符串</b>（C# 中的<b>字符串</b>） 列表<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性包含的显示名称。To 属性对应于 MAPI 属性<b>PidTagDisplayTo</b>。<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />用于修改此属性集合。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性包含的显示名称。 To属性对应于 <b>PidTagDisplayTo</b> 的 MAPI 属性。 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />用于修改此属性集合。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToDoTaskOrdinal">
@@ -4028,13 +3868,11 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个代表的任务的序号值的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个代表的任务的序号值的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-          <para>此属性用于指示任务在父组，如今天组或明天组中的待办事项栏中应如何排序。此属性中使用的值不具有任何值的对应关系<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />， <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />，或<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskCompletedDate" />属性。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
+          <para>此属性用于指明该任务在父组（如 "待办事项栏"的 "今天"组或 "明天"组）中应如何排序。 此属性中使用的值不具有任何值的对应关系<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />， <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />，或<see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskCompletedDate" />属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -4063,12 +3901,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSharingMsgType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlSharingMsgType" />常量，指示类型的共享邮件由<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlSharingMsgType" />常量，指示类型的共享邮件由<see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果您尝试发送或接收共享邮件后设置此属性，或者如果您尝试将此属性设置为<b>olSharingMsgTypeResponseAllow</b>或<b>olSharingMsgTypeResponseDeny</b>，将发生错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果您尝试将此属性设置之后共享邮件已发送或接收，或者如果您尝试将此属性设置为 <b>olSharingMsgTypeResponseAllow</b> 或 <b>olSharingMsgTypeResponseDeny</b> ，则会发生错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnRead">
@@ -4097,7 +3933,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果为<b>True</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />尚未打开 （阅读）。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果为<b>True</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />尚未打开 （阅读）。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,5 @@
 <Type Name="_AutoFormatRules" FullName="Microsoft.Office.Interop.Outlook._AutoFormatRules">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1be8110224ae16d515b615e6243bdf220718e789" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632244" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AutoFormatRules : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1be8110224ae16d515b615e6243bdf220718e789" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902325" /></Metadata><TypeSignature Language="C#" Value="public interface _AutoFormatRules : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AutoFormatRules implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AutoFormatRules" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AutoFormatRules&#xA;Implements IEnumerable" />
@@ -59,13 +51,9 @@
       <Docs>
         <param name="Name">新格式设置规则的名称。</param>
         <summary>创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象，并将其追加<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</summary>
-        <returns>
-          <b>AutoFormatRule</b> 对象，该对象表示新的格式设置规则。</returns>
-        <remarks>
-          <para>
-            <b>AutoFormatRules</b>集合中允许重复的<b>AutoFormatRule</b>对象的名称。25 自定义格式规则的最多可以添加到集合。内置的格式规则不会对该限制计算在内。</para>
-          <para />
-        </remarks>
+        <returns><b>AutoFormatRule</b> 对象，该对象表示新的格式设置规则。</returns>
+        <remarks><para><b>AutoFormatRules</b> 集合中允许重复的名称为 <b>AutoFormatRule</b> 的对象。25 日的自定义格式设置规则的最多可以添加到集合中。内置的格式设置规则不是计入该限制。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -179,12 +167,10 @@
         <param name="Name">新对象的名称。</param>
         <param name="Index">用于插入新的对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" />集合中要在其中插入新的对象是对象的属性值。</param>
         <summary>创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象，并将其插入中指定索引处<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</summary>
-        <returns>
-          <b>AutoFormatRule</b> 对象，该对象表示新的格式设置规则。</returns>
-        <remarks>
-          <para>无法使用此方法插入自定义格式设置规则之间或之前内置的格式规则。</para>
-          <b>AutoFormatRules</b>集合中允许
-          <para>重复的<b>AutoFormatRule</b>对象的名称。25 自定义格式规则的最多可以添加到集合。内置的格式规则不会对该限制计算在内。</para><para /></remarks>
+        <returns><b>AutoFormatRule</b> 对象，该对象表示新的格式设置规则。</returns>
+        <remarks><para>此方法不能用来在内置的格式设置规则之间或之前插入自定义格式设置规则。</para>
+          <para><b>AutoFormatRules</b> 集合中允许重复的名称为 <b>AutoFormatRule</b> 的对象。25 日的自定义格式设置规则的最多可以添加到集合中。内置的格式设置规则不是计入该限制。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -215,8 +201,7 @@
       <Docs>
         <param name="Index">该对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" />集合中对象的属性值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象的集合。</summary>
-        <value>
-          <b>AutoFormatRule</b> 对象，该对象代表指定的对象。</value>
+        <value><b>AutoFormatRule</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -273,11 +258,9 @@
       <Docs>
         <param name="Index">该对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" />集合中对象的属性值。</param>
         <summary>从集合中删除对象。</summary>
-        <remarks>
-          <para>中指定要删除的格式规则的名称时<paramref name="Index" />，此方法删除第一个<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象的指定的名称相匹配。</para>
-          <para>内置的格式规则不能从集合中删除。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果要删除的格式规则的名称中指定<paramref name="Index" />，此方法删除第一个<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象的指定的名称相匹配。</para>
+          <para>不能从集合中删除内置的格式规则。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveAll">
@@ -302,10 +285,8 @@
       <Parameters />
       <Docs>
         <summary>删除所有自定义格式规则从<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</summary>
-        <remarks>
-          <para>此方法删除每个<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" />属性值设置为<b>False</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此方法删除每个<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" />属性值设置为<b>False</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -330,10 +311,8 @@
       <Parameters />
       <Docs>
         <summary>保存所有更改到<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象中<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</summary>
-        <remarks>
-          <para>仅当调用此方法保留到<b>AutoFormatRules</b>集合，如添加或删除<b>AutoFormatRule</b>对象，或在集合中<b>AutoFormatRule</b>对象进行的任何更改。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果调用此方法将保持到 <b>AutoFormatRules</b> 集合，例如添加或删除 <b>AutoFormatRule</b> 对象，或在集合中， <b>AutoFormatRule</b> 对象所做的任何更改。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -361,17 +340,14 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

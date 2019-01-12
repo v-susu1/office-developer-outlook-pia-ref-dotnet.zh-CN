@@ -1,13 +1,5 @@
 <Type Name="OlIconViewType" FullName="Microsoft.Office.Interop.Outlook.OlIconViewType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f7075486f9a9bbd3d12bc6f2b5da560eb9b2855" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633363" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlIconViewType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ff5d3db8540e7fefa760a65d3d915c7ce3731e5a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900004" /></Metadata><TypeSignature Language="C#" Value="public enum OlIconViewType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlIconViewType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlIconViewType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlIconViewType" />
@@ -21,10 +13,8 @@
   </Base>
   <Docs>
     <summary>指示时使用的视图模式<see cref="T:Microsoft.Office.Interop.Outlook.IconView" />对象。</summary>
-    <remarks>
-      <para>对于<b>olIconViewLarge</b><b>olIconViewSmall</b>以及的实际位置和<b>IconView</b>对象中显示的图标的方向由<see cref="T:Microsoft.Office.Interop.Outlook.OlIconViewPlacement" />常量中指定<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconPlacement" /><b>IconView</b>对象的属性。<b>OlIconViewList</b>处于选中状态时，将忽略<b>IconPlacement</b>属性值。</para>
-      <para />
-    </remarks>
+    <remarks><para>对于<b>olIconViewLarge</b> <b>olIconViewSmall</b>以及的实际位置和<b>IconView</b>对象中显示的图标的方向由<see cref="T:Microsoft.Office.Interop.Outlook.OlIconViewPlacement" />常量中指定<see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconPlacement" /> <b>IconView</b>对象的属性。 <b>olIconViewList</b>被选中时，将忽略 <b>IconPlacement</b>属性值。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olIconViewLarge">
