@@ -1,13 +1,5 @@
 <Type Name="OlMarkInterval" FullName="Microsoft.Office.Interop.Outlook.OlMarkInterval">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7c9e49df717ce3ddf0f27eb4d29b64b4f9d7e205" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632870" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlMarkInterval" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5d866ab7681d12730bf668c858772b7531129236" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904971" /></Metadata><TypeSignature Language="C#" Value="public enum OlMarkInterval" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlMarkInterval extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlMarkInterval" />
@@ -20,171 +12,103 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="76f8c-101">指定 Outlook 项目标记为任务的时间段。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="76f8c-101">Specifies the time period for which an Outlook item is marked as a task.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="76f8c-102">
-        <para>此枚举由<b>MarkAsTask</b>方法用于以下 Outlook 项目：</para>
-        <list type="bullet">
-          <item>
-            <para>
-              <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />
-            </para>
-          </item>
-          <item>
-            <para>
-              <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />
-            </para>
-          </item>
-          <item>
-            <para>
-              <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />
-            </para>
-          </item>
-          <item>
-            <para>
-              <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />
-            </para>
-          </item>
-        </list>
-        <para>具体取决于所选的值，将以下属性设置为指定的默认值。</para>
-        <list type="table">
-          <item>
-            <description>枚举值</description>
-            <description>属性值</description>
-          </item>
-          <item>
-            <description>
-              <b>olMarkComplete</b>
-            </description>
-            <description>
-              <b>TaskCompletedDate</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中），如果该项目已被标记为任务。如果项目不被标记为任务，或任务已标记完成<b>TaskCompletedDate</b>设置为空日期值 （#1/1/4501 #）。</description>
-          </item>
-          <item>
-            <description>
-              <b>olMarkNoDate</b>
-            </description>
-            <description>
-              <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>、 <b>TaskDueDate</b>和<b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。 </description>
-          </item>
-          <item>
-            <description>
-              <b>olMarkNextWeek</b>
-            </description>
-            <description>
-              <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>设置为下周的第一个工作日。  <b>TaskDueDate</b>设置为下周的最后一个工作日。<b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</description>
-          </item>
-          <item>
-            <description>
-              <b>olMarkThisWeek</b>
-            </description>
-            <description>
-              <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>设置为当前日期之前的两个工作日的日期。如果该值超过<b>TaskDueDate</b>的值，然后<b>TaskStartDate</b>设置为<b>TaskDueDate</b>的值。  <b>TaskDueDate</b>设置为本周的最后一个工作日。<b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</description>
-          </item>
-          <item>
-            <description>
-              <b>olMarkToday</b>
-            </description>
-            <description>
-              <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>和<b>TaskDueDate</b>设置为当前日期。 <b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</description>
-          </item>
-          <item>
-            <description>
-              <b>olMarkTomorrow</b>
-            </description>
-            <description>
-              <b>IsMarkedAsTask</b>设置为<b>True</b>。<b>TaskSubject</b>设置为 Outlook 项目的<b>Subject</b>属性的值。<b>TaskStartDate</b>和<b>TaskDueDate</b>设置为当前日期晚一天。 <b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</description>
-          </item>
-        </list>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="76f8c-102">
-          <para>This enumeration is used by the <b>MarkAsTask</b> method for the following Outlook items:</para>
-          <list type="bullet">
-            <item>
-              <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />
-              </para>
-            </item>
-            <item>
-              <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />
-              </para>
-            </item>
-            <item>
-              <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />
-              </para>
-            </item>
-            <item>
-              <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />
-              </para>
-            </item>
-            <item>
-              <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />
-              </para>
-            </item>
-          </list>
-          <para>Depending on the value chosen, the following properties are set to the specified default values.</para>
-          <list type="table">
-            <item>
-              <description>Enumeration value</description>
-              <description>Property values</description>
-            </item>
-            <item>
-              <description>
-                <b>olMarkComplete</b>
-              </description>
-              <description>
-                <b>TaskCompletedDate</b> is set to the current date and time (<b>Now</b> in Visual Basic) if the item has been marked as a task. <b>TaskCompletedDate</b> is set to the empty date value (#1/1/4501#) if the item has not been marked as a task, or if the task has already been marked complete.</description>
-            </item>
-            <item>
-              <description>
-                <b>olMarkNoDate</b>
-              </description>
-              <description>
-                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b>, <b>TaskDueDate</b>, and <b>TaskCompletedDate</b> are set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).<b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic).  </description>
-            </item>
-            <item>
-              <description>
-                <b>olMarkNextWeek</b>
-              </description>
-              <description>
-                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b> is set to the first working day of next week.   <b>TaskDueDate</b> is set to the last working day of next week. <b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).<b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic). </description>
-            </item>
-            <item>
-              <description>
-                <b>olMarkThisWeek</b>
-              </description>
-              <description>
-                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b> is set to a date two working days ahead of the current date. If that value would exceed the value of <b>TaskDueDate</b>, then <b>TaskStartDate</b> is set to the value of <b>TaskDueDate</b>.   <b>TaskDueDate</b> is set to the last working day of the current week. <b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).<b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic). </description>
-            </item>
-            <item>
-              <description>
-                <b>olMarkToday</b>
-              </description>
-              <description>
-                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b> and <b>TaskDueDate</b> are set to the current date.  <b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#). <b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic). </description>
-            </item>
-            <item>
-              <description>
-                <b>olMarkTomorrow</b>
-              </description>
-              <description>
-                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b> and <b>TaskDueDate</b> are set to one day after the current date.  <b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#). <b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic). </description>
-            </item>
-          </list>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="72fc7-101">指定 Outlook 项目标记为任务的时间段。</span><span class="sxs-lookup"><span data-stu-id="72fc7-101">Specifies the time period for which an Outlook item is marked as a task.</span></span></summary>
+    <remarks><para><span data-ttu-id="72fc7-102">此枚举由 <b>MarkAsTask</b> 方法用于以下 Outlook 项目：</span><span class="sxs-lookup"><span data-stu-id="72fc7-102">This enumeration is used by the <b>MarkAsTask</b> method for the following Outlook items:</span></span></para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />
+          </para>
+        </item>
+      </list>
+      <para><span data-ttu-id="72fc7-103">根据所选的值，以下属性将被设置为指定的默认值。</span><span class="sxs-lookup"><span data-stu-id="72fc7-103">Depending on the value chosen, the following properties are set to the specified default values.</span></span></para>
+      <list type="table">
+        <item>
+          <description><span data-ttu-id="72fc7-104">枚举值</span><span class="sxs-lookup"><span data-stu-id="72fc7-104">Enumeration value</span></span></description>
+          <description><span data-ttu-id="72fc7-105">属性值</span><span class="sxs-lookup"><span data-stu-id="72fc7-105">Property values</span></span></description>
+        </item>
+        <item>
+          <description><span data-ttu-id="72fc7-106">
+            <b>olMarkComplete</b>
+          </span><span class="sxs-lookup"><span data-stu-id="72fc7-106">
+            <b>olMarkComplete</b>
+          </span></span></description>
+          <description><span data-ttu-id="72fc7-107">
+            <b>TaskCompletedDate</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中），如果该项目已被标记为任务。</span><span class="sxs-lookup"><span data-stu-id="72fc7-107">
+            <b>TaskCompletedDate</b> is set to the current date and time (<b>Now</b> in Visual Basic) if the item has been marked as a task.</span></span> <span data-ttu-id="72fc7-108">如果项目尚未标记为某项任务，或者如果该任务已被标记完成 <b>TaskCompletedDate</b>设置为空日期值 (第 1/1/4501 #)。</span><span class="sxs-lookup"><span data-stu-id="72fc7-108"><b>TaskCompletedDate</b> is set to the empty date value (#1/1/4501#) if the item has not been marked as a task, or if the task has already been marked complete.</span></span></description>
+        </item>
+        <item>
+          <description><span data-ttu-id="72fc7-109">
+            <b>olMarkNoDate</b>
+          </span><span class="sxs-lookup"><span data-stu-id="72fc7-109">
+            <b>olMarkNoDate</b>
+          </span></span></description>
+          <description><span data-ttu-id="72fc7-110">IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="72fc7-110">
+            <b>IsMarkedAsTask</b> is set to <b>True</b>.</span></span> <span data-ttu-id="72fc7-111">TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。</span><span class="sxs-lookup"><span data-stu-id="72fc7-111"><b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item.</span></span> <span data-ttu-id="72fc7-112"><b>TaskStartDate</b>、 <b>TaskDueDate</b>和<b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</span><span class="sxs-lookup"><span data-stu-id="72fc7-112"><b>TaskStartDate</b>, <b>TaskDueDate</b>, and <b>TaskCompletedDate</b> are set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).<b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic).</span></span>  </description>
+        </item>
+        <item>
+          <description><span data-ttu-id="72fc7-113">
+            <b>olMarkNextWeek</b>
+          </span><span class="sxs-lookup"><span data-stu-id="72fc7-113">
+            <b>olMarkNextWeek</b>
+          </span></span></description>
+          <description><span data-ttu-id="72fc7-114">IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="72fc7-114">
+            <b>IsMarkedAsTask</b> is set to <b>True</b>.</span></span> <span data-ttu-id="72fc7-115">TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。</span><span class="sxs-lookup"><span data-stu-id="72fc7-115"><b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item.</span></span> <span data-ttu-id="72fc7-116">TaskStartDate <b>TaskStartDate</b> 设置为下周的第一个工作日。</span><span class="sxs-lookup"><span data-stu-id="72fc7-116"><b>TaskStartDate</b> is set to the first working day of next week.</span></span>   <span data-ttu-id="72fc7-117">TaskDueDate <b>TaskDueDate</b> 设置为下周的最后一个工作日。</span><span class="sxs-lookup"><span data-stu-id="72fc7-117"><b>TaskDueDate</b> is set to the last working day of next week.</span></span> <span data-ttu-id="72fc7-118"><b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</span><span class="sxs-lookup"><span data-stu-id="72fc7-118"><b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).<b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic).</span></span> </description>
+        </item>
+        <item>
+          <description><span data-ttu-id="72fc7-119">
+            <b>olMarkThisWeek</b>
+          </span><span class="sxs-lookup"><span data-stu-id="72fc7-119">
+            <b>olMarkThisWeek</b>
+          </span></span></description>
+          <description><span data-ttu-id="72fc7-120">IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="72fc7-120">
+            <b>IsMarkedAsTask</b> is set to <b>True</b>.</span></span> <span data-ttu-id="72fc7-121">TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。</span><span class="sxs-lookup"><span data-stu-id="72fc7-121"><b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item.</span></span> <span data-ttu-id="72fc7-122">TaskStartDate <b>TaskStartDate</b> 设置为比当前日期早两个工作日的日期。</span><span class="sxs-lookup"><span data-stu-id="72fc7-122"><b>TaskStartDate</b> is set to a date two working days ahead of the current date.</span></span> <span data-ttu-id="72fc7-123">如果该值超出了 TaskDueDate <b>TaskDueDate</b> 的值，则 TaskStartDate <b>TaskStartDate</b> 将设置为 TaskDueDate <b>TaskDueDate</b> 的值。</span><span class="sxs-lookup"><span data-stu-id="72fc7-123">If that value would exceed the value of <b>TaskDueDate</b>, then <b>TaskStartDate</b> is set to the value of <b>TaskDueDate</b>.</span></span>   <span data-ttu-id="72fc7-124">TaskDueDate <b>TaskDueDate</b> 设置为本周的最后一个工作日。</span><span class="sxs-lookup"><span data-stu-id="72fc7-124"><b>TaskDueDate</b> is set to the last working day of the current week.</span></span> <span data-ttu-id="72fc7-125"><b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。<b>ToDoTaskOrdinal</b>设置为当前日期和时间 （<b>现在</b>Visual Basic 中）。</span><span class="sxs-lookup"><span data-stu-id="72fc7-125"><b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).<b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic).</span></span> </description>
+        </item>
+        <item>
+          <description><span data-ttu-id="72fc7-126">
+            <b>olMarkToday</b>
+          </span><span class="sxs-lookup"><span data-stu-id="72fc7-126">
+            <b>olMarkToday</b>
+          </span></span></description>
+          <description><span data-ttu-id="72fc7-127">IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="72fc7-127">
+            <b>IsMarkedAsTask</b> is set to <b>True</b>.</span></span> <span data-ttu-id="72fc7-128">TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。</span><span class="sxs-lookup"><span data-stu-id="72fc7-128"><b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item.</span></span> <span data-ttu-id="72fc7-129">TaskStartDate <b>TaskStartDate</b> 和 TaskDueDate <b>TaskDueDate</b> 设置为当前日期。</span><span class="sxs-lookup"><span data-stu-id="72fc7-129"><b>TaskStartDate</b> and <b>TaskDueDate</b> are set to the current date.</span></span>  <span data-ttu-id="72fc7-130"><b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="72fc7-130"><b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span> <span data-ttu-id="72fc7-131"><b>ToDoTaskOrdinal</b> 设置为当前日期和时间（在 Visual Basic 中为 <b>Now</b>）。</span><span class="sxs-lookup"><span data-stu-id="72fc7-131"><b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic).</span></span> </description>
+        </item>
+        <item>
+          <description><span data-ttu-id="72fc7-132">
+            <b>olMarkTomorrow</b>
+          </span><span class="sxs-lookup"><span data-stu-id="72fc7-132">
+            <b>olMarkTomorrow</b>
+          </span></span></description>
+          <description><span data-ttu-id="72fc7-133">IsMarkedAsTask 
+            <b>IsMarkedAsTask</b> 设置为 True <b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="72fc7-133">
+            <b>IsMarkedAsTask</b> is set to <b>True</b>.</span></span> <span data-ttu-id="72fc7-134">TaskSubject <b>TaskSubject</b> 设置为 Outlook 项目的 Subject <b>Subject</b> 属性值。</span><span class="sxs-lookup"><span data-stu-id="72fc7-134"><b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item.</span></span> <span data-ttu-id="72fc7-135">TaskStartDate <b>TaskStartDate</b> 和 TaskDueDate <b>TaskDueDate</b> 设置为比当前日期晚一天的日期。</span><span class="sxs-lookup"><span data-stu-id="72fc7-135"><b>TaskStartDate</b> and <b>TaskDueDate</b> are set to one day after the current date.</span></span>  <span data-ttu-id="72fc7-136"><b>TaskCompletedDate</b>设置为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="72fc7-136"><b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span> <span data-ttu-id="72fc7-137"><b>ToDoTaskOrdinal</b> 设置为当前日期和时间（在 Visual Basic 中为 <b>Now</b>）。</span><span class="sxs-lookup"><span data-stu-id="72fc7-137"><b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic).</span></span> </description>
+        </item>
+      </list>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olMarkComplete">
@@ -203,12 +127,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="76f8c-103">将任务标记为完成。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="76f8c-103">Mark the task as complete.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72fc7-138">将任务标记为完成。</span><span class="sxs-lookup"><span data-stu-id="72fc7-138">Mark the task as complete.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMarkNextWeek">
@@ -227,12 +146,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="76f8c-104">将任务截止时间标记为下周。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="76f8c-104">Mark the task due next week.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72fc7-139">将任务截止时间标记为下周。</span><span class="sxs-lookup"><span data-stu-id="72fc7-139">Mark the task due next week.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMarkNoDate">
@@ -251,12 +165,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="76f8c-105">将任务截止时间标记为无日期。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="76f8c-105">Mark the task due with no date.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72fc7-140">将任务截止时间标记为无日期。</span><span class="sxs-lookup"><span data-stu-id="72fc7-140">Mark the task due with no date.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMarkThisWeek">
@@ -275,12 +184,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="76f8c-106">将任务截止时间标记为本周。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="76f8c-106">Mark the task due this week.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72fc7-141">将任务截止时间标记为本周。</span><span class="sxs-lookup"><span data-stu-id="72fc7-141">Mark the task due this week.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMarkToday">
@@ -299,12 +203,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="76f8c-107">将任务截止时间标记为今天。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="76f8c-107">Mark the task due today.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72fc7-142">将任务截止时间标记为今天。</span><span class="sxs-lookup"><span data-stu-id="72fc7-142">Mark the task due today.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMarkTomorrow">
@@ -323,12 +222,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="76f8c-108">将任务截止时间标记为明天。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="76f8c-108">Mark the task due tomorrow.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72fc7-143">将任务截止时间标记为明天。</span><span class="sxs-lookup"><span data-stu-id="72fc7-143">Mark the task due tomorrow.</span></span></summary>
       </Docs>
     </Member>
   </Members>

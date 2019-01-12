@@ -1,13 +1,5 @@
 <Type Name="_PropertyAccessor" FullName="Microsoft.Office.Interop.Outlook._PropertyAccessor">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631594" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906210" /></Metadata><TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _PropertyAccessor" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._PropertyAccessor" />
   <TypeSignature Language="VB.NET" Value="Public Interface _PropertyAccessor" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="9c4c0-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9c4c0-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="9c4c0-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9c4c0-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="9c4c0-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9c4c0-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="9c4c0-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9c4c0-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="7b88d-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="7b88d-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="7b88d-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="7b88d-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="7b88d-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="7b88d-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9c4c0-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-105">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="9c4c0-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7b88d-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-105">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="7b88d-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,36 +73,11 @@
         <Parameter Name="Value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Value">
-          <span data-ttu-id="9c4c0-107">代表要转换的字节数组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-107">Represents the array of bytes to be converted.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-108">将指定的字节数组转换<paramref name="Value" />为<b>字符串</b>（C# 中的<b>字符串</b>）。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-108">Converts the array of bytes specified by <paramref name="Value" /> to a <b>String</b> (<b>string</b> in C#).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9c4c0-109">一个十六进制<b>字符串</b>（C# 中的<b>字符串</b>），表示转换后的值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-109">A hexadecimal <b>String</b> (<b>string</b> in C#) that represents the converted value.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="9c4c0-110">
-            <para>有关使用<b>PropertyAccessor</b>对象时类型转换的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-110">
-              <para>For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Value"><span data-ttu-id="7b88d-107">代表要转换的字节数组。</span><span class="sxs-lookup"><span data-stu-id="7b88d-107">Represents the array of bytes to be converted.</span></span></param>
+        <summary><span data-ttu-id="7b88d-108">将指定的字节数组转换<paramref name="Value" />为<b>字符串</b>（C# 中的<b>字符串</b>）。</span><span class="sxs-lookup"><span data-stu-id="7b88d-108">Converts the array of bytes specified by <paramref name="Value" /> to a <b>String</b> (<b>string</b> in C#).</span></span></summary>
+        <returns><span data-ttu-id="7b88d-109">一个十六进制<b>字符串</b>（C# 中的<b>字符串</b>），表示转换后的值。</span><span class="sxs-lookup"><span data-stu-id="7b88d-109">A hexadecimal <b>String</b> (<b>string</b> in C#) that represents the converted value.</span></span></returns>
+        <remarks><para><span data-ttu-id="7b88d-110">有关使用<b>PropertyAccessor</b>对象时类型转换的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-110">For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -162,16 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9c4c0-111">返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-111">Returns a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="9c4c0-112">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7b88d-111">返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-111">Returns a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="7b88d-112">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-112">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,52 +131,11 @@
         <Parameter Name="SchemaNames" Type="System.Object&amp;" RefType="ref" />
       </Parameters>
       <Docs>
-        <param name="SchemaNames">
-          <span data-ttu-id="9c4c0-113">包含要删除的父对象的属性的名称的数组<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-113">An array that contains the names of the properties that are to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="9c4c0-114">这些属性通过命名空间引用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-114">These properties are referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="9c4c0-115">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-115">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-116">删除在数组中指定的属性<paramref name="SchemaNames" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-116">Deletes the properties specified in the array <paramref name="SchemaNames" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9c4c0-117">如果操作成功，或者如果出错，则<b>Err</b>对象的数组为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）<b>对象</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-117">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful, or is an array of <b>Err</b> objects if an error occurs.</span>
-          </span>
-          <span data-ttu-id="9c4c0-118">如果返回值是一个数组，该数组的大小是 SchemaNames数组相同。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-118">If the return value is an array, the size of this array is the same as that of the SchemaNames array.</span>
-          </span>
-          <span data-ttu-id="9c4c0-119">数组中的 <b>错误</b> 值映射到删除 SchemaNames参数中的对应属性的错误结果。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-119">An <b>Err</b> value in the array is mapped to the error result of deleting the corresponding property in the SchemaNames parameter.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="9c4c0-120">
-            <para>呼叫者必须有权删除属性。<b>DeleteProperties</b>方法仅删除存在的自定义属性。它不会删除任何 Outlook 内置属性或任何 MAPI 属性。它不会删除自定义属性的<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-120">
-              <para>The caller must have the permission to delete properties. The <b>DeleteProperties</b> method only deletes custom properties that exist. It does not delete any Outlook built-in property or any MAPI property. It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaNames"><span data-ttu-id="7b88d-113">包含要删除的父对象的属性的名称的数组<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-113">An array that contains the names of the properties that are to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="7b88d-114">这些属性通过命名空间引用。</span><span class="sxs-lookup"><span data-stu-id="7b88d-114">These properties are referenced by namespace.</span></span> <span data-ttu-id="7b88d-115">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-115">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <summary><span data-ttu-id="7b88d-116">删除在数组中指定的属性<paramref name="SchemaNames" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-116">Deletes the properties specified in the array <paramref name="SchemaNames" />.</span></span></summary>
+        <returns><span data-ttu-id="7b88d-117">如果操作成功，或者如果出错，则<b>Err</b>对象的数组为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）<b>对象</b>。</span><span class="sxs-lookup"><span data-stu-id="7b88d-117">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful, or is an array of <b>Err</b> objects if an error occurs.</span></span> <span data-ttu-id="7b88d-118">如果返回值是一个数组，该数组的大小是 SchemaNames数组相同。</span><span class="sxs-lookup"><span data-stu-id="7b88d-118">If the return value is an array, the size of this array is the same as that of the SchemaNames array.</span></span> <span data-ttu-id="7b88d-119">数组中的 <b>错误</b> 值映射到删除 SchemaNames参数中的对应属性的错误结果。</span><span class="sxs-lookup"><span data-stu-id="7b88d-119">An <b>Err</b> value in the array is mapped to the error result of deleting the corresponding property in the SchemaNames parameter.</span></span></returns>
+        <remarks><para><span data-ttu-id="7b88d-120">调用方必须具有要删除的属性的权限。</span><span class="sxs-lookup"><span data-stu-id="7b88d-120">The caller must have the permission to delete properties.</span></span> <span data-ttu-id="7b88d-121"><b>DeleteProperties</b> 方法仅删除存在的自定义属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-121">The <b>DeleteProperties</b> method only deletes custom properties that exist.</span></span> <span data-ttu-id="7b88d-122">它不会删除任何 Outlook 内置属性或任何 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-122">It does not delete any Outlook built-in property or any MAPI property.</span></span> <span data-ttu-id="7b88d-123">它不会删除自定义属性的<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-123">It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteProperty">
@@ -270,38 +161,10 @@
         <Parameter Name="SchemaName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="SchemaName">
-          <span data-ttu-id="9c4c0-121">要删除的父对象的属性的名称<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-121">The name of the property that is to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="9c4c0-122">通过命名空间引用属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-122">The property is referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="9c4c0-123">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-123">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-124">删除指定的属性<paramref name="SchemaName" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-124">Deletes the property specified by <paramref name="SchemaName" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="9c4c0-125">
-            <para>呼叫者必须有权删除属性。<b>DeleteProperty</b>方法删除仅自定义属性;它不会删除任何 Outlook 内置属性或任何 MAPI 属性。它不会删除自定义属性的<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-125">
-              <para>The caller must have the permission to delete properties. The <b>DeleteProperty</b> method deletes only custom properties; it does not delete any Outlook built-in property or any MAPI property. It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaName"><span data-ttu-id="7b88d-124">要删除的父对象的属性的名称<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-124">The name of the property that is to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="7b88d-125">通过命名空间引用属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-125">The property is referenced by namespace.</span></span> <span data-ttu-id="7b88d-126">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-126">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <summary><span data-ttu-id="7b88d-127">删除指定的属性<paramref name="SchemaName" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-127">Deletes the property specified by <paramref name="SchemaName" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="7b88d-128">调用方必须具有要删除的属性的权限。</span><span class="sxs-lookup"><span data-stu-id="7b88d-128">The caller must have the permission to delete properties.</span></span> <span data-ttu-id="7b88d-129"><b>DeleteProperty</b> 方法删除只有自定义属性;它不会删除任何 Outlook 内置属性或任何 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-129">The <b>DeleteProperty</b> method deletes only custom properties; it does not delete any Outlook built-in property or any MAPI property.</span></span> <span data-ttu-id="7b88d-130">它不会删除自定义属性的<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-130">It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperties">
@@ -327,55 +190,12 @@
         <Parameter Name="SchemaNames" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="SchemaNames">
-          <span data-ttu-id="9c4c0-126">一个包含要返回其值的属性的名称的数组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-126">An array that contains the names of the properties whose values are to be returned.</span>
-          </span>
-          <span data-ttu-id="9c4c0-127">这些属性通过命名空间引用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-127">These properties are referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="9c4c0-128">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-128">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-129">获取由一维数组指定的属性的值<paramref name="SchemaNames" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-129">Obtains the values of the properties specified by the one-dimensional array <paramref name="SchemaNames" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9c4c0-130">一个<b>对象</b>，表示的参数中指定的属性的值的数组<paramref name="SchemaNames" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-130">An <b>Object</b> that represents an array of values of the properties specified in the parameter <paramref name="SchemaNames" />.</span>
-          </span>
-          <span data-ttu-id="9c4c0-131">在返回的数组的元素数目等于中的元素数<paramref name="SchemaNames" />数组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-131">The number of elements in the returned array equals the number of elements in the <paramref name="SchemaNames" /> array.</span>
-          </span>
-          <span data-ttu-id="9c4c0-132">如果在获取特定属性时发生错误，则将返回的数组中的对应位置中返回 <b>Err</b> 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-132">If an error occurs for getting a specific property, the <b>Err</b> value will be returned in the corresponding location in the returned array.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="9c4c0-133">
-            <para>
-              <b>GetProperties</b>返回的数组可以包含不同类型，具体取决于请求的属性类型的元素。<b>GetProperties</b>返回的数组元素的类型将是基础属性的类型相同。某些原始属性类型，如<b>PT_OBJECT</b>不受支持，将引发错误。如果您需要的原始属性类型转换，例如，从<b>PT_BINARY</b>为字符串，或从<b>PT_SYSTIME</b>为本地时间，使用的帮助程序方法<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />和<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</para>
-            <para>有关使用<b>PropertyAccessor</b>对象获取属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-133">
-              <para>The array returned by <b>GetProperties</b> can contain elements of different types, depending on the type of the property requested. The type of the array element returned by <b>GetProperties</b> will be the same as the type of the underlying property. Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error. If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to  a local time, use the helper methods  <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
-              <para>For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaNames"><span data-ttu-id="7b88d-131">一个包含要返回其值的属性的名称的数组。</span><span class="sxs-lookup"><span data-stu-id="7b88d-131">An array that contains the names of the properties whose values are to be returned.</span></span> <span data-ttu-id="7b88d-132">这些属性通过命名空间引用。</span><span class="sxs-lookup"><span data-stu-id="7b88d-132">These properties are referenced by namespace.</span></span> <span data-ttu-id="7b88d-133">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-133">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <summary><span data-ttu-id="7b88d-134">获取由一维数组指定的属性的值<paramref name="SchemaNames" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-134">Obtains the values of the properties specified by the one-dimensional array <paramref name="SchemaNames" />.</span></span></summary>
+        <returns><span data-ttu-id="7b88d-135">一个<b>对象</b>，表示的参数中指定的属性的值的数组<paramref name="SchemaNames" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-135">An <b>Object</b> that represents an array of values of the properties specified in the parameter <paramref name="SchemaNames" />.</span></span> <span data-ttu-id="7b88d-136">在返回的数组的元素数目等于中的元素数<paramref name="SchemaNames" />数组。</span><span class="sxs-lookup"><span data-stu-id="7b88d-136">The number of elements in the returned array equals the number of elements in the <paramref name="SchemaNames" /> array.</span></span>  <span data-ttu-id="7b88d-137">如果在获取特定属性时发生错误，则将返回的数组中的对应位置中返回 <b>Err</b> 值。</span><span class="sxs-lookup"><span data-stu-id="7b88d-137">If an error occurs for getting a specific property, the <b>Err</b> value will be returned in the corresponding location in the returned array.</span></span></returns>
+        <remarks><para><span data-ttu-id="7b88d-138"><b>GetProperties</b> 返回的数组可以包含属于不同类型，具体取决于请求的属性的类型的元素。</span><span class="sxs-lookup"><span data-stu-id="7b88d-138">The array returned by <b>GetProperties</b> can contain elements of different types, depending on the type of the property requested.</span></span> <span data-ttu-id="7b88d-139">由 <b>GetProperties</b> 返回的数组元素的类型将是基础属性的类型相同。</span><span class="sxs-lookup"><span data-stu-id="7b88d-139">The type of the array element returned by <b>GetProperties</b> will be the same as the type of the underlying property.</span></span> <span data-ttu-id="7b88d-140"><b>PT_OBJECT</b> 如某些原始属性类型不受支持，会引发错误。</span><span class="sxs-lookup"><span data-stu-id="7b88d-140">Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error.</span></span> <span data-ttu-id="7b88d-141">如果您需要的原始属性类型转换，例如，从<b>PT_BINARY</b>为字符串，或从<b>PT_SYSTIME</b>为本地时间，使用的帮助程序方法<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />和<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-141">If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to  a local time, use the helper methods  <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />.</span></span> </para>
+          <para><span data-ttu-id="7b88d-142">有关使用<b>PropertyAccessor</b>对象获取属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-142">For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperty">
@@ -401,46 +221,12 @@
         <Parameter Name="SchemaName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="SchemaName">
-          <span data-ttu-id="9c4c0-134">将返回其值的属性的名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-134">The name of the property whose value is to be returned.</span>
-          </span>
-          <span data-ttu-id="9c4c0-135">该属性通过命名空间引用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-135">The property is referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="9c4c0-136">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-136">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-137">返回一个<b>对象</b>，表示由指定的属性的值<paramref name="SchemaName" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-137">Returns an <b>Object</b> that represents the value of the property specified by <paramref name="SchemaName" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9c4c0-138">一个<b>Object</b>值，该值代表指定请求属性的值<paramref name="SchemaName" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-138">An <b>Object</b> value that represents the value of the requested property as specified by <paramref name="SchemaName" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="9c4c0-139">
-            <para>返回值的类型将是基础属性的类型相同。某些原始属性类型，如<b>PT_OBJECT</b>不受支持，将引发错误。如果您需要的原始属性类型转换，例如，从<b>PT_BINARY</b>为字符串，或从<b>PT_SYSTIME</b>为本地时间，使用的帮助程序方法<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />和<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</para>
-            <para>有关使用<b>PropertyAccessor</b>对象获取属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-139">
-              <para>The type of the return value will be the same as the type of the underlying property. Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error. If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to a local time, use the helper methods <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
-              <para>For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaName"><span data-ttu-id="7b88d-143">将返回其值的属性的名称。</span><span class="sxs-lookup"><span data-stu-id="7b88d-143">The name of the property whose value is to be returned.</span></span> <span data-ttu-id="7b88d-144">该属性通过命名空间引用。</span><span class="sxs-lookup"><span data-stu-id="7b88d-144">The property is referenced by namespace.</span></span> <span data-ttu-id="7b88d-145">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-145">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <summary><span data-ttu-id="7b88d-146">返回一个<b>对象</b>，表示由指定的属性的值<paramref name="SchemaName" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-146">Returns an <b>Object</b> that represents the value of the property specified by <paramref name="SchemaName" />.</span></span></summary>
+        <returns><span data-ttu-id="7b88d-147">一个<b>Object</b>值，该值代表指定请求属性的值<paramref name="SchemaName" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-147">An <b>Object</b> value that represents the value of the requested property as specified by <paramref name="SchemaName" />.</span></span></returns>
+        <remarks><para><span data-ttu-id="7b88d-148">返回值的类型将是基础属性的类型相同。</span><span class="sxs-lookup"><span data-stu-id="7b88d-148">The type of the return value will be the same as the type of the underlying property.</span></span> <span data-ttu-id="7b88d-149"><b>PT_OBJECT</b> 如某些原始属性类型不受支持，会引发错误。</span><span class="sxs-lookup"><span data-stu-id="7b88d-149">Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error.</span></span> <span data-ttu-id="7b88d-150">如果您需要的原始属性类型转换，例如，从<b>PT_BINARY</b>为字符串，或从<b>PT_SYSTIME</b>为本地时间，使用的帮助程序方法<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" />和<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-150">If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to a local time, use the helper methods <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />.</span></span> </para>
+          <para><span data-ttu-id="7b88d-151">有关使用<b>PropertyAccessor</b>对象获取属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-151">For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LocalTimeToUTC">
@@ -466,36 +252,11 @@
         <Parameter Name="Value" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="Value">
-          <span data-ttu-id="9c4c0-140">要从本地时间转换为 UTC 的日期时间值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-140">The DateTime value to be converted from local time to UTC.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-141">将指定的日期时间值转换为<paramref name="Value" />从本地时间格式为通用协调时间 (UTC) 格式。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-141">Converts a DateTime value specified by <paramref name="Value" /> from the  local time format to Coordinated Universal Time (UTC) format.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9c4c0-142">DateTime 值，该值代表<paramref name="Value" />后从本地时间转换为 UTC。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-142">A DateTime value that represents <paramref name="Value" /> after being converted from local time to UTC.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="9c4c0-143">
-            <para>有关使用<b>PropertyAccessor</b>对象时类型转换的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-143">
-              <para>For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Value"><span data-ttu-id="7b88d-152">要从本地时间转换为 UTC 的日期时间值。</span><span class="sxs-lookup"><span data-stu-id="7b88d-152">The DateTime value to be converted from local time to UTC.</span></span></param>
+        <summary><span data-ttu-id="7b88d-153">将指定的日期时间值转换为<paramref name="Value" />从本地时间格式为通用协调时间 (UTC) 格式。</span><span class="sxs-lookup"><span data-stu-id="7b88d-153">Converts a DateTime value specified by <paramref name="Value" /> from the  local time format to Coordinated Universal Time (UTC) format.</span></span></summary>
+        <returns><span data-ttu-id="7b88d-154">DateTime 值，该值代表<paramref name="Value" />后从本地时间转换为 UTC。</span><span class="sxs-lookup"><span data-stu-id="7b88d-154">A DateTime value that represents <paramref name="Value" /> after being converted from local time to UTC.</span></span></returns>
+        <remarks><para><span data-ttu-id="7b88d-155">有关使用<b>PropertyAccessor</b>对象时类型转换的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-155">For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -521,16 +282,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9c4c0-144">返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-144">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="9c4c0-145">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-145">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7b88d-156">返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-156">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="7b88d-157">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-157">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -558,42 +310,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9c4c0-146">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-146">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="9c4c0-147">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-147">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7b88d-158">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="7b88d-158">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span>  <span data-ttu-id="7b88d-159">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-159">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="9c4c0-148">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />方法可以交替使用，以获取<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />当前会话的对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="7b88d-160"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />方法可以交替使用，以获取<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />当前会话的对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-160">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="7b88d-161">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="7b88d-161">Both members serve the same purpose.</span></span> <span data-ttu-id="7b88d-162">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="7b88d-162">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-148">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperties">
@@ -620,116 +346,39 @@
         <Parameter Name="Values" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="SchemaNames">
-          <span data-ttu-id="9c4c0-149">要设置其值的属性的名称的数组，参数指定的值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-149">An array of names of properties whose values are to be set as specified by the Values parameter.</span>
-          </span>
-          <span data-ttu-id="9c4c0-150">这些属性通过命名空间引用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-150">These properties are referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="9c4c0-151">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-151">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <param name="Values">
-          <span data-ttu-id="9c4c0-152">要为 SchemaNames 参数指定的属性设置的值的数组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-152">An array of values that are to be set for the properties specified by the SchemaNames parameter.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-153">将由数组的指定属性设置<paramref name="SchemaNames" />指定由数组的值<paramref name="Values" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-153">Sets the properties specified by the array <paramref name="SchemaNames" /> to the values specified by the array <paramref name="Values" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9c4c0-154">如果操作成功为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）<b>对象</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-154">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful.</span>
-          </span>
-          <span data-ttu-id="9c4c0-155">如果之前设置任何属性时出现错误，例如， SchemaNames数组中元素的个数不匹配，在 Values数组中，并将返回 <b>Err</b> 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-155">If there is an error before any properties are set, for example, the number of elements in the SchemaNames array does not match that in the Values array, and an <b>Err</b> value will be returned.</span>
-          </span>
-          <span data-ttu-id="9c4c0-156">如果属性设置没有错误，返回值是与正在 SchemaNames 数组相同此数组中的元素数<b>Err</b>对象的数组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-156">If there is an error during the setting of the properties, the return value is an array of <b>Err</b> objects, with the number  of elements in this array being the same as that of the SchemaNames array.</span>
-          </span>
-          <span data-ttu-id="9c4c0-157">数组中的 <b>错误</b> 值被映射到在 SchemaNames参数中设置相应的属性的错误结果。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-157">An <b>Err</b> value in the array is mapped to the error result of setting the corresponding property in the SchemaNames parameter.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="9c4c0-158">
-            <para>如果属性不存在和<paramref name="SchemaNames" />元素包含一个有效的属性说明符，然后<b>SetProperties</b>会创建该属性，并将属性分配与指定的值<paramref name="Values" />。将传入的元素的类型属性的类型。 <paramref name="Values" />。如果属性存在，则<b>SetProperties</b>分配属性指定值<paramref name="Values" />。</para>
-            <para>，使用<b>PropertyAccessor</b>创建的自定义属性不支持自定义视图中的注释。如果您想要查看项目的自定义属性，通过使用创建该属性<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法。</para>
-            <para>如果对象的父<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持显式<b>保存</b>的操作，则属性应保存到具有<b>保存</b>的显式对象方法调用。如果对象不支持显式<b>保存</b>的操作，则属性保存到该对象调用<b>SetProperties</b>时。</para>
-            <para>小心，并确保正确处理所有异常。设置属性失败其中包含的条件：</para>
-            <list type="bullet">
-              <item>
-                <para>属性是只读的一些 Outlook 和 MAPI 属性是只读的。</para>
-              </item>
-              <item>
-                <para>找不到指定的命名空间所引用的属性。</para>
-              </item>
-              <item>
-                <para>属性指定格式无效，无法进行分析。</para>
-              </item>
-              <item>
-                <para>属性不存在且无法创建。</para>
-              </item>
-              <item>
-                <para>属性存在，但传递不正确的类型的值。</para>
-              </item>
-              <item>
-                <para>由于客户端脱机，无法打开属性。</para>
-              </item>
-              <item>
-                <para>创建属性使用的<b>Add</b>方法<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象。当第一次设置属性，必须使用<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象，而不是<b>SetProperties</b>或<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /><b>PropertyAccessor</b>对象的方法。</para>
-              </item>
-            </list>
-            <para>有关使用<b>PropertyAccessor</b>对象，设置属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-158">
-              <para>If the property does not exist and the <paramref name="SchemaNames" /> element contains a valid property specifier, then <b>SetProperties</b> creates the property and assigns the property with  the value specified by <paramref name="Values" />. The type of the property will be the type of the element passed in <paramref name="Values" />. If the property does exist, then <b>SetProperties</b> assigns the property the value as specified by <paramref name="Values" />.</para>
-              <para>Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view. If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</para>
-              <para>If the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call. If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called. </para>
-              <para>Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</para>
-              <list type="bullet">
-                <item>
-                  <para>The property is read-only, as some Outlook and MAPI properties are read-only.</para>
-                </item>
-                <item>
-                  <para>The property referenced by the specified namespace is not found.</para>
-                </item>
-                <item>
-                  <para>The property is specified in an invalid format and cannot be parsed.</para>
-                </item>
-                <item>
-                  <para>The property does not exist and cannot be created.</para>
-                </item>
-                <item>
-                  <para>The property exists but is passed a value of an incorrect type.</para>
-                </item>
-                <item>
-                  <para>Cannot open the property because the client is offline.</para>
-                </item>
-                <item>
-                  <para>The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object. When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <b>SetProperties</b> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <b>PropertyAccessor</b> object.</para>
-                </item>
-              </list>
-              <para>For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaNames"><span data-ttu-id="7b88d-163">要设置其值的属性的名称的数组，参数指定的值。</span><span class="sxs-lookup"><span data-stu-id="7b88d-163">An array of names of properties whose values are to be set as specified by the Values parameter.</span></span> <span data-ttu-id="7b88d-164">这些属性通过命名空间引用。</span><span class="sxs-lookup"><span data-stu-id="7b88d-164">These properties are referenced by namespace.</span></span> <span data-ttu-id="7b88d-165">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-165">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <param name="Values"><span data-ttu-id="7b88d-166">要为 SchemaNames 参数指定的属性设置的值的数组。</span><span class="sxs-lookup"><span data-stu-id="7b88d-166">An array of values that are to be set for the properties specified by the SchemaNames parameter.</span></span></param>
+        <summary><span data-ttu-id="7b88d-167">将由数组的指定属性设置<paramref name="SchemaNames" />指定由数组的值<paramref name="Values" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-167">Sets the properties specified by the array <paramref name="SchemaNames" /> to the values specified by the array <paramref name="Values" />.</span></span></summary>
+        <returns><span data-ttu-id="7b88d-168">如果操作成功为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）<b>对象</b>。</span><span class="sxs-lookup"><span data-stu-id="7b88d-168">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful.</span></span> <span data-ttu-id="7b88d-169">如果之前设置任何属性时出现错误，例如， SchemaNames数组中元素的个数不匹配，在 Values数组中，并将返回 <b>Err</b> 值。</span><span class="sxs-lookup"><span data-stu-id="7b88d-169">If there is an error before any properties are set, for example, the number of elements in the SchemaNames array does not match that in the Values array, and an <b>Err</b> value will be returned.</span></span> <span data-ttu-id="7b88d-170">如果属性设置没有错误，返回值是与正在 SchemaNames 数组相同此数组中的元素数<b>Err</b>对象的数组。</span><span class="sxs-lookup"><span data-stu-id="7b88d-170">If there is an error during the setting of the properties, the return value is an array of <b>Err</b> objects, with the number  of elements in this array being the same as that of the SchemaNames array.</span></span> <span data-ttu-id="7b88d-171">数组中的 <b>错误</b> 值被映射到在 SchemaNames参数中设置相应的属性的错误结果。</span><span class="sxs-lookup"><span data-stu-id="7b88d-171">An <b>Err</b> value in the array is mapped to the error result of setting the corresponding property in the SchemaNames parameter.</span></span></returns>
+        <remarks><para><span data-ttu-id="7b88d-172">如果属性不存在和<paramref name="SchemaNames" />元素包含一个有效的属性说明符，然后<b>SetProperties</b>会创建该属性，并将属性分配与指定的值<paramref name="Values" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-172">If the property does not exist and the <paramref name="SchemaNames" /> element contains a valid property specifier, then <b>SetProperties</b> creates the property and assigns the property with  the value specified by <paramref name="Values" />.</span></span> <span data-ttu-id="7b88d-173">将传入的元素的类型属性的类型。 <paramref name="Values" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-173">The type of the property will be the type of the element passed in <paramref name="Values" />.</span></span> <span data-ttu-id="7b88d-174">如果属性存在，则<b>SetProperties</b>分配属性指定值<paramref name="Values" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-174">If the property does exist, then <b>SetProperties</b> assigns the property the value as specified by <paramref name="Values" />.</span></span></para>
+          <para><span data-ttu-id="7b88d-175">请注意，使用 <b>PropertyAccessor</b> 创建的自定义属性在自定义视图中不受支持。</span><span class="sxs-lookup"><span data-stu-id="7b88d-175">Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view.</span></span> <span data-ttu-id="7b88d-176">如果您想要查看项目的自定义属性，通过使用创建该属性<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法。</span><span class="sxs-lookup"><span data-stu-id="7b88d-176">If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</span></span></para>
+          <para><span data-ttu-id="7b88d-177">如果父对象的<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持显式<b>保存</b>的操作，则属性应保存到具有<b>保存</b>的显式对象方法调用。</span><span class="sxs-lookup"><span data-stu-id="7b88d-177">If the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call.</span></span> <span data-ttu-id="7b88d-178">如果该对象不支持显式 <b>Save</b> 操作，则属性保存到该对象在调用 <b>SetProperties</b> 时。</span><span class="sxs-lookup"><span data-stu-id="7b88d-178">If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called.</span></span> </para>
+          <para><span data-ttu-id="7b88d-p122">处理异常时要多加小心，并确保所有异常都已正确处理。设置属性失败的情况包括：</span><span class="sxs-lookup"><span data-stu-id="7b88d-p122">Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="7b88d-181">属性是只读的，因为一些 Outlook 和 MAPI 属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="7b88d-181">The property is read-only, as some Outlook and MAPI properties are read-only.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-182">找不到通过指定命名空间引用的属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-182">The property referenced by the specified namespace is not found.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-183">属性是以无效格式指定的，无法进行分析。</span><span class="sxs-lookup"><span data-stu-id="7b88d-183">The property is specified in an invalid format and cannot be parsed.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-184">属性不存在且无法创建。</span><span class="sxs-lookup"><span data-stu-id="7b88d-184">The property does not exist and cannot be created.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-185">属性存在，但传递给它的值类型不正确。</span><span class="sxs-lookup"><span data-stu-id="7b88d-185">The property exists but is passed a value of an incorrect type.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-186">由于客户端脱机，无法打开属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-186">Cannot open the property because the client is offline.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-187">使用<b>Add</b>方法创建属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-187">The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object.</span></span> <span data-ttu-id="7b88d-188">当第一次设置属性，必须使用<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象，而不是<b>SetProperties</b>或<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> <b>PropertyAccessor</b>对象的方法。</span><span class="sxs-lookup"><span data-stu-id="7b88d-188">When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <b>SetProperties</b> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <b>PropertyAccessor</b> object.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="7b88d-189">有关使用<b>PropertyAccessor</b>对象设置属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-189">For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperty">
@@ -756,71 +405,38 @@
         <Parameter Name="Value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="SchemaName">
-          <span data-ttu-id="9c4c0-159">要设置其值属性的名称由指定<paramref name="Value" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-159">The name of a property whose value is to be set as specified by <paramref name="Value" />.</span>
-          </span>
-          <span data-ttu-id="9c4c0-160">通过命名空间引用属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-160">The property is referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="9c4c0-161">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-161">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <param name="Value">
-          <span data-ttu-id="9c4c0-162">要设置为指定的属性的值<paramref name="SchemaName" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-162">The value that is to be set for the property specified by <paramref name="SchemaName" />.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-163">将指定的属性设置<paramref name="SchemaName" />指定的值为<paramref name="Value" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-163">Sets the property specified by <paramref name="SchemaName" /> to the value specified by <paramref name="Value" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="9c4c0-164">
-            <para>如果属性不存在和<paramref name="SchemaName" />包含一个有效的属性说明符，然后<b>SetProperty</b>创建属性并将其值赋指定<paramref name="Value" />。如果该属性是否存在和<paramref name="SchemaName" />是有效的则<b>SetProperty</b>分配属性指定的值与<paramref name="Value" />。</para>
-            <para>，使用<b>PropertyAccessor</b>创建的自定义属性不支持自定义视图中的注释。如果您想要查看项目的自定义属性，通过使用创建该属性<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法。</para>如果<b>PropertyAccessor</b>的父对象支持显式
-          <para><b>保存</b>的操作，则属性应保存到具有<b>保存</b>的显式对象方法调用。如果对象不支持显式<b>保存</b>的操作，则属性保存到该对象调用<b>SetProperties</b>时。</para><para>小心，并确保正确处理所有异常。设置属性失败其中包含的条件：</para><list type="bullet"><item><para>属性是只读的一些 Outlook 和 MAPI 属性是只读的。</para></item><item><para>找不到指定的命名空间所引用的属性。</para></item><item><para>属性指定格式无效，无法进行分析。</para></item><item><para>属性不存在且无法创建。</para></item><item><para>属性存在，但传递不正确的类型的值。</para></item><item><para>由于客户端脱机，无法打开属性。</para></item><item><para>创建属性使用的<b>Add</b>方法<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象。当第一次设置属性，必须使用<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象，而不是<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />或<b>PropertyAccessor</b>对象的<b>SetProperty</b>方法。</para></item></list><para>有关使用<b>PropertyAccessor</b>对象，设置属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-164">
-              <para>If the property does not exist and the <paramref name="SchemaName" /> contains a valid property specifier, then <b>SetProperty</b> creates the property and assigns the value specified by <paramref name="Value" />. If the property does exist and <paramref name="SchemaName" /> is valid, then <b>SetProperty</b> assigns the property with the value specified by <paramref name="Value" />.</para>
-              <para>Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view. If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</para>
-              <para>If the parent object of the <b>PropertyAccessor</b> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call. If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called. </para>
-              <para>Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</para>
-              <list type="bullet">
-                <item>
-                  <para>The property is read-only, as some Outlook and MAPI properties are read-only.</para>
-                </item>
-                <item>
-                  <para>The property referenced by the specified namespace is not found.</para>
-                </item>
-                <item>
-                  <para>The property is specified in an invalid format and cannot be parsed.</para>
-                </item>
-                <item>
-                  <para>The property does not exist and cannot be created.</para>
-                </item>
-                <item>
-                  <para>The property exists but is passed a value of an incorrect type.</para>
-                </item>
-                <item>
-                  <para>Cannot open the property because the client is offline.</para>
-                </item>
-                <item>
-                  <para>The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object. When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <b>SetProperty</b> method of the <b>PropertyAccessor</b> object.</para>
-                </item>
-              </list>
-              <para>For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaName"><span data-ttu-id="7b88d-190">要设置其值属性的名称由指定<paramref name="Value" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-190">The name of a property whose value is to be set as specified by <paramref name="Value" />.</span></span> <span data-ttu-id="7b88d-191">通过命名空间引用属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-191">The property is referenced by namespace.</span></span> <span data-ttu-id="7b88d-192">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-192">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <param name="Value"><span data-ttu-id="7b88d-193">要设置为指定的属性的值<paramref name="SchemaName" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-193">The value that is to be set for the property specified by <paramref name="SchemaName" />.</span></span></param>
+        <summary><span data-ttu-id="7b88d-194">将指定的属性设置<paramref name="SchemaName" />指定的值为<paramref name="Value" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-194">Sets the property specified by <paramref name="SchemaName" /> to the value specified by <paramref name="Value" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="7b88d-195">如果属性不存在和<paramref name="SchemaName" />包含一个有效的属性说明符，然后<b>SetProperty</b>创建属性并将其值赋指定<paramref name="Value" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-195">If the property does not exist and the <paramref name="SchemaName" /> contains a valid property specifier, then <b>SetProperty</b> creates the property and assigns the value specified by <paramref name="Value" />.</span></span> <span data-ttu-id="7b88d-196">如果该属性是否存在和<paramref name="SchemaName" />是有效的则<b>SetProperty</b>分配属性指定的值与<paramref name="Value" />。</span><span class="sxs-lookup"><span data-stu-id="7b88d-196">If the property does exist and <paramref name="SchemaName" /> is valid, then <b>SetProperty</b> assigns the property with the value specified by <paramref name="Value" />.</span></span></para>
+          <para><span data-ttu-id="7b88d-197">请注意，使用 <b>PropertyAccessor</b> 创建的自定义属性在自定义视图中不受支持。</span><span class="sxs-lookup"><span data-stu-id="7b88d-197">Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view.</span></span> <span data-ttu-id="7b88d-198">如果您想要查看项目的自定义属性，通过使用创建该属性<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法。</span><span class="sxs-lookup"><span data-stu-id="7b88d-198">If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</span></span></para>
+          <para><span data-ttu-id="7b88d-p127">如果父对象的 <b>PropertyAccessor</b> 支持显式 <b>保存</b> 操作，则属性应保存对该对象具有显式 <b>保存</b> 方法调用。如果该对象不支持显式 <b>Save</b> 操作，则属性保存到该对象在调用 <b>SetProperties</b> 时。</span><span class="sxs-lookup"><span data-stu-id="7b88d-p127">If the parent object of the <b>PropertyAccessor</b> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call. If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called. </span></span></para>
+          <para><span data-ttu-id="7b88d-p128">处理异常时要多加小心，并确保所有异常都已正确处理。设置属性失败的情况包括：</span><span class="sxs-lookup"><span data-stu-id="7b88d-p128">Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="7b88d-203">属性是只读的，因为一些 Outlook 和 MAPI 属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="7b88d-203">The property is read-only, as some Outlook and MAPI properties are read-only.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-204">找不到通过指定命名空间引用的属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-204">The property referenced by the specified namespace is not found.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-205">属性是以无效格式指定的，无法进行分析。</span><span class="sxs-lookup"><span data-stu-id="7b88d-205">The property is specified in an invalid format and cannot be parsed.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-206">属性不存在且无法创建。</span><span class="sxs-lookup"><span data-stu-id="7b88d-206">The property does not exist and cannot be created.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-207">属性存在，但传递给它的值类型不正确。</span><span class="sxs-lookup"><span data-stu-id="7b88d-207">The property exists but is passed a value of an incorrect type.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-208">由于客户端脱机，无法打开属性。</span><span class="sxs-lookup"><span data-stu-id="7b88d-208">Cannot open the property because the client is offline.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="7b88d-209">使用<b>Add</b>方法创建属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象。</span><span class="sxs-lookup"><span data-stu-id="7b88d-209">The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object.</span></span> <span data-ttu-id="7b88d-210">当第一次设置属性，必须使用<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象，而不是<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />或<b>PropertyAccessor</b>对象的<b>SetProperty</b>方法。</span><span class="sxs-lookup"><span data-stu-id="7b88d-210">When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <b>SetProperty</b> method of the <b>PropertyAccessor</b> object.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="7b88d-211">有关使用<b>PropertyAccessor</b>对象设置属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-211">For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StringToBinary">
@@ -846,36 +462,11 @@
         <Parameter Name="Value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Value">
-          <span data-ttu-id="9c4c0-165">一个要转换为字节数组的十六进制字符串值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-165">A hexadecimal string value that is to be converted to an array of bytes.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-166">将指定的字符串转换为<paramref name="Value" />到一个字节数组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-166">Converts a string specified by <paramref name="Value" /> to an  array of bytes.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9c4c0-167">一个<b>Object</b>值，该值代表从转换返回的字节数组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-167">An <b>Object</b> value that represents an array of bytes returned from the conversion.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="9c4c0-168">
-            <para>有关使用<b>PropertyAccessor</b>对象时类型转换的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-168">
-              <para>For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Value"><span data-ttu-id="7b88d-212">一个要转换为字节数组的十六进制字符串值。</span><span class="sxs-lookup"><span data-stu-id="7b88d-212">A hexadecimal string value that is to be converted to an array of bytes.</span></span></param>
+        <summary><span data-ttu-id="7b88d-213">将指定的字符串转换为<paramref name="Value" />到一个字节数组。</span><span class="sxs-lookup"><span data-stu-id="7b88d-213">Converts a string specified by <paramref name="Value" /> to an  array of bytes.</span></span></summary>
+        <returns><span data-ttu-id="7b88d-214">一个<b>Object</b>值，该值代表从转换返回的字节数组。</span><span class="sxs-lookup"><span data-stu-id="7b88d-214">An <b>Object</b> value that represents an array of bytes returned from the conversion.</span></span></returns>
+        <remarks><para><span data-ttu-id="7b88d-215">有关使用<b>PropertyAccessor</b>对象时类型转换的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-215">For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UTCToLocalTime">
@@ -901,36 +492,11 @@
         <Parameter Name="Value" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="Value">
-          <span data-ttu-id="9c4c0-169">要从 UTC 转换为本地时间的 DateTime 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-169">The DateTime value to be converted from UTC to local time.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9c4c0-170">将指定的日期时间值转换<paramref name="Value" />并且用通用协调时间 (UTC) 表示为本地时间值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-170">Converts the DateTime value that is specified by <paramref name="Value" /> and expressed in Coordinated Universal Time (UTC) to a value in local time.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9c4c0-171">DateTime 值，该值代表<paramref name="Value" />后从 UTC 转换为本地时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-171">A DateTime value that represents <paramref name="Value" /> after being converted from UTC to local time.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="9c4c0-172">
-            <para>有关详细信息类型转换时使用<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9c4c0-172">
-              <para>For more information on type conversion when using the  <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Value"><span data-ttu-id="7b88d-216">要从 UTC 转换为本地时间的 DateTime 值。</span><span class="sxs-lookup"><span data-stu-id="7b88d-216">The DateTime value to be converted from UTC to local time.</span></span></param>
+        <summary><span data-ttu-id="7b88d-217">将指定的日期时间值转换<paramref name="Value" />并且用通用协调时间 (UTC) 表示为本地时间值。</span><span class="sxs-lookup"><span data-stu-id="7b88d-217">Converts the DateTime value that is specified by <paramref name="Value" /> and expressed in Coordinated Universal Time (UTC) to a value in local time.</span></span></summary>
+        <returns><span data-ttu-id="7b88d-218">DateTime 值，该值代表<paramref name="Value" />后从 UTC 转换为本地时间。</span><span class="sxs-lookup"><span data-stu-id="7b88d-218">A DateTime value that represents <paramref name="Value" /> after being converted from UTC to local time.</span></span></returns>
+        <remarks><para><span data-ttu-id="7b88d-219">有关详细信息类型转换时使用<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87854">获取和设置属性的最佳实践</a></span><span class="sxs-lookup"><span data-stu-id="7b88d-219">For more information on type conversion when using the  <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

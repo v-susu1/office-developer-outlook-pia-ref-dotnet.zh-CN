@@ -1,13 +1,5 @@
 <Type Name="Panes" FullName="Microsoft.Office.Interop.Outlook.Panes">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="60e4cc75a46518099c824ac6d0a1fc25086de563" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632183" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="de8d3a723c79d054b93d65efa593bff55eab354c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906602" /></Metadata><TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Panes implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Panes" />
   <TypeSignature Language="VB.NET" Value="Public Interface Panes&#xA;Implements IEnumerable" />
@@ -30,28 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="40751-101">包含由指定显示的窗格<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="40751-101">Contains the panes displayed by the specified <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="40751-102">
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" />属性可从<b>Explorer</b>对象中返回<b>Panes</b>集合对象。</para>
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索特定窗格。</para>
-        <para>Microsoft outlook 2000 和更高版本，快捷方式窗格是唯一可通过<b>Panes</b>对象访问的。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="40751-102">
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" />  property to return the <b>Panes</b> collection object from an <b>Explorer</b> object.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> property (<b>this</b> in C#) to retrieve a specific pane. </para>
-          <para>For Microsoft Outlook 2000 and later, the Shortcuts pane is the only pane that you can access through the <b>Panes</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="7cb60-101">包含由指定显示的窗格<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span><span class="sxs-lookup"><span data-stu-id="7cb60-101">Contains the panes displayed by the specified <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span></span></summary>
+    <remarks><para><span data-ttu-id="7cb60-102">使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" />属性可从<b>Explorer</b>对象中返回<b>Panes</b>集合对象。</span><span class="sxs-lookup"><span data-stu-id="7cb60-102">Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" />  property to return the <b>Panes</b> collection object from an <b>Explorer</b> object.</span></span></para>
+      <para><span data-ttu-id="7cb60-103">使用<see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索特定窗格。</span><span class="sxs-lookup"><span data-stu-id="7cb60-103">Use the <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> property (<b>this</b> in C#) to retrieve a specific pane.</span></span> </para>
+      <para><span data-ttu-id="7cb60-104">对于 Microsoft Outlook 2000 和更高版本， 快捷方式窗格中是可以通过该 <b>窗格</b> 对象访问仅窗格。</span><span class="sxs-lookup"><span data-stu-id="7cb60-104">For Microsoft Outlook 2000 and later, the Shortcuts pane is the only pane that you can access through the <b>Panes</b> object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -77,16 +52,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="40751-103">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="40751-104">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7cb60-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="7cb60-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="7cb60-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="7cb60-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -114,16 +80,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="40751-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="40751-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7cb60-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="7cb60-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="7cb60-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="7cb60-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,16 +108,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="40751-107">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-107">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="40751-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7cb60-109">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="7cb60-109">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="7cb60-110">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="7cb60-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,24 +139,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="40751-109">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-109">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="40751-110">从集合中返回一个窗格。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-110">Returns a pane from a collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="40751-111">一个代表指定对象的 Object 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-111">An Object value that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="7cb60-111">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span><span class="sxs-lookup"><span data-stu-id="7cb60-111">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="7cb60-112">从集合中返回一个窗格。</span><span class="sxs-lookup"><span data-stu-id="7cb60-112">Returns a pane from a collection.</span></span></summary>
+        <value><span data-ttu-id="7cb60-113">一个代表指定对象的 Object 值。</span><span class="sxs-lookup"><span data-stu-id="7cb60-113">An Object value that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -235,12 +168,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="40751-p104">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7cb60-p105">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="7cb60-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -268,42 +196,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="40751-114">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-114">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="40751-115">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7cb60-116">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="7cb60-116">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="7cb60-117">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="7cb60-117">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="40751-116">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="7cb60-118"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="7cb60-118">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="7cb60-119">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="7cb60-119">Both members serve the same purpose.</span></span> <span data-ttu-id="7cb60-120">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="7cb60-120">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="40751-116">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

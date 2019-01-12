@@ -1,13 +1,5 @@
 <Type Name="AccountsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.AccountsEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="09aae12511aa5364d44502164046c85be0886680" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633246" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AccountsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="29a908ff819dc089682bf82701db8ebd92357b59" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905594" /></Metadata><TypeSignature Language="C#" Value="public interface AccountsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AccountsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AccountsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface AccountsEvents_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c77c8-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c77c8-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="8e1a5-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span><span class="sxs-lookup"><span data-stu-id="8e1a5-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,24 +40,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AccountsEvents_AutoDiscoverCompleteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c77c8-105">Microsoft Outlook 完成访问的自动发现服务的 Microsoft Exchange Server 关联帐户，并有中提供的相关的信息后发生<see cref="P:Microsoft.Office.Interop.Outlook._Account.AutoDiscoverXml" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c77c8-105">Occurs after Microsoft Outlook has finished accessing the auto-discovery service of the Microsoft Exchange Server that is associated with the account, and has the related information available in the <see cref="P:Microsoft.Office.Interop.Outlook._Account.AutoDiscoverXml" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="c77c8-106">
-            <para>该事件是类似于<see cref="E:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event.AutoDiscoverComplete" />事件<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，只不过此事件适用于完成的自动发现的帐户和不一定是 Exchange 主帐户。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c77c8-106">
-              <para>This event is similar to the <see cref="E:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event.AutoDiscoverComplete" /> event of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this event applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="8e1a5-105">Microsoft Outlook 完成访问的自动发现服务的 Microsoft Exchange Server 关联帐户，并有中提供的相关的信息后发生<see cref="P:Microsoft.Office.Interop.Outlook._Account.AutoDiscoverXml" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象。</span><span class="sxs-lookup"><span data-stu-id="8e1a5-105">Occurs after Microsoft Outlook has finished accessing the auto-discovery service of the Microsoft Exchange Server that is associated with the account, and has the related information available in the <see cref="P:Microsoft.Office.Interop.Outlook._Account.AutoDiscoverXml" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object.</span></span></summary>
+        <remarks><para><span data-ttu-id="8e1a5-106">该事件是类似于<see cref="E:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event.AutoDiscoverComplete" />事件<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，只不过此事件适用于完成的自动发现的帐户和不一定是 Exchange 主帐户。</span><span class="sxs-lookup"><span data-stu-id="8e1a5-106">This event is similar to the <see cref="E:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event.AutoDiscoverComplete" /> event of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this event applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

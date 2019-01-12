@@ -1,13 +1,5 @@
 <Type Name="_UserDefinedProperty" FullName="Microsoft.Office.Interop.Outlook._UserDefinedProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632008" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905167" /></Metadata><TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _UserDefinedProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface _UserDefinedProperty" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="9ee91-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9ee91-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="9ee91-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9ee91-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="9ee91-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9ee91-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="9ee91-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9ee91-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="8a247-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="8a247-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="8a247-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="8a247-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="8a247-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="8a247-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="8a247-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />。</span><span class="sxs-lookup"><span data-stu-id="8a247-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9ee91-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="9ee91-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a247-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="8a247-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="8a247-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8a247-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9ee91-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="9ee91-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a247-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="8a247-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="8a247-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8a247-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,12 +99,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="9ee91-109">从集合中删除一个对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-109">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a247-109">从集合中删除一个对象。</span><span class="sxs-lookup"><span data-stu-id="8a247-109">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -174,251 +126,150 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9ee91-110">返回一个<b>整数</b>(C# 中<b>int</b> ) 值，表示的显示格式<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-110">Returns an <b>Integer</b> (<b>int</b> in C#) value that represents the display format for the <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> object.</span>
-          </span>
-          <span data-ttu-id="9ee91-111">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a247-110">返回一个<b>整数</b>(C# 中<b>int</b> ) 值，表示的显示格式<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />对象。</span><span class="sxs-lookup"><span data-stu-id="8a247-110">Returns an <b>Integer</b> (<b>int</b> in C#) value that represents the display format for the <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> object.</span></span> <span data-ttu-id="8a247-111">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8a247-111">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="9ee91-112">
-            <para>此属性的值是常量枚举，其中枚举依赖的值<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" />属性的<b>UserDefinedProperty</b>对象：</para>
-            <list type="table">
-              <item>
-                <description>Type 值</description>
-                <description>DisplayFormat 枚举</description>
-              </item>
-              <item>
-                <description>
-                  <b>olCombination</b>
-                </description>
-                <description>没有可用的枚举。此属性始终返回 1 <b>olCombination</b>。</description>
-              </item>
-              <item>
-                <description>
-                  <b>olCurrency</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <b>olDateTime</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDateTime" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <b>olDuration</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDuration" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <b>olEnumeration</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatEnumeration" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <b>olFormula</b>
-                </description>
-                <description>没有可用的枚举。此属性始终返回 1 <b>olFormula</b>。</description>
-              </item>
-              <item>
-                <description>
-                  <b>olInteger</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatInteger" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <b>olKeywords</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatKeywords" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <b>olNumber</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatNumber" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <b>olOutlookInternal</b>
-                </description>
-                <description>没有可用的枚举。此属性始终返回 1 <b>olOutlookInternal</b>。</description>
-              </item>
-              <item>
-                <description>
-                  <b>olPercent</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatPercent" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <b>olSmartFrom</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatSmartFrom" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <b>olText</b>
-                </description>
-                <description>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatText" />
-                </description>
-              </item>
+        <remarks><para><span data-ttu-id="8a247-112">此属性的值是常量枚举，其中枚举依赖的值<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> <b>UserDefinedProperty</b>对象的属性：</span><span class="sxs-lookup"><span data-stu-id="8a247-112">The value of this property is a constant from an enumeration, where the enumeration is dependent on the value of the <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> property for the <b>UserDefinedProperty</b> object:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="8a247-113">类型值</span><span class="sxs-lookup"><span data-stu-id="8a247-113">Type value</span></span></description>
+              <description><span data-ttu-id="8a247-114">DisplayFormat 枚举</span><span class="sxs-lookup"><span data-stu-id="8a247-114">DisplayFormat enumeration</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-115">
+                <b>olCombination</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-115">
+                <b>olCombination</b>
+              </span></span></description>
+              <description><span data-ttu-id="8a247-116">没有可用的枚举。</span><span class="sxs-lookup"><span data-stu-id="8a247-116">No enumeration available.</span></span> <span data-ttu-id="8a247-117">此属性始终返回 1 <b>olCombination</b>。</span><span class="sxs-lookup"><span data-stu-id="8a247-117">This property always returns 1 for  <b>olCombination</b>.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-118">
+                <b>olCurrency</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-118">
+                <b>olCurrency</b>
+              </span></span></description>
               <description>
-                <b>olYesNo</b>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" />
               </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-119">
+                <b>olDateTime</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-119">
+                <b>olDateTime</b>
+              </span></span></description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDateTime" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-120">
+                <b>olDuration</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-120">
+                <b>olDuration</b>
+              </span></span></description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDuration" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-121">
+                <b>olEnumeration</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-121">
+                <b>olEnumeration</b>
+              </span></span></description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatEnumeration" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-122">
+                <b>olFormula</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-122">
+                <b>olFormula</b>
+              </span></span></description>
+              <description><span data-ttu-id="8a247-123">没有可用的枚举。</span><span class="sxs-lookup"><span data-stu-id="8a247-123">No enumeration available.</span></span> <span data-ttu-id="8a247-124">此属性始终返回 1 <b>olFormula</b>。</span><span class="sxs-lookup"><span data-stu-id="8a247-124">This property always returns 1 for  <b>olFormula</b>.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-125">
+                <b>olInteger</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-125">
+                <b>olInteger</b>
+              </span></span></description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatInteger" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-126">
+                <b>olKeywords</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-126">
+                <b>olKeywords</b>
+              </span></span></description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatKeywords" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-127">
+                <b>olNumber</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-127">
+                <b>olNumber</b>
+              </span></span></description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatNumber" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-128">
+                <b>olOutlookInternal</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-128">
+                <b>olOutlookInternal</b>
+              </span></span></description>
+              <description><span data-ttu-id="8a247-129">没有可用的枚举。</span><span class="sxs-lookup"><span data-stu-id="8a247-129">No enumeration available.</span></span> <span data-ttu-id="8a247-130">此属性始终返回 1 <b>olOutlookInternal</b>。</span><span class="sxs-lookup"><span data-stu-id="8a247-130">This property always returns 1 for  <b>olOutlookInternal</b>.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-131">
+                <b>olPercent</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-131">
+                <b>olPercent</b>
+              </span></span></description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatPercent" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-132">
+                <b>olSmartFrom</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-132">
+                <b>olSmartFrom</b>
+              </span></span></description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatSmartFrom" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-133">
+                <b>olText</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-133">
+                <b>olText</b>
+              </span></span></description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatText" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8a247-134">
+                <b>olYesNo</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8a247-134">
+                <b>olYesNo</b>
+              </span></span></description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" />
               </description>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-112">
-              <para>The value of this property is a constant from an enumeration, where the enumeration is dependent on the value of the <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> property for the <b>UserDefinedProperty</b> object:</para>
-              <list type="table">
-                <item>
-                  <description>Type value</description>
-                  <description>DisplayFormat enumeration</description>
-                </item>
-                <item>
-                  <description>
-                    <b>olCombination</b>
-                  </description>
-                  <description>No enumeration available. This property always returns 1 for  <b>olCombination</b>.</description>
-                </item>
-                <item>
-                  <description>
-                    <b>olCurrency</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olDateTime</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDateTime" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olDuration</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDuration" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olEnumeration</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatEnumeration" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olFormula</b>
-                  </description>
-                  <description>No enumeration available. This property always returns 1 for  <b>olFormula</b>.</description>
-                </item>
-                <item>
-                  <description>
-                    <b>olInteger</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatInteger" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olKeywords</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatKeywords" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olNumber</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatNumber" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olOutlookInternal</b>
-                  </description>
-                  <description>No enumeration available. This property always returns 1 for  <b>olOutlookInternal</b>.</description>
-                </item>
-                <item>
-                  <description>
-                    <b>olPercent</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatPercent" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olSmartFrom</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatSmartFrom" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olText</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatText" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <b>olYesNo</b>
-                  </description>
-                  <description>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" />
-                  </description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Formula">
@@ -444,16 +295,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9ee91-113">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表<b>UserDefinedProperty</b>对象的公式。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-113">Returns a <b>String</b> (<b>string</b> in C#) value that represents the formula for the <b>UserDefinedProperty</b> object.</span>
-          </span>
-          <span data-ttu-id="9ee91-114">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a247-135">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表<b>UserDefinedProperty</b>对象的公式。</span><span class="sxs-lookup"><span data-stu-id="8a247-135">Returns a <b>String</b> (<b>string</b> in C#) value that represents the formula for the <b>UserDefinedProperty</b> object.</span></span> <span data-ttu-id="8a247-136">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8a247-136">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -481,16 +323,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9ee91-115">返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-115">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="9ee91-116">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a247-137">返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span><span class="sxs-lookup"><span data-stu-id="8a247-137">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="8a247-138">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8a247-138">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -518,12 +351,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9ee91-p107">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a247-p110">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="8a247-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -551,42 +379,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9ee91-119">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-119">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="9ee91-120">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a247-141">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="8a247-141">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="8a247-142">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8a247-142">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="9ee91-121">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="8a247-143"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="8a247-143">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="8a247-144">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="8a247-144">Both members serve the same purpose.</span></span> <span data-ttu-id="8a247-145">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="8a247-145">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-121">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -612,16 +414,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9ee91-122">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />常量指示类型的<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-122">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> object.</span>
-          </span>
-          <span data-ttu-id="9ee91-123">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9ee91-123">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a247-146">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />常量指示类型的<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />对象。</span><span class="sxs-lookup"><span data-stu-id="8a247-146">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> object.</span></span> <span data-ttu-id="8a247-147">只读。</span><span class="sxs-lookup"><span data-stu-id="8a247-147">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

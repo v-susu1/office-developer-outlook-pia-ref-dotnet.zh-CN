@@ -1,13 +1,5 @@
 <Type Name="OlGroupType" FullName="Microsoft.Office.Interop.Outlook.OlGroupType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0f993e4d70d47fbb25177e599c7f9456411952ca" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632911" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlGroupType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cd877c81b4ba2c13b72f97b8f268f979a1420c56" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904313" /></Metadata><TypeSignature Language="C#" Value="public enum OlGroupType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlGroupType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlGroupType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlGroupType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="ccd1c-101">标识的组类型<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ccd1c-101">Identifies the group type of a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="603f7-101">标识的组类型<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象。</span><span class="sxs-lookup"><span data-stu-id="603f7-101">Identifies the group type of a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccd1c-102">标识用户定义的导航组，使用 Outlook 用户界面或加载项添加。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccd1c-102">Identifies a user-defined navigation group, added using either the Outlook user interface or an add-in.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="603f7-102">标识用户定义的导航组，使用 Outlook 用户界面或加载项添加。</span><span class="sxs-lookup"><span data-stu-id="603f7-102">Identifies a user-defined navigation group, added using either the Outlook user interface or an add-in.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olFavoriteFoldersGroup">
@@ -69,16 +51,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccd1c-103">标识 "收藏夹"导航组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccd1c-103">Identifies the Favorite Folders navigation group.</span>
-          </span>
-          <span data-ttu-id="ccd1c-104">此导航组仅在存在<see cref="P:Microsoft.Office.Interop.Outlook._MailModule.NavigationGroups" />的集合<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象，并不能中创建或访问其他模块中。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccd1c-104">This navigation group exists only within the <see cref="P:Microsoft.Office.Interop.Outlook._MailModule.NavigationGroups" /> collection of a <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> object and cannot be created in or accessed from other modules.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="603f7-103">标识 "收藏夹"导航组。</span><span class="sxs-lookup"><span data-stu-id="603f7-103">Identifies the Favorite Folders navigation group.</span></span> <span data-ttu-id="603f7-104">此导航组仅在存在<see cref="P:Microsoft.Office.Interop.Outlook._MailModule.NavigationGroups" />的集合<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象，并不能中创建或访问其他模块中。</span><span class="sxs-lookup"><span data-stu-id="603f7-104">This navigation group exists only within the <see cref="P:Microsoft.Office.Interop.Outlook._MailModule.NavigationGroups" /> collection of a <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> object and cannot be created in or accessed from other modules.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMyFoldersGroup">
@@ -97,12 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccd1c-105">标识默认情况下包含属于本地存储一部分的任意文件夹的导航组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccd1c-105">Identifies a navigation group that, by default, contains any folders that are part of the local store.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="603f7-105">标识默认情况下包含属于本地存储一部分的任意文件夹的导航组。</span><span class="sxs-lookup"><span data-stu-id="603f7-105">Identifies a navigation group that, by default, contains any folders that are part of the local store.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olOtherFoldersGroup">
@@ -121,12 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccd1c-106">标识默认情况下包含来自来源的共享文件夹（而不是其他个人的共享文件夹）的导航组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccd1c-106">Identifies a navigation group that, by default, contains shared folders from sources other than that of other persons.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="603f7-106">标识默认情况下包含来自来源的共享文件夹（而不是其他个人的共享文件夹）的导航组。</span><span class="sxs-lookup"><span data-stu-id="603f7-106">Identifies a navigation group that, by default, contains shared folders from sources other than that of other persons.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olPeopleFoldersGroup">
@@ -145,12 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccd1c-107">标识默认情况下包含来自其他个人的共享文件夹的导航组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccd1c-107">Identifies a navigation group that, by default, contains shared folders from other persons.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="603f7-107">标识默认情况下包含来自其他个人的共享文件夹的导航组。</span><span class="sxs-lookup"><span data-stu-id="603f7-107">Identifies a navigation group that, by default, contains shared folders from other persons.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReadOnlyGroup">
@@ -169,12 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccd1c-p102">标识默认情况下为只读源的导航组，无法在该导航组中添加或删除文件夹。这并不意味着文件夹本身是只读的，文件夹的写入权限取决于设置文件夹的方式。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccd1c-p102">Identifies a navigation group that is, by default, read-only and no folders can be added or removed from that navigation group. This does not imply the folders themselves are read-only, and write access to the folders depends on how the folders are set up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="603f7-p102">标识默认情况下为只读源的导航组，无法在该导航组中添加或删除文件夹。这并不意味着文件夹本身是只读的，文件夹的写入权限取决于设置文件夹的方式。</span><span class="sxs-lookup"><span data-stu-id="603f7-p102">Identifies a navigation group that is, by default, read-only and no folders can be added or removed from that navigation group. This does not imply the folders themselves are read-only, and write access to the folders depends on how the folders are set up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRoomsGroup">
@@ -193,12 +146,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccd1c-110">标识 "日历"导航模块中的 "会议室"导航组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccd1c-110">Identifies the Rooms navigation group in the Calendar navigation module.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="603f7-110">标识 "日历"导航模块中的 "会议室"导航组。</span><span class="sxs-lookup"><span data-stu-id="603f7-110">Identifies the Rooms navigation group in the Calendar navigation module.</span></span></summary>
       </Docs>
     </Member>
   </Members>

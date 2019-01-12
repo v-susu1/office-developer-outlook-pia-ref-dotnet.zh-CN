@@ -1,13 +1,5 @@
 <Type Name="FormDescription" FullName="Microsoft.Office.Interop.Outlook.FormDescription">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="474138c677b1667c78f8bf4160d0107458af0554" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632347" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FormDescription" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1625d2c4b84142438b141ea8a9cc465c8ebceaf7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904467" /></Metadata><TypeSignature Language="C#" Value="public interface FormDescription" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormDescription" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormDescription" />
   <TypeSignature Language="VB.NET" Value="Public Interface FormDescription" />
@@ -26,30 +18,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="6bd8f-101">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6bd8f-101">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="6bd8f-102">
-        <para>表示 Outlook 窗体的常规属性。</para>
-        <para>在设计时显示窗体的属性页上的 Outlook 窗体属性。</para>
-        <para>若要查看在设计时的属性页上，打开 Outlook 项目、 工具菜单上选择窗体、 单击设计该窗体，，然后单击在项目的窗口中的属性选项卡。</para>
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.FormDescription" />属性可返回与 Outlook 项目相关的<b>FormDescription</b>对象。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6bd8f-102">
-          <para>Represents the general properties of an Outlook form.</para>
-          <para>The properties of an Outlook form are displayed on the Properties page of a form in design time.</para>
-          <para>To see the Properties page in design time, open the Outlook item, select Forms on the Tools menu, click Design This Form, and then click the Properties tab in the item's window.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.FormDescription" />  property to return the <b>FormDescription</b> object associated with an Outlook item.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="0634c-101">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="0634c-101">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
+    <remarks><para><span data-ttu-id="0634c-102">代表 Outlook 窗体的常规属性。</span><span class="sxs-lookup"><span data-stu-id="0634c-102">Represents the general properties of an Outlook form.</span></span></para>
+      <para><span data-ttu-id="0634c-103">在设计过程中，Outlook 窗体的属性显示在窗体的 "属性"页面上。</span><span class="sxs-lookup"><span data-stu-id="0634c-103">The properties of an Outlook form are displayed on the Properties page of a form in design time.</span></span></para>
+      <para><span data-ttu-id="0634c-104">若要在设计过程中查看“属性”页面，请打开 Outlook 项目，选择“工具”菜单上的“窗体”，单击“设计此窗体”，然后单击项目窗口中的“属性”选项卡。</span><span class="sxs-lookup"><span data-stu-id="0634c-104">To see the Properties page in design time, open the Outlook item, select Forms on the Tools menu, click Design This Form, and then click the Properties tab in the item's window.</span></span></para>
+      <para><span data-ttu-id="0634c-105">使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.FormDescription" />属性可返回与 Outlook 项目相关的<b>FormDescription</b>对象。</span><span class="sxs-lookup"><span data-stu-id="0634c-105">Use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.FormDescription" />  property to return the <b>FormDescription</b> object associated with an Outlook item.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -75,16 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-103">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="6bd8f-104">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-106">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="0634c-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="0634c-107">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="0634c-107">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,16 +80,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-105">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给窗体说明的类别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-105">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the category assigned to the form description.</span>
-          </span>
-          <span data-ttu-id="6bd8f-106">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-108">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给窗体说明的类别。</span><span class="sxs-lookup"><span data-stu-id="0634c-108">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the category assigned to the form description.</span></span> <span data-ttu-id="0634c-109">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-109">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -155,16 +111,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-107">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 分配给窗体说明的子类别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-107">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the subcategory assigned to the form description.</span>
-          </span>
-          <span data-ttu-id="6bd8f-108">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-108">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-110">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 分配给窗体说明的子类别。</span><span class="sxs-lookup"><span data-stu-id="0634c-110">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the subcategory assigned to the form description.</span></span> <span data-ttu-id="0634c-111">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-111">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -192,16 +139,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="6bd8f-110">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="0634c-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="0634c-113">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="0634c-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -232,16 +170,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-111">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给窗体说明的注释的文本。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-111">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the text of a comment assigned to the form description.</span>
-          </span>
-          <span data-ttu-id="6bd8f-112">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-112">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-114">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给窗体说明的注释的文本。</span><span class="sxs-lookup"><span data-stu-id="0634c-114">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the text of a comment assigned to the form description.</span></span> <span data-ttu-id="0634c-115">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-115">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -272,16 +201,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-113">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的联系人的信息自定义窗体，此名称<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-113">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name of the person to contact for information regarding the custom form for this <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />  object.</span>
-          </span>
-          <span data-ttu-id="6bd8f-114">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-114">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-116">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的联系人的信息自定义窗体，此名称<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象。</span><span class="sxs-lookup"><span data-stu-id="0634c-116">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name of the person to contact for information regarding the custom form for this <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />  object.</span></span> <span data-ttu-id="0634c-117">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-117">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -312,29 +232,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-115">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的窗体，在选择窗体对话框中显示的名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-115">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name of the form, which is displayed in the Choose Forms dialog box.</span>
-          </span>
-          <span data-ttu-id="6bd8f-116">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-116">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-118">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的窗体，在选择窗体对话框中显示的名称。</span><span class="sxs-lookup"><span data-stu-id="0634c-118">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name of the form, which is displayed in the Choose Forms dialog box.</span></span> <span data-ttu-id="0634c-119">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-119">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6bd8f-117">
-            <para>如果两个<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />和<b>FormDescription.DisplayName</b>属性为空，设置一个会将其他设置。如果已以前设置，其他设置不会更改值。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-117">
-              <para>If both the <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /> and <b>FormDescription.DisplayName</b> properties are empty, setting one will set the other. If one has been previously set, setting the other will not change the value.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="0634c-120">如果两个<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />和<b>FormDescription.DisplayName</b>属性为空，设置一个会将其他设置。</span><span class="sxs-lookup"><span data-stu-id="0634c-120">If both the <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /> and <b>FormDescription.DisplayName</b> properties are empty, setting one will set the other.</span></span> <span data-ttu-id="0634c-121">如果以前设置了，其他设置不会更改的值。</span><span class="sxs-lookup"><span data-stu-id="0634c-121">If one has been previously set, setting the other will not change the value.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Hidden">
@@ -363,29 +264,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-118">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b>以使指定的自定义窗体，为隐藏。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-118">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates <b>True</b> to cause the specified custom form to be hidden.</span>
-          </span>
-          <span data-ttu-id="6bd8f-119">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-119">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-122">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b>以使指定的自定义窗体，为隐藏。</span><span class="sxs-lookup"><span data-stu-id="0634c-122">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates <b>True</b> to cause the specified custom form to be hidden.</span></span>  <span data-ttu-id="0634c-123">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-123">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6bd8f-120">
-            <para>自定义窗体不会显示在菜单上，或在选择窗体对话框，并将被指定为另一个自定义窗体中的响应窗体时，才使用。默认值为<b>False</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-120">
-              <para>The custom form will not appear on the menu or in the Choose Form dialog box and will be used only if it is designated as the response form from another custom form. The default value is <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="0634c-p110">自定义窗体不会显示在菜单或 选择窗体对话框中，并被指定为其他自定义窗体的响应窗体时才会使用。默认值为 <b>False</b> 。</span><span class="sxs-lookup"><span data-stu-id="0634c-p110">The custom form will not appear on the menu or in the Choose Form dialog box and will be used only if it is designated as the response form from another custom form. The default value is <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Icon">
@@ -414,16 +296,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-121">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示窗体显示的图标的文件名。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-121">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the file name of the icon to be displayed for the form.</span>
-          </span>
-          <span data-ttu-id="6bd8f-122">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-122">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-126">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示窗体显示的图标的文件名。</span><span class="sxs-lookup"><span data-stu-id="0634c-126">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the file name of the icon to be displayed for the form.</span></span> <span data-ttu-id="0634c-127">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-127">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -454,16 +327,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-123">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b> ，如果不能修改窗体。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-123">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates <b>True</b> if the form cannot be modified.</span>
-          </span>
-          <span data-ttu-id="6bd8f-124">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-124">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-128">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b> ，如果不能修改窗体。</span><span class="sxs-lookup"><span data-stu-id="0634c-128">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates <b>True</b> if the form cannot be modified.</span></span> <span data-ttu-id="0634c-129">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-129">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -491,29 +355,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-125">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮件类<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-125">Returns a <b>String</b> (<b>string</b> in C#) representing the message class for the <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> object.</span>
-          </span>
-          <span data-ttu-id="6bd8f-126">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-126">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-130">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的邮件类<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象。</span><span class="sxs-lookup"><span data-stu-id="0634c-130">Returns a <b>String</b> (<b>string</b> in C#) representing the message class for the <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> object.</span></span>  <span data-ttu-id="0634c-131">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="0634c-131">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6bd8f-127">
-            <para>此属性对应于 MAPI 属性<b>PidTagMessageClass</b>。<b>MessageClass</b>属性链接到窗体所基于的项目。选择项目时，Outlook 将使用的邮件类来定位窗体和公开其属性，如答复命令。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-127">
-              <para>This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="0634c-p114">此属性对应于 <b>PidTagMessageClass</b> 的 MAPI 属性。 <b>邮件类</b> 属性链接到窗体所基于的项目。当选中某一项时，Outlook 将使用的邮件类来定位该窗体，并列出其属性，如 答复命令。</span><span class="sxs-lookup"><span data-stu-id="0634c-p114">This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MiniIcon">
@@ -542,16 +387,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-128">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示要显示窗体的小图标的文件名。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-128">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the file name of the mini-icon to be displayed for the form.</span>
-          </span>
-          <span data-ttu-id="6bd8f-129">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-129">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-135">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示要显示窗体的小图标的文件名。</span><span class="sxs-lookup"><span data-stu-id="0634c-135">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the file name of the mini-icon to be displayed for the form.</span></span> <span data-ttu-id="0634c-136">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-136">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -582,30 +418,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-130">返回或设置一个值，该值代表窗体的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-130">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for a form.</span>
-          </span>
-          <span data-ttu-id="6bd8f-131">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-131">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-137">返回或设置一个值，该值代表窗体的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span><span class="sxs-lookup"><span data-stu-id="0634c-137">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for a form.</span></span> <span data-ttu-id="0634c-138">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-138">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6bd8f-132">
-            <para>
-              <b>名称</b>也是窗体的标题。必须设置此属性，然后才能使用<see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" />方法。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-132">
-              <para>The <b>Name</b> is also the caption for a form. This property must be set before you can use the <see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" />   method. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="0634c-139"><b>名称</b> 也是窗体的标题。</span><span class="sxs-lookup"><span data-stu-id="0634c-139">The <b>Name</b> is also the caption for a form.</span></span> <span data-ttu-id="0634c-140">必须设置此属性，然后才能使用<see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" />方法。</span><span class="sxs-lookup"><span data-stu-id="0634c-140">This property must be set before you can use the <see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" />   method.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Number">
@@ -634,16 +450,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-133">返回或设置对应于指定的窗体的号码的<b>字符串</b>（C# 中的<b>字符串</b>）。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-133">Returns or sets a <b>String</b> (<b>string</b> in C#) corresponding to the number for the specified form.</span>
-          </span>
-          <span data-ttu-id="6bd8f-134">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-134">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-141">返回或设置对应于指定的窗体的号码的<b>字符串</b>（C# 中的<b>字符串</b>）。</span><span class="sxs-lookup"><span data-stu-id="0634c-141">Returns or sets a <b>String</b> (<b>string</b> in C#) corresponding to the number for the specified form.</span></span> <span data-ttu-id="0634c-142">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-142">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -674,16 +481,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-135">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b> ，如果窗体将删除一次使用后 （一次性）， <b>False</b>如果窗体保留为自定义窗体。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-135">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates <b>True</b> if the form will be discarded after using once (one-off), and <b>False</b> if the form is retained as a custom form.</span>
-          </span>
-          <span data-ttu-id="6bd8f-136">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-136">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-143">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示<b>True</b> ，如果窗体将删除一次使用后 （一次性）， <b>False</b>如果窗体保留为自定义窗体。</span><span class="sxs-lookup"><span data-stu-id="0634c-143">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates <b>True</b> if the form will be discarded after using once (one-off), and <b>False</b> if the form is retained as a custom form.</span></span> <span data-ttu-id="0634c-144">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-144">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -711,12 +509,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-p116">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-p116">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-p120">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="0634c-p120">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -753,12 +546,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-139">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-139">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-147">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="0634c-147">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -786,48 +574,14 @@
         <Parameter Name="Folder" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Registry">
-          <span data-ttu-id="6bd8f-140">窗体类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-140">The form class.</span>
-          </span>
-        </param>
-        <param name="Folder">
-          <span data-ttu-id="6bd8f-141">表达式返回的<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-141">Expression that returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object.</span>
-          </span>
-          <span data-ttu-id="6bd8f-142">只用于窗体注册表。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-142">Used only with Folder form registry.</span>
-          </span>
-          <span data-ttu-id="6bd8f-143">必须来访问窗体文件夹对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-143">The folder object from which the forms must be accessed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6bd8f-144">保存的定义<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定的窗体注册表 （库） 中的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-144">Saves the definition of the <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />  object in the specified form registry (library).</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="6bd8f-145">
-            <para>
-              <b>注释</b>：<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />属性必须设置在使用<b>PublishForm</b>方法之前。</para>
-            <para>窗体均注册为以下三类之一： 文件夹、 组织或个人。文件夹窗体注册表包含一组仅可访问该特定文件夹中的窗体是否公共或专用。组织窗体注册表包含整个企业内共享和所有人都可以访问窗体。个人窗体注册表拥有仅供当前用户存储的窗体。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-145">
-              <para>
-                <b>Note</b>: The <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />  property must be set before you can use the <b>PublishForm</b> method.</para>
-              <para>Forms are registered as one of three classes: Folder, Organization, or Personal. The Folder form registry holds a set of forms that are only accessible from that specific folder, whether public or private. The Organization form registry holds forms that are shared across an entire enterprise and are accessible to everyone. The Personal form registry holds forms that are accessible only to the current store user.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Registry"><span data-ttu-id="0634c-148">窗体类。</span><span class="sxs-lookup"><span data-stu-id="0634c-148">The form class.</span></span></param>
+        <param name="Folder"><span data-ttu-id="0634c-149">表达式返回的<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。</span><span class="sxs-lookup"><span data-stu-id="0634c-149">Expression that returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object.</span></span> <span data-ttu-id="0634c-150">只用于窗体注册表。</span><span class="sxs-lookup"><span data-stu-id="0634c-150">Used only with Folder form registry.</span></span> <span data-ttu-id="0634c-151">必须来访问窗体文件夹对象。</span><span class="sxs-lookup"><span data-stu-id="0634c-151">The folder object from which the forms must be accessed.</span></span></param>
+        <summary><span data-ttu-id="0634c-152">保存的定义<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />指定的窗体注册表 （库） 中的对象。</span><span class="sxs-lookup"><span data-stu-id="0634c-152">Saves the definition of the <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />  object in the specified form registry (library).</span></span></summary>
+        <remarks><para><span data-ttu-id="0634c-153">
+            <b>注意</b>：<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />在使用<b>PublishForm</b>方法之前，必须设置属性。</span><span class="sxs-lookup"><span data-stu-id="0634c-153">
+            <b>Note</b>: The <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" />  property must be set before you can use the <b>PublishForm</b> method.</span></span></para>
+          <para><span data-ttu-id="0634c-p122">窗体注册为以下三类之一：文件夹、组织或个人。"文件夹"窗体注册表拥有一组只能从该特定文件夹访问的窗体，不管是公用的还是私有的。"组织"窗体注册表拥有整个企业都可以共享的窗体，每个人都可以访问。"个人"窗体注册表仅拥有当前存储用户可以访问的窗体。</span><span class="sxs-lookup"><span data-stu-id="0634c-p122">Forms are registered as one of three classes: Folder, Organization, or Personal. The Folder form registry holds a set of forms that are only accessible from that specific folder, whether public or private. The Organization form registry holds forms that are shared across an entire enterprise and are accessible to everyone. The Personal form registry holds forms that are accessible only to the current store user.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ScriptText">
@@ -853,16 +607,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-146">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 包含所有 VBScript 代码窗体的脚本编辑器中。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-146">Returns a <b>String</b> (<b>string</b> in C#) containing all the VBScript code in the form's Script Editor.</span>
-          </span>
-          <span data-ttu-id="6bd8f-147">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-147">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-158">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 包含所有 VBScript 代码窗体的脚本编辑器中。</span><span class="sxs-lookup"><span data-stu-id="0634c-158">Returns a <b>String</b> (<b>string</b> in C#) containing all the VBScript code in the form's Script Editor.</span></span> <span data-ttu-id="0634c-159">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="0634c-159">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -890,42 +635,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-148">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-148">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="6bd8f-149">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-149">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-160">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="0634c-160">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="0634c-161">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="0634c-161">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6bd8f-150">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="0634c-162"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="0634c-162">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="0634c-163">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="0634c-163">Both members serve the same purpose.</span></span> <span data-ttu-id="0634c-164">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="0634c-164">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-150">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Template">
@@ -954,29 +673,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-151">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示表单模板的名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-151">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the name of the template for the form.</span>
-          </span>
-          <span data-ttu-id="6bd8f-152">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-152">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-165">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示表单模板的名称。</span><span class="sxs-lookup"><span data-stu-id="0634c-165">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the name of the template for the form.</span></span> <span data-ttu-id="0634c-166">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-166">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6bd8f-153">
-            <para>此属性是指 Microsoft Office Word。点模板文件，因此它是适用于窗体与<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />   =  <b>，则返回 True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-153">
-              <para>This property refers to a Microsoft Office Word .DOT template file, and so is applicable for forms with <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />  = <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="0634c-167">此属性是指 Microsoft Office Word。点模板文件，因此它是适用于窗体与<see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />   =  <b>，则返回 True</b>。</span><span class="sxs-lookup"><span data-stu-id="0634c-167">This property refers to a Microsoft Office Word .DOT template file, and so is applicable for forms with <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />  = <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UseWordMail">
@@ -1005,16 +705,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-154">返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b>以 Microsoft Office Word 用作表单的默认编辑器。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-154">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates <b>True</b> to use Microsoft Office Word as the default editor for the form.</span>
-          </span>
-          <span data-ttu-id="6bd8f-155">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-155">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-168">返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b>以 Microsoft Office Word 用作表单的默认编辑器。</span><span class="sxs-lookup"><span data-stu-id="0634c-168">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates <b>True</b> to use Microsoft Office Word as the default editor for the form.</span></span> <span data-ttu-id="0634c-169">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-169">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1045,16 +736,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6bd8f-156">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示版本数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-156">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the number of the version.</span>
-          </span>
-          <span data-ttu-id="6bd8f-157">可读/写。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6bd8f-157">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0634c-170">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示版本数。</span><span class="sxs-lookup"><span data-stu-id="0634c-170">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the number of the version.</span></span> <span data-ttu-id="0634c-171">读/写。</span><span class="sxs-lookup"><span data-stu-id="0634c-171">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

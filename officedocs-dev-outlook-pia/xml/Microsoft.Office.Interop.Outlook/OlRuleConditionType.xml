@@ -1,13 +1,5 @@
 <Type Name="OlRuleConditionType" FullName="Microsoft.Office.Interop.Outlook.OlRuleConditionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="420b4d8422ef3de8b9f1b7ac956632bf20619f7b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632861" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="55c9c3c8d21a782558acd0cb913818a13333d9f0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903711" /></Metadata><TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlRuleConditionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlRuleConditionType" />
@@ -20,26 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="d8628-101">指定规则的规则条件或例外条件的类型。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d8628-101">Specifies the type of rule condition or exception condition of a rule.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d8628-102">
-        <para>的此枚举中的规则条件类型的列表包含所有规则条件和例外条件的规则和通知向导支持。请注意时以编程方式可以枚举所有规则条件和规则例外条件，, 您可以以编程方式创建规则与仅最常使用的条件。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
-        <para>例如规则条件类型<b>olConditionDateRange</b><b>olConditionSizeRange</b>支持和仅枚举和中启用或禁用现有规则.使用这种情况，不能以编程方式创建规则。您不能以编程方式获取或设置值的 x 和 y 的表示范围。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d8628-102">
-          <para>The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports. Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
-          <para>For example, the rule condition types <b>olConditionDateRange</b> and  <b>olConditionSizeRange</b> are supported only for enumeration and enabling or disabling in an existing rule. You cannot programmatically create a rule with such conditions. You cannot programmatically get or set the values of x and y that represent the range.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="03321-101">指定规则的规则条件或例外条件的类型。</span><span class="sxs-lookup"><span data-stu-id="03321-101">Specifies the type of rule condition or exception condition of a rule.</span></span></summary>
+    <remarks><para><span data-ttu-id="03321-102">The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports.</span><span class="sxs-lookup"><span data-stu-id="03321-102">The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports.</span></span> <span data-ttu-id="03321-103">Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions.</span><span class="sxs-lookup"><span data-stu-id="03321-103">Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions.</span></span> <span data-ttu-id="03321-104">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></span><span class="sxs-lookup"><span data-stu-id="03321-104">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></span></span></para>
+      <para><span data-ttu-id="03321-105">例如，仅用于枚举和中启用或禁用现有规则支持的规则条件类型<b>olConditionDateRange</b>和<b>olConditionSizeRange</b> 。</span><span class="sxs-lookup"><span data-stu-id="03321-105">For example, the rule condition types <b>olConditionDateRange</b> and  <b>olConditionSizeRange</b> are supported only for enumeration and enabling or disabling in an existing rule.</span></span> <span data-ttu-id="03321-106">您不能以编程方式创建具有此种条件的规则。</span><span class="sxs-lookup"><span data-stu-id="03321-106">You cannot programmatically create a rule with such conditions.</span></span> <span data-ttu-id="03321-107">您不能以编程方式获取或设置代表范围的 x 和 y 的值。</span><span class="sxs-lookup"><span data-stu-id="03321-107">You cannot programmatically get or set the values of x and y that represent the range.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olConditionAccount">
@@ -58,12 +34,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-103">帐户是中指定的帐户<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-103">Account is the account specified in <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-108">帐户是中指定的帐户<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />。</span><span class="sxs-lookup"><span data-stu-id="03321-108">Account is the account specified in <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionAnyCategory">
@@ -82,12 +53,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-104">邮件分配给任何类别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-104">Message is assigned to any category.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-109">邮件分配给任何类别。</span><span class="sxs-lookup"><span data-stu-id="03321-109">Message is assigned to any category.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionBody">
@@ -106,12 +72,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-105">正文包含指定的词中<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-105">Body contains words specified in <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-110">正文包含指定的词中<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />。</span><span class="sxs-lookup"><span data-stu-id="03321-110">Body contains words specified in <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionBodyOrSubject">
@@ -130,12 +91,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-106">正文或主题中包含指定的单词 <b>TextRuleCondition.Text。</b></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-106">Body or subject contains words specified by <b>TextRuleCondition.Text.</b></span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-111">正文或主题中包含指定的单词 <b>TextRuleCondition.Text。</b></span><span class="sxs-lookup"><span data-stu-id="03321-111">Body or subject contains words specified by <b>TextRuleCondition.Text.</b></span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionCategory">
@@ -154,12 +110,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-107">类别是中指定的类别<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-107">Category is the category specified in <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-112">类别是中指定的类别<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />。</span><span class="sxs-lookup"><span data-stu-id="03321-112">Category is the category specified in <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionCc">
@@ -178,12 +129,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-108">邮件的 "抄送"框中有我的姓名。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-108">Message has my name in the Cc box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-113">邮件的 "抄送"框中有我的姓名。</span><span class="sxs-lookup"><span data-stu-id="03321-113">Message has my name in the Cc box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionDateRange">
@@ -202,12 +148,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-109">邮件在 x 和 y 之间收到，其中 x 和 y 是日期值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-109">Message was received between x and y, where x and y are Date values.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-114">邮件在 x 和 y 之间收到，其中 x 和 y 是日期值。</span><span class="sxs-lookup"><span data-stu-id="03321-114">Message was received between x and y, where x and y are Date values.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFlaggedForAction">
@@ -226,12 +167,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-110">邮件标记了指定的操作。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-110">Message is flagged for the specified action.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-115">邮件标记了指定的操作。</span><span class="sxs-lookup"><span data-stu-id="03321-115">Message is flagged for the specified action.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFormName">
@@ -250,12 +186,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-111">邮件使用中指定的表单<see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-111">Message uses the form specified in <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-116">邮件使用中指定的表单<see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />。</span><span class="sxs-lookup"><span data-stu-id="03321-116">Message uses the form specified in <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFrom">
@@ -274,12 +205,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-112">发件人位于中指定的收件人列表<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-112">Sender is in the recipient list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-117">发件人位于中指定的收件人列表<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />。</span><span class="sxs-lookup"><span data-stu-id="03321-117">Sender is in the recipient list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFromAnyRssFeed">
@@ -298,12 +224,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-113">邮件从任何 RSS 订阅生成。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-113">Message is generated from any RSS subscription.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-118">邮件从任何 RSS 订阅生成。</span><span class="sxs-lookup"><span data-stu-id="03321-118">Message is generated from any RSS subscription.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFromRssFeed">
@@ -322,12 +243,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-114">邮件从特定的 RSS 订阅生成。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-114">Message is generated from a specific RSS subscription.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-119">邮件从特定的 RSS 订阅生成。</span><span class="sxs-lookup"><span data-stu-id="03321-119">Message is generated from a specific RSS subscription.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionHasAttachment">
@@ -346,12 +262,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-115">邮件有一个或多个附件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-115">Message has one or more attachments.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-120">邮件有一个或多个附件。</span><span class="sxs-lookup"><span data-stu-id="03321-120">Message has one or more attachments.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionImportance">
@@ -370,12 +281,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-116">邮件标记为指定的重要性级别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-116">Message is marked with the specified level of importance.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-121">邮件标记为指定的重要性级别。</span><span class="sxs-lookup"><span data-stu-id="03321-121">Message is marked with the specified level of importance.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionLocalMachineOnly">
@@ -394,12 +300,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-117">规则仅可以在本地计算机上运行。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-117">Rule can run only on the local machine.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-122">规则仅可以在本地计算机上运行。</span><span class="sxs-lookup"><span data-stu-id="03321-122">Rule can run only on the local machine.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionMeetingInviteOrUpdate">
@@ -418,12 +319,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-118">邮件是会议邀请或更新。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-118">Message is a meeting invitation or update.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-123">邮件是会议邀请或更新。</span><span class="sxs-lookup"><span data-stu-id="03321-123">Message is a meeting invitation or update.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionMessageHeader">
@@ -442,12 +338,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-119">邮件标头包含在 <b>TextRuleCondition.Text</b> 中指定的单词。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-119">Message header contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-124">邮件标头包含在 <b>TextRuleCondition.Text</b> 中指定的单词。</span><span class="sxs-lookup"><span data-stu-id="03321-124">Message header contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionNotTo">
@@ -466,12 +357,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-120">邮件的收件人框中没有我的姓名。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-120">Message does not have  my name in the To box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-125">邮件的收件人框中没有我的姓名。</span><span class="sxs-lookup"><span data-stu-id="03321-125">Message does not have  my name in the To box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionOnlyToMe">
@@ -490,12 +376,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-121">邮件仅发送给我。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-121">Message is sent only to me.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-126">邮件仅发送给我。</span><span class="sxs-lookup"><span data-stu-id="03321-126">Message is sent only to me.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionOOF">
@@ -514,12 +395,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-122">邮件是外出邮件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-122">Message is an out-of-office message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-127">邮件是外出邮件。</span><span class="sxs-lookup"><span data-stu-id="03321-127">Message is an out-of-office message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionOtherMachine">
@@ -538,12 +414,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-123">规则仅可以在当前计算机以外的特定计算机上运行。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-123">Rule can run only on  a specific machine that is not the current machine.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-128">规则仅可以在当前计算机以外的特定计算机上运行。</span><span class="sxs-lookup"><span data-stu-id="03321-128">Rule can run only on  a specific machine that is not the current machine.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionProperty">
@@ -562,12 +433,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-124">文档属性是确切的，包含或不包含指定的属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-124">Document property is exactly, contains, or does not contain specified properties.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-129">文档属性是确切的，包含或不包含指定的属性。</span><span class="sxs-lookup"><span data-stu-id="03321-129">Document property is exactly, contains, or does not contain specified properties.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionRecipientAddress">
@@ -586,12 +452,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-125">收件人地址包含在 <b>TextRuleCondition.Text</b> 中指定的单词。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-125">Recipient address contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-130">收件人地址包含在 <b>TextRuleCondition.Text</b> 中指定的单词。</span><span class="sxs-lookup"><span data-stu-id="03321-130">Recipient address contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSenderAddress">
@@ -610,12 +471,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-126">发件人地址包含在 <b>TextRuleCondition.Text</b> 中指定的词语。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-126">Sender address contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-131">发件人地址包含在 <b>TextRuleCondition.Text</b> 中指定的词语。</span><span class="sxs-lookup"><span data-stu-id="03321-131">Sender address contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSenderInAddressBook">
@@ -634,12 +490,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-127">发件人位于在 AddressRuleCondition.Address 中指定的地址列表。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-127">Sender is in the address list specified in AddressRuleCondition.Address.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-132">发件人位于在 AddressRuleCondition.Address 中指定的地址列表。</span><span class="sxs-lookup"><span data-stu-id="03321-132">Sender is in the address list specified in AddressRuleCondition.Address.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSensitivity">
@@ -658,12 +509,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-128">邮件标记为指定的敏感度级别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-128">Message is marked with the specified level of sensitivity.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-133">邮件标记为指定的敏感度级别。</span><span class="sxs-lookup"><span data-stu-id="03321-133">Message is marked with the specified level of sensitivity.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSentTo">
@@ -682,12 +528,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-129">发送给收件人 （收件人、 抄送）<b>出现在 ToOrFromRuleCondition.Recipients</b>中指定的收件人列表中。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-129">Sent to recipients (To, Cc) are in the recipient list specified in <b>ToOrFromRuleCondition.Recipients</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-134">发送给收件人 （收件人、 抄送）<b>出现在 ToOrFromRuleCondition.Recipients</b>中指定的收件人列表中。</span><span class="sxs-lookup"><span data-stu-id="03321-134">Sent to recipients (To, Cc) are in the recipient list specified in <b>ToOrFromRuleCondition.Recipients</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSizeRange">
@@ -706,12 +547,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-130">邮件的大小介于 x 和 y 之间（以 KB 为单位），其中 x 和 y 是整数值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-130">Message size is between x and y in units of KB, where x and y are Integer values.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-135">邮件的大小介于 x 和 y 之间（以 KB 为单位），其中 x 和 y 是整数值。</span><span class="sxs-lookup"><span data-stu-id="03321-135">Message size is between x and y in units of KB, where x and y are Integer values.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSubject">
@@ -730,12 +566,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-131">主题包含在 <b>TextRuleCondition.Text</b> 中指定的单词。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-131">Subject contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-136">主题包含在 <b>TextRuleCondition.Text</b> 中指定的单词。</span><span class="sxs-lookup"><span data-stu-id="03321-136">Subject contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionTo">
@@ -754,12 +585,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-132">我的姓名位于 "收件人"框中。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-132">My name is in the To box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-137">我的姓名位于 "收件人"框中。</span><span class="sxs-lookup"><span data-stu-id="03321-137">My name is in the To box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionToOrCc">
@@ -778,12 +604,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-133">邮件的 "收件人"或 "抄送"框中有我的姓名。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-133">Message has my name in the To or Cc box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-138">邮件的 "收件人"或 "抄送"框中有我的姓名。</span><span class="sxs-lookup"><span data-stu-id="03321-138">Message has my name in the To or Cc box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionUnknown">
@@ -802,12 +623,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d8628-134">不识别的条件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d8628-134">Unrecognized condition.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03321-139">不识别的条件。</span><span class="sxs-lookup"><span data-stu-id="03321-139">Unrecognized condition.</span></span></summary>
       </Docs>
     </Member>
   </Members>

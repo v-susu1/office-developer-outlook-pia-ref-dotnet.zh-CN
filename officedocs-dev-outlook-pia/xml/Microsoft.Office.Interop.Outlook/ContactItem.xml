@@ -1,13 +1,5 @@
 <Type Name="ContactItem" FullName="Microsoft.Office.Interop.Outlook.ContactItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1d1a35ca6b3993fa2db64cb0a9ecf722cf2a8ba2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633072" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ContactItem : Microsoft.Office.Interop.Outlook._ContactItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9ba4ed1d05a9572379c52f712ec637521f5bbb53" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903060" /></Metadata><TypeSignature Language="C#" Value="public interface ContactItem : Microsoft.Office.Interop.Outlook._ContactItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ContactItem implements class Microsoft.Office.Interop.Outlook._ContactItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ContactItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface ContactItem&#xA;Implements _ContactItem, ItemEvents_10_Event" />
@@ -33,30 +25,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="7c7e9-101">代表“联系人”文件夹中的联系人。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7c7e9-101">Represents a contact in a Contacts folder.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="7c7e9-102">
-        <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ContactItem" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
-        <para>联系人可代表与您有任何个人或工作联系任何人。</para>
-        <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />方法可创建代表新联系人的<b>ContactItem</b>对象。</para>
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" />(<paramref name="index" />)，其中<paramref name="index" />是联系人或一个用来匹配的联系人，从联系人文件夹中返回单个<b>ContactItem</b>对象的默认属性值的索引号。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7c7e9-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._ContactItem" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
-          <para>A contact can represent any person with whom you have any personal or professional contact.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />  method to create a <b>ContactItem</b> object that represents a new contact.</para>
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" /> (<paramref name="index" />), where <paramref name="index" /> is the index number of a contact or a value used to match the default property of a contact, to return a single <b>ContactItem</b> object from a Contacts folder.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="53050-101">代表“联系人”文件夹中的联系人。</span><span class="sxs-lookup"><span data-stu-id="53050-101">Represents a contact in a Contacts folder.</span></span></summary>
+    <remarks><para><span data-ttu-id="53050-102">这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。</span><span class="sxs-lookup"><span data-stu-id="53050-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="53050-103">使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。</span><span class="sxs-lookup"><span data-stu-id="53050-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="53050-104">但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="53050-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="53050-105">请参阅本主题的 COM 对象有关的信息。</span><span class="sxs-lookup"><span data-stu-id="53050-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="53050-106">有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ContactItem" />。</span><span class="sxs-lookup"><span data-stu-id="53050-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._ContactItem" />.</span></span> <span data-ttu-id="53050-107">有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</span><span class="sxs-lookup"><span data-stu-id="53050-107">For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</span></span></para>
+      <para><span data-ttu-id="53050-108">联系人可代表与您有个人或工作联系的任何人。</span><span class="sxs-lookup"><span data-stu-id="53050-108">A contact can represent any person with whom you have any personal or professional contact.</span></span></para>
+      <para><span data-ttu-id="53050-109">使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />方法可创建代表新联系人的<b>ContactItem</b>对象。</span><span class="sxs-lookup"><span data-stu-id="53050-109">Use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />  method to create a <b>ContactItem</b> object that represents a new contact.</span></span></para>
+      <para><span data-ttu-id="53050-110">使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" />(<paramref name="index" />)，其中<paramref name="index" />是联系人或一个用来匹配的联系人，从联系人文件夹中返回单个<b>ContactItem</b>对象的默认属性值的索引号。</span><span class="sxs-lookup"><span data-stu-id="53050-110">Use <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" /> (<paramref name="index" />), where <paramref name="index" /> is the index number of a contact or a value used to match the default property of a contact, to return a single <b>ContactItem</b> object from a Contacts folder.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="_Rule" FullName="Microsoft.Office.Interop.Outlook._Rule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631589" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Rule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902794" /></Metadata><TypeSignature Language="C#" Value="public interface _Rule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Rule" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="33880-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="33880-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="33880-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="33880-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="33880-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="33880-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="33880-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="33880-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Rule" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b5980-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="b5980-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="b5980-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="b5980-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="b5980-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="b5980-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="b5980-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />。</span><span class="sxs-lookup"><span data-stu-id="b5980-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Rule" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,32 +45,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleActions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合对象，代表所有可用的规则操作的规则。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-105">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />  collection object that represents all the available rule actions for the rule.</span>
-          </span>
-          <span data-ttu-id="33880-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合对象，代表所有可用的规则操作的规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-105">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />  collection object that represents all the available rule actions for the rule.</span></span> <span data-ttu-id="b5980-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b5980-106">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33880-107">
-            <para>您可以枚举和启用规则与任何规则操作的规则和通知向导支持，但您可以编程方式创建具有仅的最常用的规则操作，而不是任何规则和通知向导支持的规则操作。规则操作支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></para>
-            <para>
-              <b>操作</b>属性中，通过每个规则相关联<b>RuleActions</b>对象。<b>作为 RuleActions</b>集合是固定的对象-无法添加或移除此集合的项目。规则中启用的规则操作<b>作为 RuleActions</b>集合中都已启用的规则操作。在规则未启用的操作将具有的规则操作具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" />属性设置为<b>False</b>。编程规则创建过程中不支持的规则操作可以仅枚举现有规则，<b>作为 RuleActions</b>集合中，但<b>作为 RuleActions</b>集合固定的因为无法创建规则，并为其添加诸如操作关联<b>作为 RuleActions</b>集合。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-107">
-              <para>You can enumerate and enable rules with any rule action that the Rules and Alerts Wizard support, but you can programmatically  create rules that have only the most commonly used rule actions, and not any rule action that the Rules and Alerts Wizard supports. For more information on rule action support, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></para>
-              <para>Through the <b>Actions</b> property, each rule is associated with a <b>RuleActions</b> object. The <b>RuleActions</b> collection is a fixed object - you cannot add or remove items from this collection. Rule actions that are enabled in the rule will have an enabled rule action in the <b>RuleActions</b> collection. Rule actions that are not enabled in the rule will have a rule action in this collection that has the <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> property set to <b>False</b>. Rule actions that are not supported during programmatic rule creation can only be enumerated in the <b>RuleActions</b> collection for an existing rule, but because the <b>RuleActions</b> collection is fixed, you cannot create a rule and add such an action to the associated <b>RuleActions</b> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b5980-107">您可以枚举和启用规则的规则和通知向导支持，任何规则操作，但您可以编程方式创建具有仅的最常用的规则操作，而不是任何规则和通知向导支持的规则操作。</span><span class="sxs-lookup"><span data-stu-id="b5980-107">You can enumerate and enable rules with any rule action that the Rules and Alerts Wizard support, but you can programmatically  create rules that have only the most commonly used rule actions, and not any rule action that the Rules and Alerts Wizard supports.</span></span> <span data-ttu-id="b5980-108">规则操作支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></span><span class="sxs-lookup"><span data-stu-id="b5980-108">For more information on rule action support, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></span></span></para>
+          <para><span data-ttu-id="b5980-109">通过 <b>操作</b> 属性中，每个规则都与 <b>RuleActions</b> 对象相关联。</span><span class="sxs-lookup"><span data-stu-id="b5980-109">Through the <b>Actions</b> property, each rule is associated with a <b>RuleActions</b> object.</span></span> <span data-ttu-id="b5980-110"><b>RuleActions</b> 集合是固定的对象-您不能添加或删除此集合中的项目。</span><span class="sxs-lookup"><span data-stu-id="b5980-110">The <b>RuleActions</b> collection is a fixed object - you cannot add or remove items from this collection.</span></span> <span data-ttu-id="b5980-111">在规则中启用的规则操作 <b>RuleActions</b> 集合中都已启用的规则操作。</span><span class="sxs-lookup"><span data-stu-id="b5980-111">Rule actions that are enabled in the rule will have an enabled rule action in the <b>RuleActions</b> collection.</span></span> <span data-ttu-id="b5980-112">在规则未启用的操作将具有的规则操作具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" />属性设置为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="b5980-112">Rule actions that are not enabled in the rule will have a rule action in this collection that has the <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> property set to <b>False</b>.</span></span> <span data-ttu-id="b5980-113">在编程规则创建过程中不受支持的规则操作只可以枚举现有规则， <b>RuleActions</b> 集合中，但 <b>RuleActions</b> 集合固定的因为您不能创建规则并将这样的操作添加到关联的 <b>RuleActions</b> 集合。</span><span class="sxs-lookup"><span data-stu-id="b5980-113">Rule actions that are not supported during programmatic rule creation can only be enumerated in the <b>RuleActions</b> collection for an existing rule, but because the <b>RuleActions</b> collection is fixed, you cannot create a rule and add such an action to the associated <b>RuleActions</b> collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -121,16 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="33880-109">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-114">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="b5980-114">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="b5980-115">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b5980-115">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,16 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-110">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="33880-111">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-116">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="b5980-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="b5980-117">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b5980-117">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -195,30 +131,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合对象，它代表规则的所有可用规则条件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-112">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />  collection object that represents all the available rule conditions for the rule.</span>
-          </span>
-          <span data-ttu-id="33880-113">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-118">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合对象，它代表规则的所有可用规则条件。</span><span class="sxs-lookup"><span data-stu-id="b5980-118">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />  collection object that represents all the available rule conditions for the rule.</span></span> <span data-ttu-id="b5980-119">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b5980-119">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33880-114">
-            <para>规则条件表明应在其下应用规则的条件。两个<b>条件</b>和<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" />属性共享同一个池的条件并返回相应的<b>RuleConditions</b>集合对象。</para>但
-          <para>以编程方式可以枚举和启用支持的规则和通知向导，任何规则条件的规则的规则和通知向导，可以创建具有只有最常用的规则条件，而不是任何规则条件的规则支持。规则条件支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para><para><b>条件</b>属性中，通过每个规则都与一个<b>RuleConditions</b>对象相关联。<b>RuleConditions</b>集合是固定的对象-无法添加或移除此集合的项目。规则中启用的规则条件中<b>作为 RuleConditions</b>集合都已启用的规则条件。未启用规则中的条件将具有的规则条件具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />属性设置为<b>False</b>。编程规则创建过程中不支持的规则条件可以仅枚举现有规则， <b>RuleConditions</b>集合中，但<b>作为 RuleConditions</b>集合固定的因为无法创建规则，并添加此类条件到关联的<b>RuleConditions</b>集合。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-114">
-              <para>A condition for a rule states the condition under which the rule should be applied. Both the <b>Conditions</b> and <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" /> properties share the same pool of conditions and return a corresponding  <b>RuleConditions</b> collection object.</para>
-              <para>Programmatically you can enumerate and enable rules with any rule condition that the Rules and Alerts Wizard support, but you can  create rules that have only the most commonly used rule conditions, and not any rule condition that the Rules and Alerts Wizard supports. For more information on rule condition support, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
-              <para>Through the <b>Conditions</b> property, each rule is associated with a <b>RuleConditions</b> object. The <b>RuleConditions</b> collection is a fixed object - you cannot add or remove items from this collection. Rule conditions that are enabled in the rule will have an enabled rule condition in the <b>RuleConditions</b> collection. Rule conditions that are not enabled in the rule will have a rule condition in this collection that has the <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> property set to <b>False</b>. Rule conditions that are not supported during programmatic rule creation can only be enumerated in the <b>RuleConditions</b> collection for an existing rule, but because the <b>RuleConditions</b> collection is fixed, you cannot create a rule and add such a condition to the associated <b>RuleConditions</b> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b5980-120">规则的条件，指出应依据应用规则的条件。</span><span class="sxs-lookup"><span data-stu-id="b5980-120">A condition for a rule states the condition under which the rule should be applied.</span></span> <span data-ttu-id="b5980-121">两个<b>条件</b>和<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" />属性共享同一个池的条件并返回相应的<b>RuleConditions</b>集合对象。</span><span class="sxs-lookup"><span data-stu-id="b5980-121">Both the <b>Conditions</b> and <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" /> properties share the same pool of conditions and return a corresponding  <b>RuleConditions</b> collection object.</span></span></para>
+          <para><span data-ttu-id="b5980-122">您可以在以编程方式枚举和启用规则的规则和通知向导支持，任何规则条件，但您可以创建仅具有最常用的规则条件，而不是任何规则和通知向导支持的规则条件的规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-122">Programmatically you can enumerate and enable rules with any rule condition that the Rules and Alerts Wizard support, but you can  create rules that have only the most commonly used rule conditions, and not any rule condition that the Rules and Alerts Wizard supports.</span></span> <span data-ttu-id="b5980-123">规则条件支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></span><span class="sxs-lookup"><span data-stu-id="b5980-123">For more information on rule condition support, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></span></span></para>
+          <para><span data-ttu-id="b5980-124">通过 <b>条件</b> 属性，每个规则都与 <b>RuleConditions</b> 对象相关联。</span><span class="sxs-lookup"><span data-stu-id="b5980-124">Through the <b>Conditions</b> property, each rule is associated with a <b>RuleConditions</b> object.</span></span> <span data-ttu-id="b5980-125"><b>RuleConditions</b> 集合是固定的对象-您不能添加或删除此集合中的项目。</span><span class="sxs-lookup"><span data-stu-id="b5980-125">The <b>RuleConditions</b> collection is a fixed object - you cannot add or remove items from this collection.</span></span> <span data-ttu-id="b5980-126">在规则中启用的规则条件 <b>RuleConditions</b> 集合中都已启用的规则条件。</span><span class="sxs-lookup"><span data-stu-id="b5980-126">Rule conditions that are enabled in the rule will have an enabled rule condition in the <b>RuleConditions</b> collection.</span></span> <span data-ttu-id="b5980-127">未启用规则中的条件将具有的规则条件具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />属性设置为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="b5980-127">Rule conditions that are not enabled in the rule will have a rule condition in this collection that has the <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> property set to <b>False</b>.</span></span> <span data-ttu-id="b5980-128">对于现有的规则， <b>RuleConditions</b> 集合中只可以枚举编程规则创建过程中不受支持的规则条件但 <b>RuleConditions</b> 集合固定的因为您不能创建规则并将此类条件添加到关联的 <b>RuleConditions</b> 集合。</span><span class="sxs-lookup"><span data-stu-id="b5980-128">Rule conditions that are not supported during programmatic rule creation can only be enumerated in the <b>RuleConditions</b> collection for an existing rule, but because the <b>RuleConditions</b> collection is fixed, you cannot create a rule and add such a condition to the associated <b>RuleConditions</b> collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -247,31 +165,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-115">返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> ) 来确定是否要应用该规则。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-115">Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that determines if the rule is to be applied.</span>
-          </span>
-          <span data-ttu-id="33880-116">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-116">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-129">返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> ) 来确定是否要应用该规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-129">Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that determines if the rule is to be applied.</span></span> <span data-ttu-id="b5980-130">读/写。</span><span class="sxs-lookup"><span data-stu-id="b5980-130">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33880-117">
-            <para>规则的将<b>Enabled</b>属性设置不保证将启用该规则。之后才启用规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />执行成功。</para>
-            <para>使用<b>Rule.Enabled</b><b>Rules.Save</b>将规则应用一致和仍然存在超出当前会话的规则。启用的规则 （已成功保存） 可以确保将应用规则。这是本地客户端规则，如果 Outlook 正在运行，并且如果规则是基于服务器的规则，它将应用无论是否正在运行 Outlook 时将应用规则。如果未启用规则，然后定义规则，但不是会应用。但是，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />应用规则作为一次性操作而不管是否启用规则。 </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-117">
-              <para>Setting the <b>Enabled</b> property of a rule does not guarantee that the rule will be enabled. The rule is enabled only after <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> executes successfully.</para>
-              <para>Using <b>Rule.Enabled</b> and <b>Rules.Save</b> applies the rule consistently and persists the rules beyond the current session. Enabling a rule (that has been saved successfully) ensures that the rule will be applied. If it is a local client rule, the rule will be applied when Outlook is running, and if the rule is a server-based rule, it will be applied regardless of whether Outlook is running. If you do not enable the  rule, then the rule is defined, but it will not be applied. However, you can use <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> to apply a rule as an one-off operation regardless of whether the rule is  enabled.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b5980-131">规则的 <b>Enabled</b> 属性设置不能保证该规则将被启用。</span><span class="sxs-lookup"><span data-stu-id="b5980-131">Setting the <b>Enabled</b> property of a rule does not guarantee that the rule will be enabled.</span></span> <span data-ttu-id="b5980-132">之后才启用规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />执行成功。</span><span class="sxs-lookup"><span data-stu-id="b5980-132">The rule is enabled only after <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> executes successfully.</span></span></para>
+          <para><span data-ttu-id="b5980-133">使用 <b>Rule.Enabled</b> 和 <b>Rules.Save</b> 始终如一地适用规则和当前会话以外的规则仍然存在。</span><span class="sxs-lookup"><span data-stu-id="b5980-133">Using <b>Rule.Enabled</b> and <b>Rules.Save</b> applies the rule consistently and persists the rules beyond the current session.</span></span> <span data-ttu-id="b5980-134">启用规则 (即已成功保存) 以确保该规则将被应用。</span><span class="sxs-lookup"><span data-stu-id="b5980-134">Enabling a rule (that has been saved successfully) ensures that the rule will be applied.</span></span> <span data-ttu-id="b5980-135">如果是本地客户端规则，则规则将应用当 Outlook 正在运行，并且如果该规则是基于服务器的规则，它将应用不管 Outlook 是否正在运行。</span><span class="sxs-lookup"><span data-stu-id="b5980-135">If it is a local client rule, the rule will be applied when Outlook is running, and if the rule is a server-based rule, it will be applied regardless of whether Outlook is running.</span></span> <span data-ttu-id="b5980-136">如果未启用规则，然后定义规则，但不是会应用。</span><span class="sxs-lookup"><span data-stu-id="b5980-136">If you do not enable the  rule, then the rule is defined, but it will not be applied.</span></span> <span data-ttu-id="b5980-137">但是，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />应用规则作为一次性操作而不管是否启用规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-137">However, you can use <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> to apply a rule as an one-off operation regardless of whether the rule is  enabled.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exceptions">
@@ -297,34 +195,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-118">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合对象，它代表规则的所有可用规则例外条件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-118">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />  collection object that represents all the available rule exception conditions for the rule.</span>
-          </span>
-          <span data-ttu-id="33880-119">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-138">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合对象，它代表规则的所有可用规则例外条件。</span><span class="sxs-lookup"><span data-stu-id="b5980-138">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />  collection object that represents all the available rule exception conditions for the rule.</span></span> <span data-ttu-id="b5980-139">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b5980-139">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33880-120">
-            <para>规则例外条件指明在其下不应应用该规则的条件。同时<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" />和<b>例外</b>属性共享同一个池的条件并返回相应的<b>RuleConditions</b>集合对象。</para>
-            <para>您可以枚举和启用规则的规则和通知向导支持，任何规则例外条件，但您可以编程方式创建具有只有最常用的规则例外条件，而不是任何规则例外条件的规则规则和通知向导支持。规则条件支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
-            <para>
-              <b>条件</b>属性中，通过每个规则都与一个<b>RuleConditions</b>对象相关联。<b>RuleConditions</b>集合是固定的对象-无法添加或移除此集合的项目。规则中启用的规则例外条件<b>作为 RuleConditions</b>集合中都启用的规则例外条件。在规则未启用的例外条件将具有规则例外条件具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />属性设置为<b>False</b>。编程规则创建过程中不支持的规则例外条件可以仅枚举<b>RuleConditions</b>集合中的现有规则，但<b>作为 RuleConditions</b>集合固定的因为无法创建规则并将其添加到关联的<b>RuleConditions</b>集合的此类例外条件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-120">
-              <para>An exception condition for a rule states the condition under which the rule should not be applied. Both the <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" /> and <b>Exceptions</b> properties share the same pool of conditions and return a corresponding  <b>RuleConditions</b> collection object.</para>
-              <para>You can enumerate and enable rules with any rule exception condition that the Rules and Alerts Wizard support, but you can programmatically  create rules that have only the most commonly used rule exception conditions, and not any rule exception condition that the Rules and Alerts Wizard supports. For more information on rule condition support, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
-              <para>Through the <b>Conditions</b> property, each rule is associated with a <b>RuleConditions</b> object. The <b>RuleConditions</b> collection is a fixed object - you cannot add or remove items from this collection. Rule exception conditions that are enabled in the rule will have an enabled rule exception condition in the <b>RuleConditions</b> collection. Rule exception conditions that are not enabled in the rule will have a rule exception condition in this collection that has the <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> property set to <b>False</b>. Rule exception conditions that are not supported during programmatic rule creation can only be enumerated in the <b>RuleConditions</b> collection for an existing rule, but because the <b>RuleConditions</b> collection is fixed, you cannot create a rule and add such an exception condition to the associated <b>RuleConditions</b> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b5980-140">规则例外条件，指出依据不应应用此规则的条件。</span><span class="sxs-lookup"><span data-stu-id="b5980-140">An exception condition for a rule states the condition under which the rule should not be applied.</span></span> <span data-ttu-id="b5980-141">同时<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" />和<b>例外</b>属性共享同一个池的条件并返回相应的<b>RuleConditions</b>集合对象。</span><span class="sxs-lookup"><span data-stu-id="b5980-141">Both the <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" /> and <b>Exceptions</b> properties share the same pool of conditions and return a corresponding  <b>RuleConditions</b> collection object.</span></span></para>
+          <para><span data-ttu-id="b5980-142">您可以枚举和启用规则的规则和通知向导支持，任何规则例外条件，但您可以编程方式创建具有只有最常用的规则例外条件，而不是任何规则例外条件的规则规则和通知向导支持。</span><span class="sxs-lookup"><span data-stu-id="b5980-142">You can enumerate and enable rules with any rule exception condition that the Rules and Alerts Wizard support, but you can programmatically  create rules that have only the most commonly used rule exception conditions, and not any rule exception condition that the Rules and Alerts Wizard supports.</span></span> <span data-ttu-id="b5980-143">规则条件支持的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></span><span class="sxs-lookup"><span data-stu-id="b5980-143">For more information on rule condition support, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></span></span></para>
+          <para><span data-ttu-id="b5980-144">通过 <b>条件</b> 属性，每个规则都与 <b>RuleConditions</b> 对象相关联。</span><span class="sxs-lookup"><span data-stu-id="b5980-144">Through the <b>Conditions</b> property, each rule is associated with a <b>RuleConditions</b> object.</span></span> <span data-ttu-id="b5980-145"><b>RuleConditions</b> 集合是固定的对象-您不能添加或删除此集合中的项目。</span><span class="sxs-lookup"><span data-stu-id="b5980-145">The <b>RuleConditions</b> collection is a fixed object - you cannot add or remove items from this collection.</span></span> <span data-ttu-id="b5980-146">在规则中启用的规则例外条件 <b>RuleConditions</b> 集合中都已启用的规则例外条件。</span><span class="sxs-lookup"><span data-stu-id="b5980-146">Rule exception conditions that are enabled in the rule will have an enabled rule exception condition in the <b>RuleConditions</b> collection.</span></span> <span data-ttu-id="b5980-147">在规则未启用的例外条件将具有规则例外条件具有此集合中的规则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />属性设置为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="b5980-147">Rule exception conditions that are not enabled in the rule will have a rule exception condition in this collection that has the <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> property set to <b>False</b>.</span></span> <span data-ttu-id="b5980-148">在编程规则创建过程中不受支持的规则例外条件只可枚举现有规则， <b>RuleConditions</b> 集合中，但 <b>RuleConditions</b> 集合固定的因为您不能创建规则并将这种异常情况添加到关联的 <b>RuleConditions</b> 集合。</span><span class="sxs-lookup"><span data-stu-id="b5980-148">Rule exception conditions that are not supported during programmatic rule creation can only be enumerated in the <b>RuleConditions</b> collection for an existing rule, but because the <b>RuleConditions</b> collection is fixed, you cannot create a rule and add such an exception condition to the associated <b>RuleConditions</b> collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -352,106 +228,42 @@
         <Parameter Name="RuleExecuteOption" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ShowProgress">
-          <span data-ttu-id="33880-121">
-            <b>True</b> 在执行规则时显示进度对话框， <b>False</b> 而不显示对话框中运行该规则。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-121">
-              <b>True</b> to display the progress dialog box when the rule is executed, <b>False</b> to run the rule without displaying the dialog box.</span>
-          </span>
-        </param>
-        <param name="Folder">
-          <span data-ttu-id="33880-122">代表将要应用规则的文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-122">Represents the folder where the rule will be applied.</span>
-          </span>
-        </param>
-        <param name="IncludeSubfolders">
-          <span data-ttu-id="33880-123">
-            <b>真</b> 要将规则应用于由 Folder参数，则该文件夹的子文件夹 <b>假</b> 以该规则仅应用于该文件夹中，但不是包括子文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-123">
-              <b>True</b> to apply the rule to subfolders of the folder indicated by the Folder parameter; <b>False</b> to apply the rule only to that folder but not its subfolders.</span>
-          </span>
-        </param>
-        <param name="RuleExecuteOption">
-          <span data-ttu-id="33880-124">代表是否向由 Folder 和 IncludeSubfolders 参数指定的一个或多个文件夹中的已读邮件、未读邮件或所有邮件应用规则。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-124">Represents whether to apply the rule to read, unread, or all messages in the folder or folders specified by the Folder and IncludeSubfolders parameters.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="33880-125">将规则作为一次性操作来应用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-125">Applies a rule as an one-off operation.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="33880-126">
-            <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />将规则作为一次性操作来无论是否应用<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" />为<b>True</b>。使用<b>Rule.Enabled</b>然后<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />如果想要始终应用规则，并保留超出当前会话的规则。</para>
-            <para>的<b>Execute</b>方法的参数是可选的。如果不指定任何参数，则规则将应用到收件箱中的所有消息，但不适用于收件箱的子文件夹。可选参数的默认值如下所示： </para>
-            <list type="table">
-              <item>
-                <description>参数</description>
-                <description>默认值</description>
-              </item>
-              <item>
-                <description>ShowProgress</description>
-                <description>False</description>
-              </item>
-              <item>
-                <description>文件夹</description>
-                <description>收件箱</description>
-              </item>
-              <item>
-                <description>IncludeSubfolders</description>
-                <description>False</description>
-              </item>
-              <item>
-                <description>RuleExecuteOption</description>
-                <description>
-                  <b>OlRuleExecuteOption.olRuleExecuteAllMessages</b>
-                </description>
-              </item>
-            </list>
-            <para>如果<paramref name="ShowProgress" />为<b>True</b> ，并且用户取消进度对话框中，规则执行相同的方式取消了就好像用户已取消通过规则和通知向导执行规则。执行用户取消进度对话框时将返回错误。</para>
-            <para>如果您打算显示自定义进度用户界面而不是使用进度对话框，您应了解没有表示当规则执行启动事件和停止。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-126">
-              <para>Use <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> to apply a rule as a one-off operation regardless of whether <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" /> is <b>True</b>. Use <b>Rule.Enabled</b> and then <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> if you want to apply the rule consistently and persist the rules beyond the current session.</para>
-              <para>The parameters to the <b>Execute</b> method are optional. If you do not specify any parameters, the rule will be applied to all messages in the Inbox but not to the subfolders of the Inbox. The default values for the optional arguments are as follows: </para>
-              <list type="table">
-                <item>
-                  <description>Parameter</description>
-                  <description>Default Value</description>
-                </item>
-                <item>
-                  <description>ShowProgress</description>
-                  <description>False</description>
-                </item>
-                <item>
-                  <description>Folder</description>
-                  <description>Inbox</description>
-                </item>
-                <item>
-                  <description>IncludeSubfolders</description>
-                  <description>False</description>
-                </item>
-                <item>
-                  <description>RuleExecuteOption</description>
-                  <description>
-                    <b>OlRuleExecuteOption.olRuleExecuteAllMessages</b>
-                  </description>
-                </item>
-              </list>
-              <para>If <paramref name="ShowProgress" /> is <b>True</b> and the user cancels the progress dialog box, rule execution is canceled in the same manner as if the user had canceled rule execution through the Rules and Alerts Wizard. Execute returns an error when the user cancels the progress dialog.</para>
-              <para>If you plan to show a custom progress user interface instead of using the progress dialog box, you should be aware that there are no events that indicate when rule execution starts and stops. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ShowProgress"><span data-ttu-id="b5980-149"><b>True</b> 在执行规则时显示进度对话框， <b>False</b> 而不显示对话框中运行该规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-149"><b>True</b> to display the progress dialog box when the rule is executed, <b>False</b> to run the rule without displaying the dialog box.</span></span></param>
+        <param name="Folder"><span data-ttu-id="b5980-150">代表将要应用规则的文件夹。</span><span class="sxs-lookup"><span data-stu-id="b5980-150">Represents the folder where the rule will be applied.</span></span></param>
+        <param name="IncludeSubfolders"><span data-ttu-id="b5980-151"><b>真</b> 要将规则应用于由 Folder参数，则该文件夹的子文件夹 <b>假</b> 以该规则仅应用于该文件夹中，但不是包括子文件夹。</span><span class="sxs-lookup"><span data-stu-id="b5980-151"><b>True</b> to apply the rule to subfolders of the folder indicated by the Folder parameter; <b>False</b> to apply the rule only to that folder but not its subfolders.</span></span></param>
+        <param name="RuleExecuteOption"><span data-ttu-id="b5980-152">代表是否向由 Folder 和 IncludeSubfolders 参数指定的一个或多个文件夹中的已读邮件、未读邮件或所有邮件应用规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-152">Represents whether to apply the rule to read, unread, or all messages in the folder or folders specified by the Folder and IncludeSubfolders parameters.</span></span></param>
+        <summary><span data-ttu-id="b5980-153">将规则作为一次性操作来应用。</span><span class="sxs-lookup"><span data-stu-id="b5980-153">Applies a rule as an one-off operation.</span></span></summary>
+        <remarks><para><span data-ttu-id="b5980-154">使用<see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />将规则作为一次性操作来无论是否应用<see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" />为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="b5980-154">Use <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> to apply a rule as a one-off operation regardless of whether <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" /> is <b>True</b>.</span></span> <span data-ttu-id="b5980-155">使用<b>Rule.Enabled</b>然后<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />如果您想要始终应用规则，并保留超出当前会话的规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-155">Use <b>Rule.Enabled</b> and then <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> if you want to apply the rule consistently and persist the rules beyond the current session.</span></span></para>
+          <para><span data-ttu-id="b5980-p119"><b>Execute</b> 方法的参数是可选的。如果不指定任何参数，则规则将应用到收件箱中的所有邮件，而不是收件箱的子文件夹。可选参数的默认值如下所示:</span><span class="sxs-lookup"><span data-stu-id="b5980-p119">The parameters to the <b>Execute</b> method are optional. If you do not specify any parameters, the rule will be applied to all messages in the Inbox but not to the subfolders of the Inbox. The default values for the optional arguments are as follows: </span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="b5980-159">参数</span><span class="sxs-lookup"><span data-stu-id="b5980-159">Parameter</span></span></description>
+              <description><span data-ttu-id="b5980-160">默认值</span><span class="sxs-lookup"><span data-stu-id="b5980-160">Default Value</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b5980-161">ShowProgress</span><span class="sxs-lookup"><span data-stu-id="b5980-161">ShowProgress</span></span></description>
+              <description><span data-ttu-id="b5980-162">False</span><span class="sxs-lookup"><span data-stu-id="b5980-162">False</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b5980-163">文件夹</span><span class="sxs-lookup"><span data-stu-id="b5980-163">Folder</span></span></description>
+              <description><span data-ttu-id="b5980-164">收件箱</span><span class="sxs-lookup"><span data-stu-id="b5980-164">Inbox</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b5980-165">IncludeSubfolders</span><span class="sxs-lookup"><span data-stu-id="b5980-165">IncludeSubfolders</span></span></description>
+              <description><span data-ttu-id="b5980-166">False</span><span class="sxs-lookup"><span data-stu-id="b5980-166">False</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b5980-167">RuleExecuteOption</span><span class="sxs-lookup"><span data-stu-id="b5980-167">RuleExecuteOption</span></span></description>
+              <description><span data-ttu-id="b5980-168">
+                <b>OlRuleExecuteOption.olRuleExecuteAllMessages</b>
+              </span><span class="sxs-lookup"><span data-stu-id="b5980-168">
+                <b>OlRuleExecuteOption.olRuleExecuteAllMessages</b>
+              </span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="b5980-169">如果<paramref name="ShowProgress" />为<b>true，</b>并在相同的方式取消进度对话框的规则执行，就好像用户已取消用户取消规则的规则和通知向导通过执行。</span><span class="sxs-lookup"><span data-stu-id="b5980-169">If <paramref name="ShowProgress" /> is <b>True</b> and the user cancels the progress dialog box, rule execution is canceled in the same manner as if the user had canceled rule execution through the Rules and Alerts Wizard.</span></span> <span data-ttu-id="b5980-170">当用户取消进度对话框，则 Execute将返回错误。</span><span class="sxs-lookup"><span data-stu-id="b5980-170">Execute returns an error when the user cancels the progress dialog.</span></span></para>
+          <para><span data-ttu-id="b5980-p121">如果您打算显示自定义的进度用户界面，而不使用进度对话框，则应当知道没有任何事件指示规则何时开始和停止执行。</span><span class="sxs-lookup"><span data-stu-id="b5980-p121">If you plan to show a custom progress user interface instead of using the progress dialog box, you should be aware that there are no events that indicate when rule execution starts and stops. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExecutionOrder">
@@ -480,31 +292,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-127">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示执行之间中其他规则的规则的顺序<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-127">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the order of execution of the rule among other rules in the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection.</span>
-          </span>
-          <span data-ttu-id="33880-128">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-172">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示执行之间中其他规则的规则的顺序<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合。</span><span class="sxs-lookup"><span data-stu-id="b5980-172">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the order of execution of the rule among other rules in the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection.</span></span> <span data-ttu-id="b5980-173">读/写。</span><span class="sxs-lookup"><span data-stu-id="b5980-173">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33880-129">
-            <para>
-              <b>ExecutionOrder</b>直接映射的数字值<paramref name="Index" />的<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />。例如，Rules.Item(1) 与<b>ExecutionOrder</b>正在 1 代表一个规则、 Rules.Item(2) 与<b>ExecutionOrder</b>正在 2，代表一个规则和 Rules.Item(Rules.Count) 代表<b>ExecutionOrder</b>正在的规则<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-129">
-              <para>
-                <b>ExecutionOrder</b> is directly mapped with the numerical value of  <paramref name="Index" /> in <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />. For example, Rules.Item(1) represents a rule with <b>ExecutionOrder</b> being 1, Rules.Item(2) represents a rule with <b>ExecutionOrder</b> being 2, and Rules.Item(Rules.Count) represents the rule with <b>ExecutionOrder</b> being <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b5980-174">
+            <b>ExecutionOrder</b>直接映射的数字值<paramref name="Index" />的<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />。</span><span class="sxs-lookup"><span data-stu-id="b5980-174">
+            <b>ExecutionOrder</b> is directly mapped with the numerical value of  <paramref name="Index" /> in <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />.</span></span> <span data-ttu-id="b5980-175">例如，Rules.Item(1) 与<b>ExecutionOrder</b>正在 1 代表一个规则、 Rules.Item(2) 与<b>ExecutionOrder</b>正在 2，代表一个规则和 Rules.Item(Rules.Count) 代表<b>ExecutionOrder</b>正在的规则<see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />。</span><span class="sxs-lookup"><span data-stu-id="b5980-175">For example, Rules.Item(1) represents a rule with <b>ExecutionOrder</b> being 1, Rules.Item(2) represents a rule with <b>ExecutionOrder</b> being 2, and Rules.Item(Rules.Count) represents the rule with <b>ExecutionOrder</b> being <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsLocalRule">
@@ -530,30 +323,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-130">返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示是否该规则将执行作为客户端规则。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-130">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the rule executes as a client-side rule.</span>
-          </span>
-          <span data-ttu-id="33880-131">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-176">返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示是否该规则将执行作为客户端规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-176">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the rule executes as a client-side rule.</span></span> <span data-ttu-id="b5980-177">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b5980-177">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33880-132">
-            <para>客户端规则执行仅在运行 Outlook 时。如果<b>IsLocalRule</b>为<b>False</b>，则该规则将执行服务器端规则作为。</para>如果您有 Microsoft Exchange Server 电子邮件帐户的
-          <para>，服务器可以应用服务器端规则消息即使您没有运行 Outlook。必须设置规则它们被传递到收件箱的服务器上，并且必须能够在服务器上完成运行规则时要应用于邮件。例如，规则不能在上完成运行服务器如果操作指定打印邮件。启动 Outlook 时应用的服务器上，不能应用规则，如果。</para><para>如果存储区中的规则集合包含服务器和客户端规则，则服务器端规则将应用首先，客户端规则后跟。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-132">
-              <para>A client-side rule executes only when Outlook is running. If <b>IsLocalRule</b> is <b>False</b>, then the rule executes as a server-side rule.</para>
-              <para>If you have a Microsoft Exchange Server e-mail account, the server can apply server-side rules to your messages even if you don't have Outlook running. The rules must be set to be applied to messages when they are delivered to your Inbox on the server, and the rules must be able to run to completion on the server. For example, a rule cannot run to completion on the server if the action specifies that a message be printed. If a rule cannot be applied on the server, it is applied when you start Outlook.</para>
-              <para>If the rules collection on a store contains both server and client-side rules, the server-side rules are applied first, followed by the client-side rules.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b5980-p125">客户端规则执行仅在运行 Outlook 时。如果 <b>IsLocalRule</b> 为 <b>False</b> 时，该规则执行作为服务器端规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-p125">A client-side rule executes only when Outlook is running. If <b>IsLocalRule</b> is <b>False</b>, then the rule executes as a server-side rule.</span></span></para>
+          <para><span data-ttu-id="b5980-p126">如果您有 Microsoft Exchange Server 电子邮件帐户，那么，即使 Outlook 未在运行，服务器也可以将服务器端规则应用于邮件。必须将这些规则设置为当邮件到达服务器的"收件箱"中时应用于邮件，并且这些规则必须能够在服务器上完成运行。例如，如果操作指定打印邮件，规则就无法在服务器上完成运行。如果规则不能应用于服务器上，则它会在您启动 Outlook 时应用。</span><span class="sxs-lookup"><span data-stu-id="b5980-p126">If you have a Microsoft Exchange Server e-mail account, the server can apply server-side rules to your messages even if you don't have Outlook running. The rules must be set to be applied to messages when they are delivered to your Inbox on the server, and the rules must be able to run to completion on the server. For example, a rule cannot run to completion on the server if the action specifies that a message be printed. If a rule cannot be applied on the server, it is applied when you start Outlook.</span></span></para>
+          <para><span data-ttu-id="b5980-184">如果存储区中的规则集合既包含服务器端规则又包含客户端规则，则先应用服务器端规则，再应用客户端规则。</span><span class="sxs-lookup"><span data-stu-id="b5980-184">If the rules collection on a store contains both server and client-side rules, the server-side rules are applied first, followed by the client-side rules.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -582,33 +357,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-133">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的规则的名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-133">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name of the rule.</span>
-          </span>
-          <span data-ttu-id="33880-134">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-134">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-185">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的规则的名称。</span><span class="sxs-lookup"><span data-stu-id="b5980-185">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name of the rule.</span></span> <span data-ttu-id="b5980-186">读/写。</span><span class="sxs-lookup"><span data-stu-id="b5980-186">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33880-135">
-            <para>
-              <b>名称</b>是默认属性和索引器中的某个规则的<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合对象。对应于<b>PidTagRuleMsgName</b> (0x65EC001E)。</para>
-            <para>规则的名称不唯一同一集合中的规则。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-135">
-              <para>
-                <b>Name</b> is the default property and an indexer for a rule in a <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection object. It corresponds to <b>PidTagRuleMsgName</b> (0x65EC001E).</para>
-              <para>Rule names are not unique among rules in the same collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b5980-187">
+            <b>Name</b>是默认属性和索引器中的某个规则的<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />集合对象。</span><span class="sxs-lookup"><span data-stu-id="b5980-187">
+            <b>Name</b> is the default property and an indexer for a rule in a <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection object.</span></span> <span data-ttu-id="b5980-188">它对应于 <b>PidTagRuleMsgName</b> (0x65EC001E)。</span><span class="sxs-lookup"><span data-stu-id="b5980-188">It corresponds to <b>PidTagRuleMsgName</b> (0x65EC001E).</span></span></para>
+          <para><span data-ttu-id="b5980-189">同一个集合中规则的名称不唯一。</span><span class="sxs-lookup"><span data-stu-id="b5980-189">Rule names are not unique among rules in the same collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -634,25 +389,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-p111">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-p111">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-p129">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="b5980-p129">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33880-138">
-            <para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-138">
-              <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b5980-192">父对象的<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Rules" />对象。</span><span class="sxs-lookup"><span data-stu-id="b5980-192">The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RuleType">
@@ -678,16 +418,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-139">返回一个常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" />枚举，指示是否规则应用于邮件正在发送或接收。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-139">Returns a constant from the <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" /> enumeration that indicates if the rule applies to messages that are being sent or received.</span>
-          </span>
-          <span data-ttu-id="33880-140">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-140">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-193">返回一个常量从<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" />枚举，指示是否规则应用于邮件正在发送或接收。</span><span class="sxs-lookup"><span data-stu-id="b5980-193">Returns a constant from the <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" /> enumeration that indicates if the rule applies to messages that are being sent or received.</span></span> <span data-ttu-id="b5980-194">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b5980-194">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -715,42 +446,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33880-141">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-141">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="33880-142">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-142">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b5980-195">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="b5980-195">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="b5980-196">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b5980-196">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33880-143">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="b5980-197"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="b5980-197">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="b5980-198">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="b5980-198">Both members serve the same purpose.</span></span> <span data-ttu-id="b5980-199">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="b5980-199">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33880-143">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

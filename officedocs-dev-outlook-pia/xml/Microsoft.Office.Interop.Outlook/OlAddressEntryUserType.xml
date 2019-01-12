@@ -1,13 +1,5 @@
 <Type Name="OlAddressEntryUserType" FullName="Microsoft.Office.Interop.Outlook.OlAddressEntryUserType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="68e87ba4d0366486c284bd31a0e674638a16a1d4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632884" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlAddressEntryUserType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f6167f573476938e1ab6b9b4807ca64bbed1d2ba" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906532" /></Metadata><TypeSignature Language="C#" Value="public enum OlAddressEntryUserType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlAddressEntryUserType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlAddressEntryUserType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="e5c43-101">代表用户的类型<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />或从<b>AddressEntry</b>派生的对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e5c43-101">Represents the type of user for the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> or object derived from <b>AddressEntry</b>.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="de49c-101">代表用户的类型<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />或从<b>AddressEntry</b>派生的对象。</span><span class="sxs-lookup"><span data-stu-id="de49c-101">Represents the type of user for the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> or object derived from <b>AddressEntry</b>.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-102">作为 Exchange 代理的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-102">An address entry that is an Exchange agent.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-102">作为 Exchange 代理的地址条目。</span><span class="sxs-lookup"><span data-stu-id="de49c-102">An address entry that is an Exchange agent.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olExchangeDistributionListAddressEntry">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-103">作为 Exchange 通讯组列表的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-103">An address entry that is an Exchange distribution list.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-103">作为 Exchange 通讯组列表的地址条目。</span><span class="sxs-lookup"><span data-stu-id="de49c-103">An address entry that is an Exchange distribution list.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olExchangeOrganizationAddressEntry">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-104">作为 Exchange 组织的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-104">An address entry that is an Exchange organization.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-104">作为 Exchange 组织的地址条目。</span><span class="sxs-lookup"><span data-stu-id="de49c-104">An address entry that is an Exchange organization.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olExchangePublicFolderAddressEntry">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-105">作为 Exchange 公用文件夹的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-105">An address entry that is an Exchange public folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-105">作为 Exchange 公用文件夹的地址条目。</span><span class="sxs-lookup"><span data-stu-id="de49c-105">An address entry that is an Exchange public folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olExchangeRemoteUserAddressEntry">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-106">属于不同 Exchange 林的 Exchange 用户。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-106">An Exchange user that belongs to a different Exchange forest.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-106">属于不同 Exchange 林的 Exchange 用户。</span><span class="sxs-lookup"><span data-stu-id="de49c-106">An Exchange user that belongs to a different Exchange forest.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olExchangeUserAddressEntry">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-107">属于相同 Exchange 林的 Exchange 用户。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-107">An Exchange user that belongs to the same Exchange  forest.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-107">属于相同 Exchange 林的 Exchange 用户。</span><span class="sxs-lookup"><span data-stu-id="de49c-107">An Exchange user that belongs to the same Exchange  forest.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olLdapAddressEntry">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-108">使用轻型目录访问协议 (LDAP) 的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-108">An address entry that uses the Lightweight Directory Access Protocol (LDAP).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-108">使用轻型目录访问协议 (LDAP) 的地址条目。</span><span class="sxs-lookup"><span data-stu-id="de49c-108">An address entry that uses the Lightweight Directory Access Protocol (LDAP).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olOtherAddressEntry">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-109">自定义或其他类型的地址条目，如 FAX。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-109">A custom or some other type of address entry such as FAX.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-109">自定义或其他类型的地址条目，如 FAX。</span><span class="sxs-lookup"><span data-stu-id="de49c-109">A custom or some other type of address entry such as FAX.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olOutlookContactAddressEntry">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-110">Outlook 联系人文件夹中的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-110">An address entry in an Outlook Contacts folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-110">Outlook 联系人文件夹中的地址条目。</span><span class="sxs-lookup"><span data-stu-id="de49c-110">An address entry in an Outlook Contacts folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olOutlookDistributionListAddressEntry">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-111">作为 Outlook 通讯组列表的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-111">An address entry that is an Outlook distribution list.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-111">作为 Outlook 通讯组列表的地址条目。</span><span class="sxs-lookup"><span data-stu-id="de49c-111">An address entry that is an Outlook distribution list.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olSmtpAddressEntry">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5c43-112">使用简单邮件传输协议 (SMTP) 的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5c43-112">An address entry that uses the Simple Mail Transfer Protocol (SMTP).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de49c-112">使用简单邮件传输协议 (SMTP) 的地址条目。</span><span class="sxs-lookup"><span data-stu-id="de49c-112">An address entry that uses the Simple Mail Transfer Protocol (SMTP).</span></span></summary>
       </Docs>
     </Member>
   </Members>

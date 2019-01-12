@@ -1,13 +1,5 @@
 <Type Name="_Views" FullName="Microsoft.Office.Interop.Outlook._Views">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632288" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903935" /></Metadata><TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Views implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Views" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Views&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="79aa8-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="79aa8-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="79aa8-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="79aa8-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="79aa8-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="79aa8-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="79aa8-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Views" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="79aa8-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Views" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="83ff8-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="83ff8-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="83ff8-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="83ff8-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="83ff8-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="83ff8-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="83ff8-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Views" />。</span><span class="sxs-lookup"><span data-stu-id="83ff8-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Views" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -75,46 +50,13 @@
         <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="79aa8-105">新视图的名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-105">The name of the new view.</span>
-          </span>
-        </param>
-        <param name="ViewType">
-          <span data-ttu-id="79aa8-106">新视图的类型。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-106">The type of the new view.</span>
-          </span>
-        </param>
-        <param name="SaveOption">
-          <span data-ttu-id="79aa8-107">指定新视图权限的保存选项。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-107">The save option that specifies the permissions of the new view.</span>
-          </span>
-          <span data-ttu-id="79aa8-108">
-            <b>olViewSaveOptionAllFoldersOfType</b>视图可以访问此类型的所有文件夹中。<b>olViewSaveOptionThisFolderEveryOne</b>可以仅此文件夹中的所有用户访问的视图。<b>olViewSaveOptionThisFolderOnlyMe</b>只能由用户，可以在此文件夹中访问该视图。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-108">
-              <b>olViewSaveOptionAllFoldersOfType</b> The view can be accessed in all folders of this type.<b>olViewSaveOptionThisFolderEveryOne</b> The view can be accessed by all users in this folder only.<b>olViewSaveOptionThisFolderOnlyMe</b> The view can be accessed in this folder only by the user.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="79aa8-109">新建一个视图，在<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-109">Creates a new view in the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="79aa8-110">A<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象，表示新视图。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-110">A <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object that represents the new view.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="79aa8-111">
-            <para>如果将<b>视图</b>添加到的文件夹不是当前文件夹的<b>Views</b>集合中时，必须先保存一份<b>Views</b>集合对象，然后将<b>视图</b>添加到此集合对象，如下面的代码示例中所示。这是一种解决现有的问题，否则会导致调用<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />添加了<b>视图</b>失败。</para>
-            <code>Sub CalendarView()
+        <param name="Name"><span data-ttu-id="83ff8-105">新视图的名称。</span><span class="sxs-lookup"><span data-stu-id="83ff8-105">The name of the new view.</span></span></param>
+        <param name="ViewType"><span data-ttu-id="83ff8-106">新视图的类型。</span><span class="sxs-lookup"><span data-stu-id="83ff8-106">The type of the new view.</span></span></param>
+        <param name="SaveOption"><span data-ttu-id="83ff8-107">指定新视图权限的保存选项。</span><span class="sxs-lookup"><span data-stu-id="83ff8-107">The save option that specifies the permissions of the new view.</span></span> <span data-ttu-id="83ff8-108"><b>olViewSaveOptionAllFoldersOfType</b>视图可以访问此类型的所有文件夹中。<b>olViewSaveOptionThisFolderEveryOne</b>可以仅此文件夹中的所有用户访问的视图。<b>olViewSaveOptionThisFolderOnlyMe</b>只能由用户，可以在此文件夹中访问该视图。</span><span class="sxs-lookup"><span data-stu-id="83ff8-108"><b>olViewSaveOptionAllFoldersOfType</b> The view can be accessed in all folders of this type.<b>olViewSaveOptionThisFolderEveryOne</b> The view can be accessed by all users in this folder only.<b>olViewSaveOptionThisFolderOnlyMe</b> The view can be accessed in this folder only by the user.</span></span></param>
+        <summary><span data-ttu-id="83ff8-109">新建一个视图，在<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。</span><span class="sxs-lookup"><span data-stu-id="83ff8-109">Creates a new view in the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="83ff8-110">A<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象，表示新视图。</span><span class="sxs-lookup"><span data-stu-id="83ff8-110">A <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object that represents the new view.</span></span></returns>
+        <remarks><para><span data-ttu-id="83ff8-111">如果将<b>视图</b>添加到的文件夹不是当前文件夹的<b>Views</b>集合中时，必须先保存一份<b>Views</b>集合对象，然后将<b>视图</b>添加到此集合对象，如下面的代码示例中所示。</span><span class="sxs-lookup"><span data-stu-id="83ff8-111">If you add a <b>View</b> to a <b>Views</b> collection of a folder that is not the current folder, you must first save a copy of  the <b>Views</b> collection object and then add the <b>View</b> to this collection object, as shown in the code sample below.</span></span> <span data-ttu-id="83ff8-112">这是一种解决现有的问题，否则会导致调用<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />添加了<b>视图</b>失败。</span><span class="sxs-lookup"><span data-stu-id="83ff8-112">This is a work-around for an existing problem which will otherwise cause a call to <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> for the added <b>View</b> to fail.</span></span></para>
+          <code>Sub CalendarView()
     Dim calView As Outlook.View
     Dim vws As Outlook.Views
 
@@ -136,7 +78,7 @@
     ' This Apply call will be fine.
     calView.Apply()
 End Sub</code>
-            <code>private void CalendarView()
+          <code>private void CalendarView()
 {
     Outlook.View calView;
     Outlook.Views vws;
@@ -159,60 +101,7 @@ End Sub</code>
     // This Apply call will be fine.
     calView.Apply();
 }</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-111">
-              <para>If you add a <b>View</b> to a <b>Views</b> collection of a folder that is not the current folder, you must first save a copy of  the <b>Views</b> collection object and then add the <b>View</b> to this collection object, as shown in the code sample below. This is a work-around for an existing problem which will otherwise cause a call to <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> for the added <b>View</b> to fail.</para>
-              <code>Sub CalendarView()
-    Dim calView As Outlook.View
-    Dim vws As Outlook.Views
-
-    Application.ActiveExplorer.CurrentFolder = _
-        Application.Session.GetDefaultFolder( _
-        Outlook.OlDefaultFolders.olFolderInbox)
-
-    ' Current folder is Inbox; add a View to the Calendar folder which 
-    ' is not the current folder. Keep a copy of the object for the 
-    ' Views collection for the Calendar
-    vws = Application.Session.GetDefaultFolder( _
-        Outlook.OlDefaultFolders.olFolderCalendar).Views
-
-    ' Add the View to this Views collection object
-    calView = vws.Add("New Calendar", _
-        Outlook.OlViewType.olCalendarView, _
-        Outlook.OlViewSaveOption.olViewSaveOptionThisFolderEveryone)
-    calView.Save()
-    ' This Apply call will be fine.
-    calView.Apply()
-End Sub</code>
-              <code>private void CalendarView()
-{
-    Outlook.View calView;
-    Outlook.Views vws;
-
-    Application.ActiveExplorer().CurrentFolder = 
-        Application.Session.GetDefaultFolder( 
-        Outlook.OlDefaultFolders.olFolderInbox);
-
-    // Current folder is Inbox; add a View to the Calendar folder which 
-    //is not the current folder. Keep a copy of the object for the 
-    //Views collection for the Calendar
-    vws = Application.Session.GetDefaultFolder( 
-        Outlook.OlDefaultFolders.olFolderCalendar).Views;
-
-    //Add the View to this Views collection object
-    calView = vws.Add("New Calendar",
-        Outlook.OlViewType.olCalendarView, 
-        Outlook.OlViewSaveOption.olViewSaveOptionThisFolderEveryone);
-    calView.Save();
-    // This Apply call will be fine.
-    calView.Apply();
-}</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -238,16 +127,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="79aa8-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="79aa8-113">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83ff8-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="83ff8-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="83ff8-114">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="83ff8-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -275,16 +155,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="79aa8-114">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-114">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="79aa8-115">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83ff8-115">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="83ff8-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="83ff8-116">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="83ff8-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -312,16 +183,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="79aa8-116">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-116">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="79aa8-117">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83ff8-117">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="83ff8-117">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="83ff8-118">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="83ff8-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -353,12 +215,7 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="79aa8-118">此成员继承自父接口的基本类型。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-118">This member is inherited from the base type of the parent interface.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83ff8-119">此成员继承自父接口的基本类型。</span><span class="sxs-lookup"><span data-stu-id="83ff8-119">This member is inherited from the base type of the parent interface.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -389,25 +246,9 @@ End Sub</code>
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="79aa8-119">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-119">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="79aa8-120">返回<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="79aa8-121">
-            <b>视图</b> 对象，该对象代表指定的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-121">A <b>View</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="83ff8-120">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span><span class="sxs-lookup"><span data-stu-id="83ff8-120">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="83ff8-121">返回<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象的集合。</span><span class="sxs-lookup"><span data-stu-id="83ff8-121">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="83ff8-122"><b>视图</b> 对象，该对象代表指定的对象。</span><span class="sxs-lookup"><span data-stu-id="83ff8-122">A <b>View</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -434,12 +275,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="79aa8-p106">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83ff8-p107">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="83ff8-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -467,18 +303,8 @@ End Sub</code>
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="79aa8-124">对象的名称或其在集合中的索引值，索引从 1 开始编号。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-124">The name or 1-based index value of an object within a collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="79aa8-125">从集合中删除对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-125">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="83ff8-125">对象的名称或其在集合中的索引值，索引从 1 开始编号。</span><span class="sxs-lookup"><span data-stu-id="83ff8-125">The name or 1-based index value of an object within a collection.</span></span></param>
+        <summary><span data-ttu-id="83ff8-126">从集合中删除对象。</span><span class="sxs-lookup"><span data-stu-id="83ff8-126">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -505,42 +331,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="79aa8-126">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-126">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="79aa8-127">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-127">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83ff8-127">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="83ff8-127">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="83ff8-128">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="83ff8-128">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="79aa8-128">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="83ff8-129"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="83ff8-129">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="83ff8-130">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="83ff8-130">Both members serve the same purpose.</span></span> <span data-ttu-id="83ff8-131">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="83ff8-131">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="79aa8-128">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
