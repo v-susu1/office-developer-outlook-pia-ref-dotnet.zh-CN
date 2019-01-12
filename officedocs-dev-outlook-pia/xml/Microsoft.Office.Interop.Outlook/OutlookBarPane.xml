@@ -1,13 +1,5 @@
 <Type Name="OutlookBarPane" FullName="Microsoft.Office.Interop.Outlook.OutlookBarPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="85f62f67e553600affa8508cd5fdf286ab088149" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632977" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarPane : Microsoft.Office.Interop.Outlook._OutlookBarPane, Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9aef323aa4ba1c6696f656e3a8cdd1a82d833f4f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902059" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarPane : Microsoft.Office.Interop.Outlook._OutlookBarPane, Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarPane implements class Microsoft.Office.Interop.Outlook._OutlookBarPane, class Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarPane&#xA;Implements _OutlookBarPane, OutlookBarPaneEvents_Event" />
@@ -34,11 +26,9 @@
   </Attributes>
   <Docs>
     <summary>代表浏览器窗口中的“快捷方式”窗格。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OutlookBarPane" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_Event" />。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索<b>OutlookBarPane</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.Panes" />对象。因为<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Name" />属性为<b>OutlookBarPane</b>对象的默认属性，您可以通过名称识别<b>OutlookBarPane</b>对象。例如：</para>
-      <para />
-    </remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OutlookBarPane" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_Event" />。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索<b>OutlookBarPane</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.Panes" />对象。 因为<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Name" />属性为<b>OutlookBarPane</b>对象的默认属性，您可以通过名称识别<b>OutlookBarPane</b>对象。 例如：</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="_Categories" FullName="Microsoft.Office.Interop.Outlook._Categories">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ea42ac39cad667a54dbf4c84adf7f13ad84a7dd4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631613" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Categories : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ea42ac39cad667a54dbf4c84adf7f13ad84a7dd4" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902129" /></Metadata><TypeSignature Language="C#" Value="public interface _Categories : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Categories implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Categories" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Categories&#xA;Implements IEnumerable" />
@@ -89,7 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,7 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,7 +137,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示数目的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Category" />指定集合中的对象。 只读。</summary>
+        <summary>返回指示数目的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Category" />指定集合中的对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -176,14 +168,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <b>整数</b>(C# 中<b>int</b> ) 值，表示对象的索引号或<b>字符串</b>（C# 中的<b>字符串</b>） 值，代表之一<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" />或<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" />集合中对象的属性值。</param>
+        <param name="Index"><b>整数</b>(C# 中<b>int</b> ) 值，表示对象的索引号或<b>字符串</b>（C# 中的<b>字符串</b>） 值，代表之一<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" />或<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" />集合中对象的属性值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象的集合。</summary>
         <value>表示指定的对象的 <b>类别</b> 对象。</value>
-        <remarks>
-          <para>如果在指定类别的名称，则<paramref name="Index" />，此方法返回与指定的值匹配的第一个<b>Category</b>对象。如果找不到匹配项，该方法返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）</para>
-          <para />
-        </remarks>
+        <remarks><para>如果在指定类别的名称，则<paramref name="Index" />，此方法返回与指定的值匹配的第一个<b>Category</b>对象。 如果找不到匹配项，该方法返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -237,13 +226,10 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <b>整数</b>(C# 中<b>int</b> ) 值，表示对象的索引号或<b>字符串</b>（C# 中的<b>字符串</b>） 值，代表之一<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" />或<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" />集合中对象的属性值。</param>
+        <param name="Index"><b>整数</b>(C# 中<b>int</b> ) 值，表示对象的索引号或<b>字符串</b>（C# 中的<b>字符串</b>） 值，代表之一<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" />或<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" />集合中对象的属性值。</param>
         <summary>从集合中删除对象。</summary>
-        <remarks>
-          <para>如果在指定类别的名称，则<paramref name="Index" />，此方法删除与指定的值匹配的第一个<b>Category</b>对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果在指定类别的名称，则<paramref name="Index" />，此方法删除与指定的值匹配的第一个<b>Category</b>对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -269,19 +255,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="UserDefinedProperty" FullName="Microsoft.Office.Interop.Outlook.UserDefinedProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="51f6419b1b5a27d2045cd76c0a7e19684d452700" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632451" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface UserDefinedProperty : Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5cdf7da7c0c30ee31eb459cf06113f6e312a7913" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902066" /></Metadata><TypeSignature Language="C#" Value="public interface UserDefinedProperty : Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserDefinedProperty implements class Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface UserDefinedProperty&#xA;Implements _UserDefinedProperty" />
@@ -31,11 +23,12 @@
   </Attributes>
   <Docs>
     <summary>表示的用户定义属性的定义<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._UserDefinedProperty" />。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个的<b>UserDefinedProperty</b>对象。 </para>
-      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /><b>Folder</b>对象定义的文件夹的用户定义属性的集合。</para>使用
-      <para><see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" />属性返回的用户定义属性类型和<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />属性返回的用户定义属性的显示格式。如果<b>Type</b>属性设置为<b>olCombination</b>或<b>olFormula</b>，使用<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Formula" />属性可返回用于生成用户定义属性的值的公式。</para><para><b>UserDefinedProperty</b>对象表示仅适用于所有 Outlook 项目所包含的文件夹的用户定义属性的定义。若要检索或更改该文件夹中的 Outlook 项目的用户定义的属性值，请使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />属性的 Outlook 项目，例如<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象，以检索<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />为该项的集合。然后，您可以使用<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象的适当的用户定义属性，可以检索或更改 Outlook 项目的用户定义属性的值。</para><para /></remarks>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._UserDefinedProperty" />。 </para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个的<b>UserDefinedProperty</b>对象。  </para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> <b>Folder</b>对象定义的文件夹的用户定义属性的集合。</para>
+      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" />属性返回的用户定义属性类型和<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />属性返回的用户定义属性的显示格式。 如果<b>Type</b>属性设置为<b>olCombination</b>或<b>olFormula</b>，使用<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Formula" />属性可返回用于生成用户定义属性的值的公式。</para>
+      <para><b>UserDefinedProperty</b> 对象表示只适用于所有 Outlook 项目所包含的文件夹的用户定义属性的定义。 若要检索或更改该文件夹中的 Outlook 项目的用户定义的属性值，请使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />属性的 Outlook 项目，例如<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象，以检索<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />为该项的集合。 然后，您可以使用<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象的适当的用户定义属性，可以检索或更改 Outlook 项目的用户定义属性的值。</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>
