@@ -1,13 +1,5 @@
 <Type Name="_NavigationPane" FullName="Microsoft.Office.Interop.Outlook._NavigationPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632735" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896763" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationPane" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="2bf79-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2bf79-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="2bf79-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2bf79-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="2bf79-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2bf79-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="2bf79-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2bf79-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="0f238-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="0f238-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="0f238-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="0f238-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="0f238-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="0f238-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="0f238-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />。</span><span class="sxs-lookup"><span data-stu-id="0f238-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf79-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="2bf79-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0f238-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="0f238-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="0f238-106">只读。</span><span class="sxs-lookup"><span data-stu-id="0f238-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,29 +73,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf79-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="2bf79-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0f238-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="0f238-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="0f238-108">只读。</span><span class="sxs-lookup"><span data-stu-id="0f238-108">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2bf79-109">
-            <para>此属性返回的<b>olNavigationPane</b><see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-109">
-              <para>This property returns <b>olNavigationPane</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="0f238-109">此属性返回的<b>olNavigationPane</b> <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象。</span><span class="sxs-lookup"><span data-stu-id="0f238-109">This property returns <b>olNavigationPane</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentModule">
@@ -158,16 +105,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationModule</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf79-110">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象，它代表在导航窗格中的当前选定的导航模块。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-110">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object that represents the currently selected navigation module in the Navigation Pane.</span>
-          </span>
-          <span data-ttu-id="2bf79-111">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-111">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0f238-110">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象，它代表在导航窗格中的当前选定的导航模块。</span><span class="sxs-lookup"><span data-stu-id="0f238-110">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object that represents the currently selected navigation module in the Navigation Pane.</span></span> <span data-ttu-id="0f238-111">读/写。</span><span class="sxs-lookup"><span data-stu-id="0f238-111">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -198,33 +136,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf79-112">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示数<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />在导航窗格中显示的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-112">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the number of <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> objects displayed in the Navigation Pane.</span>
-          </span>
-          <span data-ttu-id="2bf79-113">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-113">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0f238-112">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示数<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />在导航窗格中显示的对象。</span><span class="sxs-lookup"><span data-stu-id="0f238-112">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the number of <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> objects displayed in the Navigation Pane.</span></span> <span data-ttu-id="0f238-113">读/写。</span><span class="sxs-lookup"><span data-stu-id="0f238-113">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2bf79-114">
-            <para>此属性仅可设置为 0 到的值之间的值<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" />属性<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /><b>NavigationPane</b>对象的集合。如果此属性设置为一个值大于允许的最大值，该属性值是自动设置为允许的最大值。如果此属性设置为小于 0，则将出错。</para>
-            <para>如果<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象设置为<b>False</b>，则此属性值表示为其图标和名称显示在导航窗格中的导航模块的数量。如果<b>IsCollapsed</b>设置为<b>True</b>，则<b>DisplayedModuleCount</b>属性值表示对于该图标显示在导航窗格中的导航模块的数量。</para>
-            <para>设置此属性的值调整大小以根据需要显示更多或更少的<b>NavigationModule</b>对象在导航窗格的模块部分。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-114">
-              <para>This property can only be set to a value between 0 and the value of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> property for the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> collection of the <b>NavigationPane</b> object. If this property is set to a value greater than the maximum allowable value, the property value is automatically set to the maximum allowable value. An error occurs if this property is set to less than 0.</para>
-              <para> If the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object is set to <b>False</b>, then this property value represents the number of navigation modules for which both icon and name are displayed in the Navigation Pane. If <b>IsCollapsed</b> is set to <b>True</b>, then the <b>DisplayedModuleCount</b> property value represents the number of navigation modules for which an icon is displayed in the Navigation Pane.</para>
-              <para>Setting the value of this property resizes the Modules section of the Navigation Pane to display more or fewer <b>NavigationModule</b> objects as needed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="0f238-114">此属性仅可设置为 0 到的值之间的值<see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" />属性<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> <b>NavigationPane</b>对象的集合。</span><span class="sxs-lookup"><span data-stu-id="0f238-114">This property can only be set to a value between 0 and the value of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> property for the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> collection of the <b>NavigationPane</b> object.</span></span> <span data-ttu-id="0f238-115">如果此属性设置为一个值大于最大允许值，属性值会自动设置为最大允许值。</span><span class="sxs-lookup"><span data-stu-id="0f238-115">If this property is set to a value greater than the maximum allowable value, the property value is automatically set to the maximum allowable value.</span></span> <span data-ttu-id="0f238-116">如果将此属性设置为小于 0 就会出错。</span><span class="sxs-lookup"><span data-stu-id="0f238-116">An error occurs if this property is set to less than 0.</span></span></para>
+          <para> <span data-ttu-id="0f238-117">如果<see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象设置为<b>False</b>，则此属性值表示为其图标和名称显示在导航窗格中的导航模块的数量。</span><span class="sxs-lookup"><span data-stu-id="0f238-117">If the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object is set to <b>False</b>, then this property value represents the number of navigation modules for which both icon and name are displayed in the Navigation Pane.</span></span> <span data-ttu-id="0f238-118">如果 <b>IsCollapsed</b> 设置为 <b>True</b> ，则 <b>DisplayedModuleCount</b> 属性值表示为其图标显示在导航窗格中的导航模块的数量。</span><span class="sxs-lookup"><span data-stu-id="0f238-118">If <b>IsCollapsed</b> is set to <b>True</b>, then the <b>DisplayedModuleCount</b> property value represents the number of navigation modules for which an icon is displayed in the Navigation Pane.</span></span></para>
+          <para><span data-ttu-id="0f238-119">设置此属性的值调整导航窗格，以根据需要显示更多或更少的 <b>NavigationModule</b> 对象的模块部分。</span><span class="sxs-lookup"><span data-stu-id="0f238-119">Setting the value of this property resizes the Modules section of the Navigation Pane to display more or fewer <b>NavigationModule</b> objects as needed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsCollapsed">
@@ -253,16 +170,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf79-115">返回或设置确定是否折叠导航窗格中一个<b>布尔</b>值 (C# 中<b>bool</b> )。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-115">Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that determines whether the Navigation Pane is collapsed.</span>
-          </span>
-          <span data-ttu-id="2bf79-116">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-116">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0f238-120">返回或设置确定是否折叠导航窗格中一个<b>布尔</b>值 (C# 中<b>bool</b> )。</span><span class="sxs-lookup"><span data-stu-id="0f238-120">Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that determines whether the Navigation Pane is collapsed.</span></span> <span data-ttu-id="0f238-121">读/写。</span><span class="sxs-lookup"><span data-stu-id="0f238-121">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -290,16 +198,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationModules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf79-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />对象，表示包含在导航窗格中的导航模块的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-117">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> object that represents the set of navigation modules contained by the Navigation Pane.</span>
-          </span>
-          <span data-ttu-id="2bf79-118">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0f238-122">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" />对象，表示包含在导航窗格中的导航模块的集合。</span><span class="sxs-lookup"><span data-stu-id="0f238-122">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> object that represents the set of navigation modules contained by the Navigation Pane.</span></span> <span data-ttu-id="0f238-123">只读。</span><span class="sxs-lookup"><span data-stu-id="0f238-123">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -327,12 +226,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf79-p108">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-p108">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0f238-p110">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="0f238-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -360,42 +254,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf79-121">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-121">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="2bf79-122">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0f238-126">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="0f238-126">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="0f238-127">只读。</span><span class="sxs-lookup"><span data-stu-id="0f238-127">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2bf79-123">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="0f238-128"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="0f238-128">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="0f238-129">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="0f238-129">Both members serve the same purpose.</span></span> <span data-ttu-id="0f238-130">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="0f238-130">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf79-123">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

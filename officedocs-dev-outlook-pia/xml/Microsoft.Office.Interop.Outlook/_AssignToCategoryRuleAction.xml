@@ -1,13 +1,5 @@
 <Type Name="_AssignToCategoryRuleAction" FullName="Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5c792cfd8ebc5a986254fa2d2ce409c68091bc98" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631698" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AssignToCategoryRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5c792cfd8ebc5a986254fa2d2ce409c68091bc98" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902717" /></Metadata><TypeSignature Language="C#" Value="public interface _AssignToCategoryRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AssignToCategoryRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AssignToCategoryRuleAction" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="52e4e-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="52e4e-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="52e4e-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="52e4e-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="52e4e-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="52e4e-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="52e4e-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="52e4e-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="067ec-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="067ec-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="067ec-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="067ec-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="067ec-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="067ec-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="067ec-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />。</span><span class="sxs-lookup"><span data-stu-id="067ec-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,29 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleActionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52e4e-105">从返回常量， <b>olRuleActionAssignToCategory</b>，<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" />指示的规则采取的操作的类型的枚举。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-105">Returns a constant, <b>olRuleActionAssignToCategory</b>, from the <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> enumeration that indicates the type of action that is taken by the rule.</span>
-          </span>
-          <span data-ttu-id="52e4e-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="067ec-105">从返回常量， <b>olRuleActionAssignToCategory</b>，<see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" />指示的规则采取的操作的类型的枚举。</span><span class="sxs-lookup"><span data-stu-id="067ec-105">Returns a constant, <b>olRuleActionAssignToCategory</b>, from the <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> enumeration that indicates the type of action that is taken by the rule.</span></span> <span data-ttu-id="067ec-106">只读。</span><span class="sxs-lookup"><span data-stu-id="067ec-106">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="52e4e-107">
-            <para>类别指定规则操作被受支持接收邮件和规则以及邮件发送的规则。有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-107">
-              <para> The category assigning rule action is supported by rules for receiving  messages and rules for sending messages. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para> <span data-ttu-id="067ec-107">类别指定规则操作被受支持接收邮件和规则以及邮件发送的规则。</span><span class="sxs-lookup"><span data-stu-id="067ec-107">The category assigning rule action is supported by rules for receiving  messages and rules for sending messages.</span></span> <span data-ttu-id="067ec-108">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87797">指定规则操作</a></span><span class="sxs-lookup"><span data-stu-id="067ec-108">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -118,16 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52e4e-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="52e4e-109">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="067ec-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="067ec-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="067ec-110">只读。</span><span class="sxs-lookup"><span data-stu-id="067ec-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,27 +105,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52e4e-p104">返回或设置一个字符串数组，该字符串数组代表分配给邮件的类别。可读写。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-p104">Returns or sets an array of strings representing the categories assigned to the message. Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="067ec-p105">返回或设置一个字符串数组，该字符串数组代表分配给邮件的类别。可读写。</span><span class="sxs-lookup"><span data-stu-id="067ec-p105">Returns or sets an array of strings representing the categories assigned to the message. Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="52e4e-112">
-            <para>您可以分配带有单个类别的一个元素的数组或多个类别的字符串数组。此属性使用在值名称 sList，位于 Windows 注册表中的 HKEY_CURRENT_USER\Control Panel\International 下指定为多个类别值的分隔符的字符。</para>
-            <para>Outlook 不会检查来确定<b>Categories</b>属性是否包含主类别列表中的类别名称。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-112">
-              <para>You can assign an array with one element for a single category or an array of strings for multiple categories. This property uses the character specified in the value name, sList, under HKEY_CURRENT_USER\Control Panel\International in the Windows registry, as the delimiter for multiple category values. </para>
-              <para>Outlook does not check to determine if the <b>Categories</b> property contains category names that are in the master category list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="067ec-113">还可以为一个类别的一个元素的数组或为多个类别的字符串数组。</span><span class="sxs-lookup"><span data-stu-id="067ec-113">You can assign an array with one element for a single category or an array of strings for multiple categories.</span></span> <span data-ttu-id="067ec-114">此属性使用在值名称 sList，位于 Windows 注册表中的 HKEY_CURRENT_USER\Control Panel\International 下指定为多个类别值的分隔符的字符。</span><span class="sxs-lookup"><span data-stu-id="067ec-114">This property uses the character specified in the value name, sList, under HKEY_CURRENT_USER\Control Panel\International in the Windows registry, as the delimiter for multiple category values.</span></span> </para>
+          <para><span data-ttu-id="067ec-115">Outlook 不会检查以确定该 <b>类别</b> 属性是否包含主类别列表中的类别名称。</span><span class="sxs-lookup"><span data-stu-id="067ec-115">Outlook does not check to determine if the <b>Categories</b> property contains category names that are in the master category list.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -204,16 +135,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52e4e-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="52e4e-114">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="067ec-116">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="067ec-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="067ec-117">只读。</span><span class="sxs-lookup"><span data-stu-id="067ec-117">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -244,29 +166,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52e4e-115">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的确定是否启用的规则操作。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-115">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the rule action is enabled.</span>
-          </span>
-          <span data-ttu-id="52e4e-116">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-116">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="067ec-118">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的确定是否启用的规则操作。</span><span class="sxs-lookup"><span data-stu-id="067ec-118">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the rule action is enabled.</span></span> <span data-ttu-id="067ec-119">读/写。</span><span class="sxs-lookup"><span data-stu-id="067ec-119">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="52e4e-117">
-            <para>启用规则后，还必须使用保存规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />，以便规则及其启用的状态当前会话。 成功保存之后，才会启用规则。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-117">
-              <para>After you enable a rule, you must also save the rule by using <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> so that the rule  and its enabled state will persist beyond the current session.  A rule is only enabled after it has been saved successfully. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="067ec-120">启用规则后，还必须使用保存规则<see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />，以便规则及其启用的状态当前会话。</span><span class="sxs-lookup"><span data-stu-id="067ec-120">After you enable a rule, you must also save the rule by using <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> so that the rule  and its enabled state will persist beyond the current session.</span></span>  <span data-ttu-id="067ec-121">规则只有在成功保存之后才能启用。</span><span class="sxs-lookup"><span data-stu-id="067ec-121">A rule is only enabled after it has been saved successfully.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -292,25 +195,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52e4e-p107">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="067ec-p110">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="067ec-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="52e4e-120">
-            <para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-120">
-              <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="067ec-124">父对象的<see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />对象。</span><span class="sxs-lookup"><span data-stu-id="067ec-124">The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -336,42 +224,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52e4e-121">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-121">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="52e4e-122">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="067ec-125">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="067ec-125">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="067ec-126">只读。</span><span class="sxs-lookup"><span data-stu-id="067ec-126">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="52e4e-123">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="067ec-127"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="067ec-127">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="067ec-128">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="067ec-128">Both members serve the same purpose.</span></span> <span data-ttu-id="067ec-129">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="067ec-129">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52e4e-123">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

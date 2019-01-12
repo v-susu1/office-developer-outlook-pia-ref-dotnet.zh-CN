@@ -1,13 +1,5 @@
 <Type Name="_AutoFormatRules" FullName="Microsoft.Office.Interop.Outlook._AutoFormatRules">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1be8110224ae16d515b615e6243bdf220718e789" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632244" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AutoFormatRules : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1be8110224ae16d515b615e6243bdf220718e789" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902325" /></Metadata><TypeSignature Language="C#" Value="public interface _AutoFormatRules : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AutoFormatRules implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AutoFormatRules" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AutoFormatRules&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="7e420-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7e420-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="7e420-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7e420-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="7e420-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7e420-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="7e420-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7e420-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="7e506-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="7e506-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="7e506-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="7e506-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="7e506-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="7e506-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="7e506-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />。</span><span class="sxs-lookup"><span data-stu-id="7e506-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,38 +49,11 @@
         <Parameter Name="Name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="7e420-105">新格式设置规则的名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-105">The name of the new formatting rule.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="7e420-106">创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象，并将其追加<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-106">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object and appends it to the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="7e420-107">
-            <b>AutoFormatRule</b> 对象，该对象表示新的格式设置规则。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-107">An <b>AutoFormatRule</b> object that represents the new formatting rule.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="7e420-108">
-            <para>
-              <b>AutoFormatRules</b>集合中允许重复的<b>AutoFormatRule</b>对象的名称。25 自定义格式规则的最多可以添加到集合。内置的格式规则不会对该限制计算在内。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-108">
-              <para>Duplicate names for <b>AutoFormatRule</b> objects are allowed in the <b>AutoFormatRules</b> collection. A maximum of 25 custom formatting rules can be added to the collection. Built-in formatting rules are not counted against that limit.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Name"><span data-ttu-id="7e506-105">新格式设置规则的名称。</span><span class="sxs-lookup"><span data-stu-id="7e506-105">The name of the new formatting rule.</span></span></param>
+        <summary><span data-ttu-id="7e506-106">创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象，并将其追加<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</span><span class="sxs-lookup"><span data-stu-id="7e506-106">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object and appends it to the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="7e506-107"><b>AutoFormatRule</b> 对象，该对象表示新的格式设置规则。</span><span class="sxs-lookup"><span data-stu-id="7e506-107">An <b>AutoFormatRule</b> object that represents the new formatting rule.</span></span></returns>
+        <remarks><para><span data-ttu-id="7e506-p102"><b>AutoFormatRules</b> 集合中允许重复的名称为 <b>AutoFormatRule</b> 的对象。25 日的自定义格式设置规则的最多可以添加到集合中。内置的格式设置规则不是计入该限制。</span><span class="sxs-lookup"><span data-stu-id="7e506-p102">Duplicate names for <b>AutoFormatRule</b> objects are allowed in the <b>AutoFormatRules</b> collection. A maximum of 25 custom formatting rules can be added to the collection. Built-in formatting rules are not counted against that limit.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -131,16 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e420-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="7e420-110">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7e506-111">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="7e506-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="7e506-112">只读。</span><span class="sxs-lookup"><span data-stu-id="7e506-112">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,16 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e420-111">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="7e420-112">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7e506-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="7e506-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="7e506-114">只读。</span><span class="sxs-lookup"><span data-stu-id="7e506-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -205,16 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e420-113">返回指示数目的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />指定集合中的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-113">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="7e420-114">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7e506-115">返回指示数目的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />指定集合中的对象。</span><span class="sxs-lookup"><span data-stu-id="7e506-115">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objects in the specified collection.</span></span> <span data-ttu-id="7e506-116">只读。</span><span class="sxs-lookup"><span data-stu-id="7e506-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -243,44 +164,13 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="7e420-115">新对象的名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-115">The name of the new object.</span>
-          </span>
-        </param>
-        <param name="Index">
-          <span data-ttu-id="7e420-116">用于插入新的对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" />集合中要在其中插入新的对象是对象的属性值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-116">Either the index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection at where the new object is to be inserted.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="7e420-117">创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象，并将其插入中指定索引处<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-117">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="7e420-118">
-            <b>AutoFormatRule</b> 对象，该对象表示新的格式设置规则。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-118">An <b>AutoFormatRule</b> object that represents the new formatting rule.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="7e420-119">
-            <para>无法使用此方法插入自定义格式设置规则之间或之前内置的格式规则。</para>
-            <b>AutoFormatRules</b>集合中允许
-          <para>重复的<b>AutoFormatRule</b>对象的名称。25 自定义格式规则的最多可以添加到集合。内置的格式规则不会对该限制计算在内。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-119">
-              <para>This method cannot be used to insert custom formatting rules between or ahead of built-in formatting rules.</para>
-              <para>Duplicate names for <b>AutoFormatRule</b> objects are allowed in the <b>AutoFormatRules</b> collection. A maximum of 25 custom formatting rules can be added to the collection. Built-in formatting rules are not counted against that limit.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Name"><span data-ttu-id="7e506-117">新对象的名称。</span><span class="sxs-lookup"><span data-stu-id="7e506-117">The name of the new object.</span></span></param>
+        <param name="Index"><span data-ttu-id="7e506-118">用于插入新的对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" />集合中要在其中插入新的对象是对象的属性值。</span><span class="sxs-lookup"><span data-stu-id="7e506-118">Either the index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection at where the new object is to be inserted.</span></span></param>
+        <summary><span data-ttu-id="7e506-119">创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象，并将其插入中指定索引处<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</span><span class="sxs-lookup"><span data-stu-id="7e506-119">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="7e506-120"><b>AutoFormatRule</b> 对象，该对象表示新的格式设置规则。</span><span class="sxs-lookup"><span data-stu-id="7e506-120">An <b>AutoFormatRule</b> object that represents the new formatting rule.</span></span></returns>
+        <remarks><para><span data-ttu-id="7e506-121">此方法不能用来在内置的格式设置规则之间或之前插入自定义格式设置规则。</span><span class="sxs-lookup"><span data-stu-id="7e506-121">This method cannot be used to insert custom formatting rules between or ahead of built-in formatting rules.</span></span></para>
+          <para><span data-ttu-id="7e506-p106"><b>AutoFormatRules</b> 集合中允许重复的名称为 <b>AutoFormatRule</b> 的对象。25 日的自定义格式设置规则的最多可以添加到集合中。内置的格式设置规则不是计入该限制。</span><span class="sxs-lookup"><span data-stu-id="7e506-p106">Duplicate names for <b>AutoFormatRule</b> objects are allowed in the <b>AutoFormatRules</b> collection. A maximum of 25 custom formatting rules can be added to the collection. Built-in formatting rules are not counted against that limit.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -309,25 +199,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="7e420-120">该对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" />集合中对象的属性值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-120">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="7e420-121">返回<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-121">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="7e420-122">
-            <b>AutoFormatRule</b> 对象，该对象代表指定的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-122">An <b>AutoFormatRule</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="7e506-125">该对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" />集合中对象的属性值。</span><span class="sxs-lookup"><span data-stu-id="7e506-125">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="7e506-126">返回<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象的集合。</span><span class="sxs-lookup"><span data-stu-id="7e506-126">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="7e506-127"><b>AutoFormatRule</b> 对象，该对象代表指定的对象。</span><span class="sxs-lookup"><span data-stu-id="7e506-127">An <b>AutoFormatRule</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -354,12 +228,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e420-p105">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7e506-p107">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="7e506-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -387,32 +256,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="7e420-125">该对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" />集合中对象的属性值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-125">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="7e420-126">从集合中删除对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-126">Removes an object from the collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="7e420-127">
-            <para>中指定要删除的格式规则的名称时<paramref name="Index" />，此方法删除第一个<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象的指定的名称相匹配。</para>
-            <para>内置的格式规则不能从集合中删除。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-127">
-              <para>If the name of a formatting rule to be removed is specified in <paramref name="Index" />, this method removes the first <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object that matches the specified name.</para>
-              <para>Built-in formatting rules cannot be removed from the collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="7e506-130">该对象或用来匹配的值的索引号<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" />集合中对象的属性值。</span><span class="sxs-lookup"><span data-stu-id="7e506-130">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="7e506-131">从集合中删除对象。</span><span class="sxs-lookup"><span data-stu-id="7e506-131">Removes an object from the collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="7e506-132">如果要删除的格式规则的名称中指定<paramref name="Index" />，此方法删除第一个<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象的指定的名称相匹配。</span><span class="sxs-lookup"><span data-stu-id="7e506-132">If the name of a formatting rule to be removed is specified in <paramref name="Index" />, this method removes the first <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object that matches the specified name.</span></span></para>
+          <para><span data-ttu-id="7e506-133">不能从集合中删除内置的格式规则。</span><span class="sxs-lookup"><span data-stu-id="7e506-133">Built-in formatting rules cannot be removed from the collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveAll">
@@ -436,24 +284,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="7e420-128">删除所有自定义格式规则从<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-128">Removes all custom formatting rules from the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="7e420-129">
-            <para>此方法删除每个<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" />属性值设置为<b>False</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-129">
-              <para>This method removes every <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" /> property value set to <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="7e506-134">删除所有自定义格式规则从<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</span><span class="sxs-lookup"><span data-stu-id="7e506-134">Removes all custom formatting rules from the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="7e506-135">此方法删除每个<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" />属性值设置为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="7e506-135">This method removes every <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" /> property value set to <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -477,24 +310,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="7e420-130">保存所有更改到<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象中<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-130">Save all changes to <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objects within the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="7e420-131">
-            <para>仅当调用此方法保留到<b>AutoFormatRules</b>集合，如添加或删除<b>AutoFormatRule</b>对象，或在集合中<b>AutoFormatRule</b>对象进行的任何更改。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-131">
-              <para>Any changes made to the <b>AutoFormatRules</b> collection, such as adding or removing <b>AutoFormatRule</b> objects, or to an <b>AutoFormatRule</b> object within the collection, are persisted only if this method is called.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="7e506-136">保存所有更改到<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" />对象中<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />集合。</span><span class="sxs-lookup"><span data-stu-id="7e506-136">Save all changes to <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objects within the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="7e506-137">如果调用此方法将保持到 <b>AutoFormatRules</b> 集合，例如添加或删除 <b>AutoFormatRule</b> 对象，或在集合中， <b>AutoFormatRule</b> 对象所做的任何更改。</span><span class="sxs-lookup"><span data-stu-id="7e506-137">Any changes made to the <b>AutoFormatRules</b> collection, such as adding or removing <b>AutoFormatRule</b> objects, or to an <b>AutoFormatRule</b> object within the collection, are persisted only if this method is called.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -520,42 +338,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e420-132">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-132">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="7e420-133">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-133">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7e506-138">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="7e506-138">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="7e506-139">只读。</span><span class="sxs-lookup"><span data-stu-id="7e506-139">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7e420-134">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="7e506-140"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="7e506-140">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="7e506-141">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="7e506-141">Both members serve the same purpose.</span></span> <span data-ttu-id="7e506-142">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="7e506-142">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e420-134">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

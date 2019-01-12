@@ -1,13 +1,5 @@
 <Type Name="Conflicts" FullName="Microsoft.Office.Interop.Outlook.Conflicts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="938557de02fd694a12c2c3aebdc3d07309c7eb00" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631706" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f7c1329c4afbeba3b9424c35b382506745d72eac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906875" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conflicts implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conflicts" />
   <TypeSignature Language="VB.NET" Value="Public Interface Conflicts&#xA;Implements IEnumerable" />
@@ -30,26 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="a97d3-101">包含一<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />代表特定的 Outlook 项目相冲突的所有 Microsoft Outlook 项目的对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a97d3-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objects that represent all Microsoft Outlook items that are in conflict with a particular Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="a97d3-102">
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" />属性的任何 Outlook 项目，例如<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />，以返回<b>Conflicts</b>对象。</para>使用
-      <para><see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />属性可确定项目是否存在冲突的 invloved <b>Conflicts</b>对象。非零值指示冲突。</para><para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" />属性 (<b>此</b>C# 中) 以从<b>Conflicts</b>集合对象中检索特定的冲突项目。</para><para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />方法遍历<b>Conflicts</b>集合。</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a97d3-102">
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> property of any Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, to return the <b>Conflicts</b> object.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> property of the <b>Conflicts</b> object to determine if the item is invloved in a conflict. A non-zero value indicates conflict.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> property (<b>this</b> in C#)to retrieve a particular conflict item from the <b>Conflicts</b> collection object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> methods to traverse the <b>Conflicts</b> collection.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="ccf73-101">包含一<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />代表特定的 Outlook 项目相冲突的所有 Microsoft Outlook 项目的对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objects that represent all Microsoft Outlook items that are in conflict with a particular Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="ccf73-102">使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" />属性的任何 Outlook 项目，例如<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />，以返回<b>Conflicts</b>对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-102">Use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> property of any Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, to return the <b>Conflicts</b> object.</span></span></para>
+      <para><span data-ttu-id="ccf73-103">使用<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />属性可确定项目是否存在冲突的 invloved <b>Conflicts</b>对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-103">Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> property of the <b>Conflicts</b> object to determine if the item is invloved in a conflict.</span></span> <span data-ttu-id="ccf73-104">一个非零值指示冲突。</span><span class="sxs-lookup"><span data-stu-id="ccf73-104">A non-zero value indicates conflict.</span></span></para>
+      <para><span data-ttu-id="ccf73-105">使用<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" />属性 (<b>此</b>C# 中) 以从<b>Conflicts</b>集合对象中检索特定的冲突项目。</span><span class="sxs-lookup"><span data-stu-id="ccf73-105">Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> property (<b>this</b> in C#)to retrieve a particular conflict item from the <b>Conflicts</b> collection object.</span></span></para>
+      <para><span data-ttu-id="ccf73-106">使用<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />方法遍历<b>Conflicts</b>集合。</span><span class="sxs-lookup"><span data-stu-id="ccf73-106">Use the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> methods to traverse the <b>Conflicts</b> collection.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -75,16 +53,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a97d3-103">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="a97d3-104">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ccf73-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="ccf73-108">只读。</span><span class="sxs-lookup"><span data-stu-id="ccf73-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,16 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a97d3-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="a97d3-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ccf73-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="ccf73-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="ccf73-110">只读。</span><span class="sxs-lookup"><span data-stu-id="ccf73-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,16 +109,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a97d3-107">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-107">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="a97d3-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ccf73-111">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="ccf73-111">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="ccf73-112">只读。</span><span class="sxs-lookup"><span data-stu-id="ccf73-112">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,30 +135,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="a97d3-109">返回中的第一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-109">Returns the first object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="a97d3-110">A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，表示包含在集合中的第一个对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-110">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the first object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="a97d3-111">
-            <para>返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-111">
-              <para>Returns <b>Nothing</b> if no first object exists, for example, if there are no objects in the collection.To ensure correct operation of the <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="ccf73-113">返回中的第一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</span><span class="sxs-lookup"><span data-stu-id="ccf73-113">Returns the first object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="ccf73-114">A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，表示包含在集合中的第一个对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-114">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the first object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="ccf73-115">返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.</span><span class="sxs-lookup"><span data-stu-id="ccf73-115">Returns <b>Nothing</b> if no first object exists, for example, if there are no objects in the collection.To ensure correct operation of the <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="ccf73-116">要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</span><span class="sxs-lookup"><span data-stu-id="ccf73-116">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -231,30 +162,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="a97d3-112">返回中的最后一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-112">Returns the last object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="a97d3-113">A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，表示包含在集合中的最后一个对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-113">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the last object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="a97d3-114">
-            <para>返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-114">
-              <para> It returns <b>Nothing</b> if no last object exists, for example, if the collection is empty.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="ccf73-117">返回中的最后一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</span><span class="sxs-lookup"><span data-stu-id="ccf73-117">Returns the last object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="ccf73-118">A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，表示包含在集合中的最后一个对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-118">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the last object contained by the collection.</span></span></returns>
+        <remarks><para> <span data-ttu-id="ccf73-119">返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.</span><span class="sxs-lookup"><span data-stu-id="ccf73-119">It returns <b>Nothing</b> if no last object exists, for example, if the collection is empty.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="ccf73-120">要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</span><span class="sxs-lookup"><span data-stu-id="ccf73-120">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -278,30 +189,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="a97d3-115">返回中的下一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-115">Returns the next object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="a97d3-116">A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，代表集合包含的下一个对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-116">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the next object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="a97d3-117">
-            <para>返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-117">
-              <para>It returns <b>Nothing</b> if no next object exists, for example, if already positioned at the end of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <b>GetNext</b>, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="ccf73-121">返回中的下一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</span><span class="sxs-lookup"><span data-stu-id="ccf73-121">Returns the next object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="ccf73-122">A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，代表集合包含的下一个对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-122">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the next object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="ccf73-123">返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.</span><span class="sxs-lookup"><span data-stu-id="ccf73-123">It returns <b>Nothing</b> if no next object exists, for example, if already positioned at the end of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <b>GetNext</b>, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="ccf73-124">要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</span><span class="sxs-lookup"><span data-stu-id="ccf73-124">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -325,30 +216,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="a97d3-118">返回中的上一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-118">Returns the previous object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="a97d3-119">A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，代表集合包含的上一个对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-119">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the previous object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="a97d3-120">
-            <para>返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。若要确保您始终在同一集合下发起呼叫，创建显式变量引用进入循环前的集合。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-120">
-              <para>It returns <b>Nothing</b> if no previous object exists, for example, if already positioned at the beginning of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <b>GetPrevious</b> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="ccf73-125">返回中的上一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</span><span class="sxs-lookup"><span data-stu-id="ccf73-125">Returns the previous object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="ccf73-126">A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，代表集合包含的上一个对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-126">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the previous object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="ccf73-127">返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。</span><span class="sxs-lookup"><span data-stu-id="ccf73-127">It returns <b>Nothing</b> if no previous object exists, for example, if already positioned at the beginning of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <b>GetPrevious</b> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="ccf73-128">要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</span><span class="sxs-lookup"><span data-stu-id="ccf73-128">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -377,25 +248,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="a97d3-121">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-121">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a97d3-122">返回<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-122">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a97d3-123">
-            <b>冲突</b> 对象，该对象代表指定的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-123">A <b>Conflict</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="ccf73-129">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span><span class="sxs-lookup"><span data-stu-id="ccf73-129">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="ccf73-130">返回<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象的集合。</span><span class="sxs-lookup"><span data-stu-id="ccf73-130">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="ccf73-131"><b>冲突</b> 对象，该对象代表指定的对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-131">A <b>Conflict</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -422,12 +277,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a97d3-p104">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ccf73-p109">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="ccf73-p109">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -455,42 +305,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a97d3-126">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-126">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="a97d3-127">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-127">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ccf73-134">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="ccf73-134">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="ccf73-135">只读。</span><span class="sxs-lookup"><span data-stu-id="ccf73-135">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="a97d3-128">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="ccf73-136"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="ccf73-136">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="ccf73-137">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="ccf73-137">Both members serve the same purpose.</span></span> <span data-ttu-id="ccf73-138">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="ccf73-138">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a97d3-128">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

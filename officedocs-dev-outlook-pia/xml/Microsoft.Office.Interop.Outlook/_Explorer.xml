@@ -1,13 +1,5 @@
 <Type Name="_Explorer" FullName="Microsoft.Office.Interop.Outlook._Explorer">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631606" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Explorer" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906189" /></Metadata><TypeSignature Language="C#" Value="public interface _Explorer" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Explorer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Explorer" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Explorer" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="09b2f-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="09b2f-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="09b2f-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="09b2f-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="09b2f-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="09b2f-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="09b2f-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="09b2f-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f11b7-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="f11b7-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="f11b7-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="f11b7-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="f11b7-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="f11b7-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span><span class="sxs-lookup"><span data-stu-id="f11b7-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AccountSelector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" />对象，表示的 Microsoft Office Backstage 视图<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> object that represents the Microsoft Office Backstage view for the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />object.</span>
-          </span>
-          <span data-ttu-id="09b2f-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" />对象，表示的 Microsoft Office Backstage 视图<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> object that represents the Microsoft Office Backstage view for the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />object.</span></span> <span data-ttu-id="f11b7-106">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,12 +71,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-107">通过将浏览器窗口提到前面并设置键盘焦点来激活该窗口。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-107">Activates an explorer window by bringing it to the foreground and setting keyboard focus.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-107">通过将浏览器窗口提到前面并设置键盘焦点来激活该窗口。</span><span class="sxs-lookup"><span data-stu-id="f11b7-107">Activates an explorer window by bringing it to the foreground and setting keyboard focus.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,107 +98,58 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-108">返回一个代表活动的内嵌响应项目阅读窗格在浏览器中的项目对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-108">Returns an item object representing the active inline response item in the explorer reading pane.</span>
-          </span>
-          <span data-ttu-id="09b2f-109">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-108">返回一个代表活动的内嵌响应项目阅读窗格在浏览器中的项目对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-108">Returns an item object representing the active inline response item in the explorer reading pane.</span></span> <span data-ttu-id="f11b7-109">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-109">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="09b2f-110">
-            <para>您可以使用的大多数属性和方法的<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />按此项的对象。不能使用以下方法：</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />属性</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />方法</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" />方法</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" />方法</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" />方法</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />方法</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" />方法</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" />方法</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />方法</para>
-              </item>
-            </list>
-            <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有内嵌响应的阅读窗格中可见。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-110">
-              <para>You can use most of the properties and methods of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object on this item. You cannot use the following methods:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> property</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> method</para>
-                </item>
-              </list>
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f11b7-110">您可以使用的大多数属性和方法的<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />按此项的对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-110">You can use most of the properties and methods of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object on this item.</span></span> <span data-ttu-id="f11b7-111">不能使用以下方法：</span><span class="sxs-lookup"><span data-stu-id="f11b7-111">You cannot use the following methods:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="f11b7-112">
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />属性</span><span class="sxs-lookup"><span data-stu-id="f11b7-112">
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> property</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-113">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />方法</span><span class="sxs-lookup"><span data-stu-id="f11b7-113">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-114">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" />方法</span><span class="sxs-lookup"><span data-stu-id="f11b7-114">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-115">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" />方法</span><span class="sxs-lookup"><span data-stu-id="f11b7-115">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-116">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" />方法</span><span class="sxs-lookup"><span data-stu-id="f11b7-116">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-117">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />方法</span><span class="sxs-lookup"><span data-stu-id="f11b7-117">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-118">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" />方法</span><span class="sxs-lookup"><span data-stu-id="f11b7-118">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-119">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" />方法</span><span class="sxs-lookup"><span data-stu-id="f11b7-119">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-120">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />方法</span><span class="sxs-lookup"><span data-stu-id="f11b7-120">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> method</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="f11b7-121">如果没有内嵌响应是可见的阅读窗格中，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="f11b7-121">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveInlineResponseWordEditor">
@@ -263,103 +175,47 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-111">返回 Word<see cref="T:Microsoft.Office.Interop.Word.Document" />对象的阅读窗格在浏览器中显示的活动内嵌响应。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-111">Returns the Word <see cref="T:Microsoft.Office.Interop.Word.Document" /> object of the active inline response that is displayed in the explorer Reading Pane.</span>
-          </span>
-          <span data-ttu-id="09b2f-112">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-122">返回 Word<see cref="T:Microsoft.Office.Interop.Word.Document" />对象的阅读窗格在浏览器中显示的活动内嵌响应。</span><span class="sxs-lookup"><span data-stu-id="f11b7-122">Returns the Word <see cref="T:Microsoft.Office.Interop.Word.Document" /> object of the active inline response that is displayed in the explorer Reading Pane.</span></span> <span data-ttu-id="f11b7-123">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-123">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="09b2f-113">
-            <para>如果没有内嵌响应是可见的阅读窗格中，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。返回的 Word<b>文档</b>对象提供了访问大部分 Word 对象模型，除以下成员：</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-113">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane. The returned Word <b>Document</b> object provides access to most of the Word object model except for the following members:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f11b7-124">如果没有内嵌响应是可见的阅读窗格中，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="f11b7-124">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</span></span> <span data-ttu-id="f11b7-125">返回的 Word<b>文档</b>对象提供了访问大部分 Word 对象模型，除以下成员：</span><span class="sxs-lookup"><span data-stu-id="f11b7-125">The returned Word <b>Document</b> object provides access to most of the Word object model except for the following members:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
+              </para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddToSelection">
@@ -385,110 +241,60 @@
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="09b2f-114">添加到活动资源管理器中选定内容的项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-114">The item to add to the selection in the active explorer.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="09b2f-115">将指定的Microsoft Outlook项添加到活动资源管理器中的选定内容。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-115">Adds the specified Microsoft Outlook item to the selection in the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="09b2f-116">
-            <para>活动资源管理器中的选定内容由<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象返回的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性。</para>
-            <para>要选定的项必须是在活动资源管理器当前视图中。使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />方法以确定是否可在视图中选择项目。项目没有为视图中可见。</para>
-            <para>以下情况下，Outlook 将返回错误时调用<b>AddToSelection</b>方法：</para>
-            <list type="bullet">
-              <item>
-                <para>指定的项目在活动资源管理器的当前视图不是。</para>
-              </item>
-              <item>
-                <para>活动浏览器的当前视图中处于编辑的指定的项。</para>
-              </item>
-              <item>
-                <para>被筛选出当前视图和筛选器的应用程序从视图中移除项目。</para>
-              </item>
-              <item>
-                <para>尚未保存的指定的项。</para>
-              </item>
-              <item>
-                <para>指定的项目表示<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</para>
-              </item>
-              <item>
-                <para>没有当前视图存在活动资源管理器。</para>
-              </item>
-            </list>
-            <para>如果项目未选中并且可选的当前视图中，调用<b>AddToSelection</b>原因<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />触发事件。</para>
-            <para>调用<b>AddToSelection</b>不会滚动视图来使选定的项目视图中可见和不展开或折叠视图中的组。</para>
-            <para>下表说明了调用<b>AddToSelection</b>考虑任何当前所选内容的结果 (<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性) 以及阅读窗格是否显示。</para>
-            <description>是</description>
-            <description>项目
-          <list type="table"><item><description>0</description>被添加到选定内容。<b>SelectionChange</b>触发。阅读窗格显示项目。 
-            </item></list><item><description>0</description><description>无</description><description>项目添加到选定内容。<b>SelectionChange</b>激发。</description></item><item><description> &gt;= 1</description><description></description><description>项目添加到选定内容。<b>SelectionChange</b>触发。阅读窗格不会更改其显示的项目除非视图是日历视图，在这种情况下，调用<b>AddToSelection</b>可能会导致阅读窗格显示其他项目。</description></item><item><description> &gt;= 1</description><description>无</description><description>项目添加到选定内容。<b>SelectionChange</b>激发。</description></item><para>如果指定的项已选中活动资源管理器中，调用<b>AddToSelection</b>不会引起任何更改对所选内容，并不会触发<b>SelectionChange</b>事件。</para>当您定期约会或任务中指定项目，如<b>AddToSelection</b>方法参数，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用
-          <para><see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />属性和<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。如果您不展开定期事件并获取出现系列中的，传递实例变量值，该值代表约会或任务的系列，并<b>AddToSelection</b>方法而不是出现系列上运行。</para><para>请注意，您可以使用<b>AddToSelection</b>将项目添加到选定内容，但不能将对话标头添加到选定内容。</para></description>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-116">
-              <para>The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</para>
-              <para>To be selected, the item must be selectable in the current view of the active explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view. The item does not have to be visible in the view. </para>
-              <para>Under the following conditions, Outlook returns an error when you call the <b>AddToSelection</b> method:</para>
-              <list type="bullet">
-                <item>
-                  <para>The specified item is not in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The specified item is being edited in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The current view has been filtered and the application of the filter removed the item from the view.</para>
-                </item>
-                <item>
-                  <para>The specified item has not been saved.</para>
-                </item>
-                <item>
-                  <para>The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
-                </item>
-                <item>
-                  <para>No current view exists for the active explorer.</para>
-                </item>
-              </list>
-              <para>If the item is not selected and is selectable in the current view, calling <b>AddToSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</para>
-              <para>Calling <b>AddToSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</para>
-              <para>The following table illustrates the results of calling <b>AddToSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property) and whether the Reading Pane is displayed.</para>
-              <list type="table">
-                <item>
-                  <description>0</description>
-                  <description>Yes</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane displays the item.</description>
-                </item>
-                <item>
-                  <description>0</description>
-                  <description>No</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.</description>
-                </item>
-                <item>
-                  <description>&gt;=1</description>
-                  <description>Yes</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane does not change the item it displays unless the view is a Calendar view, in which case, calling <b>AddToSelection</b> can cause the Reading Pane to display a different item.</description>
-                </item>
-                <item>
-                  <description>&gt;=1</description>
-                  <description>No</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.</description>
-                </item>
-              </list>
-              <para>If the specified item is already selected in the active explorer, calling <b>AddToSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</para>
-              <para>When you specify an item in a recurring appointment or task as an argument to the <b>AddToSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you pass an instance variable that represents the appointment or task series, and the <b>AddToSelection</b> method operates on the series instead of the occurrence. </para>
-              <para>Note that you can use <b>AddToSelection</b> to add items to a selection, but you cannot add conversation headers to a selection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="f11b7-126">添加到活动资源管理器中选定内容的项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-126">The item to add to the selection in the active explorer.</span></span></param>
+        <summary><span data-ttu-id="f11b7-127">将指定的Microsoft Outlook项添加到活动资源管理器中的选定内容。</span><span class="sxs-lookup"><span data-stu-id="f11b7-127">Adds the specified Microsoft Outlook item to the selection in the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="f11b7-128">活动资源管理器中的选定内容由<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象返回的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性。</span><span class="sxs-lookup"><span data-stu-id="f11b7-128">The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</span></span></para>
+          <para><span data-ttu-id="f11b7-129">若要选择项目，该项目在活动资源管理器的当前视图中必须是可选择的。</span><span class="sxs-lookup"><span data-stu-id="f11b7-129">To be selected, the item must be selectable in the current view of the active explorer.</span></span> <span data-ttu-id="f11b7-130">使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />方法以确定是否可在视图中选择项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-130">Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view.</span></span> <span data-ttu-id="f11b7-131">该项目不必在视图中可见。</span><span class="sxs-lookup"><span data-stu-id="f11b7-131">The item does not have to be visible in the view.</span></span> </para>
+          <para><span data-ttu-id="f11b7-132">在以下情况下 Outlook 调用 <b>AddToSelection</b> 方法时返回一个错误:</span><span class="sxs-lookup"><span data-stu-id="f11b7-132">Under the following conditions, Outlook returns an error when you call the <b>AddToSelection</b> method:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="f11b7-133">指定的项目不在活动资源管理器的当前视图中。</span><span class="sxs-lookup"><span data-stu-id="f11b7-133">The specified item is not in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-134">指定的项目在活动资源管理器的当前视图中处于编辑状态。</span><span class="sxs-lookup"><span data-stu-id="f11b7-134">The specified item is being edited in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-135">当前视图已经过筛选，并且应用筛选后，该项目已从视图中移除。</span><span class="sxs-lookup"><span data-stu-id="f11b7-135">The current view has been filtered and the application of the filter removed the item from the view.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-136">指定的项目未保存。</span><span class="sxs-lookup"><span data-stu-id="f11b7-136">The specified item has not been saved.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-137">指定的项目表示<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</span><span class="sxs-lookup"><span data-stu-id="f11b7-137">The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-138">活动资源管理器没有当前视图存在。</span><span class="sxs-lookup"><span data-stu-id="f11b7-138">No current view exists for the active explorer.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="f11b7-139">如果项目未选中并且可选的当前视图中，调用<b>AddToSelection</b>原因<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />触发事件。</span><span class="sxs-lookup"><span data-stu-id="f11b7-139">If the item is not selected and is selectable in the current view, calling <b>AddToSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</span></span></para>
+          <para><span data-ttu-id="f11b7-140">调用 <b>AddToSelection</b> 并不滚动视图以使选定的项在视图中可见，并不展开或折叠视图中的组。</span><span class="sxs-lookup"><span data-stu-id="f11b7-140">Calling <b>AddToSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</span></span></para>
+          <para><span data-ttu-id="f11b7-141">下表说明了调用<b>AddToSelection</b>考虑任何当前所选内容的结果 (<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性) 以及阅读窗格是否显示。</span><span class="sxs-lookup"><span data-stu-id="f11b7-141">The following table illustrates the results of calling <b>AddToSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property) and whether the Reading Pane is displayed.</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="f11b7-142">0</span><span class="sxs-lookup"><span data-stu-id="f11b7-142">0</span></span></description>
+              <description><span data-ttu-id="f11b7-143">是</span><span class="sxs-lookup"><span data-stu-id="f11b7-143">Yes</span></span></description>
+              <description><span data-ttu-id="f11b7-144">项目添加到选定内容。<b>SelectionChange</b>触发。阅读窗格显示项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-144">The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane displays the item.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f11b7-145">0</span><span class="sxs-lookup"><span data-stu-id="f11b7-145">0</span></span></description>
+              <description><span data-ttu-id="f11b7-146">否</span><span class="sxs-lookup"><span data-stu-id="f11b7-146">No</span></span></description>
+              <description><span data-ttu-id="f11b7-147">项目添加到选定内容。<b>SelectionChange</b>触发。</span><span class="sxs-lookup"><span data-stu-id="f11b7-147">The item is added to the selection.<b>SelectionChange</b> fires.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f11b7-148">&gt;= 1</span><span class="sxs-lookup"><span data-stu-id="f11b7-148">&gt;=1</span></span></description>
+              <description><span data-ttu-id="f11b7-149">是</span><span class="sxs-lookup"><span data-stu-id="f11b7-149">Yes</span></span></description>
+              <description><span data-ttu-id="f11b7-150">项目添加到选定内容。<b>SelectionChange</b>触发。阅读窗格不会更改其显示的项目除非视图是日历视图中，在这种情况下，调用<b>AddToSelection</b>可能会导致阅读窗格显示其他项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-150">The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane does not change the item it displays unless the view is a Calendar view, in which case, calling <b>AddToSelection</b> can cause the Reading Pane to display a different item.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f11b7-151">&gt;= 1</span><span class="sxs-lookup"><span data-stu-id="f11b7-151">&gt;=1</span></span></description>
+              <description><span data-ttu-id="f11b7-152">否</span><span class="sxs-lookup"><span data-stu-id="f11b7-152">No</span></span></description>
+              <description><span data-ttu-id="f11b7-153">项目添加到选定内容。<b>SelectionChange</b>触发。</span><span class="sxs-lookup"><span data-stu-id="f11b7-153">The item is added to the selection.<b>SelectionChange</b> fires.</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="f11b7-154">如果指定的项已选择在活动资源管理器中，调用 <b>AddToSelection</b> 不会导致任何更改为所选内容， <b>SelectionChange</b> 事件不会触发。</span><span class="sxs-lookup"><span data-stu-id="f11b7-154">If the specified item is already selected in the active explorer, calling <b>AddToSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</span></span></para>
+          <para><span data-ttu-id="f11b7-155">当在定期约会或任务指定项目作为<b>AddToSelection</b>方法的参数时，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />属性和<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。</span><span class="sxs-lookup"><span data-stu-id="f11b7-155">When you specify an item in a recurring appointment or task as an argument to the <b>AddToSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="f11b7-156">如果不展开定期事件，并且获得该系列中的事情，通过实例变量表示的约会或任务系列和 <b>AddToSelection</b> 方法进行操作，而不是出现一系列上。</span><span class="sxs-lookup"><span data-stu-id="f11b7-156">If you do not expand the recurrences and obtain an occurrence in the series, you pass an instance variable that represents the appointment or task series, and the <b>AddToSelection</b> method operates on the series instead of the occurrence.</span></span> </para>
+          <para><span data-ttu-id="f11b7-157">请注意，可以使用 <b>AddToSelection</b> 来将项目添加到所选内容，但无法将对话标头添加到所选内容。</span><span class="sxs-lookup"><span data-stu-id="f11b7-157">Note that you can use <b>AddToSelection</b> to add items to a selection, but you cannot add conversation headers to a selection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -514,16 +320,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="09b2f-118">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-158">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-158">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="f11b7-159">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-159">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -551,16 +348,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AttachmentSelection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-119">返回<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />对象包含的浏览器的当前视图中选择一个或多个附件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-119">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object consisting of one or more attachments that are selected in the current view of the explorer.</span>
-          </span>
-          <span data-ttu-id="09b2f-120">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-160">返回<see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />对象包含的浏览器的当前视图中选择一个或多个附件。</span><span class="sxs-lookup"><span data-stu-id="f11b7-160">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object consisting of one or more attachments that are selected in the current view of the explorer.</span></span> <span data-ttu-id="f11b7-161">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-161">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -588,16 +376,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-121">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示标题。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-121">Returns a <b>String</b> (<b>string</b> in C#) representing the title.</span>
-          </span>
-          <span data-ttu-id="09b2f-122">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-162">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示标题。</span><span class="sxs-lookup"><span data-stu-id="f11b7-162">Returns a <b>String</b> (<b>string</b> in C#) representing the title.</span></span> <span data-ttu-id="f11b7-163">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-163">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -625,16 +404,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-123">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="09b2f-124">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-124">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-164">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="f11b7-164">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="f11b7-165">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-165">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -660,26 +430,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-125">清除来自 Microsoft 即时搜索结果<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />如果结果显示在<b>资源管理器</b>中。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-125">Clears results from a Microsoft Instant Search in an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> if results are displayed in the <b>Explorer</b>.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="09b2f-126">
-            <para>此方法的功能是类似于即时搜索中清除按钮。  </para>
-            <para>，如果不含搜索结果显示在浏览器， <b>ClearSearch</b>中将不执行任何操作。如果当前视图的<b>资源管理器</b>没有显示搜索视图， <b>ClearSearch</b>将不会引发错误。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-126">
-              <para>The functionality of this  method is analogous  to the Clear button in Instant Search.   </para>
-              <para>If no search results are displayed in the Explorer, <b>ClearSearch</b> will not take any action. If the current view of the <b>Explorer</b> does not present a search view, <b>ClearSearch</b> will not raise an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f11b7-166">清除来自 Microsoft 即时搜索结果<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />如果结果显示在<b>资源管理器</b>中。</span><span class="sxs-lookup"><span data-stu-id="f11b7-166">Clears results from a Microsoft Instant Search in an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> if results are displayed in the <b>Explorer</b>.</span></span></summary>
+        <remarks><para><span data-ttu-id="f11b7-167">此方法的功能类似于即时搜索中清除按钮。</span><span class="sxs-lookup"><span data-stu-id="f11b7-167">The functionality of this  method is analogous  to the Clear button in Instant Search.</span></span>   </para>
+          <para><span data-ttu-id="f11b7-p115">如果浏览器中不显示任何搜索结果， <b>ClearSearch</b> 将不会执行任何操作。如果 <b>资源管理器中</b> 的当前视图没有显示搜索视图， <b>ClearSearch</b> 将不会引发错误。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p115">If no search results are displayed in the Explorer, <b>ClearSearch</b> will not take any action. If the current view of the <b>Explorer</b> does not present a search view, <b>ClearSearch</b> will not raise an error.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearSelection">
@@ -703,32 +457,14 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-127">取消活动资源管理器中的任何选择。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-127">Cancels any selection in the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="09b2f-128">
-            <para>调用<b>ClearSelection</b>方法后，<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性返回零。那么，<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />除非之前的<b>ClearSelection</b>呼叫，当前视图不包含任何项目、 当前文件夹为空，或者<b>Count</b>属性已为零，会触发事件。</para>
-            <para>如果当前视图是表视图是可见的阅读窗格中，调用<b>ClearSelection</b>呈现阅读窗格为空。</para>
-            <para>如果当前视图或当前文件夹不包含任何项目，调用<b>ClearSelection</b>不会引起任何更改对所选内容并不会触发<b>SelectionChange</b>事件。</para>
-            <para>如果当前视图中处于编辑项目， 
-            <b>ClearSelection</b>将返回错误。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-128">
-              <para>After the <b>ClearSelection</b> method is called, the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property returns is zero. Then, the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires unless prior to calling of <b>ClearSelection</b>, the current view did not contain any items, the current folder was empty, or the <b>Count</b> property was already zero. </para>
-              <para>If the Reading Pane is visible and the current view is a table view, calling <b>ClearSelection</b> renders the Reading Pane blank.</para>
-              <para>If the current view or current folder does not contain any items, calling <b>ClearSelection</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </para>
-              <para>
-                <b>ClearSelection</b> returns an error if the item is being edited in the current view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f11b7-170">取消活动资源管理器中的任何选择。</span><span class="sxs-lookup"><span data-stu-id="f11b7-170">Cancels any selection in the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="f11b7-171">调用<b>ClearSelection</b>方法后，<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性返回零。</span><span class="sxs-lookup"><span data-stu-id="f11b7-171">After the <b>ClearSelection</b> method is called, the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property returns is zero.</span></span> <span data-ttu-id="f11b7-172">那么，<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />除非之前的<b>ClearSelection</b>呼叫，当前视图不包含任何项目、 当前文件夹为空，或者<b>Count</b>属性已为零，会触发事件。</span><span class="sxs-lookup"><span data-stu-id="f11b7-172">Then, the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires unless prior to calling of <b>ClearSelection</b>, the current view did not contain any items, the current folder was empty, or the <b>Count</b> property was already zero.</span></span> </para>
+          <para><span data-ttu-id="f11b7-173">如果当前视图是表格视图阅读窗格处于可见状态，调用 <b>ClearSelection</b> 呈现阅读窗格保留为空。</span><span class="sxs-lookup"><span data-stu-id="f11b7-173">If the Reading Pane is visible and the current view is a table view, calling <b>ClearSelection</b> renders the Reading Pane blank.</span></span></para>
+          <para><span data-ttu-id="f11b7-p117">如果当前文件夹的当前视图中不包含任何项，调用 <b>ClearSelection</b> 不会导致任何更改为所选内容并不会触发 <b>SelectionChange</b> 事件。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p117">If the current view or current folder does not contain any items, calling <b>ClearSelection</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </span></span></para>
+          <para><span data-ttu-id="f11b7-175">如果正在编辑当前视图中的项，则 
+            <b>ClearSelection</b> 将返回错误。</span><span class="sxs-lookup"><span data-stu-id="f11b7-175">
+            <b>ClearSelection</b> returns an error if the item is being edited in the current view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -752,12 +488,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-129">关闭<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-129">Closes the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-176">关闭<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-176">Closes the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -787,12 +518,7 @@
         <ReturnType>Microsoft.Office.Core.CommandBars</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-130">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-130">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-177">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="f11b7-177">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -823,29 +549,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-131">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示在浏览器中显示的当前文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-131">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the current folder displayed in the explorer.</span>
-          </span>
-          <span data-ttu-id="09b2f-132">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-132">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-178">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示在浏览器中显示的当前文件夹。</span><span class="sxs-lookup"><span data-stu-id="f11b7-178">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the current folder displayed in the explorer.</span></span> <span data-ttu-id="f11b7-179">读/写。</span><span class="sxs-lookup"><span data-stu-id="f11b7-179">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="09b2f-133">
-            <para>使用此属性可更改用户正在查看的文件夹。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-133">
-              <para>Use this property to change the folder the user is viewing.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f11b7-180">使用此属性可更改用户正在查看的文件夹。</span><span class="sxs-lookup"><span data-stu-id="f11b7-180">Use this property to change the folder the user is viewing.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentView">
@@ -874,23 +581,12 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-134">返回或设置一个代表当前视图的<b>对象</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-134">Returns or sets an <b>Object</b> representing the current view.</span>
-          </span>
-          <span data-ttu-id="09b2f-135">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-135">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-181">返回或设置一个代表当前视图的<b>对象</b>。</span><span class="sxs-lookup"><span data-stu-id="f11b7-181">Returns or sets an <b>Object</b> representing the current view.</span></span> <span data-ttu-id="f11b7-182">读/写。</span><span class="sxs-lookup"><span data-stu-id="f11b7-182">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="09b2f-136">
-            <para>若要获取<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象的当前视图<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />，使用<b>Explorer.CurrentView</b> ，而不是使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />返回对象<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />。</para>
-            <para>必须先保存由<b>CurrentView</b>返回，然后您才能继续用于任何目的<b>View</b>对象的引用。</para>
-            <para>正确重置当前视图中，您必须执行<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />，然后<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。下面的代码示例说明了的呼叫顺序：</para>
-            <code>Sub ResetView()
+        <remarks><para><span data-ttu-id="f11b7-183">若要获取<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象的当前视图<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />，使用<b>Explorer.CurrentView</b> ，而不是使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />返回对象<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />。</span><span class="sxs-lookup"><span data-stu-id="f11b7-183">To obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the view of the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer.CurrentView</b> instead of the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object returned by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />.</span></span> </para>
+          <para><span data-ttu-id="f11b7-184">您必须保存返回 <b>CurrentView</b> 之前继续将其用于任何目的的 <b>视图</b> 对象的引用。</span><span class="sxs-lookup"><span data-stu-id="f11b7-184">You must save a reference to the <b>View</b> object returned by <b>CurrentView</b> before you proceed to use it for any purpose.</span></span></para>
+          <para><span data-ttu-id="f11b7-185">要正确重置当前视图，您必须执行<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />，然后<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。</span><span class="sxs-lookup"><span data-stu-id="f11b7-185">To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />.</span></span> <span data-ttu-id="f11b7-186">下面的代码示例说明了调用顺序：</span><span class="sxs-lookup"><span data-stu-id="f11b7-186">The code sample below illustrates the order of the calls:</span></span></para>
+          <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
     Set v = Application.ActiveExplorer().CurrentView
@@ -898,7 +594,7 @@
     v.Reset
     v.Apply
 End Sub</code>
-            <code>private void ResetView()
+          <code>private void ResetView()
 {
     // Save a reference to the current view object    
     Outlook.View v = Application.ActiveExplorer().CurrentView 
@@ -908,37 +604,8 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-            <para>设置此属性时，两个事件发生：<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />发生之前发生，可以使用取消更改这些实际大小视图更改和<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />发生更改将生效之后。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-136">
-              <para>To obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the view of the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer.CurrentView</b> instead of the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object returned by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
-              <para>You must save a reference to the <b>View</b> object returned by <b>CurrentView</b> before you proceed to use it for any purpose.</para>
-              <para>To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. The code sample below illustrates the order of the calls:</para>
-              <code>Sub ResetView()
-    Dim v as Outlook.View
-    ' Save a reference to the current view object
-    Set v = Application.ActiveExplorer().CurrentView
-    ' Reset and then apply the current view
-    v.Reset
-    v.Apply
-End Sub</code>
-              <code>private void ResetView()
-{
-    // Save a reference to the current view object    
-    Outlook.View v = Application.ActiveExplorer().CurrentView 
-        as Outlook.View; 
-    
-    // Reset and then apply the current view
-    v.Reset();
-    v.Apply();
-}</code>
-              <para>When this property is set, two events occur: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />  occurs before the actual view change takes place and can be used to cancel the change and <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />  takes place after the change is effective.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para><span data-ttu-id="f11b7-187">当设置此属性时，会发生两个事件：<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />发生之前发生，可以使用取消更改这些实际大小视图更改和<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />发生之后更改将生效。</span><span class="sxs-lookup"><span data-stu-id="f11b7-187">When this property is set, two events occur: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />  occurs before the actual view change takes place and can be used to cancel the change and <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />  takes place after the change is effective.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeselectFolder">
@@ -968,12 +635,7 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Folder">To be added.</param>
-        <summary>
-          <span data-ttu-id="09b2f-137">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-137">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-188">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="f11b7-188">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -998,25 +660,10 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-138">显示一个新<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象的文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-138">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object for the folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="09b2f-139">
-            <para>
-              <b>Display</b>方法支持为了向后兼容的浏览器和检查器窗口。若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</para>如果您尝试使用 Microsoft Outlook 对象模型中打开"不安全的"文件系统对象 （或"freedoc"文件） 
-          <para>，E_FAIL 返回代码中收到 C 或 c + + 编程语言。在 Outlook 2000 和更早版本，您无法使用<b>Display</b>方法打开"不安全的"文件系统对象。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-139">
-              <para>The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</para>
-              <para>If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f11b7-189">显示一个新<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象的文件夹。</span><span class="sxs-lookup"><span data-stu-id="f11b7-189">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object for the folder.</span></span></summary>
+        <remarks><para><span data-ttu-id="f11b7-190">为了向后兼容的浏览器和检查器窗口支持 <b>显示</b> 方法。</span><span class="sxs-lookup"><span data-stu-id="f11b7-190">The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility.</span></span> <span data-ttu-id="f11b7-191">若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</span><span class="sxs-lookup"><span data-stu-id="f11b7-191">To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</span></span></para>
+          <para><span data-ttu-id="f11b7-p123">如果您尝试打开"不安全"文件系统对象 (或"freedoc"文件)，请使用Microsoft Outlook对象模型，您将收到 E_FAIL 返回代码在 C 或 c + + 编程语言中。在 Outlook 2000 和早期版本，您可以通过 <b>显示</b> 方法打开"不安全"文件系统对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p123">If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -1045,16 +692,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-140">返回或设置一个指定浏览器窗口的高度 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-140">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the explorer window.</span>
-          </span>
-          <span data-ttu-id="09b2f-141">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-141">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-194">返回或设置一个指定浏览器窗口的高度 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="f11b7-194">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the explorer window.</span></span> <span data-ttu-id="f11b7-195">读/写。</span><span class="sxs-lookup"><span data-stu-id="f11b7-195">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1082,25 +720,10 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-p112">返回一个 <b>HTMLDocument</b> 对象，指定与当前视图 (假定存在) 中的 HTML 文档相关联的 HTML 对象模型。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-p112">Returns an <b>HTMLDocument</b> object that specifies the HTML object model associated with the HTML document in the current view (assuming one exists). Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-p125">返回一个 <b>HTMLDocument</b> 对象，指定与当前视图 (假定存在) 中的 HTML 文档相关联的 HTML 对象模型。只读的。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p125">Returns an <b>HTMLDocument</b> object that specifies the HTML object model associated with the HTML document in the current view (assuming one exists). Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="09b2f-144">
-            <para>若要使用此属性，，文件夹必须使用文件夹主页，也可以设置<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />到网页的对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-144">
-              <para>In order to use this property, a folder must be using a folder home page, or you can set the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object to a Web page.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f11b7-198">若要使用此属性，，文件夹必须使用文件夹主页，也可以设置<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />到网页的对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-198">In order to use this property, a folder must be using a folder home page, or you can set the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object to a Web page.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsFolderSelected">
@@ -1130,12 +753,7 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Folder">To be added.</param>
-        <summary>
-          <span data-ttu-id="09b2f-145">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-145">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-199">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="f11b7-199">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1163,40 +781,15 @@ End Sub</code>
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="09b2f-146">考虑要选择的项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-146">The item that is being considered for selection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="09b2f-147">返回一个值，该值指示指定的 Microsoft Outlook项目 在活动资源管理器的当前视图中是否可选择。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-147">Returns a value that indicates whether the specified Microsoft Outlook item can be selected in the current view of the active explorer.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="09b2f-148">返回<see cref="T:System.Boolean" />(<b>bool</b>的 C#) 值，该值指示是否可在当前视图中选择的指定的项。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-148">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the specified item can be selected in the current view.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="09b2f-149">
-            <para>返回<b>True</b>如果可以在当前视图; 中选定项否则返回<b>False</b>。</para>
-            <para>方法返回<b>True</b>或<b>False</b> ，具体取决于是否在视图中的项目。它不指示项目是否在视图中可见。如果该项目包含在折叠视图中的组中，该方法返回<b>False</b>。</para>
-            <para>如果单元格内编辑活动浏览器的当前视图打开并且单元格内编辑正在进行的项，该方法返回<b>False</b>。如果当前视图是表视图，您可以检查的单元格内编辑使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。同样，如果当前视图是卡片视图，则可以使用<see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />属性<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />对象。</para>当您定期约会或任务中指定项目，如参数， <b>IsItemSelectableInView</b>方法，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /><para>如果当前视图是对话视图， <b>IsItemSelectableInView</b>方法将引发错误。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-149">
-              <para>Returns <b>True</b> if the item can be selected in the current view; otherwise returns <b>False</b>. </para>
-              <para>The method returns <b>True</b> or <b>False</b> depending on whether the item is selectable in the view. It does not indicate whether the item is visible in the view. If the item is contained within a collapsed group in the view, the method returns <b>False</b>. </para>
-              <para>If in-cell editing is turned on for the current view for the active explorer and in-cell editing is in progress on the item, the method returns <b>False</b>. If the current view is a table view, you can check for in-cell editing by using the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object. Similarly, if the current view is a card view, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />property of the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</para>
-              <para>When you specify an item in a recurring appointment or task as argument to the <b>IsItemSelectableInView</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>IsItemSelectableInView</b> method would be operating on the series instead of the occurrence. </para>
-              <para>The <b>IsItemSelectableInView</b> method raises an error if the current view is a conversation view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="f11b7-200">考虑要选择的项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-200">The item that is being considered for selection.</span></span></param>
+        <summary><span data-ttu-id="f11b7-201">返回一个值，该值指示指定的 Microsoft Outlook项目 在活动资源管理器的当前视图中是否可选择。</span><span class="sxs-lookup"><span data-stu-id="f11b7-201">Returns a value that indicates whether the specified Microsoft Outlook item can be selected in the current view of the active explorer.</span></span></summary>
+        <returns><span data-ttu-id="f11b7-202">返回<see cref="T:System.Boolean" />(<b>bool</b>的 C#) 值，该值指示是否可在当前视图中选择的指定的项。</span><span class="sxs-lookup"><span data-stu-id="f11b7-202">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the specified item can be selected in the current view.</span></span></returns>
+        <remarks><para><span data-ttu-id="f11b7-p126">当返回 <b>True</b> 可以在当前视图中; 选定项否则返回 <b>False</b> 。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p126">Returns <b>True</b> if the item can be selected in the current view; otherwise returns <b>False</b>. </span></span></para>
+          <para><span data-ttu-id="f11b7-p127">该方法返回 <b>True</b> 或 <b>False</b> 根据是否可在视图中选择该项目。它不表示的项是否在视图中可见。如果此项包含在视图中折叠的组，则该方法返回 <b>False</b> 。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p127">The method returns <b>True</b> or <b>False</b> depending on whether the item is selectable in the view. It does not indicate whether the item is visible in the view. If the item is contained within a collapsed group in the view, the method returns <b>False</b>. </span></span></para>
+          <para><span data-ttu-id="f11b7-207">如果在单元格内编辑为当前活动的资源管理器视图打开并且在单元格内编辑正在进行的项目，该方法返回 <b>False</b> 。</span><span class="sxs-lookup"><span data-stu-id="f11b7-207">If in-cell editing is turned on for the current view for the active explorer and in-cell editing is in progress on the item, the method returns <b>False</b>.</span></span> <span data-ttu-id="f11b7-208">如果当前视图是表视图，您可以检查的单元格内编辑使用<see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />属性<see cref="T:Microsoft.Office.Interop.Outlook.TableView" />对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-208">If the current view is a table view, you can check for in-cell editing by using the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="f11b7-209">同样，如果当前视图是卡片视图，则可以使用<see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />属性<see cref="T:Microsoft.Office.Interop.Outlook.CardView" />对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-209">Similarly, if the current view is a card view, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />property of the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span></para>
+          <para><span data-ttu-id="f11b7-210">当您指定项目在定期约会或任务为参数， <b>IsItemSelectableInView</b>方法时，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />属性和<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。</span><span class="sxs-lookup"><span data-stu-id="f11b7-210">When you specify an item in a recurring appointment or task as argument to the <b>IsItemSelectableInView</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="f11b7-211">如果不展开定期事件，并且获得系列中出现，您可以传递实例变量表示的约会或任务系列，和 <b>IsItemSelectableInView</b> 方法将运行而不是出现一系列上。</span><span class="sxs-lookup"><span data-stu-id="f11b7-211">If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>IsItemSelectableInView</b> method would be operating on the series instead of the occurrence.</span></span> </para>
+          <para><span data-ttu-id="f11b7-212">如果当前视图是会话视图， <b>IsItemSelectableInView</b> 方法将引发错误。</span><span class="sxs-lookup"><span data-stu-id="f11b7-212">The <b>IsItemSelectableInView</b> method raises an error if the current view is a conversation view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsPaneVisible">
@@ -1222,38 +815,11 @@ End Sub</code>
         <Parameter Name="Pane" Type="Microsoft.Office.Interop.Outlook.OlPane" />
       </Parameters>
       <Docs>
-        <param name="Pane">
-          <span data-ttu-id="09b2f-150">要检查的窗格。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-150">The pane to check.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="09b2f-151">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示的特定资源管理器窗格是否可见。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-151">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating  whether a specific explorer pane is visible.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="09b2f-152">
-            <b>如此</b> 如果在指定窗格中显示在资源管理器;否则为 <b>假</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-152">
-              <b>True</b> if the specified pane is displayed in the explorer; otherwise, <b>False</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="09b2f-153">
-            <para>您还可以使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />属性<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />对象确定快捷方式窗格是否可见。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-153">
-              <para>You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to determine whether the Shortcuts pane is visible.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Pane"><span data-ttu-id="f11b7-213">要检查的窗格。</span><span class="sxs-lookup"><span data-stu-id="f11b7-213">The pane to check.</span></span></param>
+        <summary><span data-ttu-id="f11b7-214">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示的特定资源管理器窗格是否可见。</span><span class="sxs-lookup"><span data-stu-id="f11b7-214">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating  whether a specific explorer pane is visible.</span></span></summary>
+        <returns><span data-ttu-id="f11b7-215"><b>如此</b> 如果在指定窗格中显示在资源管理器;否则为 <b>假</b> 。</span><span class="sxs-lookup"><span data-stu-id="f11b7-215"><b>True</b> if the specified pane is displayed in the explorer; otherwise, <b>False</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="f11b7-216">您还可以使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />属性<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />对象确定快捷方式窗格是否可见。</span><span class="sxs-lookup"><span data-stu-id="f11b7-216">You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to determine whether the Shortcuts pane is visible.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Left">
@@ -1282,16 +848,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-154">返回或设置一个指定左边缘垂直从屏幕边缘浏览器窗口的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-154">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of an explorer window from the edge of the screen.</span>
-          </span>
-          <span data-ttu-id="09b2f-155">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-155">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-217">返回或设置一个指定左边缘垂直从屏幕边缘浏览器窗口的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="f11b7-217">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of an explorer window from the edge of the screen.</span></span> <span data-ttu-id="f11b7-218">读/写。</span><span class="sxs-lookup"><span data-stu-id="f11b7-218">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1319,29 +876,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationPane</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-156">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象，表示在导航窗格<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-156">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object that represents the Navigation Pane for an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span>
-          </span>
-          <span data-ttu-id="09b2f-157">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-157">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-219">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />对象，表示在导航窗格<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-219">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object that represents the Navigation Pane for an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span> <span data-ttu-id="f11b7-220">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-220">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="09b2f-158">
-            <para>某些<b>Explorer</b>对象可能没有关联的<b>NavigationPane</b>对象。在这种情况下，此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-158">
-              <para>Some <b>Explorer</b> objects may not have an associated <b>NavigationPane</b> object. In such cases, this property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f11b7-221">某些<b>Explorer</b>对象可能没有关联的<b>NavigationPane</b>对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-221">Some <b>Explorer</b> objects may not have an associated <b>NavigationPane</b> object.</span></span> <span data-ttu-id="f11b7-222">在这种情况下，此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）</span><span class="sxs-lookup"><span data-stu-id="f11b7-222">In such cases, this property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Panes">
@@ -1367,12 +905,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Panes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-159">返回<see cref="T:Microsoft.Office.Interop.Outlook.Panes" />集合对象，代表由指定浏览器显示的窗格。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-159">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Panes" />  collection object representing the panes displayed by the specified explorer.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-223">返回<see cref="T:Microsoft.Office.Interop.Outlook.Panes" />集合对象，代表由指定浏览器显示的窗格。</span><span class="sxs-lookup"><span data-stu-id="f11b7-223">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Panes" />  collection object representing the panes displayed by the specified explorer.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1400,12 +933,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-p115">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-p115">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-p133">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p133">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1433,113 +961,66 @@ End Sub</code>
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="09b2f-162">要从选定内容中移除的项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-162">The item to be removed from the selection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="09b2f-163">取消选中活动资源管理器中指定的 Microsoft Outlook项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-163">Cancels the selection of the specified Microsoft Outlook item in the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="09b2f-164">
-            <para>活动资源管理器中的选定内容由<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象返回的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性。</para>
-            <para>要删除项必须是在活动资源管理器当前视图中。使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />方法以确定是否可在视图中选择项目。项目没有为视图中可见。</para>
-            <para>以下情况下，Outlook 将返回错误时调用<b>RemoveFromSelection</b>方法：</para>
-            <list type="bullet">
-              <item>
-                <para>指定的项目在活动资源管理器的当前视图不是。</para>
-              </item>
-              <item>
-                <para>活动浏览器的当前视图中处于编辑的指定的项。</para>
-              </item>
-              <item>
-                <para>被筛选出当前视图和筛选器的应用程序从视图中移除项目。</para>
-              </item>
-              <item>
-                <para>尚未保存的指定的项。</para>
-              </item>
-              <item>
-                <para>指定的项目表示<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</para>
-              </item>
-              <item>
-                <para>当前视图是对话视图。</para>
-              </item>
-              <item>
-                <para>没有当前视图存在活动资源管理器。</para>
-              </item>
-            </list>如果选择项目，则调用<b>RemoveFromSelection</b>原因
-          <para><see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />触发事件。如果未选择项目，调用<b>RemoveFromSelection</b>不会触发<b>SelectionChange</b>事件。</para><para>调用<b>RemoveFromSelection</b>不会滚动视图来使选定的项目视图中可见和不展开或折叠视图中的组。</para><para>下表说明了调用<b>RemoveFromSelection</b>，考虑任何当前所选内容的结果 (<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性)、 阅读窗格显示，以及是否中显示的指定的项阅读窗格。</para><description>是</description>的
-              <description>是</description><description>选定内容被清除
-          <list type="table"><item><description>1</description>。<b>SelectionChange</b>触发。阅读窗格为空。 
-            </item></list><item><description> &gt;1</description><description>是</description><description>无</description><description>项已从所选内容。<b>SelectionChange</b>触发。阅读窗格没变化。</description></item><item><description> &gt;1</description><description>是</description><description>是</description><description>项已从所选内容。<b>SelectionChange</b>触发。阅读窗格显示所选内容的下一个项目或旁边的项目。</description></item><item><description> &gt;= 1</description><description>无</description><description>n/A</description><description>项已从所选内容。<b>SelectionChange</b>激发。</description></item><para>如果指定的项的当前视图中存在但未选定在于视图调用<b>RemoveFromSelection</b>不会引起任何更改对所选内容，并且不会触发<b>SelectionChange</b>事件。</para>当您在定期约会或任务指定项目，如<b>RemoveFromSelection</b>方法参数，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /></description><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-164">
-              <para>The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</para>
-              <para>To be removed, an item must be selectable in the current view of the active explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view. The item does not have to be visible in the view. </para>
-              <para>Under the following conditions, Outlook returns an error when you call the <b>RemoveFromSelection</b> method:</para>
-              <list type="bullet">
-                <item>
-                  <para>The specified item is not in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The specified item is being edited in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The current view has been filtered and the application of the filter removed the item from the view.</para>
-                </item>
-                <item>
-                  <para>The specified item has not been saved.</para>
-                </item>
-                <item>
-                  <para>The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
-                </item>
-                <item>
-                  <para>The current view is a conversation view.</para>
-                </item>
-                <item>
-                  <para>No current view exists for the active explorer.</para>
-                </item>
-              </list>
-              <para>If the item is selected, calling <b>RemoveFromSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire. If the item is not selected, calling <b>RemoveFromSelection</b> will not cause the <b>SelectionChange</b> event to fire.</para>
-              <para>Calling <b>RemoveFromSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</para>
-              <para>The following table illustrates the results of calling <b>RemoveFromSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property), whether the Reading Pane is displayed, and whether the specified item is displayed in the Reading Pane.</para>
-              <list type="table">
-                <item>
-                  <description>1</description>
-                  <description>Yes</description>
-                  <description>Yes</description>
-                  <description>The selection is cleared.<b>SelectionChange</b> fires.Reading Pane is empty.</description>
-                </item>
-                <item>
-                  <description>&gt;1</description>
-                  <description>Yes</description>
-                  <description>No</description>
-                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane does not change.</description>
-                </item>
-                <item>
-                  <description>&gt;1</description>
-                  <description>Yes</description>
-                  <description>Yes</description>
-                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane displays the next item or adjacent item in the selection.</description>
-                </item>
-                <item>
-                  <description>&gt;=1</description>
-                  <description>No</description>
-                  <description>N/A</description>
-                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.</description>
-                </item>
-              </list>
-              <para>If the specified item exists in the current view but is not selected in that view calling <b>RemoveFromSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</para>
-              <para>When you specify an item in a recurring appointment or task as an argument to the <b>RemoveFromSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>RemoveFromSelection</b> method would be operating on the series instead of the occurrence. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="f11b7-226">要从选定内容中移除的项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-226">The item to be removed from the selection.</span></span></param>
+        <summary><span data-ttu-id="f11b7-227">取消选中活动资源管理器中指定的 Microsoft Outlook项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-227">Cancels the selection of the specified Microsoft Outlook item in the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="f11b7-228">活动资源管理器中的选定内容由<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象返回的<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性。</span><span class="sxs-lookup"><span data-stu-id="f11b7-228">The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</span></span></para>
+          <para><span data-ttu-id="f11b7-229">要删除项必须是在活动资源管理器当前视图中。</span><span class="sxs-lookup"><span data-stu-id="f11b7-229">To be removed, an item must be selectable in the current view of the active explorer.</span></span> <span data-ttu-id="f11b7-230">使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />方法以确定是否可在视图中选择项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-230">Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view.</span></span> <span data-ttu-id="f11b7-231">该项目不必在视图中可见。</span><span class="sxs-lookup"><span data-stu-id="f11b7-231">The item does not have to be visible in the view.</span></span> </para>
+          <para><span data-ttu-id="f11b7-232">在下列情况下调用<b>RemoveFromSelection</b>方法时，Outlook 也会返回错误：</span><span class="sxs-lookup"><span data-stu-id="f11b7-232">Under the following conditions, Outlook returns an error when you call the <b>RemoveFromSelection</b> method:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="f11b7-233">指定的项目不在活动资源管理器的当前视图中。</span><span class="sxs-lookup"><span data-stu-id="f11b7-233">The specified item is not in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-234">指定的项目在活动资源管理器的当前视图中处于编辑状态。</span><span class="sxs-lookup"><span data-stu-id="f11b7-234">The specified item is being edited in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-235">当前视图已经过筛选，并且应用筛选后，该项目已从视图中移除。</span><span class="sxs-lookup"><span data-stu-id="f11b7-235">The current view has been filtered and the application of the filter removed the item from the view.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-236">指定的项目未保存。</span><span class="sxs-lookup"><span data-stu-id="f11b7-236">The specified item has not been saved.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-237">指定的项目表示<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />。</span><span class="sxs-lookup"><span data-stu-id="f11b7-237">The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-238">当前视图是对话视图。</span><span class="sxs-lookup"><span data-stu-id="f11b7-238">The current view is a conversation view.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f11b7-239">活动资源管理器没有当前视图存在。</span><span class="sxs-lookup"><span data-stu-id="f11b7-239">No current view exists for the active explorer.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="f11b7-240">如果选择此项，则调用<b>RemoveFromSelection</b>原因<see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />触发事件。</span><span class="sxs-lookup"><span data-stu-id="f11b7-240">If the item is selected, calling <b>RemoveFromSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</span></span> <span data-ttu-id="f11b7-241">如果未选中此项，调用 <b>RemoveFromSelection</b> 不会导致 <b>SelectionChange</b> 事件的开始。</span><span class="sxs-lookup"><span data-stu-id="f11b7-241">If the item is not selected, calling <b>RemoveFromSelection</b> will not cause the <b>SelectionChange</b> event to fire.</span></span></para>
+          <para><span data-ttu-id="f11b7-242">调用<b>RemoveFromSelection</b>不会滚动视图来使选定的项目视图中可见和不展开或折叠视图中的组。</span><span class="sxs-lookup"><span data-stu-id="f11b7-242">Calling <b>RemoveFromSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</span></span></para>
+          <para><span data-ttu-id="f11b7-243">下表说明了调用<b>RemoveFromSelection</b>，考虑任何当前所选内容的结果 (<see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" />属性)、 阅读窗格显示，是否和是否指定的项目显示在阅读窗格。</span><span class="sxs-lookup"><span data-stu-id="f11b7-243">The following table illustrates the results of calling <b>RemoveFromSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property), whether the Reading Pane is displayed, and whether the specified item is displayed in the Reading Pane.</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="f11b7-244">1</span><span class="sxs-lookup"><span data-stu-id="f11b7-244">1</span></span></description>
+              <description><span data-ttu-id="f11b7-245">是</span><span class="sxs-lookup"><span data-stu-id="f11b7-245">Yes</span></span></description>
+              <description><span data-ttu-id="f11b7-246">是</span><span class="sxs-lookup"><span data-stu-id="f11b7-246">Yes</span></span></description>
+              <description><span data-ttu-id="f11b7-247">选定内容被清除。<b>SelectionChange</b>触发。阅读窗格为空。</span><span class="sxs-lookup"><span data-stu-id="f11b7-247">The selection is cleared.<b>SelectionChange</b> fires.Reading Pane is empty.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f11b7-248">&gt;1</span><span class="sxs-lookup"><span data-stu-id="f11b7-248">&gt;1</span></span></description>
+              <description><span data-ttu-id="f11b7-249">是</span><span class="sxs-lookup"><span data-stu-id="f11b7-249">Yes</span></span></description>
+              <description><span data-ttu-id="f11b7-250">否</span><span class="sxs-lookup"><span data-stu-id="f11b7-250">No</span></span></description>
+              <description><span data-ttu-id="f11b7-251">从所选内容中删除项。<b>SelectionChange</b>触发。阅读窗格没变化。</span><span class="sxs-lookup"><span data-stu-id="f11b7-251">The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane does not change.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f11b7-252">&gt;1</span><span class="sxs-lookup"><span data-stu-id="f11b7-252">&gt;1</span></span></description>
+              <description><span data-ttu-id="f11b7-253">是</span><span class="sxs-lookup"><span data-stu-id="f11b7-253">Yes</span></span></description>
+              <description><span data-ttu-id="f11b7-254">是</span><span class="sxs-lookup"><span data-stu-id="f11b7-254">Yes</span></span></description>
+              <description><span data-ttu-id="f11b7-255">从所选内容中删除项。<b>SelectionChange</b>触发。阅读窗格显示选定内容中下一个项目或旁边的项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-255">The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane displays the next item or adjacent item in the selection.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f11b7-256">&gt;= 1</span><span class="sxs-lookup"><span data-stu-id="f11b7-256">&gt;=1</span></span></description>
+              <description><span data-ttu-id="f11b7-257">否</span><span class="sxs-lookup"><span data-stu-id="f11b7-257">No</span></span></description>
+              <description><span data-ttu-id="f11b7-258">不适用</span><span class="sxs-lookup"><span data-stu-id="f11b7-258">N/A</span></span></description>
+              <description><span data-ttu-id="f11b7-259">从所选内容中删除项。<b>SelectionChange</b>触发。</span><span class="sxs-lookup"><span data-stu-id="f11b7-259">The item is removed from the selection.<b>SelectionChange</b> fires.</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="f11b7-260">如果指定的项目的当前视图中存在但不是选中时，在视图调用<b>RemoveFromSelection</b>不会导致对所选内容和<b>SelectionChange</b>事件的任何更改将不会触发。</span><span class="sxs-lookup"><span data-stu-id="f11b7-260">If the specified item exists in the current view but is not selected in that view calling <b>RemoveFromSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</span></span></para>
+          <para><span data-ttu-id="f11b7-261">当在定期约会或任务指定项目作为<b>RemoveFromSelection</b>方法的参数时，请确保您传递参数之前，您获取的匹配项实例的第一个扩展定期事件，使用<see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />属性和<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。</span><span class="sxs-lookup"><span data-stu-id="f11b7-261">When you specify an item in a recurring appointment or task as an argument to the <b>RemoveFromSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="f11b7-262">如果不展开定期事件，并且获得系列中出现，您可以传递实例变量表示的约会或任务系列，和 <b>RemoveFromSelection</b> 方法将运行而不是出现一系列上。</span><span class="sxs-lookup"><span data-stu-id="f11b7-262">If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>RemoveFromSelection</b> method would be operating on the series instead of the occurrence.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Search">
@@ -1566,39 +1047,12 @@ End Sub</code>
         <Parameter Name="SearchScope" Type="Microsoft.Office.Interop.Outlook.OlSearchScope" />
       </Parameters>
       <Docs>
-        <param name="Query">
-          <span data-ttu-id="09b2f-165">可以包含即时搜索功能所支持的任何有效关键字的搜索字符串。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-165">A search string that can contain any valid keywords supported in Instant Search.</span>
-          </span>
-        </param>
-        <param name="SearchScope">
-          <span data-ttu-id="09b2f-166">从文件夹的角度指定搜索范围。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-166">Specifies the scope in terms of folders for the search.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="09b2f-167">对显示在资源管理器中使用的当前文件夹执行 Microsoft 即时搜索给定<paramref name="Query" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-167">Performs a Microsoft Instant Search on the current folder displayed in the Explorer using the given <paramref name="Query" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="09b2f-168">
-            <para>类似于即时搜索中的搜索按钮<b>Explorer.Search</b>的功能。它的行为就好像用户键入即时搜索用户界面中的查询字符串，然后单击搜索。 当调用<b>Search</b>时，查询将运行在用户界面中，并且没有编程的机制来获取搜索结果。即时搜索的详细信息，查询 Outlook 帮助中的"即时搜索"。</para>
-            <para>
-              <b>Search</b>方法不提供回调功能，开发人员无法确定搜索何时完成。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-168">
-              <para>The functionality of <b>Explorer.Search</b> is analogous to the Search button in Instant Search. It behaves as if the user has typed the query string in the Instant Search user interface and then clicked Search.  When calling <b>Search</b>, the query is run in the user interface, and there is no programmatic mechanism to obtain the search results. For more information on Instant Search, query for "Instant Search" in the Outlook Help.</para>
-              <para>The <b>Search</b> method does not provide a callback to enable the developer to determine when the search is complete. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Query"><span data-ttu-id="f11b7-263">可以包含即时搜索功能所支持的任何有效关键字的搜索字符串。</span><span class="sxs-lookup"><span data-stu-id="f11b7-263">A search string that can contain any valid keywords supported in Instant Search.</span></span></param>
+        <param name="SearchScope"><span data-ttu-id="f11b7-264">从文件夹的角度指定搜索范围。</span><span class="sxs-lookup"><span data-stu-id="f11b7-264">Specifies the scope in terms of folders for the search.</span></span></param>
+        <summary><span data-ttu-id="f11b7-265">对显示在资源管理器中使用的当前文件夹执行 Microsoft 即时搜索给定<paramref name="Query" />。</span><span class="sxs-lookup"><span data-stu-id="f11b7-265">Performs a Microsoft Instant Search on the current folder displayed in the Explorer using the given <paramref name="Query" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="f11b7-266"><b>Explorer.Search</b> 的功能是类似于即时搜索中的 搜索按钮。</span><span class="sxs-lookup"><span data-stu-id="f11b7-266">The functionality of <b>Explorer.Search</b> is analogous to the Search button in Instant Search.</span></span> <span data-ttu-id="f11b7-267">它的行为就像是用户在即时搜索用户界面中键入了查询字符串，然后单击 搜索。</span><span class="sxs-lookup"><span data-stu-id="f11b7-267">It behaves as if the user has typed the query string in the Instant Search user interface and then clicked Search.</span></span>  <span data-ttu-id="f11b7-268">当调用 <b>Search</b> 时，查询将运行在用户界面中，并且没有用于获取搜索结果的编程机制。</span><span class="sxs-lookup"><span data-stu-id="f11b7-268">When calling <b>Search</b>, the query is run in the user interface, and there is no programmatic mechanism to obtain the search results.</span></span> <span data-ttu-id="f11b7-269">即时搜索，Outlook 帮助中的"即时搜索"查询的详细信息。</span><span class="sxs-lookup"><span data-stu-id="f11b7-269">For more information on Instant Search, query for "Instant Search" in the Outlook Help.</span></span></para>
+          <para><span data-ttu-id="f11b7-p139"><b>Search</b> 方法不提供回调功能，开发人员无法确定搜索何时完成。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p139">The <b>Search</b> method does not provide a callback to enable the developer to determine when the search is complete. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectAllItems">
@@ -1622,29 +1076,15 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-169">选择包含在活动资源管理器当前视图中的所有项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-169">Selects all items that are contained in the current view of the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="09b2f-170">
-            <para>如果一个或多个组折叠当前视图中，调用<b>SelectAllItems</b>不选择折叠组中的项目。仅扩展组中的项目所选。</para>如果当前视图是日历视图的
-          <para>，调用<b>SelectAllItems</b>选择视图中的所有约会和全天事件。日历视图中调用<b>SelectAllItems</b>不会在日常任务列表中选择项目。</para><para><see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />会触发事件仅执行一次调用<b>SelectAllItems</b>方法后。</para><para>如果当前视图或当前文件夹不包含任何项目，调用<b>SelectAllItems</b>不会引起任何更改对所选内容并不会触发<b>SelectionChange</b>事件。</para><para>如果正在编辑项目在当前视图中，或者当前视图是对话视图， 
-            <b>SelectAllItems</b>将引发错误。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-170">
-              <para>If one or more groups are collapsed in the current view, calling <b>SelectAllItems</b> does not select items in the collapsed groups. Only items in expanded groups are selected.</para>
-              <para>If the current view is a calendar view, calling <b>SelectAllItems</b> selects all appointments and all-day events in the view. Calling <b>SelectAllItems</b> on a calendar view does not select items in the Daily Task List.</para>
-              <para>The <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires only once after the <b>SelectAllItems</b> method is called.</para>
-              <para>If the current view or current folder does not contain any items, calling <b>SelectAllItems</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </para>
-              <para>
-                <b>SelectAllItems</b> raises an error if the item is being edited in the current view, or the current view is a conversation view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f11b7-271">选择包含在活动资源管理器当前视图中的所有项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-271">Selects all items that are contained in the current view of the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="f11b7-p140">如果当前的视图中，一个或多个组处于折叠状态，调用 <b>SelectAllItems</b> 不会选择折叠组中的项目。只在展开的组中选取项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p140">If one or more groups are collapsed in the current view, calling <b>SelectAllItems</b> does not select items in the collapsed groups. Only items in expanded groups are selected.</span></span></para>
+          <para><span data-ttu-id="f11b7-p141">如果当前视图是日历视图，如果调用 <b>SelectAllItems</b> ，则可在视图中选择所有约会和全天事件。在日历视图上调用 <b>SelectAllItems</b> 不日常任务列表中选择项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p141">If the current view is a calendar view, calling <b>SelectAllItems</b> selects all appointments and all-day events in the view. Calling <b>SelectAllItems</b> on a calendar view does not select items in the Daily Task List.</span></span></para>
+          <para><span data-ttu-id="f11b7-276"><see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" />会触发事件仅执行一次调用<b>SelectAllItems</b>方法后。</span><span class="sxs-lookup"><span data-stu-id="f11b7-276">The <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires only once after the <b>SelectAllItems</b> method is called.</span></span></para>
+          <para><span data-ttu-id="f11b7-p142">如果当前文件夹的当前视图中不包含任何项，调用 <b>SelectAllItems</b> 不会导致任何更改为所选内容并不会触发 <b>SelectionChange</b> 事件。</span><span class="sxs-lookup"><span data-stu-id="f11b7-p142">If the current view or current folder does not contain any items, calling <b>SelectAllItems</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </span></span></para>
+          <para><span data-ttu-id="f11b7-278">如果正在编辑的项与当前视图中或当前视图为对话视图时， 
+            <b>SelectAllItems</b> 将引发错误。</span><span class="sxs-lookup"><span data-stu-id="f11b7-278">
+            <b>SelectAllItems</b> raises an error if the item is being edited in the current view, or the current view is a conversation view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectFolder">
@@ -1674,12 +1114,7 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Folder">To be added.</param>
-        <summary>
-          <span data-ttu-id="09b2f-171">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-171">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-279">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="f11b7-279">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1706,29 +1141,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Selection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-172">返回<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象包含的当前视图中选择一个或多个项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-172">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object consisting of one or more items selected in the current view.</span>
-          </span>
-          <span data-ttu-id="09b2f-173">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-173">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-280">返回<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象包含的当前视图中选择一个或多个项目。</span><span class="sxs-lookup"><span data-stu-id="f11b7-280">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object consisting of one or more items selected in the current view.</span></span> <span data-ttu-id="f11b7-281">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-281">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="09b2f-174">
-            <para>如果当前文件夹是文件系统文件夹，或者当前显示 Microsoft Outlook 今日或 Web 视图的任何文件夹，此属性返回一个空集合。另外组标头处于选中状态，如果所选内容的<b>Count</b>属性返回零。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-174">
-              <para>If the current folder is a file-system folder, or if Microsoft Outlook Today or any folder with a Web view is currently displayed, this property returns an empty collection. Also if a group header is selected, the <b>Count</b> property on the selection returns zero.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f11b7-282">如果当前文件夹是文件系统文件夹，或者当前显示 Microsoft Outlook 今日或 Web 视图的任何文件夹，此属性返回一个空集合。</span><span class="sxs-lookup"><span data-stu-id="f11b7-282">If the current folder is a file-system folder, or if Microsoft Outlook Today or any folder with a Web view is currently displayed, this property returns an empty collection.</span></span> <span data-ttu-id="f11b7-283">另外组标头处于选中状态，如果所选内容的<b>Count</b>属性返回零。</span><span class="sxs-lookup"><span data-stu-id="f11b7-283">Also if a group header is selected, the <b>Count</b> property on the selection returns zero.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1754,42 +1170,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-175">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-175">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="09b2f-176">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-176">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-284">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="f11b7-284">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="f11b7-285">只读。</span><span class="sxs-lookup"><span data-stu-id="f11b7-285">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="09b2f-177">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="f11b7-286"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="f11b7-286">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="f11b7-287">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="f11b7-287">Both members serve the same purpose.</span></span> <span data-ttu-id="f11b7-288">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="f11b7-288">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-177">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowPane">
@@ -1816,40 +1206,13 @@ End Sub</code>
         <Parameter Name="Visible" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="Pane">
-          <span data-ttu-id="09b2f-178">要显示的窗格。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-178">The pane to display.</span>
-          </span>
-        </param>
-        <param name="Visible">
-          <span data-ttu-id="09b2f-179">
-            <b>真正</b> 使窗格中可见， <b>False</b> 隐藏窗格。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-179">
-              <b>True</b> to make the pane visible, <b>False</b> to hide the pane.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="09b2f-180">在浏览器中显示或隐藏特定窗格。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-180">Displays or hides a specific pane in the explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="09b2f-181">
-            <para>
-              <b>注意</b>： 还可以使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />属性<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />对象显示或隐藏快捷方式窗格。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-181">
-              <para>
-                <b>Note</b>: You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to display or hide the Shortcuts pane.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Pane"><span data-ttu-id="f11b7-289">要显示的窗格。</span><span class="sxs-lookup"><span data-stu-id="f11b7-289">The pane to display.</span></span></param>
+        <param name="Visible"><span data-ttu-id="f11b7-290"><b>真正</b> 使窗格中可见， <b>False</b> 隐藏窗格。</span><span class="sxs-lookup"><span data-stu-id="f11b7-290"><b>True</b> to make the pane visible, <b>False</b> to hide the pane.</span></span></param>
+        <summary><span data-ttu-id="f11b7-291">在浏览器中显示或隐藏特定窗格。</span><span class="sxs-lookup"><span data-stu-id="f11b7-291">Displays or hides a specific pane in the explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="f11b7-292">
+            <b>注意</b>： 还可以使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />属性<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />对象显示或隐藏快捷方式窗格。</span><span class="sxs-lookup"><span data-stu-id="f11b7-292">
+            <b>Note</b>: You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to display or hide the Shortcuts pane.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -1878,16 +1241,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-182">返回或设置指示从屏幕边缘浏览器窗口的顶部水平边缘的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-182">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of an explorer window from the edge of the screen.</span>
-          </span>
-          <span data-ttu-id="09b2f-183">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-183">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-293">返回或设置指示从屏幕边缘浏览器窗口的顶部水平边缘的位置 （以像素为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="f11b7-293">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of an explorer window from the edge of the screen.</span></span> <span data-ttu-id="f11b7-294">读/写。</span><span class="sxs-lookup"><span data-stu-id="f11b7-294">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1918,12 +1272,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-184">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-184">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-295">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="f11b7-295">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1954,16 +1303,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-185">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指定对象的宽度 （以像素为单位）。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-185">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span>
-          </span>
-          <span data-ttu-id="09b2f-186">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-186">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-296">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指定对象的宽度 （以像素为单位）。</span><span class="sxs-lookup"><span data-stu-id="f11b7-296">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span></span> <span data-ttu-id="f11b7-297">读/写。</span><span class="sxs-lookup"><span data-stu-id="f11b7-297">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1994,16 +1334,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="09b2f-187">返回或设置的属性中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" />指定资源管理器或检查器窗口的窗口状态的枚举。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-187">Returns or sets the property with a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeration specifying the window state of an explorer or inspector window.</span>
-          </span>
-          <span data-ttu-id="09b2f-188">可读/写。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="09b2f-188">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f11b7-298">返回或设置的属性中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" />指定资源管理器或检查器窗口的窗口状态的枚举。</span><span class="sxs-lookup"><span data-stu-id="f11b7-298">Returns or sets the property with a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeration specifying the window state of an explorer or inspector window.</span></span> <span data-ttu-id="f11b7-299">读/写。</span><span class="sxs-lookup"><span data-stu-id="f11b7-299">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

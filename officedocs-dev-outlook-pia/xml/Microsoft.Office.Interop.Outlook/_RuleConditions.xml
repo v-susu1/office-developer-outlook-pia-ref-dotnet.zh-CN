@@ -1,13 +1,5 @@
 <Type Name="_RuleConditions" FullName="Microsoft.Office.Interop.Outlook._RuleConditions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632599" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905461" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleConditions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleConditions" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleConditions&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ab2e9-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ab2e9-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="ab2e9-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ab2e9-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="ab2e9-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ab2e9-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="ab2e9-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ab2e9-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="bad96-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="bad96-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="bad96-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="bad96-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="bad96-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="bad96-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />。</span><span class="sxs-lookup"><span data-stu-id="bad96-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,31 +49,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AccountRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /><b>olConditionAccount</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-105">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" /> object with an  <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /> of <b>olConditionAccount</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /> <b>olConditionAccount</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-105">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" /> object with an  <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /> of <b>olConditionAccount</b>.</span></span> <span data-ttu-id="bad96-106">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-106">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-107">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件是发送或通过接收邮件，使用返回的<b>AccountRuleCondition</b>对象指定的帐户。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>AccountRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-107">
-              <para>Use the returned  <b>AccountRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that a message is sent or received through the specified account. </para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns an <b>AccountRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-107">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件是发送或通过接收邮件，使用返回的<b>AccountRuleCondition</b>对象指定的帐户。</span><span class="sxs-lookup"><span data-stu-id="bad96-107">Use the returned  <b>AccountRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that a message is sent or received through the specified account.</span></span> </para>
+          <para><span data-ttu-id="bad96-108">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>AccountRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-108">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns an <b>AccountRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-109">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-109">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AnyCategory">
@@ -124,31 +79,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionAnyCategory</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-108">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of  <b>olConditionAnyCategory</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-109">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-110">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionAnyCategory</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-110">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of  <b>olConditionAnyCategory</b>.</span></span> <span data-ttu-id="bad96-111">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-111">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-110">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个规则来指定的条件或例外条件时，邮件分配给任何类别，请使用返回的<b>RuleCondition</b>对象。 </para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。 </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-110">
-              <para>Use the returned <b>RuleCondition</b> object when enumerating the rule conditions or exception conditions of an existing rule, or when creating a rule that specifies the condition or exception condition that the message is assigned to any category.  </para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object, regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-p106">枚举的规则条件或例外条件的现有规则，或者在创建一个规则来指定的条件或例外条件时，该邮件归到任何类别，请使用返回的 <b>RuleCondition</b> 对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-p106">Use the returned <b>RuleCondition</b> object when enumerating the rule conditions or exception conditions of an existing rule, or when creating a rule that specifies the condition or exception condition that the message is assigned to any category.  </span></span></para>
+          <para><span data-ttu-id="bad96-113">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-113">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object, regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-114">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-114">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -174,16 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-111">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="ab2e9-112">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-115">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="bad96-116">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -211,31 +137,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionBody</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-113">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> of <b>olConditionBody</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-114">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionBody</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-117">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> of <b>olConditionBody</b>.</span></span> <span data-ttu-id="bad96-118">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-118">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-115">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的某些文本邮件正文中，使用返回的<b>TextRuleCondition</b>对象。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>TextRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-115">
-              <para>Use the returned  <b>TextRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that certain text is in the message body. </para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>TextRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-119">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的某些文本邮件正文中，使用返回的<b>TextRuleCondition</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-119">Use the returned  <b>TextRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that certain text is in the message body.</span></span> </para>
+          <para><span data-ttu-id="bad96-120">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>TextRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-120">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>TextRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-121">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-121">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BodyOrSubject">
@@ -261,31 +167,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-116">返回<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionBodyOrSubject</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-116">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> of <b>olConditionBodyOrSubject</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-117">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-122">返回<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionBodyOrSubject</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-122">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> of <b>olConditionBodyOrSubject</b>.</span></span> <span data-ttu-id="bad96-123">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-123">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-118">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件正文或主题中的某些文本，使用返回的<b>TextRuleCondition</b>对象.</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>TextRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-118">
-              <para>Use the returned  <b>TextRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that certain text is in the message body or subject. </para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>TextRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-124">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件正文或主题中的某些文本，使用返回的<b>TextRuleCondition</b>对象.</span><span class="sxs-lookup"><span data-stu-id="bad96-124">Use the returned  <b>TextRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that certain text is in the message body or subject.</span></span> </para>
+          <para><span data-ttu-id="bad96-125">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>TextRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-125">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>TextRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-126">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-126">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -311,31 +197,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.CategoryRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-119">返回<see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /><b>olConditionCategory</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-119">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /> of <b>olConditionCategory</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-120">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-127">返回<see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /> <b>olConditionCategory</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-127">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /> of <b>olConditionCategory</b>.</span></span> <span data-ttu-id="bad96-128">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-128">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-121">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件指定特定，使用返回的<b>CategoryRuleCondition</b>对象类别。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>CategoryRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-121">
-              <para>Use the returned  <b>CategoryRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is assigned specific categories. </para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>CategoryRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-129">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件指定特定，使用返回的<b>CategoryRuleCondition</b>对象类别。</span><span class="sxs-lookup"><span data-stu-id="bad96-129">Use the returned  <b>CategoryRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is assigned specific categories.</span></span> </para>
+          <para><span data-ttu-id="bad96-130">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>CategoryRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-130">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>CategoryRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-131">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-131">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -361,31 +227,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-122">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionCc</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-122">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionCc</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-123">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-123">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-132">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionCc</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-132">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionCc</b>.</span></span> <span data-ttu-id="bad96-133">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-133">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-124">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件时，您的姓名位于抄送框中，使用返回的<b>RuleCondition</b>对象。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-124">
-              <para>Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that your name is in the Cc box.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-134">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件时，您的姓名位于抄送框中，使用返回的<b>RuleCondition</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-134">Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that your name is in the Cc box.</span></span></para>
+          <para><span data-ttu-id="bad96-135">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-135">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-136">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-136">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -411,16 +257,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-125">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-125">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="ab2e9-126">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-126">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-137">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="bad96-137">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="bad96-138">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-138">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -448,29 +285,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-127">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-127">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="ab2e9-128">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-128">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-139">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="bad96-139">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="bad96-140">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-140">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-129">
-            <para>您可以枚举<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合从 1 到<b>RuleConditions.Count</b>若要确定所有现有规则的规则条件。虽然使用规则 OM 支持通常只使用最创建规则的规则条件而不是所有支持的规则和通知向导的规则条件，<b>作为 RuleConditions</b>集合包含所有规则的规则条件。因此，您可以始终枚举<b>RuleConditions</b>集合对象，以确定启用了现有规则的规则条件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-129">
-              <para>You can enumerate the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection from 1 through <b>RuleConditions.Count</b> to determine all the rule conditions for an existing rule. Although the Rules OM supports creating rules with only the most commonly used rule conditions and not all rule conditions supported by the Rules and Alerts Wizard, the <b>RuleConditions</b> collection includes all rule conditions of a rule. Hence you can always enumerate the <b>RuleConditions</b> collection object to determine which rule conditions are enabled for an existing rule.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-141">您可以枚举<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合从 1 到<b>RuleConditions.Count</b>若要确定所有现有规则的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-141">You can enumerate the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection from 1 through <b>RuleConditions.Count</b> to determine all the rule conditions for an existing rule.</span></span> <span data-ttu-id="bad96-142">尽管规则条件并不是所有的规则和通知向导支持的规则条件下使用规则 OM 支持只使用最常用创建规则， <b>RuleConditions</b> 集合仍包括了一个规则的所有规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-142">Although the Rules OM supports creating rules with only the most commonly used rule conditions and not all rule conditions supported by the Rules and Alerts Wizard, the <b>RuleConditions</b> collection includes all rule conditions of a rule.</span></span> <span data-ttu-id="bad96-143">因此您总是可以枚举 <b>RuleConditions</b> 集合对象以确定启用现有规则的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-143">Hence you can always enumerate the <b>RuleConditions</b> collection object to determine which rule conditions are enabled for an existing rule.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormName">
@@ -496,31 +314,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormNameRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-130">返回<see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /><b>olConditionFormName</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-130">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /> of <b>olConditionFormName</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-131">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-144">返回<see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /> <b>olConditionFormName</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-144">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /> of <b>olConditionFormName</b>.</span></span> <span data-ttu-id="bad96-145">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-145">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-132">
-            <para>使用返回的<b>FormNameRuleCondition</b>对象枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件邮件使用指定的表单。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>FormNameRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-132">
-              <para>Use the returned  <b>FormNameRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message uses a specified form.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>FormNameRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-146">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件邮件使用指定的表单，请使用返回的<b>FormNameRuleCondition</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-146">Use the returned  <b>FormNameRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message uses a specified form.</span></span></para>
+          <para><span data-ttu-id="bad96-147">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>FormNameRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-147">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>FormNameRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-148">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-148">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="From">
@@ -546,31 +344,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-133">返回<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /><b>olConditionFrom</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-133">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> of <b>olConditionFrom</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-134">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-134">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-149">返回<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> <b>olConditionFrom</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-149">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> of <b>olConditionFrom</b>.</span></span> <span data-ttu-id="bad96-150">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-150">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-135">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件的发件人正在使用返回的<b>ToOrFromRuleCondition</b>对象 指定的列表中的<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>ToOrFromRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-135">
-              <para>Use the returned  <b>ToOrFromRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the sender of the message is in the  specified list of <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>ToOrFromRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-151">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件的发件人正在使用返回的<b>ToOrFromRuleCondition</b>对象 指定的列表中的<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />。</span><span class="sxs-lookup"><span data-stu-id="bad96-151">Use the returned  <b>ToOrFromRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the sender of the message is in the  specified list of <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</span></span></para>
+          <para><span data-ttu-id="bad96-152">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>ToOrFromRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-152">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>ToOrFromRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-153">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-153">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromAnyRSSFeed">
@@ -596,31 +374,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-136">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionFromAnyRssFeed</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-136">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionFromAnyRssFeed</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-137">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-137">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-154">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionFromAnyRssFeed</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-154">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionFromAnyRssFeed</b>.</span></span> <span data-ttu-id="bad96-155">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-155">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-138">
-            <para>使用返回的<b>RuleCondition</b>对象，枚举的规则条件或例外条件现有规则，或者在创建一个规则来指定的条件或例外条件的邮件的 RSS 订阅从。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。 </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-138">
-              <para>Use the returned <b>RuleCondition</b> object when enumerating the rule conditions or exception conditions of an existing rule, or when creating a rule that specifies the condition or exception condition that the message is from an RSS subscription.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object, regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-156">枚举的规则条件或例外条件的现有规则，或者在创建一个规则来指定的条件或例外条件时，该消息是从 RSS 订阅，请使用返回的 <b>RuleCondition</b> 对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-156">Use the returned <b>RuleCondition</b> object when enumerating the rule conditions or exception conditions of an existing rule, or when creating a rule that specifies the condition or exception condition that the message is from an RSS subscription.</span></span></para>
+          <para><span data-ttu-id="bad96-157">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-157">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object, regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-158">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-158">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromRssFeed">
@@ -646,31 +404,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-139">返回<see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /><b>olConditionFromRssFeed</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-139">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /> of  <b>olConditionFromRssFeed</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-140">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-140">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-159">返回<see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /> <b>olConditionFromRssFeed</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-159">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /> of  <b>olConditionFromRssFeed</b>.</span></span> <span data-ttu-id="bad96-160">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-160">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-141">
-            <para>使用返回的<b>FromRSSFeedRuleCondition</b>对象枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件从特定的 RSS订阅。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>FromRSSFeedRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" />将为<b>True</b>。 </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-141">
-              <para>Use the returned <b>FromRSSFeedRuleCondition</b> object when enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is from a specific RSS subscription.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>FromRSSFeedRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" /> will be <b>True</b>.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-161">枚举的规则条件或例外条件的现有规则，或者在创建一个新规则来指定的条件或例外条件时，邮件是由特定的 RSS 订阅，请使用返回的 <b>FromRSSFeedRuleCondition</b> 对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-161">Use the returned <b>FromRSSFeedRuleCondition</b> object when enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is from a specific RSS subscription.</span></span></para>
+          <para><span data-ttu-id="bad96-162">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>FromRSSFeedRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-162">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>FromRSSFeedRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-163">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-163">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" /> will be <b>True</b>.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachment">
@@ -696,31 +434,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-142">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionHasAttachment</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-142">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionHasAttachment</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-143">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-143">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-164">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionHasAttachment</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-164">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionHasAttachment</b>.</span></span> <span data-ttu-id="bad96-165">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-165">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-144">
-            <para>使用返回的<b>RuleCondition</b>对象，枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件邮件包含附件。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-144">
-              <para>Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message has an attachment.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-166">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件邮件带有附件，请使用返回的<b>RuleCondition</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-166">Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message has an attachment.</span></span></para>
+          <para><span data-ttu-id="bad96-167">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-167">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-168">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-168">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -746,31 +464,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ImportanceRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-145">返回<see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /><b>olConditionImportance</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-145">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" /> object with an <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /> of <b>olConditionImportance</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-146">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-146">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-169">返回<see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /> <b>olConditionImportance</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-169">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" /> object with an <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /> of <b>olConditionImportance</b>.</span></span> <span data-ttu-id="bad96-170">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-170">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-147">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件指定级别，使用返回的<b>ImportanceRuleCondition</b>对象重要性。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>ImportanceRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-147">
-              <para>Use the returned  <b>ImportanceRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is of the specified level of importance.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns an <b>ImportanceRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-171">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件指定级别，使用返回的<b>ImportanceRuleCondition</b>对象重要性。</span><span class="sxs-lookup"><span data-stu-id="bad96-171">Use the returned  <b>ImportanceRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is of the specified level of importance.</span></span></para>
+          <para><span data-ttu-id="bad96-172">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>ImportanceRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-172">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns an <b>ImportanceRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-173">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-173">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -799,41 +497,11 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="ab2e9-148">基于 1 数值反映<b>RuleConditions</b>集合中的规则条件的序号位置。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-148">A 1-based numerical value that reflects the ordinal position of a rule condition within  the <b>RuleConditions</b> collection.</span>
-          </span>
-          <span data-ttu-id="ab2e9-149">例如，集合中的第一个规则条件的索引值为 1，而第二个规则条件的索引值为 2。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-149">For example, the index value of the first rule condition in the collection is 1, and the index value of the second rule condition is 2.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ab2e9-150">获取<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />指定对象<paramref name="Index" />即的数值索引<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-150">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object specified by <paramref name="Index" /> which is a numerical index into the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ab2e9-151">表示指定的对象的 <b>RuleCondition</b> 对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-151">A <b>RuleCondition</b> object that represents the specified object.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="ab2e9-152">
-            <para>
-              <b>RuleConditions</b>集合对象是固定的集合。它包含<b>RuleCondition</b>对象或派生自<b>RuleCondition</b>的对象。无法添加或移除项目从该集合，但可以通过索引到集合枚举的规则条件项，并设置<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />的规则条件的属性。当使用<b>项目</b>枚举的集合，您可以枚举<paramref name="Index" />从 1 到<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-152">
-              <para>The <b>RuleConditions</b> collection object is a fixed collection. It contains <b>RuleCondition</b> objects or objects derived from <b>RuleCondition</b>. You cannot add or remove items from this collection, but you can index into the collection to enumerate the rule condition  items, and set the <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> property of the rule condition. When using <b>Item</b> to enumerate the collection, you can enumerate <paramref name="Index" /> from 1 to <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="bad96-174">基于 1 数值反映<b>RuleConditions</b>集合中的规则条件的序号位置。</span><span class="sxs-lookup"><span data-stu-id="bad96-174">A 1-based numerical value that reflects the ordinal position of a rule condition within  the <b>RuleConditions</b> collection.</span></span> <span data-ttu-id="bad96-175">例如，集合中的第一个规则条件的索引值为 1，而第二个规则条件的索引值为 2。</span><span class="sxs-lookup"><span data-stu-id="bad96-175">For example, the index value of the first rule condition in the collection is 1, and the index value of the second rule condition is 2.</span></span></param>
+        <summary><span data-ttu-id="bad96-176">获取<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />指定对象<paramref name="Index" />即的数值索引<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合。</span><span class="sxs-lookup"><span data-stu-id="bad96-176">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object specified by <paramref name="Index" /> which is a numerical index into the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection.</span></span></summary>
+        <value><span data-ttu-id="bad96-177">表示指定的对象的 <b>RuleCondition</b> 对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-177">A <b>RuleCondition</b> object that represents the specified object.</span></span></value>
+        <remarks><para><span data-ttu-id="bad96-178"><b>RuleConditions</b> 集合对象是一个固定的集合。</span><span class="sxs-lookup"><span data-stu-id="bad96-178">The <b>RuleConditions</b> collection object is a fixed collection.</span></span> <span data-ttu-id="bad96-179">它包含 <b>RuleCondition</b> 对象或 <b>删除</b> 的对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-179">It contains <b>RuleCondition</b> objects or objects derived from <b>RuleCondition</b>.</span></span> <span data-ttu-id="bad96-180">无法添加或移除项目从该集合，但可以通过索引到集合枚举的规则条件项，并设置<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />的规则条件的属性。</span><span class="sxs-lookup"><span data-stu-id="bad96-180">You cannot add or remove items from this collection, but you can index into the collection to enumerate the rule condition  items, and set the <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> property of the rule condition.</span></span> <span data-ttu-id="bad96-181">当使用<b>项目</b>枚举的集合，您可以枚举<paramref name="Index" />从 1 到<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />。</span><span class="sxs-lookup"><span data-stu-id="bad96-181">When using <b>Item</b> to enumerate the collection, you can enumerate <paramref name="Index" /> from 1 to <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingInviteOrUpdate">
@@ -859,31 +527,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-153">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionMeetingInviteOrUpdate</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-153">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionMeetingInviteOrUpdate</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-154">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-154">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-182">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionMeetingInviteOrUpdate</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-182">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionMeetingInviteOrUpdate</b>.</span></span> <span data-ttu-id="bad96-183">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-183">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-155">
-            <para>使用返回的<b>RuleCondition</b>对象，枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件是会议请求或会议更新。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-155">
-              <para>Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is a meeting request or a meeting update.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-184">使用返回的<b>RuleCondition</b>对象，枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件是会议请求或会议更新。</span><span class="sxs-lookup"><span data-stu-id="bad96-184">Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is a meeting request or a meeting update.</span></span></para>
+          <para><span data-ttu-id="bad96-185">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-185">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-186">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-186">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageHeader">
@@ -909,31 +557,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-156">返回<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionMessageHeader</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-156">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> of <b>olConditionMessageHeader</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-157">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-157">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-187">返回<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionMessageHeader</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-187">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> of <b>olConditionMessageHeader</b>.</span></span> <span data-ttu-id="bad96-188">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-188">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-158">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件头中包含指定使用返回的<b>TextRuleCondition</b>对象文本。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>TextRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-158">
-              <para>Use the returned  <b>TextRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message header contains the specified text.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>TextRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-189">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件头中包含指定使用返回的<b>TextRuleCondition</b>对象文本。</span><span class="sxs-lookup"><span data-stu-id="bad96-189">Use the returned  <b>TextRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message header contains the specified text.</span></span></para>
+          <para><span data-ttu-id="bad96-190">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>TextRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-190">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>TextRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-191">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-191">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotTo">
@@ -959,31 +587,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-159">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionNotTo</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-159">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionNotTo</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-160">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-160">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-192">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionNotTo</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-192">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionNotTo</b>.</span></span> <span data-ttu-id="bad96-193">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-193">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-161">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件时，您的姓名不在收件人框中，使用返回的<b>RuleCondition</b>对象。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-161">
-              <para>Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that your name is not in the To box.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-194">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件时，您的姓名不在收件人框中，使用返回的<b>RuleCondition</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-194">Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that your name is not in the To box.</span></span></para>
+          <para><span data-ttu-id="bad96-195">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-195">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-196">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-196">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnLocalMachine">
@@ -1009,31 +617,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-162">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionLocalMachineOnly</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-162">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionLocalMachineOnly</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-163">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-163">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-197">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionLocalMachineOnly</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-197">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionLocalMachineOnly</b>.</span></span> <span data-ttu-id="bad96-198">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-198">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-164">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件时，可以在这台计算机上运行规则，请使用返回的<b>RuleCondition</b>对象。在另一台计算机上运行相同的规则，该规则会显示是否启用了条件<b>olConditionOtherMachine</b> 。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。您可以编程方式启用此类型的规则条件。在某些情况下， <b>olConditionLocalMachine</b>会自动设置由于启用如<b>olConditionAccount</b>的另一个规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-164">
-              <para>Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the rule can run on this machine only. When you run the same rule on another computer, the rule will show that the condition <b>olConditionOtherMachine</b> is enabled.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. You can programmatically enable a rule condition of this type. In certain cases, <b>olConditionLocalMachine</b> is automatically set as a result of enabling another rule condition such as <b>olConditionAccount</b>. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-199">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件时，可以在这台计算机上运行规则，请使用返回的<b>RuleCondition</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-199">Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the rule can run on this machine only.</span></span> <span data-ttu-id="bad96-200">当您在另一台计算机上运行该规则时，该规则将显示 <b>olConditionOtherMachine</b> 条件处于启用状态。</span><span class="sxs-lookup"><span data-stu-id="bad96-200">When you run the same rule on another computer, the rule will show that the condition <b>olConditionOtherMachine</b> is enabled.</span></span></para>
+          <para><span data-ttu-id="bad96-201">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-201">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-202">您可以以编程方式启用这种类型的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-202">You can programmatically enable a rule condition of this type.</span></span> <span data-ttu-id="bad96-203">在某些情况下， <b>olConditionLocalMachine</b> 将自动启用另一个 <b>olConditionAccount</b> 规则条件的结果设置。</span><span class="sxs-lookup"><span data-stu-id="bad96-203">In certain cases, <b>olConditionLocalMachine</b> is automatically set as a result of enabling another rule condition such as <b>olConditionAccount</b>.</span></span> <span data-ttu-id="bad96-204">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-204">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnlyToMe">
@@ -1059,31 +647,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-165">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionOnlyToMe</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-165">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionOnlyToMe</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-166">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-166">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-205">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionOnlyToMe</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-205">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionOnlyToMe</b>.</span></span> <span data-ttu-id="bad96-206">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-206">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-167">
-            <para>使用返回的<b>RuleCondition</b>对象，枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件仅发送给您。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-167">
-              <para>Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is sent only to you.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-207">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的邮件仅发送给您，请使用返回的<b>RuleCondition</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-207">Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message is sent only to you.</span></span></para>
+          <para><span data-ttu-id="bad96-208">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-208">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-209">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-209">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnOtherMachine">
@@ -1109,33 +677,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-168">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionOtherMachine</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-168">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionOtherMachine</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-169">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-169">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-210">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionOtherMachine</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-210">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionOtherMachine</b>.</span></span> <span data-ttu-id="bad96-211">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-211">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-170">
-            <para>在枚举现有规则的例外条件的规则条件时，请使用返回的<b>RuleCondition</b>对象。此规则条件指示只能在本地计算机以外的某些计算机上运行规则。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</para>
-            <para>您不能以编程方式启用或禁用的类型<b>olConditionOtherMachine</b>条件。此类型的规则条件指示可以仅在不是当前的特定计算机上运行的规则。规则创建上计算机和规则条件<b>olConditionLocalMachineOnly</b>已启用，指示可以仅在该计算机上运行的规则时，将发生这种情况。在另一台计算机上运行相同的规则，该规则会显示是否启用了条件<b>olConditionOtherMachine</b> 。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-170">
-              <para>Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule. This rule condition indicates that the rule can run only on some machine other than the local machine.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</para>
-              <para>You cannot programmatically enable or disable a condition of type <b>olConditionOtherMachine</b>. This type of  rule condition indicates that the rule can run only on a specific computer that is not the current one. This happens when the  rule is created on that computer and the rule condition <b>olConditionLocalMachineOnly</b> is enabled, indicating that the rule can run only on that computer. When you run the same rule on another computer, the rule will show that the condition <b>olConditionOtherMachine</b> is enabled.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-212">在枚举现有规则的例外条件的规则条件时，请使用返回的<b>RuleCondition</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-212">Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule.</span></span> <span data-ttu-id="bad96-213">此规则条件指示规则只能在一些本地计算机以外的计算机上运行。</span><span class="sxs-lookup"><span data-stu-id="bad96-213">This rule condition indicates that the rule can run only on some machine other than the local machine.</span></span></para>
+          <para><span data-ttu-id="bad96-214">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-214">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span></para>
+          <para><span data-ttu-id="bad96-215">无法以编程方式启用或禁用类型 <b>olConditionOtherMachine</b> 的条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-215">You cannot programmatically enable or disable a condition of type <b>olConditionOtherMachine</b>.</span></span> <span data-ttu-id="bad96-216">此类型的规则条件指示可以仅在不是当前的特定计算机上运行的规则。</span><span class="sxs-lookup"><span data-stu-id="bad96-216">This type of  rule condition indicates that the rule can run only on a specific computer that is not the current one.</span></span> <span data-ttu-id="bad96-217">规则创建上计算机和规则条件<b>olConditionLocalMachineOnly</b>已启用，指示可以仅在该计算机上运行的规则时，将发生这种情况。</span><span class="sxs-lookup"><span data-stu-id="bad96-217">This happens when the  rule is created on that computer and the rule condition <b>olConditionLocalMachineOnly</b> is enabled, indicating that the rule can run only on that computer.</span></span> <span data-ttu-id="bad96-218">当您在另一台计算机上运行该规则时，该规则将显示 <b>olConditionOtherMachine</b> 条件处于启用状态。</span><span class="sxs-lookup"><span data-stu-id="bad96-218">When you run the same rule on another computer, the rule will show that the condition <b>olConditionOtherMachine</b> is enabled.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -1161,25 +708,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-p124">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-p124">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-p151">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="bad96-p151">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-173">
-            <para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-173">
-              <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-221">父对象的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Rule" />对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-221">The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RecipientAddress">
@@ -1205,31 +737,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-174">返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /><b>olConditionRecipientAddress</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-174">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> object with an <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> of <b>olConditionRecipientAddress</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-175">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-175">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-222">返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> <b>olConditionRecipientAddress</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-222">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> object with an <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> of <b>olConditionRecipientAddress</b>.</span></span> <span data-ttu-id="bad96-223">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-223">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-176">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的收件人地址包含使用返回的<b>AddressRuleCondition</b>对象指定的文本。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>AddressRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-176">
-              <para>Use the returned  <b>AddressRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the recipient address contain the specified text. </para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>AddressRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-224">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的收件人地址包含使用返回的<b>AddressRuleCondition</b>对象指定的文本。</span><span class="sxs-lookup"><span data-stu-id="bad96-224">Use the returned  <b>AddressRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the recipient address contain the specified text.</span></span> </para>
+          <para><span data-ttu-id="bad96-225">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>AddressRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-225">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>AddressRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-226">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-226">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderAddress">
@@ -1255,31 +767,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-177">返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /><b>olConditionSenderAddress</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-177">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> object with an <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> of <b>olConditionSenderAddress</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-178">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-178">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-227">返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> <b>olConditionSenderAddress</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-227">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> object with an <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> of <b>olConditionSenderAddress</b>.</span></span> <span data-ttu-id="bad96-228">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-228">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-179">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件发件人地址包含使用返回的<b>AddressRuleCondition</b>对象指定的文本。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>AddressRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-179">
-              <para>Use the returned  <b>AddressRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the sender address contains the specified text. </para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>AddressRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-229">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件发件人地址包含使用返回的<b>AddressRuleCondition</b>对象指定的文本。</span><span class="sxs-lookup"><span data-stu-id="bad96-229">Use the returned  <b>AddressRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the sender address contains the specified text.</span></span> </para>
+          <para><span data-ttu-id="bad96-230">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>AddressRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-230">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>AddressRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-231">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-231">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderInAddressList">
@@ -1305,31 +797,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-180">返回<see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /><b>olConditionAccount</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-180">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /> of <b>olConditionAccount</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-181">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-181">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-232">返回<see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /> <b>olConditionAccount</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-232">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /> of <b>olConditionAccount</b>.</span></span> <span data-ttu-id="bad96-233">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-233">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-182">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件中指定的发件人，使用返回的<b>SenderInAddressListRuleCondition</b>对象地址列表。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>SenderInAddressListRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-182">
-              <para>Use the returned  <b>SenderInAddressListRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the sender is in a specified address list.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>SenderInAddressListRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-234">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件中指定的发件人，使用返回的<b>SenderInAddressListRuleCondition</b>对象地址列表。</span><span class="sxs-lookup"><span data-stu-id="bad96-234">Use the returned  <b>SenderInAddressListRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the sender is in a specified address list.</span></span></para>
+          <para><span data-ttu-id="bad96-235">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>SenderInAddressListRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-235">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>SenderInAddressListRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-236">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-236">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentTo">
@@ -1355,31 +827,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-183">返回<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /><b>olConditionSentTo</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-183">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> of <b>olConditionSentTo</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-184">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-184">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-237">返回<see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> <b>olConditionSentTo</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-237">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> of <b>olConditionSentTo</b>.</span></span> <span data-ttu-id="bad96-238">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-238">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-185">
-            <para>使用返回的<b>ToOrFromRuleCondition</b>对象枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的收件人 (在收件人和抄送文本框） 的邮件是在指定的列表<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>ToOrFromRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-185">
-              <para>Use the returned  <b>ToOrFromRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the recipients (in the To and Cc text boxes) of the message are in the  specified list of <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>ToOrFromRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-239">使用返回的<b>ToOrFromRuleCondition</b>对象枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件的收件人 (在收件人和抄送文本框） 的邮件是在指定的列表<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />。</span><span class="sxs-lookup"><span data-stu-id="bad96-239">Use the returned  <b>ToOrFromRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the recipients (in the To and Cc text boxes) of the message are in the  specified list of <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</span></span></para>
+          <para><span data-ttu-id="bad96-240">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />集合始终返回<b>ToOrFromRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-240">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>ToOrFromRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-241">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-241">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1405,42 +857,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-186">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-186">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="ab2e9-187">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-187">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-242">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="bad96-242">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="bad96-243">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-243">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-188">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="bad96-244"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-244">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="bad96-245">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="bad96-245">Both members serve the same purpose.</span></span> <span data-ttu-id="bad96-246">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="bad96-246">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-188">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Subject">
@@ -1466,31 +892,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-189">返回<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionSubject</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-189">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> of <b>olConditionSubject</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-190">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-190">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-247">返回<see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionSubject</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-247">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> of <b>olConditionSubject</b>.</span></span> <span data-ttu-id="bad96-248">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-248">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-191">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件在邮件主题包含指定使用返回的<b>TextRuleCondition</b>对象文本。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>TextRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-191">
-              <para>Use the returned  <b>TextRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message subject contains the specified text.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>TextRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-249">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件在邮件主题包含指定使用返回的<b>TextRuleCondition</b>对象文本。</span><span class="sxs-lookup"><span data-stu-id="bad96-249">Use the returned  <b>TextRuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that the message subject contains the specified text.</span></span></para>
+          <para><span data-ttu-id="bad96-250">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />集合始终返回<b>TextRuleCondition</b>对象，而无论与此<b>RuleConditions</b>集合关联的规则是否已定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-250">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>TextRuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-251">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-251">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToMe">
@@ -1516,31 +922,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-192">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionTo</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-192">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionTo</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-193">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-193">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-252">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionTo</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-252">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionTo</b>.</span></span> <span data-ttu-id="bad96-253">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-253">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-194">
-            <para>枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件时，您的姓名位于收件人框中，使用返回的<b>RuleCondition</b>对象。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-194">
-              <para>Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that your name is in the To box.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-254">枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件时，您的姓名位于收件人框中，使用返回的<b>RuleCondition</b>对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-254">Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that your name is in the To box.</span></span></para>
+          <para><span data-ttu-id="bad96-255">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-255">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-256">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-256">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToOrCc">
@@ -1566,31 +952,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab2e9-195">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionToOrCc</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-195">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionToOrCc</b>.</span>
-          </span>
-          <span data-ttu-id="ab2e9-196">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-196">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bad96-257">返回<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象与<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionToOrCc</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-257">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> of <b>olConditionToOrCc</b>.</span></span> <span data-ttu-id="bad96-258">只读。</span><span class="sxs-lookup"><span data-stu-id="bad96-258">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ab2e9-197">
-            <para>使用返回的<b>RuleCondition</b>对象，枚举的规则条件或例外条件现有规则，或者在创建一个新规则来指定的条件或例外条件时，您的姓名位于收件人或抄送框。</para>
-            <para>此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab2e9-197">
-              <para>Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that your name is in the To or Cc box.</para>
-              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition. If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bad96-259">在枚举现有规则的规则条件或例外条件时，或者在创建一个新规则来指定您的姓名位于“收件人”或“抄送”框中的条件或例外条件时，使用返回的 <b>RuleCondition</b> 对象。</span><span class="sxs-lookup"><span data-stu-id="bad96-259">Use the returned  <b>RuleCondition</b> object when  enumerating the rule conditions or exception conditions of an existing rule, or when creating a new rule that specifies the condition or exception condition that your name is in the To or Cc box.</span></span></para>
+          <para><span data-ttu-id="bad96-260">此属性的<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />始终集合返回一个<b>RuleCondition</b>对象，而不管是否与此<b>RuleConditions</b>集合关联的规则定义了这样的规则条件。</span><span class="sxs-lookup"><span data-stu-id="bad96-260">This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> collection always returns a <b>RuleCondition</b> object regardless of whether the rule associated with this <b>RuleConditions</b> collection has defined such a rule condition.</span></span> <span data-ttu-id="bad96-261">如果规则具有定义，以及启用这样的规则条件，则<see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" />将为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="bad96-261">If the rule has defined and enabled such a rule condition, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> will be <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

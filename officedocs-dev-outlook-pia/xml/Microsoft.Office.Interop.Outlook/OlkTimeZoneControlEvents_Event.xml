@@ -1,13 +1,5 @@
 <Type Name="OlkTimeZoneControlEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ace53552d870de047458ea4d3f31ae51e1131a0d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633013" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkTimeZoneControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ffd4b13a2783277c17f8b79a4ac7a06cf6e5fb22" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897722" /></Metadata><TypeSignature Language="C#" Value="public interface OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkTimeZoneControlEvents_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="be48b-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="be48b-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="2c59e-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span><span class="sxs-lookup"><span data-stu-id="2c59e-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,66 +40,34 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_AfterUpdateEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-105">当控件中的数据已通过用户界面更改后发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-105">Occurs after the data in the control has been changed through the user interface.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="be48b-106">
-            <para>
-              <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" />并且<b>AfterUpdate</b>可以在任何时间控件中的数据保存到项目。典型的此控件，如下所示，涉及<b>AfterUpdate</b>事件序列： </para>
-            <list type="number">
-              <item>
-                <description>用户将焦点放在控件上</description>
-              </item>
-              <item>
-                <description>
-                  <b>BeforeUpdate</b>发生</description>
-              </item>
-              <item>
-                <description>控件数据被更新</description>
-              </item>
-              <item>
-                <description>
-                  <b>AfterUpdate</b>发生</description>
-              </item>
-              <item>
-                <description>
-                  <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" />发生： 用户将焦点从控件上</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-106">
-              <para>
-                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" /> and <b>AfterUpdate</b> can occur any time the data in the control is being saved to the item. The typical sequence of events involving <b>AfterUpdate</b> for this control is as follows:  </para>
-              <list type="number">
-                <item>
-                  <description>User focuses on the control</description>
-                </item>
-                <item>
-                  <description>
-                    <b>BeforeUpdate</b> occurs</description>
-                </item>
-                <item>
-                  <description>Control data is updated</description>
-                </item>
-                <item>
-                  <description>
-                    <b>AfterUpdate</b> occurs</description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> occurs: User moves focus away from control </description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2c59e-105">当控件中的数据已通过用户界面更改后发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-105">Occurs after the data in the control has been changed through the user interface.</span></span></summary>
+        <remarks><para><span data-ttu-id="2c59e-106">
+            <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" />并且<b>AfterUpdate</b>可以在任何时间控件中的数据保存到项目。</span><span class="sxs-lookup"><span data-stu-id="2c59e-106">
+            <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" /> and <b>AfterUpdate</b> can occur any time the data in the control is being saved to the item.</span></span> <span data-ttu-id="2c59e-107">典型的涉及 <b>更新后</b> ，此控件的事件序列如下所示:</span><span class="sxs-lookup"><span data-stu-id="2c59e-107">The typical sequence of events involving <b>AfterUpdate</b> for this control is as follows:</span></span>  </para>
+          <list type="number">
+            <item>
+              <description><span data-ttu-id="2c59e-108">用户将焦点放在控件上</span><span class="sxs-lookup"><span data-stu-id="2c59e-108">User focuses on the control</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="2c59e-109">出现 
+                <b>更新前</b></span><span class="sxs-lookup"><span data-stu-id="2c59e-109">
+                <b>BeforeUpdate</b> occurs</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="2c59e-110">控件数据被更新</span><span class="sxs-lookup"><span data-stu-id="2c59e-110">Control data is updated</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="2c59e-111">
+                <b>更新后</b> 发生</span><span class="sxs-lookup"><span data-stu-id="2c59e-111">
+                <b>AfterUpdate</b> occurs</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="2c59e-112">
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" />发生： 用户将焦点从控件上</span><span class="sxs-lookup"><span data-stu-id="2c59e-112">
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> occurs: User moves focus away from control</span></span> </description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeUpdate">
@@ -130,68 +85,35 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_BeforeUpdateEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-107">当控件中的数据通过用户界面更改并且即将保存到项目中时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-107">Occurs when the data in the control is changed through the user interface and is about to be saved to the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="be48b-108">
-            <para>取消此属性将还原为属性的当前值的控件，并将焦点返回到该控件。</para>
-            <para>
-              <b>BeforeUpdate</b>和<see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" />可能发生任何控件中的数据保存到项目的时间。典型的此控件，如下所示，涉及<b>AfterUpdate</b>事件序列： </para>
-            <list type="number">
-              <item>
-                <description>用户将焦点放在控件上</description>
-              </item>
-              <item>
-                <description>
-                  <b>BeforeUpdate</b>发生</description>
-              </item>
-              <item>
-                <description>控件数据被更新</description>
-              </item>
-              <item>
-                <description>
-                  <b>AfterUpdate</b>发生</description>
-              </item>
-              <item>
-                <description>
-                  <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" />发生： 用户将焦点从控件上</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-108">
-              <para>Canceling this property will revert the control to the current value of the property and return the focus to the control.</para>
-              <para>
-                <b>BeforeUpdate</b> and <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" /> can occur any time the data in the control is being saved to the item. The typical sequence of events involving <b>AfterUpdate</b> for this control is as follows:  </para>
-              <list type="number">
-                <item>
-                  <description>User focuses on the control</description>
-                </item>
-                <item>
-                  <description>
-                    <b>BeforeUpdate</b>  occurs</description>
-                </item>
-                <item>
-                  <description>Control data is updated</description>
-                </item>
-                <item>
-                  <description>
-                    <b>AfterUpdate</b> occurs</description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> occurs: User moves focus away from control</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2c59e-113">当控件中的数据通过用户界面更改并且即将保存到项目中时发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-113">Occurs when the data in the control is changed through the user interface and is about to be saved to the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="2c59e-114">取消此属性会将该控件恢复为该属性的当前值，并将焦点返回到该控件。</span><span class="sxs-lookup"><span data-stu-id="2c59e-114">Canceling this property will revert the control to the current value of the property and return the focus to the control.</span></span></para>
+          <para><span data-ttu-id="2c59e-115">
+            <b>BeforeUpdate</b>和<see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" />可能发生任何控件中的数据保存到项目的时间。</span><span class="sxs-lookup"><span data-stu-id="2c59e-115">
+            <b>BeforeUpdate</b> and <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" /> can occur any time the data in the control is being saved to the item.</span></span> <span data-ttu-id="2c59e-116">典型的涉及 <b>更新后</b> ，此控件的事件序列如下所示:</span><span class="sxs-lookup"><span data-stu-id="2c59e-116">The typical sequence of events involving <b>AfterUpdate</b> for this control is as follows:</span></span>  </para>
+          <list type="number">
+            <item>
+              <description><span data-ttu-id="2c59e-117">用户将焦点放在控件上</span><span class="sxs-lookup"><span data-stu-id="2c59e-117">User focuses on the control</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="2c59e-118">
+                <b>BeforeUpdate</b>发生</span><span class="sxs-lookup"><span data-stu-id="2c59e-118">
+                <b>BeforeUpdate</b>  occurs</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="2c59e-119">控件数据被更新</span><span class="sxs-lookup"><span data-stu-id="2c59e-119">Control data is updated</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="2c59e-120">
+                <b>更新后</b> 发生</span><span class="sxs-lookup"><span data-stu-id="2c59e-120">
+                <b>AfterUpdate</b> occurs</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="2c59e-121">
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" />发生： 用户将焦点从控件上</span><span class="sxs-lookup"><span data-stu-id="2c59e-121">
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> occurs: User moves focus away from control</span></span></description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Change">
@@ -209,12 +131,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-109">发生此事件时<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.Value" />属性更改。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-109">Occurs when the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.Value" /> property changes.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c59e-122">发生此事件时<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.Value" />属性更改。</span><span class="sxs-lookup"><span data-stu-id="2c59e-122">Occurs when the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.Value" /> property changes.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -233,12 +150,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ClickEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-110">当用户在控件内单击时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-110">Occurs when the user clicks inside the control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c59e-123">当用户在控件内单击时发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-123">Occurs when the user clicks inside the control.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -257,12 +169,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DoubleClickEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-111">当用户在控件内双击时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-111">Occurs when the user double-clicks inside the control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c59e-124">当用户在控件内双击时发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-124">Occurs when the user double-clicks inside the control.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -281,12 +188,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DropButtonClickEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-112">当用户单击下拉按钮以展开下拉列表中所在的时区控件，或在<see cref="M:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.DropDown" />以编程方式调用方法。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-112">Occurs when the user clicks the drop button to expand the drop-down list in the time zone control, or when the <see cref="M:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.DropDown" /> method is called programmatically.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c59e-125">当用户单击下拉按钮以展开下拉列表中所在的时区控件，或在<see cref="M:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.DropDown" />以编程方式调用方法。</span><span class="sxs-lookup"><span data-stu-id="2c59e-125">Occurs when the user clicks the drop button to expand the drop-down list in the time zone control, or when the <see cref="M:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.DropDown" /> method is called programmatically.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -305,24 +207,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_EnterEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-113">当控件获得焦点时前, 一个控件的 <b>Exit</b> 事件之后立即发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-113">Occurs when the control receives focus, immediately after the previous control's <b>Exit</b> event.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="be48b-114">
-            <para>这是托管代码控件公开的或 Microsoft Visual Basic 6 中的<b>GotFocus</b>事件类似。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-114">
-              <para>This is similar to the <b>GotFocus</b> event exposed by managed-code controls or in Microsoft Visual Basic 6.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2c59e-126">当控件获得焦点时前, 一个控件的 <b>Exit</b> 事件之后立即发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-126">Occurs when the control receives focus, immediately after the previous control's <b>Exit</b> event.</span></span></summary>
+        <remarks><para><span data-ttu-id="2c59e-p104">这是类似于 <b>GotFocus</b> 事件公开由托管代码控件或 Microsoft Visual Basic 6 中。</span><span class="sxs-lookup"><span data-stu-id="2c59e-p104">This is similar to the <b>GotFocus</b> event exposed by managed-code controls or in Microsoft Visual Basic 6.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exit">
@@ -340,12 +227,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ExitEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-115">在焦点从此控件移到同一窗体上的另一个控件上后立即发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-115">Occurs just after the focus passes from this control to another control on the same form.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c59e-128">在焦点从此控件移到同一窗体上的另一个控件上后立即发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-128">Occurs just after the focus passes from this control to another control on the same form.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -364,25 +246,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyDownEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-116">当用户按下某个键时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-116">Occurs when a user presses a key.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="be48b-117">
-            <para>
-              <b>KeyDown</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-117">
-              <para>The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyDown</b> event is accessible through the <paramref name="Shift" /> parameter.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2c59e-129">当用户按下某个键时发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-129">Occurs when a user presses a key.</span></span></summary>
+        <remarks><para><span data-ttu-id="2c59e-130"><b>KeyDown</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过访问<paramref name="Shift" />参数。</span><span class="sxs-lookup"><span data-stu-id="2c59e-130">The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyDown</b> event is accessible through the <paramref name="Shift" /> parameter.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -400,55 +266,24 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyPressEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-118">当用户按某个 ANSI 键时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-118">Occurs when the user presses an ANSI key.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="be48b-119">
-            <para>生成可键入字符，当用户按其 ANSI 键。用户运行窗体在窗体上按下某个 ANSI 键或上的某个控件具有焦点时，将发生<b>KeyPress</b>事件。之前或之后释放该键，可能发生此事件。</para>
-            <para>
-              <b>KeyPress</b>事件以下情况下不会发生：</para>
-            <list type="bullet">
-              <item>
-                <para>按选项卡上</para>
-              </item>
-              <item>
-                <para>按输入</para>
-              </item>
-              <item>
-                <para>当键击导致焦点从一个控件移到另一个</para>
-              </item>
-              <item>
-                <para>按箭头键</para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-119">
-              <para>An ANSI key is one that produces a typeable character when the user presses it. The <b>KeyPress</b> event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.</para>
-              <para>A <b>KeyPress</b> event does not occur under the following conditions:  </para>
-              <list type="bullet">
-                <item>
-                  <para>Pressing TAB </para>
-                </item>
-                <item>
-                  <para>Pressing ENTER </para>
-                </item>
-                <item>
-                  <para>Pressing an arrow key </para>
-                </item>
-                <item>
-                  <para>When a keystroke causes the focus to move from one control to another</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2c59e-131">当用户按某个 ANSI 键时发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-131">Occurs when the user presses an ANSI key.</span></span></summary>
+        <remarks><para><span data-ttu-id="2c59e-p106">一个 ANSI 键是一种用户按下它时生成可键入字符。当用户在运行时该窗体的窗体上按一个 ANSI 键或上的某个控件具有焦点时，将发生 <b>KeyPress</b> 事件。之前或之后释放该键，则可能发生此事件。</span><span class="sxs-lookup"><span data-stu-id="2c59e-p106">An ANSI key is one that produces a typeable character when the user presses it. The <b>KeyPress</b> event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.</span></span></para>
+          <para><span data-ttu-id="2c59e-135">在下列情况下，不发生 <b>KeyPress</b> 事件:</span><span class="sxs-lookup"><span data-stu-id="2c59e-135">A <b>KeyPress</b> event does not occur under the following conditions:</span></span>  </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="2c59e-136">按 Tab。</span><span class="sxs-lookup"><span data-stu-id="2c59e-136">Pressing TAB</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="2c59e-137">按 Enter。</span><span class="sxs-lookup"><span data-stu-id="2c59e-137">Pressing ENTER</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="2c59e-138">按箭头键</span><span class="sxs-lookup"><span data-stu-id="2c59e-138">Pressing an arrow key</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="2c59e-139">当键击导致焦点从一个控件移到另一个控件上时</span><span class="sxs-lookup"><span data-stu-id="2c59e-139">When a keystroke causes the focus to move from one control to another</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -466,24 +301,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyUpEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-120">当用户释放某个键时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-120">Occurs when the user releases a key.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="be48b-121">
-            <para>在<b>KeyUp</b>事件过程中按下的修改键 （SHIFT、 CTRL 或 ALT） 的状态是可通过 Shift 参数访问。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-121">
-              <para>The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyUp</b> event is accessible through the Shift parameter.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2c59e-140">当用户释放某个键时发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-140">Occurs when the user releases a key.</span></span></summary>
+        <remarks><para><span data-ttu-id="2c59e-p107">在 <b>KeyUp</b> 事件过程中按下的修改键（Shift、Ctrl 或 Alt）的状态可通过 Shift 参数访问。</span><span class="sxs-lookup"><span data-stu-id="2c59e-p107">The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyUp</b> event is accessible through the Shift parameter.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -501,12 +321,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseDownEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-122">当用户在控件上按下鼠标按钮时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-122">Occurs when the user presses a mouse button on the control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c59e-142">当用户在控件上按下鼠标按钮时发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-142">Occurs when the user presses a mouse button on the control.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -525,24 +340,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseMoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-123">在控件上出现鼠标移动后发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-123">Occurs after a mouse movement has been registered over the control.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="be48b-124">
-            <para>按 ALT 键可触发<b>MouseMove</b>事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-124">
-              <para>Pressing the ALT key fires the <b>MouseMove</b> event.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2c59e-143">在控件上出现鼠标移动后发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-143">Occurs after a mouse movement has been registered over the control.</span></span></summary>
+        <remarks><para><span data-ttu-id="2c59e-144">按下 ALT键触发 <b>MouseMove</b> 事件。</span><span class="sxs-lookup"><span data-stu-id="2c59e-144">Pressing the ALT key fires the <b>MouseMove</b> event.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">
@@ -560,12 +360,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseUpEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="be48b-125">当用户在控件上释放已经按下的鼠标按钮后发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="be48b-125">Occurs after the user releases a mouse button that has been pressed on the control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c59e-145">当用户在控件上释放已经按下的鼠标按钮后发生。</span><span class="sxs-lookup"><span data-stu-id="2c59e-145">Occurs after the user releases a mouse button that has been pressed on the control.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

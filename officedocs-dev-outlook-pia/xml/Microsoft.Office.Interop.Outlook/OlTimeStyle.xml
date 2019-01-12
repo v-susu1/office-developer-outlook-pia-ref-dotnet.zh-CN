@@ -1,13 +1,5 @@
 <Type Name="OlTimeStyle" FullName="Microsoft.Office.Interop.Outlook.OlTimeStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f0e5b8b037c6560b38e2cf451d02456b1d07b151" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631648" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlTimeStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="06def39a148d0498b4fc0eff481c52f16cfbf7fd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898478" /></Metadata><TypeSignature Language="C#" Value="public enum OlTimeStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlTimeStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlTimeStyle" />
@@ -25,24 +17,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="1da08-101">指定时间值的显示方式以及时间控件解释时间值条目的方式。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1da08-101">Specifies  how time values are displayed and how entries of time values are interpreted by  a time control.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="1da08-102">
-        <para>使用时间控件具有<b>olTimeStyleShortDuration</b>样式的持续时间字段，如<see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" />的<see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />。使用<b>olTimeStyleTimeDuration</b>样式时间控件的约会项目的结束时间。使用<b>olTimeStyleTimeOnly</b>样式时间控件的约会项目的开始时间。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1da08-102">
-          <para>Use the time control with the <b>olTimeStyleShortDuration</b> style for duration fields, such as the <see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" />  of a <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />. Use the time control with the <b>olTimeStyleTimeDuration</b> style for the end time of an appointment item. Use the time control with the <b>olTimeStyleTimeOnly</b> style for the start time of an appointment item.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="b2a5e-101">指定时间值的显示方式以及时间控件解释时间值条目的方式。</span><span class="sxs-lookup"><span data-stu-id="b2a5e-101">Specifies  how time values are displayed and how entries of time values are interpreted by  a time control.</span></span></summary>
+    <remarks><para><span data-ttu-id="b2a5e-102">使用时间控件具有<b>olTimeStyleShortDuration</b>样式的持续时间字段，如<see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" />的<see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />。</span><span class="sxs-lookup"><span data-stu-id="b2a5e-102">Use the time control with the <b>olTimeStyleShortDuration</b> style for duration fields, such as the <see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" />  of a <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />.</span></span> <span data-ttu-id="b2a5e-103">将具有 <b>olTimeStyleTimeDuration</b> 样式的时间控件用于约会项目的结束时间。</span><span class="sxs-lookup"><span data-stu-id="b2a5e-103">Use the time control with the <b>olTimeStyleTimeDuration</b> style for the end time of an appointment item.</span></span> <span data-ttu-id="b2a5e-104">将具有 <b>olTimeStyleTimeOnly</b> 样式的时间控件用于约会项目的开始时间。</span><span class="sxs-lookup"><span data-stu-id="b2a5e-104">Use the time control with the <b>olTimeStyleTimeOnly</b> style for the start time of an appointment item.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olTimeStyleShortDuration">
@@ -61,12 +38,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1da08-103">时间控件的下拉部分仅显示持续时间值由设置的间隔<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1da08-103">The drop-down portion of the time control displays only duration values with the interval set by the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" /> property.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2a5e-105">时间控件的下拉部分仅显示持续时间值由设置的间隔<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />属性。</span><span class="sxs-lookup"><span data-stu-id="b2a5e-105">The drop-down portion of the time control displays only duration values with the interval set by the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" /> property.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTimeStyleTimeDuration">
@@ -85,16 +57,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1da08-104">时间控件的下拉部分显示时间值从开始<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />，并作为增量使用<b>OlkTimeControl.IntervalTime</b>属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1da08-104">The drop-down portion of the time control displays time values starting from the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> and uses the <b>OlkTimeControl.IntervalTime</b> property as the increment.</span>
-          </span>
-          <span data-ttu-id="1da08-105">时间控件的编辑框中显示的持续时间从 <b>ReferenceTime</b> 到所选的时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1da08-105">The edit box of the time control displays the duration from the <b>ReferenceTime</b> to the selected time.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2a5e-106">时间控件的下拉部分显示时间值从开始<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />，并作为增量使用<b>OlkTimeControl.IntervalTime</b>属性。</span><span class="sxs-lookup"><span data-stu-id="b2a5e-106">The drop-down portion of the time control displays time values starting from the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> and uses the <b>OlkTimeControl.IntervalTime</b> property as the increment.</span></span>  <span data-ttu-id="b2a5e-107">时间控件的编辑框中显示的持续时间从 <b>ReferenceTime</b> 到所选的时间。</span><span class="sxs-lookup"><span data-stu-id="b2a5e-107">The edit box of the time control displays the duration from the <b>ReferenceTime</b> to the selected time.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTimeStyleTimeOnly">
@@ -113,12 +76,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1da08-106">时间控件的下拉列表部分只显示时间值的 <b>OlkTimeControl.IntervalTime</b> 属性设置的时间间隔。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1da08-106">The drop-down portion of the time control displays only time values with the interval set by the <b>OlkTimeControl.IntervalTime</b> property.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2a5e-108">时间控件的下拉列表部分只显示时间值的 <b>OlkTimeControl.IntervalTime</b> 属性设置的时间间隔。</span><span class="sxs-lookup"><span data-stu-id="b2a5e-108">The drop-down portion of the time control displays only time values with the interval set by the <b>OlkTimeControl.IntervalTime</b> property.</span></span></summary>
       </Docs>
     </Member>
   </Members>
