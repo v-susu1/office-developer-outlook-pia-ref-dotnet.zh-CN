@@ -1,13 +1,5 @@
 <Type Name="_CalendarView" FullName="Microsoft.Office.Interop.Outlook._CalendarView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632268" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CalendarView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896511" /></Metadata><TypeSignature Language="C#" Value="public interface _CalendarView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CalendarView" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ca2cd-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ca2cd-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="ca2cd-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ca2cd-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="ca2cd-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ca2cd-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="ca2cd-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ca2cd-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="94968-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="94968-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="94968-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="94968-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="94968-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="94968-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="94968-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />。</span><span class="sxs-lookup"><span data-stu-id="94968-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="94968-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="94968-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,12 +71,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-107">适用<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象的当前视图。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-107">Applies the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object to the current view.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-107">适用<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象的当前视图。</span><span class="sxs-lookup"><span data-stu-id="94968-107">Applies the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object to the current view.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,16 +98,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />对象，表示的格式设置规则适用于<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> object that represents the set of formatting rules applicable to the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-109">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />对象，表示的格式设置规则适用于<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> object that represents the set of formatting rules applicable to the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-109">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-109">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -177,16 +129,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-110">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在包含 Outlook 项目的日期中显示中日期选择区为加粗<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-110">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether days that contain Outlook items should be displayed in bold within the Date Navigator for the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-111">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-111">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-110">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否应在包含 Outlook 项目的日期中显示中日期选择区为加粗<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-110">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether days that contain Outlook items should be displayed in bold within the Date Navigator for the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-111">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-111">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -217,16 +160,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-112">返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，该值指示是否在中显示 Outlook 项目的主题信息内加粗<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-112">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the subject information for Outlook items is displayed in bold within a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-113">读/写</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-113">Read/write</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-112">返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，该值指示是否在中显示 Outlook 项目的主题信息内加粗<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-112">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the subject information for Outlook items is displayed in bold within a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-113">读/写</span><span class="sxs-lookup"><span data-stu-id="94968-113">Read/write</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -257,16 +191,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarViewMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-114">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" />，它确定的当前视图模式<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-114">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" /> that determines the current view mode of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-115">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-115">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-114">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" />，它确定的当前视图模式<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-114">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" /> that determines the current view mode of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-115">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-115">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -294,16 +219,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-116">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="ca2cd-117">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-116">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="94968-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="94968-117">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-117">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -331,30 +247,10 @@
         <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="ca2cd-118">新视图的名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-118">The name of the new view.</span>
-          </span>
-        </param>
-        <param name="SaveOption">
-          <span data-ttu-id="ca2cd-119">新视图的保存选项。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-119">The save option for the new view.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ca2cd-120">创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象基于现有<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-120">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object based on the existing <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="ca2cd-121">表示新视图的 <b>视图</b> 对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-121">A <b>View</b> object that represents the new view.</span>
-          </span>
-        </returns>
+        <param name="Name"><span data-ttu-id="94968-118">新视图的名称。</span><span class="sxs-lookup"><span data-stu-id="94968-118">The name of the new view.</span></span></param>
+        <param name="SaveOption"><span data-ttu-id="94968-119">新视图的保存选项。</span><span class="sxs-lookup"><span data-stu-id="94968-119">The save option for the new view.</span></span></param>
+        <summary><span data-ttu-id="94968-120">创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象基于现有<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-120">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object based on the existing <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span></summary>
+        <returns><span data-ttu-id="94968-121">表示新视图的 <b>视图</b> 对象。</span><span class="sxs-lookup"><span data-stu-id="94968-121">A <b>View</b> object that represents the new view.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -384,29 +280,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-122">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值表示的连续中显示的天数<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-122">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the number of consecutive days displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-123">读/写</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-123">Read/write</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-122">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值表示的连续中显示的天数<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-122">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the number of consecutive days displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-123">读/写</span><span class="sxs-lookup"><span data-stu-id="94968-123">Read/write</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-124">
-            <para>此属性可以设置为 2 和 14 之间的值。如果此属性设置为小于 2 的值，则将该属性设置为 2。如果此属性设置为一个值大于 14，该属性设置为 14。此属性的默认值为 5。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-124">
-              <para>This property can be set to a value between 2 and 14. If this property is set to a value less than 2, the property is set to 2. If this property is set to a value greater than 14, the property is set to 14. The default value for this property is 5.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-124">此属性可以设置为 2 和 14 之间的值。</span><span class="sxs-lookup"><span data-stu-id="94968-124">This property can be set to a value between 2 and 14.</span></span> <span data-ttu-id="94968-125">如果此属性设置为小于 2 的值，则会将此属性设置为 2。</span><span class="sxs-lookup"><span data-stu-id="94968-125">If this property is set to a value less than 2, the property is set to 2.</span></span> <span data-ttu-id="94968-126">如果此属性设置为一个值大于 14，该属性设置为 14。</span><span class="sxs-lookup"><span data-stu-id="94968-126">If this property is set to a value greater than 14, the property is set to 14.</span></span> <span data-ttu-id="94968-127">此属性的默认值为 5。</span><span class="sxs-lookup"><span data-stu-id="94968-127">The default value for this property is 5.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DayWeekFont">
@@ -435,12 +312,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-125">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-125">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-128">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="94968-128">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -471,12 +343,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-126">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-126">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-129">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="94968-129">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -507,16 +374,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-127">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" />常量，代表用于表示中的时间段刻度<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-127">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" /> constant that represents the scale used to represent time periods in a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-128">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-130">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" />常量，代表用于表示中的时间段刻度<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-130">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" /> constant that represents the scale used to represent time periods in a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-131">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-131">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -542,12 +400,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-129">从集合中删除对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-129">Deletes an object from a collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-132">从集合中删除对象。</span><span class="sxs-lookup"><span data-stu-id="94968-132">Deletes an object from a collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -574,29 +427,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-130">返回包含字符串表示中显示的天的<b>对象</b>数组<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-130">Returns an <b>Object</b> array containing strings that represent the days displayed in a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-131">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-133">返回包含字符串表示中显示的天的<b>对象</b>数组<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-133">Returns an <b>Object</b> array containing strings that represent the days displayed in a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-134">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-134">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-132">
-            <para>此属性返回其中每个日期字符串代表<b>CalendarView</b>对象中显示一天的日期字符串的数组。日期字符串的格式用于操作系统使用的短日期格式设置。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-132">
-              <para>This property returns an array of date strings, in which each date string represents a day displayed in the <b>CalendarView</b> object. The date strings are formatted using the short date format settings for the operating system.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-p112">此属性返回一个数组的日期字符串，其中每个日期字符串表示 <b>日历视图</b> 对象显示一天。日期字符串的格式使用的操作系统的短日期格式设置。</span><span class="sxs-lookup"><span data-stu-id="94968-p112">This property returns an array of date strings, in which each date string represents a day displayed in the <b>CalendarView</b> object. The date strings are formatted using the short date format settings for the operating system.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndField">
@@ -625,29 +459,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-133">返回或设置一个值，该值代表结束持续时间中显示的 Outlook 项目属性的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-133">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the name of the property that ends the time duration for Outlook items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-134">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-134">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-137">返回或设置一个值，该值代表结束持续时间中显示的 Outlook 项目属性的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-137">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the name of the property that ends the time duration for Outlook items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-138">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-138">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-135">
-            <para>值<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" />和<b>EndField</b>属性指示的 Outlook 项目属性使用在<b>CalendarView</b>对象，表示的 Outlook 项目的持续时间。可以指定自定义和内置属性，但不允许仅日期/时间属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-135">
-              <para>The values of the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> and <b>EndField</b> properties indicate which Outlook item properties are used by the <b>CalendarView</b> object to represent the duration of an Outlook item. Both custom and built-in properties can be specified, but only date/time properties are allowed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-139">值<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" />和<b>EndField</b>属性指示的 Outlook 项目属性使用在<b>CalendarView</b>对象，表示的 Outlook 项目的持续时间。</span><span class="sxs-lookup"><span data-stu-id="94968-139">The values of the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> and <b>EndField</b> properties indicate which Outlook item properties are used by the <b>CalendarView</b> object to represent the duration of an Outlook item.</span></span> <span data-ttu-id="94968-140">可以指定自定义和内置属性，但不允许仅日期/时间属性。</span><span class="sxs-lookup"><span data-stu-id="94968-140">Both custom and built-in properties can be specified, but only date/time properties are allowed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Filter">
@@ -676,29 +491,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-136">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的筛选器。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-136">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span>
-          </span>
-          <span data-ttu-id="ca2cd-137">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-137">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-141">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的筛选器。</span><span class="sxs-lookup"><span data-stu-id="94968-141">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span></span>  <span data-ttu-id="94968-142">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-142">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-138">
-            <para>此属性的值是一个字符串，在 DAV 搜索和定位 (DASL) 语法中，表示当前视图的筛选器。有关使用视图中的筛选项目的 DASL 语法的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-138">
-              <para>The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view. For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-143">此属性的值是字符串，在 DAV 搜索和定位 (DASL) 语法中，该字符串代表当前的视图筛选器。</span><span class="sxs-lookup"><span data-stu-id="94968-143">The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view.</span></span> <span data-ttu-id="94968-144">有关使用视图中的筛选项目的 DASL 语法的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87855">筛选项目</a></span><span class="sxs-lookup"><span data-stu-id="94968-144">For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -724,18 +520,8 @@
         <Parameter Name="Date" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="Date">
-          <span data-ttu-id="ca2cd-139">应当将视图更改到的日期。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-139">The date to which the view should be changed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ca2cd-140">更改当前视图用来显示信息的日期。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-140">Changes the date used by the current view to display information.</span>
-          </span>
-        </summary>
+        <param name="Date"><span data-ttu-id="94968-145">应当将视图更改到的日期。</span><span class="sxs-lookup"><span data-stu-id="94968-145">The date to which the view should be changed.</span></span></param>
+        <summary><span data-ttu-id="94968-146">更改当前视图用来显示信息的日期。</span><span class="sxs-lookup"><span data-stu-id="94968-146">Changes the date used by the current view to display information.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -765,32 +551,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-141">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的语言设置。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-141">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the view.</span>
-          </span>
-          <span data-ttu-id="ca2cd-142">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-142">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-147">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，表示视图的语言设置。</span><span class="sxs-lookup"><span data-stu-id="94968-147">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the view.</span></span> <span data-ttu-id="94968-148">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-148">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-143">
-            <para>
-              <b>语言</b>属性使用<b>字符串</b>（C# 中的<b>字符串</b>） 来表示 ISO 语言标记。例如，"EN-US"的字符串表示"美国-英语。"的 ISO 代码</para>
-            <para>如果指定了有效的语言代码，该对象将只能在指定的语言类型视图菜单中可用。如果未不指定任何值，则对象项是可用于所有语言类型。此属性的默认值为空字符串。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-143">
-              <para>The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag. For example, the string "EN-US" represents the ISO code for "United States - English."</para>
-              <para>If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-149"><b>Language</b>属性使用<b>字符串</b>（C# 中的<b>字符串</b>） 来表示 ISO 语言标记。</span><span class="sxs-lookup"><span data-stu-id="94968-149">The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag.</span></span> <span data-ttu-id="94968-150">例如，"EN-US"的字符串表示"美国-英语。"的 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="94968-150">For example, the string "EN-US" represents the ISO code for "United States - English."</span></span></para>
+          <para><span data-ttu-id="94968-p119">如果指定了有效的语言代码，对象将仅在指定语言类型的 "视图"菜单中可用。如果未指定值，则该对象项目对所有语言类型都可用。此属性的默认值为一个空字符串。</span><span class="sxs-lookup"><span data-stu-id="94968-p119">If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -819,29 +584,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-144">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示用户是否可以修改视图的设置。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-144">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the view.</span>
-          </span>
-          <span data-ttu-id="ca2cd-145">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-145">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-154">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示用户是否可以修改视图的设置。</span><span class="sxs-lookup"><span data-stu-id="94968-154">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the view.</span></span> <span data-ttu-id="94968-155">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-155">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-146">
-            <para>如果<b>，则返回 True</b>，则用户可以修改指定视图的设置。但是，不会保存界面所做的更改。如果<b>False</b> （默认值），任何更改将保存。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-146">
-              <para>If <b>True</b>, the user can modify the settings of the specified view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-p121">如果 <b>True</b> ，用户可以修改指定视图的设置。但是，将不保存对接口进行更改。如果 <b>False</b> (默认值)，任何更改都将保存。</span><span class="sxs-lookup"><span data-stu-id="94968-p121">If <b>True</b>, the user can modify the settings of the specified view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MonthFont">
@@ -870,12 +616,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-147">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-147">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-159">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="94968-159">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -906,29 +647,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-148">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否中显示 Outlook 项目的结束时间<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-148">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether end times for Outlook items are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-149">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-149">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-160">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否中显示 Outlook 项目的结束时间<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-160">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether end times for Outlook items are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-161">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-161">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-150">
-            <para>此属性的值是时才适用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" />的<b>CalendarView</b>对象的属性设置为<b>olCalendarViewMonth</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-150">
-              <para>The value of this property is applicable only when the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> property of the <b>CalendarView</b> object is set to <b>olCalendarViewMonth</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-162">此属性的值是时才适用<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" />的<b>CalendarView</b>对象的属性设置为<b>olCalendarViewMonth</b>。</span><span class="sxs-lookup"><span data-stu-id="94968-162">The value of this property is applicable only when the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> property of the <b>CalendarView</b> object is set to <b>olCalendarViewMonth</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -957,16 +679,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-151">返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-151">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-152">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-152">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-163">返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span><span class="sxs-lookup"><span data-stu-id="94968-163">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="94968-164">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-164">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -994,12 +707,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-p117">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-p117">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-p124">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="94968-p124">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1025,24 +733,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-155">将内置的 Microsoft Outlook 视图重置为原始设置。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-155">Resets a built-in Microsoft Outlook view to its original settings.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="ca2cd-156">
-            <para>此方法仅应用于内置 Outlook 视图。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-156">
-              <para>This method works only on built-in Outlook views.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="94968-167">将内置的 Microsoft Outlook 视图重置为原始设置。</span><span class="sxs-lookup"><span data-stu-id="94968-167">Resets a built-in Microsoft Outlook view to its original settings.</span></span></summary>
+        <remarks><para><span data-ttu-id="94968-168">此方法仅应用于内置 Outlook 视图。</span><span class="sxs-lookup"><span data-stu-id="94968-168">This method works only on built-in Outlook views.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -1066,12 +759,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-157">保存视图或保存对视图的更改。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-157">Saves the view, or saves the changes to a view.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-169">保存视图或保存对视图的更改。</span><span class="sxs-lookup"><span data-stu-id="94968-169">Saves the view, or saves the changes to a view.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1098,30 +786,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-158">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />附加到视图的常量，指定指定的视图位于的文件夹和读取的权限。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-158">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span>
-          </span>
-          <span data-ttu-id="ca2cd-159">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-159">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-170">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />附加到视图的常量，指定指定的视图位于的文件夹和读取的权限。</span><span class="sxs-lookup"><span data-stu-id="94968-170">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span></span> <span data-ttu-id="94968-171">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-171">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-160">
-            <para>
-              <b>SaveOption</b>属性的值时设置<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象通过使用创建<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-160">
-              <para>The value of the <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object is created by using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-172"><b>SaveOption</b>属性的值时设置<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象通过使用创建<see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Views" />集合。</span><span class="sxs-lookup"><span data-stu-id="94968-172">The value of the <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object is created by using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedEndTime">
@@ -1147,37 +815,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-161">返回一个代表选定内容中的结束时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-161">Returns a <b>DateTime</b> value that represents the end time of a selection in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-162">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-162">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-173">返回一个代表选定内容中的结束时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-173">Returns a <b>DateTime</b> value that represents the end time of a selection in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-174">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-174">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-163">
-            <para>用途的<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" />进行复制，以编程方式，<b>则 SelectedEndTime</b>属性，用户在 Microsoft Outlook 用户界面中创建约会的方式。通常情况下，用户在日历视图中选择一个时间范围，并通过双击所选内容或 Microsoft Office Fluent 功能区的主页选项卡中，单击新的约会，然后创建一个新的约会。通过在<b>CalendarView</b>对象这两个属性，您可获得的开始时间和结束时间的任何选择该视图中以编程方式。然后，可以编程方式创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，并设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />对<b>SelectedStartTime</b>和<b>则 SelectedEndTime</b>属性分别以反映任何用户的<b>AppointmentItem</b>对象的属性在日历视图中的选定内容。</para>
-            <para>如果日历视图中的选定区域是一个时间范围而不是一个项，<b>则 SelectedEndTime</b>返回<b>DateTime</b>值等于选定内容的结束时间。</para>
-            <b>如果日历视图中选择了一个或多个项的
-          <para>，则 SelectedEndTime返回<b>DateTime</b>值等于结束时间的第一项资源管理器显示日历视图的选定内容中。所选内容由指定<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</para></b>
-            <para>
-              <b>CalendarView</b>对象使用此属性，获取<b>CalendarView</b>对象从<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />活动<b>资源管理器</b>对象的属性 (可通过返回其<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法)。没有获得<b>CalendarView</b>对象上使用此属性的已知的问题否则为-使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象 (返回<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /><b>所表示的对象的属性Application.ActiveExplorer</b>)。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-163">
-              <para>The intent of the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> and the <b>SelectedEndTime</b> properties is to replicate, programmatically, the way that users create an appointment in the Microsoft Outlook user interface. Typically, a user selects a time range in the calendar view and then creates a new appointment by double clicking the selection or by clicking New Appointment in the Home tab of the Microsoft Office Fluent ribbon. With these two properties of the <b>CalendarView</b> object, you can obtain the start time and the end time of any selection in that view programmatically. You can then programmatically create the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, setting the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> and <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> properties of the <b>AppointmentItem</b> object to the <b>SelectedStartTime</b> and <b>SelectedEndTime</b> properties respectively to reflect any user selection in the calendar view.</para>
-              <para>If the selection in the calendar view is a time range and is not an item, <b>SelectedEndTime</b> returns a <b>DateTime</b> value equal to the end time of the selection.</para>
-              <para>If one or more items are selected in the calendar view, <b>SelectedEndTime</b> returns a <b>DateTime</b> value equal to the end time of the first item in the selection of the explorer that displays the calendar view. That selection is specified by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</para>
-              <para>To use this property on a <b>CalendarView</b> object, obtain the <b>CalendarView</b> object from the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> property of the active <b>Explorer</b> object (which can be returned by the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> method). There is a known issue with using this property on an <b>CalendarView</b> object obtained otherwise - using the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object (returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the object represented by <b>Application.ActiveExplorer</b>).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-175">用途的<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" />进行复制，以编程方式，<b>则 SelectedEndTime</b>属性，用户在 Microsoft Outlook 用户界面中创建约会的方式。</span><span class="sxs-lookup"><span data-stu-id="94968-175">The intent of the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> and the <b>SelectedEndTime</b> properties is to replicate, programmatically, the way that users create an appointment in the Microsoft Outlook user interface.</span></span> <span data-ttu-id="94968-176">通常情况下，用户在日历视图中选择一个时间范围，并通过双击所选内容或 Microsoft Office Fluent 功能区的主页选项卡中，单击新的约会，然后创建一个新的约会。</span><span class="sxs-lookup"><span data-stu-id="94968-176">Typically, a user selects a time range in the calendar view and then creates a new appointment by double clicking the selection or by clicking New Appointment in the Home tab of the Microsoft Office Fluent ribbon.</span></span> <span data-ttu-id="94968-177">使用 <b>日历视图</b> 对象这两个属性，您可以获得的开始时间和结束时间的任何在该视图中的选定内容以编程方式。</span><span class="sxs-lookup"><span data-stu-id="94968-177">With these two properties of the <b>CalendarView</b> object, you can obtain the start time and the end time of any selection in that view programmatically.</span></span> <span data-ttu-id="94968-178">然后，可以编程方式创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，并设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />对<b>SelectedStartTime</b>和<b>则 SelectedEndTime</b>属性分别以反映任何用户的<b>AppointmentItem</b>对象的属性在日历视图中的选定内容。</span><span class="sxs-lookup"><span data-stu-id="94968-178">You can then programmatically create the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, setting the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> and <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> properties of the <b>AppointmentItem</b> object to the <b>SelectedStartTime</b> and <b>SelectedEndTime</b> properties respectively to reflect any user selection in the calendar view.</span></span></para>
+          <para><span data-ttu-id="94968-179">如果日历视图中的选定区域是一个时间范围而不是一个项，<b>则 SelectedEndTime</b>返回<b>DateTime</b>值等于选定内容的结束时间。</span><span class="sxs-lookup"><span data-stu-id="94968-179">If the selection in the calendar view is a time range and is not an item, <b>SelectedEndTime</b> returns a <b>DateTime</b> value equal to the end time of the selection.</span></span></para>
+          <para><span data-ttu-id="94968-180">如果日历视图中选择了一个或多个项，<b>则 SelectedEndTime</b>返回<b>DateTime</b>值等于结束时间的第一项资源管理器显示日历视图的选定内容中。</span><span class="sxs-lookup"><span data-stu-id="94968-180">If one or more items are selected in the calendar view, <b>SelectedEndTime</b> returns a <b>DateTime</b> value equal to the end time of the first item in the selection of the explorer that displays the calendar view.</span></span> <span data-ttu-id="94968-181">所选内容由指定<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-181">That selection is specified by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span></para>
+          <para><span data-ttu-id="94968-182">若要在<b>CalendarView</b>对象上使用此属性，获取<b>CalendarView</b>对象从<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />活动<b>资源管理器</b>对象的属性 (可通过返回其<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法)。</span><span class="sxs-lookup"><span data-stu-id="94968-182">To use this property on a <b>CalendarView</b> object, obtain the <b>CalendarView</b> object from the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> property of the active <b>Explorer</b> object (which can be returned by the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> method).</span></span> <span data-ttu-id="94968-183">没有获得<b>CalendarView</b>对象上使用此属性的已知的问题否则为-使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象 (返回<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> <b>Application.ActiveExplorer 所表示的对象的属性</b>).</span><span class="sxs-lookup"><span data-stu-id="94968-183">There is a known issue with using this property on an <b>CalendarView</b> object obtained otherwise - using the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object (returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the object represented by <b>Application.ActiveExplorer</b>).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedStartTime">
@@ -1203,37 +847,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-164">返回一个代表选定内容中的开始时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-164">Returns a <b>DateTime</b> value that represents the start time of a selection in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-165">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-165">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-184">返回一个代表选定内容中的开始时间的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-184">Returns a <b>DateTime</b> value that represents the start time of a selection in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-185">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-185">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-166">
-            <para>用途的<b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" />属性是复制，以编程方式，用户在 Microsoft Outlook 用户界面中创建约会的方式。通常情况下，用户在日历视图中选择一个时间范围，并通过双击所选内容或 Microsoft Office Fluent 功能区的主页选项卡中，单击新的约会，然后创建一个新的约会。通过在<b>CalendarView</b>对象这两个属性，您可获得的开始时间和结束时间的任何选择该视图中以编程方式。然后，可以编程方式创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，并设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />对<b>SelectedStartTime</b>和<b>则 SelectedEndTime</b>属性分别以反映任何用户的<b>AppointmentItem</b>对象的属性在日历视图中的选定内容。</para>
-            <para>如果日历视图中的选定区域是一个时间范围而不是一个项，<b>则 SelectedStartTime</b>返回<b>DateTime</b>值等于选定内容的开始时间。</para>
-            <b>如果日历视图中选择了一个或多个项的
-          <para>，则 SelectedStartTime返回<b>DateTime</b>值等于的第一个项目的开始时间显示日历视图的资源管理器选定内容中。所选内容由指定<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</para></b>
-            <para>
-              <b>CalendarView</b>对象使用此属性，获取<b>CalendarView</b>对象从<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />活动<b>资源管理器</b>对象的属性 (可通过返回其<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法)。没有获得<b>CalendarView</b>对象上使用此属性的已知的问题否则为-使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象 (返回<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /><b>所表示的对象的属性Application.ActiveExplorer</b>)。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-166">
-              <para>The intent of the <b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> properties is to replicate, programmatically, the way that users create an appointment in the Microsoft Outlook user interface. Typically, a user selects a time range in the calendar view and then creates a new appointment by double clicking the selection or by clicking New Appointment in the Home tab of the Microsoft Office Fluent ribbon. With these two properties of the <b>CalendarView</b> object, you can obtain the start time and the end time of any selection in that view programmatically. You can then programmatically create the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, setting the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> and <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> properties of the <b>AppointmentItem</b> object to the <b>SelectedStartTime</b> and <b>SelectedEndTime</b> properties respectively to reflect any user selection in the calendar view.</para>
-              <para>If the selection in the calendar view is a time range and is not an item, <b>SelectedStartTime</b> returns a <b>DateTime</b> value equal to the start time of the selection.</para>
-              <para>If one or more items are selected in the calendar view, <b>SelectedStartTime</b> returns a <b>DateTime</b> value equal to the start time of the first item in the selection of the explorer that displays the calendar view. That selection is specified by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</para>
-              <para>To use this property on a <b>CalendarView</b> object, obtain the <b>CalendarView</b> object from the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> property of the active <b>Explorer</b> object (which can be returned by the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> method). There is a known issue with using this property on an <b>CalendarView</b> object obtained otherwise - using the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object (returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the object represented by <b>Application.ActiveExplorer</b>).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-186">用途的<b>SelectedStartTime</b> <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" />属性是复制，以编程方式，用户在 Microsoft Outlook 用户界面中创建约会的方式。</span><span class="sxs-lookup"><span data-stu-id="94968-186">The intent of the <b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> properties is to replicate, programmatically, the way that users create an appointment in the Microsoft Outlook user interface.</span></span> <span data-ttu-id="94968-187">通常情况下，用户在日历视图中选择一个时间范围，并通过双击所选内容或 Microsoft Office Fluent 功能区的主页选项卡中，单击新的约会，然后创建一个新的约会。</span><span class="sxs-lookup"><span data-stu-id="94968-187">Typically, a user selects a time range in the calendar view and then creates a new appointment by double clicking the selection or by clicking New Appointment in the Home tab of the Microsoft Office Fluent ribbon.</span></span> <span data-ttu-id="94968-188">使用 <b>日历视图</b> 对象这两个属性，您可以获得的开始时间和结束时间的任何在该视图中的选定内容以编程方式。</span><span class="sxs-lookup"><span data-stu-id="94968-188">With these two properties of the <b>CalendarView</b> object, you can obtain the start time and the end time of any selection in that view programmatically.</span></span> <span data-ttu-id="94968-189">然后，可以编程方式创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，并设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />对<b>SelectedStartTime</b>和<b>则 SelectedEndTime</b>属性分别以反映任何用户的<b>AppointmentItem</b>对象的属性在日历视图中的选定内容。</span><span class="sxs-lookup"><span data-stu-id="94968-189">You can then programmatically create the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, setting the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> and <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> properties of the <b>AppointmentItem</b> object to the <b>SelectedStartTime</b> and <b>SelectedEndTime</b> properties respectively to reflect any user selection in the calendar view.</span></span></para>
+          <para><span data-ttu-id="94968-190">如果日历视图中的选定区域是一个时间范围而不是一个项，则<b>SelectedStartTime</b>返回<b>DateTime</b>值等于选定内容的开始时间。</span><span class="sxs-lookup"><span data-stu-id="94968-190">If the selection in the calendar view is a time range and is not an item, <b>SelectedStartTime</b> returns a <b>DateTime</b> value equal to the start time of the selection.</span></span></para>
+          <para><span data-ttu-id="94968-191">如果日历视图中选择了一个或多个项，<b>则 SelectedStartTime</b>返回<b>DateTime</b>值等于的第一个项目的开始时间显示日历视图的资源管理器选定内容中。</span><span class="sxs-lookup"><span data-stu-id="94968-191">If one or more items are selected in the calendar view, <b>SelectedStartTime</b> returns a <b>DateTime</b> value equal to the start time of the first item in the selection of the explorer that displays the calendar view.</span></span> <span data-ttu-id="94968-192">所选内容由指定<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-192">That selection is specified by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span></para>
+          <para><span data-ttu-id="94968-193">若要在<b>CalendarView</b>对象上使用此属性，获取<b>CalendarView</b>对象从<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />活动<b>资源管理器</b>对象的属性 (可通过返回其<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法)。</span><span class="sxs-lookup"><span data-stu-id="94968-193">To use this property on a <b>CalendarView</b> object, obtain the <b>CalendarView</b> object from the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> property of the active <b>Explorer</b> object (which can be returned by the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> method).</span></span> <span data-ttu-id="94968-194">没有获得<b>CalendarView</b>对象上使用此属性的已知的问题否则为-使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />属性的当前<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象 (返回<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> <b>Application.ActiveExplorer 所表示的对象的属性</b>).</span><span class="sxs-lookup"><span data-stu-id="94968-194">There is a known issue with using this property on an <b>CalendarView</b> object obtained otherwise - using the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object (returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the object represented by <b>Application.ActiveExplorer</b>).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1259,42 +879,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-167">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-167">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="ca2cd-168">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-168">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-195">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="94968-195">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="94968-196">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-196">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-169">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="94968-197"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="94968-197">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="94968-198">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="94968-198">Both members serve the same purpose.</span></span> <span data-ttu-id="94968-199">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="94968-199">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-169">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -1320,30 +914,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-170">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象是内置 Outlook 视图。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-170">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object is a built-in Outlook view.</span>
-          </span>
-          <span data-ttu-id="ca2cd-171">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-171">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-200">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象是内置 Outlook 视图。</span><span class="sxs-lookup"><span data-stu-id="94968-200">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object is a built-in Outlook view.</span></span> <span data-ttu-id="94968-201">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-201">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-172">
-            <para>
-              <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />方法仅用于视图如果此属性的值设置为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-172">
-              <para>The <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> method can only be used on a view if the value of this property is set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-202"><see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />方法仅用于视图如果此属性的值设置为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="94968-202">The <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> method can only be used on a view if the value of this property is set to <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartField">
@@ -1372,29 +946,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-173">返回或设置一个值，该值代表启动的持续时间中显示的 Outlook 项目属性的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-173">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the name of the property that starts the time duration for Outlook items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="ca2cd-174">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-174">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-203">返回或设置一个值，该值代表启动的持续时间中显示的 Outlook 项目属性的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />对象。</span><span class="sxs-lookup"><span data-stu-id="94968-203">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the name of the property that starts the time duration for Outlook items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="94968-204">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-204">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-175">
-            <para>值的<b>StartField</b>和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" />属性指示的 Outlook 项目属性使用在<b>CalendarView</b>对象，表示的 Outlook 项目的持续时间。可以指定自定义和内置属性，但不允许仅日期/时间属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-175">
-              <para>The values of the <b>StartField</b> and <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> properties indicate which Outlook item properties are used by the <b>CalendarView</b> object to represent the duration of an Outlook item. Both custom and built-in properties can be specified, but only date/time properties are allowed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-205">值的<b>StartField</b>和<see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" />属性指示的 Outlook 项目属性使用在<b>CalendarView</b>对象，表示的 Outlook 项目的持续时间。</span><span class="sxs-lookup"><span data-stu-id="94968-205">The values of the <b>StartField</b> and <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> properties indicate which Outlook item properties are used by the <b>CalendarView</b> object to represent the duration of an Outlook item.</span></span> <span data-ttu-id="94968-206">可以指定自定义和内置属性，但不允许仅日期/时间属性。</span><span class="sxs-lookup"><span data-stu-id="94968-206">Both custom and built-in properties can be specified, but only date/time properties are allowed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -1420,16 +975,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-176">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />常量，指示视图的视图类型。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-176">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constant that indicates the view type of the view.</span>
-          </span>
-          <span data-ttu-id="ca2cd-177">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-177">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-207">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />常量，指示视图的视图类型。</span><span class="sxs-lookup"><span data-stu-id="94968-207">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constant that indicates the view type of the view.</span></span> <span data-ttu-id="94968-208">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="94968-208">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1460,31 +1006,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ca2cd-178">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，指定视图的 XML 定义。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-178">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the view.</span>
-          </span>
-          <span data-ttu-id="ca2cd-179">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-179">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94968-209">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，指定视图的 XML 定义。</span><span class="sxs-lookup"><span data-stu-id="94968-209">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the view.</span></span> <span data-ttu-id="94968-210">读/写。</span><span class="sxs-lookup"><span data-stu-id="94968-210">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ca2cd-180">
-            <para>XML 定义描述视图类型使用一系列的标记和关键字对应的视图本身的各种属性。创建视图时，分析的 XML 定义呈现新视图的设置。</para>
-            <para>，以确定如何 XML 结构应时创建视图，您可以通过使用 Outlook 用户界面创建视图，然后您可以检索该视图的<b>XML</b>属性。 </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ca2cd-180">
-              <para>The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</para>
-              <para>To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the <b>XML</b> property for that view.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="94968-p142">XML 定义使用一系列与视图本身各种属性对应的标记和关键字来描述视图的类型。创建视图时，通过解析 XML 定义来设置新视图。</span><span class="sxs-lookup"><span data-stu-id="94968-p142">The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</span></span></para>
+          <para><span data-ttu-id="94968-p143">若要确定在创建视图时应如何组织 XML，可以使用 Outlook 用户界面中创建的视图，然后可以检索该视图的 <b>XML</b> 属性。</span><span class="sxs-lookup"><span data-stu-id="94968-p143">To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the <b>XML</b> property for that view.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

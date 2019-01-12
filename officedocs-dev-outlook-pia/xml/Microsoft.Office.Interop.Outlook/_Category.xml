@@ -1,13 +1,5 @@
 <Type Name="_Category" FullName="Microsoft.Office.Interop.Outlook._Category">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="980d1194a72301e1075492e2bd0fe0d45c2cdad3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632772" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Category" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="980d1194a72301e1075492e2bd0fe0d45c2cdad3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897078" /></Metadata><TypeSignature Language="C#" Value="public interface _Category" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Category" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Category" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="3aa94-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3aa94-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="3aa94-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3aa94-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="3aa94-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3aa94-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="3aa94-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Category" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3aa94-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Category" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f5076-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="f5076-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="f5076-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="f5076-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="f5076-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="f5076-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="f5076-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Category" />。</span><span class="sxs-lookup"><span data-stu-id="f5076-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Category" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="3aa94-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="f5076-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="f5076-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,31 +76,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-107">返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本的边框颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-107">Returns an <b>OLE_COLOR</b> value that represents the border color of the color swatch displayed for a <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span>
-          </span>
-          <span data-ttu-id="3aa94-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-107">返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本的边框颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span><span class="sxs-lookup"><span data-stu-id="f5076-107">Returns an <b>OLE_COLOR</b> value that represents the border color of the color swatch displayed for a <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span></span> <span data-ttu-id="f5076-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-108">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3aa94-109">
-            <para>设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />属性。</para>
-            <para>应使用此颜色来显示<b>Category</b>对象的渐变阴影颜色样本的边框。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-109">
-              <para>Setting the <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> property of the <b>Category</b> object to an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constant changes the value of this property, as well as the value of the  <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> and <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> properties.</para>
-              <para>This color should be used to display the border of a gradient-shaded color swatch for the <b>Category</b> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f5076-109">设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-109">Setting the <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> property of the <b>Category</b> object to an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constant changes the value of this property, as well as the value of the  <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> and <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> properties.</span></span></para>
+          <para><span data-ttu-id="f5076-110">该颜色用于显示 <b>类别</b> 对象的渐变底纹颜色色板的边框。</span><span class="sxs-lookup"><span data-stu-id="f5076-110">This color should be used to display the border of a gradient-shaded color swatch for the <b>Category</b> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryGradientBottomColor">
@@ -163,31 +109,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-110">返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本渐变颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-110">Returns an <b>OLE_COLOR</b> value that represents the bottom gradient color of the color swatch displayed for a <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span>
-          </span>
-          <span data-ttu-id="3aa94-111">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-111">返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本渐变颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span><span class="sxs-lookup"><span data-stu-id="f5076-111">Returns an <b>OLE_COLOR</b> value that represents the bottom gradient color of the color swatch displayed for a <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span></span> <span data-ttu-id="f5076-112">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-112">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3aa94-112">
-            <para>设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />属性。</para>
-            <para>应使用此颜色来显示<b>Category</b>对象的渐变阴影颜色样本。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-112">
-              <para>Setting the <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> property of the <b>Category</b> object to an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constant changes the value of this property, as well as the value of the  <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> and <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" /> properties.</para>
-              <para>This color should be used to display a gradient-shaded color swatch for the <b>Category</b> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f5076-113">设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-113">Setting the <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> property of the <b>Category</b> object to an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constant changes the value of this property, as well as the value of the  <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> and <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" /> properties.</span></span></para>
+          <para><span data-ttu-id="f5076-114">该颜色用于显示 <b>类别</b> 对象的渐变底纹颜色色板。</span><span class="sxs-lookup"><span data-stu-id="f5076-114">This color should be used to display a gradient-shaded color swatch for the <b>Category</b> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryGradientTopColor">
@@ -216,31 +142,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-113">返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本的顶部渐变颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-113">Returns an <b>OLE_COLOR</b> value that represents the top gradient color of the color swatch displayed for a <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span>
-          </span>
-          <span data-ttu-id="3aa94-114">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-115">返回一个<b>OLE_COLOR</b>值，表示为显示颜色样本的顶部渐变颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span><span class="sxs-lookup"><span data-stu-id="f5076-115">Returns an <b>OLE_COLOR</b> value that represents the top gradient color of the color swatch displayed for a <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span></span> <span data-ttu-id="f5076-116">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-116">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3aa94-115">
-            <para>设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />属性。</para>
-            <para>应使用此颜色来显示<b>Category</b>对象的渐变阴影颜色样本。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-115">
-              <para>Setting the <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> property of the <b>Category</b> object to an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constant changes the value of this property, as well as the value of the  <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> and <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />  properties.</para>
-              <para>This color should be used to display a gradient-shaded color swatch for the <b>Category</b> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f5076-117">设置<see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" />属性为<b>Category</b>对象的<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量更改此属性的值以及的值<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />和<see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-117">Setting the <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> property of the <b>Category</b> object to an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constant changes the value of this property, as well as the value of the  <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> and <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />  properties.</span></span></para>
+          <para><span data-ttu-id="f5076-118">该颜色用于显示 <b>类别</b> 对象的渐变底纹颜色色板。</span><span class="sxs-lookup"><span data-stu-id="f5076-118">This color should be used to display a gradient-shaded color swatch for the <b>Category</b> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryID">
@@ -266,31 +172,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-116">返回一个代表的唯一标识符的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-116">Returns a <b>String</b> (<b>string</b> in C#) value that represents the unique identifier for the <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span>
-          </span>
-          <span data-ttu-id="3aa94-117">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-119">返回一个代表的唯一标识符的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span><span class="sxs-lookup"><span data-stu-id="f5076-119">Returns a <b>String</b> (<b>string</b> in C#) value that represents the unique identifier for the <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span></span> <span data-ttu-id="f5076-120">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-120">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3aa94-118">
-            <para>因为<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /><b>Category</b>对象的属性可以更改以下任意以编程方式或用户操作，每个<b>Category</b>对象由唯一标识分配给该对象，可以检索的全局唯一标识符 (GUID)使用此属性。使用以下格式字符串形式显示 GUID:</para>
-            <code>{00000000-0000-0000-0000-000000000000}</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-118">
-              <para>Because the <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> property of a <b>Category</b> object can be changed either programmatically or by user action, each <b>Category</b> object is uniquely identified by a globally unique identifier (GUID), assigned to the object, that can be retrieved using this property. The GUID is presented as a string using the following format:</para>
-              <code>{00000000-0000-0000-0000-000000000000}</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f5076-121">因为<see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> <b>Category</b>对象的属性可以更改以下任意以编程方式或用户操作，每个<b>Category</b>对象由唯一标识分配给该对象，可以检索的全局唯一标识符 (GUID)使用此属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-121">Because the <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> property of a <b>Category</b> object can be changed either programmatically or by user action, each <b>Category</b> object is uniquely identified by a globally unique identifier (GUID), assigned to the object, that can be retrieved using this property.</span></span> <span data-ttu-id="f5076-122">GUID 被显示为使用以下格式的字符串:</span><span class="sxs-lookup"><span data-stu-id="f5076-122">The GUID is presented as a string using the following format:</span></span></para>
+          <code>{00000000-0000-0000-0000-000000000000}</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -316,16 +202,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-119">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-119">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="3aa94-120">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-123">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="f5076-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="f5076-124">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-124">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -356,29 +233,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCategoryColor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-121">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量，指示所使用的颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-121">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constant that indicates the color used by the <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span>
-          </span>
-          <span data-ttu-id="3aa94-122">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-122">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-125">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" />常量，指示所使用的颜色<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span><span class="sxs-lookup"><span data-stu-id="f5076-125">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constant that indicates the color used by the <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span></span> <span data-ttu-id="f5076-126">读/写。</span><span class="sxs-lookup"><span data-stu-id="f5076-126">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3aa94-123">
-            <para>您可以通过指定相同常量值，该值代表<b>OlCategoryColor</b>枚举这些<b>类别</b>对象中的类别颜色共享相同的颜色为多个类别。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-123">
-              <para>You can share the same color for multiple categories, by specifying the same constant that represents the category color in the <b>OlCategoryColor</b> enumeration for those <b>Category</b> objects. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f5076-p110">您可以共享相同的颜色为多个类别，通过指定的同一常数，表示对于那些 <b>Category</b>对象 <b>OlCategoryColor</b>枚举中的类别颜色。</span><span class="sxs-lookup"><span data-stu-id="f5076-p110">You can share the same color for multiple categories, by specifying the same constant that represents the category color in the <b>OlCategoryColor</b> enumeration for those <b>Category</b> objects. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -407,16 +265,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-124">返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-124">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="3aa94-125">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-125">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-128">返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span><span class="sxs-lookup"><span data-stu-id="f5076-128">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="f5076-129">读/写。</span><span class="sxs-lookup"><span data-stu-id="f5076-129">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -444,12 +293,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-p110">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-p112">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="f5076-p112">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -477,42 +321,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-128">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-128">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="3aa94-129">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-129">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-132">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="f5076-132">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="f5076-133">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-133">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3aa94-130">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="f5076-134"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="f5076-134">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="f5076-135">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="f5076-135">Both members serve the same purpose.</span></span> <span data-ttu-id="f5076-136">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="f5076-136">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-130">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShortcutKey">
@@ -541,29 +359,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3aa94-131">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" />常量，指定快捷键使用<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-131">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" /> constant that specifies the shortcut key used by the <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span>
-          </span>
-          <span data-ttu-id="3aa94-132">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-132">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5076-137">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" />常量，指定快捷键使用<see cref="T:Microsoft.Office.Interop.Outlook.Category" />对象。</span><span class="sxs-lookup"><span data-stu-id="f5076-137">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" /> constant that specifies the shortcut key used by the <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> object.</span></span> <span data-ttu-id="f5076-138">读/写。</span><span class="sxs-lookup"><span data-stu-id="f5076-138">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3aa94-133">
-            <para>在任何给定时间， <b>olCategoryShortcutKeyNone</b>之外的任何<b>OlCategoryShortcutKey</b>常量仅可以使用一个<b>Category</b>对象。设置此属性的值为<b>OlCategoryShortcutKey</b>常量已在使用集中已使用指定的值与<b>olCategoryShortcutKeyNone</b><b>Category</b>对象的<b>ShortcutKey</b>属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3aa94-133">
-              <para>Any <b>OlCategoryShortcutKey</b> constant other than <b>olCategoryShortcutKeyNone</b> can only be used by one <b>Category</b> object at any given time. Setting the value of this property to an <b>OlCategoryShortcutKey</b> constant already in use sets the <b>ShortcutKey</b> property of the <b>Category</b> object already using the specified value to <b>olCategoryShortcutKeyNone</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f5076-p116">在任何给定时间只能由一个 <b>类别</b> 对象使用除 <b>olCategoryShortcutKeyNone</b> 之外的任何 <b>OlCategoryShortcutKey</b> 常量。设置此属性的值为 <b>OlCategoryShortcutKey</b> 的常量已经在使用集已经在使用指定的值与 <b>olCategoryShortcutKeyNone</b> <b>类别</b> 对象的 <b>ShortcutKey</b> 属性。</span><span class="sxs-lookup"><span data-stu-id="f5076-p116">Any <b>OlCategoryShortcutKey</b> constant other than <b>olCategoryShortcutKeyNone</b> can only be used by one <b>Category</b> object at any given time. Setting the value of this property to an <b>OlCategoryShortcutKey</b> constant already in use sets the <b>ShortcutKey</b> property of the <b>Category</b> object already using the specified value to <b>olCategoryShortcutKeyNone</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

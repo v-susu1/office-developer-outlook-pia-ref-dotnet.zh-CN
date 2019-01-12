@@ -1,13 +1,5 @@
 <Type Name="RecurrencePattern" FullName="Microsoft.Office.Interop.Outlook.RecurrencePattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f0d4b4e4bfa2975577306ca466d47c09c5f4fad3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632213" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RecurrencePattern" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c7f2e8222b642280c67d4061aabd05caa9199818" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896784" /></Metadata><TypeSignature Language="C#" Value="public interface RecurrencePattern" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RecurrencePattern" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />
   <TypeSignature Language="VB.NET" Value="Public Interface RecurrencePattern" />
@@ -26,74 +18,76 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="e35ea-101">表示定期约会和任务关联的发生模式<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />和<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e35ea-101">Represents the pattern of incidence of recurring appointments and tasks for the associated <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  and <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />  object.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="e35ea-102">
-        <para>使用<b>GetRecurrencePattern</b>方法可返回与<b>AppointmentItem</b>或<b>TaskItem</b>对象相关联的<b>RecurrencePattern</b>对象。</para>
-        <para>呼叫<b>GetRecurrencePattern</b>或<b>ClearRecurrencePattern</b>具有副作用的相应地设置项目的<b>IsRecurring</b>属性。可使用此属性的有效筛选根据需要<see cref="T:Microsoft.Office.Interop.Outlook.Items" />对象。</para>定期模式的类型由
-      <para><see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性。同时将<b>RecurrenceType</b>属性是应设置第一个属性。</para><para>下列属性可用于所有定期模式： <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />， <b>StartDate</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />，或<b>Type</b>。</para><para>下表显示可用于不同定期类型的属性。如果保存项目和属性为 null 或包含无效值，将发生错误。每月和每年模式为一天才有效。每周模式仅为<b>或</b>的有效<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />。</para><list type="table"><item><description><b>olRecursDaily</b></description><description><see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></description></item><item><description><b>olRecursWeekly</b></description><description><see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />，<b>持续时间</b>， <b>EndTime</b>，<b>间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description></item><item><description><b>olRecursMonthly</b></description><description><see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />，<b>持续时间</b><b>EndTime</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description></item><item><description><b>olRecursMonthNth</b></description><description><b>DayOfWeekMask</b>，<b>持续时间</b>、<b>结束时间</b><b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description></item><item><description><b>olRecursYearly</b></description><description><b>DayOfMonth</b>、<b>持续时间</b>、<b>结束时间</b>、<b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.MonthOfYear" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description></item><item><description><b>olRecursYearNth</b></description><description><b>DayOfWeekMask</b>，<b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、<b>实例</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>， <b>PatternEndDate</b>、 <b>StartTime</b></description></item></list><para>当您处理定期约会项，您应释放任何以前的引用，获取新的定期约会项目引用之前您访问或修改项目，并释放这些引用，只要您完成和已保存所做的更改。这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。若要解除对 Visual Basic 中的，设置为<b>Nothing</b>的现有对象。C# 中明确释放该对象的内存。</para><para>注意，即使在释放您引用和尝试获取新的引用，如果仍没有活动的参考资料，由另一个加载项或 Outlook 中的，为上述对象，之一，则后您新参考仍指向的过期的副本对象。因此，很重要，只要您已完成的定期约会释放您的引用。</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e35ea-102">
-          <para>Use the <b>GetRecurrencePattern</b>  method to return the <b>RecurrencePattern</b> object associated with an <b>AppointmentItem</b> or <b>TaskItem</b> object.</para>
-          <para>Calling <b>GetRecurrencePattern</b> or <b>ClearRecurrencePattern</b>  has the side effect of setting the <b>IsRecurring</b>  property of the item accordingly. This property can be used as required for efficient filtering of the <see cref="T:Microsoft.Office.Interop.Outlook.Items" />  object.</para>
-          <para>The type of recurrence pattern is indicated by the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />  property. The <b>RecurrenceType</b> property is the first property you should set.</para>
-          <para>The following properties are valid for all recurrence patterns: <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <b>StartDate</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />, or <b>Type</b>.</para>
-          <para>The following table shows the properties that are valid for the different recurrence types. An error occurs if the item is saved and the property is null or contains an invalid value. Monthly and yearly patterns are only valid for a single day. Weekly patterns are only valid as the <b>Or</b> of the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" /> .</para>
-          <list type="table">
-            <item>
-              <description>
-                <b>olRecursDaily</b>
-              </description>
-              <description>
-                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></description>
-            </item>
-            <item>
-              <description>
-                <b>olRecursWeekly</b>
-              </description>
-              <description>
-                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-            </item>
-            <item>
-              <description>
-                <b>olRecursMonthly</b>
-              </description>
-              <description>
-                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-            </item>
-            <item>
-              <description>
-                <b>olRecursMonthNth</b>
-              </description>
-              <description>
-                <b>DayOfWeekMask</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-            </item>
-            <item>
-              <description>
-                <b>olRecursYearly</b>
-              </description>
-              <description>
-                <b>DayOfMonth</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.MonthOfYear" />, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-            </item>
-            <item>
-              <description>
-                <b>olRecursYearNth</b>
-              </description>
-              <description>
-                <b>DayOfWeekMask</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>Instance</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-            </item>
-          </list>
-          <para>When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes. This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object. To release a reference in Visual Basic, set that existing object to <b>Nothing</b>. In C#, explicitly release the memory for that object. </para>
-          <para>Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="8d0a5-101">表示定期约会和任务关联的发生模式<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />和<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-101">Represents the pattern of incidence of recurring appointments and tasks for the associated <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  and <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />  object.</span></span></summary>
+    <remarks><para><span data-ttu-id="8d0a5-102">使用<b>GetRecurrencePattern</b>方法可返回与<b>AppointmentItem</b>或<b>TaskItem</b>对象关联的<b>RecurrencePattern</b>对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-102">Use the <b>GetRecurrencePattern</b>  method to return the <b>RecurrencePattern</b> object associated with an <b>AppointmentItem</b> or <b>TaskItem</b> object.</span></span></para>
+      <para><span data-ttu-id="8d0a5-103"><b>GetRecurrencePattern</b>或<b>ClearRecurrencePattern</b>调用具有副作用的相应地设置项目的<b>IsRecurring</b>属性。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-103">Calling <b>GetRecurrencePattern</b> or <b>ClearRecurrencePattern</b>  has the side effect of setting the <b>IsRecurring</b>  property of the item accordingly.</span></span> <span data-ttu-id="8d0a5-104">可使用此属性的有效筛选根据需要<see cref="T:Microsoft.Office.Interop.Outlook.Items" />对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-104">This property can be used as required for efficient filtering of the <see cref="T:Microsoft.Office.Interop.Outlook.Items" />  object.</span></span></para>
+      <para><span data-ttu-id="8d0a5-105">定期模式的类型由<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-105">The type of recurrence pattern is indicated by the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />  property.</span></span> <span data-ttu-id="8d0a5-106"><b>介于 1</b> 是第一个应设置的属性。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-106">The <b>RecurrenceType</b> property is the first property you should set.</span></span></para>
+      <para><span data-ttu-id="8d0a5-107">以下属性可用于所有定期模式： <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />， <b>StartDate</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />，或<b>类型</b>。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-107">The following properties are valid for all recurrence patterns: <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <b>StartDate</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />, or <b>Type</b>.</span></span></para>
+      <para><span data-ttu-id="8d0a5-108">下表显示对于不同定期类型有效的属性。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-108">The following table shows the properties that are valid for the different recurrence types.</span></span> <span data-ttu-id="8d0a5-109">如果在保存该项目，该属性为空或包含无效的值，将发生错误。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-109">An error occurs if the item is saved and the property is null or contains an invalid value.</span></span> <span data-ttu-id="8d0a5-110">按月和按年模式才对单独的天有效。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-110">Monthly and yearly patterns are only valid for a single day.</span></span> <span data-ttu-id="8d0a5-111">每周模式仅为<b>或</b>的有效<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-111">Weekly patterns are only valid as the <b>Or</b> of the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" /> .</span></span></para>
+      <list type="table">
+        <item>
+          <description><span data-ttu-id="8d0a5-112">
+            <b>olRecursDaily</b>
+          </span><span class="sxs-lookup"><span data-stu-id="8d0a5-112">
+            <b>olRecursDaily</b>
+          </span></span></description>
+          <description><span data-ttu-id="8d0a5-113">
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></span><span class="sxs-lookup"><span data-stu-id="8d0a5-113"></span></span></description>
+        </item>
+        <item>
+          <description><span data-ttu-id="8d0a5-114">
+            <b>olRecursWeekly</b>
+          </span><span class="sxs-lookup"><span data-stu-id="8d0a5-114">
+            <b>olRecursWeekly</b>
+          </span></span></description>
+          <description><span data-ttu-id="8d0a5-115">
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" /><b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-115">
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+        </item>
+        <item>
+          <description><span data-ttu-id="8d0a5-116">
+            <b>olRecursMonthly</b>
+          </span><span class="sxs-lookup"><span data-stu-id="8d0a5-116">
+            <b>olRecursMonthly</b>
+          </span></span></description>
+          <description><span data-ttu-id="8d0a5-117">
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" /><b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-117">
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+        </item>
+        <item>
+          <description><span data-ttu-id="8d0a5-118">
+            <b>olRecursMonthNth</b>
+          </span><span class="sxs-lookup"><span data-stu-id="8d0a5-118">
+            <b>olRecursMonthNth</b>
+          </span></span></description>
+          <description><span data-ttu-id="8d0a5-119">
+            <b>DayOfWeekMask</b>、<b>持续时间</b>、<b>结束时间</b>、<b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-119">
+            <b>DayOfWeekMask</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+        </item>
+        <item>
+          <description><span data-ttu-id="8d0a5-120">
+            <b>olRecursYearly</b>
+          </span><span class="sxs-lookup"><span data-stu-id="8d0a5-120">
+            <b>olRecursYearly</b>
+          </span></span></description>
+          <description><span data-ttu-id="8d0a5-121">
+            <b>DayOfMonth</b>、<b>持续时间</b>、<b>结束时间</b>、<b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.MonthOfYear" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-121">
+            <b>DayOfMonth</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.MonthOfYear" />, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+        </item>
+        <item>
+          <description><span data-ttu-id="8d0a5-122">
+            <b>olRecursYearNth</b>
+          </span><span class="sxs-lookup"><span data-stu-id="8d0a5-122">
+            <b>olRecursYearNth</b>
+          </span></span></description>
+          <description><span data-ttu-id="8d0a5-123">
+            <b>年</b> 、 <b>持续时间</b> 、 <b>结束时间</b> 、 <b>间隔</b> 、 <b>实例</b> 、 <b>NoEndDate</b> 、 <b>事件</b> 、 <b>PatternStartDate</b> 、 <b>PatternEndDate</b> 、 <b>开始时间</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-123">
+            <b>DayOfWeekMask</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>Instance</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+        </item>
+      </list>
+      <para><span data-ttu-id="8d0a5-124">当使用定期约会项目时，您应当先释放以前的所有引用，再获取对定期约会项目的新引用，然后才访问或修改项目，并在完成和保存更改后立即释放这些引用。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-124">When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes.</span></span> <span data-ttu-id="8d0a5-125">这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-125">This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object.</span></span> <span data-ttu-id="8d0a5-126">若要在 Visual Basic 中释放引用，需将现有对象设置为 <b>Nothing</b>。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-126">To release a reference in Visual Basic, set that existing object to <b>Nothing</b>.</span></span> <span data-ttu-id="8d0a5-127">在 C# 中，明确释放相应对象占用的内存。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-127">In C#, explicitly release the memory for that object.</span></span> </para>
+      <para><span data-ttu-id="8d0a5-p105">请注意，即使在释放了您的引用并尝试获取新引用之后，如果其他外接程序或 Outlook 中仍有对以上某个对象的活动引用，您新的引用将仍指向该对象的过期副本。因此，您在完成定期约会后立即释放您的引用是非常重要的。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-p105">Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -119,16 +113,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-103">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="e35ea-104">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-130">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-130">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="8d0a5-131">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-131">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -156,16 +141,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="e35ea-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-132">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-132">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="8d0a5-133">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-133">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -196,16 +172,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-107">返回或设置指示的天发生的定期约会或任务的月份的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-107">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the day of the month on which the recurring appointment or task occurs.</span>
-          </span>
-          <span data-ttu-id="e35ea-108">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-108">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-134">返回或设置指示的天发生的定期约会或任务的月份的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-134">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the day of the month on which the recurring appointment or task occurs.</span></span> <span data-ttu-id="8d0a5-135">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-135">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,32 +203,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDaysOfWeek</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-109">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDaysOfWeek" />常数，它表示为发生的定期约会或任务的星期数的掩码。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-109">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDaysOfWeek" /> constant representing the mask for the days of the week on which the recurring appointment or task occurs.</span>
-          </span>
-          <span data-ttu-id="e35ea-110">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-110">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-136">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlDaysOfWeek" />常数，它表示为发生的定期约会或任务的星期数的掩码。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-136">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDaysOfWeek" /> constant representing the mask for the days of the week on which the recurring appointment or task occurs.</span></span> <span data-ttu-id="8d0a5-137">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-137">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-111">
-            <para>
-              <b>DayOfWeekMask</b>应设置后<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性已设置和之前<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />属性设置。</para>
-            <para>每月和每年模式为一天才有效。每周模式仅为<b>或</b><b>DayOfWeekMask</b>的有效。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-111">
-              <para>The <b>DayOfWeekMask</b> should be set after the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" /> property has been set and before the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" /> and <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" /> properties are set. </para>
-              <para>Monthly and yearly patterns are only valid for a single day. Weekly patterns are only valid as the <b>Or</b> of the <b>DayOfWeekMask</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-138"><b>DayOfWeekMask</b>应设置后<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性已设置和之前<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />属性设置。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-138">The <b>DayOfWeekMask</b> should be set after the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" /> property has been set and before the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" /> and <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" /> properties are set.</span></span> </para>
+          <para><span data-ttu-id="8d0a5-p111">按月和按年模式才对单独的天有效。每周一次的模式仅为 <b>或</b> 的 <b>年</b> 有效。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-p111">Monthly and yearly patterns are only valid for a single day. Weekly patterns are only valid as the <b>Or</b> of the <b>DayOfWeekMask</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Duration">
@@ -290,31 +236,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-112">返回或设置指示的持续时间 （以分钟为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-112">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the duration (in minutes) of the <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />.</span>
-          </span>
-          <span data-ttu-id="e35ea-113">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-113">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-141">返回或设置指示的持续时间 （以分钟为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-141">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the duration (in minutes) of the <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />.</span></span> <span data-ttu-id="8d0a5-142">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-142">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-114">
-            <para>对定期事件，此属性仅对约会有效。</para>
-            <para>若要创建的全天事件的一天的持续时间，设置的持续时间为 1440年。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-114">
-              <para>For recurrences, this property is only valid for appointments.</para>
-              <para>To create a duration of one day for an all-day event, set the duration equal to 1440. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-143">对定期事件，该属性仅对约会有效。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-143">For recurrences, this property is only valid for appointments.</span></span></para>
+          <para><span data-ttu-id="8d0a5-144">若要为全天事件创建为期为一天的持续时间，请将 Duration 设置为 1440。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-144">To create a duration of one day for an all-day event, set the duration equal to 1440.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndTime">
@@ -343,31 +269,12 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-115">返回或设置指示定期模式的结束时间的<b>DateTime</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-115">Returns or sets a <b>DateTime</b> indicating the end time for a recurrence pattern.</span>
-          </span>
-          <span data-ttu-id="e35ea-116">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-116">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-145">返回或设置指示定期模式的结束时间的<b>DateTime</b> 。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-145">Returns or sets a <b>DateTime</b> indicating the end time for a recurrence pattern.</span></span> <span data-ttu-id="8d0a5-146">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-146">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-117">
-            <para>此属性仅对约会有效。</para>
-            <para>创建时<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象和任何时区已指定为约会，<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />和<b>EndTime</b><b>RecurrencePattern</b>对象的基于通过指定的时区<see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>如果您想要创建特定的时区的定期约会
-          <para>，应首先创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />，然后调用<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />。返回的<b>RecurrencePattern</b>对象将具有两个<b>StartTime</b>和<b>EndTime</b>将基于由<b>AppointmentItem.StartTimeZone</b>指定的时区。请注意，在约会定期对话框中，时间指定为开始<b>RecurrencePattern.StartTime</b>基于<b>AppointmentItem.StartTimeZone</b>，但时间指示如结束并不总是<b>相同RecurrencePattern.EndTime</b>根据<b>AppointmentItem.StartTimeZone</b>;显示的时间值基于<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-117">
-              <para>This property is only valid for appointments. </para>
-              <para>When you create a <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object and no time zones have been specified for the appointment, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /> and <b>EndTime</b> of the <b>RecurrencePattern</b> object are based on the time zone specified by <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />. </para>
-              <para>If you want to create a recurring appointment for a particular time zone, you should first create an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, set <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />, and then call <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />. The <b>RecurrencePattern</b> object returned will have both <b>StartTime</b> and <b>EndTime</b> based on the time zone specified by <b>AppointmentItem.StartTimeZone</b>. Note that in the Appointment Recurrence dialog box, the time indicated as Start is <b>RecurrencePattern.StartTime</b> which is based on <b>AppointmentItem.StartTimeZone</b>, but the time indicated as End is not always the same as  <b>RecurrencePattern.EndTime</b> which is based on <b>AppointmentItem.StartTimeZone</b>; the displayed time value is based on <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-p114">此属性仅对约会有效。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-p114">This property is only valid for appointments. </span></span></para>
+          <para><span data-ttu-id="8d0a5-148">当创建<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象和任何时区已指定为约会，<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />和<b>EndTime</b> <b>RecurrencePattern</b>对象的基于通过指定的时区<see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-148">When you create a <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object and no time zones have been specified for the appointment, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /> and <b>EndTime</b> of the <b>RecurrencePattern</b> object are based on the time zone specified by <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />.</span></span> </para>
+          <para><span data-ttu-id="8d0a5-149">如果您想要创建特定的时区的定期约会，应首先创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />，然后调用<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-149">If you want to create a recurring appointment for a particular time zone, you should first create an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, set <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />, and then call <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />.</span></span> <span data-ttu-id="8d0a5-150">返回的 <b>RecurrencePattern</b> 对象将具有两个 <b>开始时间</b> 和 <b>结束时间</b> 的基础通过 <b>AppointmentItem.StartTimeZone</b> 指定的时区。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-150">The <b>RecurrencePattern</b> object returned will have both <b>StartTime</b> and <b>EndTime</b> based on the time zone specified by <b>AppointmentItem.StartTimeZone</b>.</span></span> <span data-ttu-id="8d0a5-151">请注意，在约会定期对话框中，时间指定为开始<b>RecurrencePattern.StartTime</b>基于<b>AppointmentItem.StartTimeZone</b>，但时间指示如结束并不总是<b>相同RecurrencePattern.EndTime</b>根据<b>AppointmentItem.StartTimeZone</b>;显示的时间值基于<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-151">Note that in the Appointment Recurrence dialog box, the time indicated as Start is <b>RecurrencePattern.StartTime</b> which is based on <b>AppointmentItem.StartTimeZone</b>, but the time indicated as End is not always the same as  <b>RecurrencePattern.EndTime</b> which is based on <b>AppointmentItem.StartTimeZone</b>; the displayed time value is based on <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exceptions">
@@ -393,31 +300,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Exceptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-118">返回<see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />指定的定期约会系列的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-118">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />  collection for a specified series of recurring appointments.</span>
-          </span>
-          <span data-ttu-id="e35ea-119">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-152">返回<see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />指定的定期约会系列的集合。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-152">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />  collection for a specified series of recurring appointments.</span></span> <span data-ttu-id="8d0a5-153">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-153">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-120">
-            <para>使用定期约会项目时，您应释放以前的任何引用，获取新引用的定期约会项目之前您访问或修改项目，并只要您完成和已保存版本这些引用更改。这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。若要解除对 Visual Basic 中的，设置为<b>Nothing</b>的现有对象。C# 中明确释放该对象的内存。</para>
-            <para>注意，即使在释放您引用和尝试获取新的引用，如果仍没有活动的参考资料，由另一个加载项或 Outlook 中的，为上述对象，之一，则后您新参考仍指向对象的过期的副本.因此，很重要，只要您已完成的定期约会释放您的引用。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-120">
-              <para>When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes. This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object. To release a reference in Visual Basic, set that existing object to <b>Nothing</b>. In C#, explicitly release the memory for that object. </para>
-              <para>Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-154">当使用定期约会项目时，您应当先释放以前的所有引用，再获取对定期约会项目的新引用，然后才访问或修改项目，并在完成和保存更改后立即释放这些引用。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-154">When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes.</span></span> <span data-ttu-id="8d0a5-155">这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-155">This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object.</span></span> <span data-ttu-id="8d0a5-156">若要在 Visual Basic 中释放引用，需将现有对象设置为 <b>Nothing</b>。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-156">To release a reference in Visual Basic, set that existing object to <b>Nothing</b>.</span></span> <span data-ttu-id="8d0a5-157">在 C# 中，明确释放相应对象占用的内存。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-157">In C#, explicitly release the memory for that object.</span></span> </para>
+          <para><span data-ttu-id="8d0a5-p119">请注意，即使在释放了您的引用并尝试获取新引用之后，如果其他外接程序或 Outlook 中仍有对以上某个对象的活动引用，您新的引用将仍指向该对象的过期副本。因此，您在完成定期约会后立即释放您的引用是非常重要的。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-p119">Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetOccurrence">
@@ -443,44 +330,15 @@
         <Parameter Name="StartDate" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="StartDate">
-          <span data-ttu-id="e35ea-121">
-            <b>日期</b> 值表示本地时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-121">A <b>Date</b> value that represents local time.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e35ea-122">返回的特定实例<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />上的指定日期的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-122">Returns a specific instance of the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  object on the specified date.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e35ea-123">
-            <b>AppointmentItem</b> 对象，该对象代表在指定日期的特定约会。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-123">An <b>AppointmentItem</b> object that represents the specific appointment on the specified date.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e35ea-124">
-            <para>
-              <b>注意</b>： 如果在指定日期不存在该序列的任何约会， <b>GetOccurrence</b>方法将生成一个错误。</para>
-            <para>使用定期约会项目时，您应释放以前的任何引用，获取新引用的定期约会项目之前您访问或修改项目，并只要您完成和已保存版本这些引用更改。这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。若要解除对 Visual Basic 中的，设置为<b>Nothing</b>的现有对象。C# 中明确释放该对象的内存。</para>
-            <para>注意，即使在释放您引用和尝试获取新的引用，如果仍没有活动的参考资料，由另一个加载项或 Outlook 中的，为上述对象，之一，则后您新参考仍指向对象的过期的副本.因此，很重要，只要您已完成的定期约会释放您的引用。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-124">
-              <para>
-                <b>Note</b>: The <b>GetOccurrence</b> method generates an error if no appointment of that series exists on the specified date.</para>
-              <para>When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes. This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object. To release a reference in Visual Basic, set that existing object to <b>Nothing</b>. In C#, explicitly release the memory for that object. </para>
-              <para>Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="StartDate"><span data-ttu-id="8d0a5-160"><b>日期</b> 值表示本地时间。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-160">A <b>Date</b> value that represents local time.</span></span></param>
+        <summary><span data-ttu-id="8d0a5-161">返回的特定实例<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />上的指定日期的对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-161">Returns a specific instance of the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  object on the specified date.</span></span></summary>
+        <returns><span data-ttu-id="8d0a5-162"><b>AppointmentItem</b> 对象，该对象代表在指定日期的特定约会。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-162">An <b>AppointmentItem</b> object that represents the specific appointment on the specified date.</span></span></returns>
+        <remarks><para><span data-ttu-id="8d0a5-163">
+            <b>注意</b>： 如果在指定日期不存在该序列的任何约会， <b>GetOccurrence</b>方法将生成一个错误。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-163">
+            <b>Note</b>: The <b>GetOccurrence</b> method generates an error if no appointment of that series exists on the specified date.</span></span></para>
+          <para><span data-ttu-id="8d0a5-164">当使用定期约会项目时，您应当先释放以前的所有引用，再获取对定期约会项目的新引用，然后才访问或修改项目，并在完成和保存更改后立即释放这些引用。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-164">When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes.</span></span> <span data-ttu-id="8d0a5-165">这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-165">This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object.</span></span> <span data-ttu-id="8d0a5-166">若要在 Visual Basic 中释放引用，需将现有对象设置为 <b>Nothing</b>。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-166">To release a reference in Visual Basic, set that existing object to <b>Nothing</b>.</span></span> <span data-ttu-id="8d0a5-167">在 C# 中，明确释放相应对象占用的内存。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-167">In C#, explicitly release the memory for that object.</span></span> </para>
+          <para><span data-ttu-id="8d0a5-p121">请注意，即使在释放了您的引用并尝试获取新引用之后，如果其他外接程序或 Outlook 中仍有对以上某个对象的活动引用，您新的引用将仍指向该对象的过期副本。因此，您在完成定期约会后立即释放您的引用是非常重要的。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-p121">Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Instance">
@@ -509,29 +367,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-125">返回或设置一个指定为其定期模式是有效的给定间隔的计数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-125">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the count for which the recurrence pattern is valid for a given interval.</span>
-          </span>
-          <span data-ttu-id="e35ea-126">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-126">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-170">返回或设置一个指定为其定期模式是有效的给定间隔的计数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-170">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the count for which the recurrence pattern is valid for a given interval.</span></span> <span data-ttu-id="8d0a5-171">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-171">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-127">
-            <para>此属性才有效对<b>olRecursMonthNth</b>和<b>olRecursYearNth</b>类型的定期事件，并允许才有效的第 n 个匹配项的定期模式的定义，如"年 3 月的第二个星期日"模式。标尺设置计数： 第一个 1，2 代表第二个等到 5 的最后一次。大于 5 的值会生成错误保存模式。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-127">
-              <para>This property is only valid for recurrences of the <b>olRecursMonthNth</b> and <b>olRecursYearNth</b> type and allows the definition of a recurrence pattern that is only valid for the Nth occurrence, such as "the 2nd Sunday in March" pattern. The count is set numerically: 1 for the first, 2 for the second, and so on through 5 for the last. Values greater than 5 will generate errors when the pattern is saved. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-p123">此属性所适用的 <b>olRecursMonthNth</b> 和 <b>olRecursYearNth</b> 类型的重复，并允许所适用的第 n 次出现定期模式的定义，如"在 3 月中的第二个星期日"模式。计数设置数字: 1 表示第一个，第二个，依次类推到最后 5 2。在保存模式，大于 5 的值时会产生错误。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-p123">This property is only valid for recurrences of the <b>olRecursMonthNth</b> and <b>olRecursYearNth</b> type and allows the definition of a recurrence pattern that is only valid for the Nth occurrence, such as "the 2nd Sunday in March" pattern. The count is set numerically: 1 for the first, 2 for the second, and so on through 5 for the last. Values greater than 5 will generate errors when the pattern is saved. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Interval">
@@ -560,33 +399,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-128">返回或设置一个指定给定的定期类型的实例之间的单位数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-128">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the number of units of a given recurrence type between occurrences.</span>
-          </span>
-          <span data-ttu-id="e35ea-129">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-129">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-175">返回或设置一个指定给定的定期类型的实例之间的单位数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-175">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the number of units of a given recurrence type between occurrences.</span></span> <span data-ttu-id="8d0a5-176">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-176">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-130">
-            <para>设置之前，必须设置<b>Interval</b>属性<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />。</para>
-            <para>例如，将<b>Interval</b>属性设置为 2 和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性设为 olRecursWeekly 将导致发生每两周的模式。</para>
-            <para>当<b>RecurrenceType</b>设置为 olRecursYearNth 或 olRecursYear，将<b>Interval</b>属性指示匹配项之间的年的数。例如，<b>间隔</b>等于 1 表示定期是每年、<b>时间间隔</b>等于 2 指示定期为每 2 年，依此类推。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-130">
-              <para>The <b>Interval</b> property must be set before setting <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />. </para>
-              <para>For example, setting the <b>Interval</b> property to 2 and the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />  property to olRecursWeekly would cause the pattern to occur every second week.</para>
-              <para>When <b>RecurrenceType</b> is set to olRecursYearNth or olRecursYear, the <b>Interval</b> property indicates the number of years between occurrences. For example, <b>Interval</b> equals 1 indicates the recurrence is every year, <b>Interval</b> equals 2 indicates the recurrence is every 2 years, and so on.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-177">设置之前，必须设置<b>Interval</b>属性<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-177">The <b>Interval</b> property must be set before setting <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />.</span></span> </para>
+          <para><span data-ttu-id="8d0a5-178">例如，将<b>Interval</b>属性设置为 2 和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性设为 olRecursWeekly 将导致发生每两周的模式。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-178">For example, setting the <b>Interval</b> property to 2 and the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />  property to olRecursWeekly would cause the pattern to occur every second week.</span></span></para>
+          <para><span data-ttu-id="8d0a5-179">当<b>RecurrenceType</b>设置为 olRecursYearNth 或 olRecursYear 时， <b>Interval</b>属性指示匹配项之间的年的数。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-179">When <b>RecurrenceType</b> is set to olRecursYearNth or olRecursYear, the <b>Interval</b> property indicates the number of years between occurrences.</span></span> <span data-ttu-id="8d0a5-180">例如， <b>间隔</b> 等于 1 表示重复周期是每年、 <b>时间间隔</b> 等 2 指示重复周期为每 2 年，依此类推。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-180">For example, <b>Interval</b> equals 1 indicates the recurrence is every year, <b>Interval</b> equals 2 indicates the recurrence is every 2 years, and so on.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MonthOfYear">
@@ -615,29 +433,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-131">返回或设置指示哪些月份的指定的定期模式无效的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-131">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating which month of the year is valid for the specified recurrence pattern.</span>
-          </span>
-          <span data-ttu-id="e35ea-132">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-132">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-181">返回或设置指示哪些月份的指定的定期模式无效的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-181">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating which month of the year is valid for the specified recurrence pattern.</span></span> <span data-ttu-id="8d0a5-182">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-182">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-133">
-            <para>值可以是介于 1 至 12。例如，此属性设置为 5 和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性设为<b>olRecursYearly</b>将导致发生每月定期模式。此属性才有效为其<b>RecurrenceType</b>属性设置为<b>olRecursYearly</b>或<b>olRecursYearNth</b>定期模式。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-133">
-              <para>The value can be a number from 1 through 12. For example, setting this property to 5 and the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />  property to <b>olRecursYearly</b> would cause this recurrence pattern to occur every May. This property is only valid for recurrence patterns whose <b>RecurrenceType</b> property is set to <b>olRecursYearly</b> or <b>olRecursYearNth</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-183">值可以是 1 到 12 之间的一个数字。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-183">The value can be a number from 1 through 12.</span></span> <span data-ttu-id="8d0a5-184">例如，此属性设置为 5 和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性设为<b>olRecursYearly</b>将导致发生每月定期模式。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-184">For example, setting this property to 5 and the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />  property to <b>olRecursYearly</b> would cause this recurrence pattern to occur every May.</span></span> <span data-ttu-id="8d0a5-185">此属性只是为其 <b>介于 1</b> 属性设置为 <b>olRecursYearly</b> 或 <b>olRecursYearNth</b> 的定期模式有效。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-185">This property is only valid for recurrence patterns whose <b>RecurrenceType</b> property is set to <b>olRecursYearly</b> or <b>olRecursYearNth</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NoEndDate">
@@ -666,29 +465,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-134">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果定期模式有无结束日期，则返回 True。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-134">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates True if the recurrence pattern has no end date.</span>
-          </span>
-          <span data-ttu-id="e35ea-135">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-135">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-186">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果定期模式有无结束日期，则返回 True。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-186">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates True if the recurrence pattern has no end date.</span></span> <span data-ttu-id="8d0a5-187">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-187">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-136">
-            <para>设置的定期模式时，此属性必须协调与其他属性。如果<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />属性或<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />属性设置、 模式被视为有限并且<b>NoEndDate</b>属性为<b>False</b>。如果设置<b>PatternEndDate</b>和<b>匹配项</b>都不，模式被认为是无限和<b>NoEndDate</b>为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-136">
-              <para>This property must be coordinated with other properties when setting up a recurrence pattern. If the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />  property or the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />  property is set, the pattern is considered to be finite and the <b>NoEndDate</b> property is <b>False</b>. If neither <b>PatternEndDate</b> nor <b>Occurrences</b> is set, the pattern is considered infinite and <b>NoEndDate</b> is <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-188">设置定期模式时，此属性必须与其他属性协同使用。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-188">This property must be coordinated with other properties when setting up a recurrence pattern.</span></span> <span data-ttu-id="8d0a5-189">如果<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />属性或<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />属性设置、 模式被视为有限并且<b>NoEndDate</b>属性为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-189">If the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />  property or the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />  property is set, the pattern is considered to be finite and the <b>NoEndDate</b> property is <b>False</b>.</span></span> <span data-ttu-id="8d0a5-190">如果 <b>PatternEndDate</b> 和 <b>匹配项</b> 都不设置，该模式被认为是无限和 <b>NoEndDate</b> 也是 <b>如此</b> 。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-190">If neither <b>PatternEndDate</b> nor <b>Occurrences</b> is set, the pattern is considered infinite and <b>NoEndDate</b> is <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Occurrences">
@@ -717,29 +497,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-137">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值定期模式的次数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-137">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the number of occurrences of the recurrence pattern.</span>
-          </span>
-          <span data-ttu-id="e35ea-138">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-138">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-191">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值定期模式的次数。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-191">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the number of occurrences of the recurrence pattern.</span></span> <span data-ttu-id="8d0a5-192">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-192">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-139">
-            <para>此属性允许才有效的后续发生指定数量的定期模式的定义。例如，您可以将此属性设置为 10 将在下一步十个星期四晚上举行的正式培训课程。设置的定期模式时，此属性必须协调与其他属性。如果<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />属性或<b>Occurrences</b>属性设置，该模式被视为有限和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />属性为<b>False</b>。如果设置<b>PatternEndDate</b>和<b>匹配项</b>都不，模式被认为是无限和<b>NoEndDate</b>为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-139">
-              <para>This property allows the definition of a recurrence pattern that is only valid for the specified number of subsequent occurrences. For example, you can set this property to 10 for a formal training course that will be held on the next ten Thursday evenings. This property must be coordinated with other properties when setting up a recurrence pattern. If the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />  property or the <b>Occurrences</b> property is set, the pattern is considered to be finite and the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />  property is <b>False</b>. If neither <b>PatternEndDate</b> nor <b>Occurrences</b> is set, the pattern is considered infinite and <b>NoEndDate</b> is <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-193">此属性允许定义所适用的指定数量的后续发生定期模式。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-193">This property allows the definition of a recurrence pattern that is only valid for the specified number of subsequent occurrences.</span></span> <span data-ttu-id="8d0a5-194">例如，您可以为正式的培训课程，将在接下来十个星期四晚上举行 10 来设置该属性。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-194">For example, you can set this property to 10 for a formal training course that will be held on the next ten Thursday evenings.</span></span> <span data-ttu-id="8d0a5-195">设置定期模式时，此属性必须与其他属性协同使用。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-195">This property must be coordinated with other properties when setting up a recurrence pattern.</span></span> <span data-ttu-id="8d0a5-196">如果<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />属性或<b>Occurrences</b>属性设置，该模式被视为有限和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />属性为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-196">If the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />  property or the <b>Occurrences</b> property is set, the pattern is considered to be finite and the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />  property is <b>False</b>.</span></span> <span data-ttu-id="8d0a5-197">如果 <b>PatternEndDate</b> 和 <b>匹配项</b> 都不设置，该模式被认为是无限和 <b>NoEndDate</b> 也是 <b>如此</b> 。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-197">If neither <b>PatternEndDate</b> nor <b>Occurrences</b> is set, the pattern is considered infinite and <b>NoEndDate</b> is <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -765,12 +526,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-p113">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-p113">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-p133">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-p133">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -801,29 +557,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-142">返回或设置<b>DateTime</b> ，该值指示定期模式的结束日期。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-142">Returns or sets a <b>DateTime</b> indicating the end date for the recurrence pattern.</span>
-          </span>
-          <span data-ttu-id="e35ea-143">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-143">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-200">返回或设置<b>DateTime</b> ，该值指示定期模式的结束日期。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-200">Returns or sets a <b>DateTime</b> indicating the end date for the recurrence pattern.</span></span> <span data-ttu-id="8d0a5-201">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-201">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-144">
-            <para>此属性是可选的但必须协调与其他属性设置的定期模式。如果此属性或<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />属性设置，该模式被认为是有限的而<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />属性为<b>False</b>。如果设置<b>PatternEndDate</b>和<b>匹配项</b>都不，模式被认为是无限和<b>NoEndDate</b>为<b>True</b>。<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />属性必须设置<b>PatternEndDate</b>之前设置。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-144">
-              <para>This property is optional but must be coordinated with other properties when setting up a recurrence pattern. If this property or the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />  property is set, the pattern is considered to be finite, and the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />  property is <b>False</b>. If neither <b>PatternEndDate</b> nor <b>Occurrences</b> is set, the pattern is considered infinite and <b>NoEndDate</b> is <b>True</b>. The <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />  property must be set before setting <b>PatternEndDate</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-202">此属性是可选的但设置定期模式时必须与其他属性协同使用。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-202">This property is optional but must be coordinated with other properties when setting up a recurrence pattern.</span></span> <span data-ttu-id="8d0a5-203">如果此属性或<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />属性设置，该模式被认为是有限的而<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />属性为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-203">If this property or the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />  property is set, the pattern is considered to be finite, and the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />  property is <b>False</b>.</span></span> <span data-ttu-id="8d0a5-204">如果 <b>PatternEndDate</b> 和 <b>匹配项</b> 都不设置，该模式被认为是无限和 <b>NoEndDate</b> 也是 <b>如此</b> 。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-204">If neither <b>PatternEndDate</b> nor <b>Occurrences</b> is set, the pattern is considered infinite and <b>NoEndDate</b> is <b>True</b>.</span></span> <span data-ttu-id="8d0a5-205"><see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />属性必须设置<b>PatternEndDate</b>之前设置。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-205">The <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />  property must be set before setting <b>PatternEndDate</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PatternStartDate">
@@ -852,16 +589,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-145">返回或设置为<b>DateTime</b> ，该值指示定期模式的开始日期。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-145">Returns or sets a <b>DateTime</b> indicating the start date for the recurrence pattern.</span>
-          </span>
-          <span data-ttu-id="e35ea-146">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-146">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-206">返回或设置为<b>DateTime</b> ，该值指示定期模式的开始日期。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-206">Returns or sets a <b>DateTime</b> indicating the start date for the recurrence pattern.</span></span> <span data-ttu-id="8d0a5-207">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-207">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -892,125 +620,75 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRecurrenceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-147">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceType" />指定定期模式的匹配项的频率的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-147">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceType" /> constant specifying the frequency of occurrences for the recurrence pattern.</span>
-          </span>
-          <span data-ttu-id="e35ea-148">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-148">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-208">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceType" />指定定期模式的匹配项的频率的常量。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-208">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceType" /> constant specifying the frequency of occurrences for the recurrence pattern.</span></span> <span data-ttu-id="8d0a5-209">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-209">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-149">
-            <para>设置其他属性之前，必须设置<b>RecurrenceType</b>属性<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。您随后可以设置的<b>RecurrencePattern</b>属性取决于<b>RecurrenceType</b>，值下表中所示：</para>
-            <list type="table">
-              <item>
-                <description>OlRecurrenceType</description>
-                <description>有效的 RecurrencePattern 属性</description>
-              </item>
-              <item>
-                <description>
-                  <b>olRecursDaily</b>
-                </description>
-                <description>
-                  <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></description>
-              </item>
-              <item>
-                <description>
-                  <b>olRecursWeekly</b>
-                </description>
-                <description>
-                  <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />，<b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
-              </item>
-              <item>
-                <description>
-                  <b>olRecursMonthly</b>
-                </description>
-                <description>
-                  <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />，<b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
-              </item>
-              <item>
-                <description>
-                  <b>olRecursMonthNth</b>
-                </description>
-                <description>
-                  <b>DayOfWeekMask</b>，<b>持续时间</b>、<b>结束时间</b><b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />， <b>NoEndDate</b>、<b>匹配项</b>， <b>PatternStartDate</b>， <b>PatternEndDate</b>、 <b>StartTime</b></description>
-              </item>
-              <item>
-                <description>
-                  <b>olRecursYearly</b>
-                </description>
-                <description>
-                  <b>DayOfMonth</b>，<b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>MonthOfYear</b>、 <b>NoEndDate</b>，<b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
-              </item>
-              <item>
-                <description>
-                  <b>olRecursYearNth</b>
-                </description>
-                <description>
-                  <b>DayOfWeekMask</b>，<b>持续时间</b>、<b>结束时间</b>，<b>间隔</b>，<b>实例</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-149">
-              <para>You must set the <b>RecurrenceType</b> property before you set other properties for a <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object. The <b>RecurrencePattern</b> properties that you can set subsequently depends on the value of  <b>RecurrenceType</b>, as shown in the following table:</para>
-              <list type="table">
-                <item>
-                  <description>OlRecurrenceType</description>
-                  <description>Valid RecurrencePattern Properties</description>
-                </item>
-                <item>
-                  <description>
-                    <b>olRecursDaily</b>
-                  </description>
-                  <description>
-                    <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></description>
-                </item>
-                <item>
-                  <description>
-                    <b>olRecursWeekly</b>
-                  </description>
-                  <description>
-                    <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-                </item>
-                <item>
-                  <description>
-                    <b>olRecursMonthly</b>
-                  </description>
-                  <description>
-                    <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-                </item>
-                <item>
-                  <description>
-                    <b>olRecursMonthNth</b>
-                  </description>
-                  <description>
-                    <b>DayOfWeekMask</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-                </item>
-                <item>
-                  <description>
-                    <b>olRecursYearly</b>
-                  </description>
-                  <description>
-                    <b>DayOfMonth</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>MonthOfYear</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-                </item>
-                <item>
-                  <description>
-                    <b>olRecursYearNth</b>
-                  </description>
-                  <description>
-                    <b>DayOfWeekMask</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>Instance</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-210">设置其他属性之前，必须设置<b>RecurrenceType</b>属性<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-210">You must set the <b>RecurrenceType</b> property before you set other properties for a <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object.</span></span> <span data-ttu-id="8d0a5-211">您随后可以设置的<b>RecurrencePattern</b>属性取决于<b>RecurrenceType</b>，值下表中所示：</span><span class="sxs-lookup"><span data-stu-id="8d0a5-211">The <b>RecurrencePattern</b> properties that you can set subsequently depends on the value of  <b>RecurrenceType</b>, as shown in the following table:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="8d0a5-212">OlRecurrenceType</span><span class="sxs-lookup"><span data-stu-id="8d0a5-212">OlRecurrenceType</span></span></description>
+              <description><span data-ttu-id="8d0a5-213">有效的 RecurrencePattern 属性</span><span class="sxs-lookup"><span data-stu-id="8d0a5-213">Valid RecurrencePattern Properties</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8d0a5-214">
+                <b>olRecursDaily</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8d0a5-214">
+                <b>olRecursDaily</b>
+              </span></span></description>
+              <description><span data-ttu-id="8d0a5-215">
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></span><span class="sxs-lookup"><span data-stu-id="8d0a5-215"></span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8d0a5-216">
+                <b>olRecursWeekly</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8d0a5-216">
+                <b>olRecursWeekly</b>
+              </span></span></description>
+              <description><span data-ttu-id="8d0a5-217">
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" /><b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-217">
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8d0a5-218">
+                <b>olRecursMonthly</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8d0a5-218">
+                <b>olRecursMonthly</b>
+              </span></span></description>
+              <description><span data-ttu-id="8d0a5-219">
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" /><b>持续时间</b>、<b>结束时间</b>、<b>时间间隔</b>、 <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-219">
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8d0a5-220">
+                <b>olRecursMonthNth</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8d0a5-220">
+                <b>olRecursMonthNth</b>
+              </span></span></description>
+              <description><span data-ttu-id="8d0a5-221">
+                <b>DayOfWeekMask</b>、<b>持续时间</b>、<b>结束时间</b>、<b>间隔</b>， <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />， <b>NoEndDate</b>、 <b>Occurrences</b>、 <b>PatternStartDate</b>、 <b>PatternEndDate</b>、 <b>StartTime</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-221">
+                <b>DayOfWeekMask</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8d0a5-222">
+                <b>olRecursYearly</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8d0a5-222">
+                <b>olRecursYearly</b>
+              </span></span></description>
+              <description><span data-ttu-id="8d0a5-223">
+                <b>DayOfMonth</b> 、 <b>持续时间</b> 、 <b>结束时间</b> 、 <b>间隔</b> 、 <b>MonthOfYear</b> 、 <b>NoEndDate</b> 、 <b>事件</b> 、 <b>PatternStartDate</b> 、 <b>PatternEndDate</b> 、 <b>开始时间</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-223">
+                <b>DayOfMonth</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>MonthOfYear</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8d0a5-224">
+                <b>olRecursYearNth</b>
+              </span><span class="sxs-lookup"><span data-stu-id="8d0a5-224">
+                <b>olRecursYearNth</b>
+              </span></span></description>
+              <description><span data-ttu-id="8d0a5-225">
+                <b>年</b> 、 <b>持续时间</b> 、 <b>结束时间</b> 、 <b>间隔</b> 、 <b>实例</b> 、 <b>NoEndDate</b> 、 <b>事件</b> 、 <b>PatternStartDate</b> 、 <b>PatternEndDate</b> 、 <b>开始时间</b></span><span class="sxs-lookup"><span data-stu-id="8d0a5-225">
+                <b>DayOfWeekMask</b>, <b>Duration</b>, <b>EndTime</b>, <b>Interval</b>, <b>Instance</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></span></span></description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Regenerate">
@@ -1039,31 +717,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-150">返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示<b>True</b>如果任务通过定期模式本次以后重新生成。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-150">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates <b>True</b> if the task should be regenerated following this pass through the recurrence pattern.</span>
-          </span>
-          <span data-ttu-id="e35ea-151">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-151">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-226">返回一个<b>布尔</b>(C# 中<b>bool</b> )，该值指示<b>True</b>如果任务通过定期模式本次以后重新生成。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-226">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates <b>True</b> if the task should be regenerated following this pass through the recurrence pattern.</span></span> <span data-ttu-id="8d0a5-227">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-227">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-152">
-            <para>此属性用于完成定期任务每次控制任务重新生成。才有效的任务。不是对约会有效。</para>
-            <para>创建定期模式，您必须首先将设置<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性来设置频率，然后<b>重新生成</b>属性设置为<b>True</b>以重新生成该任务。设置为<b>True</b>的<b>重新生成</b>后, 执行操作不将其设置为<b>False</b>。如果您随后将设置<b>重新生成</b>为<b>False</b>，则您应设置定期模式再次获取新<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-152">
-              <para>This property is used to control the regeneration of the task as each occurrence of a recurring task is completed. It is only valid for tasks. It is not valid for appointments.</para>
-              <para>To create a recurrence pattern, you must first set the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" /> property to set the frequency, then set the <b>Regenerate</b> property  to <b>True</b> to regenerate the task. After setting <b>Regenerate</b> to <b>True</b>, do not set it to <b>False</b>. If you subsequently set <b>Regenerate</b> to <b>False</b>, then you should set up the recurrence pattern again by getting a new <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-p140">该属性用于在定期任务每次完成后控制任务的重新生成。它仅适用于任务，不适用于约会。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-p140">This property is used to control the regeneration of the task as each occurrence of a recurring task is completed. It is only valid for tasks. It is not valid for appointments.</span></span></para>
+          <para><span data-ttu-id="8d0a5-231">若要创建的定期模式，您必须首先将设置<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />属性来设置频率，然后<b>重新生成</b>属性设置为<b>True</b>以重新生成该任务。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-231">To create a recurrence pattern, you must first set the <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" /> property to set the frequency, then set the <b>Regenerate</b> property  to <b>True</b> to regenerate the task.</span></span> <span data-ttu-id="8d0a5-232">设置为 <b>True</b> 的 <b>再生</b> 后, 不要设置它为 <b>False</b> 。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-232">After setting <b>Regenerate</b> to <b>True</b>, do not set it to <b>False</b>.</span></span> <span data-ttu-id="8d0a5-233">如果您随后将设置<b>重新生成</b>为<b>False</b>，则您应设置定期模式再次获取新<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-233">If you subsequently set <b>Regenerate</b> to <b>False</b>, then you should set up the recurrence pattern again by getting a new <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1089,42 +747,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-153">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-153">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="e35ea-154">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-154">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-234">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-234">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="8d0a5-235">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-235">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-155">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="8d0a5-236"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-236">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="8d0a5-237">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-237">Both members serve the same purpose.</span></span> <span data-ttu-id="8d0a5-238">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="8d0a5-238">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-155">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartTime">
@@ -1153,31 +785,12 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e35ea-156">返回或设置为<b>DateTime</b> ，该值指示的定期模式的开始时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-156">Returns or sets a <b>DateTime</b> indicating the start time for a recurrence pattern.</span>
-          </span>
-          <span data-ttu-id="e35ea-157">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-157">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d0a5-239">返回或设置为<b>DateTime</b> ，该值指示的定期模式的开始时间。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-239">Returns or sets a <b>DateTime</b> indicating the start time for a recurrence pattern.</span></span> <span data-ttu-id="8d0a5-240">读/写。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-240">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e35ea-158">
-            <para>此属性仅对约会有效。</para>
-            <para>创建时<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象和任何时区已指定为约会， <b>StartTime</b>和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <b>RecurrencePattern</b>对象的基于通过指定的时区<see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>如果您想要创建特定的时区的定期约会
-          <para>，应首先创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />，然后调用<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />。返回的<b>RecurrencePattern</b>对象将具有两个<b>StartTime</b>和<b>EndTime</b>将基于由<b>AppointmentItem.StartTimeZone</b>指定的时区。请注意，在约会定期对话框中，时间指定为开始<b>RecurrencePattern.StartTime</b>基于<b>AppointmentItem.StartTimeZone</b>，但时间指示如结束并不总是<b>相同RecurrencePattern.EndTime</b>根据<b>AppointmentItem.StartTimeZone</b>;显示的时间值基于<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e35ea-158">
-              <para>This property is only valid for appointments.</para>
-              <para>When you create a <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object and no time zones have been specified for the appointment, <b>StartTime</b> and <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" /> of the <b>RecurrencePattern</b> object are based on the time zone specified by <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />. </para>
-              <para>If you want to create a recurring appointment for a particular time zone, you should first create an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, set <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />, and then call <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />. The <b>RecurrencePattern</b> object returned will have both <b>StartTime</b> and <b>EndTime</b> based on the time zone specified by <b>AppointmentItem.StartTimeZone</b>. Note that in the Appointment Recurrence dialog box, the time indicated as Start is <b>RecurrencePattern.StartTime</b> which is based on <b>AppointmentItem.StartTimeZone</b>, but the time indicated as End is not always the same as  <b>RecurrencePattern.EndTime</b> which is based on <b>AppointmentItem.StartTimeZone</b>; the displayed time value is based on <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8d0a5-241">此属性仅对约会有效。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-241">This property is only valid for appointments.</span></span></para>
+          <para><span data-ttu-id="8d0a5-242">当创建<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象和任何时区已指定为约会， <b>StartTime</b>和<see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />， <b>RecurrencePattern</b>对象的基于通过指定的时区<see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-242">When you create a <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object and no time zones have been specified for the appointment, <b>StartTime</b> and <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" /> of the <b>RecurrencePattern</b> object are based on the time zone specified by <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />.</span></span> </para>
+          <para><span data-ttu-id="8d0a5-243">如果您想要创建特定的时区的定期约会，应首先创建<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />、 设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />，然后调用<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-243">If you want to create a recurring appointment for a particular time zone, you should first create an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, set <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />, and then call <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />.</span></span> <span data-ttu-id="8d0a5-244">返回的 <b>RecurrencePattern</b> 对象将具有两个 <b>开始时间</b> 和 <b>结束时间</b> 的基础通过 <b>AppointmentItem.StartTimeZone</b> 指定的时区。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-244">The <b>RecurrencePattern</b> object returned will have both <b>StartTime</b> and <b>EndTime</b> based on the time zone specified by <b>AppointmentItem.StartTimeZone</b>.</span></span> <span data-ttu-id="8d0a5-245">请注意，在约会定期对话框中，时间指定为开始<b>RecurrencePattern.StartTime</b>基于<b>AppointmentItem.StartTimeZone</b>，但时间指示如结束并不总是<b>相同RecurrencePattern.EndTime</b>根据<b>AppointmentItem.StartTimeZone</b>;显示的时间值基于<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。</span><span class="sxs-lookup"><span data-stu-id="8d0a5-245">Note that in the Appointment Recurrence dialog box, the time indicated as Start is <b>RecurrencePattern.StartTime</b> which is based on <b>AppointmentItem.StartTimeZone</b>, but the time indicated as End is not always the same as  <b>RecurrencePattern.EndTime</b> which is based on <b>AppointmentItem.StartTimeZone</b>; the displayed time value is based on <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

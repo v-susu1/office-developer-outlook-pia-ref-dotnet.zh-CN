@@ -1,13 +1,5 @@
 <Type Name="ItemsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ItemsEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c65291c20f628cc554d12112dfcb9d27603f7631" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631452" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3f8986b9deb17b08fe9f3e94f0e21ab2254f077a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897802" /></Metadata><TypeSignature Language="C#" Value="public interface ItemsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemsEvents_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d9cd5-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d9cd5-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="39a8e-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span><span class="sxs-lookup"><span data-stu-id="39a8e-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,16 +40,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemsEvents_ItemAddEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9cd5-105">在将一个或多个项目添加到指定的集合中时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9cd5-105">Occurs when one or more items are added to the specified collection.</span>
-          </span>
-          <span data-ttu-id="d9cd5-106">该事件在将大量项目同时添加到文件夹时不运行。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9cd5-106">This event does not run when a large number of items are added to the folder at once.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39a8e-105">在将一个或多个项目添加到指定的集合中时发生。</span><span class="sxs-lookup"><span data-stu-id="39a8e-105">Occurs when one or more items are added to the specified collection.</span></span> <span data-ttu-id="39a8e-106">该事件在将大量项目同时添加到文件夹时不运行。</span><span class="sxs-lookup"><span data-stu-id="39a8e-106">This event does not run when a large number of items are added to the folder at once.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,12 +59,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemsEvents_ItemChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9cd5-107">当指定集合中的项目更改时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9cd5-107">Occurs when an item in the specified collection is changed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39a8e-107">当指定集合中的项目更改时发生。</span><span class="sxs-lookup"><span data-stu-id="39a8e-107">Occurs when an item in the specified collection is changed.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,16 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemsEvents_ItemRemoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9cd5-108">当从指定集合中删除项目时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9cd5-108">Occurs when an item is deleted from the specified collection.</span>
-          </span>
-          <span data-ttu-id="d9cd5-109">此事件不运行时删除个人文件夹文件 (.pst) 中的最后一项，或同时从 PST 文件、 Microsoft Exchange 邮箱或 Exchange 公用文件夹删除 16 或多个项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9cd5-109">This event does not run when the last item in  a Personal Folders file (.pst) is deleted, or if 16 or more items are deleted  at once from a PST file, Microsoft Exchange mailbox, or an Exchange public folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39a8e-108">当从指定集合中删除项目时发生。</span><span class="sxs-lookup"><span data-stu-id="39a8e-108">Occurs when an item is deleted from the specified collection.</span></span> <span data-ttu-id="39a8e-109">此事件不运行时删除个人文件夹文件 (.pst) 中的最后一项，或同时从 PST 文件、 Microsoft Exchange 邮箱或 Exchange 公用文件夹删除 16 或多个项目。</span><span class="sxs-lookup"><span data-stu-id="39a8e-109">This event does not run when the last item in  a Personal Folders file (.pst) is deleted, or if 16 or more items are deleted  at once from a PST file, Microsoft Exchange mailbox, or an Exchange public folder.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

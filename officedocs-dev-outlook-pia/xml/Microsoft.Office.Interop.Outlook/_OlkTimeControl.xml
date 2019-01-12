@@ -1,13 +1,5 @@
 <Type Name="_OlkTimeControl" FullName="Microsoft.Office.Interop.Outlook._OlkTimeControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ce2a5f72951f8dc3e07a337dee076ea8ef948818" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632749" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTimeControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ce2a5f72951f8dc3e07a337dee076ea8ef948818" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896721" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTimeControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTimeControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTimeControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTimeControl" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="f87e4-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f87e4-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="f87e4-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f87e4-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="f87e4-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f87e4-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="f87e4-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeControl" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f87e4-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeControl" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="9c241-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="9c241-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="9c241-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="9c241-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="9c241-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="9c241-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="9c241-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeControl" />。</span><span class="sxs-lookup"><span data-stu-id="9c241-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeControl" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -73,29 +48,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-105">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的自动调整大小以显示完整的内容的控件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that automatically sizes the control to display  the entire contents.</span>
-          </span>
-          <span data-ttu-id="f87e4-106">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-105">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的自动调整大小以显示完整的内容的控件。</span><span class="sxs-lookup"><span data-stu-id="9c241-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that automatically sizes the control to display  the entire contents.</span></span>  <span data-ttu-id="9c241-106">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-107">
-            <para>此属性的默认值为<b>False</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-107">
-              <para>  The default value for this property is <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para>  <span data-ttu-id="9c241-107">此属性的默认值为 <b>False</b> 。</span><span class="sxs-lookup"><span data-stu-id="9c241-107">The default value for this property is <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -124,29 +80,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-108">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的指定用于扩展选定内容的基本单位单词还是将字符。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-108">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether a word or a character is the basic unit used to extend a selection.</span>
-          </span>
-          <span data-ttu-id="f87e4-109">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-109">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-108">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的指定用于扩展选定内容的基本单位单词还是将字符。</span><span class="sxs-lookup"><span data-stu-id="9c241-108">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether a word or a character is the basic unit used to extend a selection.</span></span>  <span data-ttu-id="9c241-109">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-109">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-110">
-            <para>默认值为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-110">
-              <para>The default value is <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-110">默认值为 <b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="9c241-110">The default value is <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -178,29 +115,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-111">返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-111">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span>
-          </span>
-          <span data-ttu-id="f87e4-112">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-112">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-111">返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。</span><span class="sxs-lookup"><span data-stu-id="9c241-111">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span></span> <span data-ttu-id="9c241-112">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-112">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-113">
-            <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x80000005，"窗口"。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-113">
-              <para>This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value. The default value for this property is 0x80000005, "Window." </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-113">此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。</span><span class="sxs-lookup"><span data-stu-id="9c241-113">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="9c241-114">此属性的默认值是 0x80000005，"窗口。</span><span class="sxs-lookup"><span data-stu-id="9c241-114">The default value for this property is 0x80000005, "Window."</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -229,29 +147,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBackStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-114">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />更改之间透明和不透明的控件的背景样式的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-114">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constant that changes the background style of the control between transparent and opaque.</span>
-          </span>
-          <span data-ttu-id="f87e4-115">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-115">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-115">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" />更改之间透明和不透明的控件的背景样式的常量。</span><span class="sxs-lookup"><span data-stu-id="9c241-115">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constant that changes the background style of the control between transparent and opaque.</span></span> <span data-ttu-id="9c241-116">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-116">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-116">
-            <para>默认值为<b>olBackStyleOpaque</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-116">
-              <para>The default value is <b>olBackStyleOpaque</b>.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-p107">默认值是 <b>olBackStyleOpaque</b> 。</span><span class="sxs-lookup"><span data-stu-id="9c241-p107">The default value is <b>olBackStyleOpaque</b>.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -275,12 +174,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-117">展开时间控件的时间下拉列表。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-117">Expands the time drop-down list of the time control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-118">展开时间控件的时间下拉列表。</span><span class="sxs-lookup"><span data-stu-id="9c241-118">Expands the time drop-down list of the time control.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -310,29 +204,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-118">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-118">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span>
-          </span>
-          <span data-ttu-id="f87e4-119">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-119">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-119">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。</span><span class="sxs-lookup"><span data-stu-id="9c241-119">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="9c241-120">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-120">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-120">
-            <para>默认值为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-120">
-              <para>The default value is <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-121">默认值为 <b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="9c241-121">The default value is <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterFieldBehavior">
@@ -361,29 +236,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-121">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />进入控件时指定的选择行为的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-121">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constant that specifies the selection behavior when entering the control.</span>
-          </span>
-          <span data-ttu-id="f87e4-122">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-122">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-122">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" />进入控件时指定的选择行为的常量。</span><span class="sxs-lookup"><span data-stu-id="9c241-122">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constant that specifies the selection behavior when entering the control.</span></span> <span data-ttu-id="9c241-123">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-123">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-123">
-            <para>默认值为<b>olEnterFieldBehaviorSelectAll</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-123">
-              <para>The default value is <b>olEnterFieldBehaviorSelectAll</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-124">默认值是 <b>olEnterFieldBehaviorSelectAll</b> 。</span><span class="sxs-lookup"><span data-stu-id="9c241-124">The default value is <b>olEnterFieldBehaviorSelectAll</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -409,16 +265,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-124">返回一个<b>StdFont</b>值，该值代表用于呈现控件内的文本的字体。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-124">Returns an <b>StdFont</b> that represents the font used to render the text inside the control.</span>
-          </span>
-          <span data-ttu-id="f87e4-125">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-125">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-125">返回一个<b>StdFont</b>值，该值代表用于呈现控件内的文本的字体。</span><span class="sxs-lookup"><span data-stu-id="9c241-125">Returns an <b>StdFont</b> that represents the font used to render the text inside the control.</span></span>  <span data-ttu-id="9c241-126">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="9c241-126">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -452,29 +299,10 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-126">返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-126">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span>
-          </span>
-          <span data-ttu-id="f87e4-127">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-127">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-127">返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。</span><span class="sxs-lookup"><span data-stu-id="9c241-127">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span></span> <span data-ttu-id="9c241-128">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-128">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-128">
-            <para>此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。此属性的默认值是 0x80000008，"窗口文本"。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-128">
-              <para>This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value. The default value for this property is 0x80000008, "Window Text."  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-129">此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。</span><span class="sxs-lookup"><span data-stu-id="9c241-129">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="9c241-130">此属性的默认值是 0x80000008，"窗口型"。</span><span class="sxs-lookup"><span data-stu-id="9c241-130">The default value for this property is 0x80000008, "Window Text."</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -503,29 +331,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-129">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 指定是显示还是隐藏控件控件失去焦点时的选择。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-129">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a selection is displayed or hidden for the control when the control loses focus.</span>
-          </span>
-          <span data-ttu-id="f87e4-130">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-130">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-131">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 指定是显示还是隐藏控件控件失去焦点时的选择。</span><span class="sxs-lookup"><span data-stu-id="9c241-131">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a selection is displayed or hidden for the control when the control loses focus.</span></span>  <span data-ttu-id="9c241-132">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-132">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-131">
-            <para>此属性的默认值为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-131">
-              <para>The default value of this property is <b>True</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-p114">此属性的默认值为 <b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="9c241-p114">The default value of this property is <b>True</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IntervalTime">
@@ -554,37 +363,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-132">返回或设置指定显示为用于时间控件上的<b>olTimeStyleTimeDuration</b>样式设置的间隔的分钟数的<b>DateTime</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-132">Returns or sets a <b>DateTime</b> that specifies the number of minutes displayed as an interval used for the <b>olTimeStyleTimeDuration</b> style setting on the time control.</span>
-          </span>
-          <span data-ttu-id="f87e4-133">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-133">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-134">返回或设置指定显示为用于时间控件上的<b>olTimeStyleTimeDuration</b>样式设置的间隔的分钟数的<b>DateTime</b> 。</span><span class="sxs-lookup"><span data-stu-id="9c241-134">Returns or sets a <b>DateTime</b> that specifies the number of minutes displayed as an interval used for the <b>olTimeStyleTimeDuration</b> style setting on the time control.</span></span>  <span data-ttu-id="9c241-135">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-135">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-134">
-            <para>默认值为 30。</para>
-            <para>
-              <b>IntervalTime</b>的最小值为 1，最大值为 1440年。 分配此范围之外的值将导致改为使用最近边缘值。 </para>
-            <para>时<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是的日期控件显示的值的<b>olTimeStyleTimeDuration</b>，<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />作为第一个可选时间值，显示 （由<b>IntervalTime</b>指定） 的其他间隔从<b>ReferenceTime</b>开始值，并显示事件的持续时间。</para>
-            <para>
-              <b>ReferenceTime</b>的默认值为 1899 年 12 月 30 12:00。在这种情况下，时间控件将显示 30 1899 年 12 月 12:00 为第一个可选的时间。 值为 60 <b>IntervalTime</b>将标记 1899 年 12 月 30 凌晨 1:00 作为第一个间隔。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-134">
-              <para>The default value is 30.</para>
-              <para>The minimum value for <b>IntervalTime</b> is 1 and the maximum value is 1440.  Assigning a value outside of this range will result in the nearest edge value being used instead.  </para>
-              <para>When <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> is <b>olTimeStyleTimeDuration</b>,  the date control displays the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> as the first selectable time value, shows additional intervals (specified by <b>IntervalTime</b>) starting   from the <b>ReferenceTime</b> value, and shows the duration of an event.</para>
-              <para>The default value for <b>ReferenceTime</b> is 30 Dec 1899 12:00 AM. In this case, the time control will display 30 Dec 1899 12:00 AM as the first selectable time.  A value of 60 for <b>IntervalTime</b> will mark 30 Dec 1899 1:00 AM as the first interval.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-136">默认值为 30。</span><span class="sxs-lookup"><span data-stu-id="9c241-136">The default value is 30.</span></span></para>
+          <para><span data-ttu-id="9c241-137"><b>IntervalTime</b> 的最小值为 1，最大值为 1440 分钟。</span><span class="sxs-lookup"><span data-stu-id="9c241-137">The minimum value for <b>IntervalTime</b> is 1 and the maximum value is 1440.</span></span>  <span data-ttu-id="9c241-138">指定超出此范围的值将导致改用最接近的边缘值。</span><span class="sxs-lookup"><span data-stu-id="9c241-138">Assigning a value outside of this range will result in the nearest edge value being used instead.</span></span>  </para>
+          <para><span data-ttu-id="9c241-139">当<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是的日期控件显示的值的<b>olTimeStyleTimeDuration</b>，<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />作为第一个可选时间值，显示 （由<b>IntervalTime</b>指定） 的其他间隔<b>ReferenceTime</b>值，从开始和显示事件的持续时间。</span><span class="sxs-lookup"><span data-stu-id="9c241-139">When <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> is <b>olTimeStyleTimeDuration</b>,  the date control displays the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> as the first selectable time value, shows additional intervals (specified by <b>IntervalTime</b>) starting   from the <b>ReferenceTime</b> value, and shows the duration of an event.</span></span></para>
+          <para><span data-ttu-id="9c241-140"><b>ReferenceTime</b> 的默认值是 1899 年 12 月 30 上午 12:00。</span><span class="sxs-lookup"><span data-stu-id="9c241-140">The default value for <b>ReferenceTime</b> is 30 Dec 1899 12:00 AM.</span></span> <span data-ttu-id="9c241-141">在这种情况下，时间控件将作为第一个可选时间显示 30 1899 年 12 月 12:00 AM 。</span><span class="sxs-lookup"><span data-stu-id="9c241-141">In this case, the time control will display 30 Dec 1899 12:00 AM as the first selectable time.</span></span>  <span data-ttu-id="9c241-142">60 <b>IntervalTime</b> 的值将作为第一个间隔标记 30 1899 年 12 月 1:00 AM 。</span><span class="sxs-lookup"><span data-stu-id="9c241-142">A value of 60 for <b>IntervalTime</b> will mark 30 Dec 1899 1:00 AM as the first interval.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -613,31 +398,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-135">返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件处于锁定状态而被更改。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-135">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span>
-          </span>
-          <span data-ttu-id="f87e4-136">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-136">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-143">返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件处于锁定状态而被更改。</span><span class="sxs-lookup"><span data-stu-id="9c241-143">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span></span>  <span data-ttu-id="9c241-144">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-144">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-137">
-            <para>默认值为<b>False</b>。</para>
-            <para>当控件处于锁定状态时，该控件不具有"禁用"外观，但是用户不能编辑控件的内容。 </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-137">
-              <para>The default value is <b>False</b>.</para>
-              <para>When the control is locked, the control does not have  a "disabled" appearance, but the user cannot edit the contents of the control.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-145">默认值为 <b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="9c241-145">The default value is <b>False</b>.</span></span></para>
+          <para><span data-ttu-id="9c241-p119">当控件处于锁定状态时，该控件不具有“禁用”外观，但是用户不能编辑控件中的内容。</span><span class="sxs-lookup"><span data-stu-id="9c241-p119">When the control is locked, the control does not have  a "disabled" appearance, but the user cannot edit the contents of the control.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -666,29 +431,10 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-138">返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-138">Returns or sets a <b>StdPicture</b> that represents the custom picture to the mouse cursor for this control.</span>
-          </span>
-          <span data-ttu-id="f87e4-139">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-139">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-147">返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。</span><span class="sxs-lookup"><span data-stu-id="9c241-147">Returns or sets a <b>StdPicture</b> that represents the custom picture to the mouse cursor for this control.</span></span> <span data-ttu-id="9c241-148">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-148">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-140">
-            <para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-140">
-              <para>The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-149">默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="9c241-149">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -717,29 +463,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-141">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-141">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span>
-          </span>
-          <span data-ttu-id="f87e4-142">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-142">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-150">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。</span><span class="sxs-lookup"><span data-stu-id="9c241-150">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="9c241-151">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-151">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-143">
-            <para>默认值为<b>olMousePointerDefault</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-143">
-              <para>The default value is <b>olMousePointerDefault</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-152">默认值是 <b>olMousePointerDefault</b> 。</span><span class="sxs-lookup"><span data-stu-id="9c241-152">The default value is <b>olMousePointerDefault</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReferenceTime">
@@ -768,34 +495,12 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-144">返回或设置指定用于在时间控件的<b>olTimeStyleTimeDuration</b>样式设置引用时间的<b>DateTime</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-144">Returns or sets a <b>DateTime</b> that specifies a reference time used for the <b>olTimeStyleTimeDuration</b> style setting on the time control.</span>
-          </span>
-          <span data-ttu-id="f87e4-145">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-145">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-153">返回或设置指定用于在时间控件的<b>olTimeStyleTimeDuration</b>样式设置引用时间的<b>DateTime</b> 。</span><span class="sxs-lookup"><span data-stu-id="9c241-153">Returns or sets a <b>DateTime</b> that specifies a reference time used for the <b>olTimeStyleTimeDuration</b> style setting on the time control.</span></span>    <span data-ttu-id="9c241-154">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-154">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-146">
-            <para>的默认值为 1899 年 12 月 30 日。</para>
-            <para>时<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是<b>olTimeStyleTimeDuration</b>，的日期控件显示的<b>ReferenceTime</b>值作为第一个可选时间值，显示其他时间间隔 (由指定<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />) 从<b>ReferenceTime</b>值，开始显示事件的持续时间。</para>
-            <para>
-              <b>ReferenceTime</b>的默认值为 1899 年 12 月 30 12:00。在这种情况下，时间控件将显示 30 1899 年 12 月 12:00 为第一个可选的时间。 值为 60 <b>IntervalTime</b>将标记 1899 年 12 月 30 凌晨 1:00 作为第一个间隔。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-146">
-              <para>The default value is 12/30/1899.</para>
-              <para>When <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> is <b>olTimeStyleTimeDuration</b>,  the date control displays the value of  <b>ReferenceTime</b> as the first selectable time value, shows additional intervals (specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />) starting   from the <b>ReferenceTime</b> value, and shows the duration of an event.</para>
-              <para>The default value for <b>ReferenceTime</b> is 30 Dec 1899 12:00 AM. In this case, the time control will display 30 Dec 1899 12:00 AM as the first selectable time.  A value of 60 for <b>IntervalTime</b> will mark 30 Dec 1899 1:00 AM as the first interval.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-155">默认值为 1899 年 12 月 30 日。</span><span class="sxs-lookup"><span data-stu-id="9c241-155">The default value is 12/30/1899.</span></span></para>
+          <para><span data-ttu-id="9c241-156">当<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是<b>olTimeStyleTimeDuration</b>，的日期控件显示的<b>ReferenceTime</b>值作为第一个可选时间值，显示其他时间间隔 (由指定<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />) 从<b>ReferenceTime</b>值，开始和显示事件的持续时间。</span><span class="sxs-lookup"><span data-stu-id="9c241-156">When <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> is <b>olTimeStyleTimeDuration</b>,  the date control displays the value of  <b>ReferenceTime</b> as the first selectable time value, shows additional intervals (specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />) starting   from the <b>ReferenceTime</b> value, and shows the duration of an event.</span></span></para>
+          <para><span data-ttu-id="9c241-157"><b>ReferenceTime</b> 的默认值是 1899 年 12 月 30 上午 12:00。</span><span class="sxs-lookup"><span data-stu-id="9c241-157">The default value for <b>ReferenceTime</b> is 30 Dec 1899 12:00 AM.</span></span> <span data-ttu-id="9c241-158">在这种情况下，时间控件将作为第一个可选时间显示 30 1899 年 12 月 12:00 AM 。</span><span class="sxs-lookup"><span data-stu-id="9c241-158">In this case, the time control will display 30 Dec 1899 12:00 AM as the first selectable time.</span></span>  <span data-ttu-id="9c241-159">60 <b>IntervalTime</b> 的值将作为第一个间隔标记 30 1899 年 12 月 1:00 AM 。</span><span class="sxs-lookup"><span data-stu-id="9c241-159">A value of 60 for <b>IntervalTime</b> will mark 30 Dec 1899 1:00 AM as the first interval.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Style">
@@ -824,29 +529,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-147">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />指定时间控件的样式的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-147">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" /> constant that specifies the style of the time control.</span>
-          </span>
-          <span data-ttu-id="f87e4-148">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-148">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-160">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />指定时间控件的样式的常量。</span><span class="sxs-lookup"><span data-stu-id="9c241-160">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" /> constant that specifies the style of the time control.</span></span>   <span data-ttu-id="9c241-161">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-161">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-149">
-            <para>默认值为<b>olTimeStyleTimeOnly</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-149">
-              <para>The default value is <b>olTimeStyleTimeOnly</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-162">默认值是 <b>olTimeStyleTimeOnly</b> 。</span><span class="sxs-lookup"><span data-stu-id="9c241-162">The default value is <b>olTimeStyleTimeOnly</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -875,33 +561,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-150">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），为控件中显示的文本。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-150">Returns or sets a <b>String</b> (<b>string</b> in C#) that is the text displayed in the control.</span>
-          </span>
-          <span data-ttu-id="f87e4-151">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-151">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-163">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），为控件中显示的文本。</span><span class="sxs-lookup"><span data-stu-id="9c241-163">Returns or sets a <b>String</b> (<b>string</b> in C#) that is the text displayed in the control.</span></span> <span data-ttu-id="9c241-164">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-164">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-152">
-            <para>
-              <b>Text</b>属性的默认值为空字符串。</para>
-            <para>
-              <b>Text</b>属性与提供的值相同<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Value" />属性，但是该值强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-152">
-              <para>The default value of the <b>Text</b> property is the empty string.</para>
-              <para>The <b>Text</b> property provides the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Value" /> property, but the value is strongly typed as a <b>String</b> (<b>string</b> in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-165"><b>文本</b> 属性的默认值为空字符串。</span><span class="sxs-lookup"><span data-stu-id="9c241-165">The default value of the <b>Text</b> property is the empty string.</span></span></para>
+          <para><span data-ttu-id="9c241-166"><b>Text</b>属性与提供的值相同<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Value" />属性，但是该值强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</span><span class="sxs-lookup"><span data-stu-id="9c241-166">The <b>Text</b> property provides the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Value" /> property, but the value is strongly typed as a <b>String</b> (<b>string</b> in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -930,29 +594,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-153">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />指定文本中控件的对齐方式的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-153">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span>
-          </span>
-          <span data-ttu-id="f87e4-154">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-154">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-167">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />指定文本中控件的对齐方式的常量。</span><span class="sxs-lookup"><span data-stu-id="9c241-167">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span></span>  <span data-ttu-id="9c241-168">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-168">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-155">
-            <para>默认值为<b>olTextAlignLeft</b>从左到右语言，例如英语。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-155">
-              <para>The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-169">默认值是 <b>olTextAlignLeft</b> 中与英语等从左到右语言。</span><span class="sxs-lookup"><span data-stu-id="9c241-169">The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Time">
@@ -981,31 +626,11 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-156">返回或设置代表当前选定控件中的时间值<b>DateTime</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-156">Returns or sets a <b>DateTime</b> that represents the time value currently selected in the control.</span>
-          </span>
-          <span data-ttu-id="f87e4-157">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-157">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-170">返回或设置代表当前选定控件中的时间值<b>DateTime</b> 。</span><span class="sxs-lookup"><span data-stu-id="9c241-170">Returns or sets a <b>DateTime</b> that represents the time value currently selected in the control.</span></span>  <span data-ttu-id="9c241-171">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-171">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-158">
-            <para>的默认值为 1899 年 12 月 30 日可以 12:00</para>
-            <para>时使用的时间控件以指示持续时间 (即，<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是<b>olTimeStyleDuration</b>)，如果工期是超过 24 小时， <b>Time</b>属性将指示从 1899 年 12 月 30 日中午 12:00 点的持续时间。 例如，跨 24 小时的持续时间将返回 1899 年 12 月 31 12:00 AM <b>DateTime</b>值。 如果这是约会的持续时间值，并且您想要确定约会的结束时间，则可以添加到此值<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />属性值。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-158">
-              <para>The default value is Dec 30, 1899 12:00 AM.</para>
-              <para>When using the time control to indicate a duration (that is, the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> is <b>olTimeStyleDuration</b>), if the duration is longer than 24 hours, the <b>Time</b> property will indicate the duration from Dec 30, 1899 12:00 AM.  For example, a duration spanning 24 hours will return a <b>DateTime</b> value of Dec 31 1899 12:00 AM.  If this is a duration value for an appointment and you would like to determine an end time for the appointment, you can add this value to the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> property value.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-172">默认值为 1899 年 12 月 30 日上午 12:00。</span><span class="sxs-lookup"><span data-stu-id="9c241-172">The default value is Dec 30, 1899 12:00 AM.</span></span></para>
+          <para><span data-ttu-id="9c241-173">使用时间控件表示持续时间时 (即，<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" />是<b>olTimeStyleDuration</b>)，如果工期是超过 24 小时， <b>Time</b>属性将指示从 1899 年 12 月 30 日中午 12:00 点的持续时间。</span><span class="sxs-lookup"><span data-stu-id="9c241-173">When using the time control to indicate a duration (that is, the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> is <b>olTimeStyleDuration</b>), if the duration is longer than 24 hours, the <b>Time</b> property will indicate the duration from Dec 30, 1899 12:00 AM.</span></span>  <span data-ttu-id="9c241-174">例如，跨 24 小时的持续时间将返回 1899 年 12 月 31 12:00 AM <b>DateTime</b>值。</span><span class="sxs-lookup"><span data-stu-id="9c241-174">For example, a duration spanning 24 hours will return a <b>DateTime</b> value of Dec 31 1899 12:00 AM.</span></span>  <span data-ttu-id="9c241-175">如果这是约会的持续时间值，并且您想要确定约会的结束时间，则可以添加到此值<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" />属性值。</span><span class="sxs-lookup"><span data-stu-id="9c241-175">If this is a duration value for an appointment and you would like to determine an end time for the appointment, you can add this value to the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> property value.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -1034,29 +659,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f87e4-159">返回或设置一个<b>对象</b>，表示控件的内容。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-159">Returns or sets an <b>Object</b> that represents the content of the control.</span>
-          </span>
-          <span data-ttu-id="f87e4-160">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-160">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9c241-176">返回或设置一个<b>对象</b>，表示控件的内容。</span><span class="sxs-lookup"><span data-stu-id="9c241-176">Returns or sets an <b>Object</b> that represents the content of the control.</span></span> <span data-ttu-id="9c241-177">读/写。</span><span class="sxs-lookup"><span data-stu-id="9c241-177">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f87e4-161">
-            <para>值是相同的值<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Text" />、 在于此属性是<b>对象</b>类型而<b>Text</b>强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f87e4-161">
-              <para>The value is the same as the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Text" />, except that this property is <b>Object</b> and <b>Text</b> is strongly typed as <b>String</b> (<b>string</b> in C#).  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="9c241-178">值是相同的值<see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Text" />、 在于此属性是<b>对象</b>类型而<b>Text</b>强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</span><span class="sxs-lookup"><span data-stu-id="9c241-178">The value is the same as the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Text" />, except that this property is <b>Object</b> and <b>Text</b> is strongly typed as <b>String</b> (<b>string</b> in C#).</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

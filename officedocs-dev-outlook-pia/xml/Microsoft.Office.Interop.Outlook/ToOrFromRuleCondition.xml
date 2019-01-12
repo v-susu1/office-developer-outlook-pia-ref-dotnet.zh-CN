@@ -1,13 +1,5 @@
 <Type Name="ToOrFromRuleCondition" FullName="Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b7a2e6b11444eb36064ec4f5f430e3841ee60a66" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632207" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ToOrFromRuleCondition : Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="72f4768adb4b615ecde4398d0e292f8493de62bb" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901646" /></Metadata><TypeSignature Language="C#" Value="public interface ToOrFromRuleCondition : Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ToOrFromRuleCondition implements class Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface ToOrFromRuleCondition&#xA;Implements _ToOrFromRuleCondition" />
@@ -30,30 +22,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="00338-101">表示一个规则条件的发件人或收件人的邮件中，指定<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" />，位于中指定的收件人列表<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="00338-101">Represents a rule condition that the sender or the recipeints of the message, as specified by <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" />, is in the recipients list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="00338-102">
-        <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />。</para>
-        <para>
-          <b>ToOrFromRuleCondition</b>派生<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象。每个规则与<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />对象具有<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.SentTo" />属性和<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.From" />。上述每个属性始终返回一个<b>ToOrFromRuleCondition</b>对象。<b>Toorfromrulecondition.conditiontype 指定</b>区分这些规则条件。如果规则具有下列任一规则条件启用，则<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" />会为<b>True</b>。</para>
-        <para>有关指定规则条件的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="00338-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />. </para>
-          <para>
-            <b>ToOrFromRuleCondition</b> is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object. Each rule is associated with a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> object which has a <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.SentTo" /> property and a <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.From" />. Each of these properties always returns a <b>ToOrFromRuleCondition</b> object. <b>ToOrFromRuleCondition.ConditionType</b> distinguishes between these rule conditions. If the rule has any of these rule conditions enabled, then <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> would be <b>True</b>.</para>
-          <para>For more information on specifying rule conditions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="89c31-101">表示一个规则条件的发件人或收件人的邮件中，指定<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" />，位于中指定的收件人列表<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />。</span><span class="sxs-lookup"><span data-stu-id="89c31-101">Represents a rule condition that the sender or the recipeints of the message, as specified by <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" />, is in the recipients list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span></span></summary>
+    <remarks><para><span data-ttu-id="89c31-102">这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。</span><span class="sxs-lookup"><span data-stu-id="89c31-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="89c31-103">使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。</span><span class="sxs-lookup"><span data-stu-id="89c31-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="89c31-104">但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="89c31-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="89c31-105">请参阅本主题的 COM 对象有关的信息。</span><span class="sxs-lookup"><span data-stu-id="89c31-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="89c31-106">有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />。</span><span class="sxs-lookup"><span data-stu-id="89c31-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />.</span></span> </para>
+      <para><span data-ttu-id="89c31-107">
+        <b>ToOrFromRuleCondition</b>派生<see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />对象。</span><span class="sxs-lookup"><span data-stu-id="89c31-107">
+        <b>ToOrFromRuleCondition</b> is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object.</span></span> <span data-ttu-id="89c31-108">每个规则与<see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />对象具有<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.SentTo" />属性和<see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.From" />。</span><span class="sxs-lookup"><span data-stu-id="89c31-108">Each rule is associated with a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> object which has a <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.SentTo" /> property and a <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.From" />.</span></span> <span data-ttu-id="89c31-109">这两个属性总是返回一个 <b>ToOrFromRuleCondition</b> 对象。</span><span class="sxs-lookup"><span data-stu-id="89c31-109">Each of these properties always returns a <b>ToOrFromRuleCondition</b> object.</span></span> <span data-ttu-id="89c31-110"><b>ToOrFromRuleCondition.ConditionType</b> 区分这些规则条件。</span><span class="sxs-lookup"><span data-stu-id="89c31-110"><b>ToOrFromRuleCondition.ConditionType</b> distinguishes between these rule conditions.</span></span> <span data-ttu-id="89c31-111">如果规则具有下列任一规则条件启用，则<see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" />会为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="89c31-111">If the rule has any of these rule conditions enabled, then <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> would be <b>True</b>.</span></span></para>
+      <para><span data-ttu-id="89c31-112">有关指定规则条件的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87803">指定规则条件</a></span><span class="sxs-lookup"><span data-stu-id="89c31-112">For more information on specifying rule conditions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

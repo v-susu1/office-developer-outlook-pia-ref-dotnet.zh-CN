@@ -1,13 +1,5 @@
 <Type Name="_Account" FullName="Microsoft.Office.Interop.Outlook._Account">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cdae52cef0897987594724efe1193410fea403d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633000" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Account" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cdae52cef0897987594724efe1193410fea403d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901303" /></Metadata><TypeSignature Language="C#" Value="public interface _Account" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Account" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Account" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Account" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="0bbb7-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0bbb7-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="0bbb7-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0bbb7-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="0bbb7-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0bbb7-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="0bbb7-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0bbb7-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="786f0-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="786f0-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="786f0-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="786f0-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="786f0-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="786f0-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="786f0-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="786f0-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAccountType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-105">返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" />指示的类型的枚举<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-105">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" /> enumeration that indicates the type of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-          </span>
-          <span data-ttu-id="0bbb7-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-105">返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" />指示的类型的枚举<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="786f0-105">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" /> enumeration that indicates the type of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span> <span data-ttu-id="786f0-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="0bbb7-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="786f0-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="786f0-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,29 +101,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" />指定的用于承载帐户邮箱的 Microsoft Exchange 服务器的自动发现服务的连接类型的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> constant that specifies the type of connection to use for the auto-discovery service of the Microsoft Exchange server that hosts the account mailbox.</span>
-          </span>
-          <span data-ttu-id="0bbb7-110">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" />指定的用于承载帐户邮箱的 Microsoft Exchange 服务器的自动发现服务的连接类型的常量。</span><span class="sxs-lookup"><span data-stu-id="786f0-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> constant that specifies the type of connection to use for the auto-discovery service of the Microsoft Exchange server that hosts the account mailbox.</span></span> <span data-ttu-id="786f0-110">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-110">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-111">
-            <para>此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于完成的自动发现的帐户和不一定是 Exchange 主帐户。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-111">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-111">此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于完成的自动发现的帐户和不一定是 Exchange 主帐户。</span><span class="sxs-lookup"><span data-stu-id="786f0-111">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoDiscoverXml">
@@ -192,33 +130,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-112">返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示 XML 中的信息检索从与该帐户相关联的 Microsoft Exchange Server 的自动发现服务。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-112">Returns a <b>String</b> (<b>string</b> in C#) that represents information in XML retrieved from the auto-discovery service of the Microsoft Exchange Server that is associated with the account.</span>
-          </span>
-          <span data-ttu-id="0bbb7-113">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-112">返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示 XML 中的信息检索从与该帐户相关联的 Microsoft Exchange Server 的自动发现服务。</span><span class="sxs-lookup"><span data-stu-id="786f0-112">Returns a <b>String</b> (<b>string</b> in C#) that represents information in XML retrieved from the auto-discovery service of the Microsoft Exchange Server that is associated with the account.</span></span> <span data-ttu-id="786f0-113">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-113">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-114">
-            <para>此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于 Exchange 主帐户完成的自动发现的帐户和不一定。</para>
-            <para>XML 的返回的字符串包括有关各种 Web 服务 （例如，可用性服务和统一邮件服务） 和可用服务器的信息。</para>
-            <para>如果该帐户不是与 Exchange 服务器正在运行 Microsoft Exchange Server 2007 或更高版本，则返回错误。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-114">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</para>
-              <para>The returned string of XML contains information about various Web services (for example, availability service and unified messaging service) and available servers.</para>
-              <para>An error is returned if the account is not associated with an Exchange Server that is running Microsoft Exchange Server 2007 or later.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-114">此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于完成的自动发现的帐户和不一定是 Exchange 主帐户。</span><span class="sxs-lookup"><span data-stu-id="786f0-114">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</span></span></para>
+          <para><span data-ttu-id="786f0-115">XML 的返回字符串包括有关各种 Web 服务（例如，可用性服务和统一邮件服务）和可用服务器的信息。</span><span class="sxs-lookup"><span data-stu-id="786f0-115">The returned string of XML contains information about various Web services (for example, availability service and unified messaging service) and available servers.</span></span></para>
+          <para><span data-ttu-id="786f0-116">如果该帐户不与运行 Microsoft Exchange Server 2007 或更高版本的 Exchange Server 关联，则返回错误。</span><span class="sxs-lookup"><span data-stu-id="786f0-116">An error is returned if the account is not associated with an Exchange Server that is running Microsoft Exchange Server 2007 or later.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -244,16 +161,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-115">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="0bbb7-116">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="786f0-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="786f0-118">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -281,16 +189,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象，表示当前用户的身份的帐户。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-117">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that represents the current user identity for the account.</span>
-          </span>
-          <span data-ttu-id="0bbb7-118">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-119">返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象，表示当前用户的身份的帐户。</span><span class="sxs-lookup"><span data-stu-id="786f0-119">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that represents the current user identity for the account.</span></span> <span data-ttu-id="786f0-120">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-120">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -318,29 +217,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-119">返回<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示默认送达存储的帐户。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-119">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the default delivery store for the account.</span>
-          </span>
-          <span data-ttu-id="0bbb7-120">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-121">返回<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示默认送达存储的帐户。</span><span class="sxs-lookup"><span data-stu-id="786f0-121">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the default delivery store for the account.</span></span> <span data-ttu-id="786f0-122">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-122">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-121">
-            <para>如果帐户没有默认传递存储区，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-121">
-              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the account does not have a default delivery store.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-123">如果帐户没有默认传递存储区，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="786f0-123">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the account does not have a default delivery store.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -366,31 +246,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-122">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的显示名称的电子邮件<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-122">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the e-mail  <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-          </span>
-          <span data-ttu-id="0bbb7-123">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-123">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-124">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的显示名称的电子邮件<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="786f0-124">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the e-mail  <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span> <span data-ttu-id="786f0-125">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-125">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-124">
-            <para>
-              <b>DisplayName</b>是<b>Account</b>对象的默认属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-124">
-              <para>
-                <b>DisplayName</b> is the default property of the <b>Account</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-p110">
+            <b>显示名称</b> 是此 <b>帐户</b> 对象的默认属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-p110">
+            <b>DisplayName</b> is the default property of the <b>Account</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeConnectionMode">
@@ -416,29 +277,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-125">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />常量，指示当前的连接模式承载帐户邮箱的 Microsoft Exchange 服务器。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-125">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> constant that indicates the current connection mode for the Microsoft Exchange Server that hosts the account mailbox.</span>
-          </span>
-          <span data-ttu-id="0bbb7-126">只读</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-126">Read-only</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-127">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />常量，指示当前的连接模式承载帐户邮箱的 Microsoft Exchange 服务器。</span><span class="sxs-lookup"><span data-stu-id="786f0-127">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> constant that indicates the current connection mode for the Microsoft Exchange Server that hosts the account mailbox.</span></span> <span data-ttu-id="786f0-128">只读</span><span class="sxs-lookup"><span data-stu-id="786f0-128">Read-only</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-127">
-            <para>此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于 Exchange Server 承载帐户邮箱，以及不一定是 Exchange 主帐户。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-127">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-129">此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于 Exchange Server 承载帐户邮箱，以及不一定是 Exchange 主帐户。</span><span class="sxs-lookup"><span data-stu-id="786f0-129">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerName">
@@ -464,31 +306,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-128">返回一个表示承载帐户邮箱的 Microsoft Exchange 服务器的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-128">Returns a <b>String</b> (<b>string</b> in C#) value that represents the name of the Microsoft Exchange Server that hosts the account mailbox.</span>
-          </span>
-          <span data-ttu-id="0bbb7-129">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-129">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-130">返回一个表示承载帐户邮箱的 Microsoft Exchange 服务器的名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span><span class="sxs-lookup"><span data-stu-id="786f0-130">Returns a <b>String</b> (<b>string</b> in C#) value that represents the name of the Microsoft Exchange Server that hosts the account mailbox.</span></span> <span data-ttu-id="786f0-131">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-131">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-130">
-            <para>类似于此属性是<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于承载帐户邮箱的 Exchange Server 和 Exchange 主帐户不一定。</para>
-            <para>如果 Exchange 邮箱不与该帐户相关联，此属性返回空字符串。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-130">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</para>
-              <para>If an Exchange mailbox is not associated with this account, this property returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-132">此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于 Exchange Server 承载帐户邮箱，以及不一定是 Exchange 主帐户。</span><span class="sxs-lookup"><span data-stu-id="786f0-132">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</span></span></para>
+          <para><span data-ttu-id="786f0-133">如果 Exchange 邮箱不与该帐户相关联，则此属性返回一个空字符串。</span><span class="sxs-lookup"><span data-stu-id="786f0-133">If an Exchange mailbox is not associated with this account, this property returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerVersion">
@@ -514,37 +336,14 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-131">返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示承载帐户邮箱的 Microsoft Exchange 服务器的完整版本号。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-131">Returns a <b>String</b> (<b>string</b> in C#) that represents the full version number of the Microsoft Exchange Server that hosts the account mailbox.</span>
-          </span>
-          <span data-ttu-id="0bbb7-132">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-132">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-134">返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示承载帐户邮箱的 Microsoft Exchange 服务器的完整版本号。</span><span class="sxs-lookup"><span data-stu-id="786f0-134">Returns a <b>String</b> (<b>string</b> in C#) that represents the full version number of the Microsoft Exchange Server that hosts the account mailbox.</span></span> <span data-ttu-id="786f0-135">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-135">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-133">
-            <para>此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于承载帐户邮箱的 Exchange Server 和 Exchange 主帐户不一定。</para>
-            <para>此属性返回一个字符串，包含 Exchange server 帐户的版本号。版本号包含以下四个部分：</para>
-            <para>&lt;主要版本&gt;。&lt;次要版本&gt;。&lt;内部版本号&gt;。&lt;修订&gt;</para>
-            <para>不所有部件中都可能存在的版本号，具体取决于 Exchange server 提供的版本信息。例如，此属性返回的 Microsoft Exchange Server 2003 Service Pack 2"6.5.7638"。</para>
-            <para>如果 Exchange 邮箱不与该帐户相关联，此属性返回空字符串。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-133">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</para>
-              <para>This property returns a string that contains the version number of the Exchange server for the account. The version number has the following four parts:</para>
-              <para>&lt;major version&gt;.&lt;minor version&gt;.&lt;build number&gt;.&lt;revision&gt;</para>
-              <para>Not all parts may be present in the version number, depending on the version information that is supplied by the Exchange Server. For example, this property returns "6.5.7638" for Microsoft Exchange Server 2003 Service Pack 2.</para>
-              <para>If an Exchange mailbox is not associated with this account, this property returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-136">此属性是类似于<see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" />属性<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，之处在于此属性适用于 Exchange Server 承载帐户邮箱，以及不一定是 Exchange 主帐户。</span><span class="sxs-lookup"><span data-stu-id="786f0-136">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</span></span></para>
+          <para><span data-ttu-id="786f0-137">此属性返回一个字符串，该字符串包含帐户的 Exchange 服务器的版本号。</span><span class="sxs-lookup"><span data-stu-id="786f0-137">This property returns a string that contains the version number of the Exchange server for the account.</span></span> <span data-ttu-id="786f0-138">版本号包含以下四个部分：</span><span class="sxs-lookup"><span data-stu-id="786f0-138">The version number has the following four parts:</span></span></para>
+          <para><span data-ttu-id="786f0-139">&lt;主要版本&gt;。&lt;次要版本&gt;。&lt;内部版本号&gt;。&lt;修订&gt;</span><span class="sxs-lookup"><span data-stu-id="786f0-139">&lt;major version&gt;.&lt;minor version&gt;.&lt;build number&gt;.&lt;revision&gt;</span></span></para>
+          <para><span data-ttu-id="786f0-p115">并非所有部分都会在版本号中出现，具体取决于 Exchange Server 提供的版本信息。例如，对于 Microsoft Exchange Server 2003 Service Pack 2，此属性返回"6.5.7638"。</span><span class="sxs-lookup"><span data-stu-id="786f0-p115">Not all parts may be present in the version number, depending on the version information that is supplied by the Exchange Server. For example, this property returns "6.5.7638" for Microsoft Exchange Server 2003 Service Pack 2.</span></span></para>
+          <para><span data-ttu-id="786f0-142">如果 Exchange 邮箱不与该帐户相关联，则此属性返回一个空字符串。</span><span class="sxs-lookup"><span data-stu-id="786f0-142">If an Exchange mailbox is not associated with this account, this property returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAddressEntryFromID">
@@ -570,43 +369,15 @@
         <Parameter Name="ID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ID">
-          <span data-ttu-id="0bbb7-134">用于标识为会话维护的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-134">Used to identify an address entry that is maintained for the session.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="0bbb7-135">返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，表示由给定的条目 ID 指定的地址条目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-135">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the address entry specified by the given entry ID.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0bbb7-136">返回<b>AddressEntry</b>已<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />匹配指定的属性<paramref name="ID" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-136">Returns an <b>AddressEntry</b> that has the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> property that matches the specified <paramref name="ID" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="0bbb7-137">
-            <para>此方法类似于是<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，但具有一些有关要用于查找的帐户的其他上下文信息。如果当前配置文件中有多个 Microsoft Exchange 帐户，使用<b>GetAddressEntryFromID</b>方法的相应帐户。</para>
-            <para>
-              <b>AddressEntry</b>的<b>ID</b>属性是一个永久的唯一字符串标识符，创建<b>AddressEntry</b>时分配传输提供程序。Outlook 针对会话维护通讯簿层次结构，并返回的地址条目必须与给定的 ID 相匹配而且必须在某个通讯簿。</para>
-            <para>如果可以不找到具有给定 ID 的任何项，如果无连接可用，或者用户设置为脱机工作，
-            <b>那么 GetAddressEntryFromID</b>将返回错误。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-137">
-              <para>This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, but has some additional contextual information about which account to use for the look-up. If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetAddressEntryFromID</b> method for the corresponding account. </para>
-              <para>The <b>ID</b> property for an <b>AddressEntry</b> is a permanent, unique string identifier that the transport provider assigns when an <b>AddressEntry</b> is created. Outlook maintains a hierarchy of address books for a session, and the address entry that is returned must match the given ID and be in one of the address books. </para>
-              <para>
-                <b>GetAddressEntryFromID</b> returns an error if no item with the given ID can be found, if no connection is available, or if the user is set to work offline.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ID"><span data-ttu-id="786f0-143">用于标识为会话维护的地址条目。</span><span class="sxs-lookup"><span data-stu-id="786f0-143">Used to identify an address entry that is maintained for the session.</span></span></param>
+        <summary><span data-ttu-id="786f0-144">返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，表示由给定的条目 ID 指定的地址条目。</span><span class="sxs-lookup"><span data-stu-id="786f0-144">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the address entry specified by the given entry ID.</span></span></summary>
+        <returns><span data-ttu-id="786f0-145">返回<b>AddressEntry</b>已<see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" />匹配指定的属性<paramref name="ID" />。</span><span class="sxs-lookup"><span data-stu-id="786f0-145">Returns an <b>AddressEntry</b> that has the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> property that matches the specified <paramref name="ID" />.</span></span></returns>
+        <remarks><para><span data-ttu-id="786f0-146">此方法类似于是<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象，但具有一些有关要用于查找的帐户的其他上下文信息。</span><span class="sxs-lookup"><span data-stu-id="786f0-146">This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, but has some additional contextual information about which account to use for the look-up.</span></span> <span data-ttu-id="786f0-147">如果在当前配置文件中存在多个 Microsoft Exchange 帐户，使用 <b>GetAddressEntryFromID</b> 方法相应帐户。</span><span class="sxs-lookup"><span data-stu-id="786f0-147">If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetAddressEntryFromID</b> method for the corresponding account.</span></span> </para>
+          <para><span data-ttu-id="786f0-p117"><b>AddressEntry</b> 的 <b>ID</b> 属性是传输提供程序在创建 <b>AddressEntry</b> 时，分配一个永久且唯一的字符串标识符。 Outlook 针对会话维护通讯簿层次结构，所返回的地址条目必须与给定的 ID 相匹配而且必须在某个通讯簿。</span><span class="sxs-lookup"><span data-stu-id="786f0-p117">The <b>ID</b> property for an <b>AddressEntry</b> is a permanent, unique string identifier that the transport provider assigns when an <b>AddressEntry</b> is created. Outlook maintains a hierarchy of address books for a session, and the address entry that is returned must match the given ID and be in one of the address books. </span></span></para>
+          <para><span data-ttu-id="786f0-150">如果可以不找到具有给定 ID 的任何项，如果没有连接可用，或者如果用户设置为脱机工作，则 
+            <b>GetAddressEntryFromID</b> 将返回错误。</span><span class="sxs-lookup"><span data-stu-id="786f0-150">
+            <b>GetAddressEntryFromID</b> returns an error if no item with the given ID can be found, if no connection is available, or if the user is set to work offline.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecipientFromID">
@@ -632,37 +403,11 @@
         <Parameter Name="EntryID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="EntryID">
-          <span data-ttu-id="0bbb7-138">
-            <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />的收件人。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-138">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> of the recipient.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="0bbb7-139">返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />由给定的条目 ID 标识的对象</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-139">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that is identified by the given entry ID.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0bbb7-140">返回一个值，该值代表指定的条目 ID 相关联的收件人的<b>Recipient</b>对象</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-140">Returns a <b>Recipient</b> object that represents the recipient associated with the specified entry ID.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="0bbb7-141">
-            <para>此方法类似于是<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象。如果当前配置文件中有多个 Microsoft Exchange 帐户，使用<b>GetRecipientFromID</b>方法的相应帐户。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-141">
-              <para>This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object. If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetRecipientFromID</b> method for the corresponding account.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="EntryID"><span data-ttu-id="786f0-151"><see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />的收件人。</span><span class="sxs-lookup"><span data-stu-id="786f0-151">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> of the recipient.</span></span></param>
+        <summary><span data-ttu-id="786f0-152">返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />由给定的条目 ID 标识的对象</span><span class="sxs-lookup"><span data-stu-id="786f0-152">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that is identified by the given entry ID.</span></span></summary>
+        <returns><span data-ttu-id="786f0-153">返回一个值，该值代表指定的条目 ID 相关联的收件人的<b>Recipient</b>对象</span><span class="sxs-lookup"><span data-stu-id="786f0-153">Returns a <b>Recipient</b> object that represents the recipient associated with the specified entry ID.</span></span></returns>
+        <remarks><para><span data-ttu-id="786f0-154">此方法类似于是<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象。</span><span class="sxs-lookup"><span data-stu-id="786f0-154">This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</span></span> <span data-ttu-id="786f0-155">如果在当前配置文件中存在多个 Microsoft Exchange 帐户，使用 <b>GetRecipientFromID</b> 方法相应帐户。</span><span class="sxs-lookup"><span data-stu-id="786f0-155">If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetRecipientFromID</b> method for the corresponding account.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IOlkAccount">
@@ -719,25 +464,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-p113">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-p113">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-p119">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="786f0-p119">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-144">
-            <para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-144">
-              <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-158">父对象的<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Accounts" />对象。</span><span class="sxs-lookup"><span data-stu-id="786f0-158">The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -763,44 +493,17 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-145">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-145">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="0bbb7-146">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-146">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-159">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="786f0-159">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="786f0-160">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-160">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-147">
-            <para>如果没有已登录的会话，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-            <para>
-              <b>会话</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="786f0-161">如果没有已登录的会话，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="786f0-161">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</span></span></para>
+          <para><span data-ttu-id="786f0-162"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="786f0-162">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="786f0-163">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="786f0-163">Both members serve the same purpose.</span></span> <span data-ttu-id="786f0-164">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="786f0-164">For example,  the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-147">
-              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example,  the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SmtpAddress">
@@ -826,32 +529,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-148">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的简单邮件传输协议 (SMTP) 地址<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-148">Returns a <b>String</b> (<b>string</b> in C#) representing the Simple Mail Transfer Protocol (SMTP) address for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-          </span>
-          <span data-ttu-id="0bbb7-149">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-149">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-165">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的简单邮件传输协议 (SMTP) 地址<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="786f0-165">Returns a <b>String</b> (<b>string</b> in C#) representing the Simple Mail Transfer Protocol (SMTP) address for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span> <span data-ttu-id="786f0-166">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-166">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-150">
-            <para>
-              <b>SmtpAddress</b>的用途和<see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" />是提供来确定标识的基于帐户的上下文。</para>
-            <para>如果帐户没有 SMTP 地址，<b>则 smtpaddress 将</b>返回空字符串。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-150">
-              <para>The purpose of <b>SmtpAddress</b> and <see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" /> is to provide an account-based context to determine identity.</para>
-              <para>If the account does not have an SMTP address, <b>SmtpAddress</b> returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-167"><b>SmtpAddress</b>的用途和<see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" />是提供来确定标识的基于帐户的上下文。</span><span class="sxs-lookup"><span data-stu-id="786f0-167">The purpose of <b>SmtpAddress</b> and <see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" /> is to provide an account-based context to determine identity.</span></span></para>
+          <para><span data-ttu-id="786f0-168">如果该帐户不具有 SMTP 地址，则 <b>SmtpAddress</b> 将返回一个空字符串。</span><span class="sxs-lookup"><span data-stu-id="786f0-168">If the account does not have an SMTP address, <b>SmtpAddress</b> returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserName">
@@ -877,31 +559,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0bbb7-151">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示用户名<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-151">Returns a <b>String</b> (<b>string</b> in C#) representing the user name for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span>
-          </span>
-          <span data-ttu-id="0bbb7-152">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-152">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="786f0-169">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示用户名<see cref="T:Microsoft.Office.Interop.Outlook.Account" />。</span><span class="sxs-lookup"><span data-stu-id="786f0-169">Returns a <b>String</b> (<b>string</b> in C#) representing the user name for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</span></span> <span data-ttu-id="786f0-170">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="786f0-170">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0bbb7-153">
-            <para>用途的<see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" />和<b>UserName</b>旨在提供来确定标识的基于帐户的上下文。</para>
-            <para>如果帐户没有定义用户名，则<b>UserName</b>将返回空字符串。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0bbb7-153">
-              <para>The purpose of <see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" /> and <b>UserName</b> is to provide an account-based context to determine identity.</para>
-              <para>If the account does not have a user name defined, <b>UserName</b> returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="786f0-171">用途的<see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" />和<b>UserName</b>旨在提供来确定标识的基于帐户的上下文。</span><span class="sxs-lookup"><span data-stu-id="786f0-171">The purpose of <see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" /> and <b>UserName</b> is to provide an account-based context to determine identity.</span></span></para>
+          <para><span data-ttu-id="786f0-172">如果该帐户没有定义的用户名称， <b>用户名</b> 将返回一个空字符串。</span><span class="sxs-lookup"><span data-stu-id="786f0-172">If the account does not have a user name defined, <b>UserName</b> returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

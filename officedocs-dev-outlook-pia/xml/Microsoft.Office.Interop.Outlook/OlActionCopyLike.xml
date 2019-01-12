@@ -1,13 +1,5 @@
 <Type Name="OlActionCopyLike" FullName="Microsoft.Office.Interop.Outlook.OlActionCopyLike">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="aa645b393eb5513da0133626f8f3965d1adb7f3b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632505" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlActionCopyLike" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4e9789a563410d828e5bd80a9c901e3cda164c56" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900396" /></Metadata><TypeSignature Language="C#" Value="public enum OlActionCopyLike" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlActionCopyLike extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlActionCopyLike" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="ccce1-101">指定项目属性的复制方式。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ccce1-101">Specifies how item properties will be copied.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="ccce1-102">
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Action" />指定项目属性将被复制到新项目时执行<b>操作</b>创建。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ccce1-102">
-          <para>Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" /> property of an <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> to specify how item properties will be copied to the new item that is created when the <b>Action</b> is executed.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="66169-101">指定项目属性的复制方式。</span><span class="sxs-lookup"><span data-stu-id="66169-101">Specifies how item properties will be copied.</span></span></summary>
+    <remarks><para><span data-ttu-id="66169-102">使用<see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Action" />指定项目属性将被复制到新项目时执行<b>操作</b>创建。</span><span class="sxs-lookup"><span data-stu-id="66169-102">Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" /> property of an <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> to specify how item properties will be copied to the new item that is created when the <b>Action</b> is executed.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olForward">
@@ -56,20 +33,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccce1-103">将设置新的项目的属性，以便为转发原始项目的新项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccce1-103">Properties of the new item will be set such that the new item is a forward of the original item.</span>
-          </span>
-          <span data-ttu-id="ccce1-104">如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 新项目中的<b>和<b>抄送</b></b>属性的值将为空，如新项目的<b>Subject</b>属性将原始<b>主题</b>前缀与"FW:"(请参阅<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />属性) 添加。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccce1-104">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>To</b> and <b>CC</b> properties in the new item will be empty and the <b>Subject</b> property of the new item will be the original <b>Subject</b> with a prefix such as "FW:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span>
-          </span>
-          <span data-ttu-id="ccce1-105">原始项目上的附件将被复制到新项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccce1-105">The   attachments on the original item will be copied to the new item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="66169-103">将设置新的项目的属性，以便为转发原始项目的新项目。</span><span class="sxs-lookup"><span data-stu-id="66169-103">Properties of the new item will be set such that the new item is a forward of the original item.</span></span>  <span data-ttu-id="66169-104">如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 新项目中的<b>和<b>抄送</b></b>属性的值将为空，如新项目的<b>Subject</b>属性将原始<b>主题</b>前缀与"FW:"(请参阅<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />属性) 添加。</span><span class="sxs-lookup"><span data-stu-id="66169-104">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>To</b> and <b>CC</b> properties in the new item will be empty and the <b>Subject</b> property of the new item will be the original <b>Subject</b> with a prefix such as "FW:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span></span>    <span data-ttu-id="66169-105">原始项目上的附件将被复制到新项目。</span><span class="sxs-lookup"><span data-stu-id="66169-105">The   attachments on the original item will be copied to the new item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReply">
@@ -88,16 +52,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccce1-106">这样的新项目是对原始项的答复，将设置新项目的属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccce1-106">Properties of the new item will be set such that the new item is a reply to the original item.</span>
-          </span>
-          <span data-ttu-id="ccce1-107">如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 原始的<b>到</b>字段的值将被复制到新项目的<b>SenderEmailAddress</b>属性、 抄送字段将为空和新项目的<b>主题</b>字段将与原始<b>主题</b>如前缀"RE:"(请参阅<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />属性) 添加。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccce1-107">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the original <b>To</b> field will be copied to  the <b>SenderEmailAddress</b> property of the new item, the CC field will be blank and the <b>Subject</b> field of the new item will be the original <b>Subject</b> with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="66169-106">这样的新项目是对原始项的答复，将设置新项目的属性。</span><span class="sxs-lookup"><span data-stu-id="66169-106">Properties of the new item will be set such that the new item is a reply to the original item.</span></span>    <span data-ttu-id="66169-107">如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 原始的<b>到</b>字段的值将被复制到新项目的<b>SenderEmailAddress</b>属性、 抄送字段将为空和新项目的<b>主题</b>字段将与原始<b>主题</b>如前缀"RE:"(请参阅<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />属性) 添加。</span><span class="sxs-lookup"><span data-stu-id="66169-107">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the original <b>To</b> field will be copied to  the <b>SenderEmailAddress</b> property of the new item, the CC field will be blank and the <b>Subject</b> field of the new item will be the original <b>Subject</b> with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReplyAll">
@@ -116,16 +71,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccce1-108">将设置新项目的属性，这样回复原始项目的发件人的所有新项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccce1-108">Properties of the new item will be set such that the new item is a reply to all of the senders of the original item.</span>
-          </span>
-          <span data-ttu-id="ccce1-109">如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <b>SenderEmailAddress</b>和<b>抄送</b>属性的值将被复制到新项目的<b>To</b>属性和新项目的<b>Subject</b>属性将前缀与原始项目的主题例如，"RE:"(请参阅<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />属性) 添加。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccce1-109">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>SenderEmailAddress</b> and <b>CC</b> properties will be copied to  the <b>To</b> property of the new item and the <b>Subject</b> property of the new item will be the Subject of the original item with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="66169-108">将设置新项目的属性，这样回复原始项目的发件人的所有新项目。</span><span class="sxs-lookup"><span data-stu-id="66169-108">Properties of the new item will be set such that the new item is a reply to all of the senders of the original item.</span></span>  <span data-ttu-id="66169-109">如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />、 <b>SenderEmailAddress</b>和<b>抄送</b>属性的值将被复制到新项目的<b>To</b>属性和新项目的<b>Subject</b>属性将前缀与原始项目的主题例如，"RE:"(请参阅<see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" />属性) 添加。</span><span class="sxs-lookup"><span data-stu-id="66169-109">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>SenderEmailAddress</b> and <b>CC</b> properties will be copied to  the <b>To</b> property of the new item and the <b>Subject</b> property of the new item will be the Subject of the original item with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReplyFolder">
@@ -144,12 +90,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccce1-110">如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />基于旧、 新项目的 Post To 属性将包含的活动文件夹地址、 原始项目的<b>Subject</b>属性将被复制到新项，并将<b>的<b>ConversationTopic</b>属性主题</b>新项目的属性将为空。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccce1-110">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" /> based on an old one, the Post To property of the new item will contain the active folder address, the <b>Subject</b> property of the original item will be copied to the <b>ConversationTopic</b> property of the new item, and the <b>Subject</b> property of the new item will be empty.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="66169-110">如果创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />基于旧、 新项目的 Post To 属性将包含的活动文件夹地址、 原始项目的<b>Subject</b>属性将被复制到新项，并将<b>的<b>ConversationTopic</b>属性主题</b>新项目的属性将为空。</span><span class="sxs-lookup"><span data-stu-id="66169-110">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" /> based on an old one, the Post To property of the new item will contain the active folder address, the <b>Subject</b> property of the original item will be copied to the <b>ConversationTopic</b> property of the new item, and the <b>Subject</b> property of the new item will be empty.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRespond">
@@ -168,12 +109,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ccce1-111">专门用于对按钮操作投票。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ccce1-111">Used exclusively for voting button actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="66169-111">专门用于对按钮操作投票。</span><span class="sxs-lookup"><span data-stu-id="66169-111">Used exclusively for voting button actions.</span></span></summary>
       </Docs>
     </Member>
   </Members>

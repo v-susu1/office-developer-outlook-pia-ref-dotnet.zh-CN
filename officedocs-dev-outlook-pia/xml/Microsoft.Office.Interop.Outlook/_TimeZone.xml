@@ -1,13 +1,5 @@
 <Type Name="_TimeZone" FullName="Microsoft.Office.Interop.Outlook._TimeZone">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632290" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TimeZone" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901842" /></Metadata><TypeSignature Language="C#" Value="public interface _TimeZone" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TimeZone" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TimeZone" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TimeZone" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="aae3f-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="aae3f-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="aae3f-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="aae3f-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="aae3f-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="aae3f-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="aae3f-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="aae3f-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="70c25-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="70c25-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="70c25-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="70c25-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="70c25-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="70c25-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="70c25-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" />。</span><span class="sxs-lookup"><span data-stu-id="70c25-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Outlook application for the object.</span>
-          </span>
-          <span data-ttu-id="aae3f-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="70c25-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Outlook application for the object.</span></span> <span data-ttu-id="70c25-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,35 +73,14 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-107">返回一个代表以分钟为单位的此时区中的本地协调世界时 (UTC) 之间的差异的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-107">Returns an <b>Integer</b> (<b>int</b> in C#) value that represents the difference in minutes of between the local time in this time zone and the Coordinated Universal Time (UTC).</span>
-          </span>
-          <span data-ttu-id="aae3f-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-107">返回一个代表以分钟为单位的此时区中的本地协调世界时 (UTC) 之间的差异的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="70c25-107">Returns an <b>Integer</b> (<b>int</b> in C#) value that represents the difference in minutes of between the local time in this time zone and the Coordinated Universal Time (UTC).</span></span> <span data-ttu-id="70c25-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-108">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-109">
-            <para>此值存储值的一部分的 TZI 的 Windows 注册表中的时区。TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-            <para>
-              <b>偏向</b>不会考虑任何时间偏移的夏令时或时区中标准时间。若要帐户的任何夏时制时间偏移，使用<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />。一般情况下，当地时区采用夏时制时间，UTC 时间时添加<b>偏向</b>和<b>DaylightBias</b>为本地时间的结果。若要帐户的任何标准时间偏移，使用<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />。一般情况下，当地时区采用标准时间，UTC 时间时添加<b>偏向</b>和<b>StandardBias</b>为本地时间的结果。</para>
-            <para>例如，在状态中采用在太平洋时区的夏时制时间，<b>偏向</b>是 480 分钟， <b>DaylightBias</b>是-60 分钟。若要确定采用 UTC 时间的 6 月 11 日上午太平洋标准时间 2，添加 (480/60) 小时<b>偏向</b>和-(60/60) 小时<b>DaylightBias</b>为本地时间 6 月 11 日上午 2 点采用 UTC 时间是年 6 月 11 日上午 9 点</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-109">
-              <para>This value is stored as part of the value for  TZI for that  time zone in the Windows registry. The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-              <para>
-                <b>Bias</b> does not take into account any time offset for daylight time or standard time in the time zone. To account for any daylight time offset, use <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />. In general, when the local time zone is adopting daylight time, UTC time is the result of adding the <b>Bias</b> and <b>DaylightBias</b> to the local time. To account for any standard time offset, use <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />. In general, when the local time zone is adopting standard time, UTC time is the result of  adding the <b>Bias</b> and <b>StandardBias</b> to the local time. </para>
-              <para>For example, in a state adopting daylight time in the Pacific time zone, the <b>Bias</b> is 480 minutes and <b>DaylightBias</b> is -60 minutes. To  determine the time in UTC for June 11, 2 A.M. PST, add a <b>Bias</b> of (480/60) hours and  a <b>DaylightBias</b> of -(60/60) hours to the local time June 11, 2 A.M. The time in UTC is June 11, 9 A.M.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="70c25-109">此值在 Windows 注册表中的时区的存储值的一部分的 TZI。</span><span class="sxs-lookup"><span data-stu-id="70c25-109">This value is stored as part of the value for  TZI for that  time zone in the Windows registry.</span></span> <span data-ttu-id="70c25-110">TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span><span class="sxs-lookup"><span data-stu-id="70c25-110">The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span></span></para>
+          <para><span data-ttu-id="70c25-111">
+            <b>偏</b> 才会考虑任何时间偏移的夏令时或标准时间时区的时间。</span><span class="sxs-lookup"><span data-stu-id="70c25-111">
+            <b>Bias</b> does not take into account any time offset for daylight time or standard time in the time zone.</span></span> <span data-ttu-id="70c25-112">若要帐户的任何夏时制时间偏移，使用<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />。</span><span class="sxs-lookup"><span data-stu-id="70c25-112">To account for any daylight time offset, use <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />.</span></span> <span data-ttu-id="70c25-113">一般情况下，当本地时区采用夏时制时间，UTC 时间是当地时间添加 <b>偏置</b> 和 <b>对应</b> 的结果。</span><span class="sxs-lookup"><span data-stu-id="70c25-113">In general, when the local time zone is adopting daylight time, UTC time is the result of adding the <b>Bias</b> and <b>DaylightBias</b> to the local time.</span></span> <span data-ttu-id="70c25-114">若要帐户的任何标准时间偏移，使用<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />。</span><span class="sxs-lookup"><span data-stu-id="70c25-114">To account for any standard time offset, use <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />.</span></span> <span data-ttu-id="70c25-115">一般情况下，当地时区采用标准时间，UTC 时间时添加<b>偏向</b>和<b>StandardBias</b>为本地时间的结果。</span><span class="sxs-lookup"><span data-stu-id="70c25-115">In general, when the local time zone is adopting standard time, UTC time is the result of  adding the <b>Bias</b> and <b>StandardBias</b> to the local time.</span></span> </para>
+          <para><span data-ttu-id="70c25-116">例如，在采用在太平洋时区的夏时制状态，<b>偏向</b>为 480 分钟， <b>DaylightBias</b> -60 分钟。</span><span class="sxs-lookup"><span data-stu-id="70c25-116">For example, in a state adopting daylight time in the Pacific time zone, the <b>Bias</b> is 480 minutes and <b>DaylightBias</b> is -60 minutes.</span></span> <span data-ttu-id="70c25-117">若要确定的 6 月 11 日上午 2 点采用 UTC 时间</span><span class="sxs-lookup"><span data-stu-id="70c25-117">To  determine the time in UTC for June 11, 2 A.M.</span></span> <span data-ttu-id="70c25-118">PST，添加为本地时间的 (480/60) 小时<b>偏向</b>和-(60/60) 小时<b>DaylightBias</b>年 6 月 11 日上午 2 点</span><span class="sxs-lookup"><span data-stu-id="70c25-118">PST, add a <b>Bias</b> of (480/60) hours and  a <b>DaylightBias</b> of -(60/60) hours to the local time June 11, 2 A.M.</span></span> <span data-ttu-id="70c25-119">采用 UTC 时间是年 6 月 11 日上午 9 点</span><span class="sxs-lookup"><span data-stu-id="70c25-119">The time in UTC is June 11, 9 A.M.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -161,16 +106,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-110">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，代表对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that represents the object's class.</span>
-          </span>
-          <span data-ttu-id="aae3f-111">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-120">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，代表对象的类。</span><span class="sxs-lookup"><span data-stu-id="70c25-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that represents the object's class.</span></span> <span data-ttu-id="70c25-121">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-121">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -198,31 +134,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-112">返回一个<b>整数</b>(C# 中<b>int</b> ) 值，代表从分钟的时间偏移<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" />帐户中此所在的时区的夏时制时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-112">Returns an <b>Integer</b> (<b>int</b> in C#) value that represents the time offset in minutes from the <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> to account for  daylight time in this time zone.</span>
-          </span>
-          <span data-ttu-id="aae3f-113">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-122">返回一个<b>整数</b>(C# 中<b>int</b> ) 值，代表从分钟的时间偏移<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" />帐户中此所在的时区的夏时制时间。</span><span class="sxs-lookup"><span data-stu-id="70c25-122">Returns an <b>Integer</b> (<b>int</b> in C#) value that represents the time offset in minutes from the <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> to account for  daylight time in this time zone.</span></span> <span data-ttu-id="70c25-123">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-123">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-114">
-            <para>此值存储值的一部分的 TZI 的 Windows 注册表中的时区。TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-            <para>相对于 UTC 时间以及本地时间的时区的 UTC 时间是添加<b>偏向</b>和<b>DaylightBias</b>为本地时间的结果。例如，在采用在太平洋时区的夏时制状态，<b>偏向</b>为 480 分钟， <b>DaylightBias</b> -60 分钟。若要确定采用 UTC 时间的 6 月 11 日上午太平洋标准时间 2，添加 (480/60) 小时<b>偏向</b>和-(60/60) 小时<b>DaylightBias</b>为本地时间 6 月 11 日上午 2 点采用 UTC 时间是年 6 月 11 日上午 9 点</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-114">
-              <para>This value is stored as part of the value for TZI for that time zone in the Windows registry. The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-              <para>In relation to the UTC time and the local time of the time zone, UTC time is the result of adding the <b>Bias</b> and <b>DaylightBias</b> to the local time. For example, in a state adopting daylight time in the Pacific time zone, the <b>Bias</b> is 480 minutes and <b>DaylightBias</b> is -60 minutes. To  determine the time in UTC for June 11, 2 A.M. PST, add a <b>Bias</b> of (480/60) hours and  a <b>DaylightBias</b> of -(60/60) hours to the local time June 11, 2 A.M. The time in UTC is June 11, 9 A.M.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="70c25-124">此值对应于该时区的 Windows 注册表中存储作为值的一部分 TZI的。</span><span class="sxs-lookup"><span data-stu-id="70c25-124">This value is stored as part of the value for TZI for that time zone in the Windows registry.</span></span> <span data-ttu-id="70c25-125">TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span><span class="sxs-lookup"><span data-stu-id="70c25-125">The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span></span></para>
+          <para><span data-ttu-id="70c25-126">相对于 UTC 时间以及本地时间的 UTC 时间是时区的添加<b>偏向</b>和<b>DaylightBias</b>为本地时间的结果。</span><span class="sxs-lookup"><span data-stu-id="70c25-126">In relation to the UTC time and the local time of the time zone, UTC time is the result of adding the <b>Bias</b> and <b>DaylightBias</b> to the local time.</span></span> <span data-ttu-id="70c25-127">例如，在采用在太平洋时区的夏时制状态，<b>偏向</b>为 480 分钟， <b>DaylightBias</b> -60 分钟。</span><span class="sxs-lookup"><span data-stu-id="70c25-127">For example, in a state adopting daylight time in the Pacific time zone, the <b>Bias</b> is 480 minutes and <b>DaylightBias</b> is -60 minutes.</span></span> <span data-ttu-id="70c25-128">若要确定的 6 月 11 日上午 2 点采用 UTC 时间</span><span class="sxs-lookup"><span data-stu-id="70c25-128">To  determine the time in UTC for June 11, 2 A.M.</span></span> <span data-ttu-id="70c25-129">PST，添加为本地时间的 (480/60) 小时<b>偏向</b>和-(60/60) 小时<b>DaylightBias</b>年 6 月 11 日上午 2 点</span><span class="sxs-lookup"><span data-stu-id="70c25-129">PST, add a <b>Bias</b> of (480/60) hours and  a <b>DaylightBias</b> of -(60/60) hours to the local time June 11, 2 A.M.</span></span> <span data-ttu-id="70c25-130">采用 UTC 时间是年 6 月 11 日上午 9 点</span><span class="sxs-lookup"><span data-stu-id="70c25-130">The time in UTC is June 11, 9 A.M.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDate">
@@ -248,29 +164,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-115">返回一个代表时的时间改为将当前年份内的夏令时日期和时间此所在的时区的<b>DateTime</b>值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-115">Returns a <b>DateTime</b> value that represents the date and time in this time zone when time changes over to daylight time in the current year.</span>
-          </span>
-          <span data-ttu-id="aae3f-116">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-131">返回一个代表时的时间改为将当前年份内的夏令时日期和时间此所在的时区的<b>DateTime</b>值。</span><span class="sxs-lookup"><span data-stu-id="70c25-131">Returns a <b>DateTime</b> value that represents the date and time in this time zone when time changes over to daylight time in the current year.</span></span> <span data-ttu-id="70c25-132">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-132">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-117">
-            <para>此值存储在 Windows 注册表中的时区的 TZI 值的一部分。TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-117">
-              <para>This value is stored as part of the TZI value for the time zone in the Windows registry. The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="70c25-133">此值将被视为 TZI时区在 Windows 注册表中的值的一部分。</span><span class="sxs-lookup"><span data-stu-id="70c25-133">This value is stored as part of the TZI value for the time zone in the Windows registry.</span></span> <span data-ttu-id="70c25-134">TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span><span class="sxs-lookup"><span data-stu-id="70c25-134">The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDesignation">
@@ -296,29 +193,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-118">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 标识的时区的夏时制时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-118">Returns a <b>String</b> (<b>string</b> in C#) that identifies the time zone in daylight time.</span>
-          </span>
-          <span data-ttu-id="aae3f-119">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-135">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 标识的时区的夏时制时间。</span><span class="sxs-lookup"><span data-stu-id="70c25-135">Returns a <b>String</b> (<b>string</b> in C#) that identifies the time zone in daylight time.</span></span> <span data-ttu-id="70c25-136">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-136">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-120">
-            <para>此属性作为时区注册表中的 Dlt 值存储。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-120">
-              <para>This property is stored as the Dlt value for the time zone in the registry.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="70c25-137">此属性作为时区的 "Dlt"值存储在注册表中。</span><span class="sxs-lookup"><span data-stu-id="70c25-137">This property is stored as the Dlt value for the time zone in the registry.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -344,29 +222,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-121">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 的唯一标识所在的时区。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-121">Returns a <b>String</b> (<b>string</b> in C#) that uniquely identifies the  time zone.</span>
-          </span>
-          <span data-ttu-id="aae3f-122">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-138">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 的唯一标识所在的时区。</span><span class="sxs-lookup"><span data-stu-id="70c25-138">Returns a <b>String</b> (<b>string</b> in C#) that uniquely identifies the  time zone.</span></span> <span data-ttu-id="70c25-139">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-139">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-123">
-            <para>时区<b>ID</b>全局是相同的时区。 它是包含时区信息的 Windows 注册表项的名称。与不同<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" />属性， <b>ID</b>的值不为本地化内容。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-123">
-              <para>The <b>ID</b> of a time zone is  globally the same for that time zone.  It is the name of the Windows registry key that contains the time zone information. Unlike the <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" /> property, the value of  <b>ID</b> is not localized.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="70c25-140">时区<b>ID</b>全局是相同的时区。</span><span class="sxs-lookup"><span data-stu-id="70c25-140">The <b>ID</b> of a time zone is  globally the same for that time zone.</span></span>  <span data-ttu-id="70c25-141">它是包含时区信息的 Windows 注册表项的名称。</span><span class="sxs-lookup"><span data-stu-id="70c25-141">It is the name of the Windows registry key that contains the time zone information.</span></span> <span data-ttu-id="70c25-142">与不同<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" />属性， <b>ID</b>的值不为本地化内容。</span><span class="sxs-lookup"><span data-stu-id="70c25-142">Unlike the <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" /> property, the value of  <b>ID</b> is not localized.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -392,30 +251,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-124">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的时区的标识符。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-124">Returns a <b>String</b> (<b>string</b> in C#) that represents the identifier of the time zone.</span>
-          </span>
-          <span data-ttu-id="aae3f-125">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-125">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-143">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的时区的标识符。</span><span class="sxs-lookup"><span data-stu-id="70c25-143">Returns a <b>String</b> (<b>string</b> in C#) that represents the identifier of the time zone.</span></span> <span data-ttu-id="70c25-144">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-144">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-126">
-            <para>
-              <b>名称</b>通常包含从协调世界时 (UTC)、 官方时区名称和使用时区的地区的偏移的值。正在为某个时区的注册表项中显示的值。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-126">
-              <para>The <b>Name</b> usually includes the offset value from Coordinated Universal Time (UTC), the official  time zone name, and regions where the time zone is used. It is stored as the Display value in the registry key for a time zone.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="70c25-145"><b>名称</b>通常包含从协调世界时 (UTC)、 官方时区名称和使用时区的地区的偏移的值。</span><span class="sxs-lookup"><span data-stu-id="70c25-145">The <b>Name</b> usually includes the offset value from Coordinated Universal Time (UTC), the official  time zone name, and regions where the time zone is used.</span></span> <span data-ttu-id="70c25-146">它存储为一个时区的注册表项中的显示值。</span><span class="sxs-lookup"><span data-stu-id="70c25-146">It is stored as the Display value in the registry key for a time zone.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -441,12 +280,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-p110">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-p118">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="70c25-p118">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -474,42 +308,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-129">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-129">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="aae3f-130">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-130">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-149">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="70c25-149">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="70c25-150">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-150">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-131">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="70c25-151"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="70c25-151">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="70c25-152">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="70c25-152">Both members serve the same purpose.</span></span> <span data-ttu-id="70c25-153">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="70c25-153">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-131">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardBias">
@@ -535,31 +343,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-132">返回一个<b>整数</b>(C# 中<b>int</b> ) 值，代表从分钟的时间偏移<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" />以体现此时区中标准时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-132">Returns an <b>Integer</b> (<b>int</b> in C#) value that represents the time offset in minutes from the <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> to account for standard time in this time zone.</span>
-          </span>
-          <span data-ttu-id="aae3f-133">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-133">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-154">返回一个<b>整数</b>(C# 中<b>int</b> ) 值，代表从分钟的时间偏移<see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" />以体现此时区中标准时间。</span><span class="sxs-lookup"><span data-stu-id="70c25-154">Returns an <b>Integer</b> (<b>int</b> in C#) value that represents the time offset in minutes from the <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> to account for standard time in this time zone.</span></span> <span data-ttu-id="70c25-155">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-155">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-134">
-            <para>此值存储值的一部分的 TZI Windows 注册表中的时区。TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-            <para>相对于 UTC 时间以及本地时间的时区的 UTC 时间是添加<b>偏向</b>和<b>StandardBias</b>为本地时间的结果。例如，在采用太平洋时区中标准时间的状态，<b>偏向</b>为 480 分钟并<b>StandardBias</b>为 0 分钟。若要确定的 6 月 11 日上午太平洋标准时间 2，采用 UTC 时间添加 (480/60) 小时<b>偏向</b>和 0 小时<b>StandardBias</b>为本地时间 6 月 11 日上午 2 点采用 UTC 时间是年 6 月 11 日上午 10</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-134">
-              <para>This value is stored as part of the value for  TZI for the time zone in the Windows registry. The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-              <para>In relation to the UTC time and the local time of the time zone, UTC time is the result of adding the <b>Bias</b> and <b>StandardBias</b> to the local time. For example, in a state adopting standard time in the Pacific time zone, the <b>Bias</b> is 480 minutes and <b>StandardBias</b> is 0 minutes. To  determine the time in UTC for June 11, 2 A.M. PST, add a <b>Bias</b> of (480/60) hours and  a <b>StandardBias</b> of 0 hours to the local time June 11, 2 A.M. The time in UTC is June 11, 10 A.M.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="70c25-156">此值在 Windows 注册表中的时区的存储值的一部分的 TZI。</span><span class="sxs-lookup"><span data-stu-id="70c25-156">This value is stored as part of the value for  TZI for the time zone in the Windows registry.</span></span> <span data-ttu-id="70c25-157">TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span><span class="sxs-lookup"><span data-stu-id="70c25-157">The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span></span></para>
+          <para><span data-ttu-id="70c25-158">相对于 UTC 时间以及本地时间的 UTC 时间是时区的添加<b>偏向</b>和<b>StandardBias</b>为本地时间的结果。</span><span class="sxs-lookup"><span data-stu-id="70c25-158">In relation to the UTC time and the local time of the time zone, UTC time is the result of adding the <b>Bias</b> and <b>StandardBias</b> to the local time.</span></span> <span data-ttu-id="70c25-159">例如，在采用太平洋时区中标准时间的状态，<b>偏向</b>为 480 分钟并<b>StandardBias</b>为 0 分钟。</span><span class="sxs-lookup"><span data-stu-id="70c25-159">For example, in a state adopting standard time in the Pacific time zone, the <b>Bias</b> is 480 minutes and <b>StandardBias</b> is 0 minutes.</span></span> <span data-ttu-id="70c25-160">若要确定的 6 月 11 日上午 2 点采用 UTC 时间</span><span class="sxs-lookup"><span data-stu-id="70c25-160">To  determine the time in UTC for June 11, 2 A.M.</span></span> <span data-ttu-id="70c25-161">PST，添加为本地时间的 (480/60) 小时<b>偏向</b>和 0 小时<b>StandardBias</b>年 6 月 11 日上午 2 点</span><span class="sxs-lookup"><span data-stu-id="70c25-161">PST, add a <b>Bias</b> of (480/60) hours and  a <b>StandardBias</b> of 0 hours to the local time June 11, 2 A.M.</span></span> <span data-ttu-id="70c25-162">采用 UTC 时间是年 6 月 11 日上午 10</span><span class="sxs-lookup"><span data-stu-id="70c25-162">The time in UTC is June 11, 10 A.M.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDate">
@@ -585,29 +373,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-135">返回一个表示的日期和时间在此时时时间改为标准时间的<b>DateTime</b>值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-135">Returns a <b>DateTime</b> value that represents the date and time in this time zone when time changes over to standard time.</span>
-          </span>
-          <span data-ttu-id="aae3f-136">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-136">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-163">返回一个表示的日期和时间在此时时时间改为标准时间的<b>DateTime</b>值。</span><span class="sxs-lookup"><span data-stu-id="70c25-163">Returns a <b>DateTime</b> value that represents the date and time in this time zone when time changes over to standard time.</span></span> <span data-ttu-id="70c25-164">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-164">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-137">
-            <para>此值存储在 Windows 注册表中的时区的 TZI 值的一部分。TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-137">
-              <para>This value is stored as part of the TZI value for the time zone in the Windows registry. The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="70c25-165">此值将被视为 TZI时区在 Windows 注册表中的值的一部分。</span><span class="sxs-lookup"><span data-stu-id="70c25-165">This value is stored as part of the TZI value for the time zone in the Windows registry.</span></span> <span data-ttu-id="70c25-166">TZI 值映射到 Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span><span class="sxs-lookup"><span data-stu-id="70c25-166">The TZI value is mapped to the Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDesignation">
@@ -633,29 +402,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="aae3f-138">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 标识的时区中标准时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-138">Returns a <b>String</b> (<b>string</b> in C#) that identifies the time zone in standard time.</span>
-          </span>
-          <span data-ttu-id="aae3f-139">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-139">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70c25-167">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 标识的时区中标准时间。</span><span class="sxs-lookup"><span data-stu-id="70c25-167">Returns a <b>String</b> (<b>string</b> in C#) that identifies the time zone in standard time.</span></span> <span data-ttu-id="70c25-168">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="70c25-168">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="aae3f-140">
-            <para>此属性作为时区注册表中的 Std 值存储。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="aae3f-140">
-              <para>This property is stored as the Std value for the time zone in the registry.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="70c25-169">此属性作为时区的“Std”值存储在注册表中。</span><span class="sxs-lookup"><span data-stu-id="70c25-169">This property is stored as the Std value for the time zone in the registry.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_NavigationGroups" FullName="Microsoft.Office.Interop.Outlook._NavigationGroups">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d00a34406d33157b2a7462c169f68ae4e8e21656" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633175" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationGroups : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d00a34406d33157b2a7462c169f68ae4e8e21656" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901926" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationGroups : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationGroups implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationGroups" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationGroups&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c9b98-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c9b98-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="c9b98-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c9b98-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="c9b98-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c9b98-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="c9b98-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c9b98-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f9079-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="f9079-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="f9079-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="f9079-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="f9079-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="f9079-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="f9079-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />。</span><span class="sxs-lookup"><span data-stu-id="f9079-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,16 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c9b98-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="c9b98-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f9079-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="f9079-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="f9079-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f9079-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -111,29 +77,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c9b98-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="c9b98-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f9079-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="f9079-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="f9079-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f9079-108">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c9b98-109">
-            <para>此属性返回的<b>olNavigationGroups</b><see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-109">
-              <para>This property returns <b>olNavigationGroups</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f9079-109">此属性返回的<b>olNavigationGroups</b> <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />对象。</span><span class="sxs-lookup"><span data-stu-id="f9079-109">This property returns <b>olNavigationGroups</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -159,16 +106,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c9b98-110">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-110">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="c9b98-111">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f9079-110">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="f9079-110">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="f9079-111">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f9079-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -196,39 +134,12 @@
         <Parameter Name="GroupDisplayName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="GroupDisplayName">
-          <span data-ttu-id="c9b98-112">值<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" />新的<b>NavigationGroup</b>对象的属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-112">The value of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" /> property for the new <b>NavigationGroup</b> object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c9b98-113">创建并返回新<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />添加到末尾的对象<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-113">Creates and returns a new <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object, added to the end of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="c9b98-114">
-            <b>NavigationGroup</b> 对象，该对象表示新的导航组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-114">A <b>NavigationGroup</b> object that represents the new navigation group.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="c9b98-115">
-            <para>一个<b>NavigationGroups</b>集合可以包含多个相同的<b>Name</b>属性值的<b>NavigationGroup</b>对象。</para>
-            <para>如果外接程序尝试将 50 个以上的导航组添加到<b>NavigationGroups</b>集合，或者外接程序尝试将一个<b>NavigationGroup</b>对象添加到<b>NavigationGroups</b>集合出错<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-115">
-              <para>A <b>NavigationGroups</b> collection can contain multiple <b>NavigationGroup</b> objects with the same <b>Name</b> property values.</para>
-              <para>An error occurs if an add-in attempts to add more than 50 navigation groups to a <b>NavigationGroups</b> collection, or if an add-in attempts to add a <b>NavigationGroup</b> object to the <b>NavigationGroups</b> collection of a <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="GroupDisplayName"><span data-ttu-id="f9079-112">值<see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" />新的<b>NavigationGroup</b>对象的属性。</span><span class="sxs-lookup"><span data-stu-id="f9079-112">The value of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" /> property for the new <b>NavigationGroup</b> object.</span></span></param>
+        <summary><span data-ttu-id="f9079-113">创建并返回新<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />添加到末尾的对象<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</span><span class="sxs-lookup"><span data-stu-id="f9079-113">Creates and returns a new <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object, added to the end of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="f9079-114"><b>NavigationGroup</b> 对象，该对象表示新的导航组。</span><span class="sxs-lookup"><span data-stu-id="f9079-114">A <b>NavigationGroup</b> object that represents the new navigation group.</span></span></returns>
+        <remarks><para><span data-ttu-id="f9079-115"><b>NavigationGroups</b> 集合可以包含多个 <b>NavigationGroup</b> 对象具有相同的 <b>名称</b> 属性值。</span><span class="sxs-lookup"><span data-stu-id="f9079-115">A <b>NavigationGroups</b> collection can contain multiple <b>NavigationGroup</b> objects with the same <b>Name</b> property values.</span></span></para>
+          <para><span data-ttu-id="f9079-116">如果外接程序尝试将 50 个以上的导航组添加到<b>NavigationGroups</b>集合，或者外接程序尝试将一个<b>NavigationGroup</b>对象添加到<b>NavigationGroups</b>集合出错<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象。</span><span class="sxs-lookup"><span data-stu-id="f9079-116">An error occurs if an add-in attempts to add more than 50 navigation groups to a <b>NavigationGroups</b> collection, or if an add-in attempts to add a <b>NavigationGroup</b> object to the <b>NavigationGroups</b> collection of a <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -254,55 +165,21 @@
         <Parameter Name="Group" Type="Microsoft.Office.Interop.Outlook.NavigationGroup" />
       </Parameters>
       <Docs>
-        <param name="Group">
-          <span data-ttu-id="c9b98-116">要删除的导航组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-116">The navigation group to be deleted.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c9b98-117">删除指定<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象从<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-117">Deletes the specified <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object from the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="c9b98-118">
-            <para>
-              <b>Delete</b>方法将引发错误，如果：</para>
-            <list type="bullet">
-              <item>
-                <para>中指定的导航组<paramref name="Group" />中包含导航文件夹及其<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合。</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" />属性中指定的导航组<paramref name="Group" />设置为<b>olMyFoldersGroup</b>。</para>
-              </item>
-              <item>
-                <para>
-                  <b>NavigationGroups</b>集合的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象。</para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-118">
-              <para>The <b>Delete</b> method raises an error if:</para>
-              <list type="bullet">
-                <item>
-                  <para> The navigation group specified in <paramref name="Group" /> contains navigation folders in its <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection.</para>
-                </item>
-                <item>
-                  <para>The <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" /> property of the navigation group specified in <paramref name="Group" /> is set to <b>olMyFoldersGroup</b>.</para>
-                </item>
-                <item>
-                  <para>The parent of the <b>NavigationGroups</b> collection is a <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> object.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Group"><span data-ttu-id="f9079-117">要删除的导航组。</span><span class="sxs-lookup"><span data-stu-id="f9079-117">The navigation group to be deleted.</span></span></param>
+        <summary><span data-ttu-id="f9079-118">删除指定<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象从<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</span><span class="sxs-lookup"><span data-stu-id="f9079-118">Deletes the specified <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object from the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="f9079-119">如果， <b>Delete</b> 方法将引发错误:</span><span class="sxs-lookup"><span data-stu-id="f9079-119">The <b>Delete</b> method raises an error if:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para> <span data-ttu-id="f9079-120">中指定的导航组<paramref name="Group" />中包含导航文件夹及其<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合。</span><span class="sxs-lookup"><span data-stu-id="f9079-120">The navigation group specified in <paramref name="Group" /> contains navigation folders in its <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f9079-121"><see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" />属性中指定的导航组<paramref name="Group" />设置为<b>olMyFoldersGroup</b>。</span><span class="sxs-lookup"><span data-stu-id="f9079-121">The <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" /> property of the navigation group specified in <paramref name="Group" /> is set to <b>olMyFoldersGroup</b>.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f9079-122"><b>NavigationGroups</b>集合的父对象是<see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />对象。</span><span class="sxs-lookup"><span data-stu-id="f9079-122">The parent of the <b>NavigationGroups</b> collection is a <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> object.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDefaultNavigationGroup">
@@ -328,37 +205,11 @@
         <Parameter Name="DefaultFolderGroup" Type="Microsoft.Office.Interop.Outlook.OlGroupType" />
       </Parameters>
       <Docs>
-        <param name="DefaultFolderGroup">
-          <span data-ttu-id="c9b98-119">要检索的导航组的类型。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-119">The type of navigation group to be retrieved.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c9b98-120">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />的与选定的默认共享的文件夹组相对应。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-120">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> that corresponds to the selected default shared folder group.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="c9b98-121">
-            <b>NavigationGroup</b> 对象，该对象代表所选的默认文件夹组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-121">A <b>NavigationGroup</b> object that represents the selected default folder group.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="c9b98-122">
-            <para>如果在中指定的默认导航组<paramref name="DefaultFolderGroup" />已删除或否则不存在，如果自动创建父<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象支持指定的导航组类型。 如果父<b>NavigationModule</b>对象不支持创建此导航组类型，发生错误。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-122">
-              <para>If the default navigation group specified in <paramref name="DefaultFolderGroup" /> was deleted or otherwise doesn’t exist, it is automatically created if the parent <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object supports the specified navigation group type.  An error occurs if the parent <b>NavigationModule</b> object does not support creating this navigation group type.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="DefaultFolderGroup"><span data-ttu-id="f9079-123">要检索的导航组的类型。</span><span class="sxs-lookup"><span data-stu-id="f9079-123">The type of navigation group to be retrieved.</span></span></param>
+        <summary><span data-ttu-id="f9079-124">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />的与选定的默认共享的文件夹组相对应。</span><span class="sxs-lookup"><span data-stu-id="f9079-124">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> that corresponds to the selected default shared folder group.</span></span></summary>
+        <returns><span data-ttu-id="f9079-125"><b>NavigationGroup</b> 对象，该对象代表所选的默认文件夹组。</span><span class="sxs-lookup"><span data-stu-id="f9079-125">A <b>NavigationGroup</b> object that represents the selected default folder group.</span></span></returns>
+        <remarks><para><span data-ttu-id="f9079-126">如果在中指定的默认导航组<paramref name="DefaultFolderGroup" />已删除或否则不存在，如果自动创建父<see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" />对象支持指定的导航组类型。</span><span class="sxs-lookup"><span data-stu-id="f9079-126">If the default navigation group specified in <paramref name="DefaultFolderGroup" /> was deleted or otherwise doesn’t exist, it is automatically created if the parent <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object supports the specified navigation group type.</span></span>  <span data-ttu-id="f9079-127">如果父 <b>NavigationModule</b> 对象不支持创建此导航组类型，则发生错误。</span><span class="sxs-lookup"><span data-stu-id="f9079-127">An error occurs if the parent <b>NavigationModule</b> object does not support creating this navigation group type.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -387,38 +238,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="c9b98-123">对象的索引号。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-123">The index number of the object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c9b98-124">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-124">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c9b98-125">
-            <b>NavigationGroup</b> 对象，该对象代表指定的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-125">A <b>NavigationGroup</b> object that represents the specified object.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="c9b98-126">
-            <para>
-              <b>NavigationGroup</b>集合中的索引值表示在导航窗格中显示时的导航组的序号位置。更改导航组的位置也会更改中包含的导航组的索引值<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-126">
-              <para>The index value of a <b>NavigationGroup</b> in the collection represents the ordinal position of the navigation group when displayed in the Navigation Pane. Changing the position of navigation groups also changes the index values of navigation groups contained within the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="f9079-128">对象的索引号。</span><span class="sxs-lookup"><span data-stu-id="f9079-128">The index number of the object.</span></span></param>
+        <summary><span data-ttu-id="f9079-129">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象的集合。</span><span class="sxs-lookup"><span data-stu-id="f9079-129">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="f9079-130"><b>NavigationGroup</b> 对象，该对象代表指定的对象。</span><span class="sxs-lookup"><span data-stu-id="f9079-130">A <b>NavigationGroup</b> object that represents the specified object.</span></span></value>
+        <remarks><para><span data-ttu-id="f9079-131"><b>NavigationGroup</b> 在集合中的索引值表示当显示在导航窗格中的导航组的序号位置。</span><span class="sxs-lookup"><span data-stu-id="f9079-131">The index value of a <b>NavigationGroup</b> in the collection represents the ordinal position of the navigation group when displayed in the Navigation Pane.</span></span> <span data-ttu-id="f9079-132">更改导航组的位置也会更改中包含的导航组的索引值<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" />集合。</span><span class="sxs-lookup"><span data-stu-id="f9079-132">Changing the position of navigation groups also changes the index values of navigation groups contained within the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -444,12 +268,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c9b98-p105">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f9079-p107">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="f9079-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -477,42 +296,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c9b98-129">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-129">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="c9b98-130">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-130">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f9079-135">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="f9079-135">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="f9079-136">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f9079-136">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c9b98-131">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="f9079-137"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="f9079-137">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="f9079-138">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="f9079-138">Both members serve the same purpose.</span></span> <span data-ttu-id="f9079-139">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="f9079-139">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c9b98-131">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

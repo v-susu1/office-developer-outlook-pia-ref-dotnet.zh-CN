@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="94f38ddf6e70cd1c60c264bff6a43ceefb4bb85d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632322" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1284170d4c7d7e9f8115cbb6aa1c5cae9ad00511" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896798" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="8e848-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8e848-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="a2ff7-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,12 +40,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ActivateEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-105">由于用户操作或程序代码而使某个浏览器成为活动窗口时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-105">Occurs when an explorer becomes the active window, either as a result of user action or through program code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a2ff7-105">由于用户操作或程序代码而使某个浏览器成为活动窗口时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-105">Occurs when an explorer becomes the active window, either as a result of user action or through program code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,24 +59,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_AttachmentSelectionChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-106">当用户通过编程方式，或者通过与用户界面交互，在活动资源管理器中选择其他附件或更多附件时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-106">Occurs when the user selects a different or additional attachment in the active explorer programmatically or by interacting with the user interface.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-107">
-            <para>活动资源管理器中选择的任何项目的不同或更多附件时，将触发<b>AttachmentSelectionChange</b>事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-107">
-              <para>The <b>AttachmentSelectionChange</b> event fires when a different or additional attachment of any item is selected in the active explorer.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-106">当用户通过编程方式，或者通过与用户界面交互，在活动资源管理器中选择其他附件或更多附件时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-106">Occurs when the user selects a different or additional attachment in the active explorer programmatically or by interacting with the user interface.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-107">在活动资源管理器中选择任何一项其他附件时，将激发 <b>AttachmentSelectionChange</b> 事件。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-107">The <b>AttachmentSelectionChange</b> event fires when a different or additional attachment of any item is selected in the active explorer.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeFolderSwitch">
@@ -112,24 +79,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeFolderSwitchEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-108">在浏览器前往新文件夹前发生，可以是用户操作或程序代码的结果。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-108">Occurs before the explorer goes to a new folder, either as a result of user action or through program code.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-109">
-            <para>如果切换到文件夹位于不支持自动化 （如文件系统） 的命名空间<paramref name="NewFolder" />是<b>执行任何操作</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-109">
-              <para>If the folder being switched to is in a namespace that doesn’t support automation (such as the file system), <paramref name="NewFolder" /> is <b>Nothing</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-108">在浏览器前往新文件夹前发生，可以是用户操作或程序代码的结果。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-108">Occurs before the explorer goes to a new folder, either as a result of user action or through program code.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-109">如果切换到文件夹位于不支持自动化 （如文件系统） 的命名空间<paramref name="NewFolder" />是<b>执行任何操作</b>。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-109">If the folder being switched to is in a namespace that doesn’t support automation (such as the file system), <paramref name="NewFolder" /> is <b>Nothing</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCopy">
@@ -147,24 +99,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCopyEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-110">复制 Outlook 项目时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-110">Occurs when an Outlook item is copied.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-111">
-            <para>开始后可以取消此事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-111">
-              <para>This event can be cancelled after it has started.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-110">复制 Outlook 项目时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-110">Occurs when an Outlook item is copied.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-111">该事件在开始后可以取消。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-111">This event can be cancelled after it has started.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCut">
@@ -182,24 +119,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCutEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-112">从文件夹中剪切 Outlook 项目时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-112">Occurs when an Outlook item is cut from a folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-113">
-            <para>开始后可以取消此事件。如果取消该事件，将不删除项目。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-113">
-              <para>This event can be cancelled after it has started. If the event is cancelled, then the item will not be removed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-112">从文件夹中剪切 Outlook 项目时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-112">Occurs when an Outlook item is cut from a folder.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-p102">该事件在开始后可以取消。如果事件被取消，将不删除项目。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-p102">This event can be cancelled after it has started. If the event is cancelled, then the item will not be removed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemPaste">
@@ -217,24 +139,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-114">粘贴 Outlook 项目时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-114">Occurs when an Outlook item is pasted.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-115">
-            <para>开始后可以取消此事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-115">
-              <para>This event can be cancelled after it has started.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-115">粘贴 Outlook 项目时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-115">Occurs when an Outlook item is pasted.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-116">该事件在开始后可以取消。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-116">This event can be cancelled after it has started.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMaximize">
@@ -252,24 +159,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMaximizeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-116">当用户最大化浏览器时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-116">Occurs when an explorer is maximized by the user.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-117">
-            <para>开始后可以取消此事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-117">
-              <para>This event can be cancelled after it has started.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-117">当用户最大化浏览器时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-117">Occurs when an explorer is maximized by the user.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-118">该事件在开始后可以取消。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-118">This event can be cancelled after it has started.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMinimize">
@@ -287,24 +179,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMinimizeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-118">当用户最小化活动浏览器时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-118">Occurs when the active explorer is minimized by the user.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-119">
-            <para>开始后可以取消此事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-119">
-              <para>This event can be cancelled after it has started.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-119">当用户最小化活动浏览器时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-119">Occurs when the active explorer is minimized by the user.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-120">该事件在开始后可以取消。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-120">This event can be cancelled after it has started.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMove">
@@ -322,24 +199,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-120">发生此事件时<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />移动用户。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-120">Occurs when the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> is moved by the user.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-121">
-            <para>开始后可以取消此事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-121">
-              <para>This event can be cancelled after it has started.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-121">发生此事件时<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />移动用户。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-121">Occurs when the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> is moved by the user.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-122">该事件在开始后可以取消。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-122">This event can be cancelled after it has started.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeSize">
@@ -357,24 +219,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-122">当用户调整当前大小时发生<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-122">Occurs when the user sizes the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-123">
-            <para>开始后可以取消此事件。如果取消该事件，不调整窗口。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-123">
-              <para>This event can be cancelled after it has started. If the event is cancelled, the window is not sized.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-123">当用户调整当前大小时发生<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-123">Occurs when the user sizes the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-p103">该事件在开始后可以取消。如果取消该事件，将不调整窗口大小。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-p103">This event can be cancelled after it has started. If the event is cancelled, the window is not sized.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeViewSwitch">
@@ -392,12 +239,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-124">由于用户操作或程序代码而在浏览器切换到新视图前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-124">Occurs before the explorer changes to a new view, either as a result of user action or through program code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a2ff7-126">由于用户操作或程序代码而在浏览器切换到新视图前发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-126">Occurs before the explorer changes to a new view, either as a result of user action or through program code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -416,24 +258,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_CloseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-125">关闭浏览器时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-125">Occurs when an explorer is being closed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-126">
-            <para>如果您使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" />方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-126">
-              <para>If you use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> method to fire this event, it can only be canceled if the <b>Close</b> method uses the <b>olPromptForSave</b> argument.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-127">关闭浏览器时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-127">Occurs when an explorer is being closed.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-128">如果您使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" />方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-128">If you use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> method to fire this event, it can only be canceled if the <b>Close</b> method uses the <b>olPromptForSave</b> argument.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Deactivate">
@@ -451,12 +278,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_DeactivateEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-127">由于用户操作或程序代码而使浏览器不再是活动窗口时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-127">Occurs when an explorer stops being the active window, either as a result of user action or through program code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a2ff7-129">由于用户操作或程序代码而使浏览器不再是活动窗口时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-129">Occurs when an explorer stops being the active window, either as a result of user action or through program code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -475,12 +297,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_FolderSwitchEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-128">当浏览器前往新文件夹时发生，可以是用户操作或程序代码的结果。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-128">Occurs when the explorer goes to a new folder, either as a result of user action or through program code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a2ff7-130">当浏览器前往新文件夹时发生，可以是用户操作或程序代码的结果。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-130">Occurs when the explorer goes to a new folder, either as a result of user action or through program code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -499,24 +316,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-129">当用户执行的操作导致内嵌响应显示在阅读窗格中时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-129">Occurs when the user performs an action that causes an inline response to appear in the Reading Pane.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-130">
-            <para>此事件返回一个代表内嵌响应项目的项目对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-130">
-              <para>This event returns an item object representing the inline response item.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-131">当用户执行的操作导致内嵌响应显示在阅读窗格中时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-131">Occurs when the user performs an action that causes an inline response to appear in the Reading Pane.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-132">此事件返回一个代表内嵌响应项目的项目对象。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-132">This event returns an item object representing the inline response item.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InlineResponseClose">
@@ -534,64 +336,29 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-131">当用户执行的操作导致的阅读窗格中的活动内嵌响应关闭时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-131">Occurs when the user performs an action that causes the active inline response to close in the Reading Pane.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-132">
-            <para>的新的内嵌响应时，会触发此事件或草稿内嵌响应关闭原因如下：</para>
-            <list type="bullet">
-              <item>
-                <para>用户选择<b>弹出出</b>命令。</para>
-              </item>
-              <item>
-                <para>用户选择<b>放弃</b>命令。</para>
-              </item>
-              <item>
-                <para>用户发送的内嵌响应。</para>
-              </item>
-              <item>
-                <para>当用户导航到邮件列表中的不同邮件。</para>
-              </item>
-              <item>
-                <para>当用户导航到另一个文件夹。</para>
-              </item>
-              <item>
-                <para>用户切换模块，例如从到日历模块邮件模块。</para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-132">
-              <para>This event fires when a new inline response or draft inline response is closed for the following reasons:</para>
-              <list type="bullet">
-                <item>
-                  <para>The user selects the <b>Pop Out</b> command.</para>
-                </item>
-                <item>
-                  <para>The user selects the <b>Discard</b> command.</para>
-                </item>
-                <item>
-                  <para>The user sends the inline response.</para>
-                </item>
-                <item>
-                  <para>The user navigates to a different message in the message list.</para>
-                </item>
-                <item>
-                  <para>The user navigates to a different folder.</para>
-                </item>
-                <item>
-                  <para>The user switches modules, for example from the mail module to the Calendar module.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-133">当用户执行的操作导致的阅读窗格中的活动内嵌响应关闭时发生。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-133">Occurs when the user performs an action that causes the active inline response to close in the Reading Pane.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-134">在新的内嵌响应时，会触发此事件或草稿内嵌响应关闭原因如下：</span><span class="sxs-lookup"><span data-stu-id="a2ff7-134">This event fires when a new inline response or draft inline response is closed for the following reasons:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="a2ff7-135">用户选择<b>弹出出</b>命令。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-135">The user selects the <b>Pop Out</b> command.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="a2ff7-136">用户选择<b>放弃</b>命令。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-136">The user selects the <b>Discard</b> command.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="a2ff7-137">用户发送的内嵌响应。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-137">The user sends the inline response.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="a2ff7-138">当用户导航到邮件列表中的不同邮件。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-138">The user navigates to a different message in the message list.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="a2ff7-139">用户导航到另一个文件夹。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-139">The user navigates to a different folder.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="a2ff7-140">用户切换模块，例如从到日历模块邮件模块。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-140">The user switches modules, for example from the mail module to the Calendar module.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionChange">
@@ -609,24 +376,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-133">当用户切换到使用用户界面 (UI) 的文件夹中的其他项时发生或以编程方式。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-133">Occurs when the user switches to a different item in a folder using the user interface (UI) or programmatically.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8e848-134">
-            <para>也会发生此事件时用户，或者是以编程方式或使用用户 inerface 中，单击或切换到另一个包含项目，如 Outlook 自动在该文件夹中选择的第一个项目的文件夹。但是，如果文件夹是文件系统文件夹，或者显示具有当前 Web 视图的任何文件夹，也不会发生此事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-134">
-              <para>This event also occurs when the user, either programmatically or using the user inerface, clicks or switches to a different folder that contains items as Outlook automatically selects the first item in that folder. However, this event does not occur if the folder is a file-system folder or if any folder with a current Web view is displayed. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a2ff7-141">当用户切换到使用用户界面 (UI) 的文件夹中的其他项时发生或以编程方式。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-141">Occurs when the user switches to a different item in a folder using the user interface (UI) or programmatically.</span></span></summary>
+        <remarks><para><span data-ttu-id="a2ff7-142">也会发生此事件时用户，或者是以编程方式或使用用户 inerface 中，单击或切换到另一个包含项目，如 Outlook 自动在该文件夹中选择的第一个项目的文件夹。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-142">This event also occurs when the user, either programmatically or using the user inerface, clicks or switches to a different folder that contains items as Outlook automatically selects the first item in that folder.</span></span> <span data-ttu-id="a2ff7-143">但是，如果该文件夹是文件系统文件夹，或者是显示当前 Web 视图的任何文件夹，那么不会发生此事件。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-143">However, this event does not occur if the folder is a file-system folder or if any folder with a current Web view is displayed.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewSwitch">
@@ -644,12 +396,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ViewSwitchEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e848-135">当浏览器中的视图更改时发生，可以是用户操作或程序代码的结果。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e848-135">Occurs when the view in the explorer changes, either as a result of user action or through program code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a2ff7-144">当浏览器中的视图更改时发生，可以是用户操作或程序代码的结果。</span><span class="sxs-lookup"><span data-stu-id="a2ff7-144">Occurs when the view in the explorer changes, either as a result of user action or through program code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

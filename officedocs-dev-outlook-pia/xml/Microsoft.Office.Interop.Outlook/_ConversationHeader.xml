@@ -1,13 +1,5 @@
 <Type Name="_ConversationHeader" FullName="Microsoft.Office.Interop.Outlook._ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631578" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901744" /></Metadata><TypeSignature Language="C#" Value="public interface _ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ConversationHeader" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="5dcfe-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5dcfe-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="5dcfe-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5dcfe-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="5dcfe-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5dcfe-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="5dcfe-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5dcfe-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f28d4-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="f28d4-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="f28d4-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="f28d4-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="f28d4-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="f28d4-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="f28d4-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />。</span><span class="sxs-lookup"><span data-stu-id="f28d4-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5dcfe-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父 Outlook 应用程序的<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> object.</span>
-          </span>
-          <span data-ttu-id="5dcfe-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f28d4-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父 Outlook 应用程序的<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />对象。</span><span class="sxs-lookup"><span data-stu-id="f28d4-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> object.</span></span> <span data-ttu-id="f28d4-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f28d4-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5dcfe-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the class of the object.</span>
-          </span>
-          <span data-ttu-id="5dcfe-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f28d4-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="f28d4-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the class of the object.</span></span> <span data-ttu-id="f28d4-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f28d4-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,29 +101,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5dcfe-109">返回一个<b>字符串</b>（C# 中的<b>字符串</b>），用于唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象传递给此对话标头所属。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-109">Returns a <b>String</b> (<b>string</b> in C#) that uniquely identifies the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object to which this conversation header belongs.</span>
-          </span>
-          <span data-ttu-id="5dcfe-110">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f28d4-109">返回一个<b>字符串</b>（C# 中的<b>字符串</b>），用于唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象传递给此对话标头所属。</span><span class="sxs-lookup"><span data-stu-id="f28d4-109">Returns a <b>String</b> (<b>string</b> in C#) that uniquely identifies the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object to which this conversation header belongs.</span></span> <span data-ttu-id="f28d4-110">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f28d4-110">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="5dcfe-111">
-            <para>此属性与同一对话中的其他项相关联对话标头。这些项和对话所有其<b>ConversationID</b>属性中具有相同的值。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-111">
-              <para>This property associates the conversation header with other items in the same conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f28d4-p105">此属性将对话头与同一对话中的其他项目相关联。这些项目和对话中其 <b>转换 Id</b> 属性具有相同的值。</span><span class="sxs-lookup"><span data-stu-id="f28d4-p105">This property associates the conversation header with other items in the same conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationTopic">
@@ -192,29 +130,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5dcfe-112">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的会话线索的 Outlook 项目的主题。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-112">Returns a <b>String</b> (<b>string</b> in C#) representing the topic of the conversation thread of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="5dcfe-113">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f28d4-113">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的会话线索的 Outlook 项目的主题。</span><span class="sxs-lookup"><span data-stu-id="f28d4-113">Returns a <b>String</b> (<b>string</b> in C#) representing the topic of the conversation thread of the Outlook item.</span></span> <span data-ttu-id="f28d4-114">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f28d4-114">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="5dcfe-114">
-            <para>对应于 MAPI 属性 PidTagConversationTopic。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-114">
-              <para>Corresponds to the MAPI property PidTagConversationTopic.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f28d4-115">对应于 PidTagConversationTopic 的 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="f28d4-115">Corresponds to the MAPI property PidTagConversationTopic.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetConversation">
@@ -238,60 +157,26 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="5dcfe-115">获取<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象，表示此对话标头所属的对话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-115">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that represents the conversation to which this conversation header belongs.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="5dcfe-116">返回一个代表此对话标头所属对话的<b>Conversation</b>对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-116">Returns a <b>Conversation</b> object that represents the conversation to which this conversation header belongs.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="5dcfe-117">
-            <para>
-              <b>GetConversation</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有对话项目。没有对话存在以下方案中某项：</para>
-            <list type="bullet">
-              <item>
-                <para>尚未保存项目。由用户操作或自动保存，可以通过编程，保存项目。</para>
-              </item>
-              <item>
-                <para>尚未对于可以发送 （例如邮件项目、 约会项目或联系人项目） 的项，发送项目。</para>
-              </item>
-              <item>
-                <para>对话通过 Windows 注册表禁用。</para>
-              </item>
-              <item>
-                <para>存储不支持对话视图 （例如，Outlook 在针对版本早于 Microsoft Exchange Server 2010 的 Microsoft Exchange 的经典的联机模式下运行）。使用<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，以确定是否在存储区支持会话视图。</para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-117">
-              <para>
-                <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no conversation exists for the item. No conversation exists for an item in the following scenarios:</para>
-              <list type="bullet">
-                <item>
-                  <para>The item has not been saved. An item can be saved programmatically, by user action, or by auto-save. </para>
-                </item>
-                <item>
-                  <para>For an item that can be sent (for example, a mail item, appointment item, or contact item), the item has not been sent.</para>
-                </item>
-                <item>
-                  <para>Conversations are disabled through the Windows registry.</para>
-                </item>
-                <item>
-                  <para>The store does not support the Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange that is earlier than Microsoft Exchange Server 2010). Use the <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object to determine whether the store supports the Conversation view.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f28d4-116">获取<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象，表示此对话标头所属的对话。</span><span class="sxs-lookup"><span data-stu-id="f28d4-116">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that represents the conversation to which this conversation header belongs.</span></span></summary>
+        <returns><span data-ttu-id="f28d4-117">返回一个代表此对话标头所属对话的<b>Conversation</b>对象。</span><span class="sxs-lookup"><span data-stu-id="f28d4-117">Returns a <b>Conversation</b> object that represents the conversation to which this conversation header belongs.</span></span></returns>
+        <remarks><para><span data-ttu-id="f28d4-118">
+            <b>GetConversation</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有对话项目。</span><span class="sxs-lookup"><span data-stu-id="f28d4-118">
+            <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no conversation exists for the item.</span></span> <span data-ttu-id="f28d4-119">没有对话存在以下方案中的项目:</span><span class="sxs-lookup"><span data-stu-id="f28d4-119">No conversation exists for an item in the following scenarios:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="f28d4-p108">该项目尚未保存。 由用户操作或自动保存，可以以编程方式保存项目。</span><span class="sxs-lookup"><span data-stu-id="f28d4-p108">The item has not been saved. An item can be saved programmatically, by user action, or by auto-save. </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f28d4-122">对于可以发送的项目（例如邮件项目、约会项目或联系人项目），该项目尚未发送。</span><span class="sxs-lookup"><span data-stu-id="f28d4-122">For an item that can be sent (for example, a mail item, appointment item, or contact item), the item has not been sent.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f28d4-123">对话通过 Windows 注册表禁用。</span><span class="sxs-lookup"><span data-stu-id="f28d4-123">Conversations are disabled through the Windows registry.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f28d4-124">存储不支持对话视图 （例如，Outlook 在针对版本早于 Microsoft Exchange Server 2010 的 Microsoft Exchange 的经典的联机模式下运行）。</span><span class="sxs-lookup"><span data-stu-id="f28d4-124">The store does not support the Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange that is earlier than Microsoft Exchange Server 2010).</span></span> <span data-ttu-id="f28d4-125">使用<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，以确定是否在存储区支持会话视图。</span><span class="sxs-lookup"><span data-stu-id="f28d4-125">Use the <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object to determine whether the store supports the Conversation view.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItems">
@@ -315,31 +200,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="5dcfe-118">获取<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />集合，其中包含的所有对话中驻留在与所选的对话标头位于同一文件夹中的项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-118">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all of the items in the conversation that reside in the same folder as the selected conversation header.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="5dcfe-119">返回一个<b>SimpleItems</b>集合的项目属于同一对话，并位于与对话标头位于同一文件夹中。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-119">Returns a <b>SimpleItems</b> collection of items that belong to the same conversation and reside in the same folder as the conversation header.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="5dcfe-120">
-            <para>
-              <b>SimpleItems</b>集合只包含包含对话标头的文件夹中的会话项目。<b>SimpleItems</b>集合不返回跨文件夹对话项目。如果必须访问跨文件夹内容，请使用<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。如果没有对话项目与对话标头位于同一文件夹中， <b>GetItems</b>将返回一个<b>SimpleItems</b>集合与<see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" />属性等于 0。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-120">
-              <para>The <b>SimpleItems</b> collection only contains conversation items in the folder that contains the conversation header. The <b>SimpleItems</b> collection does not return cross-folder conversation items. If you must access cross-folder content, use the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />object.If no conversation items exist in the same folder as the conversation header, <b>GetItems</b> returns a <b>SimpleItems</b> collection with the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property equal to 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f28d4-126">获取<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />集合，其中包含的所有对话中驻留在与所选的对话标头位于同一文件夹中的项目。</span><span class="sxs-lookup"><span data-stu-id="f28d4-126">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all of the items in the conversation that reside in the same folder as the selected conversation header.</span></span></summary>
+        <returns><span data-ttu-id="f28d4-127">返回一个<b>SimpleItems</b>集合的项目属于同一对话，并位于与对话标头位于同一文件夹中。</span><span class="sxs-lookup"><span data-stu-id="f28d4-127">Returns a <b>SimpleItems</b> collection of items that belong to the same conversation and reside in the same folder as the conversation header.</span></span></returns>
+        <remarks><para><span data-ttu-id="f28d4-128"><b>SimpleItems</b> 集合只包含文件夹包含对话标头中的对话项目。</span><span class="sxs-lookup"><span data-stu-id="f28d4-128">The <b>SimpleItems</b> collection only contains conversation items in the folder that contains the conversation header.</span></span> <span data-ttu-id="f28d4-129"><b>SimpleItems</b> 集合不会返回跨文件夹对话的项目。</span><span class="sxs-lookup"><span data-stu-id="f28d4-129">The <b>SimpleItems</b> collection does not return cross-folder conversation items.</span></span> <span data-ttu-id="f28d4-130">如果必须访问跨文件夹内容，请使用<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。如果没有对话项目与对话标头位于同一文件夹中， <b>GetItems</b>将返回一个<b>SimpleItems</b>集合与<see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" />属性等于 0。</span><span class="sxs-lookup"><span data-stu-id="f28d4-130">If you must access cross-folder content, use the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />object.If no conversation items exist in the same folder as the conversation header, <b>GetItems</b> returns a <b>SimpleItems</b> collection with the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property equal to 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -365,31 +229,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5dcfe-121">返回父<see cref="T:System.Object" />指定对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-121">Returns the parent <see cref="T:System.Object" /> of the specified object.</span>
-          </span>
-          <span data-ttu-id="5dcfe-122">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f28d4-131">返回父<see cref="T:System.Object" />指定对象。</span><span class="sxs-lookup"><span data-stu-id="f28d4-131">Returns the parent <see cref="T:System.Object" /> of the specified object.</span></span> <span data-ttu-id="f28d4-132">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f28d4-132">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="5dcfe-123">
-            <para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象。</para>
-            <para>返回<b>Selection</b>对象仅包含<b>ConversationHeader</b>对象。获取<b>父</b>属性等效于调用<see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" />方法<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />参数。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-123">
-              <para>The parent of a <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> object is a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object.</para>
-              <para>The returned <b>Selection</b> object contains only <b>ConversationHeader</b> objects. Getting the <b>Parent</b> property is equivalent to calling the <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> method with the <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> argument.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f28d4-133">父对象的<see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Selection" />对象。</span><span class="sxs-lookup"><span data-stu-id="f28d4-133">The parent of a <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> object is a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object.</span></span></para>
+          <para><span data-ttu-id="f28d4-134">返回 <b>所选内容</b> 对象仅包含 <b>ConversationHeader</b> 对象。</span><span class="sxs-lookup"><span data-stu-id="f28d4-134">The returned <b>Selection</b> object contains only <b>ConversationHeader</b> objects.</span></span> <span data-ttu-id="f28d4-135">获取<b>父</b>属性等效于调用<see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" />方法<see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" />参数。</span><span class="sxs-lookup"><span data-stu-id="f28d4-135">Getting the <b>Parent</b> property is equivalent to calling the <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> method with the <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> argument.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -415,31 +259,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5dcfe-124">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-124">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="5dcfe-125">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-125">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f28d4-136">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="f28d4-136">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="f28d4-137">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f28d4-137">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="5dcfe-126">
-            <para>如果没有已登录的会话，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-            <para>可以使用<b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />交替方法获取当前会话的<b>NameSpace</b>对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5dcfe-126">
-              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session. </para>
-              <para>You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <b>NameSpace</b> object for the current session. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="f28d4-138">如果没有已登录的会话，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="f28d4-138">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</span></span> </para>
+          <para><span data-ttu-id="f28d4-139">您可以使用<b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />交替方法获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="f28d4-139">You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

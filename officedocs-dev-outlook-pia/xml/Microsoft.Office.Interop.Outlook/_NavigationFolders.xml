@@ -1,13 +1,5 @@
 <Type Name="_NavigationFolders" FullName="Microsoft.Office.Interop.Outlook._NavigationFolders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b4c4d498f22e067b44aff3e0cf6b8a93dfd0cfd1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631588" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationFolders : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b4c4d498f22e067b44aff3e0cf6b8a93dfd0cfd1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900771" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationFolders : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationFolders implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationFolders" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationFolders&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="cc73d-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cc73d-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="cc73d-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cc73d-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="cc73d-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cc73d-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="cc73d-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cc73d-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c1629-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="c1629-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="c1629-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="c1629-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="c1629-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="c1629-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="c1629-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />。</span><span class="sxs-lookup"><span data-stu-id="c1629-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,37 +49,11 @@
         <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
       </Parameters>
       <Docs>
-        <param name="Folder">
-          <span data-ttu-id="cc73d-105">要添加的文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-105">The folder to add.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cc73d-106">添加指定<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />，为<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象的末尾<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-106">Adds the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, as a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object, to the end of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cc73d-107">
-            <b>NavigationFolder</b> 对象，该对象代表新的导航文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-107">A <b>NavigationFolder</b> object that represents the new navigation folder.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="cc73d-108">
-            <para>一个导航组中只能出现一个文件夹。当将<b>文件夹</b>对象添加到新的导航组时, 对该<b>文件夹</b>的任何引用将从的先前成员的任何其他导航组。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-108">
-              <para>A folder can only appear in one navigation group. When adding a <b>Folder</b> object to a new navigation group, any references to that <b>Folder</b> are removed from any other navigation group of which it was previously a member.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Folder"><span data-ttu-id="c1629-105">要添加的文件夹。</span><span class="sxs-lookup"><span data-stu-id="c1629-105">The folder to add.</span></span></param>
+        <summary><span data-ttu-id="c1629-106">添加指定<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />，为<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象的末尾<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合。</span><span class="sxs-lookup"><span data-stu-id="c1629-106">Adds the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, as a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object, to the end of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="c1629-107"><b>NavigationFolder</b> 对象，该对象代表新的导航文件夹。</span><span class="sxs-lookup"><span data-stu-id="c1629-107">A <b>NavigationFolder</b> object that represents the new navigation folder.</span></span></returns>
+        <remarks><para><span data-ttu-id="c1629-p102">一个文件夹只能出现在一个导航组。时将 <b>文件夹</b> 对象添加到新组中导航，对该 <b>文件夹</b> 的任何引用将从其先前成员任何其他导航组。</span><span class="sxs-lookup"><span data-stu-id="c1629-p102">A folder can only appear in one navigation group. When adding a <b>Folder</b> object to a new navigation group, any references to that <b>Folder</b> are removed from any other navigation group of which it was previously a member.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -130,16 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cc73d-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="cc73d-110">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c1629-110">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="c1629-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="c1629-111">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="c1629-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -167,29 +107,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cc73d-111">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="cc73d-112">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c1629-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="c1629-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="c1629-113">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="c1629-113">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cc73d-113">
-            <para>此属性返回的<b>olNavigationFolders</b><see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-113">
-              <para>This property returns <b>olNavigationFolders</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="c1629-114">此属性返回的<b>olNavigationFolders</b> <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />对象。</span><span class="sxs-lookup"><span data-stu-id="c1629-114">This property returns <b>olNavigationFolders</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -215,16 +136,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cc73d-114">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="cc73d-115">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c1629-115">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="c1629-115">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="c1629-116">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="c1629-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -255,38 +167,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="cc73d-116">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-116">Either the index number of the object, or the value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cc73d-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-117">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="cc73d-118">
-            <b>NavigationFolder</b> 对象，该对象代表指定的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-118">A <b>NavigationFolder</b> object that represents the specified object.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="cc73d-119">
-            <para>
-              <b>NavigationFolder</b>集合中的索引值表示的文件夹的导航窗格中显示时的导航组中的序号位置。更改导航组中的导航文件夹的位置也会更改文件夹中包含的索引值<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合的<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-119">
-              <para>The index value of a <b>NavigationFolder</b> in the collection represents the ordinal position of the folder in the navigation group when displayed in the Navigation Pane. Changing the position of navigation folders within the navigation group also changes the index values of folders contained within the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection for that <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="c1629-117">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span><span class="sxs-lookup"><span data-stu-id="c1629-117">Either the index number of the object, or the value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="c1629-118">返回<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象的集合。</span><span class="sxs-lookup"><span data-stu-id="c1629-118">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="c1629-119"><b>NavigationFolder</b> 对象，该对象代表指定的对象。</span><span class="sxs-lookup"><span data-stu-id="c1629-119">A <b>NavigationFolder</b> object that represents the specified object.</span></span></value>
+        <remarks><para><span data-ttu-id="c1629-120"><b>NavigationFolder</b> 在集合中的索引值表示该文件夹时显示在导航窗格中的导航组的序号位置。</span><span class="sxs-lookup"><span data-stu-id="c1629-120">The index value of a <b>NavigationFolder</b> in the collection represents the ordinal position of the folder in the navigation group when displayed in the Navigation Pane.</span></span> <span data-ttu-id="c1629-121">更改导航组中的导航文件夹的位置也会更改文件夹中包含的索引值<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合的<see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />对象。</span><span class="sxs-lookup"><span data-stu-id="c1629-121">Changing the position of navigation folders within the navigation group also changes the index values of folders contained within the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection for that <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -312,12 +197,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cc73d-p105">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c1629-p107">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="c1629-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -345,30 +225,10 @@
         <Parameter Name="RemovableFolder" Type="Microsoft.Office.Interop.Outlook.NavigationFolder" />
       </Parameters>
       <Docs>
-        <param name="RemovableFolder">
-          <span data-ttu-id="cc73d-122">要删除的导航文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-122">The navigation folder to be removed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cc73d-123">从集合中删除对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-123">Removes an object from the collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="cc73d-124">
-            <para>仅可移动文件夹、 <b>NavigationFolder</b>对象<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" />属性值设置为<b>True</b>，可以从<b>NavigationFolders</b>集合中删除。这意味着，您可以使用<b>NavigationFolders.Remove</b>删除共享的文件夹、 公用文件夹和链接的文件夹。但是，您必须使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" />中删除任何用户创建的文件夹。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-124">
-              <para>Only removable folders, <b>NavigationFolder</b> objects with an <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> property value set to <b>True</b>, can be removed from a <b>NavigationFolders</b> collection. This means that you can use <b>NavigationFolders.Remove</b> to remove shared folders, public folders, and linked folders. However, you must use <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" /> to remove any user-created folders.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="RemovableFolder"><span data-ttu-id="c1629-124">要删除的导航文件夹。</span><span class="sxs-lookup"><span data-stu-id="c1629-124">The navigation folder to be removed.</span></span></param>
+        <summary><span data-ttu-id="c1629-125">从集合中删除对象。</span><span class="sxs-lookup"><span data-stu-id="c1629-125">Removes an object from the collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="c1629-126">仅可移动文件夹、 <b>NavigationFolder</b>对象<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" />属性值设置为<b>True</b>，可以从<b>NavigationFolders</b>集合中删除。</span><span class="sxs-lookup"><span data-stu-id="c1629-126">Only removable folders, <b>NavigationFolder</b> objects with an <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> property value set to <b>True</b>, can be removed from a <b>NavigationFolders</b> collection.</span></span> <span data-ttu-id="c1629-127">这意味着，您可以使用 <b>NavigationFolders.Remove</b> 删除共享的文件夹、 公用文件夹和链接的文件夹。</span><span class="sxs-lookup"><span data-stu-id="c1629-127">This means that you can use <b>NavigationFolders.Remove</b> to remove shared folders, public folders, and linked folders.</span></span> <span data-ttu-id="c1629-128">但是，您必须使用<see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" />中删除任何用户创建的文件夹。</span><span class="sxs-lookup"><span data-stu-id="c1629-128">However, you must use <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" /> to remove any user-created folders.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -394,42 +254,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cc73d-125">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-125">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="cc73d-126">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-126">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c1629-129">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="c1629-129">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="c1629-130">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="c1629-130">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cc73d-127">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="c1629-131"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="c1629-131">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="c1629-132">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="c1629-132">Both members serve the same purpose.</span></span> <span data-ttu-id="c1629-133">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="c1629-133">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cc73d-127">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="UserProperty" FullName="Microsoft.Office.Interop.Outlook.UserProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b01972ade23a15cfa40aaec742d199b4c5ab4d2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632481" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface UserProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7fa9c65db165ff886aa519574a59d9d364a004cc" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896756" /></Metadata><TypeSignature Language="C#" Value="public interface UserProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface UserProperty" />
@@ -26,30 +18,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="124b7-101">代表 Outlook 项目的自定义属性。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="124b7-101">Represents a custom property of an Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="124b7-102">
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个<b>UserProperty</b>对象。</para>
-        <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法可创建新的<b>UserProperty</b>项目并将其添加到<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象。<b>Add</b>方法允许您指定的名称和新属性的类型。</para>
-        <para>
-          <b>注释</b>： 当您创建的自定义属性时，包含项目 （作为属性使用相同的名称） 的文件夹中添加字段。该字段可用作文件夹视图中的列。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="124b7-102">
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), where <paramref name="index" /> is a name or index number, to return a single <b>UserProperty</b> object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />  method to create a new <b>UserProperty</b> for an item and add it to the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  object. The <b>Add</b> method allows you to specify a name and type for the new property.</para>
-          <para>
-            <b>Note</b>: When you create a custom property, a field is added in the folder that contains the item (using the same name as the property). That field can be used as a column in folder views.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="b42c2-101">代表 Outlook 项目的自定义属性。</span><span class="sxs-lookup"><span data-stu-id="b42c2-101">Represents a custom property of an Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="b42c2-102">使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个<b>UserProperty</b>对象。</span><span class="sxs-lookup"><span data-stu-id="b42c2-102">Use <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), where <paramref name="index" /> is a name or index number, to return a single <b>UserProperty</b> object.</span></span></para>
+      <para><span data-ttu-id="b42c2-103">使用<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法可创建新的<b>UserProperty</b>项目并将其添加到<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />对象。</span><span class="sxs-lookup"><span data-stu-id="b42c2-103">Use the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />  method to create a new <b>UserProperty</b> for an item and add it to the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  object.</span></span> <span data-ttu-id="b42c2-104"><b>Add</b> 方法允许您指定的名称和类型的新属性。</span><span class="sxs-lookup"><span data-stu-id="b42c2-104">The <b>Add</b> method allows you to specify a name and type for the new property.</span></span></para>
+      <para><span data-ttu-id="b42c2-105">
+        <b>注意</b>： 当您创建的自定义属性时，包含项目 （作为属性使用相同的名称） 的文件夹中添加字段。</span><span class="sxs-lookup"><span data-stu-id="b42c2-105">
+        <b>Note</b>: When you create a custom property, a field is added in the folder that contains the item (using the same name as the property).</span></span> <span data-ttu-id="b42c2-106">该字段可作为文件夹视图中的一个列。</span><span class="sxs-lookup"><span data-stu-id="b42c2-106">That field can be used as a column in folder views.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -75,16 +50,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-103">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="124b7-104">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="b42c2-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="b42c2-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b42c2-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,16 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="124b7-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="b42c2-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="b42c2-110">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b42c2-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -147,12 +104,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-107">从集合中删除一个对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-107">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-111">从集合中删除一个对象。</span><span class="sxs-lookup"><span data-stu-id="b42c2-111">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,16 +134,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-108">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的用户属性的公式。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-108">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the formula for the user property.</span>
-          </span>
-          <span data-ttu-id="124b7-109">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-109">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-112">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的用户属性的公式。</span><span class="sxs-lookup"><span data-stu-id="b42c2-112">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the formula for the user property.</span></span> <span data-ttu-id="b42c2-113">读/写。</span><span class="sxs-lookup"><span data-stu-id="b42c2-113">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -222,12 +165,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-110">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-110">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-114">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="b42c2-114">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -255,16 +193,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-111">返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-111">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="124b7-112">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-115">返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span><span class="sxs-lookup"><span data-stu-id="b42c2-115">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="b42c2-116">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b42c2-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -292,12 +221,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-p105">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-p107">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="b42c2-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -325,42 +249,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-115">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-115">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="124b7-116">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-119">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="b42c2-119">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="b42c2-120">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b42c2-120">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="124b7-117">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="b42c2-121"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="b42c2-121">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="b42c2-122">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="b42c2-122">Both members serve the same purpose.</span></span> <span data-ttu-id="b42c2-123">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="b42c2-123">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-117">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -386,16 +284,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-118">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />常量，指示指定的对象的类型。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-118">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the specified object.</span>
-          </span>
-          <span data-ttu-id="124b7-119">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-124">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />常量，指示指定的对象的类型。</span><span class="sxs-lookup"><span data-stu-id="b42c2-124">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the specified object.</span></span> <span data-ttu-id="b42c2-125">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b42c2-125">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -426,29 +315,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-120">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示用户属性的验证公式。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-120">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the validation formula for the user property.</span>
-          </span>
-          <span data-ttu-id="124b7-121">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-121">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-126">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示用户属性的验证公式。</span><span class="sxs-lookup"><span data-stu-id="b42c2-126">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the validation formula for the user property.</span></span> <span data-ttu-id="b42c2-127">读/写。</span><span class="sxs-lookup"><span data-stu-id="b42c2-127">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="124b7-122">
-            <para>Outlook 使用验证公式来验证<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性保存项目时。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-122">
-              <para>The validation formula is used by Outlook to validate the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property when an item is saved.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b42c2-128">Outlook 使用验证公式来验证<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性保存项目时。</span><span class="sxs-lookup"><span data-stu-id="b42c2-128">The validation formula is used by Outlook to validate the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property when an item is saved.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ValidationText">
@@ -477,29 +347,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-123">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 指定指定的用户属性的验证文本。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-123">Returns or sets a <b>String</b> (<b>string</b> in C#) specifying the validation text for the specified user property.</span>
-          </span>
-          <span data-ttu-id="124b7-124">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-124">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-129">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 指定指定的用户属性的验证文本。</span><span class="sxs-lookup"><span data-stu-id="b42c2-129">Returns or sets a <b>String</b> (<b>string</b> in C#) specifying the validation text for the specified user property.</span></span> <span data-ttu-id="b42c2-130">读/写。</span><span class="sxs-lookup"><span data-stu-id="b42c2-130">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="124b7-125">
-            <para>验证文本是用户收到时的错误消息<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />不符合中指定的条件<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-125">
-              <para>The validation text is the error message that a user receives when the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> does not meet the criteria specified in <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b42c2-131">验证文本是用户收到时的错误消息<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />不符合中指定的条件<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />。</span><span class="sxs-lookup"><span data-stu-id="b42c2-131">The validation text is the error message that a user receives when the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> does not meet the criteria specified in <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -528,31 +379,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="124b7-126">返回或设置指定的自定义属性的值，该值指示一个<b>对象</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-126">Returns or sets an <b>Object</b> indicating the value for the specified custom property.</span>
-          </span>
-          <span data-ttu-id="124b7-127">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-127">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b42c2-132">返回或设置指定的自定义属性的值，该值指示一个<b>对象</b>。</span><span class="sxs-lookup"><span data-stu-id="b42c2-132">Returns or sets an <b>Object</b> indicating the value for the specified custom property.</span></span> <span data-ttu-id="b42c2-133">读/写。</span><span class="sxs-lookup"><span data-stu-id="b42c2-133">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="124b7-128">
-            <para>设置第一次属性创建的<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法，使用<b>Value</b>属性，而不是<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />或<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</para>
-            <para>有关详细信息访问属性在 Outlook 中，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87861">属性概述</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="124b7-128">
-              <para>To set for the first time a property created by the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method, use the <b>Value</b> property instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</para>
-              <para>For more information on accessing properties in Outlook, see <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Properties Overview</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b42c2-134">若要创建的属性设置为第一次<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法，使用<b>Value</b>属性，而不是<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />或<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</span><span class="sxs-lookup"><span data-stu-id="b42c2-134">To set for the first time a property created by the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method, use the <b>Value</b> property instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span></para>
+          <para><span data-ttu-id="b42c2-135">访问 Outlook 中的属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87861">属性概述</a></span><span class="sxs-lookup"><span data-stu-id="b42c2-135">For more information on accessing properties in Outlook, see <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Properties Overview</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

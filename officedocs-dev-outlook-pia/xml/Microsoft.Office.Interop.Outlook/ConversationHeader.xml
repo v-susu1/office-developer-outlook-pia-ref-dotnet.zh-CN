@@ -1,13 +1,5 @@
 <Type Name="ConversationHeader" FullName="Microsoft.Office.Interop.Outlook.ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f240db48bde1c2db353f938b5173be3971c038f7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633251" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6baf4e2eb6ab932ae64172f4ef76ba4e203b7dff" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900841" /></Metadata><TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConversationHeader implements class Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface ConversationHeader&#xA;Implements _ConversationHeader" />
@@ -30,52 +22,23 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="724fd-101">代表"会话"视图中的 Microsoft Outlook 会话标头。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="724fd-101">Represents a Microsoft Outlook conversation header in a Conversation view.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="724fd-102">
-        <para>在 Outlook 中，对话组共享相同的主题和属于同一线程的消息。对话还可以包括分支，如时获取一条消息，两个或多个响应的数目和讨论从每个响应的增长独立。对话视图关联跨文件夹和存储区的同一对话中的所有项目。对话标头可以是项目或中如下格式之一的组标头：</para>
-        <list type="bullet">
-          <item>
-            <para>包含单个项目的主题中的项目。</para>
-          </item>
-          <item>
-            <para>组标头的会话的包含多个项。</para>
-          </item>
-          <item>
-            <para>包含单个线程的会话中的第一项。</para>
-          </item>
-          <item>
-            <para>拆分对话中的第一项。</para>
-          </item>
-        </list>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="724fd-102">
-          <para>In Outlook, a conversation groups messages that share the same subject and belong to the same thread. A conversation can also include branches, such as when a message gets two or more responses and discussions grow independently from each response. The Conversation view relates all items in the same conversation across folders and stores. A conversation header can be an item or a group header in one of the following forms:</para>
-          <list type="bullet">
-            <item>
-              <para>An item in a thread that contains only a single item.</para>
-            </item>
-            <item>
-              <para>A group header for a conversation that contains multiple items.</para>
-            </item>
-            <item>
-              <para>The first item in a conversation that contains a single thread.</para>
-            </item>
-            <item>
-              <para>The first item in a split conversation.</para>
-            </item>
-          </list>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="7e3e2-101">代表"会话"视图中的 Microsoft Outlook 会话标头。</span><span class="sxs-lookup"><span data-stu-id="7e3e2-101">Represents a Microsoft Outlook conversation header in a Conversation view.</span></span></summary>
+    <remarks><para><span data-ttu-id="7e3e2-p101">在 Outlook 中，会话组共享相同的主题，并且属于同一线程的消息。对话还可以包括分支，例如获取一条消息，当两个或多个响应和讨论单独地增大从每个响应。 会话视图在文件夹和存储相关同一对话中的所有项目。 对话标题可以是一个或多个组页眉以下形式之一︰</span><span class="sxs-lookup"><span data-stu-id="7e3e2-p101">In Outlook, a conversation groups messages that share the same subject and belong to the same thread. A conversation can also include branches, such as when a message gets two or more responses and discussions grow independently from each response. The Conversation view relates all items in the same conversation across folders and stores. A conversation header can be an item or a group header in one of the following forms:</span></span></para>
+      <list type="bullet">
+        <item>
+          <para><span data-ttu-id="7e3e2-106">仅包含单个项目的线程中的项目。</span><span class="sxs-lookup"><span data-stu-id="7e3e2-106">An item in a thread that contains only a single item.</span></span></para>
+        </item>
+        <item>
+          <para><span data-ttu-id="7e3e2-107">包含多个项目的会话的组标头。</span><span class="sxs-lookup"><span data-stu-id="7e3e2-107">A group header for a conversation that contains multiple items.</span></span></para>
+        </item>
+        <item>
+          <para><span data-ttu-id="7e3e2-108">包含单个线程的会话中的第一个项目。</span><span class="sxs-lookup"><span data-stu-id="7e3e2-108">The first item in a conversation that contains a single thread.</span></span></para>
+        </item>
+        <item>
+          <para><span data-ttu-id="7e3e2-109">分割会话中的第一个项目。</span><span class="sxs-lookup"><span data-stu-id="7e3e2-109">The first item in a split conversation.</span></span></para>
+        </item>
+      </list>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

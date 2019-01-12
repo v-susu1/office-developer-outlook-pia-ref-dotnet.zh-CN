@@ -1,13 +1,5 @@
 <Type Name="_NavigationFolder" FullName="Microsoft.Office.Interop.Outlook._NavigationFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="47e7c5b285c6b771f04b5e51a758b7299228e1d8" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633015" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationFolder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="47e7c5b285c6b771f04b5e51a758b7299228e1d8" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897995" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationFolder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationFolder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationFolder" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="2871d-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2871d-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="2871d-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2871d-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="2871d-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2871d-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="2871d-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2871d-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="ecce7-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="ecce7-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="ecce7-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="ecce7-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="ecce7-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="ecce7-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="ecce7-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />。</span><span class="sxs-lookup"><span data-stu-id="ecce7-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="2871d-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="ecce7-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="ecce7-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="ecce7-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,29 +73,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="2871d-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="ecce7-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="ecce7-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="ecce7-108">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2871d-109">
-            <para>此属性返回的<b>olNavigationFolder</b><see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-109">
-              <para>This property returns <b>olNavigationFolder</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="ecce7-109">此属性返回的<b>olNavigationFolder</b> <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象。</span><span class="sxs-lookup"><span data-stu-id="ecce7-109">This property returns <b>olNavigationFolder</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -155,29 +102,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-110">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-110">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object.</span>
-          </span>
-          <span data-ttu-id="2871d-111">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-110">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的显示名称<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象。</span><span class="sxs-lookup"><span data-stu-id="ecce7-110">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object.</span></span> <span data-ttu-id="ecce7-111">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="ecce7-111">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2871d-112">
-            <para>使用<b>NavigationFolder.DisplayName</b>，而不是<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Name" />，以获取共享文件夹的名称。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-112">
-              <para>Use <b>NavigationFolder.DisplayName</b>, instead of <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Name" />, to get the name of a shared folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="ecce7-112">使用<b>NavigationFolder.DisplayName</b>，而不是<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Name" />，以获取共享文件夹的名称。</span><span class="sxs-lookup"><span data-stu-id="ecce7-112">Use <b>NavigationFolder.DisplayName</b>, instead of <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Name" />, to get the name of a shared folder.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folder">
@@ -203,16 +131,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，它代表与导航文件夹关联的共享或链接文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-113">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the shared or linked folder associated with the navigation folder.</span>
-          </span>
-          <span data-ttu-id="2871d-114">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，它代表与导航文件夹关联的共享或链接文件夹。</span><span class="sxs-lookup"><span data-stu-id="ecce7-113">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the shared or linked folder associated with the navigation folder.</span></span> <span data-ttu-id="ecce7-114">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="ecce7-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,29 +159,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-115">返回一个<b>布尔</b>值 (C# 中<b>bool</b> )，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />可以从导航窗格中删除对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-115">Returns a <b>Boolean</b> value (<b>bool</b> in C#) that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object can be removed from the Navigation Pane.</span>
-          </span>
-          <span data-ttu-id="2871d-116">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-115">返回一个<b>布尔</b>值 (C# 中<b>bool</b> )，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />可以从导航窗格中删除对象。</span><span class="sxs-lookup"><span data-stu-id="ecce7-115">Returns a <b>Boolean</b> value (<b>bool</b> in C#) that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object can be removed from the Navigation Pane.</span></span> <span data-ttu-id="ecce7-116">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="ecce7-116">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2871d-117">
-            <para>可以从导航窗格中以编程方式删除仅共享或链接的文件夹。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-117">
-              <para>Only shared or linked folders can be programmatically removed from the Navigation Pane.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="ecce7-117">只能以编程方式从导航窗格中删除共享或链接文件夹。</span><span class="sxs-lookup"><span data-stu-id="ecce7-117">Only shared or linked folders can be programmatically removed from the Navigation Pane.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSelected">
@@ -291,33 +191,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-118">返回或设置<b>Boolean</b>变量 (C# 中<b>bool</b> )，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />显示选定对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-118">Returns or sets a <b>Boolean</b> variable (<b>bool</b> in C#) that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object is selected for display.</span>
-          </span>
-          <span data-ttu-id="2871d-119">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-119">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-118">返回或设置<b>Boolean</b>变量 (C# 中<b>bool</b> )，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />显示选定对象。</span><span class="sxs-lookup"><span data-stu-id="ecce7-118">Returns or sets a <b>Boolean</b> variable (<b>bool</b> in C#) that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object is selected for display.</span></span> <span data-ttu-id="ecce7-119">读/写。</span><span class="sxs-lookup"><span data-stu-id="ecce7-119">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2871d-120">
-            <para>日历导航模块中包含的导航文件夹的处理方式不同比其他导航模块中的导航文件夹。</para>如果活动浏览器使用天/周/月或天/周/月视图与自动预览视图来显示日历导航模块中的导航文件夹
-          <para>，如果此属性返回<b>True</b>的导航文件夹签入导航窗格 （和是因此以-并行或重叠模式显示在活动资源管理器。)此属性设置为<b>False</b>不会显示在活动资源管理器删除日历。如果此属性多个 30 个导航文件夹设置为<b>True</b> ，则将出错。</para>如果活动浏览器使用另一个视图，如的所有约会视图中，以显示日历导航模块中的导航文件夹或在导航模块之外的日历导航模块中，如果此属性返回 True 的
-          <para>导航选择文件夹并将其当前显示在活动资源管理器;否则，该属性返回 False。</para><para>在任一情况下，如果出现错误，父级中的所有<b>NavigationFolder</b>对象的此属性的值设置为<b>False</b><see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合，或如果<b>NavigationFolder</b>对象包含其他导航模块与导航模块当前显示的导航窗格中。</para><para><see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" />如果此属性的值更改为日历导航模块，而不考虑当前视图中的一个<b>NavigationFolder</b>对象引发事件的<b>NavigationFolders</b>集合的父级。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-120">
-              <para>Navigation folders contained in a Calendar navigation module are treated differently than navigation folders in other navigation modules.</para>
-              <para>If the active explorer uses the Day/Week/Month or Day/Week/Month View  with AutoPreview view to display navigation folders in the Calendar navigation module, this property returns <b>True</b> if the navigation folder is checked in the Navigation Pane (and is therefore displayed either in side-by-side or overlay mode in the active explorer.) Setting this property to <b>False</b> removes a calendar from display in the active explorer. An error occurs if this property is set to <b>True</b> for more than 30 navigation folders.</para>
-              <para>If the active explorer uses another view, such as the All Appointments view, to display navigation folders in the Calendar navigation module, or in navigation modules other than the Calendar navigation module, this property returns True if the navigation folder is selected and currently displayed in the active explorer; otherwise, the property returns False. </para>
-              <para>In either case, an error occurs if the value of this property is set to <b>False</b> for all <b>NavigationFolder</b> objects in the parent <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection, or if the <b>NavigationFolder</b> object is contained by a navigation module other than the navigation module currently displayed in the Navigation Pane.</para>
-              <para>The <see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" /> event for the parent <b>NavigationFolders</b> collection is raised if the value of this property is changed for a <b>NavigationFolder</b> object in a Calendar navigation module, regardless of the current view. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="ecce7-120">"日历"导航模块中包含的导航文件夹的处理与其他导航模块中的导航文件夹不同。</span><span class="sxs-lookup"><span data-stu-id="ecce7-120">Navigation folders contained in a Calendar navigation module are treated differently than navigation folders in other navigation modules.</span></span></para>
+          <para><span data-ttu-id="ecce7-121">如果活动浏览器使用天/周/月或天/周/月视图与自动预览视图来显示日历导航模块中的导航文件夹，此属性返回<b>True</b> ，如果导航文件夹签入导航窗格 （并且因此以-并行或重叠模式中显示活动资源管理器。）此属性设置为<b>False</b>不会显示在活动资源管理器删除日历。</span><span class="sxs-lookup"><span data-stu-id="ecce7-121">If the active explorer uses the Day/Week/Month or Day/Week/Month View  with AutoPreview view to display navigation folders in the Calendar navigation module, this property returns <b>True</b> if the navigation folder is checked in the Navigation Pane (and is therefore displayed either in side-by-side or overlay mode in the active explorer.) Setting this property to <b>False</b> removes a calendar from display in the active explorer.</span></span> <span data-ttu-id="ecce7-122">如果此属性多个 30 个导航文件夹设置为<b>True</b> ，将发生错误。</span><span class="sxs-lookup"><span data-stu-id="ecce7-122">An error occurs if this property is set to <b>True</b> for more than 30 navigation folders.</span></span></para>
+          <para><span data-ttu-id="ecce7-p109">如果活动资源管理器使用另一个视图（例如 "所有约会"视图）来显示 "日历"导航模块中的导航文件夹，或除 "日历"导航模块之外的其他导航模块中的导航文件夹，并且该导航文件夹已被选中并显示在活动资源管理器中，则此属性返回 "True"；否则此属性返回 "False"。</span><span class="sxs-lookup"><span data-stu-id="ecce7-p109">If the active explorer uses another view, such as the All Appointments view, to display navigation folders in the Calendar navigation module, or in navigation modules other than the Calendar navigation module, this property returns True if the navigation folder is selected and currently displayed in the active explorer; otherwise, the property returns False. </span></span></para>
+          <para><span data-ttu-id="ecce7-124">在任一情况下，如果出现错误，父级中的所有<b>NavigationFolder</b>对象的此属性的值设置为<b>False</b> <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />集合，或如果以外的其他导航模块包含的<b>NavigationFolder</b>对象在导航窗格中当前显示的导航模块。</span><span class="sxs-lookup"><span data-stu-id="ecce7-124">In either case, an error occurs if the value of this property is set to <b>False</b> for all <b>NavigationFolder</b> objects in the parent <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection, or if the <b>NavigationFolder</b> object is contained by a navigation module other than the navigation module currently displayed in the Navigation Pane.</span></span></para>
+          <para><span data-ttu-id="ecce7-125"><see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" />如果此属性的值更改为日历导航模块，而不考虑当前视图中的一个<b>NavigationFolder</b>对象引发事件的<b>NavigationFolders</b>集合的父级。</span><span class="sxs-lookup"><span data-stu-id="ecce7-125">The <see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" /> event for the parent <b>NavigationFolders</b> collection is raised if the value of this property is changed for a <b>NavigationFolder</b> object in a Calendar navigation module, regardless of the current view.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSideBySide">
@@ -346,35 +227,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-121">返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> )，指示是否<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />以-并行或重叠模式显示对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-121">Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object is displayed in side-by-side or overlay mode.</span>
-          </span>
-          <span data-ttu-id="2871d-122">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-122">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-126">返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> )，指示是否<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />以-并行或重叠模式显示对象。</span><span class="sxs-lookup"><span data-stu-id="ecce7-126">Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object is displayed in side-by-side or overlay mode.</span></span> <span data-ttu-id="ecce7-127">读/写。</span><span class="sxs-lookup"><span data-stu-id="ecce7-127">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2871d-123">
-            <para>此属性设置为<b>True</b>以-并排模式; 显示<b>NavigationFolder</b>否则，重叠模式用于在活动资源管理器的当前视图中显示的导航文件夹。此属性的默认值为<b>True</b>。</para>
-            <para>设置该属性具有不与日历模块相关联的<b>NavigationFolder</b>对象没有影响。此属性的值是否与日历模块关联的<b>NavigationFolder</b>对象，它依赖于在以下条件：</para>
-            <para>如果<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /><b>NavigationFolder</b>对象的属性设置为<b>False</b>，则此直到<b>IsSelected</b>属性设置为<b>True</b>，则属性值无效。如果<b>IsSelected</b>属性设置为<b>True</b>，则该属性值时显示<b>NavigationFolder</b>应用。</para>
-            <para>但是， <b>IsSideBySide</b>属性自动设置为<b>True</b>如果只有一个<b>NavigationFolder</b>的<b>IsSelected</b>属性与父项关联<see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" />对象设置为<b>True</b>。换句话说，如果<b>NavigationFolder</b>对象是仅在活动资源管理器的当前视图中显示的导航文件夹，然后一个<b>NavigationFolder</b>对象的<b>IsSideBySide</b>属性自动设置为<b>则返回 true</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-123">
-              <para>Setting this property to <b>True</b> displays the <b>NavigationFolder</b> in side-by-side mode; otherwise, overlay mode is used to display the navigation folder in the current view of the active explorer. The default value for this property is <b>True</b>.</para>
-              <para>Setting this property has no effect for a <b>NavigationFolder</b> object that is not associated with a Calendar module. If the <b>NavigationFolder</b> object is associated with a Calendar module, the value of this property is dependent on the following conditions:</para>
-              <para>If the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> property of the <b>NavigationFolder</b> object is set to <b>False</b>, then this property value has no effect until the <b>IsSelected</b> property is set to <b>True</b>. If the <b>IsSelected</b> property is set to <b>True</b>, then the property value is applied when the <b>NavigationFolder</b> is displayed.</para>
-              <para>However, the <b>IsSideBySide</b> property is automatically set to <b>True</b> if the <b>IsSelected</b> property for only one <b>NavigationFolder</b> associated with the parent <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> object is set to <b>True</b>. In other words, if the <b>NavigationFolder</b> object is the only navigation folder displayed in the current view of the active explorer, then the <b>IsSideBySide</b> property for that one <b>NavigationFolder</b> object is automatically set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="ecce7-p112">将此属性设置为 <b>True</b> 以通过并行模式; 显示 <b>NavigationFolder</b> 否则，重叠模式用于在活动资源管理器中的当前视图中显示的导航文件夹。此属性的默认值为 <b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="ecce7-p112">Setting this property to <b>True</b> displays the <b>NavigationFolder</b> in side-by-side mode; otherwise, overlay mode is used to display the navigation folder in the current view of the active explorer. The default value for this property is <b>True</b>.</span></span></para>
+          <para><span data-ttu-id="ecce7-p113">设置此属性不起作用不是与 <b>日历</b>模块关联的 NavigationFolder 对象。如果与 <b>日历</b>模块相关联的 NavigationFolder 对象，此属性的值将取决于以下条件:</span><span class="sxs-lookup"><span data-stu-id="ecce7-p113">Setting this property has no effect for a <b>NavigationFolder</b> object that is not associated with a Calendar module. If the <b>NavigationFolder</b> object is associated with a Calendar module, the value of this property is dependent on the following conditions:</span></span></para>
+          <para><span data-ttu-id="ecce7-132">如果<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" />的<b>NavigationFolder</b>对象的属性设置为<b>False</b>，则此属性值不起作用之前<b>IsSelected</b>属性设置为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="ecce7-132">If the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> property of the <b>NavigationFolder</b> object is set to <b>False</b>, then this property value has no effect until the <b>IsSelected</b> property is set to <b>True</b>.</span></span> <span data-ttu-id="ecce7-133">如果 <b>IsSelected</b> 属性设置为 <b>True</b> ，则在显示 <b>NavigationFolder</b> 时属性值被应用。</span><span class="sxs-lookup"><span data-stu-id="ecce7-133">If the <b>IsSelected</b> property is set to <b>True</b>, then the property value is applied when the <b>NavigationFolder</b> is displayed.</span></span></para>
+          <para><span data-ttu-id="ecce7-134">但是， <b>IsSideBySide</b>属性自动设置为<b>True</b>如果只有一个<b>NavigationFolder</b>的<b>IsSelected</b>属性与父项关联<see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" />对象设置为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="ecce7-134">However, the <b>IsSideBySide</b> property is automatically set to <b>True</b> if the <b>IsSelected</b> property for only one <b>NavigationFolder</b> associated with the parent <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> object is set to <b>True</b>.</span></span> <span data-ttu-id="ecce7-135">换句话说， <b>NavigationFolder</b> 对象是否仅显示在活动资源管理器中的当前视图中的导航文件夹，然后一个 <b>NavigationFolder</b> 对象的 <b>IsSideBySide</b> 属性自动设置为 <b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="ecce7-135">In other words, if the <b>NavigationFolder</b> object is the only navigation folder displayed in the current view of the active explorer, then the <b>IsSideBySide</b> property for that one <b>NavigationFolder</b> object is automatically set to <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -400,12 +259,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-p109">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-p109">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-p116">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="ecce7-p116">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -436,49 +290,20 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-126">返回或设置一个<b>整数</b>值，表示的序号位置<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象在导航窗格中显示时。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-126">Returns or sets an <b>Integer</b> value that represents the ordinal position of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object when displayed in the Navigation Pane.</span>
-          </span>
-          <span data-ttu-id="2871d-127">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-127">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-138">返回或设置一个<b>整数</b>值，表示的序号位置<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />对象在导航窗格中显示时。</span><span class="sxs-lookup"><span data-stu-id="ecce7-138">Returns or sets an <b>Integer</b> value that represents the ordinal position of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> object when displayed in the Navigation Pane.</span></span> <span data-ttu-id="ecce7-139">读/写。</span><span class="sxs-lookup"><span data-stu-id="ecce7-139">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2871d-128">
-            <para>此属性仅可设置为介于 1 和值<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Count" />属性父<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />对象。如果您尝试将此属性设置为超出该范围的值，则将出错。</para>
-            <para>更改此属性的值的一个<b>NavigationFolder</b>对象更改包含的<b>NavigationFolders</b>集合，具体取决于新值之间的相对更改其他导航文件夹<b>位置</b>值和<b>Position</b>属性<b>NavigationFolder</b>对象的原始值： </para>
-            <list type="bullet">
-              <item>
-                <para>如果新值小于原始值，然后指定的<b>NavigationFolder</b>对象移到新位置，并将推送其他已经在或向下的新位置下方的导航文件夹。</para>
-              </item>
-              <item>
-                <para>新值大于原始值，然后指定的<b>NavigationFolder</b>对象下移到新位置，并将其他导航文件夹推送旧的位置之间 up 的新位置，如果填充旧的位置。</para>
-              </item>
-            </list>
-            <para>如果已从导航窗格中，删除了导航文件夹，则此属性返回-1，以指示导航文件夹不再是导航组的一部分。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-128">
-              <para>This property can only be set to a value between 1 and the value of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Count" /> property for the parent <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> object. An error occurs if you attempt to set this property to a value outside that range.</para>
-              <para>Changing the value of this property for a <b>NavigationFolder</b> object changes the <b>Position</b> values of other navigation folders contained by a <b>NavigationFolders</b> collection, depending on the relative change between the new value and the original value of the <b>Position</b> property for that <b>NavigationFolder</b> object: </para>
-              <list type="bullet">
-                <item>
-                  <para>If the new value is less than the original value, then the specified <b>NavigationFolder</b> object moves up to the new position and pushes the other navigation folders already at or below that new position down.</para>
-                </item>
-                <item>
-                  <para>If the new value is greater than the original value,  then the specified <b>NavigationFolder</b> object moves down to the new position and pushes the other navigation folders between the old position and the new position up, filling the old position.</para>
-                </item>
-              </list>
-              <para>If the navigation folder has been removed from the Navigation Pane, then this property returns -1 to indicate that the navigation folder is no longer part of the navigation group.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="ecce7-140">此属性仅可设置为介于 1 和值<see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Count" />属性父<see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" />对象。</span><span class="sxs-lookup"><span data-stu-id="ecce7-140">This property can only be set to a value between 1 and the value of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Count" /> property for the parent <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> object.</span></span> <span data-ttu-id="ecce7-141">如果您尝试将此属性设置为该范围以外的值，则会出现错误。</span><span class="sxs-lookup"><span data-stu-id="ecce7-141">An error occurs if you attempt to set this property to a value outside that range.</span></span></para>
+          <para><span data-ttu-id="ecce7-142">更改其他 <b>NavigationFolders</b> 集合，具体取决于该 <b>NavigationFolder</b> 对象的 <b>位置</b> 属性的原始值的新值之间相对变化所包含的导航文件夹的 <b>位置</b> 值 <b>NavigationFolder</b> 对象更改此属性的值:</span><span class="sxs-lookup"><span data-stu-id="ecce7-142">Changing the value of this property for a <b>NavigationFolder</b> object changes the <b>Position</b> values of other navigation folders contained by a <b>NavigationFolders</b> collection, depending on the relative change between the new value and the original value of the <b>Position</b> property for that <b>NavigationFolder</b> object:</span></span> </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="ecce7-143">如果新值小于原始值，指定的 <b>NavigationFolder</b> 对象将上移到新位置，并将其他导航文件夹已位于或低于该新位置下。</span><span class="sxs-lookup"><span data-stu-id="ecce7-143">If the new value is less than the original value, then the specified <b>NavigationFolder</b> object moves up to the new position and pushes the other navigation folders already at or below that new position down.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="ecce7-144">如果新值大于的原始值，指定的<b>NavigationFolder</b>对象下移到新位置，并将旧位置和新位置之间的其他导航文件夹，以填充旧的位置。</span><span class="sxs-lookup"><span data-stu-id="ecce7-144">If the new value is greater than the original value,  then the specified <b>NavigationFolder</b> object moves down to the new position and pushes the other navigation folders between the old position and the new position up, filling the old position.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="ecce7-145">如果已经从导航窗格中删除了导航文件夹，则此属性返回 -1，以表示该导航文件夹不再是导航组的一部分。</span><span class="sxs-lookup"><span data-stu-id="ecce7-145">If the navigation folder has been removed from the Navigation Pane, then this property returns -1 to indicate that the navigation folder is no longer part of the navigation group.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -504,42 +329,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2871d-129">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-129">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="2871d-130">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-130">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ecce7-146">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="ecce7-146">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="ecce7-147">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="ecce7-147">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2871d-131">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="ecce7-148"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="ecce7-148">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="ecce7-149">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="ecce7-149">Both members serve the same purpose.</span></span> <span data-ttu-id="ecce7-150">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="ecce7-150">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2871d-131">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

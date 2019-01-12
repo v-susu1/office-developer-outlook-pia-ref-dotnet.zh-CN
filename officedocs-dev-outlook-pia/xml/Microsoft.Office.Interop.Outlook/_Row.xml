@@ -1,13 +1,5 @@
 <Type Name="_Row" FullName="Microsoft.Office.Interop.Outlook._Row">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a3c7defd97d97fe5c78387a6bea20000c185f175" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633054" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Row" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a3c7defd97d97fe5c78387a6bea20000c185f175" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899997" /></Metadata><TypeSignature Language="C#" Value="public interface _Row" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Row" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Row" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Row" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="98622-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="98622-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="98622-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="98622-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="98622-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="98622-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="98622-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Row" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="98622-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Row" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="fd80a-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="fd80a-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="fd80a-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="fd80a-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="fd80a-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="fd80a-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="fd80a-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Row" />。</span><span class="sxs-lookup"><span data-stu-id="fd80a-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Row" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="98622-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object.</span>
-          </span>
-          <span data-ttu-id="98622-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fd80a-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父应用程序 (Outlook)<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。</span><span class="sxs-lookup"><span data-stu-id="fd80a-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object.</span></span> <span data-ttu-id="fd80a-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="fd80a-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,40 +73,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="98622-107">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<b>列</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-107">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <b>Column</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="98622-108">获取一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示值已转换的二进制值从父<see cref="T:Microsoft.Office.Interop.Outlook.Row" />在指定的列<paramref name="Index" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-108">Obtains a <b>String</b> (<b>string</b> in C#) representing a value that has been converted from a binary value for the parent <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> at the column specified by <paramref name="Index" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="98622-109">已转换的 PT_BINARY 值位于指定的列的父<b>Row</b>的十六进制<b>字符串</b>（C# 中的<b>字符串</b>） 值<paramref name="Index" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-109">A hexadecimal <b>String</b> (<b>string</b> in C#) value that has been converted from a PT_BINARY value for the parent <b>Row</b> at the column specified by <paramref name="Index" />.</span>
-          </span>
-          <span data-ttu-id="98622-110">返回错误"无法转换为字符串索引指定的列"如果指定的值<paramref name="Index" />不是 PT_BINARY。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-110">Returns the error, "Cannot convert the column specified by Index to String" if the value specified by <paramref name="Index" /> is not PT_BINARY.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="98622-111">
-            <para>使用 helper 函数<b>Row.BinaryToString</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />的特定行的列值进行类型转换。有关详细信息中的属性值表示<see cref="T:Microsoft.Office.Interop.Outlook.Table" />，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-111">
-              <para>Use the helper functions <b>Row.BinaryToString</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> to facilitate type conversion of column values at a specific row. For more information on property value representation in a <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="fd80a-107">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<b>列</b>。</span><span class="sxs-lookup"><span data-stu-id="fd80a-107">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <b>Column</b>.</span></span></param>
+        <summary><span data-ttu-id="fd80a-108">获取一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示值已转换的二进制值从父<see cref="T:Microsoft.Office.Interop.Outlook.Row" />在指定的列<paramref name="Index" />。</span><span class="sxs-lookup"><span data-stu-id="fd80a-108">Obtains a <b>String</b> (<b>string</b> in C#) representing a value that has been converted from a binary value for the parent <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> at the column specified by <paramref name="Index" />.</span></span></summary>
+        <returns><span data-ttu-id="fd80a-109">已转换的 PT_BINARY 值位于指定的列的父<b>Row</b>的十六进制<b>字符串</b>（C# 中的<b>字符串</b>） 值<paramref name="Index" />。</span><span class="sxs-lookup"><span data-stu-id="fd80a-109">A hexadecimal <b>String</b> (<b>string</b> in C#) value that has been converted from a PT_BINARY value for the parent <b>Row</b> at the column specified by <paramref name="Index" />.</span></span> <span data-ttu-id="fd80a-110">返回错误"无法转换为字符串索引指定的列"如果指定的值<paramref name="Index" />不是 PT_BINARY。</span><span class="sxs-lookup"><span data-stu-id="fd80a-110">Returns the error, "Cannot convert the column specified by Index to String" if the value specified by <paramref name="Index" /> is not PT_BINARY.</span></span></returns>
+        <remarks><para><span data-ttu-id="fd80a-111">使用 helper 函数<b>Row.BinaryToString</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />的特定行的列值进行类型转换。</span><span class="sxs-lookup"><span data-stu-id="fd80a-111">Use the helper functions <b>Row.BinaryToString</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> to facilitate type conversion of column values at a specific row.</span></span> <span data-ttu-id="fd80a-112">有关详细信息中的属性值表示<see cref="T:Microsoft.Office.Interop.Outlook.Table" />，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a></span><span class="sxs-lookup"><span data-stu-id="fd80a-112">For more information on property value representation in a <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -166,16 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="98622-112">返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-112">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object.</span>
-          </span>
-          <span data-ttu-id="98622-113">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fd80a-113">返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />指示的类枚举<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。</span><span class="sxs-lookup"><span data-stu-id="fd80a-113">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object.</span></span> <span data-ttu-id="fd80a-114">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="fd80a-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -201,36 +129,14 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="98622-114">获取一个一维数组，包含在所有列的值<see cref="T:Microsoft.Office.Interop.Outlook.Row" />，父级中<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-114">Obtains a one-dimensional array containing the values for all columns at the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> in the parent <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="98622-115">一个<b>对象</b>，表示在<b>表</b>中的<b>行</b>的所有列的值的数组。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-115">An <b>Object</b> that represents an array of values for all the columns at that <b>Row</b> in the <b>Table</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="98622-116">
-            <para>
-              <b>GetValues</b>是一种帮助程序方法，从而便于提取一次调用中的<b>行</b>中的所有列值。</para>
-            <para>由于数组是从零开始的因此数组的长度为值减 1 的<b>行</b>中的列数。</para>
-            <para>数组中返回的值为父<b>Table</b>中的值类型相同。这意味着，以字节数组返回<b>表</b>中的二进制属性。对于日期时间属性，如果<see cref="T:Microsoft.Office.Interop.Outlook.Column" />是默认列或如果已添加使用显式内置属性名称，则其值<b>表</b>中和数组中表示本地时间。如果<b>列</b>已添加到使用的命名空间引用的<b>表</b>，其值表中和数组中都表示以协调世界时 (UTC)。通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-116">
-              <para>
-                <b>GetValues</b> is a helper method that facilitates fetching all the column values in the <b>Row</b> in a single call.</para>
-              <para>Since the array is zero-based, the length of the array is the number of columns in the <b>Row</b> minus one.</para>
-              <para>Values returned in the array are of the same type as the values in the parent <b>Table</b>. This means that binary properties in the <b>Table</b> are returned as arrays of bytes. For date-time properties, if  a <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> is a default column or if it has been added using an explicit built-in property name, then its value in the <b>Table</b> and in the array are expressed in local time. If the <b>Column</b> has been added to the <b>Table</b> using a namespace reference, then its value in the Table and in the array are expressed in Coordinated Universal  Time (UTC). For more information on referencing properties by namespace, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="fd80a-115">获取一个一维数组，包含在所有列的值<see cref="T:Microsoft.Office.Interop.Outlook.Row" />，父级中<see cref="T:Microsoft.Office.Interop.Outlook.Table" />。</span><span class="sxs-lookup"><span data-stu-id="fd80a-115">Obtains a one-dimensional array containing the values for all columns at the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> in the parent <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span></span></summary>
+        <returns><span data-ttu-id="fd80a-116">一个<b>对象</b>，表示在<b>表</b>中的<b>行</b>的所有列的值的数组。</span><span class="sxs-lookup"><span data-stu-id="fd80a-116">An <b>Object</b> that represents an array of values for all the columns at that <b>Row</b> in the <b>Table</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="fd80a-117">
+            <b>GetValues</b> 是一个 helper 方法，便于提取单个调用中的 <b>行</b> 中所有列的值。</span><span class="sxs-lookup"><span data-stu-id="fd80a-117">
+            <b>GetValues</b> is a helper method that facilitates fetching all the column values in the <b>Row</b> in a single call.</span></span></para>
+          <para><span data-ttu-id="fd80a-118">由于数组是从零开始，数组的长度是减 1 的 <b>行</b> 中的列数。</span><span class="sxs-lookup"><span data-stu-id="fd80a-118">Since the array is zero-based, the length of the array is the number of columns in the <b>Row</b> minus one.</span></span></para>
+          <para><span data-ttu-id="fd80a-119">返回数组中的值是类型的与父 <b>表</b> 中的值相同。</span><span class="sxs-lookup"><span data-stu-id="fd80a-119">Values returned in the array are of the same type as the values in the parent <b>Table</b>.</span></span> <span data-ttu-id="fd80a-120">这意味着 <b>表</b> 中的二进制属性将返回以字节数组。</span><span class="sxs-lookup"><span data-stu-id="fd80a-120">This means that binary properties in the <b>Table</b> are returned as arrays of bytes.</span></span> <span data-ttu-id="fd80a-121">对于日期时间属性，如果<see cref="T:Microsoft.Office.Interop.Outlook.Column" />是默认列或如果已添加使用显式内置属性名称，则其值<b>表</b>中和数组中表示本地时间。</span><span class="sxs-lookup"><span data-stu-id="fd80a-121">For date-time properties, if  a <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> is a default column or if it has been added using an explicit built-in property name, then its value in the <b>Table</b> and in the array are expressed in local time.</span></span> <span data-ttu-id="fd80a-122">如果<b>列</b>已添加到使用的命名空间引用的<b>表</b>，其值表中和数组中都表示以协调世界时 (UTC)。</span><span class="sxs-lookup"><span data-stu-id="fd80a-122">If the <b>Column</b> has been added to the <b>Table</b> using a namespace reference, then its value in the Table and in the array are expressed in Coordinated Universal  Time (UTC).</span></span> <span data-ttu-id="fd80a-123">通过命名空间引用属性的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87860">通过 Namespace 引用属性</a></span><span class="sxs-lookup"><span data-stu-id="fd80a-123">For more information on referencing properties by namespace, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -259,36 +165,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="98622-117">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-117">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="98622-118">获取一个<b>对象</b>，表示的值为<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象指定的列<paramref name="Index" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-118">Obtains an <b>Object</b> that represents the value for the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object at the column specified by <paramref name="Index" />.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="98622-119">一个代表属性的值的<b>对象</b>(由指定<paramref name="Index" />) 的一个项目 （作为指定的父<b>Row</b>）。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-119">An <b>Object</b> that represents the value of a property (as specified by <paramref name="Index" />) of an item (as specified by the parent <b>Row</b>).</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="98622-120">
-            <para>如果<b>列</b>已添加到<see cref="T:Microsoft.Office.Interop.Outlook.Table" />使用引用命名空间的属性名称，您必须通过相同的命名空间引用引用的<b>Row.Item</b>属性 (<b>此</b>C# 中) 中的<b>列</b>。如果您在<b>Row.Item</b>中使用的显式内置名称引用，您将收到错误。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-120">
-              <para>If a <b>Column</b> has been added to a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> using a property name referencing a namespace, you must reference the <b>Column</b> in the <b>Row.Item</b> property (<b>this</b> in C#) by the same namespace reference. If you use an explicit built-in name reference in <b>Row.Item</b>, you will get an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="fd80a-124">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。</span><span class="sxs-lookup"><span data-stu-id="fd80a-124">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</span></span></param>
+        <summary><span data-ttu-id="fd80a-125">获取一个<b>对象</b>，表示的值为<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象指定的列<paramref name="Index" />。</span><span class="sxs-lookup"><span data-stu-id="fd80a-125">Obtains an <b>Object</b> that represents the value for the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object at the column specified by <paramref name="Index" />.</span></span></summary>
+        <value><span data-ttu-id="fd80a-126">一个代表属性的值的<b>对象</b>(由指定<paramref name="Index" />) 的一个项目 （作为指定的父<b>Row</b>）。</span><span class="sxs-lookup"><span data-stu-id="fd80a-126">An <b>Object</b> that represents the value of a property (as specified by <paramref name="Index" />) of an item (as specified by the parent <b>Row</b>).</span></span></value>
+        <remarks><para><span data-ttu-id="fd80a-127">如果<b>列</b>已添加到<see cref="T:Microsoft.Office.Interop.Outlook.Table" />使用引用命名空间的属性名称，您必须通过相同的命名空间引用引用的<b>Row.Item</b>属性 (<b>此</b>C# 中) 中的<b>列</b>。</span><span class="sxs-lookup"><span data-stu-id="fd80a-127">If a <b>Column</b> has been added to a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> using a property name referencing a namespace, you must reference the <b>Column</b> in the <b>Row.Item</b> property (<b>this</b> in C#) by the same namespace reference.</span></span> <span data-ttu-id="fd80a-128">如果在 <b>Row.Item</b> 中使用显式内置名称引用，则会发生错误。</span><span class="sxs-lookup"><span data-stu-id="fd80a-128">If you use an explicit built-in name reference in <b>Row.Item</b>, you will get an error.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LocalTimeToUTC">
@@ -314,42 +195,12 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="98622-121">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-121">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="98622-122">获取中的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.Table" />由指定<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象在<paramref name="Index" />的具有已从本地时间转换为协调世界时 (UTC)。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-122">Obtains a <b>DateTime</b> value in a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> specified by the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object at <paramref name="Index" />, that has been converted from local time to Coordinated Universal Time (UTC).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="98622-123">一个 Date值，已从用本地时间表示形式转换为 UTC。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-123">A Date value that has been converted from a representation in local time to UTC.</span>
-          </span>
-          <span data-ttu-id="98622-124">如果将返回错误<paramref name="Index" />无效或行值由<paramref name="Index" />不是日期值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-124">An error is returned if <paramref name="Index" /> is invalid or the row value indicated by <paramref name="Index" /> is not a Date value.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="98622-125">
-            <para>使用 helper 函数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />， <b>Row.LocalTimeToUTC</b>和<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />的特定行的列值进行类型转换。</para>
-            <para>有关在<b>表</b>中，属性值表示方式的信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a><b>表</b>筛选器，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87929">使用日期-时间比较筛选项目</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-125">
-              <para>Use the helper functions <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <b>Row.LocalTimeToUTC</b>, and <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> to facilitate type conversion of column values at a specific row.</para>
-              <para>For information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a><b>Table</b> filters, see <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtering Items Using a Date-time Comparison</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="fd80a-129">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。</span><span class="sxs-lookup"><span data-stu-id="fd80a-129">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</span></span></param>
+        <summary><span data-ttu-id="fd80a-130">获取中的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.Table" />由指定<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象在<paramref name="Index" />的具有已从本地时间转换为协调世界时 (UTC)。</span><span class="sxs-lookup"><span data-stu-id="fd80a-130">Obtains a <b>DateTime</b> value in a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> specified by the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object at <paramref name="Index" />, that has been converted from local time to Coordinated Universal Time (UTC).</span></span></summary>
+        <returns><span data-ttu-id="fd80a-131">一个 Date值，已从用本地时间表示形式转换为 UTC。</span><span class="sxs-lookup"><span data-stu-id="fd80a-131">A Date value that has been converted from a representation in local time to UTC.</span></span> <span data-ttu-id="fd80a-132">如果将返回错误<paramref name="Index" />无效或行值由<paramref name="Index" />不是日期值。</span><span class="sxs-lookup"><span data-stu-id="fd80a-132">An error is returned if <paramref name="Index" /> is invalid or the row value indicated by <paramref name="Index" /> is not a Date value.</span></span></returns>
+        <remarks><para><span data-ttu-id="fd80a-133">使用 helper 函数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />， <b>Row.LocalTimeToUTC</b>和<see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />的特定行的列值进行类型转换。</span><span class="sxs-lookup"><span data-stu-id="fd80a-133">Use the helper functions <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <b>Row.LocalTimeToUTC</b>, and <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> to facilitate type conversion of column values at a specific row.</span></span></para>
+          <para><span data-ttu-id="fd80a-134">上<b>表</b>中的属性值表示方式的信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a><b>表</b>筛选器，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87929">使用日期-时间比较筛选项目</a></span><span class="sxs-lookup"><span data-stu-id="fd80a-134">For information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a><b>Table</b> filters, see <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtering Items Using a Date-time Comparison</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -375,16 +226,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="98622-126">返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-126">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object.</span>
-          </span>
-          <span data-ttu-id="98622-127">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-127">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fd80a-135">返回对象的父<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象。</span><span class="sxs-lookup"><span data-stu-id="fd80a-135">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object.</span></span> <span data-ttu-id="fd80a-136">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="fd80a-136">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -412,42 +254,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="98622-128">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-128">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="98622-129">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-129">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fd80a-137">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="fd80a-137">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="fd80a-138">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="fd80a-138">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="98622-130">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="fd80a-139"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="fd80a-139">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="fd80a-140">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="fd80a-140">Both members serve the same purpose.</span></span> <span data-ttu-id="fd80a-141">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="fd80a-141">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-130">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UTCToLocalTime">
@@ -473,42 +289,12 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="98622-131">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-131">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="98622-132">获取中的 DateTime 值<see cref="T:Microsoft.Office.Interop.Outlook.Table" />指定<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象在<paramref name="Index" />的具有已为本地时间转换从协调世界时 (UTC)。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-132">Obtains a DateTime value in a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> specified by the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object at <paramref name="Index" />, that has been converted from Coordinated Universal Time (UTC) to local time.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="98622-133">已从 utc 格式的表示形式转换为本地时间的 Date 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-133">A Date value that has been converted from a representation in  UTC to local time.</span>
-          </span>
-          <span data-ttu-id="98622-134">如果将返回错误<paramref name="Index" />无效或行值由<paramref name="Index" />不是日期值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-134">An error is returned if <paramref name="Index" /> is invalid or the row value indicated by <paramref name="Index" /> is not a Date value.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="98622-135">
-            <para>使用 helper 函数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />，和<b>row.utctolocaltime 有助于</b>对特定行的列值的类型转换。</para>
-            <para>上<b>表</b>中的属性值表示方式的信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a><b>表</b>筛选器，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87929">使用日期-时间比较筛选项目</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="98622-135">
-              <para>Use the helper functions <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, and <b>Row.UTCToLocalTime</b> to facilitate type conversion of column values at a specific row. </para>
-              <para>For information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a><b>Table</b> filters, see <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtering Items Using a Date-time Comparison</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="fd80a-142">一个从 1 开始的索引值，可以是一个用来表示的列索引的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合或一个<b>字符串</b>（C# 中的<b>字符串</b>），表示<see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />的<see cref="T:Microsoft.Office.Interop.Outlook.Column" />。</span><span class="sxs-lookup"><span data-stu-id="fd80a-142">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</span></span></param>
+        <summary><span data-ttu-id="fd80a-143">获取中的 DateTime 值<see cref="T:Microsoft.Office.Interop.Outlook.Table" />指定<see cref="T:Microsoft.Office.Interop.Outlook.Row" />对象在<paramref name="Index" />的具有已为本地时间转换从协调世界时 (UTC)。</span><span class="sxs-lookup"><span data-stu-id="fd80a-143">Obtains a DateTime value in a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> specified by the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object at <paramref name="Index" />, that has been converted from Coordinated Universal Time (UTC) to local time.</span></span></summary>
+        <returns><span data-ttu-id="fd80a-144">已从 utc 格式的表示形式转换为本地时间的 Date 值。</span><span class="sxs-lookup"><span data-stu-id="fd80a-144">A Date value that has been converted from a representation in  UTC to local time.</span></span> <span data-ttu-id="fd80a-145">如果将返回错误<paramref name="Index" />无效或行值由<paramref name="Index" />不是日期值。</span><span class="sxs-lookup"><span data-stu-id="fd80a-145">An error is returned if <paramref name="Index" /> is invalid or the row value indicated by <paramref name="Index" /> is not a Date value.</span></span></returns>
+        <remarks><para><span data-ttu-id="fd80a-146">使用 helper 函数<see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />，和<b>row.utctolocaltime 有助于</b>对特定行的列值的类型转换。</span><span class="sxs-lookup"><span data-stu-id="fd80a-146">Use the helper functions <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, and <b>Row.UTCToLocalTime</b> to facilitate type conversion of column values at a specific row.</span></span> </para>
+          <para><span data-ttu-id="fd80a-147">上<b>表</b>中的属性值表示方式的信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87858">因素影响属性值表示方式中的表和视图类</a><b>表</b>筛选器，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87929">使用日期-时间比较筛选项目</a></span><span class="sxs-lookup"><span data-stu-id="fd80a-147">For information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a><b>Table</b> filters, see <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtering Items Using a Date-time Comparison</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OutlookBarShortcut" FullName="Microsoft.Office.Interop.Outlook.OutlookBarShortcut">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5a65f22e3eaa69e1ad0b770928f78d702f831c4a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632871" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarShortcut" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c4b5b620ecfa5e6e93db716a5fcba064777cf64a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896931" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarShortcut" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarShortcut" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarShortcut" />
@@ -26,24 +18,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="7d2f2-101">代表“快捷方式”窗格中一个组中的快捷方式。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7d2f2-101">Represents a shortcut in a group in the Shortcuts pane.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="7d2f2-102">
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索<b>OutlookBarShortcut</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />对象。因为<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" />属性为<b>OutlookBarShortcut</b>对象的默认属性，您可以通过名称识别快捷方式。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7d2f2-102">
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" />  property (<b>this</b> in C#) to retrieve the <b>OutlookBarShortcut</b> object from an <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />  object. Because the <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" />  property is the default property of the <b>OutlookBarShortcut</b> object, you can identify the shortcut by name.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="e6f78-101">代表“快捷方式”窗格中一个组中的快捷方式。</span><span class="sxs-lookup"><span data-stu-id="e6f78-101">Represents a shortcut in a group in the Shortcuts pane.</span></span></summary>
+    <remarks><para><span data-ttu-id="e6f78-102">使用<see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" />属性 (中的<b>此</b>C#) 检索<b>OutlookBarShortcut</b>对象从<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />对象。</span><span class="sxs-lookup"><span data-stu-id="e6f78-102">Use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" />  property (<b>this</b> in C#) to retrieve the <b>OutlookBarShortcut</b> object from an <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />  object.</span></span> <span data-ttu-id="e6f78-103">因为<see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" />属性为<b>OutlookBarShortcut</b>对象的默认属性，您可以通过名称识别快捷方式。</span><span class="sxs-lookup"><span data-stu-id="e6f78-103">Because the <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" />  property is the default property of the <b>OutlookBarShortcut</b> object, you can identify the shortcut by name.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -69,16 +46,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7d2f2-103">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="7d2f2-104">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6f78-104">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="e6f78-104">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="e6f78-105">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="e6f78-105">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -106,16 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7d2f2-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="7d2f2-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6f78-106">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="e6f78-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="e6f78-107">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="e6f78-107">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,16 +105,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7d2f2-107">返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-107">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="7d2f2-108">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-108">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6f78-108">返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span><span class="sxs-lookup"><span data-stu-id="e6f78-108">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="e6f78-109">读/写。</span><span class="sxs-lookup"><span data-stu-id="e6f78-109">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -183,12 +133,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7d2f2-p104">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6f78-p105">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="e6f78-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -216,42 +161,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7d2f2-111">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-111">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="7d2f2-112">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6f78-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="e6f78-112">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="e6f78-113">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="e6f78-113">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7d2f2-113">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="e6f78-114"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="e6f78-114">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="e6f78-115">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="e6f78-115">Both members serve the same purpose.</span></span> <span data-ttu-id="e6f78-116">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="e6f78-116">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-113">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetIcon">
@@ -277,18 +196,8 @@
         <Parameter Name="Icon" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Icon">
-          <span data-ttu-id="7d2f2-114">图标的路径。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-114">The path of the icon.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="7d2f2-115">为快捷方式窗格上的指定快捷方式设置图标。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-115">Sets the icon for the specified shortcut on the Shortcuts pane.</span>
-          </span>
-        </summary>
+        <param name="Icon"><span data-ttu-id="e6f78-117">图标的路径。</span><span class="sxs-lookup"><span data-stu-id="e6f78-117">The path of the icon.</span></span></param>
+        <summary><span data-ttu-id="e6f78-118">为快捷方式窗格上的指定快捷方式设置图标。</span><span class="sxs-lookup"><span data-stu-id="e6f78-118">Sets the icon for the specified shortcut on the Shortcuts pane.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -315,29 +224,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7d2f2-116">返回一个<b>对象</b>，指示快捷方式窗格组中的指定快捷方式的目标。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-116">Returns an <b>Object</b> indicating the target of the specified shortcut in a Shortcuts pane group.</span>
-          </span>
-          <span data-ttu-id="7d2f2-117">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6f78-119">返回一个<b>对象</b>，指示快捷方式窗格组中的指定快捷方式的目标。</span><span class="sxs-lookup"><span data-stu-id="e6f78-119">Returns an <b>Object</b> indicating the target of the specified shortcut in a Shortcuts pane group.</span></span> <span data-ttu-id="e6f78-120">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="e6f78-120">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7d2f2-118">
-            <para>返回类型取决于快捷方式的类型。如果该快捷方式代表 Outlook 文件夹，返回的类型是<b>文件夹</b>。如果快捷方式表示文件系统文件夹，则返回的类型为<b>对象</b>。如果该快捷方式表示的文件系统路径或 URL，返回的类型为<b>字符串</b>（C# 中的<b>字符串</b>）。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7d2f2-118">
-              <para>The return type depends on the shortcut type. If the shortcut represents an Outlook folder, the return type is <b>Folder</b>. If the shortcut represents a file-system folder, the return type is an <b>Object</b>. If the shortcut represents a file-system path or URL, the return type is a <b>String</b> (<b>string</b> in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e6f78-121">返回的类型依赖于快捷方式的类型。</span><span class="sxs-lookup"><span data-stu-id="e6f78-121">The return type depends on the shortcut type.</span></span> <span data-ttu-id="e6f78-122">如果该快捷方式表示 Outlook 文件夹，则返回的类型是 <b>文件夹</b> 。</span><span class="sxs-lookup"><span data-stu-id="e6f78-122">If the shortcut represents an Outlook folder, the return type is <b>Folder</b>.</span></span> <span data-ttu-id="e6f78-123">如果该快捷方式代表文件系统文件夹，则返回类型为 <b>对象</b> 。</span><span class="sxs-lookup"><span data-stu-id="e6f78-123">If the shortcut represents a file-system folder, the return type is an <b>Object</b>.</span></span> <span data-ttu-id="e6f78-124">如果该快捷方式表示的文件系统路径或 URL，返回的类型为<b>字符串</b>（C# 中的<b>字符串</b>）。</span><span class="sxs-lookup"><span data-stu-id="e6f78-124">If the shortcut represents a file-system path or URL, the return type is a <b>String</b> (<b>string</b> in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

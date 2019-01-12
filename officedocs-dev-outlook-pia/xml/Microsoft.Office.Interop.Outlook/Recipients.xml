@@ -1,13 +1,5 @@
 <Type Name="Recipients" FullName="Microsoft.Office.Interop.Outlook.Recipients">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a1f866bf331ae092d59a1e210e16a01c82d526ca" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633253" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Recipients : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c27dd2e543e6657e2eb0bd16529ca6be9ff7a8d6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900319" /></Metadata><TypeSignature Language="C#" Value="public interface Recipients : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Recipients implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Recipients" />
   <TypeSignature Language="VB.NET" Value="Public Interface Recipients&#xA;Implements IEnumerable" />
@@ -30,28 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="fcdbb-101">包含一<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />为某个 Outlook 项目对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fcdbb-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  objects for an Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="fcdbb-102">
-        <para>使用<b>Recipients</b>属性可返回的<b>Recipients</b>对象<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />，或<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />对象。</para>
-        <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />方法可创建一个新的<b>Recipient</b>对象，并将其添加到的<b>Recipients</b>对象。<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />的一个新的<b>Recipient</b>对象的属性设置为相关联的<b>AppointmentItem</b>、 <b>JournalItem</b>、 <b>MailItem</b>或<b>TaskItem</b>对象的默认值，并且必须重置以指示另一个收件人类型。</para>
-        <para>使用<b>收件人</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个<b>收件人</b>对象。名称可以是一个字符串，表示的显示名称、 别名或完整的 SMTP 电子邮件地址的收件人。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fcdbb-102">
-          <para>Use the <b>Recipients</b>  property to return the <b>Recipients</b> object of an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />,  or <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />  object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />  method to create a new <b>Recipient</b> object and add it to the <b>Recipients</b> object. The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />  property of a new <b>Recipient</b> object is set to the default for the associated <b>AppointmentItem</b>, <b>JournalItem</b>, <b>MailItem</b>, or <b>TaskItem</b> object and must be reset to indicate another recipient type.</para>
-          <para>Use <b>Recipients</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number, to return a single <b>Recipient</b> object. The name can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="d8c8d-101">包含一<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />为某个 Outlook 项目对象。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  objects for an Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="d8c8d-102">使用<b>Recipients</b>属性可返回的<b>Recipients</b>对象<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />，或<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-102">Use the <b>Recipients</b>  property to return the <b>Recipients</b> object of an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />,  or <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />  object.</span></span></para>
+      <para><span data-ttu-id="d8c8d-103">使用<see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />方法可创建一个新的<b>Recipient</b>对象，并将其添加到的<b>Recipients</b>对象。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-103">Use the <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />  method to create a new <b>Recipient</b> object and add it to the <b>Recipients</b> object.</span></span> <span data-ttu-id="d8c8d-104"><see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />的一个新的<b>Recipient</b>对象的属性设置为相关联的<b>AppointmentItem</b>、 <b>JournalItem</b>、 <b>MailItem</b>或<b>TaskItem</b>对象的默认值，并且必须重置以指示另一种收件人类型。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-104">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />  property of a new <b>Recipient</b> object is set to the default for the associated <b>AppointmentItem</b>, <b>JournalItem</b>, <b>MailItem</b>, or <b>TaskItem</b> object and must be reset to indicate another recipient type.</span></span></para>
+      <para><span data-ttu-id="d8c8d-105">使用<b>收件人</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个<b>收件人</b>对象。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-105">Use <b>Recipients</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number, to return a single <b>Recipient</b> object.</span></span> <span data-ttu-id="d8c8d-106">名称可以是收件人的一个字符串，表示显示名称、 别名或完整的 SMTP 电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-106">The name can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -77,24 +52,9 @@
         <Parameter Name="Name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="fcdbb-103">收件人的姓名；可以是代表收件人的显示名称、别名或完整 SMTP 电子邮件地址的字符串。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-103">The  name of the recipient; it can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="fcdbb-104">创建一个新收件人在<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-104">Creates a new recipient in the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="fcdbb-105">A<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象，它代表新收件人。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-105">A <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that represents  the new recipient.</span>
-          </span>
-        </returns>
+        <param name="Name"><span data-ttu-id="d8c8d-107">收件人的姓名；可以是代表收件人的显示名称、别名或完整 SMTP 电子邮件地址的字符串。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-107">The  name of the recipient; it can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span></span></param>
+        <summary><span data-ttu-id="d8c8d-108">创建一个新收件人在<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-108">Creates a new recipient in the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="d8c8d-109">A<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象，它代表新收件人。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-109">A <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that represents  the new recipient.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,16 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcdbb-106">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="fcdbb-107">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-107">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d8c8d-110">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="d8c8d-111">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,16 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcdbb-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="fcdbb-109">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d8c8d-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="d8c8d-113">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -195,16 +137,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcdbb-110">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-110">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="fcdbb-111">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d8c8d-114">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="d8c8d-115">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-115">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -235,25 +168,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="fcdbb-112">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-112">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="fcdbb-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-113">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="fcdbb-114">
-            <b>收件人</b> 对象，该对象代表指定的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-114">A <b>Recipient</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="d8c8d-116">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-116">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="d8c8d-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象的集合。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-117">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="d8c8d-118"><b>收件人</b> 对象，该对象代表指定的对象。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-118">A <b>Recipient</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -280,12 +197,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcdbb-p104">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d8c8d-p106">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -313,18 +225,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="fcdbb-117">对象在集合中的索引值，索引从 1 开始编号。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-117">The 1-based index value of the object within the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="fcdbb-118">从集合中删除对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-118">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="d8c8d-121">对象在集合中的索引值，索引从 1 开始编号。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-121">The 1-based index value of the object within the collection.</span></span></param>
+        <summary><span data-ttu-id="d8c8d-122">从集合中删除对象。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-122">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -349,20 +251,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="fcdbb-119">尝试解析所有<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象的<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />参照通讯簿的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-119">Attempts to resolve all the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  objects in the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  collection against the Address Book.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="fcdbb-120">
-            <b>真正</b> 解决的所有对象时， <b>假</b> 如果一个或多个不。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-120">
-              <b>True</b> if all of the objects were resolved, <b>False</b> if one or more were not.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="d8c8d-123">尝试解析所有<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象的<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />参照通讯簿的集合。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-123">Attempts to resolve all the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  objects in the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  collection against the Address Book.</span></span></summary>
+        <returns><span data-ttu-id="d8c8d-124"><b>真正</b> 解决的所有对象时， <b>假</b> 如果一个或多个不。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-124"><b>True</b> if all of the objects were resolved, <b>False</b> if one or more were not.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -389,42 +279,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcdbb-121">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-121">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="fcdbb-122">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d8c8d-125">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-125">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="d8c8d-126">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-126">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="fcdbb-123">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="d8c8d-127"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-127">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="d8c8d-128">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="d8c8d-128">Both members serve the same purpose.</span></span> <span data-ttu-id="d8c8d-129">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="d8c8d-129">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcdbb-123">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlMeetingStatus" FullName="Microsoft.Office.Interop.Outlook.OlMeetingStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="38c172422a2a78e82e775f6f508dd95ec441a6fe" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632632" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlMeetingStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="678440d918ea4b78e7b2b3bccdb01671089dee2d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900849" /></Metadata><TypeSignature Language="C#" Value="public enum OlMeetingStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlMeetingStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlMeetingStatus" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="d6848-101">指示会议的状态。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d6848-101">Indicates the status of the meeting.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d6848-102">
-        <para>请参阅<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" />属性。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d6848-102">
-          <para>See <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> property.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="ad5a3-101">指示会议的状态。</span><span class="sxs-lookup"><span data-stu-id="ad5a3-101">Indicates the status of the meeting.</span></span></summary>
+    <remarks><para><span data-ttu-id="ad5a3-102">请参阅<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" />属性。</span><span class="sxs-lookup"><span data-stu-id="ad5a3-102">See <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> property.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olMeeting">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d6848-103">会议已安排。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6848-103">The meeting has been scheduled.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ad5a3-103">会议已安排。</span><span class="sxs-lookup"><span data-stu-id="ad5a3-103">The meeting has been scheduled.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMeetingCanceled">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d6848-104">安排的会议已取消。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6848-104">The scheduled meeting has been cancelled.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ad5a3-104">安排的会议已取消。</span><span class="sxs-lookup"><span data-stu-id="ad5a3-104">The scheduled meeting has been cancelled.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMeetingReceived">
@@ -104,12 +71,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d6848-105">会议要求已收到。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6848-105">The meeting request has been received.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ad5a3-105">会议要求已收到。</span><span class="sxs-lookup"><span data-stu-id="ad5a3-105">The meeting request has been received.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMeetingReceivedAndCanceled">
@@ -128,12 +90,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d6848-106">安排的会议虽已取消但仍显示在用户的日历上。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6848-106">The scheduled meeting has been cancelled but still appears on the user's calendar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ad5a3-106">安排的会议虽已取消但仍显示在用户的日历上。</span><span class="sxs-lookup"><span data-stu-id="ad5a3-106">The scheduled meeting has been cancelled but still appears on the user's calendar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olNonMeeting">
@@ -152,12 +109,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d6848-p101">安排了没有与会者的约会项目。这个状态可用来在日历上设置假日。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6848-p101">An Appointment item without attendees has been scheduled.  This status can be used to set up holidays on a calendar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ad5a3-p101">安排了没有与会者的约会项目。这个状态可用来在日历上设置假日。</span><span class="sxs-lookup"><span data-stu-id="ad5a3-p101">An Appointment item without attendees has been scheduled.  This status can be used to set up holidays on a calendar.</span></span></summary>
       </Docs>
     </Member>
   </Members>

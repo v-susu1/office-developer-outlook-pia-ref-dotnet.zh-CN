@@ -1,13 +1,5 @@
 <Type Name="_UserDefinedProperties" FullName="Microsoft.Office.Interop.Outlook._UserDefinedProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="24b5b183d8ab727f45fd9782281e0902068419cd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631581" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _UserDefinedProperties : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="24b5b183d8ab727f45fd9782281e0902068419cd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900071" /></Metadata><TypeSignature Language="C#" Value="public interface _UserDefinedProperties : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _UserDefinedProperties implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._UserDefinedProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface _UserDefinedProperties&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="767dd-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="767dd-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="767dd-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="767dd-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="767dd-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="767dd-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="767dd-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="767dd-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="e3b10-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="e3b10-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="e3b10-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="e3b10-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="e3b10-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="e3b10-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="e3b10-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />。</span><span class="sxs-lookup"><span data-stu-id="e3b10-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -76,67 +51,14 @@
         <Parameter Name="Formula" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="767dd-105">新的用户定义属性的名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-105">The name of the new user-defined property.</span>
-          </span>
-        </param>
-        <param name="Type">
-          <span data-ttu-id="767dd-106">新的用户定义属性的类型。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-106">The type of the new user-defined property.</span>
-          </span>
-        </param>
-        <param name="DisplayFormat">
-          <span data-ttu-id="767dd-107">新的用户定义属性的显示格式。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-107">The display format of the new user-defined property.</span>
-          </span>
-          <span data-ttu-id="767dd-108">此参数可以从几个不同的枚举，由中指定的属性类型之一设置为一个值<paramref name="Type" />参数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-108">This parameter can be set to a value from one of several different enumerations, determined by the property type specified in the <paramref name="Type" /> parameter.</span>
-          </span>
-          <span data-ttu-id="767dd-109">有关详细信息操作<paramref name="Type" />和<paramref name="DisplayFormat" />交互，请参阅<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-109">For more information on how <paramref name="Type" /> and <paramref name="DisplayFormat" /> interact, see <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />.</span>
-          </span>
-        </param>
-        <param name="Formula">
-          <span data-ttu-id="767dd-110">用于计算新的用户定义属性的值的公式。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-110">The formula used to calculate values for the new user-defined property.</span>
-          </span>
-          <span data-ttu-id="767dd-111">如果此参数，则忽略<paramref name="Type" />参数设置为非<b>olCombination</b>或<b>olFormula</b>任何值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-111">This parameter is ignored if the <paramref name="Type" /> parameter is set to any value other than <b>olCombination</b> or <b>olFormula</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="767dd-112">创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />对象并将其追加到集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-112">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> object and appends it to the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="767dd-113">
-            <b>UserDefinedProperty</b> 对象，该对象表示新的用户定义属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-113">A <b>UserDefinedProperty</b> object that represents the new user-defined property.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="767dd-114">
-            <para>您可以创建由定义类型的属性<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />枚举，除以下类型： <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />， <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />，和<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-114">
-              <para>You can create a property of a type that is defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> enumeration, except for the following types: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, and <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Name"><span data-ttu-id="e3b10-105">新的用户定义属性的名称。</span><span class="sxs-lookup"><span data-stu-id="e3b10-105">The name of the new user-defined property.</span></span></param>
+        <param name="Type"><span data-ttu-id="e3b10-106">新的用户定义属性的类型。</span><span class="sxs-lookup"><span data-stu-id="e3b10-106">The type of the new user-defined property.</span></span></param>
+        <param name="DisplayFormat"><span data-ttu-id="e3b10-107">新的用户定义属性的显示格式。</span><span class="sxs-lookup"><span data-stu-id="e3b10-107">The display format of the new user-defined property.</span></span> <span data-ttu-id="e3b10-108">此参数可以从几个不同的枚举，由中指定的属性类型之一设置为一个值<paramref name="Type" />参数。</span><span class="sxs-lookup"><span data-stu-id="e3b10-108">This parameter can be set to a value from one of several different enumerations, determined by the property type specified in the <paramref name="Type" /> parameter.</span></span> <span data-ttu-id="e3b10-109">有关详细信息操作<paramref name="Type" />和<paramref name="DisplayFormat" />交互，请参阅<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />。</span><span class="sxs-lookup"><span data-stu-id="e3b10-109">For more information on how <paramref name="Type" /> and <paramref name="DisplayFormat" /> interact, see <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />.</span></span></param>
+        <param name="Formula"><span data-ttu-id="e3b10-110">用于计算新的用户定义属性的值的公式。</span><span class="sxs-lookup"><span data-stu-id="e3b10-110">The formula used to calculate values for the new user-defined property.</span></span> <span data-ttu-id="e3b10-111">如果此参数，则忽略<paramref name="Type" />参数设置为非<b>olCombination</b>或<b>olFormula</b>任何值。</span><span class="sxs-lookup"><span data-stu-id="e3b10-111">This parameter is ignored if the <paramref name="Type" /> parameter is set to any value other than <b>olCombination</b> or <b>olFormula</b>.</span></span></param>
+        <summary><span data-ttu-id="e3b10-112">创建一个新<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />对象并将其追加到集合。</span><span class="sxs-lookup"><span data-stu-id="e3b10-112">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> object and appends it to the collection.</span></span></summary>
+        <returns><span data-ttu-id="e3b10-113"><b>UserDefinedProperty</b> 对象，该对象表示新的用户定义属性。</span><span class="sxs-lookup"><span data-stu-id="e3b10-113">A <b>UserDefinedProperty</b> object that represents the new user-defined property.</span></span></returns>
+        <remarks><para><span data-ttu-id="e3b10-114">您可以创建由定义类型的属性<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />枚举，除以下类型： <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />， <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />，和<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</span><span class="sxs-lookup"><span data-stu-id="e3b10-114">You can create a property of a type that is defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> enumeration, except for the following types: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, and <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -162,16 +84,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="767dd-115">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="767dd-116">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e3b10-115">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="e3b10-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="e3b10-116">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="e3b10-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,16 +112,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="767dd-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="767dd-118">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e3b10-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="e3b10-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="e3b10-118">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="e3b10-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,16 +140,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="767dd-119">返回一个<b>整数</b>(C# 中<b>int</b> ) 值，该值指示指定集合中对象的计数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-119">Returns an <b>Integer</b> (<b>int</b> in C#) value that indicates the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="767dd-120">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e3b10-119">返回一个<b>整数</b>(C# 中<b>int</b> ) 值，该值指示指定集合中对象的计数。</span><span class="sxs-lookup"><span data-stu-id="e3b10-119">Returns an <b>Integer</b> (<b>int</b> in C#) value that indicates the count of objects in the specified collection.</span></span> <span data-ttu-id="e3b10-120">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="e3b10-120">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -273,25 +168,9 @@
         <Parameter Name="Name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="767dd-121">
-            <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" />属性值为集合中查找的<b>UserDefinedProperty</b>对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-121">The <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" /> property value of the <b>UserDefinedProperty</b> object to find in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="767dd-122">找到<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />包含在集合中。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-122">Locate a <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> contained in the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="767dd-123">如果成功，则代表位于的对象，一个<b>UserDefinedProperty</b>对象否则为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-123">A <b>UserDefinedProperty</b> object that represents the located object, if successful; otherwise, <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span>
-          </span>
-        </returns>
+        <param name="Name"><span data-ttu-id="e3b10-121"><see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" />属性值为集合中查找的<b>UserDefinedProperty</b>对象。</span><span class="sxs-lookup"><span data-stu-id="e3b10-121">The <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" /> property value of the <b>UserDefinedProperty</b> object to find in the collection.</span></span></param>
+        <summary><span data-ttu-id="e3b10-122">找到<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />包含在集合中。</span><span class="sxs-lookup"><span data-stu-id="e3b10-122">Locate a <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> contained in the collection.</span></span></summary>
+        <returns><span data-ttu-id="e3b10-123">如果成功，则代表位于的对象，一个<b>UserDefinedProperty</b>对象否则为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="e3b10-123">A <b>UserDefinedProperty</b> object that represents the located object, if successful; otherwise, <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -321,24 +200,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="767dd-124">一个<b>整数</b>(C# 中<b>int</b> ) 值，代表集合中对象的从 1 开始的索引号或<b>字符串</b>（C# 中的<b>字符串</b>） 值，它代表<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" />集合中对象的属性值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-124">Either an <b>Integer</b> (<b>int</b> in C#) value that represents the 1-based index number of an object in the collection, or a <b>String</b> (<b>string</b> in C#) value that represents the <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" /> property value of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="767dd-125">从集合中返回一个<b>对象</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-125">Returns an <b>Object</b> from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="767dd-126">A<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />代表指定的对象的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-126">A <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="e3b10-124">一个<b>整数</b>(C# 中<b>int</b> ) 值，代表集合中对象的从 1 开始的索引号或<b>字符串</b>（C# 中的<b>字符串</b>） 值，它代表<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" />集合中对象的属性值。</span><span class="sxs-lookup"><span data-stu-id="e3b10-124">Either an <b>Integer</b> (<b>int</b> in C#) value that represents the 1-based index number of an object in the collection, or a <b>String</b> (<b>string</b> in C#) value that represents the <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Name" /> property value of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="e3b10-125">从集合中返回一个<b>对象</b>。</span><span class="sxs-lookup"><span data-stu-id="e3b10-125">Returns an <b>Object</b> from the collection.</span></span></summary>
+        <value><span data-ttu-id="e3b10-126">A<see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />代表指定的对象的对象。</span><span class="sxs-lookup"><span data-stu-id="e3b10-126">A <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -365,12 +229,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="767dd-p107">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e3b10-p107">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="e3b10-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -396,12 +255,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="767dd-129">刷新存储区中集合的内容，从而检索在远程浏览器中执行的所有更改。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-129">Refreshes the contents of the collection from the store, retrieving any changes performed in remote explorers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e3b10-129">刷新存储区中集合的内容，从而检索在远程浏览器中执行的所有更改。</span><span class="sxs-lookup"><span data-stu-id="e3b10-129">Refreshes the contents of the collection from the store, retrieving any changes performed in remote explorers.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -428,18 +282,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="767dd-130">对象在集合中的索引值，索引从 1 开始编号。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-130">The 1-based index value of the object within the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="767dd-131">从集合中删除对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-131">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="e3b10-130">对象在集合中的索引值，索引从 1 开始编号。</span><span class="sxs-lookup"><span data-stu-id="e3b10-130">The 1-based index value of the object within the collection.</span></span></param>
+        <summary><span data-ttu-id="e3b10-131">从集合中删除对象。</span><span class="sxs-lookup"><span data-stu-id="e3b10-131">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -466,42 +310,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="767dd-132">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-132">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="767dd-133">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-133">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e3b10-132">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="e3b10-132">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="e3b10-133">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="e3b10-133">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="767dd-134">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="e3b10-134"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="e3b10-134">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="e3b10-135">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="e3b10-135">Both members serve the same purpose.</span></span> <span data-ttu-id="e3b10-136">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="e3b10-136">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="767dd-134">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

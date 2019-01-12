@@ -1,13 +1,5 @@
 <Type Name="_Conversation" FullName="Microsoft.Office.Interop.Outlook._Conversation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f5c48eeaf35740be2ed40d2f2a41eb42b099ab3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631710" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Conversation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2f5c48eeaf35740be2ed40d2f2a41eb42b099ab3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902031" /></Metadata><TypeSignature Language="C#" Value="public interface _Conversation" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Conversation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Conversation" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Conversation" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="02919-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="02919-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="02919-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="02919-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="02919-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="02919-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="02919-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="02919-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="6cb50-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="6cb50-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="6cb50-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="6cb50-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="6cb50-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="6cb50-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />。</span><span class="sxs-lookup"><span data-stu-id="6cb50-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="02919-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父 Microsoft Outlook 应用程序的<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Microsoft Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span>
-          </span>
-          <span data-ttu-id="02919-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6cb50-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />对象，表示父 Microsoft Outlook 应用程序的<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Microsoft Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span></span> <span data-ttu-id="6cb50-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="6cb50-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="02919-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class.</span>
-          </span>
-          <span data-ttu-id="02919-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6cb50-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="6cb50-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class.</span></span> <span data-ttu-id="6cb50-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="6cb50-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,34 +100,12 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="02919-109">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示项目的类别中的所属对话的存储应删除。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-109">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store from which categories of items that belong to the conversation should be removed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-110">从会话的所有项目中删除所有类别，并停止始终为会话中的项目指定类别的操作。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-110">Removes all categories from all items in the conversation and stops the action of always assigning categories to items in the conversation.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="02919-111">
-            <para>如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储、 类别删除操作将应用于默认传递存储区中会话项目。</para>
-            <para>后对对话，应用<b>ClearAlwaysAssignCategories</b>方法<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 该对话。清除现有项目的类别，且没有类别已分配给会话中的新项目。</para>
-            <para>如果<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />尚未将方法应用到会话，<b>则 ClearAlwaysAssignCategories</b>不会删除任何类别。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-111">
-              <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the category removal action will apply to items of the conversation in the default delivery store. </para>
-              <para>After you apply the <b>ClearAlwaysAssignCategories</b> method on a conversation, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method will return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for that conversation. Categories on existing items are cleared, and no categories are assigned to new items in the conversation.</para>
-              <para>If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>ClearAlwaysAssignCategories</b> does not remove any categories.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="6cb50-109">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示项目的类别中的所属对话的存储应删除。</span><span class="sxs-lookup"><span data-stu-id="6cb50-109">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store from which categories of items that belong to the conversation should be removed.</span></span></param>
+        <summary><span data-ttu-id="6cb50-110">从会话的所有项目中删除所有类别，并停止始终为会话中的项目指定类别的操作。</span><span class="sxs-lookup"><span data-stu-id="6cb50-110">Removes all categories from all items in the conversation and stops the action of always assigning categories to items in the conversation.</span></span></summary>
+        <remarks><para><span data-ttu-id="6cb50-111">如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储、 类别删除操作将应用于默认传递存储区中会话项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-111">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the category removal action will apply to items of the conversation in the default delivery store.</span></span> </para>
+          <para><span data-ttu-id="6cb50-112">在对话，应用<b>ClearAlwaysAssignCategories</b>方法后<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 该对话。</span><span class="sxs-lookup"><span data-stu-id="6cb50-112">After you apply the <b>ClearAlwaysAssignCategories</b> method on a conversation, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method will return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for that conversation.</span></span> <span data-ttu-id="6cb50-113">对现有项目的类别都被清除，并无类别分配给在此对话中的新项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-113">Categories on existing items are cleared, and no categories are assigned to new items in the conversation.</span></span></para>
+          <para><span data-ttu-id="6cb50-114">如果<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />尚未将方法应用到会话，<b>则 ClearAlwaysAssignCategories</b>不会删除任何类别。</span><span class="sxs-lookup"><span data-stu-id="6cb50-114">If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>ClearAlwaysAssignCategories</b> does not remove any categories.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationID">
@@ -196,31 +131,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="02919-112">返回<see cref="T:System.String" />（C# 中的<b>字符串</b>） 的唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-112">Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span>
-          </span>
-          <span data-ttu-id="02919-113">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6cb50-115">返回<see cref="T:System.String" />（C# 中的<b>字符串</b>） 的唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-115">Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span></span> <span data-ttu-id="6cb50-116">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="6cb50-116">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="02919-114">
-            <para>此属性对应于 MAPI 属性<b>pidtagconversationid 对应</b>。</para>
-            <para>此属性与对话相关联的项目。这些项目和对话其<b>ConversationID</b>属性中具有相同的值。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-114">
-              <para>This property corresponds with the MAPI property <b>PidTagConversationId</b>.</para>
-              <para>This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="6cb50-117">此属性对应的 MAPI 属性 <b>PidTagConversationId</b> 。</span><span class="sxs-lookup"><span data-stu-id="6cb50-117">This property corresponds with the MAPI property <b>PidTagConversationId</b>.</span></span></para>
+          <para><span data-ttu-id="6cb50-p107">此属性将项目与对话相关联。这些项目和对话其 <b>转换 Id</b> 属性中具有相同的值。</span><span class="sxs-lookup"><span data-stu-id="6cb50-p107">This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysAssignCategories">
@@ -245,40 +160,14 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="02919-115">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />应返回代表到的项目的类别的所属对话的存储对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-115">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which categories of items that belong to the conversation should be returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-116">返回<see cref="T:System.String" />（C# 中的<b>字符串</b>），指示或多个已分配给进入对话中的所有新项目的类别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-116">Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that indicates the category or categories that are assigned to all new items that arrive in the conversation.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="02919-117">A <see cref="T:System.String" /> （C# 中的<b>字符串</b>），其中包含已分配给会话中的项目的一个或多个类别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-117">A <see cref="T:System.String" /> (<b>string</b> in C#) that contains one or more categories that are assigned to items in the conversation.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="02919-118">
-            <para>使用此属性返回的类别名称的字符串中的逗号分隔多个类别。若要将类别名称的字符串转换为类别名称的数组，使用 Microsoft Visual Basic<b>拆分</b>函数。</para>
-            <para>如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，该方法返回应用于默认送达存储中的会话项目的类别的字符串。</para>
-            <para>如果<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />尚未将方法应用到会话，<b>则 GetAlwaysAssignCategories</b>将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>要停止始终分配类别的操作，请使用
-          <para><see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法。在调用<b>ClearAlwaysAssignCategories</b>方法后，<b>则 GetAlwaysAssignCategories</b>将返回空字符串。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-118">
-              <para>Multiple categories are delimited by commas in the string of category names that this property returns. To convert the string of category names to an array of category names, use the Microsoft Visual Basic <b>Split</b> function.</para>
-              <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</para>
-              <para>If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>GetAlwaysAssignCategories</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para>To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method. After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="6cb50-120">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />应返回代表到的项目的类别的所属对话的存储对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-120">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which categories of items that belong to the conversation should be returned.</span></span></param>
+        <summary><span data-ttu-id="6cb50-121">返回<see cref="T:System.String" />（C# 中的<b>字符串</b>），指示或多个已分配给进入对话中的所有新项目的类别。</span><span class="sxs-lookup"><span data-stu-id="6cb50-121">Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that indicates the category or categories that are assigned to all new items that arrive in the conversation.</span></span></summary>
+        <returns><span data-ttu-id="6cb50-122">A <see cref="T:System.String" /> （C# 中的<b>字符串</b>），其中包含已分配给会话中的项目的一个或多个类别。</span><span class="sxs-lookup"><span data-stu-id="6cb50-122">A <see cref="T:System.String" /> (<b>string</b> in C#) that contains one or more categories that are assigned to items in the conversation.</span></span></returns>
+        <remarks><para><span data-ttu-id="6cb50-p108">类别名称，则此属性返回的字符串中的逗号分隔的多个类别。 要将类别名称的字符串转换为类别名称数组，使用 Microsoft Visual Basic <b>分割</b> 函数。</span><span class="sxs-lookup"><span data-stu-id="6cb50-p108">Multiple categories are delimited by commas in the string of category names that this property returns. To convert the string of category names to an array of category names, use the Microsoft Visual Basic <b>Split</b> function.</span></span></para>
+          <para><span data-ttu-id="6cb50-125">如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，该方法返回应用于默认送达存储中的会话项目的类别的字符串。</span><span class="sxs-lookup"><span data-stu-id="6cb50-125">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="6cb50-126">如果<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />尚未将方法应用到会话，<b>则 GetAlwaysAssignCategories</b>将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="6cb50-126">If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>GetAlwaysAssignCategories</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para><span data-ttu-id="6cb50-127">若要停止始终分配类别的操作，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法。</span><span class="sxs-lookup"><span data-stu-id="6cb50-127">To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method.</span></span> <span data-ttu-id="6cb50-128">在调用 <b>ClearAlwaysAssignCategories</b> 方法后， <b>GetAlwaysAssignCategories</b> 会返回一个空字符串。</span><span class="sxs-lookup"><span data-stu-id="6cb50-128">After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysDelete">
@@ -303,39 +192,14 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="02919-119">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示保留的对话项目移动到已删除邮件文件夹的存储。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-119">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that holds the Deleted Items folder to which items of the conversation are moved.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-120">返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />枚举，指示加入会话的所有新项目是否总是移动到指定的送达存储中的已删除邮件文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-120">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> enumeration that indicates whether all new items that join the conversation are always moved to the Deleted Items folder in the specified delivery store.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="02919-121">指示对话的所有新项目是否总是移到指定的传送存储区的已删除邮件文件夹<b>OlAlwaysDeleteConversation</b>枚举中的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-121">A constant from the <b>OlAlwaysDeleteConversation</b> enumeration that indicates whether all new items of the conversation are always moved to the Deleted Items folder of the specified delivery store.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="02919-122">
-            <para>如果<paramref name="Store" />参数指定如存档.pst 存储未送达存储区， <b>GetAlwaysDelete</b>方法从<b>OlAlwaysDeleteConversation</b>于默认送达存储中的会话项目返回的常量。未送达存储区上的项不移到已删除邮件文件夹的默认传递存储区。</para>
-            <para>如果<b>GetAlwaysDelete</b>返回<b>olAlwaysDelete</b>，会话项目始终移到已删除邮件文件夹包含的项目的存储。在跨存储对话中，项目移至已删除邮件文件夹包含的项目的存储。当<b>GetAlwaysDelete</b>返回<b>olAlwaysDelete</b>，<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />方法返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示已删除邮件文件夹的默认存储。</para>
-            <para>如果<b>GetAlwaysDelete</b>返回<b>olAlwaysDeleteUnsupported</b>，指定存储区不支持始终将项目移至该存储区的已删除邮件文件夹的操作。</para>如果<b>GetAlwaysDelete</b>返回<b>olDoNotDelete</b><para>，进入对话中的新项目指定的送达存储中，不移到已删除邮件文件夹并将已删除邮件文件夹中的现有对话项目移动到收件箱。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-122">
-              <para>If the <paramref name="Store" /> parameter specifies a non-delivery store such as an archive .pst store, the <b>GetAlwaysDelete</b> method returns a constant from <b>OlAlwaysDeleteConversation</b> that applies to conversation items in the default delivery store. Items on a non-delivery store are not moved to the Deleted Items folder for the default delivery store.</para>
-              <para>If <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, items of the conversation are always moved to the Deleted Items folder for the store that contains the items. In a cross-store conversation, items are moved to the Deleted Items folder for the store that contains the items. When <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the Deleted Items folder for the default store.</para>
-              <para>If <b>GetAlwaysDelete</b> returns <b>olAlwaysDeleteUnsupported</b>, the specified store does not support the action of always moving items to the Deleted Items folder of that store.</para>
-              <para>If <b>GetAlwaysDelete</b> returns <b>olDoNotDelete</b>, new items that arrive in the conversation are not moved to the Deleted Items folder on the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="6cb50-129">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示保留的对话项目移动到已删除邮件文件夹的存储。</span><span class="sxs-lookup"><span data-stu-id="6cb50-129">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that holds the Deleted Items folder to which items of the conversation are moved.</span></span></param>
+        <summary><span data-ttu-id="6cb50-130">返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />枚举，指示加入会话的所有新项目是否总是移动到指定的送达存储中的已删除邮件文件夹。</span><span class="sxs-lookup"><span data-stu-id="6cb50-130">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> enumeration that indicates whether all new items that join the conversation are always moved to the Deleted Items folder in the specified delivery store.</span></span></summary>
+        <returns><span data-ttu-id="6cb50-131">指示对话的所有新项目是否总是移到指定的传送存储区的已删除邮件文件夹<b>OlAlwaysDeleteConversation</b>枚举中的常量。</span><span class="sxs-lookup"><span data-stu-id="6cb50-131">A constant from the <b>OlAlwaysDeleteConversation</b> enumeration that indicates whether all new items of the conversation are always moved to the Deleted Items folder of the specified delivery store.</span></span></returns>
+        <remarks><para><span data-ttu-id="6cb50-132">如果<paramref name="Store" />参数指定如存档.pst 存储未送达存储区， <b>GetAlwaysDelete</b>方法从<b>OlAlwaysDeleteConversation</b>于默认送达存储中的会话项目返回的常量。</span><span class="sxs-lookup"><span data-stu-id="6cb50-132">If the <paramref name="Store" /> parameter specifies a non-delivery store such as an archive .pst store, the <b>GetAlwaysDelete</b> method returns a constant from <b>OlAlwaysDeleteConversation</b> that applies to conversation items in the default delivery store.</span></span> <span data-ttu-id="6cb50-133">对未送达的存储项不移到 已删除邮件文件夹的默认传送存储。</span><span class="sxs-lookup"><span data-stu-id="6cb50-133">Items on a non-delivery store are not moved to the Deleted Items folder for the default delivery store.</span></span></para>
+          <para><span data-ttu-id="6cb50-134">如果 <b>GetAlwaysDelete</b> 返回 <b>olAlwaysDelete</b> ，项目的对话被始终移动到 已删除邮件文件夹存储包含的项。</span><span class="sxs-lookup"><span data-stu-id="6cb50-134">If <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, items of the conversation are always moved to the Deleted Items folder for the store that contains the items.</span></span> <span data-ttu-id="6cb50-135">在跨存储对话中，项目移动到 已删除邮件文件夹用于存储包含的项。</span><span class="sxs-lookup"><span data-stu-id="6cb50-135">In a cross-store conversation, items are moved to the Deleted Items folder for the store that contains the items.</span></span> <span data-ttu-id="6cb50-136">当<b>GetAlwaysDelete</b>返回<b>olAlwaysDelete</b>，<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />方法返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，表示已删除邮件文件夹的默认存储。</span><span class="sxs-lookup"><span data-stu-id="6cb50-136">When <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the Deleted Items folder for the default store.</span></span></para>
+          <para><span data-ttu-id="6cb50-137">如果 <b>GetAlwaysDelete</b> 返回 <b>olAlwaysDeleteUnsupported</b> ，则指定的存储不支持始终将项目移动到该存储的 已删除邮件文件夹的操作。</span><span class="sxs-lookup"><span data-stu-id="6cb50-137">If <b>GetAlwaysDelete</b> returns <b>olAlwaysDeleteUnsupported</b>, the specified store does not support the action of always moving items to the Deleted Items folder of that store.</span></span></para>
+          <para><span data-ttu-id="6cb50-138">如果<b>GetAlwaysDelete</b>返回<b>olDoNotDelete</b>，进入对话中的新项目指定的送达存储中，不移到已删除邮件文件夹，并在已删除邮件文件夹中的现有对话项目移动到收件箱。</span><span class="sxs-lookup"><span data-stu-id="6cb50-138">If <b>GetAlwaysDelete</b> returns <b>olDoNotDelete</b>, new items that arrive in the conversation are not moved to the Deleted Items folder on the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysMoveToFolder">
@@ -360,38 +224,12 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="02919-123">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示项目移至的对话的文件夹所驻留的存储。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-123">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the folder to which conversation items are moved resides.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-124">返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，它指示进入对话中的新项目总是移动到指定的送达存储中的文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-124">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder in the specified delivery store to which new items that arrive in the conversation are always moved.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="02919-125">A<see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />会话中到达的所有新项目总是移动到其指定存储区中的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-125">A <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> object in the specified store to which all new items that arrive in the conversation are always moved.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="02919-126">
-            <para>如果<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，则<b>GetAlwaysMoveToFolder</b>方法返回一个适用于默认送达存储中会话项目的<b>Folder</b>对象。</para>
-            <para>如果尚未指定任何文件夹之外的已删除邮件文件夹中，插入的会话项目始终移，则<b>GetAlwaysMoveToFolder</b>方法返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-126">
-              <para>If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the <b>GetAlwaysMoveToFolder</b> method returns a <b>Folder</b> object that applies to conversation items on the default delivery store.</para>
-              <para>If no folder, other than the Deleted Items folder, has been specified to always move conversation items into, the <b>GetAlwaysMoveToFolder</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="6cb50-139">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示项目移至的对话的文件夹所驻留的存储。</span><span class="sxs-lookup"><span data-stu-id="6cb50-139">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the folder to which conversation items are moved resides.</span></span></param>
+        <summary><span data-ttu-id="6cb50-140">返回<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，它指示进入对话中的新项目总是移动到指定的送达存储中的文件夹。</span><span class="sxs-lookup"><span data-stu-id="6cb50-140">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder in the specified delivery store to which new items that arrive in the conversation are always moved.</span></span></summary>
+        <returns><span data-ttu-id="6cb50-141">A<see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />会话中到达的所有新项目总是移动到其指定存储区中的对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-141">A <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> object in the specified store to which all new items that arrive in the conversation are always moved.</span></span></returns>
+        <remarks><para><span data-ttu-id="6cb50-142">如果<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，则<b>GetAlwaysMoveToFolder</b>方法返回一个适用于默认送达存储中会话项目的<b>Folder</b>对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-142">If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the <b>GetAlwaysMoveToFolder</b> method returns a <b>Folder</b> object that applies to conversation items on the default delivery store.</span></span></para>
+          <para><span data-ttu-id="6cb50-143">如果尚未指定任何文件夹之外的已删除邮件文件夹中，插入的会话项目始终移，则<b>GetAlwaysMoveToFolder</b>方法返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="6cb50-143">If no folder, other than the Deleted Items folder, has been specified to always move conversation items into, the <b>GetAlwaysMoveToFolder</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetChildren">
@@ -418,32 +256,11 @@
       </Parameters>
       <Docs>
         <param name="Item">To be added.</param>
-        <summary>
-          <span data-ttu-id="02919-127">返回<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />集合，其中包含指定的会话节点下的所有项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-127">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all items under the specified conversation node.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="02919-128">一个<b>SimpleItems</b>集合，代表由指定的节点下的会话中的子项目集<paramref name="Item" />参数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-128">A <b>SimpleItems</b> collection that represents the set of child items in the conversation under the node specified by the <paramref name="Item" /> parameter.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="02919-129">
-            <para>返回的<b>SimpleItems</b>集合中包含指定会话节点的直接子项目<paramref name="Item" />参数。如果对话中不存在指定的节点， <b>GetChildren</b>方法将返回错误。</para>
-            <para>如果该节点下不存在任何子项目， <b>GetChildren</b>方法返回一个<b>SimpleItems</b>集合包含零个对象，在这种情况下<see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /><b>SimpleItems</b>集合的属性返回 0。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-129">
-              <para>The returned <b>SimpleItems</b> collection contains immediate child items of the conversation node specified by the <paramref name="Item" /> parameter. If the specified node does not exist in the conversation, the <b>GetChildren</b> method returns an error.</para>
-              <para>If no child items exist under that node, the <b>GetChildren</b> method returns a <b>SimpleItems</b> collection with zero objects, in which case the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="6cb50-144">返回<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />集合，其中包含指定的会话节点下的所有项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-144">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all items under the specified conversation node.</span></span></summary>
+        <returns><span data-ttu-id="6cb50-145">一个<b>SimpleItems</b>集合，代表由指定的节点下的会话中的子项目集<paramref name="Item" />参数。</span><span class="sxs-lookup"><span data-stu-id="6cb50-145">A <b>SimpleItems</b> collection that represents the set of child items in the conversation under the node specified by the <paramref name="Item" /> parameter.</span></span></returns>
+        <remarks><para><span data-ttu-id="6cb50-146">返回的<b>SimpleItems</b>集合中包含指定会话节点的直接子项目<paramref name="Item" />参数。</span><span class="sxs-lookup"><span data-stu-id="6cb50-146">The returned <b>SimpleItems</b> collection contains immediate child items of the conversation node specified by the <paramref name="Item" /> parameter.</span></span> <span data-ttu-id="6cb50-147">如果指定的节点不存在对话中， <b>GetChildren</b> 方法将返回错误。</span><span class="sxs-lookup"><span data-stu-id="6cb50-147">If the specified node does not exist in the conversation, the <b>GetChildren</b> method returns an error.</span></span></para>
+          <para><span data-ttu-id="6cb50-148">如果该节点下不存在任何子项目， <b>GetChildren</b>方法返回一个<b>SimpleItems</b>集合包含零个对象，在这种情况下<see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> <b>SimpleItems</b>集合的属性返回 0。</span><span class="sxs-lookup"><span data-stu-id="6cb50-148">If no child items exist under that node, the <b>GetChildren</b> method returns a <b>SimpleItems</b> collection with zero objects, in which case the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetParent">
@@ -469,39 +286,12 @@
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="02919-130">作为会话一部分的会话节点。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-130">A conversation node that is part of a conversation.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-131">返回会话中指定节点的父项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-131">Returns the parent item of the specified node in the conversation.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="02919-132">
-            <see cref="T:System.Object" /> （C# 中的<b>对象</b>），表示由指定的节点的父会话项目<paramref name="Item" />参数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-132">An <see cref="T:System.Object" /> (<b>object</b> in C#) that represents the parent conversation item of the node specified by the <paramref name="Item" /> parameter.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="02919-133">
-            <para>如果指定节点<paramref name="Item" />参数不存在对话中， <b>GetParent</b>方法将返回错误。</para>
-            <para>如果节点指定<paramref name="Item" />参数对话中没有父项目， <b>GetParent</b>方法将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-133">
-              <para>If the node specified by the <paramref name="Item" /> parameter does not exist in the conversation, the <b>GetParent</b> method returns an error.</para>
-              <para>If the node specified by the <paramref name="Item" /> parameter does not have a parent item in the conversation, the <b>GetParent</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="6cb50-149">作为会话一部分的会话节点。</span><span class="sxs-lookup"><span data-stu-id="6cb50-149">A conversation node that is part of a conversation.</span></span></param>
+        <summary><span data-ttu-id="6cb50-150">返回会话中指定节点的父项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-150">Returns the parent item of the specified node in the conversation.</span></span></summary>
+        <returns><span data-ttu-id="6cb50-151"><see cref="T:System.Object" /> （C# 中的<b>对象</b>），表示由指定的节点的父会话项目<paramref name="Item" />参数。</span><span class="sxs-lookup"><span data-stu-id="6cb50-151">An <see cref="T:System.Object" /> (<b>object</b> in C#) that represents the parent conversation item of the node specified by the <paramref name="Item" /> parameter.</span></span></returns>
+        <remarks><para><span data-ttu-id="6cb50-152">如果指定节点<paramref name="Item" />参数不存在对话中， <b>GetParent</b>方法将返回错误。</span><span class="sxs-lookup"><span data-stu-id="6cb50-152">If the node specified by the <paramref name="Item" /> parameter does not exist in the conversation, the <b>GetParent</b> method returns an error.</span></span></para>
+          <para><span data-ttu-id="6cb50-153">如果指定节点<paramref name="Item" />参数对话中没有父项目， <b>GetParent</b>方法将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="6cb50-153">If the node specified by the <paramref name="Item" /> parameter does not have a parent item in the conversation, the <b>GetParent</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRootItems">
@@ -525,31 +315,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="02919-134">返回<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />集合，其中包含会话中的所有根项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-134">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all root items in the conversation.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="02919-135">
-            <b>SimpleItems</b> 集合，该集合包含根项或会话的所有根项。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-135">A <b>SimpleItems</b> collection that includes the root item or all root items of the conversation.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="02919-136">
-            <para>A 对话可以有一个或多个根项目。例如，如果对话的根项目具有三个子项目，根项目将被永久删除所有三个子项将成为根项目。</para>如果在获取<b>T:Microsoft.Office.Interop.Outlook.Conversation</b>对象后从对话中删除所有项目
-          <para>， <b>GetRootItems</b>返回包含零个对象的<b>SimpleItems</b>集合。在这种情况下， <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> ， <b>SimpleItems</b>集合的属性返回 0。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-136">
-              <para>A conversation can have one or more root items. For example, if the root item of the conversation has three child items and the root item is permanently deleted, all three child items become root items.</para>
-              <para>If all items are deleted from the conversation after the <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> object has been obtained, <b>GetRootItems</b> returns a <b>SimpleItems</b> collection with zero objects. In this case, the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="6cb50-154">返回<see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />集合，其中包含会话中的所有根项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-154">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all root items in the conversation.</span></span></summary>
+        <returns><span data-ttu-id="6cb50-155"><b>SimpleItems</b> 集合，该集合包含根项或会话的所有根项。</span><span class="sxs-lookup"><span data-stu-id="6cb50-155">A <b>SimpleItems</b> collection that includes the root item or all root items of the conversation.</span></span></returns>
+        <remarks><para><span data-ttu-id="6cb50-p113">一个会话可拥有一个或多个根项目。例如，如果会话的根项目拥有三个子项目，而该根项目被永久删除，则所有三个子项目均将变为根项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-p113">A conversation can have one or more root items. For example, if the root item of the conversation has three child items and the root item is permanently deleted, all three child items become root items.</span></span></para>
+          <para><span data-ttu-id="6cb50-158">如果在获取<b>T:Microsoft.Office.Interop.Outlook.Conversation</b>对象后，会从对话中删除所有项目， <b>GetRootItems</b>将返回包含零个对象的<b>SimpleItems</b>集合。</span><span class="sxs-lookup"><span data-stu-id="6cb50-158">If all items are deleted from the conversation after the <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> object has been obtained, <b>GetRootItems</b> returns a <b>SimpleItems</b> collection with zero objects.</span></span> <span data-ttu-id="6cb50-159">在这种情况下， <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> ， <b>SimpleItems</b>集合的属性返回 0。</span><span class="sxs-lookup"><span data-stu-id="6cb50-159">In this case, the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -573,102 +343,55 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="02919-137">返回<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象，其中包含代表会话中的所有项目的各行。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-137">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object that contains rows that represent all items in the conversation.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="02919-138">
-            <b>表</b> 对象，其中包含表示在此对话中的所有项的行。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-138">A <b>Table</b> object that contains rows that represent all items in the conversation.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="02919-139">
-            <para>
-              <b>GetTable</b>方法返回<b>表</b>，包含作为行对话的所有项目。下表中显示列的默认设置。</para>
-            <list type="table">
-              <item>
-                <description>1</description>
-                <description>
-                  <b>EntryID</b>
-                </description>
-              </item>
-              <item>
-                <description>2</description>
-                <description>
-                  <b>主题</b>
-                </description>
-              </item>
-              <item>
-                <description>3</description>
-                <description>
-                  <b>CreationTime</b>
-                </description>
-              </item>
-              <item>
-                <description>4</description>
-                <description>
-                  <b>LastModificationTime</b>
-                </description>
-              </item>
-              <item>
-                <description>5</description>
-                <description>
-                  <b>MessageClass</b>
-                </description>
-              </item>
-            </list>
-            <para>默认情况下表中的行按项目的<b>ConversationIndex</b>属性排序。</para>
-            <para>要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合。</para>
-            <para>此<b>GetTable</b>方法返回的<b>Table</b>对象不包含已移至已删除邮件文件夹的对话中的项目。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-139">
-              <para>The <b>GetTable</b> method returns a <b>Table</b> that has all items of the conversation as the rows. The default set of columns is shown in the following table. </para>
-              <list type="table">
-                <item>
-                  <description>1</description>
-                  <description>
-                    <b>EntryID</b>
-                  </description>
-                </item>
-                <item>
-                  <description>2</description>
-                  <description>
-                    <b>Subject</b>
-                  </description>
-                </item>
-                <item>
-                  <description>3</description>
-                  <description>
-                    <b>CreationTime</b>
-                  </description>
-                </item>
-                <item>
-                  <description>4</description>
-                  <description>
-                    <b>LastModificationTime</b>
-                  </description>
-                </item>
-                <item>
-                  <description>5</description>
-                  <description>
-                    <b>MessageClass</b>
-                  </description>
-                </item>
-              </list>
-              <para>By default, the rows in the table are sorted by the <b>ConversationIndex</b> property of the items.</para>
-              <para>To modify the default column set, use the <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection. </para>
-              <para>The <b>Table</b> object returned by this <b>GetTable</b> method does not include items in the conversation that have been moved to the Deleted Items folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="6cb50-160">返回<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象，其中包含代表会话中的所有项目的各行。</span><span class="sxs-lookup"><span data-stu-id="6cb50-160">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object that contains rows that represent all items in the conversation.</span></span></summary>
+        <returns><span data-ttu-id="6cb50-161"><b>表</b> 对象，其中包含表示在此对话中的所有项的行。</span><span class="sxs-lookup"><span data-stu-id="6cb50-161">A <b>Table</b> object that contains rows that represent all items in the conversation.</span></span></returns>
+        <remarks><para><span data-ttu-id="6cb50-p115"><b>GetTable</b> 方法返回具有行作为对话的所有项的 <b>表</b> 。列的默认设置如下表所示。</span><span class="sxs-lookup"><span data-stu-id="6cb50-p115">The <b>GetTable</b> method returns a <b>Table</b> that has all items of the conversation as the rows. The default set of columns is shown in the following table. </span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="6cb50-164">1</span><span class="sxs-lookup"><span data-stu-id="6cb50-164">1</span></span></description>
+              <description><span data-ttu-id="6cb50-165">
+                <b>EntryID</b>
+              </span><span class="sxs-lookup"><span data-stu-id="6cb50-165">
+                <b>EntryID</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="6cb50-166">2</span><span class="sxs-lookup"><span data-stu-id="6cb50-166">2</span></span></description>
+              <description><span data-ttu-id="6cb50-167">
+                <b>主题</b>
+              </span><span class="sxs-lookup"><span data-stu-id="6cb50-167">
+                <b>Subject</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="6cb50-168">3</span><span class="sxs-lookup"><span data-stu-id="6cb50-168">3</span></span></description>
+              <description><span data-ttu-id="6cb50-169">
+                <b>CreationTime</b>
+              </span><span class="sxs-lookup"><span data-stu-id="6cb50-169">
+                <b>CreationTime</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="6cb50-170">4</span><span class="sxs-lookup"><span data-stu-id="6cb50-170">4</span></span></description>
+              <description><span data-ttu-id="6cb50-171">
+                <b>LastModificationTime</b>
+              </span><span class="sxs-lookup"><span data-stu-id="6cb50-171">
+                <b>LastModificationTime</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="6cb50-172">5</span><span class="sxs-lookup"><span data-stu-id="6cb50-172">5</span></span></description>
+              <description><span data-ttu-id="6cb50-173">
+                <b>MessageClass</b>
+              </span><span class="sxs-lookup"><span data-stu-id="6cb50-173">
+                <b>MessageClass</b>
+              </span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="6cb50-174">默认情况下，表中的行进行排序项的 <b>ConversationIndex</b> 属性。</span><span class="sxs-lookup"><span data-stu-id="6cb50-174">By default, the rows in the table are sorted by the <b>ConversationIndex</b> property of the items.</span></span></para>
+          <para><span data-ttu-id="6cb50-175">若要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合。</span><span class="sxs-lookup"><span data-stu-id="6cb50-175">To modify the default column set, use the <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection.</span></span> </para>
+          <para><span data-ttu-id="6cb50-176">此 <b>GetTable</b> 方法返回的 <b>Table</b> 对象不包括对话已移动到已删除邮件文件夹中的项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-176">The <b>Table</b> object returned by this <b>GetTable</b> method does not include items in the conversation that have been moved to the Deleted Items folder.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkAsRead">
@@ -692,12 +415,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="02919-140">将会话中的所有项目均标记为已读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-140">Marks all items in the conversation as read.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6cb50-177">将会话中的所有项目均标记为已读。</span><span class="sxs-lookup"><span data-stu-id="6cb50-177">Marks all items in the conversation as read.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -722,12 +440,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="02919-141">将会话中的所有项目均标记为未读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-141">Marks all items in the conversation as unread.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6cb50-178">将会话中的所有项目均标记为未读。</span><span class="sxs-lookup"><span data-stu-id="6cb50-178">Marks all items in the conversation as unread.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -754,31 +467,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="02919-142">返回父<see cref="T:System.Object" />（C# 中的<b>对象</b>） 的指定<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-142">Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the specified <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span>
-          </span>
-          <span data-ttu-id="02919-143">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-143">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6cb50-179">返回父<see cref="T:System.Object" />（C# 中的<b>对象</b>） 的指定<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-179">Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the specified <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span></span> <span data-ttu-id="6cb50-180">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="6cb50-180">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="02919-144">
-            <para>一个<b>Conversation</b>对象的父对象是会话中的第一项。</para>
-            <para>如果在获取<b>Conversation</b>对象后删除会话中的所有项目，则<b>Parent</b>属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-144">
-              <para>The parent of a <b>Conversation</b> object is the first item in the conversation.</para>
-              <para>If all items in the conversation are deleted after the <b>Conversation</b> object has been obtained, the <b>Parent</b> property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="6cb50-181"><b>会话</b> 对象的父级是对话的第一项。</span><span class="sxs-lookup"><span data-stu-id="6cb50-181">The parent of a <b>Conversation</b> object is the first item in the conversation.</span></span></para>
+          <para><span data-ttu-id="6cb50-182">如果在获取<b>Conversation</b>对象后删除会话中的所有项目， <b>Parent</b>属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="6cb50-182">If all items in the conversation are deleted after the <b>Conversation</b> object has been obtained, the <b>Parent</b> property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -804,29 +497,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="02919-145">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-145">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="02919-146">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-146">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6cb50-183">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="6cb50-183">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="6cb50-184">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="6cb50-184">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="02919-147">
-            <para>如果没有已登录的会话的此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>您可以使用<b>会话</b>属性
-          <para>和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />交替方法获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-147">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
-              <para>You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="6cb50-185">如果没有已登录的会话，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="6cb50-185">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</span></span></para>
+          <para><span data-ttu-id="6cb50-186">您可以使用<b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />交替方法获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-186">You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="6cb50-187">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="6cb50-187">Both members serve the same purpose.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysAssignCategories">
@@ -852,45 +527,17 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Categories">
-          <span data-ttu-id="02919-148">以逗号分隔<see cref="T:System.String" />（C# 中的<b>字符串</b>） 的一个或多个始终分配给会话中的所有项目的类别名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-148">A comma-delimited <see cref="T:System.String" /> (<b>string</b> in C#) of one or more category names that are always assigned to all items in the conversation.</span>
-          </span>
-        </param>
-        <param name="Store">
-          <span data-ttu-id="02919-149">
-            <see cref="T:Microsoft.Office.Interop.Outlook.Store" />中会话的项目应始终分配由指定的类别<paramref name="Categories" />参数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-149">The <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> in which items of the conversation should always be assigned the categories specified by the <paramref name="Categories" /> parameter.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-150">将一个或多个类别应用到会话的所有现有项目和未来项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-150">Applies one or more categories to all existing items and future items of the conversation.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="02919-151">
-            <para>如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，该方法返回应用于默认送达存储中的会话项目的类别的字符串。</para>
-            <para>
-              <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" />事件<see cref="T:Microsoft.Office.Interop.Outlook.Items" />会话调用<b>SetAlwaysAssignCategories</b>方法时，发生此事件对象。</para>要确定当前用户的现有主类别，请检查
-          <para><see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" />属性指定的<b>存储</b>对象<paramref name="Store" />参数。如果一个或多个类别指定<paramref name="Categories" />的主控形状的 categories 集合中不存在参数、 类别将分配给对话，但不是将添加到主类别集合。</para><para>若要确定始终分配给指定存储区中会话项目的现有类别，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法。</para>如果多次调用<b>SetAlwaysAssignCategories</b><para>，则结果为累积。例如，如果您调用<b>SetAlwaysAssignCategories</b>指定类别"重要"，然后调用<b>SetAlwaysAssignCategories</b>再次指定的类别"Business"和"社交"始终分配类别是"Important"、"业务"和"社交"。</para>要停止始终分配类别的操作，请使用
-          <para><see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法。在调用<b>ClearAlwaysAssignCategories</b>方法后，<b>则 GetAlwaysAssignCategories</b>将返回空<b>字符串</b>（C# 中的<b>字符串</b>）。</para><para><b>SetAlwaysAssignToCategories</b>方法将忽略任何都是空字符串的类别名称。例如，如果<paramref name="Categories" />参数将设置为字符串"工时、 播放"，"工时"和"播放"已分配给对话空字符串类别将被忽略。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-151">
-              <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</para>
-              <para>The <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> event of the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> object occurs when you call the <b>SetAlwaysAssignCategories</b> method on a conversation.</para>
-              <para>To determine existing master categories for the current user, examine the <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> property of the <b>Store</b> object that is specified by the <paramref name="Store" /> parameter. If one or more categories specified by the <paramref name="Categories" /> parameter do not exist in the master categories collection, the categories will be assigned to the conversation but will not be added to the master categories collection.</para>
-              <para>To determine the existing categories that are always assigned to items of the conversation in the specified store, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method.</para>
-              <para>If <b>SetAlwaysAssignCategories</b> is called more than once, the result is cumulative. For example, if you call <b>SetAlwaysAssignCategories</b> specifying the category “Important” and then call <b>SetAlwaysAssignCategories</b> again specifying the categories "Business" and "Social", the categories that are always assigned are "Important", "Business", and "Social".</para>
-              <para>To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method. After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty <b>String</b> (<b>string</b> in C#).</para>
-              <para>The <b>SetAlwaysAssignToCategories</b> method ignores any category names that are empty strings. For example, if the <paramref name="Categories" /> parameter is set to the string "Work,,Play", "Work" and "Play" are assigned to the conversation and the empty string category is ignored.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Categories"><span data-ttu-id="6cb50-188">以逗号分隔<see cref="T:System.String" />（C# 中的<b>字符串</b>） 的一个或多个始终分配给会话中的所有项目的类别名称。</span><span class="sxs-lookup"><span data-stu-id="6cb50-188">A comma-delimited <see cref="T:System.String" /> (<b>string</b> in C#) of one or more category names that are always assigned to all items in the conversation.</span></span></param>
+        <param name="Store"><span data-ttu-id="6cb50-189"><see cref="T:Microsoft.Office.Interop.Outlook.Store" />中会话的项目应始终分配由指定的类别<paramref name="Categories" />参数。</span><span class="sxs-lookup"><span data-stu-id="6cb50-189">The <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> in which items of the conversation should always be assigned the categories specified by the <paramref name="Categories" /> parameter.</span></span></param>
+        <summary><span data-ttu-id="6cb50-190">将一个或多个类别应用到会话的所有现有项目和未来项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-190">Applies one or more categories to all existing items and future items of the conversation.</span></span></summary>
+        <remarks><para><span data-ttu-id="6cb50-191">如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，该方法返回应用于默认送达存储中的会话项目的类别的字符串。</span><span class="sxs-lookup"><span data-stu-id="6cb50-191">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="6cb50-192"><see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" />事件<see cref="T:Microsoft.Office.Interop.Outlook.Items" />会话调用<b>SetAlwaysAssignCategories</b>方法时，发生此事件对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-192">The <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> event of the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> object occurs when you call the <b>SetAlwaysAssignCategories</b> method on a conversation.</span></span></para>
+          <para><span data-ttu-id="6cb50-193">若要确定当前用户的现有主类别，请检查<see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" />属性指定的<b>存储</b>对象<paramref name="Store" />参数。</span><span class="sxs-lookup"><span data-stu-id="6cb50-193">To determine existing master categories for the current user, examine the <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> property of the <b>Store</b> object that is specified by the <paramref name="Store" /> parameter.</span></span> <span data-ttu-id="6cb50-194">如果一个或多个类别指定<paramref name="Categories" />的主控形状的 categories 集合中不存在参数、 类别将分配给对话，但不是将添加到主类别集合。</span><span class="sxs-lookup"><span data-stu-id="6cb50-194">If one or more categories specified by the <paramref name="Categories" /> parameter do not exist in the master categories collection, the categories will be assigned to the conversation but will not be added to the master categories collection.</span></span></para>
+          <para><span data-ttu-id="6cb50-195">若要确定始终分配给指定存储区中会话项目的现有类别，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法。</span><span class="sxs-lookup"><span data-stu-id="6cb50-195">To determine the existing categories that are always assigned to items of the conversation in the specified store, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method.</span></span></para>
+          <para><span data-ttu-id="6cb50-196">如果多次调用<b>SetAlwaysAssignCategories</b> ，则结果是累积。</span><span class="sxs-lookup"><span data-stu-id="6cb50-196">If <b>SetAlwaysAssignCategories</b> is called more than once, the result is cumulative.</span></span> <span data-ttu-id="6cb50-197">例如，如果您调用<b>SetAlwaysAssignCategories</b>指定类别"重要"，然后调用<b>SetAlwaysAssignCategories</b>再次指定的类别"Business"和"社交"始终分配类别是"Important"、"业务"和"社交"。</span><span class="sxs-lookup"><span data-stu-id="6cb50-197">For example, if you call <b>SetAlwaysAssignCategories</b> specifying the category “Important” and then call <b>SetAlwaysAssignCategories</b> again specifying the categories "Business" and "Social", the categories that are always assigned are "Important", "Business", and "Social".</span></span></para>
+          <para><span data-ttu-id="6cb50-198">若要停止始终分配类别的操作，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />方法。</span><span class="sxs-lookup"><span data-stu-id="6cb50-198">To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method.</span></span> <span data-ttu-id="6cb50-199">在调用<b>ClearAlwaysAssignCategories</b>方法后，<b>则 GetAlwaysAssignCategories</b>将返回空<b>字符串</b>（C# 中的<b>字符串</b>）。</span><span class="sxs-lookup"><span data-stu-id="6cb50-199">After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty <b>String</b> (<b>string</b> in C#).</span></span></para>
+          <para><span data-ttu-id="6cb50-200"><b>SetAlwaysAssignToCategories</b> 方法将忽略任何类别名称为空字符串。</span><span class="sxs-lookup"><span data-stu-id="6cb50-200">The <b>SetAlwaysAssignToCategories</b> method ignores any category names that are empty strings.</span></span> <span data-ttu-id="6cb50-201">例如，如果<paramref name="Categories" />参数将设置为字符串"工时、 播放"，"工时"和"播放"已分配给对话空字符串类别将被忽略。</span><span class="sxs-lookup"><span data-stu-id="6cb50-201">For example, if the <paramref name="Categories" /> parameter is set to the string "Work,,Play", "Work" and "Play" are assigned to the conversation and the empty string category is ignored.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysDelete">
@@ -916,42 +563,13 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="AlwaysDelete">
-          <span data-ttu-id="02919-152">
-            <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />常量，指示是否进入对话中的所有现有和新项目总是移动到指定的存储区的删除文件夹<paramref name="Store" />参数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-152">An <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> constant that indicates whether all existing and new items that arrive in the conversation are always moved to the Deleted Folder of the store specified by the <paramref name="Store" /> parameter.</span>
-          </span>
-        </param>
-        <param name="Store">
-          <span data-ttu-id="02919-153">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示包含现有项目和新项目的对话将移动到已删除邮件文件夹的存储区。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-153">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the Deleted Items folder to which existing and new items of the conversation are to be moved.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-154">为指定传递存储区指定设置，指示是否始终将会话中到达的所有现有项目和所有新项目移至指定传递存储区中的"已删除邮件"文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-154">Specifies a setting for the specified delivery store that indicates whether all existing items and all new items that arrive in the conversation are always moved to the Deleted Items folder in the specified delivery store.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="02919-155">
-            <para>
-              <b>SetAlwaysDelete</b>方法运行由指定传递存储区中会话项目<paramref name="Store" />参数。如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，则操作应用于默认送达存储中的会话项目。</para>
-            <para>如果<paramref name="AlwaysDelete" />参数为<b>olAlwaysDelete</b>，指定存储对话项目移动到已删除邮件文件夹。在这种情况下，则不永久删除项，除非用户已指定一个单独的选项，可永久删除项目，Microsoft Outlook 关闭时。</para>
-            <para>如果<b>SetAlwaysDelete</b>返回<b>olDoNotDelete</b>，现有对话项目和进入对话中的新项目不移动到指定的送达存储和现有对话中的已删除邮件文件夹中已删除的项目项目文件夹移至收件箱。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-155">
-              <para>The <b>SetAlwaysDelete</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter. If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the action is applied to conversation items in the default delivery store.</para>
-              <para>If the <paramref name="AlwaysDelete" /> parameter is <b>olAlwaysDelete</b>, conversation items are moved to the Deleted Items folder for the specified store. In this case, the items are not permanently deleted, unless the user has specified a separate option to permanently delete items when Microsoft Outlook shuts down.</para>
-              <para>If <b>SetAlwaysDelete</b> returns <b>olDoNotDelete</b>, existing conversation items and new items that arrive in the conversation are not moved to the Deleted Items folder in the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="AlwaysDelete"><span data-ttu-id="6cb50-202"><see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />常量，指示是否进入对话中的所有现有和新项目总是移动到指定的存储区的删除文件夹<paramref name="Store" />参数。</span><span class="sxs-lookup"><span data-stu-id="6cb50-202">An <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> constant that indicates whether all existing and new items that arrive in the conversation are always moved to the Deleted Folder of the store specified by the <paramref name="Store" /> parameter.</span></span></param>
+        <param name="Store"><span data-ttu-id="6cb50-203">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示包含现有项目和新项目的对话将移动到已删除邮件文件夹的存储区。</span><span class="sxs-lookup"><span data-stu-id="6cb50-203">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the Deleted Items folder to which existing and new items of the conversation are to be moved.</span></span></param>
+        <summary><span data-ttu-id="6cb50-204">为指定传递存储区指定设置，指示是否始终将会话中到达的所有现有项目和所有新项目移至指定传递存储区中的"已删除邮件"文件夹。</span><span class="sxs-lookup"><span data-stu-id="6cb50-204">Specifies a setting for the specified delivery store that indicates whether all existing items and all new items that arrive in the conversation are always moved to the Deleted Items folder in the specified delivery store.</span></span></summary>
+        <remarks><para><span data-ttu-id="6cb50-205"><b>SetAlwaysDelete</b>方法运行由指定传递存储区中会话项目<paramref name="Store" />参数。</span><span class="sxs-lookup"><span data-stu-id="6cb50-205">The <b>SetAlwaysDelete</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter.</span></span> <span data-ttu-id="6cb50-206">如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，则操作应用于默认送达存储中的会话项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-206">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the action is applied to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="6cb50-207">如果<paramref name="AlwaysDelete" />参数为<b>olAlwaysDelete</b>，指定存储对话项目移动到已删除邮件文件夹。</span><span class="sxs-lookup"><span data-stu-id="6cb50-207">If the <paramref name="AlwaysDelete" /> parameter is <b>olAlwaysDelete</b>, conversation items are moved to the Deleted Items folder for the specified store.</span></span> <span data-ttu-id="6cb50-208">在这种情况下，会永久删除这些项目，除非用户指定一个单独的选项，以便Microsoft Outlook关闭时永久删除项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-208">In this case, the items are not permanently deleted, unless the user has specified a separate option to permanently delete items when Microsoft Outlook shuts down.</span></span></para>
+          <para><span data-ttu-id="6cb50-209">如果 <b>SetAlwaysDelete</b> 返回 <b>olDoNotDelete</b> ，现有对话项和到达对话中的新项目不移到指定的传送存储中，在已删除邮件文件夹和已删除邮件文件夹中的现有对话项目被移动到收件箱。</span><span class="sxs-lookup"><span data-stu-id="6cb50-209">If <b>SetAlwaysDelete</b> returns <b>olDoNotDelete</b>, existing conversation items and new items that arrive in the conversation are not moved to the Deleted Items folder in the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysMoveToFolder">
@@ -977,48 +595,17 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="MoveToFolder">
-          <span data-ttu-id="02919-156">指定将会话中到达的所有现有项目和新项目始终移至其中的文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-156">Specifies the folder to which all existing items and new items that arrive in the conversation are always moved.</span>
-          </span>
-        </param>
-        <param name="Store">
-          <span data-ttu-id="02919-157">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示包含会话项目移至其中的文件夹的存储区。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-157">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the folder to which items of the conversation are moved.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-158">设置<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，指示其所有现有项目和进入对话中的新项目总是移动到的文件夹。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-158">Sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder to which all existing conversation items and new items that arrive in the conversation are always moved.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="02919-159">
-            <para>
-              <b>SetAlwaysMoveToFolder</b>方法在由指定传递存储区中会话项目上操作<paramref name="Store" />参数。如果<paramref name="Store" />参数代表未送达存储区如存档.pst 存储、 移动操作将应用于默认送达存储中的会话项目。</para>
-            <para>如果<paramref name="MoveToFolder" />参数指定无效的文件夹不存在、 已移动，或为只读的则 Outlook 将引发错误。</para>
-            <para>若要停止的存储区中会话项目始终移动-到文件夹操作，请调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />方法</para>
-            <para>
-              <b>备注</b>： 设置为已删除邮件文件夹<paramref name="MoveToFolder" />中<b>SetAlwaysMoveToFolder</b>参数不是等效于调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />上的同一个存储和对话。设置<paramref name="MoveToFolder" />已删除邮件文件夹参数导致<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />方法返回值<b>olDoNotDelete</b>。</para>
-            <para>
-              <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" />调用<b>SetAlwaysMoveToFolder</b>时，会发生事件的<b>Folder</b>对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-159">
-              <para>The <b>SetAlwaysMoveToFolder</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter. If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the move action will apply to conversation items in the default delivery store.</para>
-              <para>If the <paramref name="MoveToFolder" /> parameter specifies an invalid folder that does not exist, has been moved, or is read-only, Outlook will raise an error. </para>
-              <para>To stop the always-move-to-folder action for conversations items in a store, call the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method</para>
-              <para>
-                <b>Note</b>: Setting the Deleted Items folder as the <paramref name="MoveToFolder" /> parameter in <b>SetAlwaysMoveToFolder</b> is not equivalent to calling <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> on the same store and conversation. Setting the <paramref name="MoveToFolder" /> parameter to the Deleted Items folder results in the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method returning the value <b>olDoNotDelete</b>.</para>
-              <para>The <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> event of the <b>Folder</b> object occurs when you call <b>SetAlwaysMoveToFolder</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="MoveToFolder"><span data-ttu-id="6cb50-210">指定将会话中到达的所有现有项目和新项目始终移至其中的文件夹。</span><span class="sxs-lookup"><span data-stu-id="6cb50-210">Specifies the folder to which all existing items and new items that arrive in the conversation are always moved.</span></span></param>
+        <param name="Store"><span data-ttu-id="6cb50-211">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示包含会话项目移至其中的文件夹的存储区。</span><span class="sxs-lookup"><span data-stu-id="6cb50-211">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the folder to which items of the conversation are moved.</span></span></param>
+        <summary><span data-ttu-id="6cb50-212">设置<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，指示其所有现有项目和进入对话中的新项目总是移动到的文件夹。</span><span class="sxs-lookup"><span data-stu-id="6cb50-212">Sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder to which all existing conversation items and new items that arrive in the conversation are always moved.</span></span></summary>
+        <remarks><para><span data-ttu-id="6cb50-213"><b>SetAlwaysMoveToFolder</b>方法在由指定传递存储区中会话项目上操作<paramref name="Store" />参数。</span><span class="sxs-lookup"><span data-stu-id="6cb50-213">The <b>SetAlwaysMoveToFolder</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter.</span></span> <span data-ttu-id="6cb50-214">如果<paramref name="Store" />参数代表未送达存储区如存档.pst 存储、 移动操作将应用于默认送达存储中的会话项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-214">If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the move action will apply to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="6cb50-215">如果<paramref name="MoveToFolder" />参数指定无效的文件夹不存在、 已移动，或为只读的则 Outlook 将引发错误。</span><span class="sxs-lookup"><span data-stu-id="6cb50-215">If the <paramref name="MoveToFolder" /> parameter specifies an invalid folder that does not exist, has been moved, or is read-only, Outlook will raise an error.</span></span> </para>
+          <para><span data-ttu-id="6cb50-216">若要停止的存储区中会话项目始终移动-到文件夹操作，请调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />方法</span><span class="sxs-lookup"><span data-stu-id="6cb50-216">To stop the always-move-to-folder action for conversations items in a store, call the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method</span></span></para>
+          <para><span data-ttu-id="6cb50-217">
+            <b>注意</b>： 设置为已删除邮件文件夹<paramref name="MoveToFolder" />中<b>SetAlwaysMoveToFolder</b>参数不是等效于调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />上的同一个存储和对话。</span><span class="sxs-lookup"><span data-stu-id="6cb50-217">
+            <b>Note</b>: Setting the Deleted Items folder as the <paramref name="MoveToFolder" /> parameter in <b>SetAlwaysMoveToFolder</b> is not equivalent to calling <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> on the same store and conversation.</span></span> <span data-ttu-id="6cb50-218">设置<paramref name="MoveToFolder" />已删除邮件文件夹参数导致<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />方法返回值<b>olDoNotDelete</b>。</span><span class="sxs-lookup"><span data-stu-id="6cb50-218">Setting the <paramref name="MoveToFolder" /> parameter to the Deleted Items folder results in the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method returning the value <b>olDoNotDelete</b>.</span></span></para>
+          <para><span data-ttu-id="6cb50-219"><see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" />调用<b>SetAlwaysMoveToFolder</b>时，会发生事件的<b>Folder</b>对象。</span><span class="sxs-lookup"><span data-stu-id="6cb50-219">The <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> event of the <b>Folder</b> object occurs when you call <b>SetAlwaysMoveToFolder</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StopAlwaysDelete">
@@ -1043,38 +630,14 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="02919-160">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示停止-始终-删除操作应用于的存储。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-160">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which the stop-always-delete action applies.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-161">停止始终将指定存储区中的会话项目移至该存储区中"已删除邮件"文件夹的操作。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-161">Stops the action of always moving conversation items in the specified store to the Deleted Items folder in that store.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="02919-162">
-            <para>如果尚未启用始终删除操作 (通过调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />方法)， <b>StopAlwaysDelete</b>不执行任何操作。</para>
-            <para>如果已打开始终删除操作， <b>StopAlwaysDelete</b>会移动现有会话项目已删除邮件文件夹中到收件箱。</para>
-            <para>存储中的某会话调用<b>StopAlwaysDelete</b>方法后调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />对该会话和存储的方法将返回常量<b>olDoNotDelete</b>。</para>
-            <para>如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，则停止-始终-删除操作应用于默认送达存储中的会话项目。</para>
-            <para>指定存储区中的已删除邮件文件夹中已在会话上调用此方法将返回错误。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-162">
-              <para>If the always-delete action has not been turned on (by calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> method), <b>StopAlwaysDelete</b> does nothing.</para>
-              <para>If the always-delete action has been turned on, <b>StopAlwaysDelete</b> moves existing conversation items in the Deleted Items folder to the Inbox.</para>
-              <para>After calling the <b>StopAlwaysDelete</b> method for a conversation in a store, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method on that conversation and store returns the constant <b>olDoNotDelete</b>.</para>
-              <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-delete action is applied to conversation items in the default delivery store.</para>
-              <para>Calling this method on a conversation that is already in the Deleted Items folder in the specified store returns an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="6cb50-220">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示停止-始终-删除操作应用于的存储。</span><span class="sxs-lookup"><span data-stu-id="6cb50-220">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which the stop-always-delete action applies.</span></span></param>
+        <summary><span data-ttu-id="6cb50-221">停止始终将指定存储区中的会话项目移至该存储区中"已删除邮件"文件夹的操作。</span><span class="sxs-lookup"><span data-stu-id="6cb50-221">Stops the action of always moving conversation items in the specified store to the Deleted Items folder in that store.</span></span></summary>
+        <remarks><para><span data-ttu-id="6cb50-222">如果尚未启用始终删除操作 (通过调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />方法)， <b>StopAlwaysDelete</b>不执行任何操作。</span><span class="sxs-lookup"><span data-stu-id="6cb50-222">If the always-delete action has not been turned on (by calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> method), <b>StopAlwaysDelete</b> does nothing.</span></span></para>
+          <para><span data-ttu-id="6cb50-223">如果已启用 always-delete 操作，<b>StopAlwaysDelete</b> 会将“已删除邮件”文件夹中的现有会话项目移至收件箱。</span><span class="sxs-lookup"><span data-stu-id="6cb50-223">If the always-delete action has been turned on, <b>StopAlwaysDelete</b> moves existing conversation items in the Deleted Items folder to the Inbox.</span></span></para>
+          <para><span data-ttu-id="6cb50-224">存储中的某会话调用<b>StopAlwaysDelete</b>方法后调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />对该会话和存储的方法将返回常量<b>olDoNotDelete</b>。</span><span class="sxs-lookup"><span data-stu-id="6cb50-224">After calling the <b>StopAlwaysDelete</b> method for a conversation in a store, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method on that conversation and store returns the constant <b>olDoNotDelete</b>.</span></span></para>
+          <para><span data-ttu-id="6cb50-225">如果存储指定<paramref name="Store" />参数代表未送达存储区如存档.pst 存储，则停止-始终-删除操作应用于默认送达存储中的会话项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-225">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-delete action is applied to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="6cb50-226">在对话中指定存储在已删除邮件文件夹已调用此方法将返回一个错误。</span><span class="sxs-lookup"><span data-stu-id="6cb50-226">Calling this method on a conversation that is already in the Deleted Items folder in the specified store returns an error.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StopAlwaysMoveToFolder">
@@ -1099,34 +662,12 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="02919-163">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示要清除的会话项目所驻留的存储。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-163">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the conversation items to be cleaned up reside.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="02919-164">停止始终将指定存储区中的会话项目移至特定文件夹的操作。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-164">Stops the action of always moving conversation items in the specified store to a specific folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="02919-165">
-            <para>如果尚未启用始终移动操作， <b>StopAlwaysMoveToFolder</b>不执行任何操作。</para>
-            <para>如果<paramref name="Store" />参数代表未送达存储区如存档.pst 存储、 停止-始终-移动操作将应用于默认送达存储中的会话项目。</para>
-            <para>调用<b>StopAlwaysMoveToFolder</b>方法后，调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />方法返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02919-165">
-              <para>If the always-move action has not been turned on, <b>StopAlwaysMoveToFolder</b> does nothing.</para>
-              <para>If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-move action will apply to conversation items in the default delivery store.</para>
-              <para>After you call the <b>StopAlwaysMoveToFolder</b> method, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="6cb50-227">A<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示要清除的会话项目所驻留的存储。</span><span class="sxs-lookup"><span data-stu-id="6cb50-227">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the conversation items to be cleaned up reside.</span></span></param>
+        <summary><span data-ttu-id="6cb50-228">停止始终将指定存储区中的会话项目移至特定文件夹的操作。</span><span class="sxs-lookup"><span data-stu-id="6cb50-228">Stops the action of always moving conversation items in the specified store to a specific folder.</span></span></summary>
+        <remarks><para><span data-ttu-id="6cb50-229">如果尚未启用始终移动操作， <b>StopAlwaysMoveToFolder</b>无实际作用。</span><span class="sxs-lookup"><span data-stu-id="6cb50-229">If the always-move action has not been turned on, <b>StopAlwaysMoveToFolder</b> does nothing.</span></span></para>
+          <para><span data-ttu-id="6cb50-230">如果<paramref name="Store" />参数代表未送达存储区如存档.pst 存储、 停止-始终-移动操作将应用于默认送达存储中的会话项目。</span><span class="sxs-lookup"><span data-stu-id="6cb50-230">If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-move action will apply to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="6cb50-231">调用<b>StopAlwaysMoveToFolder</b>方法后，调用<see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />方法返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="6cb50-231">After you call the <b>StopAlwaysMoveToFolder</b> method, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,0 +1,914 @@
+<Type Name="_Items" FullName="Microsoft.Office.Interop.Outlook._Items">
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7bd8b181e72530f36fac5524b4ed22a89311b9c6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898380" /></Metadata><TypeSignature Language="C#" Value="public interface _Items : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Items implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Items" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Items&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Items : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063041-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary><span data-ttu-id="b209d-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="b209d-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="b209d-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="b209d-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="b209d-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="b209d-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Items" />。</span><span class="sxs-lookup"><span data-stu-id="b209d-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Items" />.</span></span></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public object Add (object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Add([in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional Type As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Type"><span data-ttu-id="b209d-105">新项 Outlook 项目类型。</span><span class="sxs-lookup"><span data-stu-id="b209d-105">The Outlook item type for the new item.</span></span> <span data-ttu-id="b209d-106">指定<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" />来创建自定义窗体。</span><span class="sxs-lookup"><span data-stu-id="b209d-106">Specifies a <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" /> to create custom forms.</span></span> <span data-ttu-id="b209d-107">可以是下列的 <b>OlItemType</b> 常量之一: <b>olAppointmentItem</b> 、 <b>olContactItem</b> 、 <b>olJournalItem</b> 、 <b>olMailItem</b> 、 <b>olNoteItem</b> 、 <b>olPostItem</b> ，或 <b>olTaskItem，</b> 或任何有效的邮件类。</span><span class="sxs-lookup"><span data-stu-id="b209d-107">Can be one of the following <b>OlItemType</b> constants: <b>olAppointmentItem</b>, <b>olContactItem</b>, <b>olJournalItem</b>, <b>olMailItem</b>, <b>olNoteItem</b>, <b>olPostItem</b>, or <b>olTaskItem,</b>, or any valid message class.</span></span></param>
+        <summary><span data-ttu-id="b209d-108">创建新的 Outlook 项目中<see cref="T:Microsoft.Office.Interop.Outlook.Items" />的文件夹的集合。</span><span class="sxs-lookup"><span data-stu-id="b209d-108">Creates a new Outlook item in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection for the folder.</span></span></summary>
+        <returns><span data-ttu-id="b209d-109">一个代表新 Outlook 项目的 Object 值。</span><span class="sxs-lookup"><span data-stu-id="b209d-109">An Object value that represents the new Outlook item.</span></span></returns>
+        <remarks><para><span data-ttu-id="b209d-110">如果未指定，Outlook 项目的<b>Type</b>属性默认为的类型的文件夹或为<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />如果不类型的父文件夹。</span><span class="sxs-lookup"><span data-stu-id="b209d-110">If not specified, the <b>Type</b> property of the Outlook item defaults to the type of the folder or to <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> if the parent folder is not typed.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="b209d-111">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="b209d-112">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-112">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="b209d-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="b209d-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="b209d-114">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-114">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="b209d-115">返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="b209d-115">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="b209d-116">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-116">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public object Find (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Find([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (Filter As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Find(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter"><span data-ttu-id="b209d-117">一个字符串，它指定所返回的对象必须满足的条件。</span><span class="sxs-lookup"><span data-stu-id="b209d-117">A string that specifies the criteria that the returned object must satisfy.</span></span></param>
+        <summary><span data-ttu-id="b209d-118">查找并返回一个 Outlook 项目对象的满足给定<paramref name="Filter" />。</span><span class="sxs-lookup"><span data-stu-id="b209d-118">Locates and returns an Outlook item object that satisfies the given <paramref name="Filter" />.</span></span></summary>
+        <returns><span data-ttu-id="b209d-119">一个 Object 值，如果调用成功，则代表 Outlook 项目如果失败，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="b209d-119">An Object value that represents an Outlook item if the call succeeds; returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)  if it fails.</span></span></returns>
+        <remarks><para><span data-ttu-id="b209d-120">使用中的内容索引的搜索<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合，使用<see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" />方法。</span><span class="sxs-lookup"><span data-stu-id="b209d-120">To use content indexing search in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection, use the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" /> method.</span></span> <span data-ttu-id="b209d-121"><b>FindRow</b>将返回错误，如果<paramref name="Filter" />包含内容索引的关键字。</span><span class="sxs-lookup"><span data-stu-id="b209d-121"><b>FindRow</b> will return an error if <paramref name="Filter" /> contains content indexing keywords.</span></span> <span data-ttu-id="b209d-122">内容索引关键字的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87947">使用查询关键字筛选项目</a></span><span class="sxs-lookup"><span data-stu-id="b209d-122">For more information on content indexing keywords, see <a href="http://go.microsoft.com/fwlink/?LinkId=87947">Filtering Items Using Query Keywords</a></span></span></para>
+          <para><span data-ttu-id="b209d-123">该方法将返回具有以下属性中出错<paramref name="Filter" />:</span><span class="sxs-lookup"><span data-stu-id="b209d-123">The method will return an error with the following properties in the <paramref name="Filter" />:</span></span> </para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="b209d-124">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span><span class="sxs-lookup"><span data-stu-id="b209d-124">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span></span></description>
+              <description><span data-ttu-id="b209d-125">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span><span class="sxs-lookup"><span data-stu-id="b209d-125">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="b209d-126">创建 Find 方法和 Restrict 方法的筛选器</span><span class="sxs-lookup"><span data-stu-id="b209d-126">Creating Filters for the Find and Restrict Methods</span></span></para>
+          <para><span data-ttu-id="b209d-p107">根据要筛选的字段类型，筛选器的语法将有所不同。</span><span class="sxs-lookup"><span data-stu-id="b209d-p107">The syntax for the filter varies depending on the type of field you are filtering on. </span></span></para>
+          <para><span data-ttu-id="b209d-128">字符串（适用于文本字段）</span><span class="sxs-lookup"><span data-stu-id="b209d-128">String (for Text fields)</span></span> </para>
+          <para><span data-ttu-id="b209d-129">搜索文本字段时，您可以使用撇号 （'） 或双引号 ("") 来分隔的值的筛选器的一部分。</span><span class="sxs-lookup"><span data-stu-id="b209d-129">When searching Text fields, you can use either an apostrophe (') or  double quotation marks ("") to delimit the values that are part of the filter.</span></span> <span data-ttu-id="b209d-130">例如，下面的行函数类型所有正确时字段为<b>字符串</b>（C# 中的<b>字符串</b>）：</span><span class="sxs-lookup"><span data-stu-id="b209d-130">For example, all of the following lines function correctly when the field is of type <b>String</b> (<b>string</b> in C#):</span></span> </para>
+          <para><span data-ttu-id="b209d-131">sFilter ="[CompanyName] = 'Microsoft'"</span><span class="sxs-lookup"><span data-stu-id="b209d-131">sFilter = "[CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="b209d-132">sFilter ="[CompanyName] =""Microsoft"""</span><span class="sxs-lookup"><span data-stu-id="b209d-132">sFilter = "[CompanyName] = ""Microsoft"""</span></span> </para>
+          <para><span data-ttu-id="b209d-133">sFilter ="[CompanyName] =" &amp; chr （34) &amp; "Microsoft" &amp; chr （34)</span><span class="sxs-lookup"><span data-stu-id="b209d-133">sFilter = "[CompanyName] = " &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</span></span></para>
+          <para><span data-ttu-id="b209d-p109">在 Jet 或 DASL 查询中指定筛选器的过程中，如果使用一对单引号来分隔构成筛选器的字符串，而且该字符串包含另一个单引号或撇号，则应在这个单引号或撇号前面添加一个单引号以用作转义符。如果使用一对双引号来分隔字符串，则也可使用类似方法。如果该字符串包含一个双引号，则应在该双引号前面添加一个双引号以用作转义符。</span><span class="sxs-lookup"><span data-stu-id="b209d-p109">In specifying a filter in a Jet or DASL query, if you use a pair of single quotes to delimit a string that is part of the filter, and the string contains another single quote or apostrophe, then add a single quote as an escape character before the single quote or apostrophe. Use a similar approach if you use a pair of double quotes to delimit a string. If the string contains a double quote, then add a double quote as an escape character before the double quote.</span></span></para>
+          <para><span data-ttu-id="b209d-137">例如，在 DASL 筛选器的筛选的<b>Subject</b>属性值等于 word 不能、 整个筛选器字符串分隔对双引号，并且不能嵌入的字符串字符串由分隔对单引号。</span><span class="sxs-lookup"><span data-stu-id="b209d-137">For example, in the DASL filter string that filters for the <b>Subject</b> property being equal to the word can't, the entire filter string is delimited by a pair of double quotes, and the embedded string can't is delimited by a pair of single quotes.</span></span> <span data-ttu-id="b209d-138">有三个需要进行转义此筛选器字符串中的字符： 起始双引号和属性引用的结束双引号http://schemas.microsoft.com/mapi/proptag/0x0037001f，而且撇号词在值条件中的不能。</span><span class="sxs-lookup"><span data-stu-id="b209d-138">There are three characters that you need to escape in this filter string: the starting double quote and the ending double quote for the property reference of http://schemas.microsoft.com/mapi/proptag/0x0037001f, and the apostrophe in the value condition for the word can't.</span></span> <span data-ttu-id="b209d-139">通过应用适当的转义符，您可将筛选器字符串表示如下：</span><span class="sxs-lookup"><span data-stu-id="b209d-139">Applying the appropriate escape characters, you can express the filter string as follows:</span></span></para>
+          <para><span data-ttu-id="b209d-140">筛选器 ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= 可以 t"</span><span class="sxs-lookup"><span data-stu-id="b209d-140">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'can''t'"</span></span></para>
+          <para><span data-ttu-id="b209d-p111">
+
+ 
+
+或者，也可使用 chr(34) 函数来代表用作转义符的双引号（其 ASCII 字符值为 34）。通过使用 chr(34) 代替双引号转义符，您可将上一个示例表示如下：
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="b209d-p111">Alternatively, you can use the chr(34) function to represent the double quote (whose ASCII character value is 34) that is used as an escape character. Using the chr(34) substitution for a double-quote escape character, you can express the last example as follows:</span></span></para>
+          <para><span data-ttu-id="b209d-143">筛选器 ="@SQL =" &amp; chr （34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f"_</span><span class="sxs-lookup"><span data-stu-id="b209d-143">filter = "@SQL= " &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</span></span></para>
+          <para>    <span data-ttu-id="b209d-144">&amp;Chr （34) &amp; "=" &amp; "' 可以 t"</span><span class="sxs-lookup"><span data-stu-id="b209d-144">&amp; Chr(34) &amp; " = " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="b209d-p112">对于使用 <b>ci_startswith</b> 或 <b>ci_phrasematch</b> 运算符的 DASL 查询而言，转义单引号和双引号字符也是必需的。例如，以下查询可在邮件主题中执行针对 can't 的短语匹配查询：
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="b209d-p112">Escaping single and double quote characters is also required for DASL queries with the <b>ci_startswith</b> or <b>ci_phrasematch</b> operators. For example, the following query performs a phrase match query for can't in the message subject: </span></span></para>
+          <para><span data-ttu-id="b209d-147">筛选器 ="@SQL =" &amp; chr （34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E"_</span><span class="sxs-lookup"><span data-stu-id="b209d-147">filter = "@SQL=" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</span></span></para>
+          <para>    <span data-ttu-id="b209d-148">&amp;Chr （34) &amp; "ci_phrasematch" &amp; "' 可以 t"</span><span class="sxs-lookup"><span data-stu-id="b209d-148">&amp; Chr(34) &amp; " ci_phrasematch " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="b209d-149">另一个示例是一个筛选器的<b>Subject</b>属性值等于单词正确的内容，其中用双引号括起来 word 材料 （英文） 的 DASL 筛选器字符串。</span><span class="sxs-lookup"><span data-stu-id="b209d-149">Another example is a DASL filter string that filters for the <b>Subject</b> property being equal to the words the right stuff, where the word stuff is enclosed by double quotes.</span></span> <span data-ttu-id="b209d-150">此情况下，必须对该双引号进行转义，如下所示：</span><span class="sxs-lookup"><span data-stu-id="b209d-150">In this case, you must escape the enclosing double quotes as follows:</span></span></para>
+          <para><span data-ttu-id="b209d-151">筛选器 ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= right"的"资料"""</span><span class="sxs-lookup"><span data-stu-id="b209d-151">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'the right ""stuff""'"</span></span></para>
+          <para><span data-ttu-id="b209d-152">对于包含空格、单引号、双引号或百分号字符的命名属性，对这些属性的引用将应用一组不同的转义规则。</span><span class="sxs-lookup"><span data-stu-id="b209d-152">A different set of escaping rules apply to a property reference for named properties that contain the space, single quote, double quote, or percent character.</span></span> <span data-ttu-id="b209d-153">有关更多信息，请参阅按命名空间引用属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-153">For more information, see Referencing Properties by Namespace.</span></span></para>
+          <para><span data-ttu-id="b209d-154">日期</span><span class="sxs-lookup"><span data-stu-id="b209d-154">Date</span></span></para>
+          <para><span data-ttu-id="b209d-155">尽管通常与日期格式存储日期和时间，查找和 Restrict 方法将需要的日期和时间要转换为字符串表示形式。</span><span class="sxs-lookup"><span data-stu-id="b209d-155">Although dates and times are typically stored with a Date format, the Find and Restrict methods require that the date and time be converted to a string representation.</span></span> <span data-ttu-id="b209d-156">为确保日期的格式满足 Microsoft Outlook 的要求，请使用 Format 函数。</span><span class="sxs-lookup"><span data-stu-id="b209d-156">To make sure that the date is formatted as Microsoft Outlook expects, use the Format function.</span></span> <span data-ttu-id="b209d-157">下面的示例创建一个筛选器，用于查找在 1999 年 1 月 15 日下午 3:30 之后修改过的所有联系人。</span><span class="sxs-lookup"><span data-stu-id="b209d-157">The following example creates a filter to find all contacts that have been modified after January 15, 1999 at 3:30 P.M.</span></span> </para>
+          <para><span data-ttu-id="b209d-158">sFilter ="[LastModificationTime] &gt; "&amp;格式 ("1/15/99 下午 3:30"，"ddddd h:nn AMPM") &amp; "'"</span><span class="sxs-lookup"><span data-stu-id="b209d-158">sFilter = "[LastModificationTime] &gt; '" &amp; Format("1/15/99 3:30pm", "ddddd h:nn AMPM") &amp; "'"</span></span></para>
+          <para><span data-ttu-id="b209d-159">Boolean 运算符</span><span class="sxs-lookup"><span data-stu-id="b209d-159">Boolean Operators</span></span></para>
+          <para><span data-ttu-id="b209d-p116">Boolean 运算符、TRUE/FALSE、YES/NO 和 ON/OFF 等都不应转换为字符串。例如，要确定是否已为联系人启用日记，可使用以下筛选器：</span><span class="sxs-lookup"><span data-stu-id="b209d-p116">Boolean operators, TRUE/FALSE, YES/NO, ON/OFF, and so on, should not be converted to a string. For example, to determine whether journaling is enabled for contacts, you can use this filter: </span></span></para>
+          <para><span data-ttu-id="b209d-162">sFilter ="[日记] = True"</span><span class="sxs-lookup"><span data-stu-id="b209d-162">sFilter = "[Journal] = True"</span></span> </para>
+          <para><span data-ttu-id="b209d-163">
+            <b>注意</b>： 如果您使用引号作为 Boolean 字段的分隔符，然后为空字符串将查找其字段为 false，则项目和所有非空字符串将查找其字段为 True 的项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-163">
+            <b>Note</b>: If you use quotation marks as delimiters with Boolean fields, then an empty string will find items whose fields are False and all non-empty strings will find items whose fields are True.</span></span></para>
+          <para><span data-ttu-id="b209d-164">关键字（或类别）</span><span class="sxs-lookup"><span data-stu-id="b209d-164">Keywords (or Categories)</span></span></para>
+          <para><span data-ttu-id="b209d-165">类别字段为类型关键字，旨在保存多个值。</span><span class="sxs-lookup"><span data-stu-id="b209d-165">The Categories field is of type keywords, which is designed to hold multiple values.</span></span> <span data-ttu-id="b209d-166">如果以编程方式进行访问，则类别字段的行为与文本字段类似，且字符串必须完全匹配。</span><span class="sxs-lookup"><span data-stu-id="b209d-166">When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly.</span></span> <span data-ttu-id="b209d-167">文本字符串中的值将通过逗号和空格分隔。</span><span class="sxs-lookup"><span data-stu-id="b209d-167">Values in the text string are separated by a comma and a space.</span></span> <span data-ttu-id="b209d-168">这通常意味着，当关键字字段包含多个值时，不能使用 Find 和 Restrict 方法对关键字字段进行操作。</span><span class="sxs-lookup"><span data-stu-id="b209d-168">This typically means that you cannot use the Find and Restrict methods on a keywords field if it contains more than one value.</span></span> <span data-ttu-id="b209d-169">例如，如果“商务”类别和“商务和社会”类别中各包含一个联系人，则无法轻松使用 Find 和 Restrict 方法检索“商务”类别中的所有项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-169">For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the Find and Restrict methods to retrieve all items that are in the Business category.</span></span> <span data-ttu-id="b209d-170">但可循环遍历文件夹中的所有联系人，并使用 Instr 函数测试字符串“商务”是否包含在整个关键字字段中。</span><span class="sxs-lookup"><span data-stu-id="b209d-170">Instead, you can loop through all contacts in the folder and use the Instr function to test whether the string "Business" is contained within the entire keywords field.</span></span> </para>
+          <para><span data-ttu-id="b209d-171">
+            <b>注意</b>： 一个可能的例外是限定为 2 或更低值的类别字段。</span><span class="sxs-lookup"><span data-stu-id="b209d-171">
+            <b>Note</b>: A possible exception is if you limit the Categories field to two, or a low number of values.</span></span> <span data-ttu-id="b209d-172">此时，可以使用 Find 和 Restrict 方法结合 OR 逻辑运算符来检索所有商务联系人。</span><span class="sxs-lookup"><span data-stu-id="b209d-172">Then you can use the Find and Restrict methods with the OR logical operator to retrieve all Business contacts.</span></span> <span data-ttu-id="b209d-173">例如（在伪代码中）：“商务” OR “商务, 个人” OR “个人, 商务”。</span><span class="sxs-lookup"><span data-stu-id="b209d-173">For example (in pseudocode): "Business" OR "Business, Personal" OR "Personal, Business."</span></span> <span data-ttu-id="b209d-174">类别字符串不区分大小写。</span><span class="sxs-lookup"><span data-stu-id="b209d-174">Category strings are not case sensitive.</span></span></para>
+          <para><span data-ttu-id="b209d-175">整数</span><span class="sxs-lookup"><span data-stu-id="b209d-175">Integer</span></span></para>
+          <para><span data-ttu-id="b209d-176">您可以搜索整数字段使用或不带引号作为分隔符。</span><span class="sxs-lookup"><span data-stu-id="b209d-176">You can search for Integer fields with or without quotation marks as delimiters.</span></span> <span data-ttu-id="b209d-177">以下筛选器将查找与 Outlook 2000 创建的联系人：</span><span class="sxs-lookup"><span data-stu-id="b209d-177">The following filters will find contacts that were created with  Outlook 2000:</span></span> </para>
+          <para><span data-ttu-id="b209d-178">sFilter ="[OutlookInternalVersion] = 92711"</span><span class="sxs-lookup"><span data-stu-id="b209d-178">sFilter = "[OutlookInternalVersion] = 92711"</span></span> </para>
+          <para><span data-ttu-id="b209d-179">sFilter ="[OutlookInternalVersion] = '92711'"</span><span class="sxs-lookup"><span data-stu-id="b209d-179">sFilter = "[OutlookInternalVersion] = '92711'"</span></span></para>
+          <para><span data-ttu-id="b209d-180">使用变量作为筛选器的一部分</span><span class="sxs-lookup"><span data-stu-id="b209d-180">Using Variables as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="b209d-181">如 Restrict 方法示例所示，可以将从变量的值用作筛选器的一部分。</span><span class="sxs-lookup"><span data-stu-id="b209d-181">As the Restrict method example illustrates, you can use values from variables as part of the filter.</span></span> <span data-ttu-id="b209d-182">以下 Microsoft Visual Basic 代码示例说明如何使用变量作为筛选器部分的语法。</span><span class="sxs-lookup"><span data-stu-id="b209d-182">The following Microsoft Visual Basic code sample illustrates syntax that uses variables as part of the filter.</span></span> </para>
+          <para><span data-ttu-id="b209d-183">sFullName ="Dan Wilson"</span><span class="sxs-lookup"><span data-stu-id="b209d-183">sFullName = "Dan Wilson"</span></span> </para>
+          <para> <span data-ttu-id="b209d-184">此方法使用 chr （34） 以分隔值： sFilter ="[FullName] =" &amp; chr （34) &amp; sFullName &amp; chr （34)</span><span class="sxs-lookup"><span data-stu-id="b209d-184">This approach uses Chr(34) to delimit the value: sFilter = "[FullName] = " &amp; Chr(34) &amp; sFullName &amp; Chr(34)</span></span> </para>
+          <para> <span data-ttu-id="b209d-185">此方法使用双引号以分隔值： sFilter ="[FullName] =""" &amp; sFullName &amp; """</span><span class="sxs-lookup"><span data-stu-id="b209d-185">This approach uses double quotation marks to delimit the value: sFilter = "[FullName] = """ &amp; sFullName &amp; """"</span></span></para>
+          <para><span data-ttu-id="b209d-186">使用逻辑运算符作为筛选器的一部分</span><span class="sxs-lookup"><span data-stu-id="b209d-186">Using Logical Operators as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="b209d-187">可以使用的逻辑运算符为 AND、OR 和 NOT。</span><span class="sxs-lookup"><span data-stu-id="b209d-187">Logical operators that are allowed are AND, OR, and NOT.</span></span> <span data-ttu-id="b209d-188">下面是 Restrict 方法的语句变体，因此你可指定多个条件。</span><span class="sxs-lookup"><span data-stu-id="b209d-188">The following are variations of the clause for the Restrict method, so you can specify multiple criteria.</span></span>  </para>
+          <para><span data-ttu-id="b209d-p122">OR：以下代码返回所有类别为“商务”或“个人”的联系人项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-p122">OR: The following code returns all contact items that have either Business or Personal as their category. </span></span></para>
+          <para><span data-ttu-id="b209d-190">sFilter ="[类别] = 个人或者 [类别] = 商务"</span><span class="sxs-lookup"><span data-stu-id="b209d-190">sFilter = "[Categories] = 'Personal' Or [Categories] = 'Business'"</span></span> </para>
+          <para><span data-ttu-id="b209d-p123">AND：以下代码检索所有工作单位为 Microsoft 的私人联系人。</span><span class="sxs-lookup"><span data-stu-id="b209d-p123">AND: The following code retrieves all personal contacts who work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="b209d-192">sFilter ="[类别] = 个人并 [CompanyName] = 'Microsoft'"</span><span class="sxs-lookup"><span data-stu-id="b209d-192">sFilter = "[Categories] = 'Personal' And [CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="b209d-p124">NOT：以下代码检索所有工作单位不是 Microsoft 的私人联系人。</span><span class="sxs-lookup"><span data-stu-id="b209d-p124">NOT: The following code retrieves all personal contacts who don't work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="b209d-194">sFilter ="[类别] = 个人，而不 ([CompanyName] = 'Microsoft')"</span><span class="sxs-lookup"><span data-stu-id="b209d-194">sFilter = "[Categories] = 'Personal' And Not([CompanyName] = 'Microsoft')"</span></span></para>
+          <para><span data-ttu-id="b209d-195">其他注意事项</span><span class="sxs-lookup"><span data-stu-id="b209d-195">Additional Notes</span></span></para>
+          <para><span data-ttu-id="b209d-196">如果您试图查找或 Restrict 方法使用用户定义的字段，字段必须定义在文件夹中，否则会发生错误。</span><span class="sxs-lookup"><span data-stu-id="b209d-196">If you are trying to use the Find or Restrict methods with user-defined fields, the fields must be defined in the folder, otherwise an error will occur.</span></span> <span data-ttu-id="b209d-197">无法执行“包含”操作。</span><span class="sxs-lookup"><span data-stu-id="b209d-197">There is no way to perform a "contains" operation.</span></span> <span data-ttu-id="b209d-198">例如，不能使用 Find 和 Restrict 搜索“主题”字段中包含特定字词的项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-198">For example, you cannot use Find or Restrict to search for items that have a particular word in the Subject field.</span></span> <span data-ttu-id="b209d-199">而应使用 AdvancedSearch 方法，或循环遍历文件夹中的所有项目并使用 InStr 函数在字段内执行搜索操作。</span><span class="sxs-lookup"><span data-stu-id="b209d-199">Instead, you can use the AdvancedSearch method, or you can loop through all of the items in the folder and use the InStr function to perform a search within a field.</span></span> <span data-ttu-id="b209d-200">可使用 Restrict 方法搜索以特定范围内的字符开始的项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-200">You can use the Restrict method to search for items that begin within a certain range of characters.</span></span> <span data-ttu-id="b209d-201">例如，若要搜索姓氏以字母 M 开头的所有联系人，请使用以下筛选器：</span><span class="sxs-lookup"><span data-stu-id="b209d-201">For example, to search for all contacts with a last name beginning with the letter M, use this filter:</span></span> </para>
+          <para><span data-ttu-id="b209d-202">sFilter ="[姓氏] &gt; LZZZ' 和 [LastName] &lt; ' N '"</span><span class="sxs-lookup"><span data-stu-id="b209d-202">sFilter = "[LastName] &gt; 'LZZZ' And [LastName] &lt; 'N'"</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNext">
+      <MemberSignature Language="C#" Value="public object FindNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object FindNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ FindNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="b209d-203">后<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />方法运行时，此方法查找并返回指定集合中的下一个 Outlook 项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-203">After the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  method runs, this method finds and returns the next Outlook item in the specified collection.</span></span></summary>
+        <returns><span data-ttu-id="b209d-204">一个代表在集合中找到的下一个 Outlook 项目的 Object 值。</span><span class="sxs-lookup"><span data-stu-id="b209d-204">An Object value that represents the next Outlook item found in the collection.</span></span></returns>
+        <remarks><para> <span data-ttu-id="b209d-205">此搜索操作从当前位置，与以前用 <b>Find</b> 方法设置的表达式匹配开始。</span><span class="sxs-lookup"><span data-stu-id="b209d-205">The search operation begins from the current position, which matches the expression previously set through the <b>Find</b> method.</span></span></para>
+          <para><span data-ttu-id="b209d-206">Outlook 项目对象，如果调用成功，则该方法返回如果失败，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="b209d-206">The method returns an Outlook item object if the call succeeds; it returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if it fails.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFirst">
+      <MemberSignature Language="C#" Value="public object GetFirst ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFirst() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFirst () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetFirst();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(86)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="b209d-207">返回集合中的第一个对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-207">Returns the first object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="b209d-208">一个 Object 值，代表集合包含的第一个对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-208">An Object value that represents the first object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="b209d-209">返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.</span><span class="sxs-lookup"><span data-stu-id="b209d-209">Returns <b>Nothing</b> if no first object exists, for example, if there are no objects in the collection.To ensure correct operation of the <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="b209d-210">要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</span><span class="sxs-lookup"><span data-stu-id="b209d-210">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLast">
+      <MemberSignature Language="C#" Value="public object GetLast ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetLast() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLast () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetLast();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(88)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="b209d-211">返回集合中的最后一个对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-211">Returns the last object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="b209d-212">一个 Object 值，代表集合包含的最后一个对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-212">An Object value that represents the last object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="b209d-213">返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.</span><span class="sxs-lookup"><span data-stu-id="b209d-213">It returns <b>Nothing</b> if no last object exists, for example, if the collection is empty.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="b209d-214">要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</span><span class="sxs-lookup"><span data-stu-id="b209d-214">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNext">
+      <MemberSignature Language="C#" Value="public object GetNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(87)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="b209d-215">返回集合中的下一个对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-215">Returns the next object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="b209d-216">一个 Object 值，代表集合包含的下一个对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-216">An Object value that represents the next object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="b209d-217">返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>.</span><span class="sxs-lookup"><span data-stu-id="b209d-217">It returns <b>Nothing</b> if no next object exists, for example, if already positioned at the end of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <b>GetNext</b>, and <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="b209d-218">要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</span><span class="sxs-lookup"><span data-stu-id="b209d-218">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrevious">
+      <MemberSignature Language="C#" Value="public object GetPrevious ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetPrevious() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPrevious () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetPrevious();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(89)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="b209d-219">返回集合中上一个对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-219">Returns the previous object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="b209d-220">一个 Object 值，代表集合包含的上一个对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-220">An Object value that represents the previous object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="b209d-221">返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。</span><span class="sxs-lookup"><span data-stu-id="b209d-221">It returns <b>Nothing</b> if no previous object exists, for example, if already positioned at the beginning of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, and <b>GetPrevious</b> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="b209d-222">要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</span><span class="sxs-lookup"><span data-stu-id="b209d-222">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeRecurrences">
+      <MemberSignature Language="C#" Value="public bool IncludeRecurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeRecurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeRecurrences As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeRecurrences { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="b209d-223">返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b> ，如果<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合应包括定期模式。</span><span class="sxs-lookup"><span data-stu-id="b209d-223">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates <b>True</b> if the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection should include recurrence patterns.</span></span> <span data-ttu-id="b209d-224">读/写。</span><span class="sxs-lookup"><span data-stu-id="b209d-224">Read/write.</span></span></summary>
+        <value>To be added.</value>
+        <remarks><para><span data-ttu-id="b209d-225">此属性才有意义，如果<b>Items</b>集合包含约会，并不按任何属性以外的其他<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />升序排序。</span><span class="sxs-lookup"><span data-stu-id="b209d-225">This property only has an effect if the <b>Items</b> collection contains appointments and is not sorted by any property other than <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> in ascending order.</span></span> <span data-ttu-id="b209d-226">默认值为 <b>False</b> 。</span><span class="sxs-lookup"><span data-stu-id="b209d-226">The default value is <b>False</b>.</span></span> <span data-ttu-id="b209d-227">使用此属性时您想要检索给定日期，所有的约会在定期约会会通常不会显示因为它们不与任何特定日期相关联。</span><span class="sxs-lookup"><span data-stu-id="b209d-227">Use this property when you want to retrieve all appointments for a given date, where recurring appointments would not normally appear because they are not associated with any specific date.</span></span> <span data-ttu-id="b209d-228">如果需要进行排序和筛选在包含定期约会的约会项目，则必须按以下顺序进行: 升序排序的项进行排序，将 <b>IncludeRecurrences</b> 设置为 <b>True</b> ，然后筛选的项。</span><span class="sxs-lookup"><span data-stu-id="b209d-228">If you need to sort and filter on appointment items that contain recurring appointments, you must do so in this order: sort the items in ascending order, set <b>IncludeRecurrences</b> to <b>True</b>, and then filter the items.</span></span> <span data-ttu-id="b209d-229">有关演示此顺序的代码示例，请参阅下面的第二个示例。</span><span class="sxs-lookup"><span data-stu-id="b209d-229">For a code sample showing this order, see the second example below.</span></span> <span data-ttu-id="b209d-230">如果该集合包含不具有结束日期的定期约会，将属性设置为 <b>True</b> 可能会导致该集合无穷大。</span><span class="sxs-lookup"><span data-stu-id="b209d-230">If the collection includes recurring appointments with no end date, setting the property to <b>True</b> may cause the collection to be of infinite count.</span></span> <span data-ttu-id="b209d-231">一定要为此测试纳入任何循环。</span><span class="sxs-lookup"><span data-stu-id="b209d-231">Be sure to include a test for this in any loop.</span></span> <span data-ttu-id="b209d-232">当循环 <b>项</b> 集合的 <b>IncludeRecurrence</b> 属性设置为 <b>True</b> 时，不应使用 <b>项</b> 集合的 <b>Count</b> 属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-232">You should not use <b>Count</b> property of <b>Items</b> collection when iterating <b>Items</b> collection with <b>IncludeRecurrence</b> property set to <b>True</b>.</span></span> <span data-ttu-id="b209d-233"><b>计数</b> 的值将是未定义的值。</span><span class="sxs-lookup"><span data-stu-id="b209d-233">The value of <b>Count</b> will be an undefined value.</span></span></para>
+          <para><span data-ttu-id="b209d-234">
+            <b>警告</b>： 筛选的匹配项的已排序列表，则会导致无法按预期方式工作的 IncludeRecurrences 属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-234">
+            <b>Caution</b>: Filtering on a sorted list of occurrences will cause the IncludeRecurrences property not to work as expected.</span></span> <span data-ttu-id="b209d-235">例如，按以下顺序将返回约会的所有实例;定期和非定期: (1) 按 Start 属性 (2) 设置为 false (3) 呼叫 限制 (即筛选器) 的属性进行排序。</span><span class="sxs-lookup"><span data-stu-id="b209d-235">For example, the following sequence will return all appointment occurrences; recurring and non-recurring: (1) Sort by Start property (2) Set property to false (3) call Restrict (i.e., filter).</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index"><span data-ttu-id="b209d-236">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</span><span class="sxs-lookup"><span data-stu-id="b209d-236">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="b209d-237">从集合中返回一个 Outlook 项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-237">Returns an Outlook item from a collection.</span></span></summary>
+        <value><span data-ttu-id="b209d-238">一个代表指定对象的 Object 值。</span><span class="sxs-lookup"><span data-stu-id="b209d-238">An Object value that represents the specified object.</span></span></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="b209d-p133">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="b209d-p133">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawTable">
+      <MemberSignature Language="C#" Value="public object RawTable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object RawTable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.RawTable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawTable As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RawTable { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="b209d-241">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="b209d-241">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(84)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index"><span data-ttu-id="b209d-242">对象在集合中的索引值，索引从 1 开始编号。</span><span class="sxs-lookup"><span data-stu-id="b209d-242">The 1-based index value of the object within the collection.</span></span></param>
+        <summary><span data-ttu-id="b209d-243">从集合中删除对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-243">Removes an object from the collection.</span></span></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetColumns">
+      <MemberSignature Language="C#" Value="public void ResetColumns ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetColumns() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.ResetColumns" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetColumns ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetColumns();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(93)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="b209d-244">清除属性与缓存的<see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />方法。</span><span class="sxs-lookup"><span data-stu-id="b209d-244">Clears the properties that have been cached with the <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> method.</span></span></summary>
+        <remarks><para><span data-ttu-id="b209d-p134">在调用 <b>ResetColumns</b> 方法后，所有属性都都可以访问。 <b>SetColumns</b> 应重用再次存储新的属性。如果没有先调用 <b>SetColumns</b> ， <b>ResetColumns</b> 将没有任何效果。</span><span class="sxs-lookup"><span data-stu-id="b209d-p134">All properties are accessible after calling the <b>ResetColumns</b> method. <b>SetColumns</b> should be reused to store new properties again. <b>ResetColumns</b> does nothing if <b>SetColumns</b> has not been called first.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restrict">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Items Restrict (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Items Restrict([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Restrict (Filter As String) As Items" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Items ^ Restrict(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Items</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter"><span data-ttu-id="b209d-248">要应用的筛选器字符串表达式。</span><span class="sxs-lookup"><span data-stu-id="b209d-248">A filter string expression to be applied.</span></span> <span data-ttu-id="b209d-249">有关详细信息，请参阅<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />方法。</span><span class="sxs-lookup"><span data-stu-id="b209d-249">For details, see the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  method.</span></span></param>
+        <summary><span data-ttu-id="b209d-250">应用到筛选器<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合，返回包含的所有筛选器匹配从原始项目的新集合。</span><span class="sxs-lookup"><span data-stu-id="b209d-250">Applies a filter to the <see cref="T:Microsoft.Office.Interop.Outlook.Items" />  collection, returning a new collection containing all of the items from the original that match the filter.</span></span></summary>
+        <returns><span data-ttu-id="b209d-251">一个<b>Items</b>集合，代表从原始<b>Items</b>集合的筛选器匹配的项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-251">An <b>Items</b> collection that represents the items from the original <b>Items</b> collection which match the filter.</span></span></returns>
+        <remarks><para><span data-ttu-id="b209d-252">此方法是一种方式使用<see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />方法或<see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />方法以循环访问集合中的特定项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-252">This method is an alternative to using the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  method or <see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />  method to iterate over specific items within a collection.</span></span> <span data-ttu-id="b209d-253">如果集合中只有较少数量的项目，<b>Find</b> 或 <b>FindNext</b> 方法要比筛选更快。</span><span class="sxs-lookup"><span data-stu-id="b209d-253">The <b>Find</b> or <b>FindNext</b> methods are faster than filtering if there are a small number of items.</span></span> <span data-ttu-id="b209d-254">如果集合中项目较多，尤其是预计在大型集合中仅可查找到少量几个项目时，<b>Restrict</b> 方法的速度会明显更快。</span><span class="sxs-lookup"><span data-stu-id="b209d-254">The <b>Restrict</b> method is significantly faster if there is a large number of items in the collection, especially if only a few items in a large collection are expected to be found.</span></span></para>
+          <para><span data-ttu-id="b209d-255">
+            <b>注意</b>： 如果您使用用户定义的字段为<b>查找</b>或<b>Restrict</b>子句的一部分，用户定义的字段必须存在的文件夹中。</span><span class="sxs-lookup"><span data-stu-id="b209d-255">
+            <b>Note</b>: If you are using user-defined fields as part of a <b>Find</b> or <b>Restrict</b> clause, the user-defined fields must exist in the folder.</span></span> <span data-ttu-id="b209d-256">否则代码会产生错误，指出字段未知。</span><span class="sxs-lookup"><span data-stu-id="b209d-256">Otherwise the code will generate an error stating that the field is unknown.</span></span> <span data-ttu-id="b209d-257">可以通过显示“字段选择器”然后单击“新建”来将字段添加到文件夹中。</span><span class="sxs-lookup"><span data-stu-id="b209d-257">You can add a field to a folder by displaying the Field Chooser and clicking New.</span></span></para>
+          <para><span data-ttu-id="b209d-258">此方法不能与下列属性一起使用，否则将导致错误：</span><span class="sxs-lookup"><span data-stu-id="b209d-258">This method cannot be used and will cause an error with the following properties:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="b209d-259">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span><span class="sxs-lookup"><span data-stu-id="b209d-259">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span></span></description>
+              <description><span data-ttu-id="b209d-260">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span><span class="sxs-lookup"><span data-stu-id="b209d-260">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="b209d-261">创建 Find 方法和 Restrict 方法的筛选器</span><span class="sxs-lookup"><span data-stu-id="b209d-261">Creating Filters for the Find and Restrict Methods</span></span></para>
+          <para><span data-ttu-id="b209d-p138">根据要筛选的字段类型，筛选器的语法将有所不同。</span><span class="sxs-lookup"><span data-stu-id="b209d-p138">The syntax for the filter varies depending on the type of field you are filtering on. </span></span></para>
+          <para><span data-ttu-id="b209d-263">字符串（适用于文本字段）</span><span class="sxs-lookup"><span data-stu-id="b209d-263">String (for Text fields)</span></span> </para>
+          <para><span data-ttu-id="b209d-264">搜索文本字段时，您可以使用撇号 （'） 或双引号 ("")，以分隔的值的筛选器的一部分。</span><span class="sxs-lookup"><span data-stu-id="b209d-264">When searching Text fields, you can use either an apostrophe ('), or  double quotation marks (""), to delimit the values that are part of the filter.</span></span> <span data-ttu-id="b209d-265">例如，下面的行函数类型所有正确时字段为<b>字符串</b>（C# 中的<b>字符串</b>）：</span><span class="sxs-lookup"><span data-stu-id="b209d-265">For example, all of the following lines function correctly when the field is of type <b>String</b> (<b>string</b> in C#):</span></span> </para>
+          <para><span data-ttu-id="b209d-266">sFilter ="[CompanyName] = 'Microsoft'"</span><span class="sxs-lookup"><span data-stu-id="b209d-266">sFilter = "[CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="b209d-267">sFilter ="[CompanyName] =""Microsoft"""</span><span class="sxs-lookup"><span data-stu-id="b209d-267">sFilter = "[CompanyName] = ""Microsoft"""</span></span> </para>
+          <para><span data-ttu-id="b209d-268">sFilter ="[CompanyName] =" &amp; chr （34) &amp; "Microsoft" &amp; chr （34)</span><span class="sxs-lookup"><span data-stu-id="b209d-268">sFilter = "[CompanyName] = " &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</span></span></para>
+          <para><span data-ttu-id="b209d-p140">在 Jet 或 DASL 查询中指定筛选器的过程中，如果使用一对单引号来分隔构成筛选器的字符串，而且该字符串包含另一个单引号或撇号，则应在这个单引号或撇号前面添加一个单引号以用作转义符。如果使用一对双引号来分隔字符串，则也可使用类似方法。如果该字符串包含一个双引号，则应在该双引号前面添加一个双引号以用作转义符。</span><span class="sxs-lookup"><span data-stu-id="b209d-p140">In specifying a filter in a Jet or DASL query, if you use a pair of single quotes to delimit a string that is part of the filter, and the string contains another single quote or apostrophe, then add a single quote as an escape character before the single quote or apostrophe. Use a similar approach if you use a pair of double quotes to delimit a string. If the string contains a double quote, then add a double quote as an escape character before the double quote.</span></span></para>
+          <para><span data-ttu-id="b209d-272">例如，在 DASL 筛选器的筛选的<b>Subject</b>属性值等于 word 不能、 整个筛选器字符串分隔对双引号，并且不能嵌入的字符串字符串由分隔对单引号。</span><span class="sxs-lookup"><span data-stu-id="b209d-272">For example, in the DASL filter string that filters for the <b>Subject</b> property being equal to the word can't, the entire filter string is delimited by a pair of double quotes, and the embedded string can't is delimited by a pair of single quotes.</span></span> <span data-ttu-id="b209d-273">有三个需要进行转义此筛选器字符串中的字符： 起始双引号和属性引用的结束双引号http://schemas.microsoft.com/mapi/proptag/0x0037001f，而且撇号词在值条件中的不能。</span><span class="sxs-lookup"><span data-stu-id="b209d-273">There are three characters that you need to escape in this filter string: the starting double quote and the ending double quote for the property reference of http://schemas.microsoft.com/mapi/proptag/0x0037001f, and the apostrophe in the value condition for the word can't.</span></span> <span data-ttu-id="b209d-274">通过应用适当的转义符，您可将筛选器字符串表示如下：</span><span class="sxs-lookup"><span data-stu-id="b209d-274">Applying the appropriate escape characters, you can express the filter string as follows:</span></span></para>
+          <para><span data-ttu-id="b209d-275">筛选器 ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= 可以 t"</span><span class="sxs-lookup"><span data-stu-id="b209d-275">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'can''t'"</span></span></para>
+          <para><span data-ttu-id="b209d-p142">
+
+ 
+
+或者，也可使用 chr(34) 函数来代表用作转义符的双引号（其 ASCII 字符值为 34）。通过使用 chr(34) 代替双引号转义符，您可将上一个示例表示如下：
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="b209d-p142">Alternatively, you can use the chr(34) function to represent the double quote (whose ASCII character value is 34) that is used as an escape character. Using the chr(34) substitution for a double-quote escape character, you can express the last example as follows:</span></span></para>
+          <para><span data-ttu-id="b209d-278">筛选器 ="@SQL =" &amp; chr （34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f"_</span><span class="sxs-lookup"><span data-stu-id="b209d-278">filter = "@SQL= " &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</span></span></para>
+          <para>    <span data-ttu-id="b209d-279">&amp;Chr （34) &amp; "=" &amp; "' 可以 t"</span><span class="sxs-lookup"><span data-stu-id="b209d-279">&amp; Chr(34) &amp; " = " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="b209d-p143">对于使用 <b>ci_startswith</b> 或 <b>ci_phrasematch</b> 运算符的 DASL 查询而言，转义单引号和双引号字符也是必需的。例如，以下查询可在邮件主题中执行针对 can't 的短语匹配查询：
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="b209d-p143">Escaping single and double quote characters is also required for DASL queries with the <b>ci_startswith</b> or <b>ci_phrasematch</b> operators. For example, the following query performs a phrase match query for can't in the message subject: </span></span></para>
+          <para><span data-ttu-id="b209d-282">筛选器 ="@SQL =" &amp; chr （34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E"_</span><span class="sxs-lookup"><span data-stu-id="b209d-282">filter = "@SQL=" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</span></span></para>
+          <para>    <span data-ttu-id="b209d-283">&amp;Chr （34) &amp; "ci_phrasematch" &amp; "' 可以 t"</span><span class="sxs-lookup"><span data-stu-id="b209d-283">&amp; Chr(34) &amp; " ci_phrasematch " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="b209d-284">另一个示例是一个筛选器的<b>Subject</b>属性值等于单词正确的内容，其中用双引号括起来 word 材料 （英文） 的 DASL 筛选器字符串。</span><span class="sxs-lookup"><span data-stu-id="b209d-284">Another example is a DASL filter string that filters for the <b>Subject</b> property being equal to the words the right stuff, where the word stuff is enclosed by double quotes.</span></span> <span data-ttu-id="b209d-285">此情况下，必须对该双引号进行转义，如下所示：</span><span class="sxs-lookup"><span data-stu-id="b209d-285">In this case, you must escape the enclosing double quotes as follows:</span></span></para>
+          <para><span data-ttu-id="b209d-286">筛选器 ="@SQL =""http://schemas.microsoft.com/mapi/proptag/0x0037001f""= right"的"资料"""</span><span class="sxs-lookup"><span data-stu-id="b209d-286">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'the right ""stuff""'"</span></span></para>
+          <para><span data-ttu-id="b209d-287">对于包含空格、单引号、双引号或百分号字符的命名属性，对这些属性的引用将应用一组不同的转义规则。</span><span class="sxs-lookup"><span data-stu-id="b209d-287">A different set of escaping rules apply to a property reference for named properties that contain the space, single quote, double quote, or percent character.</span></span> <span data-ttu-id="b209d-288">有关更多信息，请参阅按命名空间引用属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-288">For more information, see Referencing Properties by Namespace.</span></span></para>
+          <para><span data-ttu-id="b209d-289">日期</span><span class="sxs-lookup"><span data-stu-id="b209d-289">Date</span></span></para>
+          <para><span data-ttu-id="b209d-290">尽管日期和时间通常与<b>查找</b>日期格式存储和<b>Restrict</b>方法要求的日期和时间转换为字符串表示形式。</span><span class="sxs-lookup"><span data-stu-id="b209d-290">Although dates and times are typically stored with a Date format, the <b>Find</b> and <b>Restrict</b> methods require that the date and time be converted to a string representation.</span></span> <span data-ttu-id="b209d-291">为确保日期的格式满足 Microsoft Outlook 的要求，请使用 <b>Format</b> 函数。</span><span class="sxs-lookup"><span data-stu-id="b209d-291">To make sure that the date is formatted as Microsoft Outlook expects, use the <b>Format</b> function.</span></span> <span data-ttu-id="b209d-292">以下示例创建了筛选器以查找所有在 1999 年 1 月 15 日下午 3:30 以后修改过的联系人。</span><span class="sxs-lookup"><span data-stu-id="b209d-292">The following example creates a filter to find all contacts that have been modified after January 15, 1999 at 3:30 P.M.</span></span> </para>
+          <para><span data-ttu-id="b209d-293">sFilter ="[LastModificationTime] &gt; "&amp;格式 ("1/15/99 下午 3:30"，"ddddd h:nn AMPM") &amp; "'"</span><span class="sxs-lookup"><span data-stu-id="b209d-293">sFilter = "[LastModificationTime] &gt; '" &amp; Format("1/15/99 3:30pm", "ddddd h:nn AMPM") &amp; "'"</span></span></para>
+          <para><span data-ttu-id="b209d-294">Boolean 运算符</span><span class="sxs-lookup"><span data-stu-id="b209d-294">Boolean Operators</span></span></para>
+          <para><span data-ttu-id="b209d-p147">Boolean 运算符、TRUE/FALSE、YES/NO 和 ON/OFF 等都不应转换为字符串。例如，要确定是否已为联系人启用日记，可使用以下筛选器：</span><span class="sxs-lookup"><span data-stu-id="b209d-p147">Boolean operators, TRUE/FALSE, YES/NO, ON/OFF, and so on, should not be converted to a string. For example, to determine whether journaling is enabled for contacts, you can use this filter: </span></span></para>
+          <para><span data-ttu-id="b209d-297">sFilter ="[日记] = True"</span><span class="sxs-lookup"><span data-stu-id="b209d-297">sFilter = "[Journal] = True"</span></span> </para>
+          <para><span data-ttu-id="b209d-298">
+            <b>注意</b>： 如果您使用引号作为<b>Boolean</b>字段的分隔符，然后为空字符串将查找其字段为<b>False</b>的项目和所有非空字符串将查找其字段为<b>True</b>的项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-298">
+            <b>Note</b>: If you use quotation marks as delimiters with <b>Boolean</b> fields, then an empty string will find items whose fields are <b>False</b> and all non-empty strings will find items whose fields are <b>True</b>.</span></span> </para>
+          <para><span data-ttu-id="b209d-299">关键字（或类别）</span><span class="sxs-lookup"><span data-stu-id="b209d-299">Keywords (or Categories)</span></span></para>
+          <para><span data-ttu-id="b209d-300">类别字段为类型关键字，旨在保存多个值。</span><span class="sxs-lookup"><span data-stu-id="b209d-300">The Categories field is of type keywords, which is designed to hold multiple values.</span></span> <span data-ttu-id="b209d-301">如果以编程方式进行访问，则类别字段的行为与文本字段类似，且字符串必须完全匹配。</span><span class="sxs-lookup"><span data-stu-id="b209d-301">When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly.</span></span> <span data-ttu-id="b209d-302">文本字符串中的值将通过逗号和空格分隔。</span><span class="sxs-lookup"><span data-stu-id="b209d-302">Values in the text string are separated by a comma and a space.</span></span> <span data-ttu-id="b209d-303">这通常意味着，当关键字字段包含多个值时，不能使用 <b>Find</b> 和 <b>Restrict</b> 方法对关键字字段进行操作。</span><span class="sxs-lookup"><span data-stu-id="b209d-303">This typically means that you cannot use the <b>Find</b> and <b>Restrict</b> methods on a keywords field if it contains more than one value.</span></span> <span data-ttu-id="b209d-304">例如，如果“商务”类别和“商务和社会”类别中各包含一个联系人，则无法轻松使用 <b>Find</b> 和 <b>Restrict</b> 方法检索“商务”类别中的所有项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-304">For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the <b>Find</b> and <b>Restrict</b> methods to retrieve all items that are in the Business category.</span></span> <span data-ttu-id="b209d-305">但可循环遍历文件夹中的所有联系人，并使用 <b>Instr</b> 函数测试字符串“商务”是否包含在整个关键字字段中。</span><span class="sxs-lookup"><span data-stu-id="b209d-305">Instead, you can loop through all contacts in the folder and use the <b>Instr</b> function to test whether the string "Business" is contained within the entire keywords field.</span></span> </para>
+          <para><span data-ttu-id="b209d-306">
+            <b>注意</b>： 一个可能的例外是限定为 2 或更低值的类别字段。</span><span class="sxs-lookup"><span data-stu-id="b209d-306">
+            <b>Note</b>: A possible exception is if you limit the Categories field to two, or a low number of values.</span></span> <span data-ttu-id="b209d-307">此时，可以使用 <b>Find</b> 和 <b>Restrict</b> 方法结合 OR 逻辑运算符来检索所有商务联系人。</span><span class="sxs-lookup"><span data-stu-id="b209d-307">Then you can use the <b>Find</b> and <b>Restrict</b> methods with the OR logical operator to retrieve all Business contacts.</span></span> <span data-ttu-id="b209d-308">例如（在伪代码中）：“商务” OR “商务, 个人” OR “个人, 商务”。</span><span class="sxs-lookup"><span data-stu-id="b209d-308">For example (in pseudocode): "Business" OR "Business, Personal" OR "Personal, Business."</span></span> <span data-ttu-id="b209d-309">类别字符串不区分大小写。</span><span class="sxs-lookup"><span data-stu-id="b209d-309">Category strings are not case sensitive.</span></span> </para>
+          <para><span data-ttu-id="b209d-310">整数</span><span class="sxs-lookup"><span data-stu-id="b209d-310">Integer</span></span></para>
+          <para><span data-ttu-id="b209d-311">您可以搜索<b>整数</b>字段时，使用或不带引号作为分隔符。</span><span class="sxs-lookup"><span data-stu-id="b209d-311">You can search for <b>Integer</b> fields with, or without quotation marks as delimiters.</span></span> <span data-ttu-id="b209d-312">以下筛选器会发现使用 Outlook 2000 创建的联系人：</span><span class="sxs-lookup"><span data-stu-id="b209d-312">The following filters will find contacts that were created using  Outlook 2000:</span></span> </para>
+          <para><span data-ttu-id="b209d-313">sFilter ="[OutlookInternalVersion] = 92711"</span><span class="sxs-lookup"><span data-stu-id="b209d-313">sFilter = "[OutlookInternalVersion] = 92711"</span></span> </para>
+          <para><span data-ttu-id="b209d-314">sFilter ="[OutlookInternalVersion] = '92711'"</span><span class="sxs-lookup"><span data-stu-id="b209d-314">sFilter = "[OutlookInternalVersion] = '92711'"</span></span></para>
+          <para><span data-ttu-id="b209d-315">使用变量作为筛选器的一部分</span><span class="sxs-lookup"><span data-stu-id="b209d-315">Using Variables as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="b209d-316">如 <b>Restrict</b> 方法示例所示，可使用变量中的值作为筛选器的一部分。</span><span class="sxs-lookup"><span data-stu-id="b209d-316">As the <b>Restrict</b> method example illustrates, you can use values from variables as part of the filter.</span></span> <span data-ttu-id="b209d-317">以下 Microsoft Visual Basic 代码示例说明如何使用变量作为筛选器部分的语法。</span><span class="sxs-lookup"><span data-stu-id="b209d-317">The following Microsoft Visual Basic code sample illustrates syntax that uses variables as part of the filter.</span></span> </para>
+          <para><span data-ttu-id="b209d-318">sFullName ="Dan Wilson"</span><span class="sxs-lookup"><span data-stu-id="b209d-318">sFullName = "Dan Wilson"</span></span> </para>
+          <para><span data-ttu-id="b209d-319">此方法使用 chr （34） 以分隔值。</span><span class="sxs-lookup"><span data-stu-id="b209d-319">' This approach uses Chr(34) to delimit the value.</span></span> </para>
+          <para><span data-ttu-id="b209d-320">sFilter ="[FullName] =" &amp; chr （34) &amp; sFullName &amp; chr （34)</span><span class="sxs-lookup"><span data-stu-id="b209d-320">sFilter = "[FullName] = " &amp; Chr(34) &amp; sFullName &amp; Chr(34)</span></span> </para>
+          <para><span data-ttu-id="b209d-321">此方法使用双引号以分隔值。</span><span class="sxs-lookup"><span data-stu-id="b209d-321">' This approach uses double quotation marks to delimit the value.</span></span> </para>
+          <para><span data-ttu-id="b209d-322">sFilter ="[FullName] =""" &amp; sFullName &amp; """</span><span class="sxs-lookup"><span data-stu-id="b209d-322">sFilter = "[FullName] = """ &amp; sFullName &amp; """"</span></span></para>
+          <para><span data-ttu-id="b209d-323">使用逻辑运算符作为筛选器的一部分</span><span class="sxs-lookup"><span data-stu-id="b209d-323">Using Logical Operators as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="b209d-324">可以使用的逻辑运算符为 AND、OR 和 NOT。</span><span class="sxs-lookup"><span data-stu-id="b209d-324">Logical operators that are allowed are AND, OR, and NOT.</span></span> <span data-ttu-id="b209d-325">以下是子句的使您可以指定多个条件的<b>Restrict</b>方法的变体。</span><span class="sxs-lookup"><span data-stu-id="b209d-325">The following are variations of the clause for the <b>Restrict</b> method so you can specify multiple criteria.</span></span>  </para>
+          <para><span data-ttu-id="b209d-p156">OR：以下代码返回所有类别为“商务”或“个人”的联系人项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-p156">OR: The following code returns all contact items that have either Business or Personal as their category. </span></span></para>
+          <para><span data-ttu-id="b209d-327">sFilter ="[类别] = 个人或者 [类别] = 商务"</span><span class="sxs-lookup"><span data-stu-id="b209d-327">sFilter = "[Categories] = 'Personal' Or [Categories] = 'Business'"</span></span> </para>
+          <para><span data-ttu-id="b209d-p157">AND：以下代码检索所有工作单位为 Microsoft 的私人联系人。</span><span class="sxs-lookup"><span data-stu-id="b209d-p157">AND: The following code retrieves all personal contacts who work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="b209d-329">sFilter ="[类别] = 个人并 [CompanyName] = 'Microsoft'"</span><span class="sxs-lookup"><span data-stu-id="b209d-329">sFilter = "[Categories] = 'Personal' And [CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="b209d-p158">NOT：以下代码检索所有工作单位不是 Microsoft 的私人联系人。</span><span class="sxs-lookup"><span data-stu-id="b209d-p158">NOT: The following code retrieves all personal contacts who don't work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="b209d-331">sFilter ="[类别] = 个人，而不 ([CompanyName] = 'Microsoft')"</span><span class="sxs-lookup"><span data-stu-id="b209d-331">sFilter = "[Categories] = 'Personal' And Not([CompanyName] = 'Microsoft')"</span></span></para>
+          <para><span data-ttu-id="b209d-332">其他注意事项</span><span class="sxs-lookup"><span data-stu-id="b209d-332">Additional Notes</span></span></para>
+          <para><span data-ttu-id="b209d-333">如果试图通过用户定义的字段使用 <b>Find</b> 和 <b>Restrict</b> 方法，这些字段必须在文件夹中已定义，否则将发生错误。</span><span class="sxs-lookup"><span data-stu-id="b209d-333">If you are trying to use the <b>Find</b> or <b>Restrict</b> methods with user-defined fields, the fields must be defined in the folder, otherwise an error will occur.</span></span> <span data-ttu-id="b209d-334">无法执行“包含”操作。</span><span class="sxs-lookup"><span data-stu-id="b209d-334">There is no way to perform a "contains" operation.</span></span> <span data-ttu-id="b209d-335">例如，不能使用 <b>Find</b> 和 <b>Restrict</b> 搜索“主题”字段中包含特定字词的项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-335">For example, you cannot use <b>Find</b> or <b>Restrict</b> to search for items that have a particular word in the Subject field.</span></span> <span data-ttu-id="b209d-336">相反，您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" />方法，或您可循环访问所有文件夹中的项目并使用<b>InStr</b>函数来执行搜索字段中的。</span><span class="sxs-lookup"><span data-stu-id="b209d-336">Instead, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method, or you can loop through all of the items in the folder and use the <b>InStr</b> function to perform a search within a field.</span></span> <span data-ttu-id="b209d-337">可使用 <b>Restrict</b> 方法搜索以特定范围内的字符开始的项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-337">You can use the <b>Restrict</b> method to search for items that begin within a certain range of characters.</span></span> <span data-ttu-id="b209d-338">例如，若要搜索姓氏以字母 M 开头的所有联系人，请使用以下筛选器：</span><span class="sxs-lookup"><span data-stu-id="b209d-338">For example, to search for all contacts with a last name beginning with the letter M, use this filter:</span></span> </para>
+          <para><span data-ttu-id="b209d-339">sFilter ="[姓氏] &gt; LZZZ' 和 [LastName] &lt; ' N '"</span><span class="sxs-lookup"><span data-stu-id="b209d-339">sFilter = "[LastName] &gt; 'LZZZ' And [LastName] &lt; 'N'"</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="b209d-340">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="b209d-340">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="b209d-341">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-341">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks><para><span data-ttu-id="b209d-342"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-342">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="b209d-343">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="b209d-343">Both members serve the same purpose.</span></span> <span data-ttu-id="b209d-344">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="b209d-344">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetColumns">
+      <MemberSignature Language="C#" Value="public void SetColumns (string Columns);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetColumns([in]string Columns) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetColumns (Columns As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetColumns(System::String ^ Columns);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(92)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Columns" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Columns"><span data-ttu-id="b209d-p162">一个包含要缓存的属性的名称的字符串。此字符串中的属性名以逗号分隔。</span><span class="sxs-lookup"><span data-stu-id="b209d-p162">A string that contains the names of the properties to cache. The property names are delimited by commas in this string.</span></span></param>
+        <summary><span data-ttu-id="b209d-347">缓存某些属性，从而极大提高集合中的项目的指定属性的访问速度。</span><span class="sxs-lookup"><span data-stu-id="b209d-347">Caches certain properties for extremely fast access to those particular properties of an item within the collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="b209d-348"><b>SetColumns</b>方法可用于循环访问<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合。</span><span class="sxs-lookup"><span data-stu-id="b209d-348">The <b>SetColumns</b> method is useful for iterating through the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="b209d-349">如果不使用此方法，则Microsoft Outlook必须打开每个项目以访问属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-349">If you don't use this method, Microsoft Outlook must open each item to access the property.</span></span> <span data-ttu-id="b209d-350">使用 <b>SetColumns</b> 方法时，Outlook 只检查您已缓存，并提供快速、 只读方式访问这些属性的属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-350">With the <b>SetColumns</b> method, Outlook only checks the properties that you have cached, and provides fast, read-only access to these properties.</span></span></para>
+          <para><span data-ttu-id="b209d-351">应用 <b>SetColumns</b> 方法对集合中的特定属性之后, 不能读取其他属性的集合;未缓存的属性将返回空值。</span><span class="sxs-lookup"><span data-stu-id="b209d-351">After applying the <b>SetColumns</b> method on specific properties of the collection, you cannot read other properties of that collection; properties which are not cached are returned empty.</span></span> <span data-ttu-id="b209d-352">不能既写到任何该集合的属性。</span><span class="sxs-lookup"><span data-stu-id="b209d-352">You cannot write to any of the properties of that collection either.</span></span> <span data-ttu-id="b209d-353">或者，如果您需要读 / 写、 快速访问一项，使用<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象。</span><span class="sxs-lookup"><span data-stu-id="b209d-353">Alternatively, if you require read-write, fast access to a set of items, use the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span></span></para>
+          <para><span data-ttu-id="b209d-p165">
+            <b>SetColumns</b> 不能使用，并将产生错误，使用返回的对象的任何属性。它不能与下列属性一起使用:</span><span class="sxs-lookup"><span data-stu-id="b209d-p165">
+            <b>SetColumns</b> cannot be used, and will cause an error, with any property that returns an object. It cannot be used with the following properties:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="b209d-356">AutoResolvedWinner</span><span class="sxs-lookup"><span data-stu-id="b209d-356">AutoResolvedWinner</span></span></description>
+              <description><span data-ttu-id="b209d-357">InternetCodePage</span><span class="sxs-lookup"><span data-stu-id="b209d-357">InternetCodePage</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-358">Body</span><span class="sxs-lookup"><span data-stu-id="b209d-358">Body</span></span></description>
+              <description><span data-ttu-id="b209d-359">MeetingWorkspaceURL</span><span class="sxs-lookup"><span data-stu-id="b209d-359">MeetingWorkspaceURL</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-360">BodyFormat</span><span class="sxs-lookup"><span data-stu-id="b209d-360">BodyFormat</span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-361">类别</span><span class="sxs-lookup"><span data-stu-id="b209d-361">Categories</span></span></description>
+              <description><span data-ttu-id="b209d-362">ReceivedByEntryID</span><span class="sxs-lookup"><span data-stu-id="b209d-362">ReceivedByEntryID</span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description><span data-ttu-id="b209d-363">ReceivedOnBehalfOfEntryID</span><span class="sxs-lookup"><span data-stu-id="b209d-363">ReceivedOnBehalfOfEntryID</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-364">类</span><span class="sxs-lookup"><span data-stu-id="b209d-364">Class</span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-365">Companies</span><span class="sxs-lookup"><span data-stu-id="b209d-365">Companies</span></span></description>
+              <description><span data-ttu-id="b209d-366">ReplyRecipients</span><span class="sxs-lookup"><span data-stu-id="b209d-366">ReplyRecipients</span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-367">DownloadState</span><span class="sxs-lookup"><span data-stu-id="b209d-367">DownloadState</span></span></description>
+              <description><span data-ttu-id="b209d-368">Saved</span><span class="sxs-lookup"><span data-stu-id="b209d-368">Saved</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-369">EntryID</span><span class="sxs-lookup"><span data-stu-id="b209d-369">EntryID</span></span></description>
+              <description><span data-ttu-id="b209d-370">Sent</span><span class="sxs-lookup"><span data-stu-id="b209d-370">Sent</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-371">HTMLBody</span><span class="sxs-lookup"><span data-stu-id="b209d-371">HTMLBody</span></span></description>
+              <description><span data-ttu-id="b209d-372">Submitted</span><span class="sxs-lookup"><span data-stu-id="b209d-372">Submitted</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-373">IsConflict</span><span class="sxs-lookup"><span data-stu-id="b209d-373">IsConflict</span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.VotingOptions" />
+              </description>
+            </item>
+          </list>
+          <para><span data-ttu-id="b209d-p166"><b>ConversationIndex</b> 属性不能使用 <b>SetColumns</b> 方法进行缓存。但是，此属性不会导致像上面所列的其他属性的错误。</span><span class="sxs-lookup"><span data-stu-id="b209d-p166">The <b>ConversationIndex</b> property cannot be cached using the <b>SetColumns</b> method. However, this property will not result in an error like the other properties listed above.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sort">
+      <MemberSignature Language="C#" Value="public void Sort (string Property, object Descending);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Sort([in]string Property, [in]object Descending) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Sort(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Sort (Property As String, Optional Descending As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Property" Type="System.String" />
+        <Parameter Name="Descending" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Property"><span data-ttu-id="b209d-376">按其进行排序，这可能用括号括起来，例如，"[公司名称]"的属性的名称。</span><span class="sxs-lookup"><span data-stu-id="b209d-376">The name of the property by which to sort, which may be enclosed in brackets, for example, "[CompanyName]".</span></span> <span data-ttu-id="b209d-377">包含空格的用户定义属性必须括在中括号中。</span><span class="sxs-lookup"><span data-stu-id="b209d-377">User-defined properties that contain spaces must be enclosed in brackets.</span></span> <span data-ttu-id="b209d-378">可能不是用户定义的属性的类型的关键字，并不是多值的属性，如某一类别。</span><span class="sxs-lookup"><span data-stu-id="b209d-378">May not be a user-defined property of type keywords, and may not be a multi-valued property, such as a category.</span></span> <span data-ttu-id="b209d-379">对于用户定义属性，该属性必须存在的<b>UserDefinedProperties</b>集合中<see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />，它表示<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象包含的项目。</span><span class="sxs-lookup"><span data-stu-id="b209d-379">For user-defined properties, the property must exist in the <b>UserDefinedProperties</b> collection for <see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />, which represents the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that contains the items.</span></span></param>
+        <param name="Descending"><span data-ttu-id="b209d-p168"><b>真</b> 要按降序排序。默认值为 <b>False</b> (升序)。 </span><span class="sxs-lookup"><span data-stu-id="b209d-p168"><b>True</b> to sort in descending order. The default value is <b>False</b> (ascending).</span></span></param>
+        <summary><span data-ttu-id="b209d-p169">按指定属性对项目的集合进行排序。在完成该方法后将集合的索引重新设置为 1。</span><span class="sxs-lookup"><span data-stu-id="b209d-p169">Sorts the collection of items by the specified property. The index for the collection is reset to 1 upon completion of this method.</span></span></summary>
+        <remarks><para><span data-ttu-id="b209d-p170">
+            <b>排序</b> 将仅影响集合中项目的顺序。它不影响浏览器视图中项目的顺序。</span><span class="sxs-lookup"><span data-stu-id="b209d-p170">
+            <b>Sort</b> only affects the order of items in a collection. It does not affect the order of items in an explorer view.</span></span></para>
+          <para><span data-ttu-id="b209d-386">
+            <b>排序</b>不能使用并将导致出错，如果<paramref name="property" />参数可以是下列属性之一：</span><span class="sxs-lookup"><span data-stu-id="b209d-386">
+            <b>Sort</b> cannot be used and will cause an error if the <paramref name="property" /> paramater is one of the following properties:</span></span>                </para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="b209d-387">
+                <b>类别</b>
+              </span><span class="sxs-lookup"><span data-stu-id="b209d-387">
+                <b>Categories</b>
+              </span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnly" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnlyCompany" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="b209d-388">
+                <b>类</b>
+              </span><span class="sxs-lookup"><span data-stu-id="b209d-388">
+                <b>Class</b>
+              </span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstNoSpace" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.NetMeetingAlias" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstSpaceOnly" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstAndSuffix" />
+              </description>
+              <description><span data-ttu-id="b209d-389">
+                <b>保存</b>
+              </span><span class="sxs-lookup"><span data-stu-id="b209d-389">
+                <b>Saved</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpace" />
+              </description>
+              <description><span data-ttu-id="b209d-390">
+                <b>发送</b>
+              </span><span class="sxs-lookup"><span data-stu-id="b209d-390">
+                <b>Sent</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpaceCompany" />
+              </description>
+              <description />
+            </item>
+          </list>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,13 +1,5 @@
 <Type Name="SharingItem" FullName="Microsoft.Office.Interop.Outlook.SharingItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="63d5d340dc1933c7c9df7ff9df6b1420f1fc1fde" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631734" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SharingItem : Microsoft.Office.Interop.Outlook._SharingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="16a751c8e7e322c5384c507c1e0de9d3b65c2f7f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899235" /></Metadata><TypeSignature Language="C#" Value="public interface SharingItem : Microsoft.Office.Interop.Outlook._SharingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharingItem implements class Microsoft.Office.Interop.Outlook._SharingItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SharingItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface SharingItem&#xA;Implements _SharingItem, ItemEvents_10_Event" />
@@ -33,28 +25,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d3ce1-101">代表“收件箱”文件夹中的共享邮件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d3ce1-101">Represents a sharing message in an Inbox folder.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d3ce1-102">
-        <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />。有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</para>
-        <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象可创建代表新共享请求或共享邀请的<b>SharingItem</b>对象。</para>
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是共享邮件或用于匹配一条消息，从收件箱文件夹中返回单个<b>SharingItem</b>对象的默认属性值的索引号。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d3ce1-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" />  method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object to create a <b>SharingItem</b> object that represents a new sharing request or sharing invitation.</para>
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number of a sharing message or a value used to match the default property of a message, to return a single <b>SharingItem</b> object from an Inbox folder.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="f1200-101">代表“收件箱”文件夹中的共享邮件。</span><span class="sxs-lookup"><span data-stu-id="f1200-101">Represents a sharing message in an Inbox folder.</span></span></summary>
+    <remarks><para><span data-ttu-id="f1200-102">这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。</span><span class="sxs-lookup"><span data-stu-id="f1200-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="f1200-103">使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。</span><span class="sxs-lookup"><span data-stu-id="f1200-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="f1200-104">但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="f1200-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="f1200-105">请参阅本主题的 COM 对象有关的信息。</span><span class="sxs-lookup"><span data-stu-id="f1200-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="f1200-106">有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />。</span><span class="sxs-lookup"><span data-stu-id="f1200-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />.</span></span> <span data-ttu-id="f1200-107">有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />。</span><span class="sxs-lookup"><span data-stu-id="f1200-107">For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</span></span></para>
+      <para><span data-ttu-id="f1200-108">使用<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象可创建代表新共享请求或共享邀请的<b>SharingItem</b>对象。</span><span class="sxs-lookup"><span data-stu-id="f1200-108">Use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" />  method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object to create a <b>SharingItem</b> object that represents a new sharing request or sharing invitation.</span></span></para>
+      <para><span data-ttu-id="f1200-109">使用<see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是共享邮件或用于匹配一条消息，从收件箱文件夹中返回单个<b>SharingItem</b>对象的默认属性值的索引号。</span><span class="sxs-lookup"><span data-stu-id="f1200-109">Use <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number of a sharing message or a value used to match the default property of a message, to return a single <b>SharingItem</b> object from an Inbox folder.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>
