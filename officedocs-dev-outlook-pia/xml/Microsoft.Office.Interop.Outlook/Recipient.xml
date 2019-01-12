@@ -1,13 +1,5 @@
 <Type Name="Recipient" FullName="Microsoft.Office.Interop.Outlook.Recipient">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5905873faa2813aa09498c7fbd926ed8c9f40f55" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631917" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Recipient" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a8e59f96599b28ed30e2f085f18934c0f3738776" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903291" /></Metadata><TypeSignature Language="C#" Value="public interface Recipient" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Recipient" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Recipient" />
   <TypeSignature Language="VB.NET" Value="Public Interface Recipient" />
@@ -26,26 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="062ce-101">代表 Outlook 中的用户或资源，通常为邮件地址。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="062ce-101">Represents a user or resource in Outlook, generally a mail message addressee.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="062ce-102">
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个<b>收件人</b>对象。名称可以是一个字符串，表示的显示名称、 别名或完整的 SMTP 电子邮件地址的收件人。</para>
-        <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />方法可创建一个新的<b>Recipient</b>对象，并将其添加到<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />对象。<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />的一个新的<b>Recipient</b>对象的属性设置为关联的默认<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />，<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />或<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />对象和必须重置以指示另一种收件人类型。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="062ce-102">
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />), where <paramref name="index" /> is the name or index number, to return a single <b>Recipient</b> object. The name can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />  method to create a new <b>Recipient</b> object and add it to the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  object. The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />  property of a new <b>Recipient</b> object is set to the default for the associated <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />  or <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />  object and must be reset to indicate another recipient type.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="d9148-101">代表 Outlook 中的用户或资源，通常为邮件地址。</span><span class="sxs-lookup"><span data-stu-id="d9148-101">Represents a user or resource in Outlook, generally a mail message addressee.</span></span></summary>
+    <remarks><para><span data-ttu-id="d9148-102">使用<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个<b>收件人</b>对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-102">Use <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />), where <paramref name="index" /> is the name or index number, to return a single <b>Recipient</b> object.</span></span> <span data-ttu-id="d9148-103">名称可以是收件人的一个字符串，表示显示名称、 别名或完整的 SMTP 电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="d9148-103">The name can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span></span></para>
+      <para><span data-ttu-id="d9148-104">使用<see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />方法可创建一个新的<b>Recipient</b>对象，并将其添加到<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-104">Use the <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />  method to create a new <b>Recipient</b> object and add it to the <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  object.</span></span> <span data-ttu-id="d9148-105"><see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />的一个新的<b>Recipient</b>对象的属性设置为关联的默认<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />，<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />或<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />对象和必须重置以指示另一种收件人类型。</span><span class="sxs-lookup"><span data-stu-id="d9148-105">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />  property of a new <b>Recipient</b> object is set to the default for the associated <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />  or <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />  object and must be reset to indicate another recipient type.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Address">
@@ -71,16 +47,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-103">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的电子邮件地址<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-103">Returns a <b>String</b> (<b>string</b> in C#) representing the e-mail address of the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />.</span>
-          </span>
-          <span data-ttu-id="062ce-104">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-106">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的电子邮件地址<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。</span><span class="sxs-lookup"><span data-stu-id="d9148-106">Returns a <b>String</b> (<b>string</b> in C#) representing the e-mail address of the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />.</span></span> <span data-ttu-id="d9148-107">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-107">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -111,29 +78,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对应于解析的收件人对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-105">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object corresponding to the resolved recipient.</span>
-          </span>
-          <span data-ttu-id="062ce-106">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对应于解析的收件人对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-108">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object corresponding to the resolved recipient.</span></span> <span data-ttu-id="d9148-109">读/写。</span><span class="sxs-lookup"><span data-stu-id="d9148-109">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="062ce-107">
-            <para>访问<b>AddressEntry</b>属性强制分辨率为未解析的收件人姓名。如果无法解析名称，则返回错误。如果收件人是已解析，<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" />属性为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-107">
-              <para>Accessing the <b>AddressEntry</b> property forces resolution of an unresolved recipient name. If the name cannot be resolved, an error is returned. If the recipient is resolved, the <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" />  property is <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="d9148-110">访问 <b>AddressEntry</b> 属性强制未解析的收件人名称的解析。</span><span class="sxs-lookup"><span data-stu-id="d9148-110">Accessing the <b>AddressEntry</b> property forces resolution of an unresolved recipient name.</span></span> <span data-ttu-id="d9148-111">如果无法解析该名称，则返回错误。</span><span class="sxs-lookup"><span data-stu-id="d9148-111">If the name cannot be resolved, an error is returned.</span></span> <span data-ttu-id="d9148-112">如果收件人是已解析，<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" />属性为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="d9148-112">If the recipient is resolved, the <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" />  property is <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -159,16 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-108">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="062ce-109">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="d9148-114">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,16 +138,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-110">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的文本自动响应<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-110">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the text of an automatic response for a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />.</span>
-          </span>
-          <span data-ttu-id="062ce-111">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-111">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-115">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的文本自动响应<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。</span><span class="sxs-lookup"><span data-stu-id="d9148-115">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the text of an automatic response for a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />.</span></span> <span data-ttu-id="d9148-116">读/写。</span><span class="sxs-lookup"><span data-stu-id="d9148-116">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,16 +166,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-112">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="062ce-113">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-117">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="d9148-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="d9148-118">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -271,12 +192,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-114">从集合中删除一个对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-114">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-119">从集合中删除一个对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-119">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -303,29 +219,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-115">返回一个常量，该常量属于<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />描述的性质枚举<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-115">Returns a constant belonging to the <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> enumeration that describes the nature of the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />.</span>
-          </span>
-          <span data-ttu-id="062ce-116">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-120">返回一个常量，该常量属于<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />描述的性质枚举<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。</span><span class="sxs-lookup"><span data-stu-id="d9148-120">Returns a constant belonging to the <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> enumeration that describes the nature of the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />.</span></span> <span data-ttu-id="d9148-121">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-121">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="062ce-117">
-            <para>您可以使用将<b>DisplayType</b>属性设为筛选器收件人。<b>DisplayType</b>属性对应于 MAPI 属性<b>PidTagDisplayType</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-117">
-              <para>You can use the <b>DisplayType</b> property to filter recipients. The <b>DisplayType</b> property corresponds to the MAPI property <b>PidTagDisplayType</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="d9148-p110">您可以使用筛选收件人的 <b>DisplayType</b> 属性。 <b>DisplayType</b> 属性对应于 <b>PidTagDisplayType</b> 的 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-p110">You can use the <b>DisplayType</b> property to filter recipients. The <b>DisplayType</b> property corresponds to the MAPI property <b>PidTagDisplayType</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EntryID">
@@ -351,29 +248,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-118">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-118">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span>
-          </span>
-          <span data-ttu-id="062ce-119">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-124">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。</span><span class="sxs-lookup"><span data-stu-id="d9148-124">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span></span>  <span data-ttu-id="d9148-125">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-125">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="062ce-120">
-            <para>此属性对应于 MAPI 属性<b>PidTagEntryId</b>。</para>在存储中创建项时， 
-          <para>MAPI 存储提供程序分配的唯一 ID 字符串。因此， <b>EntryID</b>属性未设置为 Outlook 项目之前保存或发送。将项目移动到另一个存储区，例如，从收件箱到 Microsoft Exchange Server 公用文件夹，或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件时条目 ID 的更改。解决方案应不依赖<b>EntryID</b>属性来保持唯一性，除非项目将不会移动。<b>EntryID</b>属性返回一个 MAPI 长期条目 id。有关详细信息有关 long-和 short-term Entryid，搜索http://msdn.microsoft.com的<b>PidTagEntryId</b>。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-120">
-              <para>This property corresponds to the MAPI property <b>PidTagEntryId</b>.</para>
-              <para>A MAPI store provider assigns a unique ID string when an item is created in its store. Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent. The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file. Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved. The <b>EntryID</b> property returns a MAPI long-term Entry ID. For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="d9148-126">此属性对应于 <b>PidTagEntryId</b> 的 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-126">This property corresponds to the MAPI property <b>PidTagEntryId</b>.</span></span></para>
+          <para><span data-ttu-id="d9148-127">MAPI 存储提供程序将在存储中创建项时分配的唯一 ID 字符串。</span><span class="sxs-lookup"><span data-stu-id="d9148-127">A MAPI store provider assigns a unique ID string when an item is created in its store.</span></span> <span data-ttu-id="d9148-128">因此， <b>EntryID</b> 属性未设置为某个 Outlook 项目之前保存或发送。</span><span class="sxs-lookup"><span data-stu-id="d9148-128">Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent.</span></span> <span data-ttu-id="d9148-129">条目 ID 更改时将项目移动到另一个存储中，例如，从 Microsoft Exchange Server 的公用文件夹，您 的收件箱或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件。</span><span class="sxs-lookup"><span data-stu-id="d9148-129">The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file.</span></span> <span data-ttu-id="d9148-130">解决方案不应依赖于 <b>EntryID</b> 属性来保持唯一性，除非不移动项目。</span><span class="sxs-lookup"><span data-stu-id="d9148-130">Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved.</span></span> <span data-ttu-id="d9148-131"><b>EntryID</b> 属性返回一个 MAPI 长期条目 id。</span><span class="sxs-lookup"><span data-stu-id="d9148-131">The <b>EntryID</b> property returns a MAPI long-term Entry ID.</span></span> <span data-ttu-id="d9148-132">更多信息关于长时间的和 short-term Entryid，搜索 http://msdn.microsoft.com <b></b>。</span><span class="sxs-lookup"><span data-stu-id="d9148-132">For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FreeBusy">
@@ -400,54 +279,15 @@
         <Parameter Name="CompleteFormat" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Start">
-          <span data-ttu-id="062ce-121">返回的"忙/闲"信息时段的开始日期。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-121">The start date for the returned period of free/busy information.</span>
-          </span>
-        </param>
-        <param name="MinPerChar">
-          <span data-ttu-id="062ce-122">返回的"忙/闲"字符串中每个字符所代表的分钟数。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-122">The number of minutes per character represented in the returned free/busy string.</span>
-          </span>
-        </param>
-        <param name="CompleteFormat">
-          <span data-ttu-id="062ce-123">
-            <b>True</b>如果不仅忙/闲信息，还可以根据每个字符的值，则返回的字符串应包含<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-123">
-              <b>True</b> if the returned string should contain not only free/busy information, but also values for each character according to the <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> constants.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="062ce-124">返回收件人的"忙/闲"信息。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-124">Returns free/busy information for the recipient.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="062ce-125">一个表示忙/闲信息的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-125">A <b>String</b> (<b>string</b> in C#) value that represents the free/busy information.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="062ce-126">
-            <para>默认为返回一个字符串，表示一个月的忙/闲信息与 Microsoft schedule + 自动化格式兼容 (即，该字符串包含一个字符每个<paramref name="MinPerChar" />的分钟数，最多为一个月中的指定<paramref name="Start" />日期)。</para>
-            <para>如果可选参数<paramref name="CompleteFormat" />省略或<b>False</b>，然后"免费"由字符 0 和所有其他状态由字符 1。</para>
-            <para>如果<paramref name="CompleteFormat" /><b>，则返回 True</b>，则与，上面所定义，则返回相同的长度字符串但现在字符对应于<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />常量。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-126">
-              <para> The default is to return a string representing one month of free/busy information compatible with the Microsoft Schedule+ Automation format (that is, the string contains one character for each <paramref name="MinPerChar" /> minute, up to one month of information from the specified <paramref name="Start" /> date).</para>
-              <para>If the optional argument <paramref name="CompleteFormat" /> is omitted or <b>False</b>, then "free" is indicated by the character 0 and all other states by the character 1.</para>
-              <para>If <paramref name="CompleteFormat" /> is <b>True</b>, then the same length string is returned as defined above, but the characters now correspond to the <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> constants.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Start"><span data-ttu-id="d9148-133">返回的"忙/闲"信息时段的开始日期。</span><span class="sxs-lookup"><span data-stu-id="d9148-133">The start date for the returned period of free/busy information.</span></span></param>
+        <param name="MinPerChar"><span data-ttu-id="d9148-134">返回的"忙/闲"字符串中每个字符所代表的分钟数。</span><span class="sxs-lookup"><span data-stu-id="d9148-134">The number of minutes per character represented in the returned free/busy string.</span></span></param>
+        <param name="CompleteFormat"><span data-ttu-id="d9148-135"><b>True</b>如果不仅忙/闲信息，还可以根据每个字符的值，则返回的字符串应包含<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />常量。</span><span class="sxs-lookup"><span data-stu-id="d9148-135"><b>True</b> if the returned string should contain not only free/busy information, but also values for each character according to the <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> constants.</span></span></param>
+        <summary><span data-ttu-id="d9148-136">返回收件人的"忙/闲"信息。</span><span class="sxs-lookup"><span data-stu-id="d9148-136">Returns free/busy information for the recipient.</span></span></summary>
+        <returns><span data-ttu-id="d9148-137">一个表示忙/闲信息的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span><span class="sxs-lookup"><span data-stu-id="d9148-137">A <b>String</b> (<b>string</b> in C#) value that represents the free/busy information.</span></span></returns>
+        <remarks><para> <span data-ttu-id="d9148-138">默认为返回一个字符串，表示一个月的忙/闲信息与 Microsoft schedule + 自动化格式兼容 (即，该字符串包含一个字符每个<paramref name="MinPerChar" />的分钟数，最多为一个月中的指定<paramref name="Start" />日期)。</span><span class="sxs-lookup"><span data-stu-id="d9148-138">The default is to return a string representing one month of free/busy information compatible with the Microsoft Schedule+ Automation format (that is, the string contains one character for each <paramref name="MinPerChar" /> minute, up to one month of information from the specified <paramref name="Start" /> date).</span></span></para>
+          <para><span data-ttu-id="d9148-139">如果可选参数<paramref name="CompleteFormat" />省略或<b>False</b>，然后"免费"由字符 0 和所有其他状态由字符 1。</span><span class="sxs-lookup"><span data-stu-id="d9148-139">If the optional argument <paramref name="CompleteFormat" /> is omitted or <b>False</b>, then "free" is indicated by the character 0 and all other states by the character 1.</span></span></para>
+          <para><span data-ttu-id="d9148-140">如果<paramref name="CompleteFormat" /> <b>，则返回 True</b>，则与，上面所定义，则返回相同的长度字符串但现在字符对应于<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />常量。</span><span class="sxs-lookup"><span data-stu-id="d9148-140">If <paramref name="CompleteFormat" /> is <b>True</b>, then the same length string is returned as defined above, but the characters now correspond to the <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> constants.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -473,30 +313,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-127">返回指示集合中对象的位置的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-127">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the object within the collection.</span>
-          </span>
-          <span data-ttu-id="062ce-128">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-128">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-141">返回指示集合中对象的位置的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="d9148-141">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the object within the collection.</span></span>  <span data-ttu-id="d9148-142">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-142">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="062ce-129">
-            <para>
-              <b>Index</b>属性仅在当前会话中有效，并且在可以更改对象添加到和从集合中删除。集合中的第一个对象的<b>索引</b>值为 1。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-129">
-              <para>The <b>Index</b> property is only valid during the current session and can change as objects are added to and deleted from the collection. The first object in the collection has an <b>Index</b> value of 1.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="d9148-p114"><b>Index</b> 属性仅在当前会话期间有效，并且在可以更改对象添加到集合和从集合中删除。集合中的第一个对象的 <b>索引</b> 值为 1。</span><span class="sxs-lookup"><span data-stu-id="d9148-p114">The <b>Index</b> property is only valid during the current session and can change as objects are added to and deleted from the collection. The first object in the collection has an <b>Index</b> value of 1.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingResponseStatus">
@@ -522,16 +342,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-130">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" />对收件人的会议请求的响应的总体状态的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-130">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" /> constant indicating the overall status of the response to the meeting request for the recipient.</span>
-          </span>
-          <span data-ttu-id="062ce-131">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-145">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" />对收件人的会议请求的响应的总体状态的常量。</span><span class="sxs-lookup"><span data-stu-id="d9148-145">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" /> constant indicating the overall status of the response to the meeting request for the recipient.</span></span> <span data-ttu-id="d9148-146">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-146">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -559,16 +370,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-132">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表对象的显示名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-132">Returns a <b>String</b> (<b>string</b> in C#) that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="062ce-133">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-133">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-147">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表对象的显示名称。</span><span class="sxs-lookup"><span data-stu-id="d9148-147">Returns a <b>String</b> (<b>string</b> in C#) that represents the display name for the object.</span></span> <span data-ttu-id="d9148-148">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-148">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -596,12 +398,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-p111">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-p111">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-p117">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="d9148-p117">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -629,16 +426,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-136">返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-136">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object.</span>
-          </span>
-          <span data-ttu-id="062ce-137">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-137">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-151">返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-151">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object.</span></span> <span data-ttu-id="d9148-152">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-152">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -664,20 +452,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-138">尝试解析<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />参照通讯簿的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-138">Attempts to resolve a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object against the Address Book.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="062ce-139">
-            <b>如此</b> 如果已解析对象;否则为 <b>假</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-139">
-              <b>True</b> if the object was resolved; otherwise, <b>False</b>.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="d9148-153">尝试解析<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />参照通讯簿的对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-153">Attempts to resolve a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object against the Address Book.</span></span></summary>
+        <returns><span data-ttu-id="d9148-154"><b>如此</b> 如果已解析对象;否则为 <b>假</b> 。</span><span class="sxs-lookup"><span data-stu-id="d9148-154"><b>True</b> if the object was resolved; otherwise, <b>False</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -704,29 +480,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-140">返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b> ，如果收件人验证通讯簿。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-140">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates <b>True</b> if the recipient has been validated against the Address Book.</span>
-          </span>
-          <span data-ttu-id="062ce-141">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-141">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-155">返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b> ，如果收件人验证通讯簿。</span><span class="sxs-lookup"><span data-stu-id="d9148-155">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates <b>True</b> if the recipient has been validated against the Address Book.</span></span> <span data-ttu-id="d9148-156">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-156">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="062ce-142">
-            <para>如果名称相似通讯簿中的收件人，您可以通过指定收件人的完整 SMTP 电子邮件地址来解析收件人。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-142">
-              <para>If similar names exist for a recipient in an Address Book, you can resolve the recipient by specifying the recipient's full SMTP e-mail address. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="d9148-157">如果通讯簿中存在类似的收件人姓名，则可以通过指定收件人的完整 SMTP 电子邮件地址来解析该收件人。</span><span class="sxs-lookup"><span data-stu-id="d9148-157">If similar names exist for a recipient in an Address Book, you can resolve the recipient by specifying the recipient's full SMTP e-mail address.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sendable">
@@ -755,31 +512,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-143">返回或设置<see cref="T:System.Boolean" />(<b>bool</b>的 C#) 值，该值指示是否可以将会议请求发送到<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-143">Returns or sets a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether a meeting request can be sent to the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />.</span>
-          </span>
-          <span data-ttu-id="062ce-144">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-144">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-158">返回或设置<see cref="T:System.Boolean" />(<b>bool</b>的 C#) 值，该值指示是否可以将会议请求发送到<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。</span><span class="sxs-lookup"><span data-stu-id="d9148-158">Returns or sets a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether a meeting request can be sent to the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />.</span></span> <span data-ttu-id="d9148-159">读/写。</span><span class="sxs-lookup"><span data-stu-id="d9148-159">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="062ce-145">
-            <para>此属性对应于 MAPI 属性 PidTagRecipientFlags。如果<b>PidTagRecipientFlags</b>等于 0x00000001，则返回<b>True</b> 。设置属性会相应地更改<b>PidTagRecipientFlags</b> 。</para>
-            <para>此属性仅适用于会议请求的收件人。如果收件人不是会议请求，获取和设置该属性不会不执行任何操作。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-145">
-              <para>This property corresponds to the MAPI property PidTagRecipientFlags. It returns <b>True</b> if <b>PidTagRecipientFlags</b> is equal to 0x00000001. Setting the property changes <b>PidTagRecipientFlags</b> accordingly. </para>
-              <para>This property applies only to a recipient of a meeting request. If the recipient is not on a meeting request, getting and setting this property does not do anything.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="d9148-160">此属性对应于 PidTagRecipientFlags 的 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-160">This property corresponds to the MAPI property PidTagRecipientFlags.</span></span> <span data-ttu-id="d9148-161">如果 <b>PidTagRecipientFlags</b> 等于 0x00000001，则返回 <b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="d9148-161">It returns <b>True</b> if <b>PidTagRecipientFlags</b> is equal to 0x00000001.</span></span> <span data-ttu-id="d9148-162">设置属性会相应地更改 <b>PidTagRecipientFlags</b> 。</span><span class="sxs-lookup"><span data-stu-id="d9148-162">Setting the property changes <b>PidTagRecipientFlags</b> accordingly.</span></span> </para>
+          <para><span data-ttu-id="d9148-p122">此属性仅适用于会议要求的收件人。如果收件人不在会议要求中，则获取和设置此属性不起任何作用。</span><span class="sxs-lookup"><span data-stu-id="d9148-p122">This property applies only to a recipient of a meeting request. If the recipient is not on a meeting request, getting and setting this property does not do anything.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -805,42 +542,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-146">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-146">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="062ce-147">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-147">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-165">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="d9148-165">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="d9148-166">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="d9148-166">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="062ce-148">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="d9148-167"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-167">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="d9148-168">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="d9148-168">Both members serve the same purpose.</span></span> <span data-ttu-id="d9148-169">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="d9148-169">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-148">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TrackingStatus">
@@ -869,16 +580,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTrackingStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-149">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" />常量，指示收件人的跟踪状态。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-149">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" /> constant indicating the tracking status for the recipient.</span>
-          </span>
-          <span data-ttu-id="062ce-150">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-150">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-170">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" />常量，指示收件人的跟踪状态。</span><span class="sxs-lookup"><span data-stu-id="d9148-170">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" /> constant indicating the tracking status for the recipient.</span></span> <span data-ttu-id="d9148-171">读/写。</span><span class="sxs-lookup"><span data-stu-id="d9148-171">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -909,16 +611,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-151">返回或设置为<b>DateTime</b> ，该值指示跟踪状态日期和时间的收件人。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-151">Returns or sets a <b>DateTime</b> indicating the tracking status date and time for the recipient.</span>
-          </span>
-          <span data-ttu-id="062ce-152">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-152">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-172">返回或设置为<b>DateTime</b> ，该值指示跟踪状态日期和时间的收件人。</span><span class="sxs-lookup"><span data-stu-id="d9148-172">Returns or sets a <b>DateTime</b> indicating the tracking status date and time for the recipient.</span></span> <span data-ttu-id="d9148-173">读/写。</span><span class="sxs-lookup"><span data-stu-id="d9148-173">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -949,69 +642,34 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="062ce-153">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，表示收件人的类型。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-153">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value representing the type of recipient.</span>
-          </span>
-          <span data-ttu-id="062ce-154">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-154">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9148-174">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，表示收件人的类型。</span><span class="sxs-lookup"><span data-stu-id="d9148-174">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value representing the type of recipient.</span></span> <span data-ttu-id="d9148-175">读/写。</span><span class="sxs-lookup"><span data-stu-id="d9148-175">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="062ce-155">
-            <para>根据收件人的类型，此属性返回或设置对应于下列常量之一的等价的数字的<b>整数</b>(C# 中<b>int</b> ) 值：</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />收件人：<see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" />常量olAssociatedContact。</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />收件人： 以下项之一<see cref="T:Microsoft.Office.Interop.Outlook.OlMailRecipientType" />常量： olBCC、 olCC、 olOriginator 或 olTo。</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />收件人： 以下项之一<see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingRecipientType" />常量： olOptional、 olOrganizer、 olRequired 或 olResource。</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />收件人： 以下任一<see cref="T:Microsoft.Office.Interop.Outlook.OlTaskRecipientType" />常量： olFinalStatus 或 olUpdate。</para>
-              </item>
-            </list>
-            <para>此属性可能返回不总是会议室的相应收件人类型。例如，会议室可能指定为所需收件人在会议请求中，在这种情况下此属性不会返回会议房间的 olResource。</para>
-            <para>可靠地确定收件人是会议室内，利用该消息处理 API (MAPI) 属性，PidTagDisplayTypeEx，<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。您可以访问此属性使用<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />Outlook 对象模型中的对象。<b>PidTagDisplayTypeEx</b>属性表示为"http://schemas.microsoft.com/mapi/proptag/0x39050003"MAPI 属性标记命名空间中。请注意， <b>PidTagDisplayTypeEx</b>属性不可用的 Microsoft Exchange Server 版本早于 Microsoft Exchange Server 2007; 中在此类早期版本的 Exchange 服务器中，可以使用的<b>Recipient.Type</b>属性，并假定具有之外 olResource 类型收件人不是会议室内。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="062ce-155">
-              <para>Depending on the type of recipient, this property returns or sets an <b>Integer</b> (<b>int</b> in C#) value corresponding to the numeric equivalent of one of the following constants:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" /> recipient: the <see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" /> constant olAssociatedContact.</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> recipient: one of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlMailRecipientType" /> constants: olBCC, olCC, olOriginator, or olTo.</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> recipient: one of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingRecipientType" /> constants: olOptional, olOrganizer, olRequired, or olResource.</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> recipient: either of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlTaskRecipientType" /> constants: olFinalStatus, or olUpdate.</para>
-                </item>
-              </list>
-              <para>This property may not always return the appropriate recipient type for a conference room. For instance, a conference room may be specified as a required recipient in a meeting request, in which case this property will not return olResource for that conference room.</para>
-              <para>To reliably determine if a recipient is a conference room, use the Messaging API (MAPI) property, PidTagDisplayTypeEx, of the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object. You can access this property using the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object in the Outlook object model. The <b>PidTagDisplayTypeEx</b> property is represented as "http://schemas.microsoft.com/mapi/proptag/0x39050003" in the MAPI proptag namespace. Note that the <b>PidTagDisplayTypeEx</b> property is not available in versions of Microsoft Exchange Server earlier than Microsoft Exchange Server 2007; in such earlier versions of Exchange Server, you can use the <b>Recipient.Type</b> property and assume that a recipient having a type other than olResource is not a conference room.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="d9148-176">根据收件人的类型，此属性返回或设置对应于下列常量之一的等价的数字的<b>整数</b>(C# 中<b>int</b> ) 值：</span><span class="sxs-lookup"><span data-stu-id="d9148-176">Depending on the type of recipient, this property returns or sets an <b>Integer</b> (<b>int</b> in C#) value corresponding to the numeric equivalent of one of the following constants:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="d9148-177">
+                <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />收件人：<see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" />常量 olAssociatedContact。</span><span class="sxs-lookup"><span data-stu-id="d9148-177">
+                <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" /> recipient: the <see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" /> constant olAssociatedContact.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d9148-178">
+                <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />收件人： 以下项之一<see cref="T:Microsoft.Office.Interop.Outlook.OlMailRecipientType" />常量： olBCC、 olCC、 olOriginator 或 olTo。</span><span class="sxs-lookup"><span data-stu-id="d9148-178">
+                <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> recipient: one of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlMailRecipientType" /> constants: olBCC, olCC, olOriginator, or olTo.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d9148-179">
+                <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />收件人： 以下项之一<see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingRecipientType" />常量： olOptional、 olOrganizer、 olRequired 或 olResource。</span><span class="sxs-lookup"><span data-stu-id="d9148-179">
+                <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> recipient: one of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingRecipientType" /> constants: olOptional, olOrganizer, olRequired, or olResource.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d9148-180">
+                <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />收件人： 以下任一<see cref="T:Microsoft.Office.Interop.Outlook.OlTaskRecipientType" />常量： olFinalStatus 或 olUpdate。</span><span class="sxs-lookup"><span data-stu-id="d9148-180">
+                <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> recipient: either of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlTaskRecipientType" /> constants: olFinalStatus, or olUpdate.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="d9148-p128">此属性可能不会始终返回会议室的相应收件人类型。例如，会议室可能指定为会议要求中的必选收件人，在此情况下，此属性不会返回该会议室的 olResource 。</span><span class="sxs-lookup"><span data-stu-id="d9148-p128">This property may not always return the appropriate recipient type for a conference room. For instance, a conference room may be specified as a required recipient in a meeting request, in which case this property will not return olResource for that conference room.</span></span></para>
+          <para><span data-ttu-id="d9148-183">若要可靠地确定收件人是会议室内，使用的消息处理 API (MAPI) 属性，PidTagDisplayTypeEx 的<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-183">To reliably determine if a recipient is a conference room, use the Messaging API (MAPI) property, PidTagDisplayTypeEx, of the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object.</span></span> <span data-ttu-id="d9148-184">您可以访问此属性使用<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />Outlook 对象模型中的对象。</span><span class="sxs-lookup"><span data-stu-id="d9148-184">You can access this property using the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object in the Outlook object model.</span></span> <span data-ttu-id="d9148-185"><b>PidTagDisplayTypeEx</b> 属性由 MAPI 属性标记命名空间中的"http://schemas.microsoft.com/mapi/proptag/0x39050003"。</span><span class="sxs-lookup"><span data-stu-id="d9148-185">The <b>PidTagDisplayTypeEx</b> property is represented as "http://schemas.microsoft.com/mapi/proptag/0x39050003" in the MAPI proptag namespace.</span></span> <span data-ttu-id="d9148-186">请注意， <b>PidTagDisplayTypeEx</b> 属性在中不可用的 Microsoft Exchange Server 版本早于 Microsoft Exchange Server 2007 年;在 Exchange Server 这种早期版本中，可以使用 <b>Recipient.Type</b> 属性，并假定有一个 olResource 不同类型的收件人不是会议室。</span><span class="sxs-lookup"><span data-stu-id="d9148-186">Note that the <b>PidTagDisplayTypeEx</b> property is not available in versions of Microsoft Exchange Server earlier than Microsoft Exchange Server 2007; in such earlier versions of Exchange Server, you can use the <b>Recipient.Type</b> property and assume that a recipient having a type other than olResource is not a conference room.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

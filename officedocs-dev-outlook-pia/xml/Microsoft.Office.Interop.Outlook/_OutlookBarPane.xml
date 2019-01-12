@@ -1,13 +1,5 @@
 <Type Name="_OutlookBarPane" FullName="Microsoft.Office.Interop.Outlook._OutlookBarPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2923a9288732ec725b287e2a4c842456a050a185" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631412" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OutlookBarPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2923a9288732ec725b287e2a4c842456a050a185" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906728" /></Metadata><TypeSignature Language="C#" Value="public interface _OutlookBarPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OutlookBarPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OutlookBarPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OutlookBarPane" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="5c9cb-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5c9cb-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="5c9cb-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5c9cb-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="5c9cb-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5c9cb-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="5c9cb-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5c9cb-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="99204-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="99204-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="99204-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="99204-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="99204-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="99204-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="99204-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />。</span><span class="sxs-lookup"><span data-stu-id="99204-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5c9cb-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="5c9cb-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99204-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="99204-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="99204-106">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="99204-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5c9cb-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="5c9cb-108">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99204-107">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="99204-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="99204-108">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="99204-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,16 +101,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarStorage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5c9cb-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />指定 Outlook 栏窗格中的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-109">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />  object for the specified Outlook Bar pane.</span>
-          </span>
-          <span data-ttu-id="5c9cb-110">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99204-109">返回<see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />指定 Outlook 栏窗格中的对象。</span><span class="sxs-lookup"><span data-stu-id="99204-109">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />  object for the specified Outlook Bar pane.</span></span> <span data-ttu-id="99204-110">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="99204-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -190,12 +138,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarGroup</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5c9cb-111">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-111">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99204-111">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="99204-111">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -223,16 +166,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5c9cb-112">返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-112">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="5c9cb-113">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99204-112">返回一个代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</span><span class="sxs-lookup"><span data-stu-id="99204-112">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="99204-113">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="99204-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -260,12 +194,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5c9cb-p106">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99204-p106">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="99204-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -293,42 +222,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5c9cb-116">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-116">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="5c9cb-117">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99204-116">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="99204-116">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="99204-117">此为只读属性。</span><span class="sxs-lookup"><span data-stu-id="99204-117">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="5c9cb-118">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="99204-118"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="99204-118">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="99204-119">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="99204-119">Both members serve the same purpose.</span></span> <span data-ttu-id="99204-120">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="99204-120">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-118">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -357,33 +260,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5c9cb-119">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示指定的对象的可视状态。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-119">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) indicating the visible state of the specified object.</span>
-          </span>
-          <span data-ttu-id="5c9cb-120">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-120">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99204-121">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示指定的对象的可视状态。</span><span class="sxs-lookup"><span data-stu-id="99204-121">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) indicating the visible state of the specified object.</span></span> <span data-ttu-id="99204-122">读/写。</span><span class="sxs-lookup"><span data-stu-id="99204-122">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="5c9cb-121">
-            <para>
-              <b>True</b>以显示对象;<b>False</b>以隐藏对象。</para>
-            <para>还可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)" />方法或<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象来设置或检索此值。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5c9cb-121">
-              <para>
-                <b>True</b> to display the object; <b>False</b> to hide the object.</para>
-              <para>You can also use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)" />  method or the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)" />  method of an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  object to set or retrieve this value.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="99204-123">
+            <b>True</b> 显示对象; <b>假</b> 以隐藏该对象。</span><span class="sxs-lookup"><span data-stu-id="99204-123">
+            <b>True</b> to display the object; <b>False</b> to hide the object.</span></span></para>
+          <para><span data-ttu-id="99204-124">您还可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)" />方法或<see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象来设置或检索此值。</span><span class="sxs-lookup"><span data-stu-id="99204-124">You can also use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)" />  method or the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)" />  method of an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  object to set or retrieve this value.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlCalendarMailFormat" FullName="Microsoft.Office.Interop.Outlook.OlCalendarMailFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ba14da78dfd7a5bc8f84a984665153fc6b5dfbfa" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632624" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlCalendarMailFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="30386d224fe924bb2d552127cf80eed2677122d3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906385" /></Metadata><TypeSignature Language="C#" Value="public enum OlCalendarMailFormat" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlCalendarMailFormat extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlCalendarMailFormat" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="224fa-101">确定日历信息的正文中的格式<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />创建的<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />方法。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="224fa-101">Determines the format of the calendar information in the body of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> method.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="224fa-102">
-        <para>有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87575">共享日历</a><a href="http://go.microsoft.com/fwlink/?LinkId=87589">如何： 使用有效负载共享导出日历</a></para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="224fa-102">
-          <para>For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87575">Sharing Calendars</a><a href="http://go.microsoft.com/fwlink/?LinkId=87589">How to: Export a Calendar using Payload Sharing</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="2c7cf-101">确定日历信息的正文中的格式<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />创建的<see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />方法。</span><span class="sxs-lookup"><span data-stu-id="2c7cf-101">Determines the format of the calendar information in the body of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> method.</span></span></summary>
+    <remarks><para><span data-ttu-id="2c7cf-102">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87575">共享日历</a><a href="http://go.microsoft.com/fwlink/?LinkId=87589">如何： 使用有效负载共享导出日历</a></span><span class="sxs-lookup"><span data-stu-id="2c7cf-102">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87575">Sharing Calendars</a><a href="http://go.microsoft.com/fwlink/?LinkId=87589">How to: Export a Calendar using Payload Sharing</a></span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olCalendarMailFormatDailySchedule">
@@ -56,16 +33,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="224fa-103">将日历信息的格式设置为约会的日程安排，包含按小时细分的日历，显示闲和忙时间块以及工作小时信息。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="224fa-103">The calendar information is formatted as a daily schedule of appointments, containing an hour-by-hour breakdown of the calendar, showing both free and busy time blocks along with working-hour information.</span>
-          </span>
-          <span data-ttu-id="224fa-104">此版式用于帮助向收件人显示您的空闲时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="224fa-104">This layout is intended to help show recipients which times you are available.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c7cf-103">将日历信息的格式设置为约会的日程安排，包含按小时细分的日历，显示闲和忙时间块以及工作小时信息。</span><span class="sxs-lookup"><span data-stu-id="2c7cf-103">The calendar information is formatted as a daily schedule of appointments, containing an hour-by-hour breakdown of the calendar, showing both free and busy time blocks along with working-hour information.</span></span>  <span data-ttu-id="2c7cf-104">此版式用于帮助向收件人显示您的空闲时间。</span><span class="sxs-lookup"><span data-stu-id="2c7cf-104">This layout is intended to help show recipients which times you are available.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olCalendarMailFormatEventList">
@@ -84,12 +52,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="224fa-p102">将日历信息的格式设置为事件列表，包含不显示任何时间块的日历约会的列表。此版式用于帮助向收件人显示在给定时间段内安排的事件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="224fa-p102">The calendar information is formatted as a list of events, containing a list of the calendar appointments without showing any time blocks.  This layout is intended to help show recipients the events scheduled for a given time period.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c7cf-p102">将日历信息的格式设置为事件列表，包含不显示任何时间块的日历约会的列表。此版式用于帮助向收件人显示在给定时间段内安排的事件。</span><span class="sxs-lookup"><span data-stu-id="2c7cf-p102">The calendar information is formatted as a list of events, containing a list of the calendar appointments without showing any time blocks.  This layout is intended to help show recipients the events scheduled for a given time period.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlTrackingStatus" FullName="Microsoft.Office.Interop.Outlook.OlTrackingStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5af4d11ef28eb6405ca4be63c14226a2bf3224d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631963" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlTrackingStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4b8207a6e479ca72333c4fc8c8e54b10fd4452f3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905482" /></Metadata><TypeSignature Language="C#" Value="public enum OlTrackingStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlTrackingStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlTrackingStatus" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="0c8ae-101">指示收件人的最新跟踪状态更改。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0c8ae-101">Indicates the most recent tracking status change for the recipient.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="0c8ae-102">
-        <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.TrackingStatus" />属性。</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0c8ae-102">
-          <para>Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.TrackingStatus" /> property.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="f26c7-101">指示收件人的最新跟踪状态更改。</span><span class="sxs-lookup"><span data-stu-id="f26c7-101">Indicates the most recent tracking status change for the recipient.</span></span></summary>
+    <remarks><para><span data-ttu-id="f26c7-102">使用<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.TrackingStatus" />属性。</span><span class="sxs-lookup"><span data-stu-id="f26c7-102">Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.TrackingStatus" /> property.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olTrackingDelivered">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0c8ae-103">该项目已传递给收件人。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0c8ae-103">The item has been delivered to the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f26c7-103">该项目已传递给收件人。</span><span class="sxs-lookup"><span data-stu-id="f26c7-103">The item has been delivered to the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingNone">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0c8ae-104">没有可供收件人使用的跟踪信息。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0c8ae-104">No tracking information is available for the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f26c7-104">没有可供收件人使用的跟踪信息。</span><span class="sxs-lookup"><span data-stu-id="f26c7-104">No tracking information is available for the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingNotDelivered">
@@ -104,12 +71,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0c8ae-105">该项目尚未传递给收件人。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0c8ae-105">The item has not been delivered to the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f26c7-105">该项目尚未传递给收件人。</span><span class="sxs-lookup"><span data-stu-id="f26c7-105">The item has not been delivered to the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingNotRead">
@@ -128,12 +90,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0c8ae-106">收件人尚未阅读该项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0c8ae-106">The item has not been read by the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f26c7-106">收件人尚未阅读该项目。</span><span class="sxs-lookup"><span data-stu-id="f26c7-106">The item has not been read by the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingRead">
@@ -152,12 +109,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0c8ae-107">收件人已经阅读该项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0c8ae-107">The item has been read by the recipient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f26c7-107">收件人已经阅读该项目。</span><span class="sxs-lookup"><span data-stu-id="f26c7-107">The item has been read by the recipient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingRecallFailure">
@@ -176,12 +128,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0c8ae-108">项目的发件人尝试撤消该项目，但未成功。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0c8ae-108">The sender of the item attempted to recall the item but was unsuccessful.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f26c7-108">项目的发件人尝试撤消该项目，但未成功。</span><span class="sxs-lookup"><span data-stu-id="f26c7-108">The sender of the item attempted to recall the item but was unsuccessful.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingRecallSuccess">
@@ -200,12 +147,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0c8ae-109">项目的发件人已撤消该项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0c8ae-109">The sender of the item recalled the item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f26c7-109">项目的发件人已撤消该项目。</span><span class="sxs-lookup"><span data-stu-id="f26c7-109">The sender of the item recalled the item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTrackingReplied">
@@ -224,12 +166,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0c8ae-110">收件人已答复该项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0c8ae-110">The recipient replied to the item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f26c7-110">收件人已答复该项目。</span><span class="sxs-lookup"><span data-stu-id="f26c7-110">The recipient replied to the item.</span></span></summary>
       </Docs>
     </Member>
   </Members>
