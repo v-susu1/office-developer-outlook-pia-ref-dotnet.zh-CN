@@ -1,13 +1,5 @@
 <Type Name="_DDocSiteControl" FullName="Microsoft.Office.Interop.Outlook._DDocSiteControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632767" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905223" /></Metadata><TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DDocSiteControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DDocSiteControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _DDocSiteControl" />
@@ -30,10 +22,8 @@
   </Attributes>
   <Docs>
     <summary>显示 Outlook 项目的正文的控件。</summary>
-    <remarks>
-      <para>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。使用此接口访问对象及其成员;有关这些信息此接口，请参阅。</para>
-      <para />
-    </remarks>
+    <remarks><para>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 使用此接口访问对象及其成员;有关这些信息此接口，请参阅。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="ReadOnly">
@@ -62,13 +52,11 @@
         <ReturnType>System.SByte</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> ) 的指定控件中显示的正文是否只能查看并不能修改。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> ) 的指定控件中显示的正文是否只能查看并不能修改。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b>表示该控件仅显示正文，并不支持其进行修改;<b>False</b>以指明控件支持同时查看和修改的项目的正文。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SuppressAttachments">
@@ -97,14 +85,12 @@
         <ReturnType>System.SByte</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，该值指定是否在 Outlook 项目的附件，不应在控件中显示。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值，该值指定是否在 Outlook 项目的附件，不应在控件中显示。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性仅适用于附加到附件框中的 Outlook 项目的文件和不应用于内嵌附加文件作为嵌入的 Outlook 项目中的项。</para>
+        <remarks><para>此属性仅适用于附加到附件框中的 Outlook 项目的文件，不应用于内嵌附加文件作为嵌入的 Outlook 项目中的项。 </para>
           <para>
-            <b>True</b>指示附件的项目; 不显示该控件<b>False</b>指示控件支持显示项目的附件。</para>
-          <para />
-        </remarks>
+            <b>True</b>表示该控件不显示项目; 的附件<b>False</b>指示控件支持显示项目的附件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

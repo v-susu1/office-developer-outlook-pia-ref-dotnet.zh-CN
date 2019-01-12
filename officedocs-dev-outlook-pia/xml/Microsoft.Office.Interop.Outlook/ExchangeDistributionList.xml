@@ -1,13 +1,5 @@
 <Type Name="ExchangeDistributionList" FullName="Microsoft.Office.Interop.Outlook.ExchangeDistributionList">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ebf12affddd051d674e3d01da3f8d2217bd29299" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631818" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ExchangeDistributionList : Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0cea9b405f999efdca2e4e93850ef34df8cb50a9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906399" /></Metadata><TypeSignature Language="C#" Value="public interface ExchangeDistributionList : Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExchangeDistributionList implements class Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExchangeDistributionList&#xA;Implements _ExchangeDistributionList" />
@@ -30,16 +22,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <b>ExchangeDistributionList</b>对象提供有关详细的信息<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />代表 Exchange 通讯组列表。</summary>
-    <remarks>
-      <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />。</para>
+    <summary><b>ExchangeDistributionList</b>对象提供有关详细的信息<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />代表 Exchange 通讯组列表。</summary>
+    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />。</para>
       <para>
-        <b>ExchangeDistributionList</b>是<b>AddressEntry</b>派生的类和呼叫者在<b>AddressEntry</b>上执行<b>QueryInterface</b>时取代<b>AddressEntry</b>返回。</para>
-      <para>AddressEntry.Members 属性支持枚举成员的通讯组列表。<b>ExchangeDistributionList</b>添加的一类属性<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Alias" />， <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Comments" />，和<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.PrimarySmtpAddress" />。您还可以访问特定于 Exchange 通讯组列表不公开通过对象模型中的其他属性<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</para>
-      <para>一些属性，如<b>注释</b>是读 / 写属性。设置这些属性需要相应的 Exchange 管理员帐户; 下运行的代码如果没有足够的权限，调用<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Update(System.Object,System.Object)" />方法将导致"权限被拒绝"错误。</para>
-      <para />
-    </remarks>
+        <b>ExchangeDistributionList</b> 是 <b>AddressEntry</b> ，一个派生的类，并对 <b>AddressEntry</b> 的调用方执行 <b>QueryInterface</b> 时返回而不是 <b>AddressEntry</b> 。</para>
+      <para>AddressEntry.Members属性支持通讯组列表的枚举成员。 <b>ExchangeDistributionList</b>添加的一类属性<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Alias" />， <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Comments" />，和<see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.PrimarySmtpAddress" />。 您还可以访问特定于 Exchange 通讯组列表不公开通过对象模型中的其他属性<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</para>
+      <para>如 <b>评论</b> 某些属性是读写属性。 设置这些属性需要相应的 Exchange 管理员帐户; 下运行的代码如果没有足够的权限，调用<see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Update(System.Object,System.Object)" />方法将导致"权限被拒绝"错误。 </para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

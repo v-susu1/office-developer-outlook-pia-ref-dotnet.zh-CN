@@ -1,13 +1,5 @@
 <Type Name="_DRecipientControl" FullName="Microsoft.Office.Interop.Outlook._DRecipientControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="91463f2529a6dfcee01b73552457d2058180496f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632209" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _DRecipientControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="91463f2529a6dfcee01b73552457d2058180496f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903081" /></Metadata><TypeSignature Language="C#" Value="public interface _DRecipientControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DRecipientControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DRecipientControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _DRecipientControl" />
@@ -30,10 +22,8 @@
   </Attributes>
   <Docs>
     <summary>显示 Outlook 项目的收件人的控件。</summary>
-    <remarks>
-      <para>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。使用此接口访问对象及其成员;有关这些信息此接口，请参阅。</para>
-      <para />
-    </remarks>
+    <remarks><para>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 使用此接口访问对象及其成员;有关这些信息此接口，请参阅。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="BackColor">
@@ -62,12 +52,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>整数</b>，指示该控件的背景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>整数</b>，指示该控件的背景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性是类型<b>OLE_COLOR</b>是一个<b>整数</b>值。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性是类型<b>OLE_COLOR</b>是一个<b>整数</b>值。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -96,12 +84,10 @@
         <ReturnType>System.SByte</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或获取<b>Boolean</b> (C# 中<b>bool</b> )，该值指示是否允许控件才能正常。 为可读/写属性。</summary>
+        <summary>返回或获取<b>Boolean</b> (C# 中<b>bool</b> )，该值指示是否允许控件才能正常。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>默认值为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>默认值为 <b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -130,7 +116,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回用于呈现控件内的文本的字体。 只读。</summary>
+        <summary>返回用于呈现控件内的文本的字体。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -161,12 +147,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>整数</b>，指示该控件的前景色。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>整数</b>，指示该控件的前景色。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性是类型<b>OLE_COLOR</b>是一个<b>整数</b>值。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性是类型<b>OLE_COLOR</b>是一个<b>整数</b>值。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReadOnly">
@@ -195,13 +179,11 @@
         <ReturnType>System.SByte</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> )，它指定是否显示在控件中的收件人只能查看和不能修改。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>布尔</b>值 (C# 中<b>bool</b> )，它指定是否显示在控件中的收件人只能查看和不能修改。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b>表示该控件仅显示收件人并不支持修改收件人;<b>False</b>以指明控件支持同时查看和修改的收件人。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SpecialEffect">
@@ -232,23 +214,20 @@
       <Docs>
         <summary>返回或设置指定对象视觉外观的 <b>Integer</b>。可读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SpecialEffect</b>的设置：</para>
+        <remarks><para><b>SpecialEffect</b> 的设置为：</para>
           <list type="table">
             <item>
               <description>0</description>
-              <description>对象平面显示，从周围的窗体的边框和 / 或颜色变化。</description>
+              <description>对象平面显示，通过边框和（或）颜色的变化来与周围的窗体相区别。</description>
             </item>
             <item>
               <description>2</description>
-              <description>对象都有为左上阴影和边加亮、 右下。显示到包含它们的窗体雕刻控件和其边框。默认值为<b>_DRecipientControl</b>。</description>
+              <description>对象具有左上阴影、 右下边加亮。 显示到包含它们的窗体雕刻控件和其边框。 <b>_DRecipientControl</b>，默认值。</description>
             </item>
           </list>
           <para>
-            <b>SpecialEffect</b>使用系统颜色定义其边框。</para>
-          <para />
-        </remarks>
+            <b>SpecialEffect</b> 使用系统颜色定义其边框。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

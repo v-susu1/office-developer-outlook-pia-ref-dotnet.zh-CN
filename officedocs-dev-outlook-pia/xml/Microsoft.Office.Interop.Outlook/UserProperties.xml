@@ -1,13 +1,5 @@
 <Type Name="UserProperties" FullName="Microsoft.Office.Interop.Outlook.UserProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d3a7c0f8bc2420670a3ec194bc7e78528d011617" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20633044" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface UserProperties : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a015e90dd8fce2e19aee37071f10dc87ff9382a4" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902703" /></Metadata><TypeSignature Language="C#" Value="public interface UserProperties : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserProperties implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface UserProperties&#xA;Implements IEnumerable" />
@@ -31,14 +23,12 @@
   </Attributes>
   <Docs>
     <summary>包含<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />代表 Outlook 项目的自定义属性的对象。</summary>
-    <remarks>
-      <para>使用<b>UserProperties</b>属性可返回为某个 Outlook 项目的<b>UserProperties</b>对象。这适用于所有的 Outlook 项目，除<see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" />。</para>
-      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法可创建新的<b>UserProperty</b>项目并将其添加到<b>UserProperties</b>对象。<b>Add</b>方法允许您指定的名称和新属性的类型。创建新的属性时，它还可以添加自定义字段作为到通过设置包含项目 （作为属性使用相同的名称） 的文件夹<paramref name="AddToFolderFields" />参数为<b>True</b>时调用<b>Add</b>方法。该字段然后可用作文件夹视图中的列。</para>
+    <remarks><para>使用<b>UserProperties</b>属性可返回为某个 Outlook 项目的<b>UserProperties</b>对象。 这适用于所有的 Outlook 项目，除<see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" />。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法可创建新的<b>UserProperty</b>项目并将其添加到<b>UserProperties</b>对象。 <b>Add</b> 方法允许您指定的名称和类型的新属性。 创建新的属性时，它还可以添加自定义字段作为到通过设置包含项目 （作为属性使用相同的名称） 的文件夹<paramref name="AddToFolderFields" />参数为<b>True</b>时调用<b>Add</b>方法。 然后可作为文件夹视图中的列字段。 </para>
       <para>使用<b>UserProperties</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或基于一的索引号，若要返回单个<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象。</para>
       <para>您可以使用<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象来检索和检查文件夹可以在视图中显示的自定义项目级属性的定义。</para>
-      <para>获取或设置多个自定义属性，请使用<b>PropertyAccessor</b>对象而不是<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />更好的性能对象。</para>
-      <para />
-    </remarks>
+      <para>若要获取或设置多个自定义属性，请使用<b>PropertyAccessor</b>对象而不是<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />更好的性能对象。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -68,17 +58,16 @@
       <Docs>
         <param name="Name">属性的名称。最大长度为 64 个字符。字符，[，]，名称中不允许 _ 和 #。</param>
         <param name="Type">新属性的类型。</param>
-        <param name="AddToFolderFields">
-          <b>如此</b> 如果将属性作为自定义字段添加到项目所在的文件夹。可以在文件夹视图中显示此字段。 <b>假</b> 如果属性将作为自定义字段添加，于该项而不适用于文件夹。默认值为 <b>True</b> 。 </param>
+        <param name="AddToFolderFields"><b>如此</b> 如果将属性作为自定义字段添加到项目所在的文件夹。可以在文件夹视图中显示此字段。 <b>假</b> 如果属性将作为自定义字段添加，于该项而不适用于文件夹。默认值为 <b>True</b> 。 </param>
         <param name="DisplayFormat">指定该属性在 Outlook 用户界面中的显示方式。 此参数可以从几个不同的枚举，由中指定的属性类型之一设置为一个值<paramref name="Type" />参数。 有关详细信息操作<paramref name="Type" />和<paramref name="DisplayFormat" />交互，请参阅<see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />。</param>
         <summary>创建新的用户属性在<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />集合。</summary>
         <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象，表示新属性。</returns>
-        <remarks>
-          <para>您可以通过 Outlook 项目或文件夹中，调用<b>UserProperties.Add</b>方法定义自定义属性或<see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法的文件夹。</para>
-          <para>可以创建由定义类型的属性<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />枚举，除以下类型： <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />， <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />，和<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
-          <para>要设置第一次的<b>Add</b>方法创建的属性，请使用<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象而不是<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />或<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</para>如果您想要查看自定义属性在项目上的
-          <para>，您必须使用<b>UserProperties.Add</b>方法创建该属性。自定义属性创建的<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />的自定义视图中不支持。</para>无法将自定义属性添加到 Office 文档项目，如 Word、 Excel 或 PowerPoint 文件的
-          <para>。当您尝试以编程方式添加到用户定义的字段时，您将收到一条错误<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />对象。</para><para /></remarks>
+        <remarks><para>您可以通过 Outlook 项目或文件夹中，调用<b>UserProperties.Add</b>方法定义自定义属性或<see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />方法的文件夹。</para>
+          <para>您可以创建由定义类型的属性<see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />枚举，除以下类型： <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />， <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />，和<see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />。</para>
+          <para>若要设置第一次的<b>Add</b>方法创建的属性，使用<see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" />属性<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象而不是<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" />或<see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />对象。</para>
+          <para>如果您想要查看的项的自定义属性，您必须使用 <b>UserProperties.Add</b> 方法来创建该属性。 自定义属性创建的<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />不支持自定义视图中。</para>
+          <para>不能将自定义属性添加到 Office 文档项目，例如 Word、Excel 或 PowerPoint 文件。 当您尝试以编程方式添加到用户定义的字段时，您将收到一条错误<see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -104,7 +93,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -132,7 +121,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -160,7 +149,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -189,14 +178,11 @@
       </Parameters>
       <Docs>
         <param name="Name">所请求属性的名称。</param>
-        <param name="Custom">
-          <b>如此</b> 如果应搜索项的自定义属性， <b>假</b> 如果应搜索内置属性。</param>
+        <param name="Custom"><b>如此</b> 如果应搜索项的自定义属性， <b>假</b> 如果应搜索内置属性。</param>
         <summary>查找并返回<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象的请求的属性名称，如果存在。</summary>
-        <returns>如果您使用 <b>UserProperties.Find</b> 查找自定义属性并调用成功，它将返回一个 <b>UserProperty</b> 对象。 如果失败，它将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。 如果您使用<b>UserProperties.Find</b>查找内置属性，指定<b>False</b><paramref name="Custom" />参数。 如果调用成功，它将作为一个 <b>UserProperty</b> 对象返回的属性。 如果调用失败，它将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。 如果指定<b>，则返回 True</b><paramref name="Custom" />，呼叫将无法找到内置属性，并且将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</returns>
-        <remarks>
-          <para>如果<paramref name="Custom" />参数为<b>True</b>时，将搜索仅自定义用户属性。默认值为<b>True</b>。若要查找等<b>主题</b>的非自定义属性，指定<paramref name="Custom" />参数设置为<b>False</b>，否则将返回<b>Nothing</b>。</para>
-          <para />
-        </remarks>
+        <returns>如果您使用 <b>UserProperties.Find</b> 查找自定义属性并调用成功，它将返回一个 <b>UserProperty</b> 对象。 如果失败，它将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。 如果您使用<b>UserProperties.Find</b>查找内置属性，指定<b>False</b> <paramref name="Custom" />参数。 如果调用成功，它将作为一个 <b>UserProperty</b> 对象返回的属性。 如果调用失败，它将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。 如果指定<b>，则返回 True</b> <paramref name="Custom" />，呼叫将无法找到内置属性，并且将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</returns>
+        <remarks><para>如果<paramref name="Custom" />参数为<b>True</b>时，将搜索仅自定义用户属性。 默认值为 <b>True</b>。 若要查找等<b>主题</b>的非自定义属性，指定<paramref name="Custom" />参数设置为<b>False</b>，否则将返回<b>Nothing</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -227,8 +213,7 @@
       <Docs>
         <param name="Index">或者是对象的从 1 开始的索引号，或者是一个用来与集合中某个对象的默认属性相匹配的值。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" />对象的集合。</summary>
-        <value>
-          <b>UserProperty</b> 对象，该对象代表指定的对象。</value>
+        <value><b>UserProperty</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -311,19 +296,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="Recipient" FullName="Microsoft.Office.Interop.Outlook.Recipient">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5905873faa2813aa09498c7fbd926ed8c9f40f55" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631917" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Recipient" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a8e59f96599b28ed30e2f085f18934c0f3738776" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903291" /></Metadata><TypeSignature Language="C#" Value="public interface Recipient" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Recipient" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Recipient" />
   <TypeSignature Language="VB.NET" Value="Public Interface Recipient" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>代表 Outlook 中的用户或资源，通常为邮件地址。</summary>
-    <remarks>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个<b>收件人</b>对象。名称可以是一个字符串，表示的显示名称、 别名或完整的 SMTP 电子邮件地址的收件人。</para>
-      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />方法可创建一个新的<b>Recipient</b>对象，并将其添加到<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />对象。<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />的一个新的<b>Recipient</b>对象的属性设置为关联的默认<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />，<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />或<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />对象和必须重置以指示另一种收件人类型。</para>
-      <para />
-    </remarks>
+    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号，可返回单个<b>收件人</b>对象。 名称可以是收件人的一个字符串，表示显示名称、 别名或完整的 SMTP 电子邮件地址。</para>
+      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" />方法可创建一个新的<b>Recipient</b>对象，并将其添加到<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />对象。 <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" />的一个新的<b>Recipient</b>对象的属性设置为关联的默认<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />， <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />，<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />或<see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />对象和必须重置以指示另一种收件人类型。</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Address">
@@ -57,7 +47,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的电子邮件地址<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的电子邮件地址<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -88,12 +78,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对应于解析的收件人对象。 为可读/写属性。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对应于解析的收件人对象。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>访问<b>AddressEntry</b>属性强制分辨率为未解析的收件人姓名。如果无法解析名称，则返回错误。如果收件人是已解析，<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" />属性为<b>True</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>访问 <b>AddressEntry</b> 属性强制未解析的收件人名称的解析。 如果无法解析该名称，则返回错误。 如果收件人是已解析，<see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" />属性为<b>True</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -119,7 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -150,7 +138,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的文本自动响应<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的文本自动响应<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -178,7 +166,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -231,12 +219,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个常量，该常量属于<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />描述的性质枚举<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 只读。</summary>
+        <summary>返回一个常量，该常量属于<see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" />描述的性质枚举<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>您可以使用将<b>DisplayType</b>属性设为筛选器收件人。<b>DisplayType</b>属性对应于 MAPI 属性<b>PidTagDisplayType</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>您可以使用筛选收件人的 <b>DisplayType</b> 属性。 <b>DisplayType</b> 属性对应于 <b>PidTagDisplayType</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EntryID">
@@ -262,11 +248,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。  只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。  此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagEntryId</b>。</para>在存储中创建项时， 
-          <para>MAPI 存储提供程序分配的唯一 ID 字符串。因此， <b>EntryID</b>属性未设置为 Outlook 项目之前保存或发送。将项目移动到另一个存储区，例如，从收件箱到 Microsoft Exchange Server 公用文件夹，或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件时条目 ID 的更改。解决方案应不依赖<b>EntryID</b>属性来保持唯一性，除非项目将不会移动。<b>EntryID</b>属性返回一个 MAPI 长期条目 id。有关详细信息有关 long-和 short-term Entryid，搜索http://msdn.microsoft.com的<b>PidTagEntryId</b>。</para><para /></remarks>
+        <remarks><para>此属性对应于 <b>PidTagEntryId</b> 的 MAPI 属性。</para>
+          <para>MAPI 存储提供程序将在存储中创建项时分配的唯一 ID 字符串。 因此， <b>EntryID</b> 属性未设置为某个 Outlook 项目之前保存或发送。 条目 ID 更改时将项目移动到另一个存储中，例如，从 Microsoft Exchange Server 的公用文件夹，您 的收件箱或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件。 解决方案不应依赖于 <b>EntryID</b> 属性来保持唯一性，除非不移动项目。 <b>EntryID</b> 属性返回一个 MAPI 长期条目 id。 更多信息关于长时间的和 short-term Entryid，搜索 http://msdn.microsoft.com <b></b>。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FreeBusy">
@@ -295,16 +281,13 @@
       <Docs>
         <param name="Start">返回的"忙/闲"信息时段的开始日期。</param>
         <param name="MinPerChar">返回的"忙/闲"字符串中每个字符所代表的分钟数。</param>
-        <param name="CompleteFormat">
-          <b>True</b>如果不仅忙/闲信息，还可以根据每个字符的值，则返回的字符串应包含<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />常量。</param>
+        <param name="CompleteFormat"><b>True</b>如果不仅忙/闲信息，还可以根据每个字符的值，则返回的字符串应包含<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />常量。</param>
         <summary>返回收件人的"忙/闲"信息。</summary>
         <returns>一个表示忙/闲信息的<b>字符串</b>（C# 中的<b>字符串</b>） 值。</returns>
-        <remarks>
-          <para>默认为返回一个字符串，表示一个月的忙/闲信息与 Microsoft schedule + 自动化格式兼容 (即，该字符串包含一个字符每个<paramref name="MinPerChar" />的分钟数，最多为一个月中的指定<paramref name="Start" />日期)。</para>
+        <remarks><para> 默认为返回一个字符串，表示一个月的忙/闲信息与 Microsoft schedule + 自动化格式兼容 (即，该字符串包含一个字符每个<paramref name="MinPerChar" />的分钟数，最多为一个月中的指定<paramref name="Start" />日期)。</para>
           <para>如果可选参数<paramref name="CompleteFormat" />省略或<b>False</b>，然后"免费"由字符 0 和所有其他状态由字符 1。</para>
-          <para>如果<paramref name="CompleteFormat" /><b>，则返回 True</b>，则与，上面所定义，则返回相同的长度字符串但现在字符对应于<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />常量。</para>
-          <para />
-        </remarks>
+          <para>如果<paramref name="CompleteFormat" /> <b>，则返回 True</b>，则与，上面所定义，则返回相同的长度字符串但现在字符对应于<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />常量。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -330,13 +313,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示集合中对象的位置的<b>整数</b>(C# 中<b>int</b> ) 值。  只读。</summary>
+        <summary>返回指示集合中对象的位置的<b>整数</b>(C# 中<b>int</b> ) 值。  此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Index</b>属性仅在当前会话中有效，并且在可以更改对象添加到和从集合中删除。集合中的第一个对象的<b>索引</b>值为 1。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Index</b> 属性仅在当前会话期间有效，并且在可以更改对象添加到集合和从集合中删除。集合中的第一个对象的 <b>索引</b> 值为 1。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingResponseStatus">
@@ -362,7 +342,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" />对收件人的会议请求的响应的总体状态的常量。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" />对收件人的会议请求的响应的总体状态的常量。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -390,7 +370,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表对象的显示名称。 只读。</summary>
+        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表对象的显示名称。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -446,7 +426,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。 此为只读属性。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -473,8 +453,7 @@
       <Parameters />
       <Docs>
         <summary>尝试解析<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />参照通讯簿的对象。</summary>
-        <returns>
-          <b>如此</b> 如果已解析对象;否则为 <b>假</b> 。</returns>
+        <returns><b>如此</b> 如果已解析对象;否则为 <b>假</b> 。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -501,12 +480,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b> ，如果收件人验证通讯簿。 只读。</summary>
+        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示<b>True</b> ，如果收件人验证通讯簿。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果名称相似通讯簿中的收件人，您可以通过指定收件人的完整 SMTP 电子邮件地址来解析收件人。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果通讯簿中存在类似的收件人姓名，则可以通过指定收件人的完整 SMTP 电子邮件地址来解析该收件人。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sendable">
@@ -535,13 +512,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:System.Boolean" />(<b>bool</b>的 C#) 值，该值指示是否可以将会议请求发送到<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:System.Boolean" />(<b>bool</b>的 C#) 值，该值指示是否可以将会议请求发送到<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性 PidTagRecipientFlags。如果<b>PidTagRecipientFlags</b>等于 0x00000001，则返回<b>True</b> 。设置属性会相应地更改<b>PidTagRecipientFlags</b> 。</para>
-          <para>此属性仅适用于会议请求的收件人。如果收件人不是会议请求，获取和设置该属性不会不执行任何操作。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 PidTagRecipientFlags 的 MAPI 属性。 如果 <b>PidTagRecipientFlags</b> 等于 0x00000001，则返回 <b>True</b> 。 设置属性会相应地更改 <b>PidTagRecipientFlags</b> 。 </para>
+          <para>此属性仅适用于会议要求的收件人。如果收件人不在会议要求中，则获取和设置此属性不起任何作用。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -567,19 +542,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TrackingStatus">
@@ -608,7 +580,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTrackingStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" />常量，指示收件人的跟踪状态。 为可读/写属性。</summary>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTrackingStatus" />常量，指示收件人的跟踪状态。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -639,7 +611,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置为<b>DateTime</b> ，该值指示跟踪状态日期和时间的收件人。 为可读/写属性。</summary>
+        <summary>返回或设置为<b>DateTime</b> ，该值指示跟踪状态日期和时间的收件人。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -670,14 +642,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，表示收件人的类型。 为可读/写属性。</summary>
+        <summary>返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，表示收件人的类型。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>根据收件人的类型，此属性返回或设置对应于下列常量之一的等价的数字的<b>整数</b>(C# 中<b>int</b> ) 值：</para>
+        <remarks><para>根据收件人的类型，此属性返回或设置对应于下列常量之一的等价的数字的<b>整数</b>(C# 中<b>int</b> ) 值：</para>
           <list type="bullet">
             <item>
               <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />收件人：<see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" />常量olAssociatedContact。</para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />收件人：<see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" />常量 olAssociatedContact。</para>
             </item>
             <item>
               <para>
@@ -692,10 +663,9 @@
                 <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />收件人： 以下任一<see cref="T:Microsoft.Office.Interop.Outlook.OlTaskRecipientType" />常量： olFinalStatus 或 olUpdate。</para>
             </item>
           </list>
-          <para>此属性可能返回不总是会议室的相应收件人类型。例如，会议室可能指定为所需收件人在会议请求中，在这种情况下此属性不会返回会议房间的 olResource。</para>
-          <para>可靠地确定收件人是会议室内，利用该消息处理 API (MAPI) 属性，PidTagDisplayTypeEx，<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。您可以访问此属性使用<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />Outlook 对象模型中的对象。<b>PidTagDisplayTypeEx</b>属性表示为"http://schemas.microsoft.com/mapi/proptag/0x39050003"MAPI 属性标记命名空间中。请注意， <b>PidTagDisplayTypeEx</b>属性不可用的 Microsoft Exchange Server 版本早于 Microsoft Exchange Server 2007; 中在此类早期版本的 Exchange 服务器中，可以使用的<b>Recipient.Type</b>属性，并假定具有之外 olResource 类型收件人不是会议室内。</para>
-          <para />
-        </remarks>
+          <para>此属性可能不会始终返回会议室的相应收件人类型。例如，会议室可能指定为会议要求中的必选收件人，在此情况下，此属性不会返回该会议室的 olResource 。</para>
+          <para>若要可靠地确定收件人是会议室内，使用的消息处理 API (MAPI) 属性，PidTagDisplayTypeEx 的<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象。 您可以访问此属性使用<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />Outlook 对象模型中的对象。 <b>PidTagDisplayTypeEx</b> 属性由 MAPI 属性标记命名空间中的"http://schemas.microsoft.com/mapi/proptag/0x39050003"。 请注意， <b>PidTagDisplayTypeEx</b> 属性在中不可用的 Microsoft Exchange Server 版本早于 Microsoft Exchange Server 2007 年;在 Exchange Server 这种早期版本中，可以使用 <b>Recipient.Type</b> 属性，并假定有一个 olResource 不同类型的收件人不是会议室。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
