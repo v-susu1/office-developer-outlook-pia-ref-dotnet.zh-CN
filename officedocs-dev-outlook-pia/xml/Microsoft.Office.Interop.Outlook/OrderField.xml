@@ -1,13 +1,5 @@
 <Type Name="OrderField" FullName="Microsoft.Office.Interop.Outlook.OrderField">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a141c7a729e401f026f05a32cde85f7730804364" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631401" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OrderField : Microsoft.Office.Interop.Outlook._OrderField" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="83e00c147e2cc836d6d3bb41db88d4407efe9b48" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902115" /></Metadata><TypeSignature Language="C#" Value="public interface OrderField : Microsoft.Office.Interop.Outlook._OrderField" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OrderField implements class Microsoft.Office.Interop.Outlook._OrderField" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OrderField" />
   <TypeSignature Language="VB.NET" Value="Public Interface OrderField&#xA;Implements _OrderField" />
@@ -30,69 +22,36 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="0a662-101">代表用于对视图中的信息进行排序的顺序字段。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0a662-101">Represents an order field, used to sort information in a view.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="0a662-102">
-        <para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。请参阅本主题的 COM 对象有关的信息。有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OrderField" />。</para>
-        <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />对象，以将 Outlook 项目属性添加到<b>SortFields</b>集合中，为以下对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象：</para>
-        <list type="bullet">
-          <item>
-            <para>
-              <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />
-            </para>
-          </item>
-          <item>
-            <para>
-              <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
-            </para>
-          </item>
-          <item>
-            <para>
-              <see cref="T:Microsoft.Office.Interop.Outlook.IconView" />
-            </para>
-          </item>
-        </list>
-        <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />
-        <b>OrderFields</b>集合中包含的
-      <para><b>OrderField</b>对象应用到的视图中顺序对象包含在集合中的顺序显示的 Outlook 项目。对于每个<b>OrderField</b>对象，使用<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" />属性以确定是否按升序还是降序排序的顺序字段的内容进行排序。</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0a662-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._OrderField" />. </para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object to add an Outlook item property to the <b>SortFields</b> collection for the following objects derived from the <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object:</para>
-          <list type="bullet">
-            <item>
-              <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />
-              </para>
-            </item>
-            <item>
-              <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
-              </para>
-            </item>
-            <item>
-              <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.IconView" />
-              </para>
-            </item>
-            <item>
-              <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />
-              </para>
-            </item>
-          </list>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property to obtain the name of the order field as referenced in the XML definition of the view.</para>
+    <summary><span data-ttu-id="7ac62-101">代表用于对视图中的信息进行排序的顺序字段。</span><span class="sxs-lookup"><span data-stu-id="7ac62-101">Represents an order field, used to sort information in a view.</span></span></summary>
+    <remarks><para><span data-ttu-id="7ac62-102">这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。</span><span class="sxs-lookup"><span data-stu-id="7ac62-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="7ac62-103">使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。</span><span class="sxs-lookup"><span data-stu-id="7ac62-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="7ac62-104">但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="7ac62-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="7ac62-105">请参阅本主题的 COM 对象有关的信息。</span><span class="sxs-lookup"><span data-stu-id="7ac62-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="7ac62-106">有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._OrderField" />。</span><span class="sxs-lookup"><span data-stu-id="7ac62-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._OrderField" />.</span></span> </para>
+      <para><span data-ttu-id="7ac62-107">使用<see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" />方法<see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />对象，以将 Outlook 项目属性添加到<b>SortFields</b>集合中，为以下对象派生自<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象：</span><span class="sxs-lookup"><span data-stu-id="7ac62-107">Use the <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object to add an Outlook item property to the <b>SortFields</b> collection for the following objects derived from the <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object:</span></span></para>
+      <list type="bullet">
+        <item>
           <para>
-            <b>OrderField</b> objects contained in an <b>OrderFields</b> collection are applied to Outlook items displayed in the view in the order in which the objects are contained in the collection. For each <b>OrderField</b> object, use the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property to determine whether to sort the contents of the order field in ascending or descending order.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+            <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.IconView" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />
+          </para>
+        </item>
+      </list>
+      <para><span data-ttu-id="7ac62-108">使用<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />属性获取视图的 XML 定义中所引用的顺序字段的名称。</span><span class="sxs-lookup"><span data-stu-id="7ac62-108">Use the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property to obtain the name of the order field as referenced in the XML definition of the view.</span></span></para>
+      <para><span data-ttu-id="7ac62-109">
+        <b>OrderField</b> <b>OrderFields</b> 集合中包含的对象应用于 Outlook 项显示在视图中的对象包含在集合中的顺序。</span><span class="sxs-lookup"><span data-stu-id="7ac62-109">
+        <b>OrderField</b> objects contained in an <b>OrderFields</b> collection are applied to Outlook items displayed in the view in the order in which the objects are contained in the collection.</span></span> <span data-ttu-id="7ac62-110">对于每个<b>OrderField</b>对象，使用<see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" />属性以确定是否按升序还是降序排序的顺序字段的内容进行排序。</span><span class="sxs-lookup"><span data-stu-id="7ac62-110">For each <b>OrderField</b> object, use the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property to determine whether to sort the contents of the order field in ascending or descending order.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>
