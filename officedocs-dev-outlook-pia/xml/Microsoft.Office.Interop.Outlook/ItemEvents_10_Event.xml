@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fd919c2e15484df8a6620c4aef0387453e2d0b25" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632083" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="10db76b897312de282fe89c78af9317334dffa68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904607" /></Metadata><TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemEvents_10_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="4f572-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="4f572-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c3b5b-p101">这是在访问 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）时创建的 .NET 接口。此接口实现了较早版本中的所有事件和任何其他新事件。仅当您想要使用的事件与 COM 对象的方法共享同一名称时才使用此接口；在这种情况下，转换为此接口以连接到该事件，转换为主接口以调用该方法。否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,71 +40,37 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AfterWriteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-105">在 Microsoft Outlook 保存项目之后发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-105">Occurs after Microsoft Outlook has saved the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-106">
-            <para>
-              <b>AfterWrite</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" />事件。不可取消此事件。若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
-            <para>
-              <b>AfterWrite</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>iexchextmessageevents:: Onwritecomplete</b>。</para>
-            <para>可以在<b>AfterWrite</b>事件中访问仅项目对象的下列成员：</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <b>类</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>MessageClass</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>MAPIOBJECT</b>
-                </para>
-              </item>
-            </list>
-            <para>
-              <b>MAPIOBJECT</b>属性是 Outlook 对象模型中的隐藏的属性。此属性提供访问基础的 MAPI IMessage 对象，并可以调用仅通过 IUnknown 接口。该属性是供用支持<b>IUnknown</b>如 C 或 c + + 语言编写的程序。<b>MAPIOBJECT</b>不能通过的 IDispatch 接口。如 Visual Basic for Applications (VBA)、 Visual C# 和 Visual Basic 开发语言支持的<b>IDispatch</b>接口和不为<b>IUnknown</b>，并因此，他们无法访问<b>MAPIOBJECT</b>。如果在此事件访问其他属性或方法的父项，Outlook 将引发错误。</para>
-            <para>从中此事件的<b>MAPIOBJECT</b>属性获取的对象必须包含所有由 Outlook 保持所做的更改。实施者可以保留对由<b>MAPIOBJECT</b>，基础<b>IMessage</b>对象的<b>IMessage</b>对象上调用的 SaveChanges 方法和 Outlook 将还原这些更改。</para>
-            <para>实施必须释放从事件完成之前的事件中的<b>MAPIOBJECT</b>属性获取的对象。尝试使用该对象的事件的上下文之外不受支持和不可预测的行为将导致。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-106">
-              <para>The <b>AfterWrite</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> event. This event is not cancelable. To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event. </para>
-              <para>The <b>AfterWrite</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnWriteComplete</b>. </para>
-              <para>Only the following members of the item object can be accessed in the <b>AfterWrite</b> event: </para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <b>Class</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>MessageClass</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>MAPIOBJECT</b>
-                  </para>
-                </item>
-              </list>
-              <para>The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </para>
-              <para>The object obtained from the <b>MAPIOBJECT</b> property in this event must contain all the changes persisted by Outlook. The implementer can call the SaveChanges method on the <b>IMessage</b> object to persist changes to the underlying <b>IMessage</b> object represented by <b>MAPIOBJECT</b>, and Outlook will not revert those changes. </para>
-              <para>Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-105">在 Microsoft Outlook 保存项目之后发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-105">Occurs after Microsoft Outlook has saved the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-106"><b>AfterWrite</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" />事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-106">The <b>AfterWrite</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> event.</span></span> <span data-ttu-id="c3b5b-107">此事件不是可以取消的。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-107">This event is not cancelable.</span></span> <span data-ttu-id="c3b5b-108">若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-108">To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event.</span></span> </para>
+          <para><span data-ttu-id="c3b5b-p103"><b>AfterWrite</b> 事件对应于 <b>IExchExtMessageEvents::OnWriteComplete</b> 的 Exchange 客户端扩展 (ECE) 事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-p103">The <b>AfterWrite</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnWriteComplete</b>. </span></span></para>
+          <para><span data-ttu-id="c3b5b-110">在 <b>AfterWrite</b> 事件中可以访问只有 item 对象的下列成员:</span><span class="sxs-lookup"><span data-stu-id="c3b5b-110">Only the following members of the item object can be accessed in the <b>AfterWrite</b> event:</span></span> </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="c3b5b-111">
+                <b>class</b>
+              </span><span class="sxs-lookup"><span data-stu-id="c3b5b-111">
+                <b>Class</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="c3b5b-112">
+                <b>MessageClass</b>
+              </span><span class="sxs-lookup"><span data-stu-id="c3b5b-112">
+                <b>MessageClass</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="c3b5b-113">
+                <b>MAPIOBJECT</b>
+              </span><span class="sxs-lookup"><span data-stu-id="c3b5b-113">
+                <b>MAPIOBJECT</b>
+              </span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="c3b5b-p104"><b>MAPIOBJECT</b> 属性是 Outlook 对象模型中的隐藏的属性。此属性提供对基础的 MAPI IMessage 对象，并且可以仅通过 IUnknown 接口调用。该属性是用支持 <b>IUnknown</b> 如 C 或 c + + 语言编写的程序可以访问的。 <b>MAPIOBJECT</b> 不能通过 IDispatch 接口。如 (VBA)、 视觉 C#，和 Visual Basic 的 Visual Basic for Applications 的开发语言都支持 <b>IDispatch</b> 接口并不为 <b>IUnknown</b> ，，因此，它们无法访问 <b>MAPIOBJECT</b> 。 如果在此事件中访问其他属性或方法的父项，则 Outlook 将引发错误。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-p104">The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </span></span></para>
+          <para><span data-ttu-id="c3b5b-p105">获取在此事件中的 <b>MAPIOBJECT</b> 属性的对象必须包含所有 outlook 保留所做的更改。 实施者可以调用 SaveChanges <b>IMessage</b> 对象以保持对基础 <b>IMessage</b> 对象由 <b>MAPIOBJECT</b> ，更改，Outlook 将不会还原这些更改。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-p105">The object obtained from the <b>MAPIOBJECT</b> property in this event must contain all the changes persisted by Outlook. The implementer can call the SaveChanges method on the <b>IMessage</b> object to persist changes to the underlying <b>IMessage</b> object represented by <b>MAPIOBJECT</b>, and Outlook will not revert those changes. </span></span></para>
+          <para><span data-ttu-id="c3b5b-p106">实现者必须释放来自事件完成前的事件中的 <b>MAPIOBJECT</b> 属性的对象。尝试使用该对象的事件上下文之外是不受支持，将导致不可预知的行为。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-p106">Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AttachmentAdd">
@@ -135,12 +88,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentAddEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-107">向父对象的实例中添加附件时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-107">Occurs when an attachment has been added to an instance of the parent object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-124">向父对象的实例中添加附件时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-124">Occurs when an attachment has been added to an instance of the parent object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,12 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentReadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-108">当打开父对象实例中的附件进行阅读时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-108">Occurs when an attachment in  an instance of the parent object has been opened for reading.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-125">当打开父对象实例中的附件进行阅读时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-125">Occurs when an attachment in  an instance of the parent object has been opened for reading.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,12 +126,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentRemoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-109">从父对象的实例中删除附件时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-109">Occurs when an attachment has been removed from an instance of the parent object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-126">从父对象的实例中删除附件时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-126">Occurs when an attachment has been removed from an instance of the parent object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -207,12 +145,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-110">附件添加到父对象的实例前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-110">Occurs before an attachment is added to an instance of the parent object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-127">附件添加到父对象的实例前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-127">Occurs before an attachment is added to an instance of the parent object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -231,24 +164,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentPreviewEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-111">预览与父对象的实例相关的附件前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-111">Occurs before an attachment associated with an instance of the parent object is previewed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-112">
-            <para>从活动浏览器的阅读窗格中的附件区或从活动检查器预览的附件之前发生此事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-112">
-              <para>This event occurs before an attachment is previewed, either from the attachment strip in the Reading Pane of the active explorer or from the active inspector.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-128">预览与父对象的实例相关的附件前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-128">Occurs before an attachment associated with an instance of the parent object is previewed.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-129">此事件在某附件被预览（从活动浏览器的阅读窗格中的附件区中预览，或从活动检查器中预览）之前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-129">This event occurs before an attachment is previewed, either from the attachment strip in the Reading Pane of the active explorer or from the active inspector.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentRead">
@@ -266,12 +184,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-113">从文件系统、 附件流读取与父对象的实例关联的附件前发生此事件或<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-113">Occurs before an attachment associated with an instance of the parent object is read from the file system, an attachment stream, or an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-130">从文件系统、 附件流读取与父对象的实例关联的附件前发生此事件或<see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />对象。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-130">Occurs before an attachment associated with an instance of the parent object is read from the file system, an attachment stream, or an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -290,24 +203,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-114">在保存附件前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-114">Occurs just before an attachment is saved.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-115">
-            <para>附件保存到的消息存储时，此事件对应于。<b>BeforeAttachmentSave</b>事件发生之前保存项目时保存附件。如果用户编辑附件，然后保存这些更改， <b>BeforeAttachmentSave</b>事件不会发生次;而是它会发生项目自身更高版本保存时。它还不会发生时使用<b>SaveAsFile</b>方法的硬盘上保存附件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-115">
-              <para>This event corresponds to when attachments are saved to the messaging store. The <b>BeforeAttachmentSave</b> event occurs just before an attachment is saved when an item is saved. If a user edits an attachment and then saves those changes, the <b>BeforeAttachmentSave</b> event will not occur at that time; instead it will occur  when the item itself is later saved. It also does not occur when the attachment is saved on the hard disk using the <b>SaveAsFile</b> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-131">在保存附件前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-131">Occurs just before an attachment is saved.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-132">此事件对应于将附件保存到邮件存储区时。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-132">This event corresponds to when attachments are saved to the messaging store.</span></span> <span data-ttu-id="c3b5b-133">之前在保存附件保存项时， <b>BeforeAttachmentSave</b> 事件发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-133">The <b>BeforeAttachmentSave</b> event occurs just before an attachment is saved when an item is saved.</span></span> <span data-ttu-id="c3b5b-134">如果用户编辑附件，然后保存这些更改， <b>BeforeAttachmentSave</b>事件不会发生次;而是它会发生项目自身更高版本保存时。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-134">If a user edits an attachment and then saves those changes, the <b>BeforeAttachmentSave</b> event will not occur at that time; instead it will occur  when the item itself is later saved.</span></span> <span data-ttu-id="c3b5b-135">它也不会触发附件保存在使用 <b>SaveAsFile</b> 方法的硬盘上。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-135">It also does not occur when the attachment is saved on the hard disk using the <b>SaveAsFile</b> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentWriteToTempFile">
@@ -325,12 +223,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-116">将与父对象的实例相关的附件写到临时文件前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-116">Occurs before an attachment associated with an instance of the parent object is written to a temporary file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-136">将与父对象的实例相关的附件写到临时文件前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-136">Occurs before an attachment associated with an instance of the parent object is written to a temporary file.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -349,12 +242,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAutoSaveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-117">Outlook 自动保存项目前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-117">Occurs before the item is automatically saved by Outlook.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-137">Outlook 自动保存项目前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-137">Occurs before the item is automatically saved by Outlook.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -373,52 +261,23 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeCheckNamesEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-118">在 Microsoft Outlook 开始解析项目（父对象的一个实例）的收件人集合中的名称前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-118">Occurs just before Microsoft Outlook starts resolving names in the recipient collection for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-119">
-            <para>在以下情况下不会触发事件：</para>
-            <list type="bullet">
-              <item>
-                <para>自定义窗体日记条目，然后解析联系人字段中的联系人。</para>
-              </item>
-              <item>
-                <para>您自定义联系人窗体，然后解析联系人字段中的联系人。</para>
-              </item>
-              <item>
-                <para>您自定义任何类型的窗体，Outlook 自动解析背景中的名称。</para>
-              </item>
-              <item>
-                <para>以编程方式创建和解析收件人。</para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-119">
-              <para>The event does not fire under the following circumstances:  </para>
-              <list type="bullet">
-                <item>
-                  <para>You customized a Journal Entry form and then resolved a contact in the Contacts field. </para>
-                </item>
-                <item>
-                  <para>You customized a Contact form and then resolved a contact in the Contacts field. </para>
-                </item>
-                <item>
-                  <para>You customized any type of form and Outlook automatically resolved the name in the background. </para>
-                </item>
-                <item>
-                  <para>You programmatically created and resolved a recipient.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-138">在 Microsoft Outlook 开始解析项目（父对象的一个实例）的收件人集合中的名称前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-138">Occurs just before Microsoft Outlook starts resolving names in the recipient collection for an item (which is an instance of the parent object).</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-139">下列情况不会触发此事件：</span><span class="sxs-lookup"><span data-stu-id="c3b5b-139">The event does not fire under the following circumstances:</span></span>  </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="c3b5b-140">自定义"日记条目"窗体，然后解析 "联系人"字段中的联系人。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-140">You customized a Journal Entry form and then resolved a contact in the Contacts field.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="c3b5b-141">自定义"联系人"窗体，然后解析 "联系人"字段中的联系人。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-141">You customized a Contact form and then resolved a contact in the Contacts field.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="c3b5b-142">自定义任何类型的窗体，然后 Outlook 自动在后台解析名称。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-142">You customized any type of form and Outlook automatically resolved the name in the background.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="c3b5b-143">以编程方式创建和解析收件人。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-143">You programmatically created and resolved a recipient.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeDelete">
@@ -436,26 +295,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeDeleteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-120">在删除项目（父对象的一个实例）前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-120">Occurs before an item (which is an instance of the parent object) is deleted.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-121">
-            <para>中顺序时触发该事件的电子邮件、 通讯组列表、 日记条目、 任务、 联系人，或通过某项操作删除后，必须打开一个检查器。</para>
-            <para>事件每发生一次删除项目。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-121">
-              <para>In order for this event to fire when an e-mail message, distribution list, journal entry, task, contact, or post  are deleted through an action, an inspector must be open.</para>
-              <para>The event occurs each time an item is deleted.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-144">在删除项目（父对象的一个实例）前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-144">Occurs before an item (which is an instance of the parent object) is deleted.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-145">为了在通过某项操作删除电子邮件、通讯组列表、日记条目、任务、联系人或公告时触发该事件，必须打开一个检查器。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-145">In order for this event to fire when an e-mail message, distribution list, journal entry, task, contact, or post  are deleted through an action, an inspector must be open.</span></span></para>
+          <para><span data-ttu-id="c3b5b-146">每删除一个项目，该事件发生一次。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-146">The event occurs each time an item is deleted.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeRead">
@@ -473,71 +316,37 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeReadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-122">在 Microsoft Outlook 开始读取项目属性之前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-122">Occurs before Microsoft Outlook begins to read the properties for the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-123">
-            <para>
-              <b>BeforeRead</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />事件。与其他事件<b>之前</b>前缀，此事件不是可取消。若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
-            <para>
-              <b>BeforeRead</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>iexchextmessageevents:: Onread</b>。</para>
-            <para>可以在<b>BeforeRead</b>事件中访问仅项目对象的下列成员：</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <b>类</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>MessageClass</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>MAPIOBJECT</b>
-                </para>
-              </item>
-            </list>
-            <para>
-              <b>MAPIOBJECT</b>属性是 Outlook 对象模型中的隐藏的属性。此属性提供访问基础的 MAPI IMessage 对象，并可以调用仅通过 IUnknown 接口。该属性是供用支持<b>IUnknown</b>如 C 或 c + + 语言编写的程序。<b>MAPIOBJECT</b>不能通过的 IDispatch 接口。如 Visual Basic for Applications (VBA)、 Visual C# 和 Visual Basic 开发语言支持的<b>IDispatch</b>接口和不为<b>IUnknown</b>，并因此，他们无法访问<b>MAPIOBJECT</b>。如果在此事件访问其他属性或方法的父项，Outlook 将引发错误。</para>
-            <para>如果实施者访问的基础<b>IMessage</b>对象，该对象，Outlook 更改属性将呈现这就反映了对<b>IMessage</b>对象的更改该项目。实施者没有<b>IMessage</b>对象以使更改反映到 Outlook 中调用 SaveChanges。</para>
-            <para>实施必须释放从事件完成之前的事件中的<b>MAPIOBJECT</b>属性获取的对象。尝试使用该对象的事件的上下文之外不受支持和不可预测的行为将导致。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-123">
-              <para>The <b>BeforeRead</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event. Unlike other events with the <b>Before</b> prefix, this event is not cancelable. To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event. </para>
-              <para>The <b>BeforeRead</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnRead</b>. </para>
-              <para>Only the following members of the item object can be accessed in the <b>BeforeRead</b> event: </para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <b>Class</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>MessageClass</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>MAPIOBJECT</b>
-                  </para>
-                </item>
-              </list>
-              <para>The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </para>
-              <para>If the implementer accesses the underlying <b>IMessage</b> object and changes properties on that object, Outlook will render that item reflecting the changes to the <b>IMessage</b> object. The implementer does not have to call SaveChanges on the <b>IMessage</b> object to cause the changes to be reflected in Outlook. </para>
-              <para>Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-147">在 Microsoft Outlook 开始读取项目属性之前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-147">Occurs before Microsoft Outlook begins to read the properties for the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-148"><b>BeforeRead</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-148">The <b>BeforeRead</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event.</span></span> <span data-ttu-id="c3b5b-149">与其他事件<b>之前</b>前缀，此事件不是可取消。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-149">Unlike other events with the <b>Before</b> prefix, this event is not cancelable.</span></span> <span data-ttu-id="c3b5b-150">若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-150">To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event.</span></span> </para>
+          <para><span data-ttu-id="c3b5b-p109"><b>BeforeRead</b> 事件对应于 <b>IExchExtMessageEvents::OnRead</b> 的 Exchange 客户端扩展 (ECE) 事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-p109">The <b>BeforeRead</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnRead</b>. </span></span></para>
+          <para><span data-ttu-id="c3b5b-152">在 <b>BeforeRead</b> 事件中可以访问只有 item 对象的下列成员:</span><span class="sxs-lookup"><span data-stu-id="c3b5b-152">Only the following members of the item object can be accessed in the <b>BeforeRead</b> event:</span></span> </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="c3b5b-153">
+                <b>class</b>
+              </span><span class="sxs-lookup"><span data-stu-id="c3b5b-153">
+                <b>Class</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="c3b5b-154">
+                <b>MessageClass</b>
+              </span><span class="sxs-lookup"><span data-stu-id="c3b5b-154">
+                <b>MessageClass</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="c3b5b-155">
+                <b>MAPIOBJECT</b>
+              </span><span class="sxs-lookup"><span data-stu-id="c3b5b-155">
+                <b>MAPIOBJECT</b>
+              </span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="c3b5b-p110"><b>MAPIOBJECT</b> 属性是 Outlook 对象模型中的隐藏的属性。此属性提供对基础的 MAPI IMessage 对象，并且可以仅通过 IUnknown 接口调用。该属性是用支持 <b>IUnknown</b> 如 C 或 c + + 语言编写的程序可以访问的。 <b>MAPIOBJECT</b> 不能通过 IDispatch 接口。如 (VBA)、 视觉 C#，和 Visual Basic 的 Visual Basic for Applications 的开发语言都支持 <b>IDispatch</b> 接口并不为 <b>IUnknown</b> ，，因此，它们无法访问 <b>MAPIOBJECT</b> 。 如果在此事件中访问其他属性或方法的父项，则 Outlook 将引发错误。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-p110">The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </span></span></para>
+          <para><span data-ttu-id="c3b5b-p111">如果实施者访问该对象的基础 <b>IMessage</b> 对象，并更改属性，Outlook 将呈现对 <b>IMessage</b> 对象的更改以反映该项目。实施者不需要调用 IMessage 对象以使所做的更改会反映在 Outlook 中 <b>SaveChanges</b> 。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-p111">If the implementer accesses the underlying <b>IMessage</b> object and changes properties on that object, Outlook will render that item reflecting the changes to the <b>IMessage</b> object. The implementer does not have to call SaveChanges on the <b>IMessage</b> object to cause the changes to be reflected in Outlook. </span></span></para>
+          <para><span data-ttu-id="c3b5b-p112">实现者必须释放来自事件完成前的事件中的 <b>MAPIOBJECT</b> 属性的对象。尝试使用该对象的事件上下文之外是不受支持，将导致不可预知的行为。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-p112">Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -555,24 +364,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CloseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-124">与项目（父对象的一个实例）相关的检查器关闭时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-124">Occurs when the inspector associated with an item (which is an instance of the parent object) is being closed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-125">
-            <para>如果使用<b>Close</b>方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-125">
-              <para>If you use the <b>Close</b> method to fire this event, it can only be canceled if the <b>Close</b> method uses the <b>olPromptForSave</b> argument.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-166">与项目（父对象的一个实例）相关的检查器关闭时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-166">Occurs when the inspector associated with an item (which is an instance of the parent object) is being closed.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-167">如果使用 <b>Close</b> 方法以触发该事件，则可以仅取消 <b>Close</b> 方法使用 <b>olPromptForSave</b> 参数。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-167">If you use the <b>Close</b> method to fire this event, it can only be canceled if the <b>Close</b> method uses the <b>olPromptForSave</b> argument.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomAction">
@@ -590,25 +384,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomActionEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-126">当项目（父对象的一个实例）的自定义动作执行时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-126">Occurs when a custom action of an item (which is an instance of the parent object) executes.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-127">
-            <para>
-              <b>Action</b>对象和由自定义动作产生的新建的项目传递给事件中。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-127">
-              <para>The <b>Action</b> object and the newly created item resulting from the custom action are passed to the event.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-168">当项目（父对象的一个实例）的自定义动作执行时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-168">Occurs when a custom action of an item (which is an instance of the parent object) executes.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-169"><b>Action</b> 对象和由自定义动作产生的新建的项目被传递给事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-169">The <b>Action</b> object and the newly created item resulting from the custom action are passed to the event.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomPropertyChange">
@@ -626,24 +404,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomPropertyChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-128">当项目（父对象的一个实例）的自定义属性更改时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-128">Occurs when a custom property of an item (which is an instance of the parent object) is changed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-129">
-            <para>属性名传递给过程，以便您可以确定哪个自定义属性被更改。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-129">
-              <para>The property name is passed to the procedure so that you can determine which custom property changed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-170">当项目（父对象的一个实例）的自定义属性更改时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-170">Occurs when a custom property of an item (which is an instance of the parent object) is changed.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-171">属性名传递给过程，以便于用户确定哪个自定义属性被更改。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-171">The property name is passed to the procedure so that you can determine which custom property changed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -661,12 +424,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-130">当用户为项目（父对象的一个实例）选择转发动作时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-130">Occurs when the user selects the Forward action for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-172">当用户为项目（父对象的一个实例）选择转发动作时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-172">Occurs when the user selects the Forward action for an item (which is an instance of the parent object).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -685,24 +443,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_OpenEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-131">要在打开父对象的实例时发生<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-131">Occurs when an instance of the parent object is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-132">
-            <para>发生此事件时，已初始化的<b>Inspector</b>对象，但尚未显示。<b>Open</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />每当用户选择项目在视图中支持单元格内编辑以及在检查器中打开项目时，发生此事件中<b>读取</b>该事件。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-132">
-              <para>When this event occurs, the <b>Inspector</b> object is initialized but not yet displayed. The <b>Open</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an inspector.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-173">要在打开父对象的实例时发生<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-173">Occurs when an instance of the parent object is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-174">此事件发生时，该 <b>检查器</b> 对象已初始化，但尚未显示。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-174">When this event occurs, the <b>Inspector</b> object is initialized but not yet displayed.</span></span> <span data-ttu-id="c3b5b-175"><b>Open</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />每当用户选择项目在视图中支持单元格内编辑以及在检查器中打开项目时，发生此事件中<b>读取</b>该事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-175">The <b>Open</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an inspector.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyChange">
@@ -720,24 +463,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_PropertyChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-133">当父对象的实例的显式内置属性更改时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-133">Occurs when an explicit built-in property of an instance of the parent object is changed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-134">
-            <para>属性名传递给事件，以便您可以确定哪个属性被更改。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-134">
-              <para>The property name is passed to the event so that you can determine which property was changed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-176">当父对象的实例的显式内置属性更改时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-176">Occurs when an explicit built-in property of an instance of the parent object is changed.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-177">属性名被传递给事件，这样用户就可以确定哪个属性被更改。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-177">The property name is passed to the event so that you can determine which property was changed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -755,25 +483,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-135">当用户打开父对象的实例进行编辑时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-135">Occurs when an instance of the parent object is opened for editing by the user.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-136">
-            <para>
-              <b>Read</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" />中<b>读取</b>该事件发生每当用户支持单元格内编辑项目中打开的时以及在视图中选择项目<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-136">
-              <para>The <b>Read</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-178">当用户打开父对象的实例进行编辑时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-178">Occurs when an instance of the parent object is opened for editing by the user.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-179"><b>Read</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" />中<b>读取</b>该事件发生每当用户支持单元格内编辑项目中打开的时以及在视图中选择项目<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-179">The <b>Read</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReadComplete">
@@ -791,30 +503,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadCompleteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-137">Outlook 完成读取项目的属性后，发生此事件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-137">Occurs when Outlook has completed reading the properties of the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-138">
-            <para>
-              <b>ReadComplete</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" />事件之前<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />项事件。</para>
-            <para>以确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
-            <para>
-              <b>ReadComplete</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>IExchExtMessageEvents::OnReadComplete</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-138">
-              <para>The <b>ReadComplete</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> event and before the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event for the item. </para>
-              <para>To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event.</para>
-              <para>The <b>ReadComplete</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnReadComplete</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-180">Outlook 完成读取项目的属性后，发生此事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-180">Occurs when Outlook has completed reading the properties of the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-181"><b>ReadComplete</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" />事件之前<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />项事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-181">The <b>ReadComplete</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> event and before the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event for the item.</span></span> </para>
+          <para><span data-ttu-id="c3b5b-182">若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-182">To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event.</span></span></para>
+          <para><span data-ttu-id="c3b5b-183"><b>ReadComplete</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>IExchExtMessageEvents::OnReadComplete</b>。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-183">The <b>ReadComplete</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnReadComplete</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -832,24 +525,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-139">当用户为项目（父对象的一个实例）选择答复动作时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-139">Occurs when the user selects the Reply action for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-140">
-            <para>将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-140">
-              <para>Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-184">当用户为项目（父对象的一个实例）选择答复动作时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-184">Occurs when the user selects the Reply action for an item (which is an instance of the parent object).</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-185">将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-185">Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyAll">
@@ -867,24 +545,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyAllEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-141">当用户为项目（父对象的一个实例）选择全部答复动作时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-141">Occurs when the user selects the ReplyAll action for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-142">
-            <para>将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-142">
-              <para>Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-186">当用户为项目（父对象的一个实例）选择全部答复动作时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-186">Occurs when the user selects the ReplyAll action for an item (which is an instance of the parent object).</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-187">将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-187">Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Send">
@@ -902,12 +565,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_SendEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-143">当用户为项目（父对象的一个实例）选择发送动作时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-143">Occurs when the user selects the Send action for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-188">当用户为项目（父对象的一个实例）选择发送动作时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-188">Occurs when the user selects the Send action for an item (which is an instance of the parent object).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -926,28 +584,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_UnloadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-144">在从内存中卸载（通过编程方式或用户操作）Outlook 项目之前发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-144">Occurs before an Outlook item is unloaded from memory, either programmatically or by user action.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="4f572-145">
-            <para>对 Outlook 项目， <b>Close</b>事件发生，但之前 Outlook 项目是从允许外接程序释放任何与对象相关的资源的内存中卸载后，将发生此事件。 尽管从内存中卸载 Outlook 项目之前发生的事件，但不能取消此事件。</para>
-            <para>
-              <b>注意</b>： 此事件只是一个通知事件，以便外接程序可以取消引用对象。 如果在<b>Unload</b>事件中调用任何属性或方法，用于此对象将发生错误。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-145">
-              <para>This event occurs after the <b>Close</b> event for the Outlook item occurs, but before the Outlook item is unloaded from memory, allowing an add-in to release any resources related to the object.  Although the event occurs before the Outlook item is unloaded from memory, this event cannot be canceled.</para>
-              <para>
-                <b>Note</b>: This event is meant only as a notification event, so that an add-in can dereference the object.  An error occurs if any property or method for this object is called within the <b>Unload</b> event.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c3b5b-189">在从内存中卸载（通过编程方式或用户操作）Outlook 项目之前发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-189">Occurs before an Outlook item is unloaded from memory, either programmatically or by user action.</span></span></summary>
+        <remarks><para><span data-ttu-id="c3b5b-190">此事件发生后 <b>关闭</b> Outlook 项目的事件发生，但之前 Outlook 项卸载从内存中，从而允许外接程序以释放与该对象相关的所有资源。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-190">This event occurs after the <b>Close</b> event for the Outlook item occurs, but before the Outlook item is unloaded from memory, allowing an add-in to release any resources related to the object.</span></span>  <span data-ttu-id="c3b5b-191">虽然从内存中卸载 Outlook 项目之前发生的事件，但不能取消此事件。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-191">Although the event occurs before the Outlook item is unloaded from memory, this event cannot be canceled.</span></span></para>
+          <para><span data-ttu-id="c3b5b-192">
+            <b>注意</b>： 此事件只是一个通知事件，以便外接程序可以取消引用对象。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-192">
+            <b>Note</b>: This event is meant only as a notification event, so that an add-in can dereference the object.</span></span>  <span data-ttu-id="c3b5b-193">如果在 <b>Unload</b> 事件中调用任何属性或方法，以便该对象，就会出错。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-193">An error occurs if any property or method for this object is called within the <b>Unload</b> event.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Write">
@@ -965,12 +607,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_WriteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4f572-146">当父对象的实例，保存隐式或显式 （例如，在关闭项目的检查器时提示响应） 时发生。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4f572-146">Occurs when an instance of the parent object is saved, either explicitly or implicitly (for example, in response to a prompt when closing the item's inspector).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c3b5b-194">当父对象的实例，保存隐式或显式 （例如，在关闭项目的检查器时提示响应） 时发生。</span><span class="sxs-lookup"><span data-stu-id="c3b5b-194">Occurs when an instance of the parent object is saved, either explicitly or implicitly (for example, in response to a prompt when closing the item's inspector).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

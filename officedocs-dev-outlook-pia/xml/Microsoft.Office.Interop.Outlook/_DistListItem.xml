@@ -1,13 +1,5 @@
 <Type Name="_DistListItem" FullName="Microsoft.Office.Interop.Outlook._DistListItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="efaf9237c82125d649e0a61d4d3bf965d7648cb3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631592" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _DistListItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="efaf9237c82125d649e0a61d4d3bf965d7648cb3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900109" /></Metadata><TypeSignature Language="C#" Value="public interface _DistListItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DistListItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DistListItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _DistListItem" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="888da-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="888da-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="888da-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="888da-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="888da-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="888da-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="888da-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />。</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="888da-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="71e2a-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="71e2a-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="71e2a-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="71e2a-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="71e2a-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="71e2a-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />。</span><span class="sxs-lookup"><span data-stu-id="71e2a-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />代表项目的所有可用操作的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  collection that represents all the available actions for the item.</span>
-          </span>
-          <span data-ttu-id="888da-106">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-105">返回<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />代表项目的所有可用操作的集合。</span><span class="sxs-lookup"><span data-stu-id="71e2a-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  collection that represents all the available actions for the item.</span></span> <span data-ttu-id="71e2a-106">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -106,34 +72,10 @@
         <Parameter Name="Recipient" Type="Microsoft.Office.Interop.Outlook.Recipient" />
       </Parameters>
       <Docs>
-        <param name="Recipient">
-          <span data-ttu-id="888da-107">要添加到列表中的收件人。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-107">The recipient to be added to the list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-108">将新成员添加到指定的通讯组列表。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-108">Adds a new member to the specified distribution list.</span>
-          </span>
-          <span data-ttu-id="888da-109">通讯组列表包含<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象，后者表示有效的电子邮件地址。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-109">The distribution list contains <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> objects that represent valid e-mail addresses.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="888da-110">
-            <para>使用<see cref="M:Microsoft.Office.Interop.Outlook._DistListItem.AddMembers(Microsoft.Office.Interop.Outlook.Recipients)" />方法将多个成员添加到给定的通讯组列表。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-110">
-              <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._DistListItem.AddMembers(Microsoft.Office.Interop.Outlook.Recipients)" /> method to add multiple members to a given distribution list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Recipient"><span data-ttu-id="71e2a-107">要添加到列表中的收件人。</span><span class="sxs-lookup"><span data-stu-id="71e2a-107">The recipient to be added to the list.</span></span></param>
+        <summary><span data-ttu-id="71e2a-108">将新成员添加到指定的通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="71e2a-108">Adds a new member to the specified distribution list.</span></span> <span data-ttu-id="71e2a-109">通讯组列表包含<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象，后者表示有效的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="71e2a-109">The distribution list contains <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> objects that represent valid e-mail addresses.</span></span></summary>
+        <remarks><para><span data-ttu-id="71e2a-110">使用<see cref="M:Microsoft.Office.Interop.Outlook._DistListItem.AddMembers(Microsoft.Office.Interop.Outlook.Recipients)" />方法将多个成员添加到给定的通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="71e2a-110">Use the <see cref="M:Microsoft.Office.Interop.Outlook._DistListItem.AddMembers(Microsoft.Office.Interop.Outlook.Recipients)" /> method to add multiple members to a given distribution list.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddMembers">
@@ -158,18 +100,8 @@
         <Parameter Name="Recipients" Type="Microsoft.Office.Interop.Outlook.Recipients" />
       </Parameters>
       <Docs>
-        <param name="Recipients">
-          <span data-ttu-id="888da-111">要添加到通讯组列表中的成员。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-111">The members to be added to the distribution list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-112">向通讯组列表中添加新成员。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-112">Adds new members to a distribution list.</span>
-          </span>
-        </summary>
+        <param name="Recipients"><span data-ttu-id="71e2a-111">要添加到通讯组列表中的成员。</span><span class="sxs-lookup"><span data-stu-id="71e2a-111">The members to be added to the distribution list.</span></span></param>
+        <summary><span data-ttu-id="71e2a-112">向通讯组列表中添加新成员。</span><span class="sxs-lookup"><span data-stu-id="71e2a-112">Adds new members to a distribution list.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -196,16 +128,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="888da-114">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-113">返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="71e2a-114">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -233,16 +156,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-115">返回<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />对象，表示为指定的项的所有附件。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  object that represents all the attachments for the specified item.</span>
-          </span>
-          <span data-ttu-id="888da-116">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-115">返回<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />对象，表示为指定的项的所有附件。</span><span class="sxs-lookup"><span data-stu-id="71e2a-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  object that represents all the attachments for the specified item.</span></span> <span data-ttu-id="71e2a-116">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -270,29 +184,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-117">返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定项目是否自动冲突解决获胜。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-117">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is a winner of an automatic conflict resolution.</span>
-          </span>
-          <span data-ttu-id="888da-118">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-117">返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定项目是否自动冲突解决获胜。</span><span class="sxs-lookup"><span data-stu-id="71e2a-117">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is a winner of an automatic conflict resolution.</span></span> <span data-ttu-id="71e2a-118">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-118">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-119">
-            <para>如果值为<b>False</b>不一定表示该项目是自动冲突解决落选。该项目可能冲突另一项。</para>如果项目具有
-          <para><see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />的其<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.Conflicts" />属性大于零，如果其<b>AutoResolvedWinner</b>属性为<b>True</b>，则自动冲突解决获胜。另一方面，如果项目有冲突，并具有其<b>AutoResolvedWinner</b>属性为<b>False</b>，则自动冲突解决中的落选。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-119">
-              <para>A value of <b>False</b> does not necessarily indicate that the item is a loser of an automatic conflict resolution. The item could be in conflict with another item.</para>
-              <para>If an item has <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> of its <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.Conflicts" /> property greater than zero and if its <b>AutoResolvedWinner</b> property is <b>True</b>, it is a winner of an automatic conflict resolution. On the other hand, if the item is in conflict and has its <b>AutoResolvedWinner</b> property as <b>False</b>, it is a loser in an automatic conflict resolution.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-p107"><b>False</b> 值不一定表示项目是自动冲突解决的落选方。该项目可能与另一个项冲突。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p107">A value of <b>False</b> does not necessarily indicate that the item is a loser of an automatic conflict resolution. The item could be in conflict with another item.</span></span></para>
+          <para><span data-ttu-id="71e2a-121">如果项目具有<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />的其<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.Conflicts" />属性大于零，如果其<b>AutoResolvedWinner</b>属性为<b>True</b>，则自动冲突解决获胜。</span><span class="sxs-lookup"><span data-stu-id="71e2a-121">If an item has <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> of its <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.Conflicts" /> property greater than zero and if its <b>AutoResolvedWinner</b> property is <b>True</b>, it is a winner of an automatic conflict resolution.</span></span> <span data-ttu-id="71e2a-122">另一方面，如果该项处于冲突和 <b>AutoResolvedWinner</b> 属性为 <b>False</b> ，则自动冲突解决的落选方。</span><span class="sxs-lookup"><span data-stu-id="71e2a-122">On the other hand, if the item is in conflict and has its <b>AutoResolvedWinner</b> property as <b>False</b>, it is a loser in an automatic conflict resolution.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -321,29 +217,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-120">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目相关联的帐单信息。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-120">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the billing information associated with the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-121">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-121">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-123">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目相关联的帐单信息。</span><span class="sxs-lookup"><span data-stu-id="71e2a-123">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the billing information associated with the Outlook item.</span></span> <span data-ttu-id="71e2a-124">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-124">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-122">
-            <para>它是自由格式文本字段。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-122">
-              <para>This is a free-form text field.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-125">它是自由格式的文本字段。</span><span class="sxs-lookup"><span data-stu-id="71e2a-125">This is a free-form text field.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -372,16 +249,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-123">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的纯文本正文。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-123">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the clear-text body of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-124">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-124">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-126">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的纯文本正文。</span><span class="sxs-lookup"><span data-stu-id="71e2a-126">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the clear-text body of the Outlook item.</span></span> <span data-ttu-id="71e2a-127">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-127">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -412,31 +280,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-125">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给 Outlook 项目的类别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-125">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the categories assigned to the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-126">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-126">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-128">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给 Outlook 项目的类别。</span><span class="sxs-lookup"><span data-stu-id="71e2a-128">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the categories assigned to the Outlook item.</span></span> <span data-ttu-id="71e2a-129">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-129">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-127">
-            <para>
-              <b>类别</b>的已分配给某个 Outlook 项目的类别名称分隔的字符串。此属性使用在值名称 sList，位于 Windows 注册表中的 HKEY_CURRENT_USER\Control Panel\International 下指定为多个类别值的分隔符的字符。若要将类别名称的字符串转换为类别名称的数组，使用 Microsoft Visual Basic 函数<b>拆分</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-127">
-              <para>
-                <b>Categories</b> is a delimited string of category names that have been assigned to an Outlook item. This property uses the character specified in the value name, sList, under HKEY_CURRENT_USER\Control Panel\International in the Windows registry, as the delimiter for multiple category values. To convert the string of category names to an array of category names, use the Microsoft Visual Basic function <b>Split</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-130">
+            <b>类别</b> 是已分配给某个 Outlook 项目的类别名称的分隔符的字符串。</span><span class="sxs-lookup"><span data-stu-id="71e2a-130">
+            <b>Categories</b> is a delimited string of category names that have been assigned to an Outlook item.</span></span> <span data-ttu-id="71e2a-131">此属性使用在值名称 sList，位于 Windows 注册表中的 HKEY_CURRENT_USER\Control Panel\International 下指定为多个类别值的分隔符的字符。</span><span class="sxs-lookup"><span data-stu-id="71e2a-131">This property uses the character specified in the value name, sList, under HKEY_CURRENT_USER\Control Panel\International in the Windows registry, as the delimiter for multiple category values.</span></span> <span data-ttu-id="71e2a-132">要将类别名称的字符串转换为数组的类别名称，请使用 Microsoft Visual Basic 函数 <b>拆分</b> 。</span><span class="sxs-lookup"><span data-stu-id="71e2a-132">To convert the string of category names to an array of category names, use the Microsoft Visual Basic function <b>Split</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CheckSum">
@@ -465,12 +314,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-128">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-128">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-133">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="71e2a-133">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -498,16 +342,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-129">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-129">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="888da-130">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-130">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-134">返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。</span><span class="sxs-lookup"><span data-stu-id="71e2a-134">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="71e2a-135">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-135">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -533,24 +368,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-131">清除<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />作为任务的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-131">Clears the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object as a task.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="888da-132">
-            <para>调用此方法设置<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设为<b>False</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-132">
-              <para>Calling this method sets the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property to <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="71e2a-136">清除<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />作为任务的对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-136">Clears the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object as a task.</span></span></summary>
+        <remarks><para><span data-ttu-id="71e2a-137">调用此方法设置<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-137">Calling this method sets the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property to <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -576,18 +396,8 @@
         <Parameter Name="SaveMode" Type="Microsoft.Office.Interop.Outlook.OlInspectorClose" />
       </Parameters>
       <Docs>
-        <param name="SaveMode">
-          <span data-ttu-id="888da-p111">关闭行为。如果在检查器中显示的项目尚未更改，则该参数无效。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-p111">The close behavior. If the item displayed within the inspector has not been changed, this argument has no effect.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-135">关闭 Outlook 项目并根据需要保存对它所做的更改。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-135">Closes and optionally saves changes to the Outlook item.</span>
-          </span>
-        </summary>
+        <param name="SaveMode"><span data-ttu-id="71e2a-p114">关闭行为。如果在检查器中显示的项目尚未更改，则该参数无效。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p114">The close behavior. If the item displayed within the inspector has not been changed, this argument has no effect.</span></span></param>
+        <summary><span data-ttu-id="71e2a-140">关闭 Outlook 项目并根据需要保存对它所做的更改。</span><span class="sxs-lookup"><span data-stu-id="71e2a-140">Closes and optionally saves changes to the Outlook item.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -617,29 +427,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-136">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目相关联的公司名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-136">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the names of the companies associated with the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-137">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-137">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-141">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目相关联的公司名称。</span><span class="sxs-lookup"><span data-stu-id="71e2a-141">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the names of the companies associated with the Outlook item.</span></span> <span data-ttu-id="71e2a-142">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-142">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-138">
-            <para>它是自由格式文本字段。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-138">
-              <para>This is a free-form text field. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-143">它是自由格式的文本字段。</span><span class="sxs-lookup"><span data-stu-id="71e2a-143">This is a free-form text field.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Conflicts">
@@ -665,16 +456,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-139">返回<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />对象，表示正在发生冲突的任何 Outlook 项目对象的项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-139">Return the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> object that represents the items that are in conflict for any Outlook item object.</span>
-          </span>
-          <span data-ttu-id="888da-140">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-140">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-144">返回<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />对象，表示正在发生冲突的任何 Outlook 项目对象的项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-144">Return the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> object that represents the items that are in conflict for any Outlook item object.</span></span>  <span data-ttu-id="71e2a-145">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-145">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -702,33 +484,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-141">返回一个 string，用于唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象的<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象属于。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-141">Returns a string that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object belongs to.</span>
-          </span>
-          <span data-ttu-id="888da-142">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-142">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-146">返回一个 string，用于唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象的<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象属于。</span><span class="sxs-lookup"><span data-stu-id="71e2a-146">Returns a string that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object belongs to.</span></span> <span data-ttu-id="71e2a-147">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-147">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-143">
-            <para>此属性与对话相关联的项目。这些项目和对话其<b>ConversationID</b>属性中具有相同的值。</para>
-            <para>此属性对应于 MAPI 属性<b>pidtagconversationid 对应</b>。</para>
-            <para>如果<b>DistListItem</b>对象创建在 Microsoft Outlook 2010 中，以前版本的 Microsoft Outlook 或 Outlook 运行在针对 Microsoft Exchange Server 的版本早于 Microsoft Exchange Server 2010 的联机模式下此属性返回相同的值<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ConversationTopic" />属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-143">
-              <para>This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</para>
-              <para>This property corresponds with the MAPI property <b>PidTagConversationId</b>.</para>
-              <para>If the <b>DistListItem</b> object is created in a version of Microsoft Outlook earlier than Microsoft Outlook 2010, or if Outlook is running in online mode against a version of Microsoft Exchange Server earlier than Microsoft Exchange Server 2010, this property returns the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ConversationTopic" /> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-p118">此属性将项目与对话相关联。这些项目和对话其 <b>转换 Id</b> 属性中具有相同的值。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p118">This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</span></span></para>
+          <para><span data-ttu-id="71e2a-150">此属性对应的 MAPI 属性 <b>PidTagConversationId</b> 。</span><span class="sxs-lookup"><span data-stu-id="71e2a-150">This property corresponds with the MAPI property <b>PidTagConversationId</b>.</span></span></para>
+          <para><span data-ttu-id="71e2a-151">如果在 Microsoft Outlook 版本早于 Microsoft Outlook 2010 中创建的<b>DistListItem</b>对象，则或 Outlook 运行在针对 Microsoft Exchange Server 2010，此属性以前版本的 Microsoft Exchange Server 的联机模式返回相同的值<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ConversationTopic" />属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-151">If the <b>DistListItem</b> object is created in a version of Microsoft Outlook earlier than Microsoft Outlook 2010, or if Outlook is running in online mode against a version of Microsoft Exchange Server earlier than Microsoft Exchange Server 2010, this property returns the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ConversationTopic" /> property.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -754,16 +515,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-144">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的对话线程的索引。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-144">Returns a <b>String</b> (<b>string</b> in C#) representing the index of the conversation thread of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-145">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-145">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-152">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的对话线程的索引。</span><span class="sxs-lookup"><span data-stu-id="71e2a-152">Returns a <b>String</b> (<b>string</b> in C#) representing the index of the conversation thread of the Outlook item.</span></span> <span data-ttu-id="71e2a-153">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-153">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -791,16 +543,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-146">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的会话线索的 Outlook 项目的主题。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-146">Returns a <b>String</b> (<b>string</b> in C#) representing the topic of the conversation thread of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-147">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-147">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-154">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的会话线索的 Outlook 项目的主题。</span><span class="sxs-lookup"><span data-stu-id="71e2a-154">Returns a <b>String</b> (<b>string</b> in C#) representing the topic of the conversation thread of the Outlook item.</span></span> <span data-ttu-id="71e2a-155">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-155">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -826,18 +569,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-148">创建对象的另一个实例。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-148">Creates another instance of an object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="888da-149">返回<see cref="T:System.Object" />对象的父副本<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-149">Returns an <see cref="T:System.Object" /> that is a copy of the parent <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="71e2a-156">创建对象的另一个实例。</span><span class="sxs-lookup"><span data-stu-id="71e2a-156">Creates another instance of an object.</span></span></summary>
+        <returns><span data-ttu-id="71e2a-157">返回<see cref="T:System.Object" />对象的父副本<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-157">Returns an <see cref="T:System.Object" /> that is a copy of the parent <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -864,29 +597,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-150">返回<b>DateTime</b> ，该值指示 Outlook 项目的创建时间。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-150">Returns a <b>DateTime</b> indicating the creation time for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-151">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-151">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-158">返回<b>DateTime</b> ，该值指示 Outlook 项目的创建时间。</span><span class="sxs-lookup"><span data-stu-id="71e2a-158">Returns a <b>DateTime</b> indicating the creation time for the Outlook item.</span></span> <span data-ttu-id="71e2a-159">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-159">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-152">
-            <para>此属性对应于 MAPI 属性<b>PidTagCreationTime</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-152">
-              <para>This property corresponds to the MAPI property <b>PidTagCreationTime</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-p122">此属性对应于 <b>PidTagCreationTime</b> 的 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p122">This property corresponds to the MAPI property <b>PidTagCreationTime</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -910,25 +624,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-153">从包含项目的文件夹中移除的项。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-153">Removes the item from the folder that contains the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="888da-154">
-            <para>
-              <b>Delete</b>方法删除集合中的单个项。若要删除中的所有项目<see cref="T:Microsoft.Office.Interop.Outlook.Items" />的文件夹的集合，您必须都删除开头的文件夹中的最后一项的每个项目。例如，在文件夹的 items 集合，AllItems，如果有 n 个项目的文件夹中，启动删除 AllItems.Item(n)，递减每次您删除 AllItems.Item(1) 之前的索引处的项。</para>删除
-          <para>方法可将项目从包含文件夹移到已删除邮件文件夹。如果包含文件夹是已删除邮件文件夹， <b>Delete</b>方法中永久删除项目。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-154">
-              <para>The <b>Delete</b> method deletes a single item in a collection. To delete all items in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection of a folder, you must delete each item starting with the last item in the folder. For example, in the items collection of a folder, AllItems, if there are n number of items in the folder, start deleting the item at AllItems.Item(n), decrementing the index each time until you delete AllItems.Item(1).</para>
-              <para>The Delete method moves the item from the containing folder to the Deleted Items folder. If the containing folder is the Deleted Items folder, the <b>Delete</b> method removes the item permanently.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="71e2a-161">从包含项目的文件夹中移除的项。</span><span class="sxs-lookup"><span data-stu-id="71e2a-161">Removes the item from the folder that contains the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="71e2a-162"><b>Delete</b> 方法删除集合中的单个项。</span><span class="sxs-lookup"><span data-stu-id="71e2a-162">The <b>Delete</b> method deletes a single item in a collection.</span></span> <span data-ttu-id="71e2a-163">若要删除中的所有项目<see cref="T:Microsoft.Office.Interop.Outlook.Items" />的文件夹的集合，您必须都删除开头的文件夹中的最后一项的每个项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-163">To delete all items in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection of a folder, you must delete each item starting with the last item in the folder.</span></span> <span data-ttu-id="71e2a-164">例如，在文件夹的 items 集合，AllItems，如果有 n 个项目的文件夹中，启动删除 AllItems.Item(n)，递减每次您删除 AllItems.Item(1) 之前的索引处的项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-164">For example, in the items collection of a folder, AllItems, if there are n number of items in the folder, start deleting the item at AllItems.Item(n), decrementing the index each time until you delete AllItems.Item(1).</span></span></para>
+          <para><span data-ttu-id="71e2a-p124">Delete方法将该项目从包含它的文件夹移动到 已删除邮件文件夹。如果包含它的文件夹的 已删除邮件文件夹， <b>Delete</b>方法将永久移除的项。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p124">The Delete method moves the item from the containing folder to the Deleted Items folder. If the containing folder is the Deleted Items folder, the <b>Delete</b> method removes the item permanently.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -953,33 +652,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <span data-ttu-id="888da-p118">
-            <b>真正</b> 要使窗口模式。默认值为 <b>False</b> 。 </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-p118">
-              <b>True</b> to make the window modal. The default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-157">显示一个新<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象的项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-157">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object for the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="888da-158">
-            <para>
-              <b>Display</b>方法支持为了向后兼容的浏览器和检查器窗口。若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</para>如果您尝试使用 Microsoft Outlook 对象模型中打开"不安全的"文件系统对象 （或"freedoc"文件） 
-          <para>，E_FAIL 返回代码中收到 C 或 c + + 编程语言。在 Outlook 2000 和更早版本，您无法使用<b>Display</b>方法打开"不安全的"文件系统对象。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-158">
-              <para>The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</para>
-              <para>If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Modal"><span data-ttu-id="71e2a-p125"><b>真正</b> 要使窗口模式。默认值为 <b>False</b> 。 </span><span class="sxs-lookup"><span data-stu-id="71e2a-p125"><b>True</b> to make the window modal. The default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="71e2a-169">显示一个新<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象的项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-169">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object for the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="71e2a-170">为了向后兼容的浏览器和检查器窗口支持 <b>显示</b> 方法。</span><span class="sxs-lookup"><span data-stu-id="71e2a-170">The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility.</span></span> <span data-ttu-id="71e2a-171">若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</span><span class="sxs-lookup"><span data-stu-id="71e2a-171">To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</span></span></para>
+          <para><span data-ttu-id="71e2a-p127">如果您尝试打开"不安全"文件系统对象 (或"freedoc"文件)，请使用Microsoft Outlook对象模型，您将收到 E_FAIL 返回代码在 C 或 c + + 编程语言中。在 Outlook 2000 和早期版本，您可以通过 <b>显示</b> 方法打开"不安全"文件系统对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p127">If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DLName">
@@ -1008,16 +685,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-159">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示通讯组列表的显示名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-159">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the display name of a distribution list.</span>
-          </span>
-          <span data-ttu-id="888da-160">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-160">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-174">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示通讯组列表的显示名称。</span><span class="sxs-lookup"><span data-stu-id="71e2a-174">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the display name of a distribution list.</span></span> <span data-ttu-id="71e2a-175">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-175">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1045,16 +713,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-161">返回一个常量，属于<see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" />指示下载状态的项目的枚举。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-161">Returns a constant that belongs to the <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> enumeration indicating the download state of the item.</span>
-          </span>
-          <span data-ttu-id="888da-162">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-162">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-176">返回一个常量，属于<see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" />指示下载状态的项目的枚举。</span><span class="sxs-lookup"><span data-stu-id="71e2a-176">Returns a constant that belongs to the <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> enumeration indicating the download state of the item.</span></span> <span data-ttu-id="71e2a-177">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-177">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1082,29 +741,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-163">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-163">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span>
-          </span>
-          <span data-ttu-id="888da-164">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-164">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-178">返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。</span><span class="sxs-lookup"><span data-stu-id="71e2a-178">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span></span>  <span data-ttu-id="71e2a-179">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-179">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-165">
-            <para>此属性对应于 MAPI 属性<b>PidTagEntryId</b>。</para>在存储中创建项时， 
-          <para>MAPI 存储提供程序分配的唯一 ID 字符串。因此， <b>EntryID</b>属性未设置为 Outlook 项目之前保存或发送。将项目移动到另一个存储区，例如，从收件箱到 Microsoft Exchange Server 公用文件夹，或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件时条目 ID 的更改。解决方案应不依赖<b>EntryID</b>属性来保持唯一性，除非项目将不会移动。<b>EntryID</b>属性返回一个 MAPI 长期条目 id。有关详细信息有关 long-和 short-term Entryid，搜索http://msdn.microsoft.com的<b>PidTagEntryId</b>。</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-165">
-              <para>This property corresponds to the MAPI property <b>PidTagEntryId</b>.</para>
-              <para>A MAPI store provider assigns a unique ID string when an item is created in its store. Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent. The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file. Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved. The <b>EntryID</b> property returns a MAPI long-term Entry ID. For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-180">此属性对应于 <b>PidTagEntryId</b> 的 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-180">This property corresponds to the MAPI property <b>PidTagEntryId</b>.</span></span></para>
+          <para><span data-ttu-id="71e2a-181">MAPI 存储提供程序将在存储中创建项时分配的唯一 ID 字符串。</span><span class="sxs-lookup"><span data-stu-id="71e2a-181">A MAPI store provider assigns a unique ID string when an item is created in its store.</span></span> <span data-ttu-id="71e2a-182">因此， <b>EntryID</b> 属性未设置为某个 Outlook 项目之前保存或发送。</span><span class="sxs-lookup"><span data-stu-id="71e2a-182">Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent.</span></span> <span data-ttu-id="71e2a-183">条目 ID 更改时将项目移动到另一个存储中，例如，从 Microsoft Exchange Server 的公用文件夹，您 的收件箱或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件。</span><span class="sxs-lookup"><span data-stu-id="71e2a-183">The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file.</span></span> <span data-ttu-id="71e2a-184">解决方案不应依赖于 <b>EntryID</b> 属性来保持唯一性，除非不移动项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-184">Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved.</span></span> <span data-ttu-id="71e2a-185"><b>EntryID</b> 属性返回一个 MAPI 长期条目 id。</span><span class="sxs-lookup"><span data-stu-id="71e2a-185">The <b>EntryID</b> property returns a MAPI long-term Entry ID.</span></span> <span data-ttu-id="71e2a-186">更多信息关于长时间的和 short-term Entryid，搜索 http://msdn.microsoft.com <b></b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-186">For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormDescription">
@@ -1130,16 +771,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-166">返回<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象，表示指定的 Outlook 项目的窗体说明。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-166">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />  object that represents the form description for the specified Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-167">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-167">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-187">返回<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象，表示指定的 Outlook 项目的窗体说明。</span><span class="sxs-lookup"><span data-stu-id="71e2a-187">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />  object that represents the form description for the specified Outlook item.</span></span> <span data-ttu-id="71e2a-188">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-188">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1165,60 +797,26 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-168">获取<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象，它代表此项目所属的会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-168">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that represents the conversation to which this item belongs.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="888da-169">返回一个代表此项目所属的会话的<b>Conversation</b>对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-169">Returns a <b>Conversation</b> object that represents the conversation to which this item belongs.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="888da-170">
-            <para>
-              <b>GetConversation</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有对话项目。没有对话存在以下方案中某项：</para>
-            <list type="bullet">
-              <item>
-                <para>尚未保存项目。由用户操作或自动保存可以以编程方式保存项目。</para>
-              </item>
-              <item>
-                <para>尚未对于可以发送 （例如邮件项目、 约会项目或联系人项目） 的项，发送项目。</para>
-              </item>
-              <item>
-                <para>对话已通过 Windows 注册表禁用。</para>
-              </item>
-              <item>
-                <para>存储不支持对话视图 （例如，Outlook 在早于 Microsoft Exchange Server 2010 的 Microsoft Exchange 版本针对经典的联机模式下运行）。使用<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，以确定是否在存储区支持会话视图。</para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-170">
-              <para>
-                <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no conversation exists for the item. No conversation exists for an item in the following scenarios:</para>
-              <list type="bullet">
-                <item>
-                  <para>The item has not been saved. An item can be saved programmatically, by user action, or by auto-save.</para>
-                </item>
-                <item>
-                  <para>For an item that can be sent (for example, a mail item, appointment item, or contact item), the item has not been sent.</para>
-                </item>
-                <item>
-                  <para>Conversations have been disabled through the Windows registry.</para>
-                </item>
-                <item>
-                  <para>The store does not support the conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object to determine whether the store supports the conversation view.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="71e2a-189">获取<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象，它代表此项目所属的会话。</span><span class="sxs-lookup"><span data-stu-id="71e2a-189">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that represents the conversation to which this item belongs.</span></span></summary>
+        <returns><span data-ttu-id="71e2a-190">返回一个代表此项目所属的会话的<b>Conversation</b>对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-190">Returns a <b>Conversation</b> object that represents the conversation to which this item belongs.</span></span></returns>
+        <remarks><para><span data-ttu-id="71e2a-191">
+            <b>GetConversation</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有对话项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-191">
+            <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no conversation exists for the item.</span></span> <span data-ttu-id="71e2a-192">没有对话存在以下方案中的项目:</span><span class="sxs-lookup"><span data-stu-id="71e2a-192">No conversation exists for an item in the following scenarios:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="71e2a-p134">该项目尚未保存。 由用户操作或自动保存，可以以编程方式保存项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p134">The item has not been saved. An item can be saved programmatically, by user action, or by auto-save.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="71e2a-195">对于可以发送的项目（例如邮件项目、约会项目或联系人项目），该项目尚未发送。</span><span class="sxs-lookup"><span data-stu-id="71e2a-195">For an item that can be sent (for example, a mail item, appointment item, or contact item), the item has not been sent.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="71e2a-196">已通过 Windows 注册表禁用会话。</span><span class="sxs-lookup"><span data-stu-id="71e2a-196">Conversations have been disabled through the Windows registry.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="71e2a-197">存储不支持对话视图 （例如，Outlook 在早于 Microsoft Exchange Server 2010 的 Microsoft Exchange 版本针对经典的联机模式下运行）。</span><span class="sxs-lookup"><span data-stu-id="71e2a-197">The store does not support the conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010).</span></span> <span data-ttu-id="71e2a-198">使用<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，以确定是否在存储区支持会话视图。</span><span class="sxs-lookup"><span data-stu-id="71e2a-198">Use the <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object to determine whether the store supports the conversation view.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1244,29 +842,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-171">返回<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象，表示检查器初始化包含的指定的项。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-171">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object that represents an inspector initialized to contain the specified item.</span>
-          </span>
-          <span data-ttu-id="888da-172">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-172">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-199">返回<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象，表示检查器初始化包含的指定的项。</span><span class="sxs-lookup"><span data-stu-id="71e2a-199">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object that represents an inspector initialized to contain the specified item.</span></span> <span data-ttu-id="71e2a-200">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-200">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-173">
-            <para>此属性是可用于返回一个新的<b>Inspector</b>对象中显示的项目，而不是使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />方法和设置<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-173">
-              <para>This property is useful for returning a new <b>Inspector</b> object in which to display the item, as opposed to using the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  method and setting the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />  property. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-201">此属性是可用于返回一个新的<b>Inspector</b>对象中显示的项目，而不是使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />方法和设置<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-201">This property is useful for returning a new <b>Inspector</b> object in which to display the item, as opposed to using the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  method and setting the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />  property.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetMember">
@@ -1292,24 +871,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="888da-174">要检索的成员的索引号。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-174">The index number of the member to be retrieved.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-175">返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象，表示通讯组列表中的成员。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-175">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object representing a member in a distribution list.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="888da-176">表示指定的成员的 <b>收件人</b> 对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-176">A <b>Recipient</b> object representing the specified member.</span>
-          </span>
-        </returns>
+        <param name="Index"><span data-ttu-id="71e2a-202">要检索的成员的索引号。</span><span class="sxs-lookup"><span data-stu-id="71e2a-202">The index number of the member to be retrieved.</span></span></param>
+        <summary><span data-ttu-id="71e2a-203">返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />对象，表示通讯组列表中的成员。</span><span class="sxs-lookup"><span data-stu-id="71e2a-203">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object representing a member in a distribution list.</span></span></summary>
+        <returns><span data-ttu-id="71e2a-204">表示指定的成员的 <b>收件人</b> 对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-204">A <b>Recipient</b> object representing the specified member.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1339,29 +903,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-177">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" />常量，指示 Outlook 项目的相对重要性级别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-177">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> constant indicating the relative importance level for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-178">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-178">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-205">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" />常量，指示 Outlook 项目的相对重要性级别。</span><span class="sxs-lookup"><span data-stu-id="71e2a-205">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> constant indicating the relative importance level for the Outlook item.</span></span> <span data-ttu-id="71e2a-206">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-206">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-179">
-            <para>此属性对应于 MAPI 属性<b>PidTagImportance</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-179">
-              <para>This property corresponds to the MAPI property <b>PidTagImportance</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-p139">此属性对应于 <b>PidTagImportance</b> 的 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p139">This property corresponds to the MAPI property <b>PidTagImportance</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1387,31 +932,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-180">返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定项目是否存在冲突。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-180">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is in conflict.</span>
-          </span>
-          <span data-ttu-id="888da-181">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-181">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-208">返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定项目是否存在冲突。</span><span class="sxs-lookup"><span data-stu-id="71e2a-208">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is in conflict.</span></span> <span data-ttu-id="71e2a-209">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-209">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-182">
-            <para>由应用程序的状态确定项目有冲突。例如，当用户处于脱机状态，并尝试访问联机文件夹操作将失败。在此方案中，则<b>IsConflict</b>属性将返回<b>True</b>。</para>
-            <para>如果<b>，则返回 True</b>，指定的项目有冲突。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-182">
-              <para>Whether or not an item is in conflict is determined by the state of the application. For example, when a user is offline and tries to access an online folder the action will fail. In this scenario, the <b>IsConflict</b> property will return <b>True</b>.</para>
-              <para>If <b>True</b>, the specified item is in conflict.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-p141">某一项处于冲突取决于应用程序的状态。例如，如果用户在脱机时试图访问联机文件夹，该操作将失败。在此方案中， <b>操作</b> 属性将返回 <b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p141">Whether or not an item is in conflict is determined by the state of the application. For example, when a user is offline and tries to access an online folder the action will fail. In this scenario, the <b>IsConflict</b> property will return <b>True</b>.</span></span></para>
+          <para><span data-ttu-id="71e2a-213">如果 <b>True</b> ，指定的项有冲突。</span><span class="sxs-lookup"><span data-stu-id="71e2a-213">If <b>True</b>, the specified item is in conflict.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsMarkedAsTask">
@@ -1437,16 +962,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-183">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />标记为任务。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-183">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> is marked as a task.</span>
-          </span>
-          <span data-ttu-id="888da-184">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-184">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-214">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />标记为任务。</span><span class="sxs-lookup"><span data-stu-id="71e2a-214">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> is marked as a task.</span></span> <span data-ttu-id="71e2a-215">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-215">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1474,30 +990,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-185">返回<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />代表 Outlook 项目相关联的所有标准和用户定义属性的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-185">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> collection that represents all standard and user-defined properties associated with the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-186">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-186">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-216">返回<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />代表 Outlook 项目相关联的所有标准和用户定义属性的集合。</span><span class="sxs-lookup"><span data-stu-id="71e2a-216">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> collection that represents all standard and user-defined properties associated with the Outlook item.</span></span> <span data-ttu-id="71e2a-217">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-217">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-187">
-            <para>
-              <b>ItemProperties</b>集合是从零开始的集合，这意味着集合中的第一个对象，由索引值 0 引用。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-187">
-              <para>The <b>ItemProperties</b> collection is a zero-based collection, meaning that the first object in the collection is referenced by the index 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-218">该 <b>ItemProperties</b> 集合是从零开始的集合，表示集合中的第一个对象引用的索引为 0 的。</span><span class="sxs-lookup"><span data-stu-id="71e2a-218">The <b>ItemProperties</b> collection is a zero-based collection, meaning that the first object in the collection is referenced by the index 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1523,29 +1019,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-188">返回指定的日期和时间的 Outlook 项目的上次修改<b>日期时间</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-188">Returns a <b>DateTime</b> specifying the date and time that the Outlook item was last modified.</span>
-          </span>
-          <span data-ttu-id="888da-189">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-189">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-219">返回指定的日期和时间的 Outlook 项目的上次修改<b>日期时间</b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-219">Returns a <b>DateTime</b> specifying the date and time that the Outlook item was last modified.</span></span>  <span data-ttu-id="71e2a-220">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-220">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-190">
-            <para>此属性对应于 MAPI 属性<b>PidTagLastModificationTime</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-190">
-              <para>This property corresponds to the MAPI property <b>PidTagLastModificationTime</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-221">此属性对应于 <b>PidTagLastModificationTime</b> 的 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-221">This property corresponds to the MAPI property <b>PidTagLastModificationTime</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Links">
@@ -1574,12 +1051,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Links</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-191">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-191">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-222">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="71e2a-222">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1610,12 +1082,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-192">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-192">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-223">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="71e2a-223">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1643,31 +1110,10 @@
         <Parameter Name="MarkInterval" Type="Microsoft.Office.Interop.Outlook.OlMarkInterval" />
       </Parameters>
       <Docs>
-        <param name="MarkInterval">
-          <span data-ttu-id="888da-193">
-            <b>DistListItem</b> 任务间隔。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-193">The task interval for the <b>DistListItem</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-194">标记<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象作为任务和分配任务时间间隔的对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-194">Marks a <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object as a task and assigns a task interval for the object.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="888da-195">
-            <para>调用此方法设置的其他几个属性，具体取决于中提供的值值<paramref name="MarkInterval" />。有关通过指定设置的属性的详细信息<paramref name="MarkInterval" />，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-195">
-              <para>Calling this method sets the value of several other properties, depending on the value provided in <paramref name="MarkInterval" />. For more information about the properties set by specifying <paramref name="MarkInterval" />, see <see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="MarkInterval"><span data-ttu-id="71e2a-224"><b>DistListItem</b> 任务间隔。</span><span class="sxs-lookup"><span data-stu-id="71e2a-224">The task interval for the <b>DistListItem</b>.</span></span></param>
+        <summary><span data-ttu-id="71e2a-225">标记<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象作为任务和分配任务时间间隔的对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-225">Marks a <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object as a task and assigns a task interval for the object.</span></span></summary>
+        <remarks><para><span data-ttu-id="71e2a-226">调用此方法设置的其他几个属性，具体取决于中提供的值值<paramref name="MarkInterval" />。</span><span class="sxs-lookup"><span data-stu-id="71e2a-226">Calling this method sets the value of several other properties, depending on the value provided in <paramref name="MarkInterval" />.</span></span> <span data-ttu-id="71e2a-227">有关通过指定设置的属性的详细信息<paramref name="MarkInterval" />，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />。</span><span class="sxs-lookup"><span data-stu-id="71e2a-227">For more information about the properties set by specifying <paramref name="MarkInterval" />, see <see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkForDownload">
@@ -1696,29 +1142,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-196">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />远程用户接收到后确定项目的状态的常量。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-196">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  constant that determines the status of an item once it is received by a remote user.</span>
-          </span>
-          <span data-ttu-id="888da-197">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-197">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-228">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />远程用户接收到后确定项目的状态的常量。</span><span class="sxs-lookup"><span data-stu-id="71e2a-228">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  constant that determines the status of an item once it is received by a remote user.</span></span> <span data-ttu-id="71e2a-229">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-229">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-198">
-            <para>此属性为远程用户提供与小于弱数据传输功能提高了消息灵活性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-198">
-              <para>This property gives remote users with less-than-ideal data-transfer capabilities increased messaging flexibility.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-230">利用此属性，数据传输能力较弱的远程用户可以更加灵活地进行邮件收发。</span><span class="sxs-lookup"><span data-stu-id="71e2a-230">This property gives remote users with less-than-ideal data-transfer capabilities increased messaging flexibility.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MemberCount">
@@ -1744,29 +1171,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-199">返回指示的通讯组列表中的成员数的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-199">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the number of members in a distribution list.</span>
-          </span>
-          <span data-ttu-id="888da-200">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-200">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-231">返回指示的通讯组列表中的成员数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="71e2a-231">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the number of members in a distribution list.</span></span> <span data-ttu-id="71e2a-232">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-232">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-201">
-            <para>返回的值表示通讯组列表，包括成员通讯组列表的所有成员。每个成员的通讯组列表被视为中单个成员。即<b>MemberCount</b>不是通讯组列表中的收件人成员通讯组列表中的收件人的聚合总和。例如，如果通讯组列表包含 10 个收件人，还有一个通讯组列表包含 15 个收件人， <b>MemberCount</b>返回 11。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-201">
-              <para>The value returned represents all members of the distribution list, including member distribution lists. Each member distribution list is counted as a single member. That is, <b>MemberCount</b> is not an aggregate sum of the recipients in the distribution list plus recipients in member distribution lists. For example, if a distribution list contains 10 recipients plus one distribution list containing 15 recipients, <b>MemberCount</b> returns 11.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-p148">返回的值表示包括成员通讯组列表的通讯组列表中的所有成员。每个成员的通讯组列表被视为单个成员。也就是说， <b>那么 membercount 将</b> 不是收件人的通讯组列表成员通讯组列表中的收件人的聚合总和。例如，如果通讯组列表包含 10 个收件人外加包含 15 个收件人一个通讯组列表， <b>那么 MemberCount</b> 将返回 11。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p148">The value returned represents all members of the distribution list, including member distribution lists. Each member distribution list is counted as a single member. That is, <b>MemberCount</b> is not an aggregate sum of the recipients in the distribution list plus recipients in member distribution lists. For example, if a distribution list contains 10 recipients plus one distribution list containing 15 recipients, <b>MemberCount</b> returns 11.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Members">
@@ -1801,12 +1209,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-202">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-202">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-237">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="71e2a-237">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1837,29 +1240,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-203">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的邮件类。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-203">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the message class for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-204">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-204">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-238">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的邮件类。</span><span class="sxs-lookup"><span data-stu-id="71e2a-238">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the message class for the Outlook item.</span></span> <span data-ttu-id="71e2a-239">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-239">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-205">
-            <para>此属性对应于 MAPI 属性<b>PidTagMessageClass</b>。<b>MessageClass</b>属性链接到窗体所基于的项目。选择项目时，Outlook 将使用的邮件类来定位窗体和公开其属性，如答复命令。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-205">
-              <para>This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-p150">此属性对应于 <b>PidTagMessageClass</b> 的 MAPI 属性。 <b>邮件类</b> 属性链接到窗体所基于的项目。当选中某一项时，Outlook 将使用的邮件类来定位该窗体，并列出其属性，如 答复命令。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p150">This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -1888,29 +1272,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-206">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示项目的里程。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-206">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the mileage for an item.</span>
-          </span>
-          <span data-ttu-id="888da-207">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-207">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-243">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示项目的里程。</span><span class="sxs-lookup"><span data-stu-id="71e2a-243">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the mileage for an item.</span></span> <span data-ttu-id="71e2a-244">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-244">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-208">
-            <para>这是自由格式的字符串字段，并可用于存储里程为了报销相关联的项目 （例如 100 英里的约会、 联系人或任务记录） 的信息。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-208">
-              <para>This is a free-form string field and can be used to store mileage information associated with the item (for example, 100 miles documented for an appointment, contact, or task) for purposes of reimbursement. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-245">这是自由格式的字符串字段，可用于存储与项目的经费报销相关的里程信息（例如，里程为 100 英里的约会、联系人或任务）。</span><span class="sxs-lookup"><span data-stu-id="71e2a-245">This is a free-form string field and can be used to store mileage information associated with the item (for example, 100 miles documented for an appointment, contact, or task) for purposes of reimbursement.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1936,24 +1301,9 @@
         <Parameter Name="DestFldr" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
       </Parameters>
       <Docs>
-        <param name="DestFldr">
-          <span data-ttu-id="888da-p133">返回 <b>Folder</b> 对象的表达式。目标文件夹。 </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-p133">An expression that returns a <b>Folder</b> object. The destination folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-211">将 Microsoft Outlook项目移至新文件夹中。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-211">Moves a Microsoft Outlook item to a new folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="888da-212">一个 <b>Object</b> 值，代表已移至指定文件夹中的项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-212">An <b>Object</b> value that represents the item which has been moved to the designated folder.</span>
-          </span>
-        </returns>
+        <param name="DestFldr"><span data-ttu-id="71e2a-p152">返回 <b>Folder</b> 对象的表达式。目标文件夹。 </span><span class="sxs-lookup"><span data-stu-id="71e2a-p152">An expression that returns a <b>Folder</b> object. The destination folder.</span></span></param>
+        <summary><span data-ttu-id="71e2a-248">将 Microsoft Outlook 项移到新文件夹中。</span><span class="sxs-lookup"><span data-stu-id="71e2a-248">Moves a Microsoft Outlook item to a new folder.</span></span></summary>
+        <returns><span data-ttu-id="71e2a-249">一个 <b>Object</b> 值，代表已移至指定文件夹中的项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-249">An <b>Object</b> value that represents the item which has been moved to the designated folder.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1983,16 +1333,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-213">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值不年龄<b>，则返回 True</b>的 Outlook 项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-213">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> to not age the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-214">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-214">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-250">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值不年龄<b>，则返回 True</b>的 Outlook 项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-250">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> to not age the Outlook item.</span></span> <span data-ttu-id="71e2a-251">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-251">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2029,12 +1370,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-215">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-215">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-252">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span><span class="sxs-lookup"><span data-stu-id="71e2a-252">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2062,16 +1398,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-216">返回一个表示为某个 Outlook 项目的 Outlook 应用程序的内部版本号的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-216">Returns an <b>Integer</b> (<b>int</b> in C#) value representing the build number of the Outlook application for an Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-217">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-217">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-253">返回一个表示为某个 Outlook 项目的 Outlook 应用程序的内部版本号的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="71e2a-253">Returns an <b>Integer</b> (<b>int</b> in C#) value representing the build number of the Outlook application for an Outlook item.</span></span> <span data-ttu-id="71e2a-254">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-254">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2099,16 +1426,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-218">返回一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的 Outlook 应用程序的主要和次要版本号。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-218">Returns a <b>String</b> (<b>string</b> in C#) indicating the major and minor version number of the Outlook application for an Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-219">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-219">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-255">返回一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的 Outlook 应用程序的主要和次要版本号。</span><span class="sxs-lookup"><span data-stu-id="71e2a-255">Returns a <b>String</b> (<b>string</b> in C#) indicating the major and minor version number of the Outlook application for an Outlook item.</span></span> <span data-ttu-id="71e2a-256">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-256">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2136,12 +1454,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-p137">返回指定对象的 <b>对象</b> 的父级。只读的。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-p137">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-p156">返回指定对象的 <b>对象</b> 的父级。只读的。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p156">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2167,12 +1480,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-p138">打印 Outlook 项目使用所有默认设置。 <b>PrintOut</b> 方法是唯一可用于打印的 Outlook 方法。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-p138">Prints the Outlook item using all default settings. The <b>PrintOut</b> method is the only Outlook method that can be used for printing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-p157">打印 Outlook 项目使用所有默认设置。 <b>PrintOut</b> 方法是唯一可用于打印的 Outlook 方法。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p157">Prints the Outlook item using all default settings. The <b>PrintOut</b> method is the only Outlook method that can be used for printing.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2199,16 +1507,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-224">返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-224">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object.</span>
-          </span>
-          <span data-ttu-id="888da-225">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-225">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-261">返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-261">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object.</span></span> <span data-ttu-id="71e2a-262">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-262">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2239,29 +1538,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-226">返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果提醒重写项的默认提醒行为。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-226">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the reminder overrides the default reminder behavior for the item.</span>
-          </span>
-          <span data-ttu-id="888da-227">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-227">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-263">返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果提醒重写项的默认提醒行为。</span><span class="sxs-lookup"><span data-stu-id="71e2a-263">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the reminder overrides the default reminder behavior for the item.</span></span> <span data-ttu-id="71e2a-264">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-264">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-228">
-            <para>必须设置<b>ReminderOverrideDefault</b>属性来验证<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderPlaySound" />和<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderSoundFile" />属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-228">
-              <para>You must set the <b>ReminderOverrideDefault</b> property to validate the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderPlaySound" />  and the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderSoundFile" />  properties.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-265">必须设置<b>ReminderOverrideDefault</b>属性来验证<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderPlaySound" />和<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderSoundFile" />属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-265">You must set the <b>ReminderOverrideDefault</b> property to validate the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderPlaySound" />  and the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderSoundFile" />  properties.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderPlaySound">
@@ -2290,29 +1570,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-229">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒应播放声音，发生此项时为<b>True</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-229">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the reminder should play a sound when it occurs for this item.</span>
-          </span>
-          <span data-ttu-id="888da-230">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-230">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-266">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒应播放声音，发生此项时为<b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="71e2a-266">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the reminder should play a sound when it occurs for this item.</span></span> <span data-ttu-id="71e2a-267">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-267">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-231">
-            <para>必须设置<b>ReminderPlaySound</b>属性验证<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderSoundFile" />属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-231">
-              <para>The <b>ReminderPlaySound</b> property must be set in order to validate the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderSoundFile" />  property. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-268">必须设置<b>ReminderPlaySound</b>属性验证<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderSoundFile" />属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-268">The <b>ReminderPlaySound</b> property must be set in order to validate the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderSoundFile" />  property.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -2341,16 +1602,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-232">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒已为此项设置为<b>True</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-232">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if a reminder has been set for this item.</span>
-          </span>
-          <span data-ttu-id="888da-233">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-233">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-269">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒已为此项设置为<b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="71e2a-269">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if a reminder has been set for this item.</span></span> <span data-ttu-id="71e2a-270">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-270">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2381,29 +1633,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-234">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的提醒发生时要播放的声音文件的路径和文件名称。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-234">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the path and file name of the sound file to play when the reminder occurs for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-235">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-235">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-271">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的提醒发生时要播放的声音文件的路径和文件名称。</span><span class="sxs-lookup"><span data-stu-id="71e2a-271">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the path and file name of the sound file to play when the reminder occurs for the Outlook item.</span></span> <span data-ttu-id="71e2a-272">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-272">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-236">
-            <para>此属性才有效如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderOverrideDefault" />和<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderPlaySound" />属性设置为<b>True</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-236">
-              <para>This property is only valid if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderOverrideDefault" />  and <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderPlaySound" />  properties are set to <b>True</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-273">此属性才有效如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderOverrideDefault" />和<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderPlaySound" />属性设置为<b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-273">This property is only valid if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderOverrideDefault" />  and <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.ReminderPlaySound" />  properties are set to <b>True</b>.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderTime">
@@ -2432,16 +1665,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-237">返回或设置为<b>DateTime</b>的日期和的时间的提醒应当发生的指定项。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-237">Returns or sets a <b>DateTime</b> indicating the date and time at which the reminder should occur for the specified item.</span>
-          </span>
-          <span data-ttu-id="888da-238">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-238">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-274">返回或设置为<b>DateTime</b>的日期和的时间的提醒应当发生的指定项。</span><span class="sxs-lookup"><span data-stu-id="71e2a-274">Returns or sets a <b>DateTime</b> indicating the date and time at which the reminder should occur for the specified item.</span></span> <span data-ttu-id="71e2a-275">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-275">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2468,18 +1692,8 @@
         <Parameter Name="Recipient" Type="Microsoft.Office.Interop.Outlook.Recipient" />
       </Parameters>
       <Docs>
-        <param name="Recipient">
-          <span data-ttu-id="888da-239">从通讯组列表中删除 <b>收件人</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-239">The <b>Recipient</b> to be removed from the distribution list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-240">从指定通讯组列表删除单个成员。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-240">Removes an individual member from a given distribution list.</span>
-          </span>
-        </summary>
+        <param name="Recipient"><span data-ttu-id="71e2a-276">从通讯组列表中删除 <b>收件人</b> 。</span><span class="sxs-lookup"><span data-stu-id="71e2a-276">The <b>Recipient</b> to be removed from the distribution list.</span></span></param>
+        <summary><span data-ttu-id="71e2a-277">从指定通讯组列表删除单个成员。</span><span class="sxs-lookup"><span data-stu-id="71e2a-277">Removes an individual member from a given distribution list.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2505,18 +1719,8 @@
         <Parameter Name="Recipients" Type="Microsoft.Office.Interop.Outlook.Recipients" />
       </Parameters>
       <Docs>
-        <param name="Recipients">
-          <span data-ttu-id="888da-241">要从通讯组列表中删除的成员。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-241">The members to be removed from the distribution list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-242">从通讯组列表中删除成员。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-242">Removes members from a distribution list.</span>
-          </span>
-        </summary>
+        <param name="Recipients"><span data-ttu-id="71e2a-278">要从通讯组列表中删除的成员。</span><span class="sxs-lookup"><span data-stu-id="71e2a-278">The members to be removed from the distribution list.</span></span></param>
+        <summary><span data-ttu-id="71e2a-279">从通讯组列表中删除成员。</span><span class="sxs-lookup"><span data-stu-id="71e2a-279">Removes members from a distribution list.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2546,29 +1750,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-243">返回或设置一个字节数组，表示富文本格式的 Microsoft Outlook 项目的正文。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-243">Returns or sets a byte array that represents the body of the Microsoft Outlook item in Rich Text Format.</span>
-          </span>
-          <span data-ttu-id="888da-244">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-244">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-280">返回或设置一个字节数组，表示富文本格式的 Microsoft Outlook 项目的正文。</span><span class="sxs-lookup"><span data-stu-id="71e2a-280">Returns or sets a byte array that represents the body of the Microsoft Outlook item in Rich Text Format.</span></span> <span data-ttu-id="71e2a-281">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-281">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-245">
-            <para>您可以使用 C# 或 Visual Basic 中的 system.text.encoding.asciiencoding.getstring （） 方法将字节数组转换为字符串。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-245">
-              <para>You can use the System.Text.Encoding.AsciiEncoding.GetString() method in C# or Visual Basic to convert an array of bytes to a string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-282">您可以使用 C# 或 Visual Basic 中的 system.text.encoding.asciiencoding.getstring （） 方法将字节数组转换为字符串。</span><span class="sxs-lookup"><span data-stu-id="71e2a-282">You can use the System.Text.Encoding.AsciiEncoding.GetString() method in C# or Visual Basic to convert an array of bytes to a string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -2592,12 +1777,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-246">将 Microsoft Outlook项目保存到当前文件夹中，如果是新项目，则保存到该项目类型的 Outlook 默认文件夹中。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-246">Saves the Microsoft Outlook item to the current folder or, if this is a new item, to the Outlook default folder for the item type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-283">将 Microsoft Outlook项目保存到当前文件夹中，如果是新项目，则保存到该项目类型的 Outlook 默认文件夹中。</span><span class="sxs-lookup"><span data-stu-id="71e2a-283">Saves the Microsoft Outlook item to the current folder or, if this is a new item, to the Outlook default folder for the item type.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2624,40 +1804,11 @@
         <Parameter Name="Type" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Path">
-          <span data-ttu-id="888da-247">将项目保存到的路径。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-247">The path in which to save the item.</span>
-          </span>
-        </param>
-        <param name="Type">
-          <span data-ttu-id="888da-248">要保存的文件类型。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-248">The file type to save.</span>
-          </span>
-          <span data-ttu-id="888da-249">可以是以下项之一<see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" />常量： <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>， <b>olICal</b>，或<b>olMSGUnicode</b>。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-249">Can be one of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" /> constants: <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>,  <b>olVCard</b>,  <b>olICal</b>, or <b>olMSGUnicode</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="888da-p147">将 Microsoft Outlook项目以指定文件类型的格式保存到指定的路径。如果没有指定文件类型，则使用 MSG 格式 (.msg)。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-p147">Saves the Microsoft Outlook item to the specified path and in the format of the specified file type. If the file type is not specified, the MSG format (.msg) is used.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="888da-252">
-            <para>此外请注意，即使<b>olDoc</b>是有效的<b>OlSaveAsType</b>常量、 无法保存文档格式，以 HTML 格式的邮件和<b>olDoc</b>常量适用于 Microsoft Word 设置为默认电子邮件编辑器时，才。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-252">
-              <para>Also note that even though <b>olDoc</b> is a valid <b>OlSaveAsType</b> constant, messages in HTML format cannot be saved in Document format, and the <b>olDoc</b> constant works only if Microsoft Word is set up as the default email editor.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Path"><span data-ttu-id="71e2a-284">将项目保存到的路径。</span><span class="sxs-lookup"><span data-stu-id="71e2a-284">The path in which to save the item.</span></span></param>
+        <param name="Type"><span data-ttu-id="71e2a-285">要保存的文件类型。</span><span class="sxs-lookup"><span data-stu-id="71e2a-285">The file type to save.</span></span> <span data-ttu-id="71e2a-286">可以是以下项之一<see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" />常量： <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>， <b>olICal</b>，或<b>olMSGUnicode</b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-286">Can be one of the following <see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" /> constants: <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>,  <b>olVCard</b>,  <b>olICal</b>, or <b>olMSGUnicode</b>.</span></span></param>
+        <summary><span data-ttu-id="71e2a-p168">将 Microsoft Outlook项目以指定文件类型的格式保存到指定的路径。如果没有指定文件类型，则使用 MSG 格式 (.msg)。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p168">Saves the Microsoft Outlook item to the specified path and in the format of the specified file type. If the file type is not specified, the MSG format (.msg) is used.</span></span></summary>
+        <remarks><para><span data-ttu-id="71e2a-289">此外请注意，尽管 <b>olDoc</b> 是一个有效的 <b>OlSaveAsType</b> 常量、 邮件以 HTML 格式不能保存为文档格式，并 <b>olDoc</b> 常量只有 Microsoft Word 设置为默认电子邮件编辑器。</span><span class="sxs-lookup"><span data-stu-id="71e2a-289">Also note that even though <b>olDoc</b> is a valid <b>OlSaveAsType</b> constant, messages in HTML format cannot be saved in Document format, and the <b>olDoc</b> constant works only if Microsoft Word is set up as the default email editor.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -2683,16 +1834,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-253">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果自上次保存以来尚未修改的 Outlook 项目。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-253">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been modified since the last save.</span>
-          </span>
-          <span data-ttu-id="888da-254">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-254">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-290">返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果自上次保存以来尚未修改的 Outlook 项目。</span><span class="sxs-lookup"><span data-stu-id="71e2a-290">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been modified since the last save.</span></span> <span data-ttu-id="71e2a-291">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-291">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2723,29 +1865,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-255">返回或设置一个常量，以<see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" />指示 Outlook 项目的敏感度枚举。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-255">Returns or sets a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> enumeration indicating the sensitivity for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-256">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-256">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-292">返回或设置一个常量，以<see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" />指示 Outlook 项目的敏感度枚举。</span><span class="sxs-lookup"><span data-stu-id="71e2a-292">Returns or sets a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> enumeration indicating the sensitivity for the Outlook item.</span></span> <span data-ttu-id="71e2a-293">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-293">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-257">
-            <para>此属性对应于 MAPI 属性<b>PidTagSensitivity</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-257">
-              <para>This property corresponds to the MAPI property <b>PidTagSensitivity</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-p171">此属性对应于 <b>PidTagSensitivity</b> 的 MAPI 属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p171">This property corresponds to the MAPI property <b>PidTagSensitivity</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -2771,42 +1894,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-258">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-258">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="888da-259">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-259">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-295">返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。</span><span class="sxs-lookup"><span data-stu-id="71e2a-295">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="71e2a-296">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-296">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-260">
-            <para>
-              <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="71e2a-297"><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-297">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="71e2a-298">这两个成员可以实现同一目的。</span><span class="sxs-lookup"><span data-stu-id="71e2a-298">Both members serve the same purpose.</span></span> <span data-ttu-id="71e2a-299">例如，以下语句对执行相同的功能：</span><span class="sxs-lookup"><span data-stu-id="71e2a-299">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-260">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -2830,12 +1927,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-261">显示显示类别对话框，用户可从中选择与项目主题相对应的类别。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-261">Displays the Show Categories dialog box, which allows you to select categories that correspond to the subject of the item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-300">显示显示类别对话框，用户可从中选择与项目主题相对应的类别。</span><span class="sxs-lookup"><span data-stu-id="71e2a-300">Displays the Show Categories dialog box, which allows you to select categories that correspond to the subject of the item.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2862,16 +1954,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-262">返回指示 Outlook 项目的大小 （以字节为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-262">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-263">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-263">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-301">返回指示 Outlook 项目的大小 （以字节为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="71e2a-301">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the Outlook item.</span></span> <span data-ttu-id="71e2a-302">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-302">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2902,29 +1985,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-264">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的主题。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-264">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the subject for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-265">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-265">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-303">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的主题。</span><span class="sxs-lookup"><span data-stu-id="71e2a-303">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the subject for the Outlook item.</span></span> <span data-ttu-id="71e2a-304">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-304">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-266">
-            <para>此属性对应于 MAPI 属性<b>PidTagSubject</b>。<b>Subject</b>属性是 Outlook 项目的默认属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-266">
-              <para>This property corresponds to the MAPI property <b>PidTagSubject</b>. The <b>Subject</b> property is the default property for Outlook items. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-p176">此属性对应于 <b>PidTagSubject</b> 的 MAPI 属性。 <b>主题</b> 属性是 Outlook 项目的默认属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-p176">This property corresponds to the MAPI property <b>PidTagSubject</b>. The <b>Subject</b> property is the default property for Outlook items. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskCompletedDate">
@@ -2953,29 +2017,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-267">返回或设置一个<b>日期时间</b>值，表示此任务的完成日期<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-267">Returns or sets a <b>DateTime</b> value that represents the completion date of the task for this <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />.</span>
-          </span>
-          <span data-ttu-id="888da-268">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-268">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-307">返回或设置一个<b>日期时间</b>值，表示此任务的完成日期<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />。</span><span class="sxs-lookup"><span data-stu-id="71e2a-307">Returns or sets a <b>DateTime</b> value that represents the completion date of the task for this <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />.</span></span> <span data-ttu-id="71e2a-308">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-308">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-269">
-            <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-269">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-309">此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-309">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskDueDate">
@@ -3004,29 +2049,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-270">返回或设置一个<b>日期时间</b>值，表示此任务的截止日期<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-270">Returns or sets a <b>DateTime</b> value that represents the due date of the task for this <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />.</span>
-          </span>
-          <span data-ttu-id="888da-271">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-271">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-310">返回或设置一个<b>日期时间</b>值，表示此任务的截止日期<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />。</span><span class="sxs-lookup"><span data-stu-id="71e2a-310">Returns or sets a <b>DateTime</b> value that represents the due date of the task for this <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />.</span></span> <span data-ttu-id="71e2a-311">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-311">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-272">
-            <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-272">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-312">此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-312">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskStartDate">
@@ -3055,29 +2081,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-273">返回或设置一个代表此任务的开始日期的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-273">Returns or sets a <b>DateTime</b> value that represents the start date of the task for this <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object.</span>
-          </span>
-          <span data-ttu-id="888da-274">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-274">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-313">返回或设置一个代表此任务的开始日期的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-313">Returns or sets a <b>DateTime</b> value that represents the start date of the task for this <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object.</span></span> <span data-ttu-id="71e2a-314">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-314">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-275">
-            <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-275">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-315">此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-315">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskSubject">
@@ -3106,29 +2113,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-276">返回或设置一个值，该值代表的任务的主题的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-276">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the subject of the task for the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object.</span>
-          </span>
-          <span data-ttu-id="888da-277">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-277">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-316">返回或设置一个值，该值代表的任务的主题的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />对象。</span><span class="sxs-lookup"><span data-stu-id="71e2a-316">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the subject of the task for the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> object.</span></span> <span data-ttu-id="71e2a-317">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-317">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-278">
-            <para>此属性返回的值<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.Subject" />属性如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-278">
-              <para>This property returns the value of the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.Subject" /> property if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-318">此属性返回的值<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.Subject" />属性如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-318">This property returns the value of the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.Subject" /> property if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToDoTaskOrdinal">
@@ -3157,31 +2145,11 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-279">返回或设置一个代表的任务的序号值的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-279">Returns or sets a <b>DateTime</b> value that represents the ordinal value of the task for the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />.</span>
-          </span>
-          <span data-ttu-id="888da-280">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-280">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-319">返回或设置一个代表的任务的序号值的<b>DateTime</b>值<see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />。</span><span class="sxs-lookup"><span data-stu-id="71e2a-319">Returns or sets a <b>DateTime</b> value that represents the ordinal value of the task for the <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />.</span></span> <span data-ttu-id="71e2a-320">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-320">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="888da-281">
-            <para>此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</para>
-            <para>此属性用于指示任务在父组，如今天组或明天组中的待办事项栏中应如何排序。此属性中使用的值不具有任何值的对应关系<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskStartDate" />， <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskDueDate" />，或<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskCompletedDate" />属性。</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-281">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</para>
-              <para>This property is used to indicate how the task should be ordered within the parent groups, such as the Today group or the Tomorrow group, of the To-Do Bar. The value used in this property does not have any relation to the values of the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskDueDate" />, or <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskCompletedDate" /> properties.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="71e2a-321">此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" />属性设置为<b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="71e2a-321">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.IsMarkedAsTask" /> property is set to <b>False</b>.</span></span></para>
+          <para><span data-ttu-id="71e2a-322">此属性用于指明该任务在父组（如 "待办事项栏"的 "今天"组或 "明天"组）中应如何排序。</span><span class="sxs-lookup"><span data-stu-id="71e2a-322">This property is used to indicate how the task should be ordered within the parent groups, such as the Today group or the Tomorrow group, of the To-Do Bar.</span></span> <span data-ttu-id="71e2a-323">此属性中使用的值不具有任何值的对应关系<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskStartDate" />， <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskDueDate" />，或<see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskCompletedDate" />属性。</span><span class="sxs-lookup"><span data-stu-id="71e2a-323">The value used in this property does not have any relation to the values of the <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskDueDate" />, or <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.TaskCompletedDate" /> properties.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnRead">
@@ -3210,16 +2178,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-282">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果的 Outlook 项目尚未打开 （阅读） 为<b>True</b> 。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-282">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been opened (read).</span>
-          </span>
-          <span data-ttu-id="888da-283">为可读/写属性。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-283">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-324">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果的 Outlook 项目尚未打开 （阅读） 为<b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="71e2a-324">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been opened (read).</span></span> <span data-ttu-id="71e2a-325">读/写。</span><span class="sxs-lookup"><span data-stu-id="71e2a-325">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3247,16 +2206,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="888da-284">返回<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />代表 Outlook 项目的所有用户属性的集合。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-284">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  collection that represents all the user properties for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="888da-285">只读。</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="888da-285">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="71e2a-326">返回<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />代表 Outlook 项目的所有用户属性的集合。</span><span class="sxs-lookup"><span data-stu-id="71e2a-326">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  collection that represents all the user properties for the Outlook item.</span></span> <span data-ttu-id="71e2a-327">只读。</span><span class="sxs-lookup"><span data-stu-id="71e2a-327">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
