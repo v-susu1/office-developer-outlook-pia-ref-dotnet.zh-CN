@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fd919c2e15484df8a6620c4aef0387453e2d0b25" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20632083" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="10db76b897312de282fe89c78af9317334dffa68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904607" /></Metadata><TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemEvents_10_Event" />
@@ -49,16 +41,13 @@
       </ReturnValue>
       <Docs>
         <summary>在 Microsoft Outlook 保存项目之后发生。</summary>
-        <remarks>
-          <para>
-            <b>AfterWrite</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" />事件。不可取消此事件。若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
-          <para>
-            <b>AfterWrite</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>iexchextmessageevents:: Onwritecomplete</b>。</para>
-          <para>可以在<b>AfterWrite</b>事件中访问仅项目对象的下列成员：</para>
+        <remarks><para><b>AfterWrite</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" />事件。 此事件不是可以取消的。 若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。 </para>
+          <para><b>AfterWrite</b> 事件对应于 <b>IExchExtMessageEvents::OnWriteComplete</b> 的 Exchange 客户端扩展 (ECE) 事件。</para>
+          <para>在 <b>AfterWrite</b> 事件中可以访问只有 item 对象的下列成员: </para>
           <list type="bullet">
             <item>
               <para>
-                <b>类</b>
+                <b>class</b>
               </para>
             </item>
             <item>
@@ -72,12 +61,10 @@
               </para>
             </item>
           </list>
-          <para>
-            <b>MAPIOBJECT</b>属性是 Outlook 对象模型中的隐藏的属性。此属性提供访问基础的 MAPI IMessage 对象，并可以调用仅通过 IUnknown 接口。该属性是供用支持<b>IUnknown</b>如 C 或 c + + 语言编写的程序。<b>MAPIOBJECT</b>不能通过的 IDispatch 接口。如 Visual Basic for Applications (VBA)、 Visual C# 和 Visual Basic 开发语言支持的<b>IDispatch</b>接口和不为<b>IUnknown</b>，并因此，他们无法访问<b>MAPIOBJECT</b>。如果在此事件访问其他属性或方法的父项，Outlook 将引发错误。</para>
-          <para>从中此事件的<b>MAPIOBJECT</b>属性获取的对象必须包含所有由 Outlook 保持所做的更改。实施者可以保留对由<b>MAPIOBJECT</b>，基础<b>IMessage</b>对象的<b>IMessage</b>对象上调用的 SaveChanges 方法和 Outlook 将还原这些更改。</para>
-          <para>实施必须释放从事件完成之前的事件中的<b>MAPIOBJECT</b>属性获取的对象。尝试使用该对象的事件的上下文之外不受支持和不可预测的行为将导致。</para>
-          <para />
-        </remarks>
+          <para><b>MAPIOBJECT</b> 属性是 Outlook 对象模型中的隐藏的属性。此属性提供对基础的 MAPI IMessage 对象，并且可以仅通过 IUnknown 接口调用。该属性是用支持 <b>IUnknown</b> 如 C 或 c + + 语言编写的程序可以访问的。 <b>MAPIOBJECT</b> 不能通过 IDispatch 接口。如 (VBA)、 视觉 C#，和 Visual Basic 的 Visual Basic for Applications 的开发语言都支持 <b>IDispatch</b> 接口并不为 <b>IUnknown</b> ，，因此，它们无法访问 <b>MAPIOBJECT</b> 。 如果在此事件中访问其他属性或方法的父项，则 Outlook 将引发错误。</para>
+          <para>获取在此事件中的 <b>MAPIOBJECT</b> 属性的对象必须包含所有 outlook 保留所做的更改。 实施者可以调用 SaveChanges <b>IMessage</b> 对象以保持对基础 <b>IMessage</b> 对象由 <b>MAPIOBJECT</b> ，更改，Outlook 将不会还原这些更改。</para>
+          <para>实现者必须释放来自事件完成前的事件中的 <b>MAPIOBJECT</b> 属性的对象。尝试使用该对象的事件上下文之外是不受支持，将导致不可预知的行为。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AttachmentAdd">
@@ -172,10 +159,8 @@
       </ReturnValue>
       <Docs>
         <summary>预览与父对象的实例相关的附件前发生。</summary>
-        <remarks>
-          <para>从活动浏览器的阅读窗格中的附件区或从活动检查器预览的附件之前发生此事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>此事件在某附件被预览（从活动浏览器的阅读窗格中的附件区中预览，或从活动检查器中预览）之前发生。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentRead">
@@ -213,10 +198,8 @@
       </ReturnValue>
       <Docs>
         <summary>在保存附件前发生。</summary>
-        <remarks>
-          <para>附件保存到的消息存储时，此事件对应于。<b>BeforeAttachmentSave</b>事件发生之前保存项目时保存附件。如果用户编辑附件，然后保存这些更改， <b>BeforeAttachmentSave</b>事件不会发生次;而是它会发生项目自身更高版本保存时。它还不会发生时使用<b>SaveAsFile</b>方法的硬盘上保存附件。</para>
-          <para />
-        </remarks>
+        <remarks><para>此事件对应于将附件保存到邮件存储区时。 之前在保存附件保存项时， <b>BeforeAttachmentSave</b> 事件发生。 如果用户编辑附件，然后保存这些更改， <b>BeforeAttachmentSave</b>事件不会发生次;而是它会发生项目自身更高版本保存时。 它也不会触发附件保存在使用 <b>SaveAsFile</b> 方法的硬盘上。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentWriteToTempFile">
@@ -273,24 +256,22 @@
       </ReturnValue>
       <Docs>
         <summary>在 Microsoft Outlook 开始解析项目（父对象的一个实例）的收件人集合中的名称前发生。</summary>
-        <remarks>
-          <para>在以下情况下不会触发事件：</para>
+        <remarks><para>下列情况不会触发此事件：  </para>
           <list type="bullet">
             <item>
-              <para>自定义窗体日记条目，然后解析联系人字段中的联系人。</para>
+              <para>自定义"日记条目"窗体，然后解析 "联系人"字段中的联系人。 </para>
             </item>
             <item>
-              <para>您自定义联系人窗体，然后解析联系人字段中的联系人。</para>
+              <para>自定义"联系人"窗体，然后解析 "联系人"字段中的联系人。 </para>
             </item>
             <item>
-              <para>您自定义任何类型的窗体，Outlook 自动解析背景中的名称。</para>
+              <para>自定义任何类型的窗体，然后 Outlook 自动在后台解析名称。 </para>
             </item>
             <item>
               <para>以编程方式创建和解析收件人。</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeDelete">
@@ -309,11 +290,9 @@
       </ReturnValue>
       <Docs>
         <summary>在删除项目（父对象的一个实例）前发生。</summary>
-        <remarks>
-          <para>中顺序时触发该事件的电子邮件、 通讯组列表、 日记条目、 任务、 联系人，或通过某项操作删除后，必须打开一个检查器。</para>
-          <para>事件每发生一次删除项目。</para>
-          <para />
-        </remarks>
+        <remarks><para>为了在通过某项操作删除电子邮件、通讯组列表、日记条目、任务、联系人或公告时触发该事件，必须打开一个检查器。</para>
+          <para>每删除一个项目，该事件发生一次。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeRead">
@@ -332,16 +311,13 @@
       </ReturnValue>
       <Docs>
         <summary>在 Microsoft Outlook 开始读取项目属性之前发生。</summary>
-        <remarks>
-          <para>
-            <b>BeforeRead</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />事件。与其他事件<b>之前</b>前缀，此事件不是可取消。若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
-          <para>
-            <b>BeforeRead</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>iexchextmessageevents:: Onread</b>。</para>
-          <para>可以在<b>BeforeRead</b>事件中访问仅项目对象的下列成员：</para>
+        <remarks><para><b>BeforeRead</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />事件。 与其他事件<b>之前</b>前缀，此事件不是可取消。 若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。 </para>
+          <para><b>BeforeRead</b> 事件对应于 <b>IExchExtMessageEvents::OnRead</b> 的 Exchange 客户端扩展 (ECE) 事件。</para>
+          <para>在 <b>BeforeRead</b> 事件中可以访问只有 item 对象的下列成员: </para>
           <list type="bullet">
             <item>
               <para>
-                <b>类</b>
+                <b>class</b>
               </para>
             </item>
             <item>
@@ -355,12 +331,10 @@
               </para>
             </item>
           </list>
-          <para>
-            <b>MAPIOBJECT</b>属性是 Outlook 对象模型中的隐藏的属性。此属性提供访问基础的 MAPI IMessage 对象，并可以调用仅通过 IUnknown 接口。该属性是供用支持<b>IUnknown</b>如 C 或 c + + 语言编写的程序。<b>MAPIOBJECT</b>不能通过的 IDispatch 接口。如 Visual Basic for Applications (VBA)、 Visual C# 和 Visual Basic 开发语言支持的<b>IDispatch</b>接口和不为<b>IUnknown</b>，并因此，他们无法访问<b>MAPIOBJECT</b>。如果在此事件访问其他属性或方法的父项，Outlook 将引发错误。</para>
-          <para>如果实施者访问的基础<b>IMessage</b>对象，该对象，Outlook 更改属性将呈现这就反映了对<b>IMessage</b>对象的更改该项目。实施者没有<b>IMessage</b>对象以使更改反映到 Outlook 中调用 SaveChanges。</para>
-          <para>实施必须释放从事件完成之前的事件中的<b>MAPIOBJECT</b>属性获取的对象。尝试使用该对象的事件的上下文之外不受支持和不可预测的行为将导致。</para>
-          <para />
-        </remarks>
+          <para><b>MAPIOBJECT</b> 属性是 Outlook 对象模型中的隐藏的属性。此属性提供对基础的 MAPI IMessage 对象，并且可以仅通过 IUnknown 接口调用。该属性是用支持 <b>IUnknown</b> 如 C 或 c + + 语言编写的程序可以访问的。 <b>MAPIOBJECT</b> 不能通过 IDispatch 接口。如 (VBA)、 视觉 C#，和 Visual Basic 的 Visual Basic for Applications 的开发语言都支持 <b>IDispatch</b> 接口并不为 <b>IUnknown</b> ，，因此，它们无法访问 <b>MAPIOBJECT</b> 。 如果在此事件中访问其他属性或方法的父项，则 Outlook 将引发错误。</para>
+          <para>如果实施者访问该对象的基础 <b>IMessage</b> 对象，并更改属性，Outlook 将呈现对 <b>IMessage</b> 对象的更改以反映该项目。实施者不需要调用 IMessage 对象以使所做的更改会反映在 Outlook 中 <b>SaveChanges</b> 。</para>
+          <para>实现者必须释放来自事件完成前的事件中的 <b>MAPIOBJECT</b> 属性的对象。尝试使用该对象的事件上下文之外是不受支持，将导致不可预知的行为。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -379,10 +353,8 @@
       </ReturnValue>
       <Docs>
         <summary>与项目（父对象的一个实例）相关的检查器关闭时发生。</summary>
-        <remarks>
-          <para>如果使用<b>Close</b>方法触发此事件，则可以仅当取消<b>Close</b>方法使用<b>olPromptForSave</b>参数时才能。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果使用 <b>Close</b> 方法以触发该事件，则可以仅取消 <b>Close</b> 方法使用 <b>olPromptForSave</b> 参数。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomAction">
@@ -401,11 +373,8 @@
       </ReturnValue>
       <Docs>
         <summary>当项目（父对象的一个实例）的自定义动作执行时发生。</summary>
-        <remarks>
-          <para>
-            <b>Action</b>对象和由自定义动作产生的新建的项目传递给事件中。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Action</b> 对象和由自定义动作产生的新建的项目被传递给事件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomPropertyChange">
@@ -424,10 +393,8 @@
       </ReturnValue>
       <Docs>
         <summary>当项目（父对象的一个实例）的自定义属性更改时发生。</summary>
-        <remarks>
-          <para>属性名传递给过程，以便您可以确定哪个自定义属性被更改。</para>
-          <para />
-        </remarks>
+        <remarks><para>属性名传递给过程，以便于用户确定哪个自定义属性被更改。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -465,10 +432,8 @@
       </ReturnValue>
       <Docs>
         <summary>要在打开父对象的实例时发生<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</summary>
-        <remarks>
-          <para>发生此事件时，已初始化的<b>Inspector</b>对象，但尚未显示。<b>Open</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />每当用户选择项目在视图中支持单元格内编辑以及在检查器中打开项目时，发生此事件中<b>读取</b>该事件。</para>
-          <para />
-        </remarks>
+        <remarks><para>此事件发生时，该 <b>检查器</b> 对象已初始化，但尚未显示。 <b>Open</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />每当用户选择项目在视图中支持单元格内编辑以及在检查器中打开项目时，发生此事件中<b>读取</b>该事件。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyChange">
@@ -487,10 +452,8 @@
       </ReturnValue>
       <Docs>
         <summary>当父对象的实例的显式内置属性更改时发生。</summary>
-        <remarks>
-          <para>属性名传递给事件，以便您可以确定哪个属性被更改。</para>
-          <para />
-        </remarks>
+        <remarks><para>属性名被传递给事件，这样用户就可以确定哪个属性被更改。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -509,11 +472,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户打开父对象的实例进行编辑时发生。</summary>
-        <remarks>
-          <para>
-            <b>Read</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" />中<b>读取</b>该事件发生每当用户支持单元格内编辑项目中打开的时以及在视图中选择项目<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Read</b>事件不同<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" />中<b>读取</b>该事件发生每当用户支持单元格内编辑项目中打开的时以及在视图中选择项目<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReadComplete">
@@ -532,14 +492,10 @@
       </ReturnValue>
       <Docs>
         <summary>Outlook 完成读取项目的属性后，发生此事件。</summary>
-        <remarks>
-          <para>
-            <b>ReadComplete</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" />事件之前<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />项事件。</para>
-          <para>以确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
-          <para>
-            <b>ReadComplete</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>IExchExtMessageEvents::OnReadComplete</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ReadComplete</b>事件发生后<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" />事件之前<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" />项事件。 </para>
+          <para>若要确定何时从内存中卸载项目，请使用<see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" />事件。</para>
+          <para><b>ReadComplete</b>事件对应于 Exchange 客户端扩展 (ECE) 事件<b>IExchExtMessageEvents::OnReadComplete</b>。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -558,10 +514,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户为项目（父对象的一个实例）选择答复动作时发生。</summary>
-        <remarks>
-          <para>将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyAll">
@@ -580,10 +534,8 @@
       </ReturnValue>
       <Docs>
         <summary>当用户为项目（父对象的一个实例）选择全部答复动作时发生。</summary>
-        <remarks>
-          <para>将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>将答复作为返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Send">
@@ -621,12 +573,10 @@
       </ReturnValue>
       <Docs>
         <summary>在从内存中卸载（通过编程方式或用户操作）Outlook 项目之前发生。</summary>
-        <remarks>
-          <para>对 Outlook 项目， <b>Close</b>事件发生，但之前 Outlook 项目是从允许外接程序释放任何与对象相关的资源的内存中卸载后，将发生此事件。 尽管从内存中卸载 Outlook 项目之前发生的事件，但不能取消此事件。</para>
+        <remarks><para>此事件发生后 <b>关闭</b> Outlook 项目的事件发生，但之前 Outlook 项卸载从内存中，从而允许外接程序以释放与该对象相关的所有资源。  虽然从内存中卸载 Outlook 项目之前发生的事件，但不能取消此事件。</para>
           <para>
-            <b>注意</b>： 此事件只是一个通知事件，以便外接程序可以取消引用对象。 如果在<b>Unload</b>事件中调用任何属性或方法，用于此对象将发生错误。</para>
-          <para />
-        </remarks>
+            <b>注意</b>： 此事件只是一个通知事件，以便外接程序可以取消引用对象。  如果在 <b>Unload</b> 事件中调用任何属性或方法，以便该对象，就会出错。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Write">

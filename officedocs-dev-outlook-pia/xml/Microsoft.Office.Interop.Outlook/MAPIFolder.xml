@@ -1,13 +1,5 @@
 <Type Name="MAPIFolder" FullName="Microsoft.Office.Interop.Outlook.MAPIFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8a333f159d3a63a23c2b19913ea1f7e5b666bcb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631485" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MAPIFolder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5ff194f3b28d1408ede7525b7b91a1471bd5eb41" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901085" /></Metadata><TypeSignature Language="C#" Value="public interface MAPIFolder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />
   <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolder" />
@@ -56,12 +48,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示的通讯簿名称<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，代表联系人文件夹。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示的通讯簿名称<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象，代表联系人文件夹。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果您尝试在非联系人文件夹中设置<b>AddressBookName</b>属性，则将返回错误。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果您尝试在非联系人文件夹中设置<b>AddressBookName</b>属性，则将返回错误。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddToFavorites">
@@ -203,10 +193,8 @@
         <param name="DestinationFolder">需要用值，该值代表目标文件夹的<b>Folder</b>对象。</param>
         <summary>将当前文件夹完整地复制到目标文件夹中。</summary>
         <returns>表示当前文件夹的新副本的 <b>文件夹</b> 对象。</returns>
-        <remarks>
-          <para>设置 REG_MULTI_SZ 值，DisableCrossAccountCopy，在 Windows 注册表中的 HKCU\Software\Microsoft\Office\14.0\Outlook 具有副作用禁用此方法。</para>
-          <para />
-        </remarks>
+        <remarks><para>设置 REG_MULTI_SZ 值，DisableCrossAccountCopy，在 Windows 注册表中的 HKCU\Software\Microsoft\Office\14.0\Outlook 具有副作用禁用此方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentView">
@@ -234,10 +222,9 @@
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.View" />对象，代表当前视图。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>若要获取的当前视图的<b>View</b>对象<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />，使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />而不是当前的<b>CurrentView</b>属性<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />返回对象<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />。</para>
-          <para>必须先保存由<b>CurrentView</b>返回，然后您才能继续用于任何目的<b>View</b>对象的引用。</para>
-          <para>正确重置当前视图中，您必须执行<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />，然后<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。下面的代码示例说明了的呼叫顺序：</para>
+        <remarks><para>若要获取的当前视图的<b>View</b>对象<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />，使用<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />而不是当前的<b>CurrentView</b>属性<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />返回对象<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />。 </para>
+          <para>您必须保存返回 <b>CurrentView</b> 之前继续将其用于任何目的的 <b>视图</b> 对象的引用。</para>
+          <para>要正确重置当前视图，您必须执行<see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" />，然后<see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />。 下面的代码示例说明了调用顺序：</para>
           <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
@@ -256,8 +243,7 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomViewsOnly">
@@ -286,13 +272,11 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，确定给定文件夹的视图菜单上将显示的视图。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，确定给定文件夹的视图菜单上将显示的视图。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果设置为<b>True</b>，仅用户创建的视图将显示在菜单上。</para>
-          <para>此属性仅在视图菜单上效果。它不会影响在导航窗格中的视图的显示。</para>
-          <para />
-        </remarks>
+        <remarks><para>如果设置为 <b>True</b> ，只有用户创建的视图将显示在菜单上。</para>
+          <para>此属性仅对 "视图"菜单起作用。它不影响导航窗格中视图的显示。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DefaultItemType">
@@ -402,12 +386,10 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的文件夹的说明。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的文件夹的说明。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagComment</b>。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性对应于 <b>PidTagComment</b> 的 MAPI 属性。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -460,9 +442,9 @@ End Sub</code>
       <Docs>
         <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。  只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性对应于 MAPI 属性<b>PidTagEntryId</b>。</para>在存储中创建项时， 
-          <para>MAPI 存储提供程序分配的唯一 ID 字符串。因此， <b>EntryID</b>属性未设置为 Outlook 项目之前保存或发送。将项目移动到另一个存储区，例如，从收件箱到 Microsoft Exchange Server 公用文件夹，或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件时条目 ID 的更改。解决方案应不依赖<b>EntryID</b>属性来保持唯一性，除非项目将不会移动。<b>EntryID</b>属性返回一个 MAPI 长期条目 id。有关详细信息有关 long-和 short-term Entryid，搜索http://msdn.microsoft.com的<b>PidTagEntryId</b>。</para><para /></remarks>
+        <remarks><para>此属性对应于 <b>PidTagEntryId</b> 的 MAPI 属性。</para>
+          <para>MAPI 存储提供程序将在存储中创建项时分配的唯一 ID 字符串。 因此， <b>EntryID</b> 属性未设置为某个 Outlook 项目之前保存或发送。 条目 ID 更改时将项目移动到另一个存储中，例如，从 Microsoft Exchange Server 的公用文件夹，您 的收件箱或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件。 解决方案不应依赖于 <b>EntryID</b> 属性来保持唯一性，除非不移动项目。 <b>EntryID</b> 属性返回一个 MAPI 长期条目 id。 更多信息关于长时间的和 short-term Entryid，搜索 http://msdn.microsoft.com <b></b>。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FolderPath">
@@ -518,11 +500,8 @@ End Sub</code>
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合，代表指定中包含的所有文件夹<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象是给定命名空间的所有文件夹的根目录。</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象是给定命名空间的所有文件夹的根目录。 </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FullFolderPath">
@@ -579,13 +558,10 @@ End Sub</code>
       <Docs>
         <summary>创建<see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />指定的对象的<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />。</summary>
         <returns>指定的文件夹为一个 <b>CalendarSharing</b> 对象。</returns>
-        <remarks>
+        <remarks><para>自动， <b>GetCalendarExporter</b> 方法将 <b>CalendarSharing</b> 类的默认值设置为 <b>文件夹</b> 对象使用标准的默认选项。 <b>GetCalendarExporter</b> 方法仅可在日历文件夹。如果在代表其他文件夹类型的 <b>Folder</b> 对象上使用方法，就会出错。</para>
           <para>
-            <b>GetCalendarExporter</b>方法自动将<b>CalendarSharing</b>类的默认值设置为使用<b>Folder</b>对象的标准的默认选项。<b>GetCalendarExporter</b>方法仅可对日历文件夹。如果代表其他文件夹类型的<b>Folder</b>对象上使用该方法将发生错误。</para>
-          <para>
-            <b>注释</b>： <b>CalendarSharing</b>对象仅支持导出 iCalendar (.ics) 文件格式。</para>
-          <para />
-        </remarks>
+            <b>注意</b>： <b>CalendarSharing</b>对象仅支持导出 iCalendar (.ics) 文件格式。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetCustomIcon">
@@ -611,30 +587,28 @@ End Sub</code>
       <Docs>
         <summary>返回<see cref="T:stdole.StdPicture" />对象，表示文件夹自定义图标。</summary>
         <returns>返回表示文件夹自定义图标的<b>StdPicture</b>对象。</returns>
-        <remarks>
-          <para>返回的<b>StdPicture</b>对象具有其<b>Type</b>属性等于<b>PICTYPE_ICON</b>或<b>PICTYPE_BITMAP</b>。</para>
+        <remarks><para>返回的<b>StdPicture</b>对象具有其<b>Type</b>属性等于<b>PICTYPE_ICON</b>或<b>PICTYPE_BITMAP</b>。</para>
           <para>
-            <b>GetCustomIcon</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果文件夹没有自定义文件夹图标，或者文件夹属于以下各组的文件夹之一：</para>
+            <b>那么 GetCustomIcon</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果文件夹没有自定义文件夹图标，或者文件夹属于以下各组的文件夹之一：</para>
           <list type="bullet">
             <item>
               <para>默认文件夹 (如<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />枚举)</para>
             </item>
             <item>
-              <para>特殊文件夹 (如按列出<see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" />枚举)</para>
+              <para>特殊文件夹 (如<see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" />枚举)</para>
             </item>
             <item>
-              <para>Exchange 公用文件夹</para>
+              <para>Exchange 公共文件夹</para>
             </item>
             <item>
-              <para>的任何 Exchange 邮箱的根文件夹</para>
+              <para>Exchange 邮箱的根文件夹</para>
             </item>
             <item>
               <para>隐藏文件夹</para>
             </item>
           </list>
-          <para>您可以仅<b>GetCustomIcon</b>从代码中调用的运行进程内为 Outlook。<b>StdPicture</b>对象不能被封送跨进程边界。如果您尝试从出进程代码调用<b>GetCustomIcon</b> ，会发生异常。有关详细信息，请参阅<a href="http://support.microsoft.com/kb/150034">自动化服务器不能将图片对象的 IPictureDisp 实现跨进程边界指针传递</a></para>
-          <para />
-        </remarks>
+          <para>您只能从代码，运行在进程内为 Outlook 调用 <b>GetCustomIcon</b> 。 <b>StdPicture</b>对象不能跨进程边界封送。 如果您尝试从进程外的代码中调用 <b>GetCustomIcon</b> 时，会发生异常。 有关详细信息，请参阅<a href="http://support.microsoft.com/kb/150034">自动化服务器无法传递到图片对象的 IPictureDisp 实现跨进程边界的指针</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExplorer">
@@ -661,17 +635,14 @@ End Sub</code>
       <Docs>
         <param name="DisplayMode">文件夹的显示模式。 可以是中的常量之一<see cref="T:Microsoft.Office.Interop.Outlook.OlFolderDisplayMode" />枚举。</param>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />对象，表示与指定文件夹作为当前文件夹初始化新的、 不活动<b>资源管理器</b>对象。</summary>
-        <returns>
-          <b>资源管理器</b> 对象表示新的非活动资源管理器初始化为指定为当前文件夹的文件夹。</returns>
-        <remarks>
-          <para>此方法可用于返回新的<b>Explorer</b>对象中显示的文件夹，而不是使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法和设置<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />属性。</para>
-          <para>
-            <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" />方法可用于激活或显示<b>Explorer</b>。</para>
-          <para>
-            <b>GetExplorer</b>方法采用可选参数的<b>OlFolderDisplayMode</b>常量。</para>
-          <para>默认情况下，新的<b>资源管理器</b>将显示在正常模式 (<b>olFolderDisplayNormal</b>) 显示的所有界面元素： 右侧和左侧导航窗格上的邮件面板。您正在呼叫委派处于非导航模式 (<b>olFolderDisplayNoNavigation</b> ) 默认情况下的文件夹的<b>GetExplorer</b>时，此规则的例外。您可以将更多限制应用于默认模式，但您无法通过更改<b>OlFolderDisplayMode</b>减少限制。</para>也可以仅文件夹模式 (<b>olFolderDisplayFolderOnly</b>) 中显示
-          <para>资源管理器。此模式在本质上与正常模式 (<b>olFolderDisplayNormal</b> ) 相同的它太显示在左侧导航窗格。</para>您可以使用的最严格模式
-          <para>是无导航模式 (<b>olFolderDisplayNoNavigation</b>)。在此模式中，<b>资源管理器</b>将显示与任何文件夹列表、 没有下拉列表文件夹列表中，和选项都将禁用所有"转到"类型菜单/命令栏。一般情况下，用户不应能够导航到该<b>资源管理器</b>窗口中的任何其他文件夹中。默认情况下，委派的 （共享） 文件夹显示无导航模式中。</para><para /></remarks>
+        <returns><b>资源管理器</b> 对象表示新的非活动资源管理器初始化为指定为当前文件夹的文件夹。</returns>
+        <remarks><para>此方法可用于返回新的<b>Explorer</b>对象中显示的文件夹，而不是使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />方法和设置<see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />属性。</para>
+          <para><see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" />方法可用于激活或显示<b>Explorer</b>。</para>
+          <para><b>GetExplorer</b> 方法采用常量 <b>OlFolderDisplayMode</b> 的可选参数。</para>
+          <para>默认情况下，新的 <b>Explorer</b> 将在“正常”模式 (<b>olFolderDisplayNormal</b>) 下显示，在该模式下将显示所有界面元素：右边是邮件面板，左边是导航窗格。此规则也有例外情况，即您在默认处于“非导航”模式 (<b>olFolderDisplayNoNavigation</b>) 的代理文件夹上调用 <b>GetExplorer</b> 时。可将更多限制应用于默认模式，但不能通过更改 <b>OlFolderDisplayMode</b> 来减少限制。</para>
+          <para>浏览器也可在“仅文件夹”模式 (<b>olFolderDisplayFolderOnly</b>) 下显示。此模式本质上与“正常”模式 (<b>olFolderDisplayNormal</b>) 相同，也在左边显示导航窗格。</para>
+          <para> 可使用的最具限制性的模式是“非导航”模式 (<b>olFolderDisplayNoNavigation</b>)。在此模式下，<b>Explorer</b> 将不显示文件夹列表和下拉文件夹列表，而且所有“前往”类型的菜单/命令栏选项都将禁用。基本上，用户将不能导航到 <b>Explorer</b> 窗口内的其他文件夹。默认情况下，代理（共享）文件夹在“非导航”模式下显示。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetStorage">
@@ -698,19 +669,33 @@ End Sub</code>
         <Parameter Name="StorageIdentifierType" Type="Microsoft.Office.Interop.Outlook.OlStorageIdentifierType" />
       </Parameters>
       <Docs>
-        <param name="StorageIdentifier">
-          <b>StorageItem</b> 对象; 对象标识符根据标识符类型，该值还可以表示条目 ID、 邮件类或主题。</param>
+        <param name="StorageIdentifier"><b>StorageItem</b> 对象; 对象标识符根据标识符类型，该值还可以表示条目 ID、 邮件类或主题。</param>
         <param name="StorageIdentifierType">指定 <b>邮件</b> 对象标识符的类型。</param>
         <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />对象的父<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />存储 Outlook 解决方案的数据。</summary>
-        <returns>
-          <b>StorageItem</b> 对象，该对象用于存储解决方案的数据的。</returns>
-        <remarks>
-          <para>
-            <b>GetStorage</b>方法获取<b>文件夹</b>对象使用指定的标识符<b>StorageItem</b><paramref name="StorageIdentifier" />由指定标识符的类型和<paramref name="StorageIdentifierType" />。   <b>StorageItem</b>是隐藏的中的项目<b>文件夹</b>，该帐户漫游，可联机和脱机。</para>如果指定的
-          <para><see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" />的<b>StorageItem</b>使用的<b>olIdentifyByEntryID</b>值<paramref name="StorageIdentifierType" />，则<b>GetStorage</b>方法将返回与指定的<b>EntryID</b><b>StorageItem</b> 。如果可以使用该<b>EntryID</b>找到任何<b>StorageItem</b>或<b>StorageItem</b>不存在，如果通过然后<b>GetStorage</b>方法将引发错误。</para>如果您使用的<b>olIdentifyByMessageClass</b>值指定的邮件类的<b>StorageItem</b>的
-          <para><paramref name="StorageIdentifierType" />，然后<b>GetStorage</b>方法将返回与指定的邮件类的<b>StorageItem</b> 。如果有多个具有相同的邮件类项， <b>GetStorage</b>方法将返回具有最新<b>PidTagLastModificationTime</b>的项。如果没有<b>StorageItem</b>存在具有指定的邮件类，则<b>GetStorage</b>方法使用指定的邮件类创建新的<b>StorageItem</b><paramref name="StorageIdentifier" />。</para>如果指定的
-          <para><see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" />的<b>StorageItem</b>，然后<b>GetStorage</b>方法将返回与指定<b>GetStorage</b>呼叫中的<b>主题</b>的<b>StorageItem</b> 。如果有多个具有相同<b>主题</b>项，则<b>GetStorage</b>方法将返回具有最新<b>PidTagLastModificationTime</b>的项。如果没有<b>StorageItem</b>存在与指定的<b>主题</b>中，则<b>GetStorage</b>方法将具有指定<b>主题</b>创建新的<b>StorageItem</b><paramref name="StorageIdentifier" />。</para><para>如果文件夹的存储类型不受支持， 
-            <b>GetStorage</b>返回错误。<b>GetStorage</b>调用时，以下存储返回错误：</para><list type="bullet"><item><para>Hotmail 存储</para></item><item><para>Internet 消息访问协议 (IMAP) 存储</para></item><item><para>委托存储</para></item><item><para>公用文件夹存储</para></item></list><para><see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Size" />，新创建的<b>StorageItem</b>的上为零 (0) 进行显式调用之前<see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" />项目的方法。</para><para>有关存储解决方案的数据的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87931">存储解决方案的数据</a></para><para /></remarks>
+        <returns><b>StorageItem</b> 对象，该对象用于存储解决方案的数据的。</returns>
+        <remarks><para><b>GetStorage</b>方法获取<b>文件夹</b>对象使用指定的标识符<b>StorageItem</b> <paramref name="StorageIdentifier" />由指定标识符的类型和<paramref name="StorageIdentifierType" />。    <b>邮件</b> 是隐藏的中的项目 <b>文件夹</b> ，其与该帐户的漫游和联机和脱机时可用。</para>
+          <para>如果指定<see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" />的<b>StorageItem</b>使用的<b>olIdentifyByEntryID</b>值<paramref name="StorageIdentifierType" />，则<b>GetStorage</b>方法将返回与指定的<b>EntryID</b> <b>StorageItem</b> 。 如果可以使用该 <b>条目 Id</b> 不找到任何 <b>邮件</b> 或 <b>邮件</b> 不存在， <b>GetStorage</b> 方法将产生错误。</para>
+          <para>如果您使用的<b>olIdentifyByMessageClass</b>值指定的邮件类的<b>StorageItem</b> <paramref name="StorageIdentifierType" />，然后<b>GetStorage</b>方法将返回与指定的邮件类的<b>StorageItem</b> 。 如果有多个具有相同的邮件类项， <b>GetStorage</b>方法将返回具有最新<b>PidTagLastModificationTime</b>的项。 如果没有<b>StorageItem</b>存在具有指定的邮件类，则<b>GetStorage</b>方法使用指定的邮件类创建新的<b>StorageItem</b> <paramref name="StorageIdentifier" />。</para>
+          <para>如果指定<see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" />的<b>StorageItem</b>，然后<b>GetStorage</b>方法将返回与指定<b>GetStorage</b>呼叫中的<b>主题</b>的<b>StorageItem</b> 。 如果有多个具有相同<b>主题</b>项，则<b>GetStorage</b>方法将返回具有最新<b>PidTagLastModificationTime</b>的项。 如果没有<b>StorageItem</b>存在与指定的<b>主题</b>中，则<b>GetStorage</b>方法将具有指定<b>主题</b>创建新的<b>StorageItem</b> <paramref name="StorageIdentifier" />。</para>
+          <para>如果不支持该文件夹的存储区类型， 
+            <b>GetStorage</b> 会返回一个错误。下列存储在调用 <b>GetStorage</b> 时返回一个错误:</para>
+          <list type="bullet">
+            <item>
+              <para>Hotmail 存储区</para>
+            </item>
+            <item>
+              <para>Internet 邮件访问协议 (IMAP) 存储区</para>
+            </item>
+            <item>
+              <para>委托商店</para>
+            </item>
+            <item>
+              <para>公用文件夹存储区</para>
+            </item>
+          </list>
+          <para><see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Size" /> ，新创建的<b>StorageItem</b>的上为零 (0) 进行显式调用之前<see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" />项目的方法。</para>
+          <para>存储数据的解决方案的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87931">存储解决方案的数据</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -737,18 +722,15 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Filter">为父<b>Folder</b>中指定的项目的条件的 Microsoft Jet 或 DAV 搜索和定位 (DASL) 语法中的筛选器。</param>
-        <param name="TableContents">
-          <b>GetTable</b> 返回文件夹中指定项目的类型。默认值为 <b>olUserItems</b>。 </param>
+        <param name="TableContents"><b>GetTable</b> 返回文件夹中指定项目的类型。默认值为 <b>olUserItems</b>。 </param>
         <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.Table" />对象，其中包含由筛选的项目<paramref name="Filter" />。</summary>
         <returns>一个<b>表</b>，包含在父项目<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />，满足的条件， <paramref name="Filter" />。 默认情况下，<paramref name="TableContents" />是<b>olUserItems</b>和返回的<b>表</b>包含仅处于非隐藏状态的已筛选的项目。</returns>
-        <remarks>
-          <para>如果<paramref name="Filter" />是空字符串或<paramref name="Filter" />省略参数、 <b>GetTable</b>返回<b>表</b>与表示<b>文件夹</b>中的所有项的行。如果<paramref name="Filter" />是空字符串或<paramref name="Filter" />省略参数和<paramref name="TableContents" />为<b>olHiddenItems</b>，与表示的<b>文件夹</b>中的所有隐藏的数据项的行的<b>GetTable</b>返回一个<b>表</b>。</para>
+        <remarks><para>如果<paramref name="Filter" />是空字符串或<paramref name="Filter" />省略参数、 <b>GetTable</b>返回<b>表</b>与表示<b>文件夹</b>中的所有项的行。 如果<paramref name="Filter" />是空字符串或<paramref name="Filter" />省略参数和<paramref name="TableContents" />为<b>olHiddenItems</b>，与表示的<b>文件夹</b>中的所有隐藏的数据项的行的<b>GetTable</b>返回一个<b>表</b>。</para>
           <para>筛选器的详细信息，请参阅筛选项目和通过 Namespace 引用属性。</para>
           <para>
-            <b>GetTable</b>与为<b>文件夹</b>对象的父文件夹类型的默认列返回<b>表</b>。若要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合对象。 当<paramref name="TableContents" />是<b>olHiddenItems</b>，默认列集始终是默认列设置的邮件文件夹，即使父<b>Folder</b>可能是，例如，联系人文件夹。 在默认列集的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87925">Table 对象中显示的默认属性</a></para>
+            <b>GetTable</b> 与为父 <b>文件夹</b> 的文件夹类型设置的默认列返回 <b>表</b> 。 若要修改默认列集，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />， <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />，或<see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />方法<see cref="T:Microsoft.Office.Interop.Outlook.Columns" />集合对象。  当<paramref name="TableContents" />是<b>olHiddenItems</b>，默认列集始终是默认列设置的邮件文件夹，即使父<b>Folder</b>可能是，例如，联系人文件夹。  在默认列集的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87925">Table 对象中显示的默认属性</a></para>
           <para>您可以使用<see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />后续筛选器应用于<b>表</b>所基于的<b>Folder</b>对象。</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InAppFolderSyncObject">
@@ -777,11 +759,12 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 来确定是否将与电子邮件服务器同步指定的文件夹。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 来确定是否将与电子邮件服务器同步指定的文件夹。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果<b>，则返回 True</b>，此文件夹将同步时"应用程序文件夹"<see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" />同步。如果<b>False</b>，文件夹将不同步。</para>
-          <para>这相当于在发送/接收对话框上的应用程序文件夹组中选择为此文件夹复选框。</para>如果此属性设置为<b>True</b>，并且不存在"应用程序文件夹" <b>SyncObject</b><para>，将自动创建<b>SyncObject</b> 。"应用程序文件夹" <b>SyncObject</b>是唯一可以以编程方式修改的发送/接收组。</para><para /></remarks>
+        <remarks><para>如果<b>，则返回 True</b>，此文件夹将同步时"应用程序文件夹"<see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" />同步。 如果 <b>False</b> ，该文件夹将不会同步。 </para>
+          <para>这等效于在 发送/接收 对话框上的 应用程序文件夹组中选中此文件夹的复选框。</para>
+          <para>如果此属性设置为 <b>True</b> ，则和"应用程序文件夹" <b>SyncObject</b> 尚不存在，将自动创建 <b>SyncObject</b> 。"应用程序文件夹" <b>SyncObject</b> 是唯一可以以编程方式修改的 发送/接收组。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSharePointFolder">
@@ -809,13 +792,11 @@ End Sub</code>
       <Docs>
         <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，确定文件夹是否为 Microsoft SharePoint Foundation 文件夹。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A SharePoint Foundation 文件夹是在 Outlook 中包含的实时副本所在的 SharePoint Foundation 网站的事件列表或联系人列表的自定义文件夹。联系人列表映射到 Outlook 中的联系人文件夹，事件列表映射到日历文件夹。</para>
-          <para>SharePoint Foundation 文件夹时自动创建在导航窗格中的 SharePoint 文件夹节点下的联系人列表或事件列表从 SharePoint Foundation 网站导出。</para>
-          <para>尽管 SharePoint Foundation 文件夹工作其他文件夹方式相同，有一些例外。SharePoint Foundation 文件夹是只读的和任何尝试编辑文件夹属性或添加、 编辑或删除现有项目将失败。</para>
-          <para>A 文件夹中用户的 Microsoft Exchange server 文件夹将从不是 SharePoint Foundation 文件夹、 和用户的默认个人文件夹文件 (.pst) 中的任何文件夹以往任何时候都将 SharePoint Foundation 文件夹。通常在导航窗格中的 SharePoint 文件夹节点下将 SharePoint Foundation 文件夹。</para>
-          <para />
-        </remarks>
+        <remarks><para>SharePoint Foundation 文件夹是 Outlook 中的自定义文件夹，它包含 SharePoint Foundation 网站上的联系人列表或事件列表的实时副本。联系人列表会映射到 Outlook 的"联系人"文件夹，事件列表会映射到"日历"文件夹。 </para>
+          <para>从 SharePoint Foundation 网站导出联系人列表或事件列表时，将在导航窗格中 "SharePoint 文件夹"节点下自动创建 SharePoint Foundation 文件夹。</para>
+          <para>虽然 SharePoint Foundation 文件夹的工作方式与其他文件夹相同，但是也有一些不同。SharePoint Foundation 文件夹是只读的，不能编辑文件夹属性，也不能添加、编辑或删除现有项目。 </para>
+          <para>用户的 Microsoft Exchange server 文件夹中的文件夹将从不是 SharePoint Foundation 文件夹、 和用户的默认个人文件夹文件 (.pst) 中的任何文件夹以往任何时候都将 SharePoint Foundation 文件夹。 通常，SharePoint Foundation 文件夹位于导航窗格中的 "SharePoint 文件夹"节点下。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Items">
@@ -843,11 +824,8 @@ End Sub</code>
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Items" />集合对象作为指定文件夹中的 Outlook 项目的集合。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Items</b>集合的索引从 1 开始， <b>Items</b>集合对象中的项目并非一定要以某种特定顺序排列。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>Items</b>集合的索引从 1 开始， <b>Items</b>集合对象中的项目不能保证在任何特定的顺序。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -906,10 +884,8 @@ End Sub</code>
       <Docs>
         <param name="DestinationFolder">正在移动 <b>文件夹</b> 的目标 <b>文件夹</b> 。</param>
         <summary>将文件夹移至指定的目标文件夹中。</summary>
-        <remarks>
-          <para>设置 REG_MULTI_SZ 值，DisableCrossAccountCopy，在 Windows 注册表中的 HKCU\Software\Microsoft\Office\14.0\Outlook 具有副作用禁用此方法。</para>
-          <para />
-        </remarks>
+        <remarks><para>设置 REG_MULTI_SZ 值，DisableCrossAccountCopy，在 Windows 注册表中的 HKCU\Software\Microsoft\Office\14.0\Outlook 具有副作用禁用此方法。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -938,7 +914,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 为可读/写属性。</summary>
+        <summary>返回或设置一个值，该值代表对象的显示名称的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -968,10 +944,8 @@ End Sub</code>
       <Docs>
         <summary>返回指定对象的 <b>对象</b> 的父级。只读的。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合对象。</para>
-          <para />
-        </remarks>
+        <remarks><para>父对象的<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象是<see cref="T:Microsoft.Office.Interop.Outlook.Folders" />集合对象。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -1027,17 +1001,14 @@ End Sub</code>
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。这两个成员的作用相同。例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetCustomIcon">
@@ -1065,32 +1036,29 @@ End Sub</code>
       <Docs>
         <param name="Picture">为文件夹指定自定义图标。</param>
         <summary>设置自定义图标由指定的<paramref name="Picture" />的文件夹。</summary>
-        <remarks>
-          <para>
-            <see cref="T:stdole.StdPicture" />指定对象<paramref name="Picture" />必须具有其<b>Type</b>属性等于<b>PICTYPE_ICON</b>或<b>PICTYPE_BITMAP</b>。图标或位图资源可以有 32 x 32 的最大大小。此外支持 16 x 16 或 24 x 24 的图标，和 Microsoft Outlook 可以向上的 16 x 16 的图标，如果 Outlook 运行在高每英寸点数 (DPI) 模式。其他大小的图标会导致<b>SetCustomIcon</b>返回错误。</para>
-          <para>您可以设置自定义图标的搜索文件夹和为并不表示默认的所有文件夹或特殊文件夹。如果尝试为属于以下组的文件夹中的某个文件夹中设置自定义图标， <b>SetCustomIcon</b>将返回错误：</para>
+        <remarks><para><see cref="T:stdole.StdPicture" />指定对象<paramref name="Picture" />必须具有其<b>Type</b>属性等于<b>PICTYPE_ICON</b>或<b>PICTYPE_BITMAP</b>。 图标或位图资源可以具有的最大大小为 32 x 32。 图标 16x16 或 24x24 也支持，和Microsoft Outlook可以扩大 16 x 16 图标，如果在高点每英寸 (DPI) 模式下运行 Outlook。 其他大小的图标会导致 <b>SetCustomIcon</b> 返回一个错误。</para>
+          <para>搜索文件夹和特殊文件夹或所有文件夹，不表示默认情况下，您可以设置自定义图标。 如果您尝试为属于下列组的文件夹的某个文件夹设置自定义图标，则 <b>SetCustomIcon</b> 将返回一个错误:</para>
           <list type="bullet">
             <item>
-              <para>默认文件夹 (如按列出<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />枚举)</para>
+              <para>默认文件夹 (如<see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" />枚举)</para>
             </item>
             <item>
-              <para>特殊文件夹 （如按列出<see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" />枚举)</para>
+              <para>特殊文件夹 (如<see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" />枚举)</para>
             </item>
             <item>
-              <para>Exchange 公用文件夹</para>
+              <para>Exchange 公共文件夹</para>
             </item>
             <item>
-              <para>的任何 Exchange 邮箱的根文件夹</para>
+              <para>Exchange 邮箱的根文件夹</para>
             </item>
             <item>
               <para>隐藏文件夹</para>
             </item>
           </list>
-          <para>您可以仅<b>GetCustomIcon</b>从代码中调用的运行进程内为 Outlook。<b>StdPicture</b>对象不能被封送跨进程边界。如果您尝试从出进程代码调用<b>GetCustomIcon</b> ，会发生异常。有关详细信息，请参阅<a href="http://support.microsoft.com/kb/150034">自动化服务器不能将图片对象的 IPictureDisp 实现跨进程边界指针传递</a></para>
-          <para>自定义文件夹图标，此方法提供不会超出正在运行Outlook 会话。外接程序因此必须设置自定义文件夹图标，每次启动 Outlook。</para>
-          <para>自定义文件夹图标不显示在其他 Exchange 客户端，如 Outlook Web Access，也不会出现在 Outlook 中的 Windows 移动设备上运行。</para>
-          <para />
-        </remarks>
+          <para>您只能从代码，运行在进程内为 Outlook 调用 <b>GetCustomIcon</b> 。 <b>StdPicture</b>对象不能跨进程边界封送。 如果您尝试从进程外的代码中调用 <b>GetCustomIcon</b> 时，会发生异常。 有关详细信息，请参阅<a href="http://support.microsoft.com/kb/150034">自动化服务器无法传递到图片对象的 IPictureDisp 实现跨进程边界的指针</a></para>
+          <para>此方法提供的自定义文件夹图标不会在运行中 Outlook 会话外持久保留。因此，加载项必须在每次 Outlook 启动时设置自定义文件夹图标。</para>
+          <para>自定义文件夹图标不会出现在其他 Exchange 客户端中（如 Outlook Web Access），也不会出现在 Windows Mobile 设备上运行的 Outlook 中。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowAsOutlookAB">
@@ -1119,14 +1087,12 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，指定是否将作为 Outlook 通讯簿中的地址列表显示联系人项目文件夹。 为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，指定是否将作为 Outlook 通讯簿中的地址列表显示联系人项目文件夹。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>如果将联系人项目文件夹的<b>ShowAsOutlookAB</b>属性设置为<b>False</b>时，它将不可用通讯簿对话框中的通讯簿下的下拉列表中。</para>
+        <remarks><para>联系人的邮件文件夹中的 <b>ShowAsOutlookAB</b> 属性设置为 <b>False</b> 时，如果它不会在 通讯簿对话框中的 通讯簿下的下拉列表中可用。</para>
           <para>
-            <b>ShowAsOutlookAB</b>不支持文件夹上另一个 Exchange 用户的邮箱，例如，由其他用户共享一个联系人文件夹。获取或设置此属性在此类文件夹将不会产生任何所需的结果。</para>
-          <para />
-        </remarks>
+            <b>ShowAsOutlookAB</b> 不支持对另一个 Exchange 用户的邮箱，例如，由另一个用户共享的联系人文件夹的文件夹。 获取或设置此属性在此类文件夹将不会产生任何所需的结果。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowItemCount">
@@ -1155,13 +1121,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlShowItemCount</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>设置或返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlShowItemCount" />枚举，指示是否显示在导航窗格中的文件夹中的项目总数或文件夹中的未读邮件数。 为可读/写属性。</summary>
+        <summary>设置或返回中的一个常量<see cref="T:Microsoft.Office.Interop.Outlook.OlShowItemCount" />枚举，指示是否显示在导航窗格中的文件夹中的项目总数或文件夹中的未读邮件数。 读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ShowItemCount</b>属性不适用于公用文件夹。</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ShowItemCount</b> 属性不适用于公用文件夹。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Store">
@@ -1189,10 +1152,8 @@ End Sub</code>
       <Docs>
         <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，表示包含的存储区<see cref="T:Microsoft.Office.Interop.Outlook.Folder" />对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>此属性在<b>文件夹</b>的共享的文件夹的位置的情况下返回除一个<b>Store</b>对象 (返回<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />)。在这种情况下，用户有代理到另一个用户; 默认文件夹的访问权限调用<b>Folder.Store</b>将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
-          <para />
-        </remarks>
+        <remarks><para>此属性在<b>文件夹</b>的共享的文件夹的位置的情况下返回除一个<b>Store</b>对象 (返回<see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />)。 在这种情况下，用户有代理到另一个用户; 默认文件夹的访问权限调用<b>Folder.Store</b>将返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreID">
@@ -1401,15 +1362,13 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的文件夹的 Web 视图状态。  为可读/写属性。</summary>
+        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的文件夹的 Web 视图状态。  读/写。</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>返回<b>True</b>以显示指定的 Web 页<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" />属性。</para>
-          <para>Microsoft Outlook 使用呈现引擎版本安装在客户端计算机上的 Windows Internet Explorer 的显示网页。如果客户端计算机上未安装 Internet Explorer，Outlook 将不显示 web 页。</para>
-          <para>如果<b>WebViewURL</b>属性的值为空，该属性始终为<b>False</b> 。</para>
-          <para>此外，在设置<b>WebViewURL</b>属性之前将<b>WebViewOn</b>属性设置为<b>True</b>不会显示在<b>WebViewURL</b>属性中指定的主页。</para>
-          <para />
-        </remarks>
+        <remarks><para>返回<b>True</b>以显示指定的 Web 页<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" />属性。</para>
+          <para>Microsoft Outlook 使用版本 Windows 的客户端计算机上安装的 Internet Explorer 的呈现引擎来显示 web 页。如果在客户端计算机上未安装 Internet Explorer，Outlook 将不会显示该 web 页。</para>
+          <para>此属性始终为 <b>False</b> 的 <b>WebViewURL</b> 属性的值是否为空。</para>
+          <para>此外，设置 <b>WebViewOn</b> 属性设置为 <b>True</b> 将 <b>WebViewURL</b> 属性设置之前不会显示在 <b>WebViewURL</b> 属性中指定的主页。</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WebViewURL">
@@ -1438,7 +1397,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示分配给某个文件夹的网页的 URL。 可读/写。</summary>
+        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示分配给某个文件夹的网页的 URL。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
