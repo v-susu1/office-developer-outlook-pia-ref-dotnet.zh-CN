@@ -1,5 +1,5 @@
 <Type Name="_OlkListBox" FullName="Microsoft.Office.Interop.Outlook._OlkListBox">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902759" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkListBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dd4cabcd74beddff828cef036c5ec61d24db9ffb" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139626" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkListBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkListBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkListBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkListBox" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary><span data-ttu-id="933cc-101">这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。</span><span class="sxs-lookup"><span data-stu-id="933cc-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="933cc-102">仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="933cc-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="933cc-103">否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。</span><span class="sxs-lookup"><span data-stu-id="933cc-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="933cc-104">有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkListBox" />。</span><span class="sxs-lookup"><span data-stu-id="933cc-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkListBox" />.</span></span></summary>
+    <summary><span data-ttu-id="8b1ac-101">这是 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）中的主接口。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="8b1ac-102">仅当您想要使用的方法与 COM 对象的事件共享同一名称时才使用此主接口；在这种情况下，转换为此接口以调用该方法，转换为最新的事件接口以连接到该事件。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="8b1ac-103">否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="8b1ac-104">有关 COM 对象的信息，请参阅 <see cref="T:Microsoft.Office.Interop.Outlook.OlkListBox" /> 。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkListBox" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,10 +45,10 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ItemText"><span data-ttu-id="933cc-105">要添加到列表框控件的列表中的值。</span><span class="sxs-lookup"><span data-stu-id="933cc-105">Value to be added to the list in the list box control.</span></span></param>
-        <param name="Index"><span data-ttu-id="933cc-106">从 0 开始计数的值，指定新项目在列表中的顺序。</span><span class="sxs-lookup"><span data-stu-id="933cc-106">A 0-based value that specifies the order of the new item in the list.</span></span></param>
-        <summary><span data-ttu-id="933cc-107">向列表中添加项目，另外为显示在列表中的新项目指定索引。</span><span class="sxs-lookup"><span data-stu-id="933cc-107">Adds an item to the list, optionally specifying an index for the new item to appear in the list.</span></span></summary>
-        <remarks><para><span data-ttu-id="933cc-108">如果值<paramref name="Index" />等于或大于数的列表中的元素，新项目将添加到列表末尾。</span><span class="sxs-lookup"><span data-stu-id="933cc-108">If the value of  <paramref name="Index" /> is equal to or larger than the number of elements in the list, the new item will  be added to the end of the list.</span></span></para>
+        <param name="ItemText"><span data-ttu-id="8b1ac-105">要添加到列表框控件的列表中的值。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-105">Value to be added to the list in the list box control.</span></span></param>
+        <param name="Index"><span data-ttu-id="8b1ac-106">从 0 开始计数的值，指定新项目在列表中的顺序。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-106">A 0-based value that specifies the order of the new item in the list.</span></span></param>
+        <summary><span data-ttu-id="8b1ac-107">向列表中添加项目，另外为显示在列表中的新项目指定索引。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-107">Adds an item to the list, optionally specifying an index for the new item to appear in the list.</span></span></summary>
+        <remarks><para><span data-ttu-id="8b1ac-108">如果 的值等于或大于列表中的元素数，则新项将添加到  <paramref name="Index" /> 列表的末尾。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-108">If the value of  <paramref name="Index" /> is equal to or larger than the number of elements in the list, the new item will  be added to the end of the list.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -81,9 +81,9 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-109">返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的背景色。</span><span class="sxs-lookup"><span data-stu-id="933cc-109">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span></span> <span data-ttu-id="933cc-110">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-110">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-109">返回或设置 <b>UInteger</b> (<b>uint</b> C#) 值，该值指示控件的背景色。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-109">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span></span> <span data-ttu-id="8b1ac-110">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-110">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-111">此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。</span><span class="sxs-lookup"><span data-stu-id="933cc-111">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="933cc-112">此属性的默认值是 0x80000005，"窗口。</span><span class="sxs-lookup"><span data-stu-id="933cc-112">The default value for this property is 0x80000005, "Window."</span></span> </para>
+        <remarks><para><span data-ttu-id="8b1ac-111">此属性的类型为<b>uInteger</b> <b>OLE_COLOR值</b>中的 uint (<b>uint</b> C#) 类型。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-111">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="8b1ac-112">此属性的默认值是 0x80000005，"窗口。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-112">The default value for this property is 0x80000005, "Window."</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -113,9 +113,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-113">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" />定义的控件周围的边框样式的常量。</span><span class="sxs-lookup"><span data-stu-id="933cc-113">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constant that defines the style of the  border  around the control.</span></span>   <span data-ttu-id="933cc-114">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-114">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-113">返回或设置 <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> 一个常量，该常量定义控件边框的样式。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-113">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constant that defines the style of the  border  around the control.</span></span>   <span data-ttu-id="8b1ac-114">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-114">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-115">默认值是 <b>olBorderStyleSingle</b> 。</span><span class="sxs-lookup"><span data-stu-id="933cc-115">The default value is <b>olBorderStyleSingle</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-115">默认值是 <b>olBorderStyleSingle</b> 。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-115">The default value is <b>olBorderStyleSingle</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -140,7 +140,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="933cc-116">从列表中删除所有对象。</span><span class="sxs-lookup"><span data-stu-id="933cc-116">Removes all objects from the list.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-116">从列表中删除所有对象。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-116">Removes all objects from the list.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -165,7 +165,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="933cc-117">将下拉列表中的当前选择内容复制到剪贴板。</span><span class="sxs-lookup"><span data-stu-id="933cc-117">Copies the current selection in the drop-down list to the clipboard.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-117">将下拉列表中的当前选择内容复制到剪贴板。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-117">Copies the current selection in the drop-down list to the clipboard.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -195,9 +195,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-118">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。</span><span class="sxs-lookup"><span data-stu-id="933cc-118">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="933cc-119">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-119">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-118">返回或设置一 <b>个 boolean</b> (<b>bool</b> C#) 指示是否允许控件运行。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-118">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="8b1ac-119">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-119">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-120">默认值为 <b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="933cc-120">The default value is <b>True</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-120">默认值为 <b>True</b>。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-120">The default value is <b>True</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -224,7 +224,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-121">返回一个<b>StdFont</b>值，该值代表用于呈现控件内的文本的字体。</span><span class="sxs-lookup"><span data-stu-id="933cc-121">Returns an <b>StdFont</b> that represents the font used to render the text inside the control.</span></span>  <span data-ttu-id="933cc-122">只读。</span><span class="sxs-lookup"><span data-stu-id="933cc-122">Read-only.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-121">返回一 <b>个 StdFont，</b> 它代表用于在控件内呈现文本的字体。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-121">Returns an <b>StdFont</b> that represents the font used to render the text inside the control.</span></span>  <span data-ttu-id="8b1ac-122">只读。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-122">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -258,9 +258,9 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-123">返回或设置一个<b>UInteger</b> (C# 中<b>uint</b> ) 值，指示该控件的前景色。</span><span class="sxs-lookup"><span data-stu-id="933cc-123">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span></span> <span data-ttu-id="933cc-124">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-124">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-123">返回或设置 <b>一个 uInteger</b> (<b>uint</b> C#) 值，该值指示控件的前景色。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-123">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span></span> <span data-ttu-id="8b1ac-124">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-124">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-125">此属性为<b>OLE_COLOR</b>是<b>UInteger</b> (C# 中<b>uint</b> ) 值的类型。</span><span class="sxs-lookup"><span data-stu-id="933cc-125">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="933cc-126">此属性的默认值是 0x80000008，"窗口型"。</span><span class="sxs-lookup"><span data-stu-id="933cc-126">The default value for this property is 0x80000008, "Window Text."</span></span>  </para>
+        <remarks><para><span data-ttu-id="8b1ac-125">此属性的类型为<b>uInteger</b> <b>OLE_COLOR值</b>中的 uint (<b>uint</b> C#) 类型。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-125">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="8b1ac-126">此属性的默认值是 0x80000008，"窗口型"。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-126">The default value for this property is 0x80000008, "Window Text."</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -287,10 +287,10 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="933cc-127">从零开始计数的值，指定项目在列表中的位置。</span><span class="sxs-lookup"><span data-stu-id="933cc-127">A zero-based value that specifies the location of an item in the list.</span></span></param>
-        <summary><span data-ttu-id="933cc-128">获取一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表列表中的指定位置处的项目。</span><span class="sxs-lookup"><span data-stu-id="933cc-128">Obtains a <b>String</b> (<b>string</b> in C#)  that represents an item at the specified location in the list.</span></span></summary>
-        <returns><span data-ttu-id="933cc-129">一个<b>字符串</b>（C# 中的<b>字符串</b>） 值，该值代表列表中的指定位置处的项目。</span><span class="sxs-lookup"><span data-stu-id="933cc-129">A <b>String</b> (<b>string</b> in C#)  value that represents the item at the specified location in the list.</span></span></returns>
-        <remarks><para><span data-ttu-id="933cc-130">如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</span><span class="sxs-lookup"><span data-stu-id="933cc-130">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds  error will be returned.</span></span></para>
+        <param name="Index"><span data-ttu-id="8b1ac-127">从零开始计数的值，指定项目在列表中的位置。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-127">A zero-based value that specifies the location of an item in the list.</span></span></param>
+        <summary><span data-ttu-id="8b1ac-128">获取一<b> (</b><b>字符串</b>C#) ，该字符串表示列表中指定位置的项。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-128">Obtains a <b>String</b> (<b>string</b> in C#)  that represents an item at the specified location in the list.</span></span></summary>
+        <returns><span data-ttu-id="8b1ac-129">字符串<b> (</b><b>字符串</b>C#) 值，表示列表中指定位置处的项目。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-129">A <b>String</b> (<b>string</b> in C#)  value that represents the item at the specified location in the list.</span></span></returns>
+        <remarks><para><span data-ttu-id="8b1ac-130">如果 <paramref name="Index" /> 超出允许值的范围， (介于 0 和 -1) ，则返回一个超出边界 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" /> 错误。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-130">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds  error will be returned.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -317,10 +317,10 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="933cc-131">从零开始计数的值，指定项目在列表中的位置。</span><span class="sxs-lookup"><span data-stu-id="933cc-131">A zero-based value that specifies the location of an item in the list.</span></span></param>
-        <summary><span data-ttu-id="933cc-132">返回<b>Boolean</b> (C# 中<b>bool</b> )，该值指示是否当前所选索引的项。</span><span class="sxs-lookup"><span data-stu-id="933cc-132">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the indexed item is currently selected.</span></span></summary>
-        <returns><span data-ttu-id="933cc-133">一个布尔值 (C# 中<b>bool</b> )，为<b>True</b> ，如果指定的项目当前选中， <b>False</b>否则。</span><span class="sxs-lookup"><span data-stu-id="933cc-133">A Boolean value (<b>bool</b> in C#) that is <b>True</b> if the specified item is currently selected, <b>False</b> otherwise.</span></span></returns>
-        <remarks><para><span data-ttu-id="933cc-134">如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</span><span class="sxs-lookup"><span data-stu-id="933cc-134">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
+        <param name="Index"><span data-ttu-id="8b1ac-131">从零开始计数的值，指定项目在列表中的位置。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-131">A zero-based value that specifies the location of an item in the list.</span></span></param>
+        <summary><span data-ttu-id="8b1ac-132">返回一 <b>个 boolean</b> (<b>bool</b> C#) 指示当前是否选择了索引项。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-132">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the indexed item is currently selected.</span></span></summary>
+        <returns><span data-ttu-id="8b1ac-133">Boolean 值 (<b>bool</b> C#) ，如果指定项目当前处于选中状态，则值为<b>True;</b>否则为<b>False。</b></span><span class="sxs-lookup"><span data-stu-id="8b1ac-133">A Boolean value (<b>bool</b> in C#) that is <b>True</b> if the specified item is currently selected, <b>False</b> otherwise.</span></span></returns>
+        <remarks><para><span data-ttu-id="8b1ac-134">如果 <paramref name="Index" /> 超出允许值的范围， (介于 0 和 -1) ，则返回一个超出边界 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" /> 错误。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-134">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -347,9 +347,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-135">返回一个列表框控件的下拉列表中指定的元素数的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="933cc-135">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of elements in the drop-down list of the list box control.</span></span> <span data-ttu-id="933cc-136">只读。</span><span class="sxs-lookup"><span data-stu-id="933cc-136">Read-only.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-135">返回一<b> (</b><b>整数</b>C#) 整数值，该值指定列表框控件的下拉列表中的元素数。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-135">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of elements in the drop-down list of the list box control.</span></span> <span data-ttu-id="8b1ac-136">只读。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-136">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-137">默认值为零，表示列表中没有项目。</span><span class="sxs-lookup"><span data-stu-id="933cc-137">The default value is zero, indicating that there are no items in the list.</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-137">默认值为零，表示列表中没有项目。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-137">The default value is zero, indicating that there are no items in the list.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -379,11 +379,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-138">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指示当前所选元素的组合框列表中的位置控件。</span><span class="sxs-lookup"><span data-stu-id="933cc-138">Reurns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the location of the currently selected element in the list of the combo box control.</span></span> <span data-ttu-id="933cc-139">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-139">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-138">返回或<b>设置一 (</b>整数C#) 整数<b></b>值，该值指示当前所选元素在组合框控件列表中的位置。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-138">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the location of the currently selected element in the list of the combo box control.</span></span> <span data-ttu-id="8b1ac-139">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-139">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-140">
-            <b>ListIndex</b> 是值列表中的项的数组的索引从零开始。</span><span class="sxs-lookup"><span data-stu-id="933cc-140">
-            <b>ListIndex</b> is a zero-based value indexing into the array of items in the list.</span></span>  <span data-ttu-id="933cc-141">默认值为-1，表示未选择任何项。</span><span class="sxs-lookup"><span data-stu-id="933cc-141">The default value is -1, indicating that no item is selected.</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-140">
+            <b>ListIndex</b> 是值列表中的项的数组的索引从零开始。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-140">
+            <b>ListIndex</b> is a zero-based value indexing into the array of items in the list.</span></span>  <span data-ttu-id="8b1ac-141">默认值为-1，表示未选择任何项。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-141">The default value is -1, indicating that no item is selected.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -413,10 +413,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-142">返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件处于锁定状态而被更改。</span><span class="sxs-lookup"><span data-stu-id="933cc-142">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span></span>  <span data-ttu-id="933cc-143">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-143">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-142">返回或设置一 <b>个 boolean</b> (<b>bool</b> C#) ，用于指定控件是否被锁定，不能更改。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-142">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span></span>  <span data-ttu-id="8b1ac-143">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-143">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-144">默认值为 <b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="933cc-144">The default value is <b>False</b>.</span></span></para>
-          <para><span data-ttu-id="933cc-p114">当控件处于锁定状态时，该控件不具有“禁用”外观，但是用户不能编辑控件中的内容。</span><span class="sxs-lookup"><span data-stu-id="933cc-p114">When the control is locked, the control does not have  a "disabled" appearance, but the user cannot edit the contents of the control.  </span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-144">默认值为 <b>False</b>。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-144">The default value is <b>False</b>.</span></span></para>
+          <para><span data-ttu-id="8b1ac-p114">当控件处于锁定状态时，该控件不具有“禁用”外观，但是用户不能编辑控件中的内容。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-p114">When the control is locked, the control does not have  a "disabled" appearance, but the user cannot edit the contents of the control.  </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -446,9 +446,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMatchEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-146">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" />常量，指示如何控制在用户键入时搜索其列表。</span><span class="sxs-lookup"><span data-stu-id="933cc-146">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" /> constant that  indicates how the control searches its list as the user types.</span></span> <span data-ttu-id="933cc-147">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-147">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-146">返回或设置一个常量，该常量指示当用户类型时控件 <see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" /> 如何搜索其列表。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-146">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" /> constant that  indicates how the control searches its list as the user types.</span></span> <span data-ttu-id="8b1ac-147">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-147">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-148">默认值是 <b>olMatchEntryComplete</b> 。</span><span class="sxs-lookup"><span data-stu-id="933cc-148">The default value is <b>olMatchEntryComplete</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-148">默认值是 <b>olMatchEntryComplete</b> 。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-148">The default value is <b>olMatchEntryComplete</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -478,9 +478,9 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-149">返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。</span><span class="sxs-lookup"><span data-stu-id="933cc-149">Returns or sets a <b>StdPicture</b> that represents the custom picture to the mouse cursor for this control.</span></span> <span data-ttu-id="933cc-150">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-150">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-149">返回或设置 <b>一个 StdPicture，</b> 代表此控件的鼠标光标的自定义图片。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-149">Returns or sets a <b>StdPicture</b> that represents the custom picture to the mouse cursor for this control.</span></span> <span data-ttu-id="8b1ac-150">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-150">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-151">默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="933cc-151">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-151">默认值为<b>Nothing</b> (空引用 (Nothing Visual Basic) in C#) 。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-151">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -510,9 +510,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-152">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。</span><span class="sxs-lookup"><span data-stu-id="933cc-152">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="933cc-153">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-153">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-152">返回或设置一个常量，该常量指定当用户将鼠标放在控件上时 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 显示的指针类型。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-152">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="8b1ac-153">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-153">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-154">默认值是 <b>olMousePointerDefault</b> 。</span><span class="sxs-lookup"><span data-stu-id="933cc-154">The default value is <b>olMousePointerDefault</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-154">默认值是 <b>olMousePointerDefault</b> 。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-154">The default value is <b>olMousePointerDefault</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -542,7 +542,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiSelect</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-155">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" />常量，指定范围中的可选择列表框控件中的项。</span><span class="sxs-lookup"><span data-stu-id="933cc-155">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" /> constant that  specifies the range of items that can be selected in the list box control.</span></span> <span data-ttu-id="933cc-156">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-156">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-155">返回或设置 <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" /> 一个常量，该常量指定可在列表框控件中选定的项目范围。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-155">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" /> constant that  specifies the range of items that can be selected in the list box control.</span></span> <span data-ttu-id="8b1ac-156">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-156">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -570,9 +570,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="933cc-157">编入列表中项目数组的索引的值，从零开始计数。</span><span class="sxs-lookup"><span data-stu-id="933cc-157">A zero-based value indexing into the array of items in the list.</span></span></param>
-        <summary><span data-ttu-id="933cc-158">从列表中删除指定的项目。</span><span class="sxs-lookup"><span data-stu-id="933cc-158">Removes the specified item from the list.</span></span></summary>
-        <remarks><para><span data-ttu-id="933cc-159">如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</span><span class="sxs-lookup"><span data-stu-id="933cc-159">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
+        <param name="Index"><span data-ttu-id="8b1ac-157">编入列表中项目数组的索引的值，从零开始计数。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-157">A zero-based value indexing into the array of items in the list.</span></span></param>
+        <summary><span data-ttu-id="8b1ac-158">从列表中删除指定的项目。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-158">Removes the specified item from the list.</span></span></summary>
+        <remarks><para><span data-ttu-id="8b1ac-159">如果 <paramref name="Index" /> 超出允许值的范围， (介于 0 和 -1) ，则返回一个超出边界 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" /> 错误。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-159">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -600,10 +600,10 @@
         <Parameter Name="Item" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="933cc-160">从零开始计数的值，指定项目在列表中的位置。</span><span class="sxs-lookup"><span data-stu-id="933cc-160">A zero-based value that specifies the location of an item in the list.</span></span></param>
-        <param name="Item"><span data-ttu-id="933cc-161">要用于更新列表中指定位置的值。</span><span class="sxs-lookup"><span data-stu-id="933cc-161">The value to be used to update the list at the specified location.</span></span></param>
-        <summary><span data-ttu-id="933cc-162">将列表中指定位置处的项目设置为指定的值。</span><span class="sxs-lookup"><span data-stu-id="933cc-162">Sets the item at the specified location in the list to the specified value.</span></span></summary>
-        <remarks><para><span data-ttu-id="933cc-163">如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</span><span class="sxs-lookup"><span data-stu-id="933cc-163">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
+        <param name="Index"><span data-ttu-id="8b1ac-160">从零开始计数的值，指定项目在列表中的位置。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-160">A zero-based value that specifies the location of an item in the list.</span></span></param>
+        <param name="Item"><span data-ttu-id="8b1ac-161">要用于更新列表中指定位置的值。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-161">The value to be used to update the list at the specified location.</span></span></param>
+        <summary><span data-ttu-id="8b1ac-162">将列表中指定位置处的项目设置为指定的值。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-162">Sets the item at the specified location in the list to the specified value.</span></span></summary>
+        <remarks><para><span data-ttu-id="8b1ac-163">如果 <paramref name="Index" /> 超出允许值的范围， (介于 0 和 -1) ，则返回一个超出边界 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" /> 错误。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-163">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -631,10 +631,10 @@
         <Parameter Name="Selected" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="933cc-164">从零开始计数的值，指定项目在列表中的位置。</span><span class="sxs-lookup"><span data-stu-id="933cc-164">A zero-based value that specifies the location of an item in the list.</span></span></param>
-        <param name="Selected"><span data-ttu-id="933cc-165"><b>True</b> 指示选中的项， <b>False</b> 以指示不应选择该项目。</span><span class="sxs-lookup"><span data-stu-id="933cc-165"><b>True</b> to indicate that the item should be selected, <b>False</b> to indicate that the item should not be selected.</span></span></param>
-        <summary><span data-ttu-id="933cc-166">将项目的选中的状态设置的列表中指定位置处给定<paramref name="Selected" />值。</span><span class="sxs-lookup"><span data-stu-id="933cc-166">Sets the selected state of an item at the specified location in the list to the given <paramref name="Selected" /> value.</span></span></summary>
-        <remarks><para><span data-ttu-id="933cc-167">如果<paramref name="Index" />超出允许的值的范围 (之间零和<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1)，则将返回越界错误。</span><span class="sxs-lookup"><span data-stu-id="933cc-167">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
+        <param name="Index"><span data-ttu-id="8b1ac-164">从零开始计数的值，指定项目在列表中的位置。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-164">A zero-based value that specifies the location of an item in the list.</span></span></param>
+        <param name="Selected"><span data-ttu-id="8b1ac-165"><b>True</b> 指示选中的项， <b>False</b> 以指示不应选择该项目。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-165"><b>True</b> to indicate that the item should be selected, <b>False</b> to indicate that the item should not be selected.</span></span></param>
+        <summary><span data-ttu-id="8b1ac-166">将列表中指定位置的项目的选定状态设置为给定 <paramref name="Selected" /> 值。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-166">Sets the selected state of an item at the specified location in the list to the given <paramref name="Selected" /> value.</span></span></summary>
+        <remarks><para><span data-ttu-id="8b1ac-167">如果 <paramref name="Index" /> 超出允许值的范围， (介于 0 和 -1) ，则返回一个超出边界 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" /> 错误。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-167">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -664,10 +664,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-168">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），为控件中显示的文本。</span><span class="sxs-lookup"><span data-stu-id="933cc-168">Returns or sets a <b>String</b> (<b>string</b> in C#) that is the text displayed in the control.</span></span> <span data-ttu-id="933cc-169">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-169">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-168">返回或<b>设置一 (</b><b>字符串</b>C#) 控件中显示的文本。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-168">Returns or sets a <b>String</b> (<b>string</b> in C#) that is the text displayed in the control.</span></span> <span data-ttu-id="8b1ac-169">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-169">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-170"><b>文本</b> 属性的默认值为空字符串。</span><span class="sxs-lookup"><span data-stu-id="933cc-170">The default value of the <b>Text</b> property is the empty string.</span></span></para>
-          <para><span data-ttu-id="933cc-171"><b>Text</b>属性与提供的值相同<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" />属性，但是该值强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</span><span class="sxs-lookup"><span data-stu-id="933cc-171">The <b>Text</b> property provides the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" /> property, but the value is strongly typed as a <b>String</b> (<b>string</b> in C#).</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-170"><b>文本</b> 属性的默认值为空字符串。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-170">The default value of the <b>Text</b> property is the empty string.</span></span></para>
+          <para><span data-ttu-id="8b1ac-171"><b>Text</b>属性提供与属性相同的值，但该值强键入为字符串 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" /> 字符串 (<b></b><b>字符串</b>C#) 。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-171">The <b>Text</b> property provides the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" /> property, but the value is strongly typed as a <b>String</b> (<b>string</b> in C#).</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -697,9 +697,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-172">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />指定文本中控件的对齐方式的常量。</span><span class="sxs-lookup"><span data-stu-id="933cc-172">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span></span>  <span data-ttu-id="933cc-173">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-173">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-172">返回或设置 <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> 一个常量，该常量指定控件中文本的对齐方式。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-172">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span></span>  <span data-ttu-id="8b1ac-173">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-173">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-174">默认值是 <b>olTextAlignLeft</b> 中与英语等从左到右语言。</span><span class="sxs-lookup"><span data-stu-id="933cc-174">The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-174">默认值是 <b>olTextAlignLeft</b> 中与英语等从左到右语言。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-174">The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -729,10 +729,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-175">返回或设置一个代表列表的显示部分顶部的项目的索引的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="933cc-175">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the index of the item at the top of the displayed portion of the list.</span></span> <span data-ttu-id="933cc-176">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-176">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-175">返回或<b>设置一 (</b>整数C#) 整数值<b></b>，该值代表列表显示部分顶部的项目的索引。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-175">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the index of the item at the top of the displayed portion of the list.</span></span> <span data-ttu-id="8b1ac-176">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-176">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-177">当列表滚动时，列表顶端的项目会更改，此属性的值也会随之更改以反映当前显示在列表顶端的项目。</span><span class="sxs-lookup"><span data-stu-id="933cc-177">As the list scrolls, the item at the top of the list will change, and the value of this property will change to reflect the item currently displayed at the top of the list.</span></span></para>
-          <para><span data-ttu-id="933cc-p125">索引值是从零开始的。默认值为 -1，表示不应用特殊的排序。</span><span class="sxs-lookup"><span data-stu-id="933cc-p125">The index value is zero-based. The default value is -1, indicating that no special ordering should be applied.</span></span></para>
+        <remarks><para><span data-ttu-id="8b1ac-177">当列表滚动时，列表顶端的项目会更改，此属性的值也会随之更改以反映当前显示在列表顶端的项目。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-177">As the list scrolls, the item at the top of the list will change, and the value of this property will change to reflect the item currently displayed at the top of the list.</span></span></para>
+          <para><span data-ttu-id="8b1ac-p125">索引值是从零开始的。默认值为 -1，表示不应用特殊的排序。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-p125">The index value is zero-based. The default value is -1, indicating that no special ordering should be applied.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -762,9 +762,9 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="933cc-180">返回或设置一个<b>对象</b>，表示由控件显示为列表中选定的内容。</span><span class="sxs-lookup"><span data-stu-id="933cc-180">Returns or sets an <b>Object</b> that represents the content selected in the list displayed by the control.</span></span> <span data-ttu-id="933cc-181">读/写。</span><span class="sxs-lookup"><span data-stu-id="933cc-181">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="8b1ac-180">返回或设置 <b>一个对象</b> ，表示控件显示的列表中选择的内容。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-180">Returns or sets an <b>Object</b> that represents the content selected in the list displayed by the control.</span></span> <span data-ttu-id="8b1ac-181">读/写。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-181">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="933cc-182">值是相同的值<see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />、 在于此属性是<b>对象</b>类型而<b>Text</b>强类型化为<b>String</b> （C# 中的<b>字符串</b>）。</span><span class="sxs-lookup"><span data-stu-id="933cc-182">The value is the same as the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />, except that this property is <b>Object</b> and <b>Text</b> is strongly typed as <b>String</b> (<b>string</b> in C#).</span></span>  </para>
+        <remarks><para><span data-ttu-id="8b1ac-182">该值与 的值相同，只是此属性为 <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" /> <b></b><b>Object，Text</b>在 C#) <b></b>中强类型为<b>String</b> (string。</span><span class="sxs-lookup"><span data-stu-id="8b1ac-182">The value is the same as the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />, except that this property is <b>Object</b> and <b>Text</b> is strongly typed as <b>String</b> (<b>string</b> in C#).</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>

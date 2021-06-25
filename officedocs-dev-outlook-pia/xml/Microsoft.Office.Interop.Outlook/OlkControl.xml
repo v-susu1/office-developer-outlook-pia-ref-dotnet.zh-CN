@@ -1,5 +1,5 @@
 <Type Name="OlkControl" FullName="Microsoft.Office.Interop.Outlook.OlkControl">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="5939b00a41bad44f31458db50a6e9149c2069729" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901884" /></Metadata><TypeSignature Language="C#" Value="public interface OlkControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b59b52e19f1e0e19966fdc0416fc5057d16159e4" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139577" /></Metadata><TypeSignature Language="C#" Value="public interface OlkControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkControl" />
@@ -18,8 +18,8 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary><span data-ttu-id="9bbd1-101">定义某些 Microsoft Outlook 控件通用的一些控件属性。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-101">Defines a set of control properties common to some Microsoft Outlook controls.</span></span></summary>
-    <remarks><para><span data-ttu-id="9bbd1-102">由 <b>OlkControl</b> 提供的成员可以应用到大多数的 Outlook 控件。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-102">The members offered by <b>OlkControl</b> can apply to most Outlook controls.</span></span>  <span data-ttu-id="9bbd1-103"><b>OlkControl</b>提供指可以方便地强制转换一个 Outlook 控件，而无需进行反射的类。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-103"><b>OlkControl</b> provides a class to which  you can conveniently cast an Outlook  control without resorting to reflection.</span></span> <span data-ttu-id="9bbd1-104">虽然 <b>OlkControl</b> 不适用于 Microsoft Forms 2.0 控件，类似属性是可用于 Forms 2.0 控件。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-104">Although <b>OlkControl</b> does not apply to Microsoft Forms 2.0 controls, similar properties are available to Forms 2.0 controls.</span></span> <span data-ttu-id="9bbd1-105">有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98： 其他控件属性可用于编程</a></span><span class="sxs-lookup"><span data-stu-id="9bbd1-105">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: Additional Control Properties Available for Programming</a></span></span></para>
+    <summary><span data-ttu-id="e9a78-101">定义某些 Microsoft Outlook 控件通用的一些控件属性。</span><span class="sxs-lookup"><span data-stu-id="e9a78-101">Defines a set of control properties common to some Microsoft Outlook controls.</span></span></summary>
+    <remarks><para><span data-ttu-id="e9a78-102">由 <b>OlkControl</b> 提供的成员可以应用到大多数的 Outlook 控件。</span><span class="sxs-lookup"><span data-stu-id="e9a78-102">The members offered by <b>OlkControl</b> can apply to most Outlook controls.</span></span>  <span data-ttu-id="e9a78-103"><b>OlkControl</b>提供了一个类，您可以方便地将控件强制转换到Outlook而无需使用反射。</span><span class="sxs-lookup"><span data-stu-id="e9a78-103"><b>OlkControl</b> provides a class to which  you can conveniently cast an Outlook  control without resorting to reflection.</span></span> <span data-ttu-id="e9a78-104">虽然 <b>OlkControl</b> 不适用于 Microsoft Forms 2.0 控件，类似属性是可用于 Forms 2.0 控件。</span><span class="sxs-lookup"><span data-stu-id="e9a78-104">Although <b>OlkControl</b> does not apply to Microsoft Forms 2.0 controls, similar properties are available to Forms 2.0 controls.</span></span> <span data-ttu-id="e9a78-105">有关详细信息，请参阅 <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98：可用于编程的其他控件属性</a></span><span class="sxs-lookup"><span data-stu-id="e9a78-105">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: Additional Control Properties Available for Programming</a></span></span></para>
       <para> </para></remarks>
   </Docs>
   <Members>
@@ -49,7 +49,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="9bbd1-106">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），表示与发生数据绑定的控件的属性。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-106">Returns or sets a <b>String</b> (<b>string</b> in C#) that represents the property on the control that the databind occurs with.</span></span> <span data-ttu-id="9bbd1-107">读/写</span><span class="sxs-lookup"><span data-stu-id="9bbd1-107">Read/write</span></span></summary>
+        <summary><span data-ttu-id="e9a78-106">返回或<b>设置一 (</b>字符串C#) ，该<b></b>字符串代表发生数据绑定的控件上的属性。</span><span class="sxs-lookup"><span data-stu-id="e9a78-106">Returns or sets a <b>String</b> (<b>string</b> in C#) that represents the property on the control that the databind occurs with.</span></span> <span data-ttu-id="e9a78-107">读/写</span><span class="sxs-lookup"><span data-stu-id="e9a78-107">Read/write</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,9 +80,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="9bbd1-108">返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，启用自动调整的相对于窗体的其余控件的布局。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-108">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that enables automatic adjustments of  the layout for the control with respect to the rest of the form.</span></span> <span data-ttu-id="9bbd1-109">读/写。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-109">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="e9a78-108">返回或设置一个 <b>boolean</b> (<b>bool</b> C#) ，该布尔值允许控件的布局根据窗体的其余部分自动调整。</span><span class="sxs-lookup"><span data-stu-id="e9a78-108">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that enables automatic adjustments of  the layout for the control with respect to the rest of the form.</span></span> <span data-ttu-id="e9a78-109">读/写。</span><span class="sxs-lookup"><span data-stu-id="e9a78-109">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="9bbd1-110">控件布局的自动调整包含将控件与其他控件垂直或水平对齐，以及按照窗体的高度和宽度调整控件的高度和宽度。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-110">Automatic adjustments of the layout of a control include vertically or horizontally aligning the control with respect to other controls, and sizing the height or the width of the control with respect to the length or the width of the form.</span></span></para>
+        <remarks><para><span data-ttu-id="e9a78-110">控件布局的自动调整包含将控件与其他控件垂直或水平对齐，以及按照窗体的高度和宽度调整控件的高度和宽度。</span><span class="sxs-lookup"><span data-stu-id="e9a78-110">Automatic adjustments of the layout of a control include vertically or horizontally aligning the control with respect to other controls, and sizing the height or the width of the control with respect to the length or the width of the form.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -112,10 +112,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="9bbd1-111">返回或设置一个<b>整数</b>(C# 中<b>int</b> ) 值，指定一个值的控件中显示方式。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-111">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies how a value is to be displayed in  the control.</span></span> <span data-ttu-id="9bbd1-112">读/写。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-112">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="e9a78-111">返回或设置<b>一</b> (整数C#) 整数值<b></b>，该值指定值在控件中的显示方式。</span><span class="sxs-lookup"><span data-stu-id="e9a78-111">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies how a value is to be displayed in  the control.</span></span> <span data-ttu-id="e9a78-112">读/写。</span><span class="sxs-lookup"><span data-stu-id="e9a78-112">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="9bbd1-113"><b>格式</b> 属性可以是在描述如何显示一个值的枚举常量。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-113">The <b>Format</b> property can be a constant in an enumeration that describes how to display a value.</span></span> <span data-ttu-id="9bbd1-114">例如，可以<b>格式</b>指定为中定义常量<b>olFormatCurrencyDecimal</b> <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" />枚举，以显示货币值<see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />控件。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-114">For example, you can specify <b>Format</b> as the constant <b>olFormatCurrencyDecimal</b> that is defined in the <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> enumeration to display a currency value in an <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> control.</span></span></para>
-          <para><span data-ttu-id="9bbd1-115"><b>Format</b>属性是特定于该控件绑定到 Outlook 对象模型中的属性。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-115">The <b>Format</b> property is specific to the property in the Outlook Object  Model that the control is bound to.</span></span> <span data-ttu-id="9bbd1-116">后者由<see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-116">The latter is indicated by <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />.</span></span> <span data-ttu-id="9bbd1-117">如果该控件未绑定到任何属性，则访问 <b>Format</b> 将返回一个错误。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-117">If the control is not bound to any property, then accessing <b>Format</b> will return an error.</span></span></para>
+        <remarks><para><span data-ttu-id="e9a78-113"><b>格式</b> 属性可以是在描述如何显示一个值的枚举常量。</span><span class="sxs-lookup"><span data-stu-id="e9a78-113">The <b>Format</b> property can be a constant in an enumeration that describes how to display a value.</span></span> <span data-ttu-id="e9a78-114">例如，可以将 <b>Format</b> 指定为在枚举中定义的常量 <b>olFormatCurrencyDecimal，</b> 以显示控件 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> 中的货币 <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> 值。</span><span class="sxs-lookup"><span data-stu-id="e9a78-114">For example, you can specify <b>Format</b> as the constant <b>olFormatCurrencyDecimal</b> that is defined in the <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> enumeration to display a currency value in an <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> control.</span></span></para>
+          <para><span data-ttu-id="e9a78-115"><b>Format</b>属性特定于控件绑定到Outlook对象模型中的属性。</span><span class="sxs-lookup"><span data-stu-id="e9a78-115">The <b>Format</b> property is specific to the property in the Outlook Object  Model that the control is bound to.</span></span> <span data-ttu-id="e9a78-116">后者由 指示 <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" /> 。</span><span class="sxs-lookup"><span data-stu-id="e9a78-116">The latter is indicated by <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />.</span></span> <span data-ttu-id="e9a78-117">如果该控件未绑定到任何属性，则访问 <b>Format</b> 将返回一个错误。</span><span class="sxs-lookup"><span data-stu-id="e9a78-117">If the control is not bound to any property, then accessing <b>Format</b> will return an error.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -145,7 +145,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlHorizontalLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="9bbd1-118">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" />指定任何对齐方式与其他选定控件的窗体上的此控件在水平方向的常量或是否控件在水平方向时自动调整更改窗体的宽度。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-118">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" /> constant that specifies any alignment in the horizontal direction of this control with other selected controls on the form, or whether the control is adjusted in the horizontal direction automatically when the form's width is changed.</span></span> <span data-ttu-id="9bbd1-119">读/写。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-119">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="e9a78-118">返回或设置一个常量，该常量指定该控件与窗体上其他选定控件的水平方向的任何对齐方式，或者当窗体的宽度改变时控件是否在水平方向自动调整 <see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" /> 。</span><span class="sxs-lookup"><span data-stu-id="e9a78-118">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" /> constant that specifies any alignment in the horizontal direction of this control with other selected controls on the form, or whether the control is adjusted in the horizontal direction automatically when the form's width is changed.</span></span> <span data-ttu-id="e9a78-119">读/写。</span><span class="sxs-lookup"><span data-stu-id="e9a78-119">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -176,7 +176,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="9bbd1-120">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该控件绑定到 Outlook 对象模型中指定的属性的名称。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-120">Returns or sets a <b>String</b> (<b>string</b> in C#) that specifies the name of the property in the Outlook object model that the control is bound to.</span></span> <span data-ttu-id="9bbd1-121">读/写。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-121">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="e9a78-120">返回或<b>设置一 (</b> String <b></b> C#) ，该字符串指定控件绑定到的 Outlook 对象模型中的属性的名称。</span><span class="sxs-lookup"><span data-stu-id="e9a78-120">Returns or sets a <b>String</b> (<b>string</b> in C#) that specifies the name of the property in the Outlook object model that the control is bound to.</span></span> <span data-ttu-id="e9a78-121">读/写。</span><span class="sxs-lookup"><span data-stu-id="e9a78-121">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -207,10 +207,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="9bbd1-122">返回或设置 (C# 中<b>int</b> ) 的<b>整数</b>值，该值指定该控件可自动调整到的最小高度。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-122">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the minimum height the control can be automatically sized down to.</span></span> <span data-ttu-id="9bbd1-123">读/写。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-123">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="e9a78-122">返回或设置<b>一</b> (整数C#) 整数值<b></b>，该值指定控件可以自动调整到的最小高度。</span><span class="sxs-lookup"><span data-stu-id="e9a78-122">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the minimum height the control can be automatically sized down to.</span></span> <span data-ttu-id="e9a78-123">读/写。</span><span class="sxs-lookup"><span data-stu-id="e9a78-123">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="9bbd1-124">
-            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />必须按<b>MinimumLength</b>生效的顺序设置为<b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-124">
+        <remarks><para><span data-ttu-id="e9a78-124">
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />必须设置为<b>True，MinimumLength</b>才能生效。 <b></b></span><span class="sxs-lookup"><span data-stu-id="e9a78-124">
             <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /> must be set to <b>True</b> in order for <b>MinimumLength</b> to become effective.</span></span></para>
           <para> </para></remarks>
       </Docs>
@@ -241,10 +241,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="9bbd1-125">返回或设置指定该控件可自动调整到最小宽度的<b>整数</b>(C# 中<b>int</b> ) 值。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-125">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the minimum width the control can be automatically sized down to.</span></span> <span data-ttu-id="9bbd1-126">读/写。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-126">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="e9a78-125">返回或设置<b>一</b> (整数C#) 整数值<b></b>，该值指定控件可以自动调整到的最小宽度。</span><span class="sxs-lookup"><span data-stu-id="e9a78-125">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the minimum width the control can be automatically sized down to.</span></span> <span data-ttu-id="e9a78-126">读/写。</span><span class="sxs-lookup"><span data-stu-id="e9a78-126">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="9bbd1-127">
-            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />必须按<b>MinimumWidth</b>生效的顺序设置为<b>True</b> 。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-127">
+        <remarks><para><span data-ttu-id="e9a78-127">
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />必须将<b>MinimumWidth 设置为 True，MinimumWidth</b>才能生效。 <b></b></span><span class="sxs-lookup"><span data-stu-id="e9a78-127">
             <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /> must be set to <b>True</b> in order for <b>MinimumWidth</b> to become effective.</span></span></para>
           <para> </para></remarks>
       </Docs>
@@ -275,9 +275,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="9bbd1-128">返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的可能值的控件的下拉列表、 分隔的列表由分号分隔。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-128">Returns or sets a <b>String</b> (<b>string</b> in C#) that represents a list of possible values for the drop-down list for the control, seperated by semicolons.</span></span> <span data-ttu-id="9bbd1-129">读/写。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-129">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="e9a78-128">返回或<b>设置一 (</b>字符串，C#) 表示<b></b>控件的下拉列表的可能值的列表，用分号分隔。</span><span class="sxs-lookup"><span data-stu-id="e9a78-128">Returns or sets a <b>String</b> (<b>string</b> in C#) that represents a list of possible values for the drop-down list for the control, separated by semicolons.</span></span> <span data-ttu-id="e9a78-129">读/写。</span><span class="sxs-lookup"><span data-stu-id="e9a78-129">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="9bbd1-130">对于不支持下拉列表的控件，此属性的值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-130">For controls that do not support a drop-down list, the value of this property is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+        <remarks><para><span data-ttu-id="e9a78-130">对于不支持下拉列表的控件，此属性的值为<b>Nothing</b> (空引用 (Nothing in Visual Basic) in C#) 。</span><span class="sxs-lookup"><span data-stu-id="e9a78-130">For controls that do not support a drop-down list, the value of this property is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -307,7 +307,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlVerticalLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="9bbd1-131">返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" />指定任何对齐方式与其他选定控件的窗体上的此控件在垂直方向的常量或是否控件在垂直方向时自动调整更改窗体的长度。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-131">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" /> constant that specifies any alignment in the vertical direction of this control with other selected controls on the form, or whether the control is adjusted in the vertical direction automatically when the form's length is changed.</span></span> <span data-ttu-id="9bbd1-132">读/写。</span><span class="sxs-lookup"><span data-stu-id="9bbd1-132">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="e9a78-131">返回或设置一个常量，该常量指定该控件与窗体上其他选定控件的垂直方向的任何对齐方式，或者当窗体长度改变时控件是否在垂直方向自动调整。 <see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" /></span><span class="sxs-lookup"><span data-stu-id="e9a78-131">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" /> constant that specifies any alignment in the vertical direction of this control with other selected controls on the form, or whether the control is adjusted in the vertical direction automatically when the form's length is changed.</span></span> <span data-ttu-id="e9a78-132">读/写。</span><span class="sxs-lookup"><span data-stu-id="e9a78-132">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
