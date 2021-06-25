@@ -1,5 +1,5 @@
 <Type Name="_AppointmentItem" FullName="Microsoft.Office.Interop.Outlook._AppointmentItem">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="e1a98d4cad5fc9572e588f667c7713563d8c671c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899955" /></Metadata><TypeSignature Language="C#" Value="public interface _AppointmentItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7b2884a5c5f2ab4368f538b8ff4fac0ead2aa935" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139493" /></Metadata><TypeSignature Language="C#" Value="public interface _AppointmentItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AppointmentItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AppointmentItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AppointmentItem" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。</summary>
+    <summary>这是 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）中的主接口。 仅当您想要使用的方法与 COM 对象的事件共享同一名称时才使用此主接口；在这种情况下，转换为此接口以调用该方法，转换为最新的事件接口以连接到该事件。 否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。 有关 COM 对象的信息，请参阅 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 。</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Actions" />代表项目的所有可用操作的集合。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  一个集合，该集合代表项目的所有可用操作。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -104,7 +104,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 一个对象，该对象Outlook父应用程序。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -132,7 +132,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />对象，表示为指定的项的所有附件。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  一个对象，该对象代表指定项目的所有附件。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -160,10 +160,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定项目是否自动冲突解决获胜。 此为只读属性。</summary>
+        <summary>返回一 <b>个 boolean</b> (<b>bool</b> C#) ，用于确定该项目是否自动冲突解决的获胜方。 只读。</summary>
         <value>To be added.</value>
         <remarks><para><b>False</b> 值不一定表示项目是自动冲突解决的落选方。该项目可能与另一个项冲突。</para>
-          <para>如果项目具有<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />的其<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Conflicts" />属性大于零，如果其<b>AutoResolvedWinner</b>属性为<b>True</b>，则自动冲突解决获胜。 另一方面，如果该项处于冲突和 <b>AutoResolvedWinner</b> 属性为 <b>False</b> ，则自动冲突解决的落选方。</para>
+          <para>如果某个项目的属性大于  <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> 零且 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Conflicts" /> <b>其 AutoResolvedWinner</b> 属性为 <b>True，</b>则该项目是自动冲突解决的获胜方。 另一方面，如果该项处于冲突和 <b>AutoResolvedWinner</b> 属性为 <b>False</b> ，则自动冲突解决的落选方。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -193,7 +193,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目相关联的帐单信息。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>字符串</b>，C#) 表示与项目关联的计费Outlook字符串。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>它是自由格式的文本字段。</para>
           <para> </para></remarks>
@@ -225,7 +225,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的纯文本正文。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>字符串</b>，C#) 代表项目正文的Outlook字符串。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBusyStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" />约会用户忙碌状态。 读/写。</summary>
+        <summary>返回或设置 <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> 一个常量，该常量指示约会的用户忙碌状态。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -287,10 +287,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示分配给 Outlook 项目的类别。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>字符串</b>C#) 表示分配给该项目的类别Outlook字符串。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>
-            <b>类别</b> 是已分配给某个 Outlook 项目的类别名称的分隔符的字符串。 此属性使用在值名称 sList，位于 Windows 注册表中的 HKEY_CURRENT_USER\Control Panel\International 下指定为多个类别值的分隔符的字符。 要将类别名称的字符串转换为数组的类别名称，请使用 Microsoft Visual Basic 函数 <b>拆分</b> 。</para>
+            <b>类别</b> 是已分配给某个 Outlook 项目的类别名称的分隔符的字符串。 此属性使用值名称 sList 中指定的字符（HKEY_CURRENT_USER\Control Panel\International注册表中的 Windows）作为多个类别值的分隔符。 要将类别名称的字符串转换为数组的类别名称，请使用 Microsoft Visual Basic 函数 <b>拆分</b> 。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -317,7 +317,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> 一个常量，该常量指示对象的类。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -401,7 +401,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目相关联的公司名称。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b>字符串C#) 表示与<b></b>项目关联的公司Outlook字符串。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>它是自由格式的文本字段。 </para>
           <para> </para></remarks>
@@ -504,7 +504,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />对象，表示正在发生冲突的任何 Outlook 项目对象的项目。  此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 一个对象，该对象代表任何项目Outlook冲突的项目。  只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -532,11 +532,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），用于唯一标识<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象的<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象属于。 此为只读属性。</summary>
+        <summary>返回一<b> (</b><b>字符串</b>C#) ，该字符串用于唯一标识该对象 <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 所属的对象。 只读。</summary>
         <value>To be added.</value>
         <remarks><para>此属性将项目与对话相关联。这些项目和对话其 <b>转换 Id</b> 属性中具有相同的值。</para>
           <para>此属性对应的 MAPI 属性 <b>PidTagConversationId</b> 。</para>
-          <para>如果在 Microsoft Outlook 版本早于 Microsoft Outlook 2010 中创建的<b>AppointmentItem</b>对象，则或 Outlook 运行在联机模式下的 Microsoft Exchange Server 的版本早于 Microsoft Exchange Server 2010，针对此属性返回相同的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationTopic" />属性。</para>
+          <para>如果在 Microsoft Outlook 2010 以前的 Microsoft Outlook 版本中创建<b>AppointmentItem</b>对象，或者 Outlook 正在 Microsoft Exchange Server 早于 Microsoft Exchange Server 2010 版本的联机模式下运行，则此属性返回与该属性相同的值。 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationTopic" /></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -563,7 +563,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的对话线程的索引。 此为只读属性。</summary>
+        <summary>返回一<b> (</b><b>字符串</b>，C#) 表示项目的对话线程的索引Outlook字符串。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -591,7 +591,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的会话线索的 Outlook 项目的主题。 此为只读属性。</summary>
+        <summary>返回一<b> (</b><b>字符串</b>，C#) 表示项目的对话线程的主题Outlook字符串。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -618,7 +618,7 @@
       <Parameters />
       <Docs>
         <summary>创建对象的另一个实例。</summary>
-        <returns>返回<see cref="T:System.Object" />，它是父约会项的副本。</returns>
+        <returns>返回 <see cref="T:System.Object" /> 一个 ，它是父约会项目的副本。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -648,12 +648,12 @@
       <Docs>
         <param name="DestinationFolder">指定的 <b>AppointmentItem</b> 对象复制到其中的文件夹。</param>
         <param name="CopyOptions">指定复制操作的用户体验。</param>
-        <summary>副本<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />指定的文件夹<paramref name="DestinationFolder" />参数，并返回复制操作在目标文件夹中创建一个对象，表示该项目。</summary>
-        <returns>返回<b>AppointmentItem</b>对象表示由于复制操作在目标文件夹中创建的对象。</returns>
-        <remarks><para>如果任何参数不指定的<paramref name="CopyOptions" />参数， <b>CopyTo</b>假设值为<b>olCreateAppointment</b>。</para>
+        <summary>将 复制到参数指定的文件夹，并返回一个对象，该对象表示复制操作在目标文件夹中 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> <paramref name="DestinationFolder" /> 创建的项目。</summary>
+        <returns>返回一 <b>个 AppointmentItem</b> 对象，该对象代表由于复制操作在目标文件夹中创建的对象。</returns>
+        <remarks><para>如果没有为参数指定参数 <paramref name="CopyOptions" /> ， <b>则 CopyTo</b> 假定值为 <b>olCreateAppointment</b>。</para>
           <para>如果目标文件夹不是一个 
             <b>AppointmentItem</b> 对象，适当的文件夹类型，或者如果用户不具有必要的权限在指定的目标文件夹中创建项目， <b>CopyTo</b> 将返回错误。</para>
-          <para>设置 REG_MULTI_SZ 值，DisableCrossAccountCopy，在 Windows 注册表中的 HKCU\Software\Microsoft\Office\14.0\Outlook 具有副作用禁用此方法。</para>
+          <para>在 Windows 注册表中的 HKCU\Software\Microsoft\Office\14.0\Outlook 中设置 REG_MULTI_SZ 值 DisableCrossAccountCopy 具有禁用此方法的副作用。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -680,7 +680,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<b>DateTime</b> ，该值指示 Outlook 项目的创建时间。 此为只读属性。</summary>
+        <summary>返回一<b>个 DateTime，</b>指示项目创建Outlook时间。 只读。</summary>
         <value>To be added.</value>
         <remarks><para>此属性对应于 <b>PidTagCreationTime</b> 的 MAPI 属性。</para>
           <para> </para></remarks>
@@ -708,7 +708,7 @@
       <Parameters />
       <Docs>
         <summary>从包含项目的文件夹中移除的项。</summary>
-        <remarks><para><b>Delete</b> 方法删除集合中的单个项。 若要删除中的所有项目<see cref="T:Microsoft.Office.Interop.Outlook.Items" />的文件夹的集合，您必须都删除开头的文件夹中的最后一项的每个项目。 例如，在文件夹的 items 集合，AllItems，如果有 n 个项目的文件夹中，启动删除 AllItems.Item(n)，递减每次您删除 AllItems.Item(1) 之前的索引处的项目。</para>
+        <remarks><para><b>Delete</b> 方法删除集合中的单个项。 若要删除文件夹集合中所有项目，必须从文件夹中的最后一个项目 <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> 开始删除每个项目。 例如，在文件夹 AllItems 的 Items 集合中，如果该文件夹中有 n 个项目，则先删除 AllItems.Item(n) 处的项目，每次索引减 1，直至删除 AllItems.Item(1) 处的项目。</para>
           <para><b>Delete</b>方法将该项目从包含它的文件夹移动到 已删除邮件文件夹。如果包含它的文件夹的 已删除邮件文件夹， <b>Delete</b>方法将永久移除的项。</para>
           <para> </para></remarks>
       </Docs>
@@ -736,8 +736,8 @@
       </Parameters>
       <Docs>
         <param name="Modal"><b>真正</b> 要使窗口模式。默认值为 <b>False</b> 。 </param>
-        <summary>显示一个新<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象的项目。</summary>
-        <remarks><para>为了向后兼容的浏览器和检查器窗口支持 <b>显示</b> 方法。 若要激活的资源管理器或检查器窗口，请使用<see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />方法。</para>
+        <summary>显示项目 <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> 的新对象。</summary>
+        <remarks><para>为了向后兼容的浏览器和检查器窗口支持 <b>显示</b> 方法。 若要激活浏览器或检查器窗口，请使用 <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> 方法。</para>
           <para>如果您尝试打开"不安全"文件系统对象 (或"freedoc"文件)，请使用Microsoft Outlook对象模型，您将收到 E_FAIL 返回代码在 C 或 c + + 编程语言中。在 Outlook 2000 和早期版本，您可以通过 <b>显示</b> 方法打开"不安全"文件系统对象。</para>
           <para> </para></remarks>
       </Docs>
@@ -765,7 +765,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个常量，属于<see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" />指示下载状态的项目的枚举。 此为只读属性。</summary>
+        <summary>返回一个指示 <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> 项目下载状态、属于枚举的常量。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -796,7 +796,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指示的持续时间 （以分钟为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。 读/写。</summary>
+        <summary>返回或设置 <b>整数</b> (<b>int</b> C#) 值，指示的 持续时间 (以分钟) 为单位 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -827,7 +827,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指示结束日期和时间的<b>DateTime</b> <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。 读/写。</summary>
+        <summary>返回或设置 <b>一个 DateTime</b> 值，指示 结束日期和时间 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -858,9 +858,9 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>日期时间</b>值，表示的结束日期和时间表示约会<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />。 读/写。</summary>
+        <summary>返回或设置 <b>一个 DateTime</b> 值，该值代表以 表示的约会的结束日期和时间 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" /> 。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>这是在约会检查器用户界面中作为 "结束时间"显示的值。</para>
+        <remarks><para>这是在约会检查器用户界面中作为 "结束时间" 显示的值。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -890,13 +890,13 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TimeZone</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" />对应于约会的结束时间的值。  读/写。</summary>
+        <summary>返回或 <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> 设置一个值，该值对应于约会的结束时间。  读/写。</summary>
         <value>To be added.</value>
         <remarks><para>时区信息用于在保存约会时将约会映射为正确的 UTC 时间，并在项目显示在日历中时映射为正确的当地时间。</para>
-          <para> 更改<b>EndTimeZone</b>将影响的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />其总是用当地时区， <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>
-          <para>根据情况，更改<b>EndTimeZone</b> ，也可能不会导致 Outlook 重新计算并更新<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndInEndTimeZone" />。 </para>
-          <para>例如，在约会检查器中，如果您的组织者的约会开始时间 1 p.m. 下午 3 的 EST 和结束时间 更改约会具有 PST <b>EndTimeZone</b>将 EST，导致从下午 1 持续的约会 东部时间点到下午 3 PST，与<b>EndInEndTimeZone</b>下午 3 的剩余。 但是，如果您不是组织者，然后更改<b>EndTimeZone</b>从 pst EST 将使 Outlook 重新计算并更新<b>EndInEndTimeZone</b>，并从下午 1 约会将上一次 为中午 12 EST 太平洋标准时间。 </para>
-          <para>另一个示例更改<b>EndTimeZone</b>导致发生之前以前设置约会结束时间约会开始的时间，将重新计算并更新<b>EndInEndTimeZone</b>案例 Outlook。 例如，约会开始时间 1 p.m. 下午 3 的太平洋标准时间和结束时间 PST 已更改为预计其<b>EndTimeZone</b> 如果 Outlook 未不重新计算<b>EndInEndTimeZone</b>，约会必须下午 3 结束时间 EST，它等效于中午 12 PST，时，其会在下午 1 的开始时间之前发生 太平洋标准时间。 实际上，但是，更改<b>EndTimeZone</b>将导致 Outlook 重新计算并更新到下午 6 <b>EndInEndTimeZone</b> （在<b>EndTimeZone</b> EST)。</para>
+          <para> 更改<b>EndTimeZone</b>会影响其 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> 值始终以本地时区表示。 <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" /></para>
+          <para>根据情况，更改<b>EndTimeZone</b>可能会导致或Outlook重新计算和更新 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndInEndTimeZone" /> 。 </para>
+          <para>例如，在约会检查器中，如果您是开始时间为下午 1 的约会的组织者。 EST 和结束时间（下午 3 点） EST, changing the appointment to have an <b>EndTimeZone</b> of PST will result in an appointment lasting from 1 P.M. EST 到 3 P.M. <b>PST，EndInEndTimeZone</b>剩余为 3 P.M.。 但是，如果你不是组织者，那么将<b>EndTimeZone</b>从 EST 更改到 PST 将导致 Outlook 重新计算并更新<b>EndInEndTimeZone，</b>并且约会将持续从下午 1 点开始。 EST 到 12 P.M. PST。 </para>
+          <para>另一个示例是更改<b>EndTimeZone，</b>导致约会结束时间发生在之前设置的约会开始时间之前，在这种情况下，Outlook将重新计算并更新<b>EndInEndTimeZone</b>。 例如，开始时间为下午 1 的约会。 PST 和结束时间（下午 3 点） PST 的 <b>EndTimeZone</b> 已更改为 EST。 如果没有Outlook <b>EndInEndTimeZone，</b>约会的结束时间将是下午 3 点。 EST，相当于下午 12 点 PST，在开始时间 1 P.M. PST。 但是，实际上，更改<b>EndTimeZone</b>会导致Outlook <b>EndInEndTimeZone</b>的值重新计算并更新为 6 P.M。  (<b>EndTimeZone</b> EST) 。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -926,9 +926,9 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置表示的结束日期和约会以协调世界时 (UTC) 标准时间的<b>DateTime</b>值。 读/写。</summary>
+        <summary>返回或设置 <b>一个 DateTime</b> 值，该值代表以 UTC 标准协调世界时 (表示的) 结束日期和时间。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>更改的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" />属性或<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />属性将使 Outlook 重新计算<b>EndUTC</b>。 </para>
+        <remarks><para>更改 属性或 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> 属性的值将导致Outlook <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" /> <b>EndUTC</b>。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -955,10 +955,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的对象的唯一的条目 ID。  此为只读属性。</summary>
+        <summary>返回一 <b>个</b> (<b>字符串</b> ，C#) 表示对象的唯一条目 ID。  只读。</summary>
         <value>To be added.</value>
         <remarks><para>此属性对应于 <b>PidTagEntryId</b> 的 MAPI 属性。</para>
-          <para>MAPI 存储提供程序将在存储中创建项时分配的唯一 ID 字符串。 因此， <b>EntryID</b> 属性未设置为某个 Outlook 项目之前保存或发送。 条目 ID 更改时将项目移动到另一个存储中，例如，从 Microsoft Exchange Server 的公用文件夹，您 的收件箱或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件。 解决方案不应依赖于 <b>EntryID</b> 属性来保持唯一性，除非不移动项目。 <b>EntryID</b> 属性返回一个 MAPI 长期条目 id。 更多信息关于长时间的和 short-term Entryid，搜索 http://msdn.microsoft.com <b></b>。 </para>
+          <para>MAPI 存储提供程序将在存储中创建项时分配的唯一 ID 字符串。 因此， <b>EntryID</b> 属性未设置为某个 Outlook 项目之前保存或发送。 条目 ID 更改时将项目移动到另一个存储中，例如，从 Microsoft Exchange Server 的公用文件夹，您 的收件箱或从一个到另一个.pst 文件的个人文件夹 (.pst) 文件。 解决方案不应依赖于 <b>EntryID</b> 属性来保持唯一性，除非不移动项目。 <b>EntryID</b> 属性返回一个 MAPI 长期条目 id。 有关长期和短期 EntryID 的信息，请搜索 http://msdn.microsoft.com <b>PidTagEntryId</b>。 </para>
           <para>此外，在调用 <b>AppointmentItem.Respond</b> 方法，并使用 <b>olMeetingAccepted</b> 或 <b>olMeetingTentative</b> 参数时，Outlook 将创建新的约会项目，它将复制原始的约会项目。新的项目会有不同的条目 id。Outlook 将删除原始项目。您应不再使用原始项的项 ID，而改为使用 <b>AppointmentItem.EntryID</b> 来获得任何后续需求的新项的项 ID。这是为了确保如果多个客户端计算机访问您的日历，但可能脱机使用缓存模式有时此约会项目程序，将正确地同步您的日历上。</para>
           <para> </para></remarks>
       </Docs>
@@ -989,9 +989,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，该值指示是否更新为<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象应发送给所有与会者。 读/写。</summary>
+        <summary>返回或设置一 <b>个 boolean</b> (<b>bool</b> C#) 值，该值指示是否应该将对象的更新 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 发送给所有与会者。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>通常情况下，都向与会者发送更新的时间或地点约会项目被更改时才。 此属性设置为<b>True</b>强制更新发送给所有与会者，即使没有时间或位置已发生更改。</para>
+        <remarks><para>通常情况下，都向与会者发送更新的时间或地点约会项目被更改时才。 将此属性设置为 <b>True</b> 将强制将更新发送给所有与会者，即使未对时间或位置进行更改也是如此。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1018,7 +1018,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" />对象，表示指定的 Outlook 项目的窗体说明。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> 一个对象，该对象代表指定项目Outlook说明。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1044,9 +1044,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>转发<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />作为 vCal;虚拟日历项目。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />对象，代表对其附加日历信息的新邮件项目。</returns>
-        <remarks><para><b>ForwardAsVcal</b>方法将返回<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />与附加 vCal 文件。</para>
+        <summary>将 转发 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  为 vCal;虚拟日历项目。</summary>
+        <returns>一 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> 个代表日历信息附加到的新邮件项目的对象。</returns>
+        <remarks><para><b>ForwardAsVcal</b>方法返回附加 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> 了 vCal 文件的 。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1071,10 +1071,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />对象，它代表此项目所属的会话。</summary>
-        <returns>返回一个代表此项目所属的会话的<b>Conversation</b>对象。</returns>
+        <summary>获取一 <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> 个对象，该对象代表此项目所属的对话。</summary>
+        <returns>返回一 <b>个 Conversation</b> 对象，该对象代表此项目所属的对话。</returns>
         <remarks><para>
-            <b>GetConversation</b>返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#） 如果没有对话项目。 没有对话存在以下方案中的项目:</para>
+            <b>如果项目不存在 (，GetConversation</b> (返回<b>Nothing</b> Visual Basic) Nothing C#) 中返回 Nothing。 没有对话存在以下方案中的项目:</para>
           <list type="bullet">
             <item>
               <para>该项目尚未保存。 由用户操作或自动保存，可以以编程方式保存项目。</para>
@@ -1086,7 +1086,7 @@
               <para>已通过 Windows 注册表禁用会话。</para>
             </item>
             <item>
-              <para>存储不支持对话视图 （例如，Outlook 在早于 Microsoft Exchange Server 2010 的 Microsoft Exchange 版本针对经典的联机模式下运行）。 使用<see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />属性<see cref="T:Microsoft.Office.Interop.Outlook.Store" />对象，以确定是否在存储区支持会话视图。</para>
+              <para>例如，应用商店不支持会话视图 (，Outlook针对早于 Microsoft Exchange Server 2010) 的 Microsoft Exchange 版本在经典联机模式下运行。 使用 <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> 对象的 <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> 属性确定存储是否支持对话视图。</para>
             </item>
           </list>
           <para> </para></remarks>
@@ -1115,9 +1115,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象，表示检查器初始化包含的指定的项。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  一个对象，该对象代表初始化以包含指定项目的检查器。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para>此属性是可用于返回一个新的<b>Inspector</b>对象中显示的项目，而不是使用<see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />方法和设置<see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />属性。 如果 <b>检查器</b> 对象已存在的项， <b>GetInspector</b> 属性将返回而不是创建一个新的 <b>检查器</b> 对象。</para>
+        <remarks><para>此属性可用于返回要显示项目的新 <b>Inspector</b> 对象，而不是使用 方法和 <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  设置 <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> 属性。 如果 <b>检查器</b> 对象已存在的项， <b>GetInspector</b> 属性将返回而不是创建一个新的 <b>检查器</b> 对象。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1142,8 +1142,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>获取<see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />对象，其中包含从通讯簿信息的组织者的<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />。</summary>
-        <returns>返回一个代表<b>AppointmentItem</b>的组织者的<b>AddressEntry</b>对象。</returns>
+        <summary>从 <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> 通讯簿获取包含有关 组织者的信息的对象 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 。</summary>
+        <returns>返回一 <b>个 AddressEntry</b> 对象，该对象代表 <b>AppointmentItem 的组织者</b>。</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1168,11 +1168,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />代表约会的定期属性的对象。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> 一个对象，该对象代表约会的定期属性。</summary>
         <returns><b>RecurrencePattern</b> 对象，该对象表示约会的重复周期特性。</returns>
         <remarks><para>如果没有现有的定期模式，则返回一个空的新 <b>RecurrencePattern</b> 对象。</para>
-          <para>当使用定期约会项目时，应释放任何先前的引用、 访问或修改项目，并释放这些引用，一旦完成并保存所做的更改之前获取新的定期约会项引用。 这种做法应用于定期<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，以及任何<see cref="T:Microsoft.Office.Interop.Outlook.Exception" />或<see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />对象。 若要在 Visual Basic 中释放引用，需将现有对象设置为 <b>Nothing</b>。 在 C# 中，明确释放相应对象占用的内存。 </para>
-          <para>请注意，即使在释放了您的引用并尝试获取新引用之后，如果其他外接程序或 Outlook 中仍有对以上某个对象的活动引用，您新的引用将仍指向该对象的过期副本。因此，您在完成定期约会后立即释放您的引用是非常重要的。</para>
+          <para>当使用定期约会项目时，应释放任何先前的引用、 访问或修改项目，并释放这些引用，一旦完成并保存所做的更改之前获取新的定期约会项引用。 此做法适用于定期 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 对象以及任意 <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> 或 <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> 对象。 若要在 Visual Basic 中释放引用，需将现有对象设置为 <b>Nothing</b>。 在 C# 中，明确释放相应对象占用的内存。 </para>
+          <para>请注意，即使是在您释放引用并尝试获取新引用之后，如果仍存在对以上对象之一的活动引用（由另一个加载项或 Outlook 保存），则新引用也仍将指向对象的过期副本。因此，在完成使用定期约会后立即释放引用非常重要。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1199,9 +1199,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个代表的全局唯一标识符的<b>字符串</b>（C# 中的<b>字符串</b>） 值<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象。 此为只读属性。</summary>
+        <summary>返回一<b> (</b><b>字符串</b>，C#) 值，表示对象的唯一全局 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 标识符。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para>有<b>AppointmentItem</b>对象的条目 ID 可能更改，如时将项目移动到不同的文件夹或其他存储的情况。 当用户在 Outlook 中，例如，导出并在此后的数据执行某些功能，还可以更改条目 Id。 </para>
+        <remarks><para>在某些情况下 <b>，AppointmentItem</b> 对象的条目 ID 可能会更改，例如当项目移动到其他文件夹或另一个存储区时。 当用户在 Outlook 中，例如，导出并在此后的数据执行某些功能，还可以更改条目 Id。 </para>
           <para>因此，每个 Outlook 约会项目都被指定了一个全局对象标识，这是在上面所列举的情况下不会发生更改的全局唯一标识符。全局对象标识是一个 MAPI 属性，Outlook 使用该属性将会议更新和响应与日历上的特定会议相关联。项目的所有副本的全局对象标识都是相同的。</para>
           <para> </para></remarks>
       </Docs>
@@ -1232,7 +1232,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" />常量，指示 Outlook 项目的相对重要性级别。 读/写。</summary>
+        <summary>返回或设置 <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> 一个常量，该常量指示项目的相对Outlook级别。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>此属性对应于 <b>PidTagImportance</b> 的 MAPI 属性。</para>
           <para> </para></remarks>
@@ -1264,7 +1264,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>整数</b>(C# 中<b>int</b> ) 值，确定了项目使用的 Internet 代码页。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>整数C#) 整数</b>值，该值确定项目使用的 Internet 代码页。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>Internet 代码页定义了项目使用的文本编码方案。</para>
           <para> </para></remarks>
@@ -1293,9 +1293,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 来确定本地计算机上的项是否不同服务器上的副本。 此为只读属性。</summary>
+        <summary>返回 <b>boolean</b> (<b>bool</b> C#) ，用于确定本地计算机上项是否不同于服务器上副本。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para>某一项处于冲突取决于应用程序的状态。 例如，当用户处于脱机状态，并尝试访问联机文件夹，则操作将失败。 在此方案中， <b>操作</b> 属性将返回 <b>True</b> 。</para>
+        <remarks><para>某一项处于冲突取决于应用程序的状态。 例如，当用户脱机并尝试访问联机文件夹时，该操作将失败。 在此方案中， <b>操作</b> 属性将返回 <b>True</b> 。</para>
           <para>此属性不指示约会项目与日历中的另一个约会是否存在时间冲突。</para>
           <para> </para></remarks>
       </Docs>
@@ -1360,9 +1360,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>布尔</b>(C# 中<b>bool</b> ) 值，如果该约会是定期约会为<b>True</b> 。  此为只读属性。</summary>
+        <summary>返回一 <b>个 boolean</b> (<b>布尔</b> 值C#) 如果约会是定期约会，则返回 <b>True</b> 。  只读。</summary>
         <value>To be added.</value>
-        <remarks><para>当<see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />方法用于<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象，该属性设置为<b>True</b>。</para>
+        <remarks><para>当 <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />  方法与对象一同 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  使用时，此属性设置为 <b>True</b>。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1389,7 +1389,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />代表 Outlook 项目相关联的所有标准和用户定义属性的集合。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> 一个集合，该集合代表与项目关联的所有标准和用户Outlook属性。 只读。</summary>
         <value>To be added.</value>
         <remarks><para>该 <b>ItemProperties</b> 集合是从零开始的集合，表示集合中的第一个对象引用的索引为 0 的。</para>
           <para> </para></remarks>
@@ -1418,7 +1418,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指定的日期和时间的 Outlook 项目的上次修改<b>日期时间</b>。  此为只读属性。</summary>
+        <summary>返回<b>一个 DateTime，</b>它指定上次修改Outlook的日期和时间。  只读。</summary>
         <value>To be added.</value>
         <remarks><para>此属性对应于 <b>PidTagLastModificationTime</b> 的 MAPI 属性。</para>
           <para> </para></remarks>
@@ -1481,7 +1481,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 代表约会的特定的办公室位置 （例如，构建 1 Room 1 或套件 123）。 读/写。</summary>
+        <summary>返回或设置一个字符串<b> (</b> <b></b>字符串 C#) 表示特定办公地点 (例如，楼 1 室或套间 123) 约会。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>此属性对应于 <b>PidTagOfficeLocation</b> 的 MAPI 属性。</para>
           <para> </para></remarks>
@@ -1544,7 +1544,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />远程用户接收到后确定项目的状态的常量。 读/写。</summary>
+        <summary>返回或设置一个常量，该常量确定远程用户收到项目 <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  后的状态。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>利用此属性，数据传输能力较弱的远程用户可以更加灵活地进行邮件收发。</para>
           <para> </para></remarks>
@@ -1576,9 +1576,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMeetingStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" />指定约会的会议状态的常量。 读/写。</summary>
+        <summary>返回或设置 <see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" /> 一个常量，该常量指定约会的会议状态。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>使用此属性可以使<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />对象可用于约会。 </para>
+        <remarks><para>使用此属性使 <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />  对象可用于约会。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1605,7 +1605,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个表示的约会项目链接到会议工作区 URL 的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 此为只读属性。</summary>
+        <summary>返回一<b> (</b><b>字符串</b>，C#) 值，表示约会项目链接到的会议工作区的 URL。 只读。</summary>
         <value>To be added.</value>
         <remarks><para>"会议工作区"是规划会议并跟踪其结果的共享网站。  </para>
           <para> </para></remarks>
@@ -1637,7 +1637,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的邮件类。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>字符串</b>C#) 表示邮件项目的邮件Outlook字符串。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>此属性对应于 <b>PidTagMessageClass</b> 的 MAPI 属性。 <b>邮件类</b> 属性链接到窗体所基于的项目。当选中某一项时，Outlook 将使用的邮件类来定位该窗体，并列出其属性，如 答复命令。</para>
           <para> </para></remarks>
@@ -1669,7 +1669,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示项目的里程。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>字符串</b>C#) 表示项目的里程。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>这是自由格式的字符串字段，可用于存储与项目的经费报销相关的里程信息（例如，里程为 100 英里的约会、联系人或任务）。 </para>
           <para> </para></remarks>
@@ -1699,7 +1699,7 @@
       </Parameters>
       <Docs>
         <param name="DestFldr">目标文件夹。</param>
-        <summary>将 Microsoft Outlook 项移到新文件夹中。</summary>
+        <summary>将 Microsoft Outlook项目移至新文件夹中。</summary>
         <returns>一个 <b>Object</b> 值，代表已移至指定文件夹中的项目。</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1952,7 +1952,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值不年龄<b>，则返回 True</b>的 Outlook 项目。 读/写。</summary>
+        <summary>返回或设置一<b>个 boolean</b> (<b>bool</b> C#) 值为<b>True</b> ，不年龄为Outlook项。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1983,7 +1983,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 的约会的可选与会者的显示字符串。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>字符串</b>C#) 表示约会的可选与会者姓名的显示字符串。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>此属性对应于 <b>PidTagDisplayCc</b> 的 MAPI 属性。</para>
           <para> </para></remarks>
@@ -2012,7 +2012,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的约会组织者的名称。 此为只读属性。</summary>
+        <summary>返回一<b> (</b><b>字符串</b>C#) 表示约会组织者的名称的字符串 。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2040,7 +2040,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个表示为某个 Outlook 项目的 Outlook 应用程序的内部版本号的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
+        <summary>返回整数<b></b> (<b>int</b> C#) 值，表示项目的应用程序Outlook内部Outlook号。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2068,7 +2068,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的 Outlook 应用程序的主要和次要版本号。 此为只读属性。</summary>
+        <summary>返回一<b> (</b> <b>String</b> C#) 字符串，该字符串指示项目的应用程序Outlook的主要版本号和Outlook版本号。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2149,7 +2149,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />支持创建、 获取、 设置和删除属性对象的父对象<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />对象。 此为只读属性。</summary>
+        <summary>返回一个对象，该对象支持创建、获取、设置和 <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> 删除父对象 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 的属性。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2177,7 +2177,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合，代表对 Outlook 项目的所有收件人。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> 一个集合，该集合代表项目的所有Outlook收件人。 只读。</summary>
         <value>To be added.</value>
         <remarks><para>可以通过代表收件人的显示名称、别名或完整的 SMTP 电子邮件地址的字符串指定收件人。</para>
           <para> </para></remarks>
@@ -2206,7 +2206,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRecurrenceState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceState" />常量，指示指定的对象的定期属性。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceState" /> 一个常量，该常量指示指定对象的定期属性。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2237,7 +2237,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置指示的提醒应当发生之前的约会开始的分钟数的<b>整数</b>(C# 中<b>int</b> ) 值。 读/写。</summary>
+        <summary>返回或设置<b>一</b> (整数C#) 整数值<b></b>，该值指示在约会开始之前提醒应发生的分钟数。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2268,9 +2268,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果提醒重写项的默认提醒行为。 读/写。</summary>
+        <summary>返回或设置一 <b>个 boolean</b> (<b>bool</b> C#) 值，如果提醒覆盖项目的默认提醒行为为 <b>True</b> 。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>必须设置<b>ReminderOverrideDefault</b>属性来验证<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />属性。</para>
+        <remarks><para>必须设置 <b>ReminderOverrideDefault</b> 属性以验证 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />  和 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />  属性。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2300,9 +2300,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒应播放声音，发生此项时为<b>True</b> 。 读/写。</summary>
+        <summary>返回或设置一<b>个 boolean</b> (<b>bool</b> C#) 值，如果提醒<b></b>应播放声音时，发生此项目时为 True 。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>必须设置<b>ReminderPlaySound</b>属性验证<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />属性。 </para>
+        <remarks><para><b>必须设置 ReminderPlaySound</b>属性才能验证 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" /> 该属性。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2332,7 +2332,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果提醒已为此项设置为<b>True</b> 。 读/写。</summary>
+        <summary>返回或设置一<b>个 boolean</b> (<b>bool</b> in C#) 值<b></b>，如果已设置此项目的提醒为 True 。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2363,9 +2363,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示的 Outlook 项目的提醒发生时要播放的声音文件的路径和文件名称。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b>字符串 ，C#) 指示路径和文件名声音文件播放时提醒发生的Outlook项。 <b></b> 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>此属性才有效如果<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderOverrideDefault" />和<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />属性设置为<b>True</b>。 </para>
+        <remarks><para>只有当 和 属性设置为 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderOverrideDefault" />  True 时 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />  ，此属性才 <b>有效</b>。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2395,7 +2395,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置约会的答复时间的<b>DateTime</b> 。 读/写。</summary>
+        <summary>返回或设置 <b>一个 DateTime</b> 值，指示约会的回复时间。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2426,9 +2426,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回由分号分隔的<b>字符串</b>（C# 中的<b>字符串</b>） 的必需与会者的会议约会的名称。 读/写。</summary>
+        <summary>返回以分号分隔的 <b>String</b> (<b>字符串</b> C#) 会议约会所需的与会者姓名的字符串。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>此属性只包含必选与会者的显示名称。 应使用设置与会者列表<see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />集合。 </para>
+        <remarks><para>此属性只包含必选与会者的显示名称。 应该使用集合设置与会者 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  列表。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2458,9 +2458,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个以分号分隔<b>字符串</b>（C# 中的<b>字符串</b>） 的会议资源名称。 读/写。</summary>
+        <summary>返回一个以分号分隔 (<b>字符串</b>，C#) 会议的资源名称。 <b></b> 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>此属性包含的显示名称。 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />用于修改资源收件人集合。 资源添加为<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BCC" />的收件人添加到集合。 </para>
+        <remarks><para>此属性包含的显示名称。 <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />该集合应该用于修改资源收件人。 资源作为 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BCC" /> 收件人添加到集合中。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2492,13 +2492,13 @@
         <param name="fNoUI"><b>真</b> 不显示对话框。自动发送响应。 <b>假</b> 以显示对话框的响应。 </param>
         <param name="fAdditionalTextDialog"><b>假</b> 不提示用户进行输入;响应显示在检查器中进行编辑。 <b>真</b> 要提示用户或者直接发送或带批注发送。此参数是 <b>fNoUI</b>为 <b>假</b> 的情况下才有效。 </param>
         <summary>响应会议要求。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />对象，表示对会议请求的响应。</returns>
-        <remarks><para>使用 <b>olMeetingAccepted</b> 或 <b>olMeetingTentative</b> 参数的 <b>响应</b> 方法调用时，Outlook 将创建新的约会项目，它将复制原始的约会项目。 新的项目会有不同的条目 id。 Outlook 将删除原始项目。 您应不再使用的原始项目的条目 ID，而应调用<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EntryID" />属性获取任何后续需要新项的条目 ID。 这是为了确保如果多个客户端计算机访问您的日历，但可能脱机使用缓存模式有时此约会项目程序，将正确地同步您的日历上。</para>
-          <para>下表介绍的父对象，根据<b>响应</b>方法的行为和<paramref name="fNoUI" />和<paramref name="fAdditionalTextDialog" />参数。</para>
+        <returns><see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />一个代表对会议请求的响应的对象。</returns>
+        <remarks><para>使用 <b>olMeetingAccepted</b> 或 <b>olMeetingTentative</b> 参数的 <b>响应</b> 方法调用时，Outlook 将创建新的约会项目，它将复制原始的约会项目。 新的项目会有不同的条目 id。 Outlook 将删除原始项目。 您不应再使用原始项目的条目 ID，而应调用 属性来获取新项的条目 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EntryID" /> ID，以满足任何后续需求。 这是为了确保如果多个客户端计算机访问您的日历，但可能脱机使用缓存模式有时此约会项目程序，将正确地同步您的日历上。</para>
+          <para>下表介绍了 <b>Respond</b> 方法的行为，具体取决于父对象以及 <paramref name="fNoUI" /> 和 <paramref name="fAdditionalTextDialog" /> 参数。</para>
           <list type="table">
             <item>
               <description>True、True</description>
-              <description> 不带用户界面返回响应项目。若要发送响应，必须调用 Send 方法。 </description>
+              <description> 不带用户界面返回响应项目。 若要发送响应，必须调用 Send 方法。  </description>
             </item>
             <item>
               <description>True、False</description>
@@ -2506,7 +2506,7 @@
             </item>
             <item>
               <description>False、True</description>
-              <description> 在发送响应前提示用户进行 发送或 编辑。</description>
+              <description> 在发送响应前提示用户进行发送或编辑。</description>
             </item>
             <item>
               <description>False、False</description>
@@ -2542,7 +2542,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<b>Boolean</b> (C# 中<b>bool</b> )，如果发件人希望对约会的会议请求的响应<b>，则返回 True</b> 。 读/写。</summary>
+        <summary>返回一<b>个 boolean</b> (<b>bool</b> C#) 如果发件人希望约会<b></b>的会议请求的响应，则指示 True 。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2570,7 +2570,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" />约会的当前用户的会议的总体状态的常量。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" /> 一个常量，该常量指示约会的当前用户的会议的总体状态。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2601,9 +2601,9 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个字节数组，表示富文本格式的 Microsoft Outlook 项目的正文。 读/写。</summary>
+        <summary>返回或设置一个字节数组，该数组代表格式文本Outlook项的正文。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>您可以使用 C# 或 Visual Basic 中的 system.text.encoding.asciiencoding.getstring （） 方法将字节数组转换为字符串。</para>
+        <remarks><para>可以在 C# 或 Visual Basic 中使用 System.Text.Encoding.AsciiEncoding.GetString () 方法将字节数组转换为字符串。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2656,9 +2656,9 @@
       </Parameters>
       <Docs>
         <param name="Path">将项目保存到的路径。</param>
-        <param name="Type">要保存的文件类型。 可以是下列<b>OlSaveAsType</b>常量之一： <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、 <b>olVCard</b>， <b>olICal</b>，或<b>olMSGUnicode</b>。</param>
+        <param name="Type">要保存的文件类型。 可以是下列 <b>OlSaveAsType</b> 常量之一： <b>olHTML</b>、 <b>olMSG</b>、 <b>olRTF</b>、 <b>olTemplate</b>、 <b>olDoc</b>、<b>olTXT</b>、 <b>olVCal</b>、  <b>olVCard</b>、  <b>olICal</b>或 <b>olMSGUnicode</b>。</param>
         <summary>将 Microsoft Outlook项目以指定文件类型的格式保存到指定的路径。如果没有指定文件类型，则使用 MSG 格式 (.msg)。</summary>
-        <remarks><para>此外请注意，即使<b>olDoc</b>是有效的<b>OlSaveAsType</b>常量、 无法保存文档格式，以 HTML 格式的邮件和<b>olDoc</b>常量适用于 Microsoft Word 设置为默认电子邮件编辑器时，才。</para>
+        <remarks><para>另请注意，即使<b>olDoc</b>是有效的<b>OlSaveAsType</b>常量，HTML 格式的邮件也不能保存为文档格式，并且<b>olDoc</b>常量仅在 Microsoft Word 设置为默认电子邮件编辑器时有效。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2685,7 +2685,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值为<b>True</b> ，如果自上次保存以来尚未修改的 Outlook 项目。 此为只读属性。</summary>
+        <summary>返回一<b>个 boolean</b> (<b>bool</b> in C#) 值，如果自上次保存以来Outlook修改项目，则返回<b>True</b> 。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2712,7 +2712,7 @@
       <Parameters />
       <Docs>
         <summary>发送约会。</summary>
-        <remarks><para><b>Send</b>方法在发送项目使用会话指定的默认帐户。 其中多个 Microsoft Exchange 帐户的配置文件中定义的会话，在第一个 Exchange 帐户添加到配置文件是主 Exchange 帐户，并也是会话的默认帐户。 若要指定不同的帐户来发送项目，将设置<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.SendUsingAccount" />属性设为所需<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象，然后调用<b>Send</b>方法。</para>
+        <remarks><para><b>Send</b>方法在发送项目使用会话指定的默认帐户。 其中多个 Microsoft Exchange 帐户的配置文件中定义的会话，在第一个 Exchange 帐户添加到配置文件是主 Exchange 帐户，并也是会话的默认帐户。 若要指定其他帐户以发送项目，请将 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.SendUsingAccount" /> 属性设置为所需 <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> 对象，然后调用 <b>Send</b> 方法。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2742,9 +2742,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.Account" />对象，表示所用的帐户<see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />是发送。 读/写。</summary>
+        <summary>返回或设置 <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> 一个对象，该对象代表要 <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> 发送的帐户。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para><b>SendUsingAccount</b>属性可用于指定应该用于发送<b>AppointmentItem</b>的帐户时<see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" />调用方法。 如果指定的<b>AppointmentItem</b>的帐户不再存在，则此属性返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+        <remarks><para><b>SendUsingAccount</b>属性可用于指定在调用方法时用于发送<b>AppointmentItem</b> <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> 的帐户。 如果为<b>AppointmentItem</b>指定的帐户 ( (，Visual Basic) 返回 Nothing C#) 返回 Nothing 或<b>Nothing。</b></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2774,7 +2774,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个常量，以<see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" />指示 Outlook 项目的敏感度枚举。 读/写。</summary>
+        <summary>返回或设置枚举中的一个 <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> 常量，该常量指示项目Outlook敏感度。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>此属性对应于 <b>PidTagSensitivity</b> 的 MAPI 属性。</para>
           <para> </para></remarks>
@@ -2803,9 +2803,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  当前会话的对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和 <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> 方法可以互换为当前会话获取<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -2863,7 +2863,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示 Outlook 项目的大小 （以字节为单位） 的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
+        <summary>返回整数<b></b> (<b>int</b> C#) 值，指示 (项的大小) 字节Outlook值。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2894,7 +2894,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<b>DateTime</b> ，该值指示开始日期和时间的 Outlook 项目。 读/写。</summary>
+        <summary>返回或设置<b>一个 DateTime</b>值，指示项目开始Outlook时间。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2925,9 +2925,9 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>日期时间</b>值，表示的开始日期和时间表示约会<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />。 读/写。</summary>
+        <summary>返回或设置 <b>一个 DateTime</b> 值，该值代表以 表示的约会的开始日期和时间 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" /> 。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>这是在约会检查器用户界面中作为 "开始时间"显示的值。</para>
+        <remarks><para>这是在约会检查器用户界面中作为 "开始时间" 显示的值。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2957,13 +2957,13 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TimeZone</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" />对应的约会的开始时间的时区的值。  读/写。</summary>
+        <summary>返回或 <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> 设置一个值，该值对应于约会开始时间的时区。  读/写。</summary>
         <value>To be added.</value>
         <remarks><para>时区信息用于在保存约会时将约会映射为正确的 UTC 时间，并在项目显示在日历中时映射为正确的当地时间。</para>
-          <para>更改<b>StartTimeZone</b>将影响的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />其总是用当地时区， <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />。</para>
-          <para>根据情况，更改<b>StartTimeZone</b> ，也可能不会导致 Outlook 重新计算并更新<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartInStartTimeZone" />。 </para>
+          <para>更改<b>StartTimeZone</b>会影响其 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> 值始终以本地时区表示。 <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" /></para>
+          <para>根据情况，更改<b>StartTimeZone</b>可能会导致或Outlook重新计算和更新 <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartInStartTimeZone" /> 。 </para>
           <para>举一个例子，在约会检查器中，如果您是在太平洋标准时间下午 1 和 3 下午太平洋标准时间，结束时间与开始时间约会的组织者更改约会有 EST <b>StartTimeZone</b> 将导致持续从东部时间下午 1 到 3 下午太平洋标准时间下午 1 的剩余 <b>StartInStartTimeZone</b> 与约会但是，如果您不是组织者，然后更改 <b>StartTimeZone</b> 从太平洋到东部标准时间将导致 Outlook 重新计算并更新 <b>StartInStartTimeZone</b> ，和约会将从东部时间 4 下午持续到太平洋标准时间下午 3。</para>
-          <para>另一个示例更改<b>StartTimeZone</b>导致发生之前以前设置约会结束时间约会开始的时间，将重新计算并更新<b>StartInStartTimeZone</b>案例 Outlook。 例如，约会开始时间 1 p.m. 下午 3 的 EST 和结束时间 EST 具有其<b>StartTimeZone</b>更改为太平洋标准时间。 如果 Outlook 未不重新计算<b>StartInStartTimeZone</b>，约会必须在下午 1 开始时间 PST，它等效于下午 4 EST，时，其会发生之前下午 3 的结束时间 预计 实际上，但是，更改<b>StartTimeZone</b>将导致 Outlook 重新计算并更新到上午 10 <b>StartInStartTimeZone</b> （在<b>StartTimeZone</b> PST)。</para>
+          <para>另一个示例是更改<b>StartTimeZone，</b>导致约会结束时间发生在之前设置的约会开始时间之前，在这种情况下Outlook将重新计算并更新<b>StartInStartTimeZone</b>。 例如，开始时间为下午 1 的约会。 EST 和结束时间（下午 3 点） EST 的 <b>StartTimeZone 已更改</b> 为 PST。 如果Outlook <b>StartInStartTimeZone，</b>约会的开始时间将是下午 1 点。 PST，相当于下午 4 点 EST，在结束时间 3 P.M. EST。 但是，实际上，更改<b>StartTimeZone</b>会导致Outlook <b>StartInStartTimeZone</b>重新计算并更新为 10 A.M。  (<b>StartTimeZone</b> PST) 。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2993,9 +2993,9 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个表示的开始日期和约会以通用协调时间 (UTC) 标准时间的<b>DateTime</b>值。 读/写。</summary>
+        <summary>返回或设置 <b>一个 DateTime</b> 值，该值代表以协调世界时 utc 标准表示的约会 () 时间。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>更改的值<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />属性或<see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />属性将使 Outlook 重新计算<b>StartUTC</b>的值。 </para>
+        <remarks><para>更改 属性或 属性的值将导致Outlook <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" /> <b>StartUTC 的值</b>。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -3025,7 +3025,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>），该值指示 Outlook 项目的主题。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>字符串</b>C#) ，表示项目Outlook主题。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>此属性对应于 <b>PidTagSubject</b> 的 MAPI 属性。 <b>主题</b> 属性是 Outlook 项目的默认属性。</para>
           <para> </para></remarks>
@@ -3057,7 +3057,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 值，如果的 Outlook 项目尚未打开 （阅读） 为<b>True</b> 。 读/写。</summary>
+        <summary>返回或设置一<b>个 boolean</b> (<b>bool</b> C#) 值中，如果<b></b>尚未打开 Outlook 项目， (读取) 。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3085,7 +3085,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />代表 Outlook 项目的所有用户属性的集合。 只读。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> 一个集合，该集合代表项目的所有Outlook属性。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,5 +1,5 @@
 <Type Name="Conflicts" FullName="Microsoft.Office.Interop.Outlook.Conflicts">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="f7c1329c4afbeba3b9424c35b382506745d72eac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906875" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3504a30b96a752a815c2c8ae8507b8f75ba9590f" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139467" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conflicts implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conflicts" />
   <TypeSignature Language="VB.NET" Value="Public Interface Conflicts&#xA;Implements IEnumerable" />
@@ -22,11 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>包含一<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />代表特定的 Outlook 项目相冲突的所有 Microsoft Outlook 项目的对象。</summary>
-    <remarks><para>使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" />属性的任何 Outlook 项目，例如<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />，以返回<b>Conflicts</b>对象。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" />属性可确定项目是否存在冲突的 invloved <b>Conflicts</b>对象。 一个非零值指示冲突。</para>
-      <para>使用<see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" />属性 (<b>此</b>C# 中) 以从<b>Conflicts</b>集合对象中检索特定的冲突项目。</para>
-      <para>使用<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />方法遍历<b>Conflicts</b>集合。</para>
+    <summary>包含一组对象，这些对象代表Outlook特定项目存在冲突的所有 Microsoft Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> 项。</summary>
+    <remarks><para>使用 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> 任意项目（Outlook）的 属性 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> 可返回<b>Conflicts</b>对象。</para>
+      <para>使用 <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> <b>Conflicts</b> 对象的 属性可确定项目是否涉及冲突。 非零值表示有冲突。</para>
+      <para>使用 <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> 属性 <b> (，C#) </b> 从 <b>Conflicts</b> 集合对象中检索特定的冲突项目。</para>
+      <para>使用 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> 、 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> 、 和 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> 方法遍历 <b>Conflicts</b> 集合。</para>
       <para> </para></remarks>
   </Docs>
   <Members>
@@ -53,7 +53,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 只读。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 一个对象，该对象Outlook父应用程序。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 只读。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> 一个常量，该常量指示对象的类。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,7 +109,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 只读。</summary>
+        <summary>返回一<b> (</b><b>整数</b>C#) 整数值，该值指示指定集合中的对象数。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -135,9 +135,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返回中的第一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，表示包含在集合中的第一个对象。</returns>
-        <remarks><para>返回<b>Nothing</b>第一个存在任何对象，例如，如果集合中没有对象。以确保正确操作的<b>GetFirst</b>， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />方法在大型集合中，对该集合调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+        <summary>返回集合中的第一 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 个对象。</summary>
+        <returns>一 <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> 个代表集合中包含的第一个对象的对象。</returns>
+        <remarks><para>如果不存在第一个对象，则返回<b>Nothing，</b>例如，如果集合中不存在对象。若要确保<b>GetFirst</b>、、 和 方法在大型集合中正确操作，请调用 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b>GetFirst，</b>然后再调用该集合上的<b>GetNext，</b>在调用<b>GetPrevious</b>之前调用<b>GetLast。</b> 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -162,9 +162,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返回中的最后一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，表示包含在集合中的最后一个对象。</returns>
-        <remarks><para> 返回<b>Nothing</b>如果没有最后一个对象，例如，如果存在集合为空。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <b>GetLast</b>， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+        <summary>返回集合中的最后一 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 个对象。</summary>
+        <returns>一 <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> 个代表集合中包含的最后一个对象的对象。</returns>
+        <remarks><para> 如果不存在<b>最后</b>一个对象（例如，如果集合为空，则返回 Nothing）。若要确保正确操作大型集合中的 、GetLast 、 和 方法，请先调用 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> <b></b> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b>GetFirst，</b>然后再对集合调用<b>GetNext，</b>在调用<b>GetPrevious</b>之前调用<b>GetLast。</b> 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -189,9 +189,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返回中的下一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，代表集合包含的下一个对象。</returns>
-        <remarks><para>返回<b>Nothing</b>如果不存在下一个对象，例如，如果位于集合的末尾。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />， <b>GetNext</b>，和<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>GetPrevious 之前调用<b>GetLast</b></b>. 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+        <summary>返回集合中的下一 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 个对象。</summary>
+        <returns>一 <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> 个代表集合中包含的下一个对象的对象。</returns>
+        <remarks><para>如果不存在下一个对象，则返回<b>Nothing，</b>例如，如果已位于集合的末尾。若要确保大集合中 、 、 GetNext 和 方法的正确操作，请先调用 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <b></b> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b>GetFirst，</b>然后再对集合调用<b>GetNext，</b>在调用<b>GetPrevious</b>之前调用<b>GetLast。</b> 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -216,9 +216,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>返回中的上一个对象<see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" />集合。</summary>
-        <returns>A<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象，代表集合包含的上一个对象。</returns>
-        <remarks><para>返回<b>Nothing</b>如果没有上一个对象存在，例如，如果已定位集合的开头。以确保正确操作的<see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />， <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />， <b>GetPrevious</b>方法在大型集合中，对该集合中，调用<b>GetNext</b>之前调用<b>GetFirst</b>和调用<b>之前调用<b>GetLast</b>GetPrevious</b>。 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
+        <summary>返回集合中的上一 <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> 个对象。</summary>
+        <returns>一 <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> 个代表集合包含的上一个对象的对象。</returns>
+        <remarks><para>如果前一个对象不存在，则返回<b>Nothing，</b>例如，如果已位于集合的开头。若要确保大型集合中 、 、 和 GetPrevious 方法的正确操作，请先调用 <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <b>GetFirst，</b>然后再对集合<b></b>调用<b>GetNext，</b>在调用<b>GetPrevious</b>之前调用<b>GetLast。</b> 要确保您始终在同一集合下生成的调用，请创建引用在进入循环前该集合的显式变量。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -249,7 +249,7 @@
       </Parameters>
       <Docs>
         <param name="Index">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</param>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Conflict" />对象的集合。</summary>
+        <summary>从 <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> 集合中返回一个对象。</summary>
         <value><b>冲突</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -305,9 +305,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 只读。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  当前会话的对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和 <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> 方法可以互换为当前会话获取<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>

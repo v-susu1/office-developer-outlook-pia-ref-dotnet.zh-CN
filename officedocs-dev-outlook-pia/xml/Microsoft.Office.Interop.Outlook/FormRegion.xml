@@ -1,5 +1,5 @@
 <Type Name="FormRegion" FullName="Microsoft.Office.Interop.Outlook.FormRegion">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="e5bfc42ddd7f88bee26bb54fb5a9edb8213bb7a7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897855" /></Metadata><TypeSignature Language="C#" Value="public interface FormRegion : Microsoft.Office.Interop.Outlook._FormRegion, Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="37309a49951b85d8ab6690e6ee00d918957a1daa" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139430" /></Metadata><TypeSignature Language="C#" Value="public interface FormRegion : Microsoft.Office.Interop.Outlook._FormRegion, Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormRegion implements class Microsoft.Office.Interop.Outlook._FormRegion, class Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormRegion" />
   <TypeSignature Language="VB.NET" Value="Public Interface FormRegion&#xA;Implements _FormRegion, FormRegionEvents_Event" />
@@ -26,11 +26,11 @@
   </Attributes>
   <Docs>
     <summary>代表 Outlook 窗体中的窗体区域。</summary>
-    <remarks><para>这是.NET 接口派生的互操作性与相应的 COM 对象的托管代码需要 COM coclass。 使用此派生的接口访问 COM 对象的所有方法、 属性和事件的成员。 但是，如果方法或想要使用的事件共享相同的名称相同的 COM 对象下，强制转换为相应的主接口调用方法，并强制转换为最新的事件接口，连接到该事件。 请参阅本主题的 COM 对象有关的信息。 有关 COM 对象的方法和属性成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook._FormRegion" />。 有关 COM 对象的事件成员的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />。</para>
+    <remarks><para>这是派生自 COM Coclass（托管代码要求此 Coclass 来实现与相应的 COM 对象的互操作性）的 .NET 接口。 使用此派生的接口来访问所有方法、属性和 COM 对象的事件成员。 但是，如果您想要使用的方法或事件共享同一名称并且位于相同的 COM 对象下，请转换为相应的主接口以调用该方法，并转换为最新的事件接口以连接到该事件。 参考此主题以获取有关 COM 对象的信息。 有关 COM 对象的 方法和属性成员的信息，请参阅 <see cref="T:Microsoft.Office.Interop.Outlook._FormRegion" /> 。 有关 COM 对象的事件成员的信息，请参阅 <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" /> 。</para>
       <para><b>FormRegion</b> 对象允许外接程序中修改的外观和行为的窗体区域自定义窗体中添加代码隐藏的窗体区域。</para>
-      <para>若要获取<b>FormRegion</b>对象的实例外, 接程序必须实现<see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />接口。 Outlook 窗体区域分配存储、 实例化实例<b>FormRegion</b>对象，并返回中的<b>FormRegion</b>对象<see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" />方法。 </para>
+      <para>若要获取 <b>FormRegion</b> 对象的实例，加载项必须实现 <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> 接口。 Outlook为窗体区域分配存储，实例化<b>FormRegion</b>对象的实例，在 方法中返回<b>FormRegion</b> <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" /> 对象。 </para>
       <para>当加载项关闭窗体区域的框架时，加载项必须释放窗体区域的对象。</para>
-      <para>设计窗体区域的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87930">扩展窗体区域与外接程序</a></para>
+      <para>有关对窗体区域进行编程的信息，请参阅 <a href="http://go.microsoft.com/fwlink/?LinkId=87930">用加载项扩展窗体区域</a></para>
       <para> </para></remarks>
   </Docs>
   <Members />

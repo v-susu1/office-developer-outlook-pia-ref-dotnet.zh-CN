@@ -1,5 +1,5 @@
 <Type Name="_Inspectors" FullName="Microsoft.Office.Interop.Outlook._Inspectors">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="64c88b63d85d9a7cd53e89ad828726e610da1b42" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900659" /></Metadata><TypeSignature Language="C#" Value="public interface _Inspectors : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4b758f01e7a68d5f7d00c56ae8e3035d38de9c7" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139570" /></Metadata><TypeSignature Language="C#" Value="public interface _Inspectors : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Inspectors implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Inspectors" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Inspectors&#xA;Implements IEnumerable" />
@@ -22,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" />。</summary>
+    <summary>这是 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）中的主接口。 仅当您想要使用的方法与 COM 对象的事件共享同一名称时才使用此主接口；在这种情况下，转换为此接口以调用该方法，转换为最新的事件接口以连接到该事件。 否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。 有关 COM 对象的信息，请参阅 <see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" /> 。</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -51,8 +51,8 @@
       <Docs>
         <param name="Item">创建检查器窗口时要在其中显示的项目。</param>
         <summary>创建新检查器窗口。</summary>
-        <returns><see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象，表示新的检查器窗口。</returns>
-        <remarks><para>此方法是本质上与 Outlook 项目的<b>GetInspector</b>属性相同，如<see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />。</para>
+        <returns>一 <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> 个代表新检查器窗口的对象。</returns>
+        <remarks><para>此方法基本上与项目（如 ）Outlook <b>GetInspector</b>属性相同 <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> 。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -79,7 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 一个对象，该对象Outlook父应用程序。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,7 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> 一个常量，该常量指示对象的类。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -135,7 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回指示指定集合中的对象数的<b>整数</b>(C# 中<b>int</b> ) 值。 此为只读属性。</summary>
+        <summary>返回一<b> (</b><b>整数</b>C#) 整数值，该值指示指定集合中的对象数。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -167,8 +167,8 @@
       </Parameters>
       <Docs>
         <param name="Index">或者是对象的索引号，或者是用于匹配集合中某个对象的默认属性的值。</param>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象的集合。</summary>
-        <value><b>Inspecto</b>r 对象，该对象代表指定的对象。</value>
+        <summary>从 <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> 集合中返回一个对象。</summary>
+        <value><b>检查器</b> 对象，该对象代表指定的对象。</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -223,9 +223,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  当前会话的对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和 <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> 方法可以互换为当前会话获取<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>

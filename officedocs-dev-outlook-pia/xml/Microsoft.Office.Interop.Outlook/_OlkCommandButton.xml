@@ -1,5 +1,5 @@
 <Type Name="_OlkCommandButton" FullName="Microsoft.Office.Interop.Outlook._OlkCommandButton">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899185" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="514c2b47aad5e0f65ed9fb8a30338a93e30048b4" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139607" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCommandButton" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCommandButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCommandButton" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" />。</summary>
+    <summary>这是 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）中的主接口。 仅当您想要使用的方法与 COM 对象的事件共享同一名称时才使用此主接口；在这种情况下，转换为此接口以调用该方法，转换为最新的事件接口以连接到该事件。 否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。 有关 COM 对象的信息，请参阅 <see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" /> 。</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +48,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个代表加速器或热控件键的<b>字符串</b>（C# 中的<b>字符串</b>） 值。 读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>字符串</b>，C#) 值表示的加速键或热键的控件。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>默认值为空字符串，表示没有热键。如果该属性设置为包含多个字符的字符串，则该值将被截断为只包含第一个字符。  </para>
           <para>不能在加速键中使用数字。</para>
@@ -81,7 +81,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 的自动调整大小以显示完整的内容的控件。 读/写。</summary>
+        <summary>返回或设置一 <b>个 boolean</b> (<b>bool</b> C#) 自动调整控件大小以显示整个内容。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>  此属性的默认值为 <b>False</b> 。</para>
           <para>对于按钮控件，此属性指定该控件是否自动调整以显示整个标题值。</para>
@@ -114,7 +114,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 出现的用以标识或描述它的对象。  读/写。</summary>
+        <summary>返回或<b>设置一 (</b><b>字符串</b>，C#) 对象上显示以标识或描述该对象。  读/写。</summary>
         <value>To be added.</value>
         <remarks><para>默认值为空字符串。窗体设计器将此属性设置为控件的默认名称。  </para>
           <para> </para></remarks>
@@ -146,9 +146,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> ) 可在按钮上向下箭头呈现。 读/写。</summary>
+        <summary>返回或设置一 <b>个 boolean</b> (<b>bool</b> C#) ，该布尔值可在按钮上呈现向下箭头。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>此箭头呈现在右边按钮中从左到右和中左从右到左。 <b>真</b> 要呈现 <b>False</b> 以禁用呈现的按钮上的箭头。</para>
+        <remarks><para>此箭头以从左到右书写的语言呈现在按钮的右侧，使用从右向左书写的语言呈现在左侧。 <b>真</b> 要呈现 <b>False</b> 以禁用呈现的按钮上的箭头。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -178,7 +178,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否允许控件才能正常。  读/写。</summary>
+        <summary>返回或设置一 <b>个 boolean</b> (<b>bool</b> C#) 指示是否允许控件运行。  读/写。</summary>
         <value>To be added.</value>
         <remarks><para>默认值为 <b>False</b> 。</para>
           <para>当控件被禁用时，控件的内容显示为灰色。</para>
@@ -208,7 +208,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>StdFont</b>值，该值代表用于呈现控件内的文本的字体。  此为只读属性。</summary>
+        <summary>返回一 <b>个 StdFont，</b> 它代表用于在控件内呈现文本的字体。  只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -239,9 +239,9 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<b>StdPicture</b>表示鼠标光标此控件的自定义图片。 读/写。</summary>
+        <summary>返回或设置 <b>一个 StdPicture，</b> 代表此控件的鼠标光标的自定义图片。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+        <remarks><para>默认值为<b>Nothing</b> (空引用 (Nothing Visual Basic) in C#) 。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -271,7 +271,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" />指定的用户将鼠标放在控件上时显示的指针类型的常量。  读/写。</summary>
+        <summary>返回或设置一个常量，该常量指定当用户将鼠标放在控件上时 <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> 显示的指针类型。  读/写。</summary>
         <value>To be added.</value>
         <remarks><para>默认值是 <b>olMousePointerDefault</b> 。</para>
           <para> </para></remarks>
@@ -303,9 +303,9 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置代表图片的控件上显示<b>StdPicture</b> 。    读/写。</summary>
+        <summary>返回或设置 <b>一个 StdPicture，</b> 它代表控件上显示的图片。    读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>默认值为<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+        <remarks><para>默认值为<b>Nothing</b> (空引用 (Nothing Visual Basic) in C#) 。</para>
           <para>图片和文本不能同时显示在控件上，因此设置图片属性时，文本属性将被忽略。</para>
           <para>图片始终显示在按钮控件的中央。将根据需要对图片进行剪切以使其适应可用空间。</para>
           <para> </para></remarks>
@@ -337,7 +337,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlPictureAlignment</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" />按钮指定的图像和文本对齐方式的常量。 读/写。</summary>
+        <summary>返回或设置一个常量，该常量指定按钮上 <see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" /> 图像和文本的对齐方式。 读/写。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -368,7 +368,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" />指定文本中控件的对齐方式的常量。  读/写。</summary>
+        <summary>返回或设置 <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> 一个常量，该常量指定控件中文本的对齐方式。  读/写。</summary>
         <value>To be added.</value>
         <remarks><para>默认值是 <b>olTextAlignLeft</b> 中与英语等从左到右语言。</para>
           <para>对于命令按钮控件，当 <b>文本对齐</b> 设置为 <b>olTextAlignLeft</b> ，左边的距是从控件的边框仅一个像素。</para>
@@ -401,7 +401,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定控件的内容是否自动换行的末尾。  读/写。</summary>
+        <summary>返回或设置一个 <b>boolean</b> (<b>bool</b> C#) ，指定控件的内容是否自动换行的末尾。  读/写。</summary>
         <value>To be added.</value>
         <remarks><para>默认值为 <b>True</b>。</para>
           <para> </para></remarks>

@@ -1,5 +1,5 @@
 <Type Name="_FormRegion" FullName="Microsoft.Office.Interop.Outlook._FormRegion">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="170a1d134f5a487d0a43dde3247d20e4b029e8bb" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902269" /></Metadata><TypeSignature Language="C#" Value="public interface _FormRegion" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1f5e36d15647c1ebf020041822306c7c220b912e" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="zh-CN" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139675" /></Metadata><TypeSignature Language="C#" Value="public interface _FormRegion" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegion" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegion" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FormRegion" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>这是与相应的 COM 对象的互操作性的托管代码需要 COM coclass 中的主接口。 仅当您想要使用的方法共享相同的名称的 COM 对象; 事件时，才使用此主接口在这种情况下，强制转换为此接口调用方法，并强制转换为最新的事件接口，连接到该事件。 否则，使用.NET 接口派生自 COM coclass 访问方法、 属性和事件的 COM 对象。 有关 COM 对象的信息，请参阅<see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />。</summary>
+    <summary>这是 COM coclass（托管代码需要此 Coclass 来实现与相应的 COM 对象的互操作性）中的主接口。 仅当您想要使用的方法与 COM 对象的事件共享同一名称时才使用此主接口；在这种情况下，转换为此接口以调用该方法，转换为最新的事件接口以连接到该事件。 否则，请使用派生自 COM coclass 的 .NET 接口来访问方法、属性和 COM 对象的事件。 有关 COM 对象的信息，请参阅 <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> 。</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Application" />表示 Outlook application 对象的父对象。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> 一个对象，该对象Outlook父应用程序。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" />常量，指示对象的类。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> 一个常量，该常量指示对象的类。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -104,7 +104,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>字符串</b>（C# 中的<b>字符串</b>） 代表后相邻的窗体区域的显示名称显示在标题中的运行时的文本。 读/写。</summary>
+        <summary>返回或设置一个<b>string</b> <b></b> (字符串，C#) 表示在运行时在相邻窗体区域的标题之后显示名称显示的文本。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>对于相邻窗体区域只显示 <b>详细信息</b> 属性。对于独立窗体区域，它将被忽略。</para>
           <para><b>详细信息</b> 属性是可选的相邻窗体区域。</para>
@@ -134,10 +134,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>） 表示窗体区域的显示名称。 此为只读属性。</summary>
+        <summary>返回一 <b>个</b> (<b>字符串</b> ，C#) 窗体显示名称窗体区域的位置。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para>可选窗体区域的显示名称。 如果已定义的值&lt;formRegionName&gt;标记中的相应窗体区域清单 XML 文件，此值将映射到的<b>DisplayName</b>属性的值。 窗体区域的 XML 架构的详细信息，请参阅<a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN 库</a>中 Microsoft Outlook 2010 XML 架构参考</para>
-          <para>在运行时在单独窗体区域，Microsoft Office Fluent 功能区的显示选项卡或相邻的窗体区域的标题中显示的<b>DisplayName</b>属性的值。  它用于默认的 locale，并且可以通过&lt;stringOverride&gt;相应窗体区域清单 XML 文件中的标记。 该字符串不区分大小写，并其最大长度为 256 个字符。</para>
+        <remarks><para>The display name is optional for a form region. 如果在相应的窗体区域清单 XML 文件中为 formRegionName 标记定义了值，则此值将映射到 &lt; &gt; <b>DisplayName</b> 属性的值。 有关窗体区域的 XML 架构详细信息，请参阅<a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN</a>库中的 Microsoft Outlook 2010 XML 架构参考</para>
+          <para>DisplayName 属性的值<b></b>在运行时显示在独立窗体区域 Microsoft Office Fluent 功能区的"显示"选项卡中，或显示在相邻窗体区域的标题中。  它用于默认区域设置，并且可以通过相应的窗体区域清单 XML 文件中 &lt; stringOverride 标记 &gt; 替代。 该字符串不区分大小写，并其最大长度为 256 个字符。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -167,7 +167,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的指定是否使用自动调整大小功能设计窗体设计器中的窗体区域时的版式。 读/写</summary>
+        <summary>返回或设置一个 <b>boolean</b> (<b>bool</b> C#) ，指定在设计窗体区域的窗体设计器中时是否使用自动版式调整大小功能。 读/写</summary>
         <value>To be added.</value>
         <remarks><para>窗体设计器中的自动版式调整大小功能会在调整窗体大小时动态地重新计算窗体版式。此功能仅用于窗体设计器中的窗体区域。</para>
           <para>当此属性为 <b>True</b> 时，窗体设计器会执行自动版式调整大小。  当此属性为 <b>False</b> 时，窗体设计器并不会执行自动版式调整大小。  默认值为 <b>True</b> 。</para>
@@ -227,7 +227,7 @@
       <Docs>
         <summary>返回一个 <b>OlFormRegionMode</b> 常量，用于指示该窗体区域是否在读取页、 撰写页，或阅读窗格。只读的。</summary>
         <value>To be added.</value>
-        <remarks><para>如果用户具有的阅读窗格中的邮件项目，则可以使用<see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" />属性可以进一步确定用户是否在编辑模式或阅读的模式的阅读窗格中。 根据邮件项目是处于编辑模式（邮件项目位于"草稿"文件夹中）还是阅读模式（邮件项目位于"收件箱"或"已发送邮件"文件夹中），邮件项目在阅读窗格中的显示方式会有所不同。</para>
+        <remarks><para>如果用户在阅读窗格中有邮件项目，可以使用 属性进一步确定用户是位于阅读窗格的编辑模式还是阅读 <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> 模式。 根据邮件项目是处于编辑模式（邮件项目位于"草稿"文件夹中）还是阅读模式（邮件项目位于"收件箱"或"已发送邮件"文件夹中），邮件项目在阅读窗格中的显示方式会有所不同。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -254,9 +254,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />对象，表示承载窗体区域的检查器。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> 一个对象，该对象代表承载窗体区域检查器。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para>如果窗体区域显示在阅读窗格中，则返回<b>Nothing</b> （中的空引用 (在 Visual Basic 中为 Nothing) C#）。</para>
+        <remarks><para>如果<b>窗体</b> (显示在阅读窗格中Visual Basic) ，则返回 Nothing (，C#) 中为 Nothing。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -283,9 +283,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>字符串</b>（C# 中的<b>字符串</b>），表示窗体区域的内部编程名称窗体区域清单中定义。 此为只读属性。</summary>
+        <summary>返回一<b>个 string</b> (<b></b>字符串 C#) 表示窗体区域的内部编程名称，如窗体区域清单中的定义。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para>窗体区域所需的内部名称。 &lt;名称&gt;相应窗体区域清单 XML 文件中的标记映射到<b>InternalName</b>属性的值。 窗体区域的 XML 架构的详细信息，请参阅<a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN 库</a>中 Microsoft Outlook 2010 XML 架构参考</para>
+        <remarks><para>The internal name is required for a form region. 相应的 &lt; &gt; 窗体区域清单 XML 文件中的名称标记映射到 <b>InternalName</b> 属性的值。 有关窗体区域的 XML 架构详细信息，请参阅<a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN</a>库中的 Microsoft Outlook 2010 XML 架构参考</para>
           <para><b>InternalName</b> 属性的值使用外接程序或Microsoft Outlook来引用该窗体区域，例如，确定要加载的窗体区域或从本地化的字符串资源中加载字符串。 <b>InternalName</b> 属性支持仅包含 ASCII 字符。该字符串不区分大小写，并其最大长度为 256 个字符。</para>
           <para> </para></remarks>
       </Docs>
@@ -313,10 +313,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>boolean 类型的值</b>(C# 中<b>bool</b> )，该值指示是否展开窗体区域。 此为只读属性。</summary>
+        <summary>返回一 <b>个 boolean</b> (<b>bool</b> C#) ，指示是否展开窗体区域。 只读。</summary>
         <value>To be added.</value>
         <remarks><para>此属性仅适用于相邻窗体区域，对于独立窗体区域将被忽略。</para>
-          <para>Outlook 始终首先加载的窗体区域处于展开状态，并将 <b>IsExpanded</b> 设置为 <b>True</b> 。 如果窗体区域的初始状态是将折叠，则 Outlook 立即关闭窗体区域，将触发<see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" />事件<paramref name="Expand" />正在<b>False</b>，并设置为<b>False</b> <b>IsExpanded</b>的参数。 </para>
+          <para>Outlook 始终首先加载的窗体区域处于展开状态，并将 <b>IsExpanded</b> 设置为 <b>True</b> 。 如果窗体区域的初始状态是折叠，则Outlook立即关闭该窗体区域，触发事件的参数为 False ，然后将 <see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" /> <paramref name="Expand" /> <b>IsExpanded</b>设置<b></b><b>为 False</b>。 </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -371,7 +371,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回一个<b>整数</b>(C# 中<b>int</b> ) 值，该值指示当前语言的 LCID。 此为只读属性。</summary>
+        <summary>返回一<b> (</b><b>整数</b>C#) 整数值，该值指示当前语言的 LCID。 只读。</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -452,7 +452,7 @@
       <Parameters />
       <Docs>
         <summary>激活该窗体区域，使其变得可见。</summary>
-        <remarks><para>如果该窗体区域是相邻窗体区域，然后 <b>选择</b> 将展开该窗体区域 (如果它尚未展开的话) 并将焦点设在该页面上的第一个控件。如果该窗体区域是独立窗体区域，而且是不活动的页面，然后 <b>选择</b> 将切换到窗体区域页面，并将焦点设在该页面上的第一个控件。如果窗体区域是独立窗体区域，并且已经是活动的页面，则没有任何变化。</para>
+        <remarks><para>如果该窗体区域是相邻窗体区域，然后 <b>选择</b> 将展开该窗体区域 (如果它尚未展开的话) 并将焦点设在该页面上的第一个控件。 如果窗体区域是单独的窗体区域，并且不是活动页， <b>则 Select</b> 将切换到窗体区域页，并设置该页上第一个控件的焦点。 如果窗体区域是独立窗体区域，并且已经是活动的页面，则没有任何变化。</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -479,9 +479,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回<see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />对象的当前会话。 此为只读属性。</summary>
+        <summary>返回 <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  当前会话的对象。 只读。</summary>
         <value>To be added.</value>
-        <remarks><para><b>Session</b>属性和<see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" />可以交替使用方法来获取当前会话的<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
+        <remarks><para><b>Session</b>属性和 <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> 方法可以互换为当前会话获取<b>NameSpace</b>对象。 这两个成员可以实现同一目的。 例如，以下语句对执行相同的功能：</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -515,12 +515,12 @@
         <Parameter Name="PropertyName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Control">指属性指定的窗体区域中的控件<paramref name="PropertyName" />将绑定。</param>
+        <param name="Control">由 指定的属性将绑定到的窗体区域 <paramref name="PropertyName" /> 中的控件。</param>
         <param name="PropertyName">将要绑定到控件的属性名称。</param>
         <summary>将显式的内置属性或自定义属性绑定到窗体区域中的控件。</summary>
         <remarks><para>此方法可用于绑定到控件的显式内置属性或自定义属性。您必须引用的属性的字符串的名称，例如，为 <b>主题</b> ，而不是命名空间，例如，http://schemas.microsoft.com/mapi/proptag/0x0037001E。</para>
-          <para><paramref name="PropertyName" />参数不区分大小写。 例如， <b>SetControlItemProperty</b>解释参数， <b>customerid</b>，为<b>CustomerID</b>相同，并将指定的控件绑定到内置<see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" />属性。</para>
-          <para>除了使用的<b>SetControlItemProperty</b>方法<see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />对象，您还可以使用类似于以下的代码将如<b>Subject</b>属性的某个属性绑定到控件：</para>
+          <para><paramref name="PropertyName" />参数不区分大小写。 例如 <b>，SetControlItemProperty</b> 将参数 <b>CustomerId</b>解释为与 <b>CustomerID</b> 相同，并且将指定控件绑定到内置 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> 属性。</para>
+          <para>除了使用对象的<b>SetControlItemProperty</b>方法外，您还可以使用类似于下面的代码将 Subject 属性等属性绑定到 <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> 控件： <b></b></para>
           <code>myPage.Controls("bar").ItemProperty = "subject"</code>
           <code>myPage.Controls("bar").ItemProperty = "subject";</code>
           <para> </para></remarks>
@@ -552,9 +552,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置一个<b>布尔</b>(C# 中<b>bool</b> ) 的禁用 Outlook 从在设计时和运行时自动替换由应用了主题的 Outlook 控件 Forms 2.0 控件。 读/写。</summary>
+        <summary>返回或设置 C#) 中的<b>boolean</b> (<b>bool，</b>它禁止 Outlook 在 设计时 和运行时自动将 Forms 2.0 控件替换为Outlook控件。 读/写。</summary>
         <value>To be added.</value>
-        <remarks><para>在 Outlook 自动替换 Forms 2.0 控件通过应用了主题的 Outlook 相应控件的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=87823">自定义窗体中的控件</a></para>
+        <remarks><para>有关自动将 Forms 2.0 Outlook替换为对应控件Outlook的信息，请参阅自定义窗体中的<a href="http://go.microsoft.com/fwlink/?LinkId=87823">控件</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -584,7 +584,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>返回或设置<see cref="T:System.Boolean" />(<b>bool</b>的 C#) 值，该值指示窗体区域是可见还是隐藏。 读/写。</summary>
+        <summary>返回或设置一 <see cref="T:System.Boolean" /> (<b>一个 bool</b> C#) 值，该值指示窗体区域是可见还是隐藏。 读/写。</summary>
         <value>To be added.</value>
         <remarks><para>
             <b>如此</b> 可见，则该窗体区域是否 <b>假</b> 如果它处于隐藏状态。默认值为 <b>True</b> 。</para>
